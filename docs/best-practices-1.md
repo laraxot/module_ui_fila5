@@ -37,6 +37,7 @@ class CustomComponent extends Component
     public ?string $hint = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_oaxtFH
 =======
@@ -52,6 +53,8 @@ class CustomComponent extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KH9kIJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -95,6 +98,7 @@ class CustomComponent extends Component
     &__footer { }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_oaxtFH
 =======
@@ -111,6 +115,8 @@ class CustomComponent extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KH9kIJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -287,6 +293,7 @@ class AdvancedForm extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_oaxtFH
 =======
@@ -305,6 +312,8 @@ class AdvancedForm extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KH9kIJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### Versione Incoming

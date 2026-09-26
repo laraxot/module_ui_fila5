@@ -83,6 +83,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 ## Note
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
 =======
 <<<<<<< .merge_file_hRQaxL
@@ -96,6 +97,9 @@ Questa documentazione è collegata bidirezionalmente con la documentazione speci
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9zF27C
+=======
+Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
+>>>>>>> laraxot/dev
 =======
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
 >>>>>>> laraxot/dev

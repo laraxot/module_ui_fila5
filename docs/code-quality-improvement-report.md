@@ -10,9 +10,12 @@ story: STORY-001
 <<<<<<< HEAD
 # GRAVE: issue/discussion del modulo — mai base_techplanner / base_workorder / mono.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JNHiYO
 =======
 =======
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_TBc9qB
@@ -70,6 +73,9 @@ story: STORY-001
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Resolve: cd laravel/Modules/UI && git remote -v → laraxot/module_ui_fila5
 issues: []
@@ -93,9 +99,12 @@ cd laravel/Modules/UI && git remote -v
 <<<<<<< HEAD
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JNHiYO
 =======
 =======
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_TBc9qB
@@ -153,6 +162,9 @@ cd laravel/Modules/UI && git remote -v
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Baseline

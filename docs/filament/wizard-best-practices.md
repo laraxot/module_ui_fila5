@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ppQ93m
 =======
 =======
@@ -72,6 +73,8 @@ related:
 >>>>>>> .merge_file_O0AOWt
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Best Practices per i Wizard in Filament
 
 ## Regola Fondamentale: Estrazione dei Metodi per gli Step
@@ -83,6 +86,7 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 ```php
 // ✅ CORRETTO
 public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ppQ93m
@@ -106,6 +110,8 @@ public function getFormSchemaWidget(): array
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_O0AOWt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 {
@@ -137,6 +143,7 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ppQ93m
 =======
 public function getFormSchemaWidget(): array
@@ -158,6 +165,8 @@ public function getFormSchemaWidget(): array
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_O0AOWt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 {
@@ -224,6 +233,7 @@ class PatientResource extends XotBaseResource
     public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ppQ93m
 =======
     public function getFormSchemaWidget(): array
@@ -245,6 +255,8 @@ class PatientResource extends XotBaseResource
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_O0AOWt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     {
@@ -288,6 +300,7 @@ L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ppQ93m
 =======
 public function getFormSchemaWidget(): array
@@ -309,6 +322,8 @@ public function getFormSchemaWidget(): array
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_O0AOWt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 {

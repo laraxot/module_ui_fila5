@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 ## Data: [DATE]
 =======
@@ -29,6 +30,9 @@
 =======
 ## Data: [DATE]
 >>>>>>> laraxot/dev
+=======
+## Data: [DATE]
+>>>>>>> laraxot/dev
 
 ## Panoramica
 
@@ -48,6 +52,7 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
@@ -102,6 +107,9 @@ class ListUsers extends ListRecords
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -289,6 +297,7 @@ class ListUsers extends ListRecords
     protected TableLayoutEnum $layout;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -341,6 +350,9 @@ class ListUsers extends ListRecords
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -351,6 +363,7 @@ class ListUsers extends ListRecords
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -403,6 +416,9 @@ class ListUsers extends ListRecords
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -445,6 +461,7 @@ protected function getColumnsForLayout(): array
     ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -497,6 +514,9 @@ protected function getColumnsForLayout(): array
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -509,6 +529,7 @@ protected function getColumnsForLayout(): array
     ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -561,6 +582,9 @@ protected function getColumnsForLayout(): array
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -609,6 +633,7 @@ class TableLayoutEnumTest extends TestCase
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -665,6 +690,9 @@ class TableLayoutEnumTest extends TestCase
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
@@ -702,6 +730,7 @@ class TableLayoutEnumTest extends TestCase
 - [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
@@ -723,6 +752,8 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Translation Standards](../../../../docs/translation_standards.md)
@@ -739,6 +770,7 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 ## Scopo e Funzionalità
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 =======
@@ -785,11 +817,14 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Obiettivo Principale
 - **Gestione Layout**: Alternare tra layout lista e griglia
 - **Responsive Design**: Configurazioni grid per diverse dimensioni schermo
 - **Type Safety**: Implementazione con interfacce Filament per colori, icone e label
 - **UX Consistency**: Esperienza utente coerente attraverso l'applicazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
@@ -811,6 +846,9 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -823,6 +861,7 @@ class ListUsers extends ListRecords
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -842,6 +881,9 @@ class ListUsers extends ListRecords
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -856,6 +898,7 @@ class ListUsers extends ListRecords
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 ## Analisi Tecnica
@@ -887,6 +930,11 @@ class ListUsers extends ListRecords
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
+## Analisi Tecnica
+
 >>>>>>> laraxot/dev
 =======
 
@@ -899,6 +947,7 @@ class ListUsers extends ListRecords
 - `HasLabel`: Fornisce label tradotte
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
@@ -919,6 +968,8 @@ public function getLabel(): string
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -939,6 +990,7 @@ public static function init(): self
 public function getLabel(): string
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 =======
@@ -965,6 +1017,8 @@ public function getLabel(): string
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -974,6 +1028,7 @@ public function getLabel(): string
     };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
@@ -1010,6 +1065,8 @@ public function getTableContentGrid(): ?array
 >>>>>>> .merge_file_dKyffC
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 }
 ```
 - **Scopo**: Label tradotte per UI
@@ -1058,6 +1115,7 @@ public function toggle(): self
 ```php
 public function getTableContentGrid(): ?array
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
@@ -1099,6 +1157,8 @@ public function getTableContentGrid(): ?array
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1113,6 +1173,7 @@ public function getTableContentGrid(): ?array
         : null;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
@@ -1149,6 +1210,8 @@ public function getTableColumns(array $listColumns, array $gridColumns): array
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }
@@ -1191,6 +1254,7 @@ public function getTableColumns(array $listColumns, array $gridColumns): array
 ### Traduzioni Richieste
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 =======
@@ -1233,6 +1297,8 @@ public function getTableColumns(array $listColumns, array $gridColumns): array
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1249,13 +1315,17 @@ return [
         'tooltip' => 'Mostra elementi in formato griglia',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ],
 ];
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ];
@@ -1286,6 +1356,8 @@ return [
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1295,6 +1367,7 @@ return [
 - **Responsive Design**: Breakpoints Tailwind CSS
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 ## Best Practices Implementate
@@ -1326,6 +1399,11 @@ return [
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
+## Best Practices Implementate
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1338,6 +1416,7 @@ return [
 - Return types specifici
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -1357,6 +1436,9 @@ return [
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1367,6 +1449,7 @@ return [
 - Collegamenti a documentazione correlata
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -1386,6 +1469,9 @@ return [
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1396,6 +1482,7 @@ return [
 - Nomi file in minuscolo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -1419,10 +1506,14 @@ return [
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 ### 4. Error Handling
 - Match expressions per gestione sicura
 - Valori di default appropriati
 - Null safety per grid configuration
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
@@ -1443,6 +1534,8 @@ return [
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1462,6 +1555,7 @@ class ListUsers extends ListRecords
     protected function getHeaderActions(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 =======
@@ -1489,6 +1583,8 @@ class ListUsers extends ListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         return [
             Action::make('toggleLayout')
                 ->icon($this->layout->getIcon())
@@ -1500,6 +1596,7 @@ class ListUsers extends ListRecords
         ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
@@ -1516,6 +1613,8 @@ public function table(Table $table): Table
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }
@@ -1527,6 +1626,7 @@ public function table(Table $table): Table
 public function table(Table $table): Table
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
@@ -1546,11 +1646,14 @@ public function table(Table $table): Table
 >>>>>>> .merge_file_dKyffC
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     return $table
         ->columns($this->getColumnsForLayout())
         ->contentGrid($this->layout->getTableContentGrid())
         ->paginated([10, 25, 50])
         ->defaultSort('created_at', 'desc');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
@@ -1569,6 +1672,8 @@ protected function getColumnsForLayout(): array
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }
@@ -1579,6 +1684,7 @@ protected function getColumnsForLayout(): array
 protected function getColumnsForLayout(): array
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
@@ -1598,11 +1704,14 @@ protected function getColumnsForLayout(): array
 >>>>>>> .merge_file_dKyffC
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     $listColumns = [
         Tables\Columns\TextColumn::make('name')->sortable(),
         Tables\Columns\TextColumn::make('email')->searchable(),
         Tables\Columns\TextColumn::make('created_at')->dateTime(),
     ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
@@ -1624,6 +1733,9 @@ protected function getColumnsForLayout(): array
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1635,6 +1747,7 @@ protected function getColumnsForLayout(): array
         ]),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
@@ -1677,6 +1790,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ];
@@ -1734,6 +1849,7 @@ class TableLayoutEnumTest extends TestCase
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 =======
@@ -1785,15 +1901,20 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### 2. Integration Tests
 - Test con componenti Filament reali
 - Verifica responsive behavior
 - Test traduzioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
 <<<<<<< .merge_file_w3Ylfz
+=======
+>>>>>>> laraxot/dev
 
 ## Roadmap e Miglioramenti
 =======
@@ -1802,6 +1923,7 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Roadmap e Miglioramenti
@@ -1828,6 +1950,8 @@ class TableLayoutEnumTest extends TestCase
 
 ## Roadmap e Miglioramenti
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### 1. Short Term
 - [ ] Implementare traduzioni mancanti
@@ -1835,6 +1959,7 @@ class TableLayoutEnumTest extends TestCase
 - [ ] Documentare esempi avanzati
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -1854,6 +1979,9 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1864,6 +1992,7 @@ class TableLayoutEnumTest extends TestCase
 - [ ] Persistenza preferenze utente
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 
 =======
@@ -1887,10 +2016,14 @@ class TableLayoutEnumTest extends TestCase
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 ### 3. Long Term
 - [ ] Layout masonry
 - [ ] Layout timeline
 - [ ] Layout calendar
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
@@ -1912,6 +2045,8 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> .merge_file_dKyffC
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 
@@ -1920,6 +2055,7 @@ class TableLayoutEnumTest extends TestCase
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ALNasz
 =======
@@ -1963,6 +2099,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_cHSnL6
 >>>>>>> .merge_file_dKyffC
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

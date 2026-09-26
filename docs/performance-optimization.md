@@ -143,6 +143,9 @@ context-mode ctx-stats
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---

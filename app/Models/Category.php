@@ -7,6 +7,7 @@ namespace Modules\UI\Models;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_rnwADi
 =======
 =======
@@ -15,6 +16,8 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XI16y5
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 use Illuminate\Support\Carbon;
@@ -92,6 +95,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< .merge_file_7PHt5M
  * @property ProfileContract|null $deleter
  *
+<<<<<<< HEAD
 <<<<<<< .merge_file_rnwADi
 =======
 =======
@@ -144,6 +148,8 @@ use Modules\Xot\Models\BaseModel;
 =======
  * @property ProfileContract|null $deleter
  *
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
  * @mixin \Eloquent
  */

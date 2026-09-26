@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QRJ6Fg
 =======
 =======
@@ -42,6 +43,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MqYfg2
 >>>>>>> .merge_file_fJYBPk
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # UI Module Documentation
@@ -1188,6 +1191,7 @@ Common issues and solutions:
 ## Related Modules
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QRJ6Fg
 =======
 <<<<<<< .merge_file_ak3LqS
@@ -1204,6 +1208,8 @@ Common issues and solutions:
 =======
 >>>>>>> .merge_file_MqYfg2
 >>>>>>> .merge_file_fJYBPk
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Chart Module](../chart/docs/index.md) - Chart generation and data processing
@@ -1211,6 +1217,7 @@ Common issues and solutions:
 - [LimeSurvey Module](../limesurvey/docs/index.md) - Survey data access with dynamic models
 - [Xot Module](../xot/docs/index.md) - Base UI infrastructure and component patterns
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QRJ6Fg
 =======
 =======
@@ -1233,6 +1240,8 @@ Common issues and solutions:
 =======
 >>>>>>> .merge_file_MqYfg2
 >>>>>>> .merge_file_fJYBPk
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1477,6 +1486,7 @@ Specialized UI components for displaying statistics of Y type questions:
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QRJ6Fg
 - [Conflict Resolution](conflict-resolution.md)
 =======
@@ -9503,6 +9513,9 @@ laravel/Modules/UI/
 - [Conflict Resolution](conflict-resolution.md)
 >>>>>>> .merge_file_MqYfg2
 >>>>>>> .merge_file_fJYBPk
+>>>>>>> laraxot/dev
+=======
+- [Conflict Resolution](conflict-resolution.md)
 >>>>>>> laraxot/dev
 =======
 - [Conflict Resolution](conflict-resolution.md)

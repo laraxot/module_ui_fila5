@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4ylmkm
 =======
 =======
@@ -68,6 +69,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xRBXJs
 >>>>>>> .merge_file_GPSype
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Standard di Accessibilità

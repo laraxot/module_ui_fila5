@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M9Io7n
 =======
 <<<<<<< HEAD
@@ -58,6 +59,8 @@ The UI module provides Filament-based admin interface components, themes, and ut
 =======
 >>>>>>> .merge_file_NsglFg
 >>>>>>> .merge_file_pRRbSX
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # UI Module - Architecture Guide (2025)
@@ -715,6 +718,7 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 **Generated:** 2025-11-19
 **Author:** Claude Code Analysis
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M9Io7n
 =======
 <<<<<<< .merge_file_RZmlos
@@ -767,6 +771,8 @@ UI module for Laraxot platform.
 =======
 >>>>>>> .merge_file_NsglFg
 >>>>>>> .merge_file_pRRbSX
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

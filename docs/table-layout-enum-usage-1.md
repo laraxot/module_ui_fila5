@@ -45,6 +45,7 @@ class ListUsers extends ListRecords
         ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_OQamav
 =======
@@ -60,6 +61,8 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_aVXKHy
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lAA8nm
     'navigation' => ['label' => 'test.navigation', 'group' => 'test.navigation', 'icon' => 'test.navigation', 'sort' => 48],
 =======
@@ -23,6 +24,9 @@ return [
 >>>>>>> .merge_file_69E8R6
 >>>>>>> .merge_file_IDhYuZ
 >>>>>>> .merge_file_vbn0Bl
+=======
+    'navigation' => ['label' => 'Test', 'group' => 'UI', 'icon' => 'heroicon-o-beaker', 'sort' => 48],
+>>>>>>> laraxot/dev
 =======
     'navigation' => ['label' => 'Test', 'group' => 'UI', 'icon' => 'heroicon-o-beaker', 'sort' => 48],
 >>>>>>> laraxot/dev

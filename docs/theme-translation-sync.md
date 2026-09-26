@@ -40,6 +40,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1huPVT
 ## Correzioni Applicate ([DATE])
 =======
@@ -63,6 +64,9 @@ Entrambi i temi contengono i seguenti file di traduzione:
 ## Correzioni Applicate ([DATE])
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> .merge_file_iONCGa
+>>>>>>> laraxot/dev
+=======
+## Correzioni Applicate ([DATE])
 >>>>>>> laraxot/dev
 =======
 ## Correzioni Applicate ([DATE])
@@ -103,6 +107,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1huPVT
 =======
 <<<<<<< .merge_file_hnMumj
@@ -127,6 +132,9 @@ Entrambi i temi contengono i seguenti file di traduzione:
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_iONCGa
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
+>>>>>>> laraxot/dev
 =======
 ### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
 >>>>>>> laraxot/dev
@@ -281,6 +289,7 @@ return [
 - [Translation Helper Text Standards](translation-helper-text-standards.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1huPVT
 =======
 <<<<<<< .merge_file_hnMumj
@@ -303,6 +312,8 @@ return [
 =======
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> .merge_file_iONCGa
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
@@ -316,6 +327,7 @@ return [
 
 **Ultimo aggiornamento**: [DATE]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1huPVT
 =======
 =======
@@ -344,6 +356,8 @@ return [
 =======
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> .merge_file_iONCGa
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

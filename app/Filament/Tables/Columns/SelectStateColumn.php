@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 <<<<<<< HEAD
 =======
@@ -16,6 +17,8 @@ namespace Modules\UI\Filament\Tables\Columns;
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_g9er6G
+=======
+>>>>>>> laraxot/dev
 use Filament\Tables\Columns\SelectColumn;
 =======
 >>>>>>> .merge_file_nNmEYW
@@ -26,6 +29,7 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
 
 <<<<<<< .merge_file_UdVLlO
 class SelectStateColumn extends SelectColumn
+<<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 =======
 =======
@@ -61,10 +65,13 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 class SelectStateColumn extends SelectColumn
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 {
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 <<<<<<< HEAD
@@ -294,6 +301,11 @@ class SelectStateColumn extends SelectColumn
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
             if ($state === null) {
+=======
+        $this->options(function (Model $record, mixed $state): array {
+            $name = $this->getName();
+            if (null === $state) {
+>>>>>>> laraxot/dev
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
                 }
@@ -330,12 +342,17 @@ class SelectStateColumn extends SelectColumn
                 if (class_exists($stateClass)) {
                     $stateNameProperty = null;
                     try {
+<<<<<<< HEAD
                         $reflection = new ReflectionClass($stateClass);
+=======
+                        $reflection = new \ReflectionClass($stateClass);
+>>>>>>> laraxot/dev
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
+<<<<<<< HEAD
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
                     if ($stateNameProperty !== null) {
@@ -432,6 +449,10 @@ class SelectStateColumn extends SelectColumn
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
                     if ($stateNameProperty !== null) {
+=======
+                    }
+                    if (null !== $stateNameProperty) {
+>>>>>>> laraxot/dev
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;
@@ -470,6 +491,7 @@ class SelectStateColumn extends SelectColumn
     }
 
     /**
+<<<<<<< HEAD
      * @param  array<int|string, mixed>  $states
 =======
      * @param  array<int|string, mixed>  $states
@@ -483,11 +505,16 @@ class SelectStateColumn extends SelectColumn
      * @param array<int|string, mixed> $states
      *
 >>>>>>> laraxot/dev
+=======
+     * @param array<int|string, mixed> $states
+     *
+>>>>>>> laraxot/dev
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 <<<<<<< HEAD
@@ -502,11 +529,14 @@ class SelectStateColumn extends SelectColumn
 >>>>>>> .merge_file_g9er6G
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
             static fn ($key) => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn ($value) => SafeStringCastAction::cast($value),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 =======
@@ -537,6 +567,8 @@ class SelectStateColumn extends SelectColumn
             SafeStringCastAction::cast(...),
 >>>>>>> .merge_file_nNmEYW
 >>>>>>> .merge_file_g9er6G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
             array_values($states),

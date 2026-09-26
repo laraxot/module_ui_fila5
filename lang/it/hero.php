@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMIedL
 <<<<<<< HEAD
 =======
@@ -33,6 +34,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_S9TXcP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'link' => ['label' => 'link', 'description' => 'link', 'helper_text' => 'link', 'placeholder' => 'link', 'tooltip' => ''],
@@ -47,6 +50,7 @@ return [
     ],
     'sections' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMIedL
 <<<<<<< HEAD
         'empty' => ['heading' => 'empty'],
@@ -72,6 +76,9 @@ return [
         'empty' => ['heading' => ''],
 >>>>>>> .merge_file_AQhpBn
 >>>>>>> .merge_file_S9TXcP
+=======
+        'empty' => ['heading' => 'empty'],
+>>>>>>> laraxot/dev
 =======
         'empty' => ['heading' => 'empty'],
 >>>>>>> laraxot/dev
@@ -85,6 +92,7 @@ return [
         'label' => 'Hero',
         'sort' => 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMIedL
 =======
 <<<<<<< .merge_file_0Ebype
@@ -108,6 +116,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_AQhpBn
 >>>>>>> .merge_file_S9TXcP
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> laraxot/dev

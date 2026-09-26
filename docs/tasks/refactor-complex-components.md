@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MGFohh
 =======
 =======
@@ -78,6 +79,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZAVJWf
 >>>>>>> .merge_file_iROBn7
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Task: Refactoring Componenti Complessi - UI

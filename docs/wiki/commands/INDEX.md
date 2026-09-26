@@ -36,6 +36,7 @@ Le Commands progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 - Non embeddare Commands nei prompt di avvio
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
 =======
 <<<<<<< HEAD
@@ -57,6 +58,9 @@ Le Commands progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bMSNDf
+>>>>>>> laraxot/dev
+=======
+- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
 >>>>>>> laraxot/dev
 =======
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_X8cXry
 =======
 =======
@@ -59,6 +60,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Pxz1Gd
 >>>>>>> .merge_file_4zwLtl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Componente FileUpload

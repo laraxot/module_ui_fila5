@@ -8,6 +8,7 @@ updated: 2026-07-13
 qmd: "UI module Services and Support banned use app Actions QueueableAction policy"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7aJe7p
 =======
 <<<<<<< .merge_file_xkVo3q
@@ -34,6 +35,11 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5HDbPc
 >>>>>>> .merge_file_mDsoB9
+=======
+  - no-app-support-queueable-actions.md
+  - ui-services-support-to-actions.md
+  - ../../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
+>>>>>>> laraxot/dev
 =======
   - no-app-support-queueable-actions.md
   - ui-services-support-to-actions.md

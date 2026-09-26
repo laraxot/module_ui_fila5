@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CWdHo5
 =======
 <<<<<<< .merge_file_SZU6ap
@@ -31,6 +32,8 @@ Questo metodo **non è supportato** da FileUpload. È disponibile solo su alcuni
 >>>>>>> .merge_file_Y3epW1
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Errore UI: Uso di `prefixIcon` su FileUpload di Filament
 
 ## Descrizione
@@ -46,6 +49,7 @@ Questo metodo **non è supportato** da FileUpload. È disponibile solo su alcuni
 - L’uso improprio genera errori di runtime e impedisce la visualizzazione corretta del form.
 - L’utente non vede l’icona desiderata e il form può risultare bloccato.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CWdHo5
 =======
@@ -116,10 +120,13 @@ Questo metodo **non è supportato** da FileUpload. È disponibile solo su alcuni
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Best Practice UI
 - Consultare sempre la documentazione ufficiale Filament per ogni componente.
 - Usare solo i metodi previsti dall’API del componente.
 - Per aggiungere icone a FileUpload, customizzare la view o usare slot, non metodi non previsti.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CWdHo5
@@ -145,6 +152,8 @@ Se serve un’icona, usare solo i metodi previsti dalla documentazione Filament.
 =======
 >>>>>>> .merge_file_LIb44l
 >>>>>>> .merge_file_Y3epW1
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -199,6 +208,7 @@ Se serve un’icona, usare solo i metodi previsti dalla documentazione Filament.
 * [filament-error-fileupload-prefixicon.md](../../patient/project_docs/filament-error-fileupload-prefixicon.md)
 * [filament-error-fileupload-prefixicon.md](../../patient/project_docs/filament-error-fileupload-prefixicon.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CWdHo5
 =======
 =======
@@ -242,6 +252,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-err
 =======
 >>>>>>> .merge_file_LIb44l
 >>>>>>> .merge_file_Y3epW1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -14,6 +14,7 @@ use function Safe\realpath;
 
 use Spatie\LaravelData\DataCollection;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZJk7Ui
 <<<<<<< HEAD
 =======
@@ -22,6 +23,9 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> .merge_file_iMr5aV
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> laraxot/dev
 =======
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> laraxot/dev
@@ -30,6 +34,7 @@ use Webmozart\Assert\Assert;
 final class GetAllBlocksAction
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZJk7Ui
 <<<<<<< HEAD
 =======
@@ -40,6 +45,10 @@ final class GetAllBlocksAction
     use QueueableAction;
 
 >>>>>>> .merge_file_iMr5aV
+=======
+    use QueueableAction;
+
+>>>>>>> laraxot/dev
 =======
     use QueueableAction;
 

@@ -67,6 +67,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - [UI Components](../components/volt.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
 <<<<<<< .merge_file_GPoTc2
@@ -105,6 +106,11 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - [Best Practices](../../xot/docs/translation-keys-best-practices.md)
 >>>>>>> .merge_file_6U1kOf
 >>>>>>> .merge_file_MkcGjl
+>>>>>>> laraxot/dev
+=======
+- [PHPStan Level 10 Fixes](../../xot/docs/phpstan-level10-fixes.md)
+- [Translation Standards](../../lang/docs/translation-standards.md)
+- [Best Practices](../../xot/docs/translation-keys-best-practices.md)
 >>>>>>> laraxot/dev
 =======
 - [PHPStan Level 10 Fixes](../../xot/docs/phpstan-level10-fixes.md)
@@ -126,6 +132,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - **File**: `app/Enums/TableLayoutEnum.php`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
 - **Tipo Conflitto**: Sintassi PHPStan
@@ -199,6 +206,9 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 =======
 - **Tipo Conflitto**: Sintassi PHPStan
+=======
+- **Tipo Conflitto**: Sintassi PHPStan
+>>>>>>> laraxot/dev
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 # Risoluzione Conflitto TableLayoutEnum
 
@@ -210,6 +220,9 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 ## Analisi del Conflitto
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Conflitto (Linea 96) - Commento PHPStan
 ```php
@@ -218,6 +231,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
 <<<<<<< .merge_file_GPoTc2
@@ -237,6 +251,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_MkcGjl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 **Problema**: Differenza nella sintassi del commento PHPStan
 
@@ -244,6 +260,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 ### Criteri di Risoluzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
@@ -263,6 +280,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_6U1kOf
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MkcGjl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. **Standard PHPStan**: Utilizzare la sintassi moderna `/** @phpstan-ignore-next-line */`
@@ -271,6 +290,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 4. **Consistenza**: Seguire le convenzioni del progetto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
 <<<<<<< .merge_file_GPoTc2
@@ -289,11 +309,14 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_MkcGjl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### Risoluzione Applicata
 
 #### Scelta: Versione Branch 988693e (Sintassi moderna)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
@@ -312,6 +335,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_6U1kOf
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MkcGjl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **Motivazione**:
@@ -321,6 +346,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - Mantiene coerenza con gli standard moderni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
 <<<<<<< .merge_file_GPoTc2
@@ -338,6 +364,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 =======
 >>>>>>> .merge_file_6U1kOf
 >>>>>>> .merge_file_MkcGjl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -357,6 +385,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 ### Perché la sintassi moderna?
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
 =======
@@ -383,10 +412,13 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. **Standard Attuale**: `/** @phpstan-ignore-next-line */` è la sintassi raccomandata
 2. **Precisione**: Indica esattamente quale linea ignorare
 3. **Leggibilità**: È più chiara e comprensibile
 4. **Manutenibilità**: Più facile da gestire e aggiornare
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
@@ -419,6 +451,11 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 >>>>>>> .merge_file_6U1kOf
 >>>>>>> .merge_file_MkcGjl
+>>>>>>> laraxot/dev
+=======
+
+### Impatto
+
 >>>>>>> laraxot/dev
 =======
 
@@ -431,6 +468,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - ✅ Mantenimento della funzionalità
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
 <<<<<<< .merge_file_GPoTc2
@@ -451,6 +489,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_MkcGjl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti Correlati
 
@@ -467,6 +507,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 ## Note per Sviluppatori Futuri
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
@@ -492,6 +533,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 =======
 >>>>>>> .merge_file_6U1kOf
 >>>>>>> .merge_file_MkcGjl
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -501,6 +544,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 4. **Consistenza**: Seguire gli standard moderni del progetto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
 <<<<<<< .merge_file_GPoTc2
@@ -519,12 +563,15 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_MkcGjl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Data Risoluzione
 
 - **Data**: Gennaio 2025
 - **Modulo**: UI
 - **File**: `app/Enums/TableLayoutEnum.php`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
@@ -547,6 +594,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MkcGjl
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -554,6 +603,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vtrgEF
 =======
@@ -593,6 +643,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 =======
 >>>>>>> .merge_file_6U1kOf
 >>>>>>> .merge_file_MkcGjl
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

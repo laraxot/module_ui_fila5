@@ -4,6 +4,7 @@ topic: table-layout-toggle
 status: open
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 related_issue: provtv/base_ptv_fila5_mono
 <<<<<<< .merge_file_X2bVTj
 =======
@@ -40,6 +41,9 @@ related_issue: provtv/<nome repository>
 =======
 >>>>>>> .merge_file_WB0Igc
 >>>>>>> .merge_file_OLO5vx
+>>>>>>> laraxot/dev
+=======
+related_issue: provtv/base_ptv_fila5_mono
 >>>>>>> laraxot/dev
 =======
 related_issue: provtv/base_ptv_fila5_mono

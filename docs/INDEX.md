@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hEjnIp
 =======
 <<<<<<< .merge_file_MsIi35
@@ -1180,6 +1181,8 @@ Non aggiornare questo file: aggiornare `index.md` o `00-index.md`.
 >>>>>>> .merge_file_qMgHg0
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Documentation Index
 
 Modulo: UI
@@ -1187,6 +1190,7 @@ Modulo: UI
 ## File disponibili
 
 <!-- auto-generato: elencare i file .md presenti -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hEjnIp
 =======
@@ -2885,5 +2889,7 @@ laravel/Modules/UI/
 >>>>>>> .merge_file_tMLiH5
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qMgHg0
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

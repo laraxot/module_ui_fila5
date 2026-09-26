@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Forms\Components;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SJ7e4Z
 <<<<<<< HEAD
 =======
@@ -16,6 +17,8 @@ namespace Modules\UI\Filament\Forms\Components;
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9JyND3
+=======
+>>>>>>> laraxot/dev
 use Filament\Forms\Components\Radio;
 =======
 >>>>>>> .merge_file_Oxn4QX
@@ -25,6 +28,7 @@ use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 <<<<<<< .merge_file_tAb9DZ
 class RadioBadge extends Radio
+<<<<<<< HEAD
 <<<<<<< .merge_file_SJ7e4Z
 =======
 =======
@@ -56,6 +60,8 @@ use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 
 class RadioBadge extends Radio
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
@@ -100,9 +106,13 @@ class RadioBadge extends Radio
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (null === $color) {
 =======
             if ($color === null) {
+>>>>>>> laraxot/dev
+=======
+            if (null === $color) {
 >>>>>>> laraxot/dev
                 return $this->selectedColor;
             }
@@ -111,17 +121,23 @@ class RadioBadge extends Radio
                 $first = reset($color);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
                 return is_string($first) && '' !== $first ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ('' !== $color) {
+<<<<<<< HEAD
 =======
                 return is_string($first) && $first !== '' ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ($color !== '') {
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
                 return $color;
             }
@@ -142,9 +158,13 @@ class RadioBadge extends Radio
 
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null === $icon) {
 =======
         if ($icon === null) {
+>>>>>>> laraxot/dev
+=======
+        if (null === $icon) {
 >>>>>>> laraxot/dev
             return null;
         }

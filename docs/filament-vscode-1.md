@@ -86,6 +86,7 @@ public static function form(Form $form): Form
             ->maxLength(255),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_ZUZfV8
@@ -99,6 +100,9 @@ public static function form(Form $form): Form
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IwJLcL
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -111,6 +115,7 @@ public static function form(Form $form): Form
             ->required(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZUZfV8
 =======
 
@@ -125,6 +130,9 @@ public static function form(Form $form): Form
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IwJLcL
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -150,6 +158,7 @@ public static function table(Table $table): Table
                 ->sortable(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_ZUZfV8
@@ -163,6 +172,9 @@ public static function table(Table $table): Table
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IwJLcL
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -207,6 +219,7 @@ Forms\Components\Wizard::make([
                         ->required(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZUZfV8
 =======
 
@@ -221,6 +234,9 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IwJLcL
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev

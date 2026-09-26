@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6sEPpC
 <<<<<<< HEAD
 =======
@@ -33,6 +34,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_aVh57e
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'newstate' => [
@@ -53,6 +56,7 @@ return [
         ],
         'label' => 'Radio Icon',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6sEPpC
 <<<<<<< HEAD
@@ -79,6 +83,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_eUB6b3
 >>>>>>> .merge_file_aVh57e
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> laraxot/dev

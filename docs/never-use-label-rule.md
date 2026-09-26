@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -31,6 +32,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PqdwZJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -190,6 +193,7 @@ rules:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1cE4e9
 =======
 <<<<<<< .merge_file_o9FR6Q
@@ -234,6 +238,11 @@ rules:
 - [Filament Best Practices](../../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
 >>>>>>> laraxot/dev
+=======
+- [Translation Standards](../../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
+>>>>>>> laraxot/dev
 
 ## Memoria Permanente
 
@@ -245,6 +254,7 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 # REGOLA CRITICA: MAI usare ->label()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1cE4e9
@@ -288,6 +298,9 @@ rules:
 ## Data: [DATE]
 >>>>>>> .merge_file_q6WyYw
 >>>>>>> .merge_file_PqdwZJ
+>>>>>>> laraxot/dev
+=======
+## Data: [DATE]
 >>>>>>> laraxot/dev
 =======
 ## Data: [DATE]
@@ -405,6 +418,7 @@ TextColumn::make('status')
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1cE4e9
 =======
 <<<<<<< HEAD
@@ -455,6 +469,8 @@ TextColumn::make('status')
 =======
 >>>>>>> .merge_file_q6WyYw
 >>>>>>> .merge_file_PqdwZJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -471,6 +487,7 @@ TextColumn::make('status')
 - [ ] Testare che le traduzioni funzionino correttamente
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1cE4e9
 =======
 <<<<<<< HEAD
@@ -531,6 +548,8 @@ Prima di usare qualsiasi componente Filament:
 >>>>>>> .merge_file_PqdwZJ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
 - [ ] Implementare traduzioni in `lang/de/fields.php`
@@ -541,6 +560,7 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -580,6 +600,8 @@ Prima di usare qualsiasi componente Filament:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PqdwZJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -617,6 +639,7 @@ rules:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1cE4e9
 =======
 <<<<<<< .merge_file_o9FR6Q
@@ -632,6 +655,8 @@ rules:
 =======
 >>>>>>> .merge_file_q6WyYw
 >>>>>>> .merge_file_PqdwZJ
+=======
+>>>>>>> laraxot/dev
 - [Translation Standards](../../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
@@ -639,6 +664,7 @@ rules:
 
 ## Memoria Permanente
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -679,6 +705,8 @@ rules:
 
 ## Memoria Permanente
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **RICORDA SEMPRE**:
 
@@ -692,6 +720,7 @@ rules:
 
 - SEMPRE testare le traduzioni prima del commit
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1cE4e9
@@ -787,6 +816,8 @@ rules:
 =======
 >>>>>>> .merge_file_q6WyYw
 >>>>>>> .merge_file_PqdwZJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

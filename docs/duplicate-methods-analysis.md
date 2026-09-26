@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_HnEeOK
 =======
 **Data Generazione**: 2025-10-15 06:41:17
@@ -23,6 +24,8 @@
 >>>>>>> .merge_file_kT5q6K
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_umHxIC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **Totale Gruppi di Duplicati**:
@@ -99,6 +102,7 @@ public function asset(): string
 - `SaveHeadernavConfigAction::execute` - [Modules/Cms/app/Actions/SaveHeadernavConfigAction.php:12](Modules/Cms/app/Actions/SaveHeadernavConfigAction.php) (Modulo: Cms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
 <<<<<<< .merge_file_HnEeOK
@@ -166,6 +170,10 @@ public function asset(): string
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kT5q6K
 >>>>>>> .merge_file_umHxIC
+=======
+- `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
+- `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+>>>>>>> laraxot/dev
 =======
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)

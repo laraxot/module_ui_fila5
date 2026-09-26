@@ -161,6 +161,7 @@ Seleziona le colonne appropriate in base al layout corrente.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2f62ED
 - [Documentazione Completa TableLayoutEnum](../../laravel/modules/ui/docs/table-layout-enum-complete-guide.md)
 - [Modulo UI](../../laravel/modules/ui/docs/readme.md)
@@ -192,6 +193,10 @@ Seleziona le colonne appropriate in base al layout corrente.
 - [Modulo UI](../../laravel/modules/ui/docs/readme.md)
 >>>>>>> .merge_file_ncYfVV
 >>>>>>> .merge_file_al6Ozn
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Completa TableLayoutEnum](../../laravel/modules/ui/docs/table-layout-enum-complete-guide.md)
+- [Modulo UI](../../laravel/modules/ui/docs/readme.md)
 >>>>>>> laraxot/dev
 =======
 - [Documentazione Completa TableLayoutEnum](../../laravel/modules/ui/docs/table-layout-enum-complete-guide.md)
@@ -203,6 +208,7 @@ Seleziona le colonne appropriate in base al layout corrente.
 ## Ultimo Aggiornamento
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2f62ED
 [DATE] - Documentazione TableLayoutEnum nella root docs
 =======
@@ -226,6 +232,9 @@ Seleziona le colonne appropriate in base al layout corrente.
 [DATE] - Documentazione TableLayoutEnum nella root docs
 >>>>>>> .merge_file_ncYfVV
 >>>>>>> .merge_file_al6Ozn
+>>>>>>> laraxot/dev
+=======
+[DATE] - Documentazione TableLayoutEnum nella root docs
 >>>>>>> laraxot/dev
 =======
 [DATE] - Documentazione TableLayoutEnum nella root docs

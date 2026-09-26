@@ -124,4 +124,7 @@ Come Xot, Notify e Activity: un `index.md` a una schermata, un canonico per argo
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

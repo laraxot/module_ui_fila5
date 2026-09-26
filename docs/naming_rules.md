@@ -46,7 +46,10 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Best Practices](../../../docs/standards/best-practices.md) 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ||||||| parent of 9a84589 (.):docs/archived/naming-rules-1.md
@@ -54,6 +57,9 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 - [Best Practices](../../../docs/standards/best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

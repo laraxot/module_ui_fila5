@@ -109,6 +109,7 @@
             "    public static function getFormSchema(): array",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
             "    public function getFormSchema(): array",
@@ -130,6 +131,8 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
             "    {",
@@ -157,6 +160,7 @@
             "request": "launch",
             "port": 9003,
             "pathMappings": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 "/ tasks.json
@@ -242,6 +246,9 @@
 =======
                 "/ tasks.json
 >>>>>>> laraxot/dev
+=======
+                "/ tasks.json
+>>>>>>> laraxot/dev
 {
     "version": "2.0.0",
     "tasks": [
@@ -262,6 +269,7 @@
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
@@ -290,6 +298,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -367,6 +377,7 @@
 - [PHP Intelephense](https://intelephense.com)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 =======
@@ -423,11 +434,16 @@
 >>>>>>> .merge_file_k4w0o2
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> laraxot/dev
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
 
 ## Estensioni Essenziali
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### 1. PHP
 - PHP Intelephense
@@ -438,6 +454,7 @@
 - Better PHPUnit
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 
 =======
@@ -459,6 +476,9 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -469,6 +489,7 @@
 - Laravel Extra Intellisense
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 
 =======
@@ -490,6 +511,9 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -501,13 +525,17 @@
 - Error Lens
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
+=======
+>>>>>>> laraxot/dev
 
 ## Configurazione PHP
 >>>>>>> .merge_file_k4w0o2
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Configurazione PHP
@@ -537,6 +565,8 @@
 
 ## Configurazione PHP
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```json
 // settings.json
@@ -556,6 +586,7 @@
     "intelephense.diagnostics.undefinedVariables": false,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 
 =======
@@ -575,6 +606,9 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -588,6 +622,7 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 
 =======
@@ -607,6 +642,9 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -626,6 +664,7 @@
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -640,6 +679,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -649,6 +690,7 @@
 // settings.json
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 ## Configurazione Filament
@@ -665,6 +707,8 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     // Filament Plugin
@@ -675,6 +719,7 @@
     "editor.snippetSuggestions": "top",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 
 =======
@@ -698,10 +743,14 @@
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
     // Blade
     "[blade]": {
         "editor.defaultFormatter": "shufo.vscode-blade-formatter",
         "editor.formatOnSave": true
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
@@ -720,6 +769,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     },
@@ -734,6 +785,7 @@
 // filament.code-snippets
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 =======
@@ -759,6 +811,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     "Filament Resource": {
         "prefix": "fil-resource",
         "body": [
@@ -767,6 +821,7 @@
             "namespace ${1:Namespace};",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -789,6 +844,8 @@
 >>>>>>> .merge_file_k4w0o2
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
             "",
             "use Modules\\\\Xot\\\\Filament\\\\Resources\\\\XotBaseResource;",
             "use Filament\\\\Forms;",
@@ -799,6 +856,7 @@
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
             "    public static function getFormSchema(): array",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
@@ -826,6 +884,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -839,6 +899,7 @@
         ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -855,6 +916,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }
@@ -867,6 +930,7 @@
 // launch.json
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -884,6 +948,8 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     "version": "0.2.0",
@@ -897,6 +963,7 @@
                 "/ tasks.json
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -913,6 +980,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 {
@@ -920,6 +989,7 @@
     "tasks": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -937,6 +1007,8 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
             "label": "Run PHPUnit Test",
@@ -952,6 +1024,7 @@
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -968,6 +1041,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         }
@@ -978,6 +1053,7 @@
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -995,6 +1071,8 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### 1. Organizzazione Workspace
@@ -1008,6 +1086,7 @@
     └── filament.code-snippets
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -1022,6 +1101,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -1029,6 +1110,7 @@
 ### 2. Keybindings Consigliati
 ```json
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 ### 2. Keybindings Consigliati
@@ -1045,6 +1127,8 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 // keybindings.json
@@ -1053,6 +1137,7 @@
         "key": "ctrl+shift+i",
         "command": "namespaceResolver.import",
         "when": "editorTextFocus"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
@@ -1071,6 +1156,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     },
@@ -1087,6 +1174,7 @@
 // settings.json
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 =======
@@ -1112,11 +1200,14 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     "files.exclude": {
         "vendor/": true,
         "node_modules/": true,
         ".phpunit.cache/": true,
         "bootstrap/cache/": true
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
@@ -1136,6 +1227,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     },
@@ -1149,6 +1242,7 @@
 ## Troubleshooting
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 =======
 <<<<<<< .merge_file_o7LEDS
@@ -1169,10 +1263,13 @@
 >>>>>>> .merge_file_k4w0o2
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### 1. Performance
 - Disabilita estensioni non necessarie
 - Aumenta memoria disponibile per VSCode
 - Usa workspace esclusioni
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
@@ -1194,6 +1291,9 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1204,6 +1304,7 @@
 - Usa Error Lens per debug visuale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 
 =======
@@ -1223,6 +1324,9 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1233,6 +1337,7 @@
 - Controlla file composer.json
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 
 =======
@@ -1254,6 +1359,9 @@
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k4w0o2
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -1263,6 +1371,7 @@
 - [Coding Standards](coding-standards.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
 
 =======
@@ -1287,10 +1396,14 @@
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_K4hITk
@@ -1498,6 +1611,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> .merge_file_k4w0o2
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

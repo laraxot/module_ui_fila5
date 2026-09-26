@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MorsH1
 <<<<<<< HEAD
 =======
@@ -31,6 +32,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_qgcmn0
 >>>>>>> .merge_file_Mjjdh8
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 return [

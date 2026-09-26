@@ -20,6 +20,7 @@ final class UiCoverageAddressChildRecord extends Model
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XdA5TR
 =======
 <<<<<<< .merge_file_zowZ0S
@@ -45,12 +46,15 @@ final class UiCoverageAddressChildRecord extends Model
 =======
 >>>>>>> .merge_file_JL1TBJ
 >>>>>>> .merge_file_wwbgq1
+=======
+>>>>>>> laraxot/dev
      * @param array<string, mixed> $attributes
      * @param array<string, mixed> $options
      */
     public function update(array $attributes = [], array $options = []): bool
     {
         ++$this->updated;
+<<<<<<< HEAD
 <<<<<<< .merge_file_zowZ0S
 >>>>>>> laraxot/dev
 =======
@@ -60,6 +64,8 @@ final class UiCoverageAddressChildRecord extends Model
 >>>>>>> .merge_file_JL1TBJ
 >>>>>>> .merge_file_wwbgq1
 >>>>>>> .merge_file_c1pCEq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 

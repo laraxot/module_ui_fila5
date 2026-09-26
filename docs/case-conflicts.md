@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_r1C6Aj
 =======
 <<<<<<< .merge_file_l1oehm
@@ -36,6 +37,8 @@ Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest F
 =======
 >>>>>>> .merge_file_6tFZlQ
 >>>>>>> .merge_file_6wPjxe
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 File duplicati rilevati nel modulo `UI`:
@@ -47,6 +50,7 @@ File duplicati rilevati nel modulo `UI`:
 
 Uniformare ciascuna coppia scegliendo un'unica versione (in genere `README.md`, `CONTRIBUTING.md`, ecc.) e rimuovere i duplicati.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_r1C6Aj
 =======
 =======
@@ -87,6 +91,8 @@ Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest F
 =======
 >>>>>>> .merge_file_6tFZlQ
 >>>>>>> .merge_file_6wPjxe
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

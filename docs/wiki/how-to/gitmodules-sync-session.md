@@ -29,6 +29,9 @@ issues:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
@@ -55,6 +58,9 @@ issues:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 discussions: []
 related:
@@ -79,9 +85,12 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 <<<<<<< HEAD
 - Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MgrsHs
 =======
 =======
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_ffeCn5
@@ -125,4 +134,7 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

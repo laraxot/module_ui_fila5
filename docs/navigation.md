@@ -37,6 +37,7 @@ $page->navigation
 ## Collegamenti tra versioni di navigation.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_S3pK67
 =======
 <<<<<<< .merge_file_Zp4XzO
@@ -55,6 +56,8 @@ $page->navigation
 =======
 >>>>>>> .merge_file_bk0uJy
 >>>>>>> .merge_file_ATuMdz
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 * [navigation.md](../../../gdpr/docs/navigation.md)
@@ -64,6 +67,7 @@ $page->navigation
 * [navigation.md](../../../cms/docs/navigation.md)
 * [navigation.md](../../../cms/docs/components/navigation.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_S3pK67
 =======
 =======
@@ -88,6 +92,8 @@ $page->navigation
 =======
 >>>>>>> .merge_file_bk0uJy
 >>>>>>> .merge_file_ATuMdz
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

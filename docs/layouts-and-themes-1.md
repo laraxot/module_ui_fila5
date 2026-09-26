@@ -258,6 +258,7 @@ class Dashboard extends Component
     protected static string $layout = AdminLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_QEVGqc
@@ -271,6 +272,9 @@ class Dashboard extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rnMhrW
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -301,6 +305,7 @@ class Dashboard extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QEVGqc
 =======
 #### PrintLayout
@@ -318,12 +323,16 @@ class Dashboard extends Component
 =======
 #### PrintLayout
 >>>>>>> laraxot/dev
+=======
+#### PrintLayout
+>>>>>>> laraxot/dev
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
 class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -339,6 +348,9 @@ class StampaPratica extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rnMhrW
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -386,6 +398,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QEVGqc
 =======
 
@@ -400,6 +413,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rnMhrW
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -417,6 +433,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_QEVGqc
@@ -430,6 +447,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rnMhrW
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -441,6 +461,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QEVGqc
 =======
 
@@ -455,6 +476,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rnMhrW
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -465,6 +489,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_QEVGqc
@@ -478,6 +503,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rnMhrW
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -587,6 +615,7 @@ AdminLayout::make()
    - Seguire convenzioni di naming
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QEVGqc
 =======
    - Centralizzare configurazioni
@@ -601,6 +630,9 @@ AdminLayout::make()
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rnMhrW
+=======
+   - Centralizzare configurazioni
+>>>>>>> laraxot/dev
 =======
    - Centralizzare configurazioni
 >>>>>>> laraxot/dev

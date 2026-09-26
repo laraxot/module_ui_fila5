@@ -142,6 +142,7 @@ return [
 ## Collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LCDYHm
 =======
 <<<<<<< .merge_file_e3vpap
@@ -159,6 +160,8 @@ return [
 =======
 >>>>>>> .merge_file_s8ZSDP
 >>>>>>> .merge_file_VXTvcK
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [UI Module Icons](../laravel/modules/ui/docs/icons.md)
@@ -166,6 +169,7 @@ return [
 - [Accessibility Guidelines](../../docs/accessibility-standards.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LCDYHm
 =======
 =======
@@ -189,6 +193,8 @@ return [
 =======
 >>>>>>> .merge_file_s8ZSDP
 >>>>>>> .merge_file_VXTvcK
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

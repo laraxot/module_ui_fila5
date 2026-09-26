@@ -63,6 +63,7 @@ Components should never rely on variables that haven't been explicitly defined a
     @endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -85,6 +86,9 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7ugBYl
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -122,6 +126,7 @@ Components should never rely on variables that haven't been explicitly defined a
 <!-- INCORRECT: Hard-coded project references -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2erFGI
 =======
 <div class="title">Welcome to <nome progetto></div>
@@ -136,6 +141,9 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7ugBYl
+=======
+<div class="title">Welcome to <nome progetto></div>
+>>>>>>> laraxot/dev
 =======
 <div class="title">Welcome to <nome progetto></div>
 >>>>>>> laraxot/dev

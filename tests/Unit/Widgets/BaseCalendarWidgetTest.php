@@ -19,6 +19,7 @@ function createTestCalendarWidget(): UserCalendarWidget
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new class extends UserCalendarWidget {
 =======
 <<<<<<< .merge_file_f3vrDb
@@ -37,6 +38,9 @@ function createTestCalendarWidget(): UserCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_t7blED
+>>>>>>> laraxot/dev
+=======
+    $widget = new class extends UserCalendarWidget {
 >>>>>>> laraxot/dev
 =======
     $widget = new class extends UserCalendarWidget {
@@ -55,6 +59,7 @@ function createTestCalendarWidget(): UserCalendarWidget
 
 beforeEach(function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_f3vrDb
 <<<<<<< HEAD
 =======
@@ -68,12 +73,15 @@ beforeEach(function (): void {
 >>>>>>> .merge_file_t7blED
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     /* @var \Modules\UI\Tests\TestCase $this */
     $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
         /** @var ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
         $expectation->andReturn(null);
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_f3vrDb
 =======
@@ -104,6 +112,8 @@ beforeEach(function (): void {
 =======
 >>>>>>> .merge_file_LdQQYX
 >>>>>>> .merge_file_t7blED
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 });

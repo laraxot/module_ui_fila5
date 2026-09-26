@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xdnXKM
 =======
 =======
@@ -63,6 +64,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WqahEz
 >>>>>>> .merge_file_zHCaaL
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Registrazione Componenti Blade nei Moduli

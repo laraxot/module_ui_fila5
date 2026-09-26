@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ctcDnL
 use Mockery;
 =======
@@ -24,6 +25,8 @@ use Mockery;
 >>>>>>> .merge_file_7Y2mjx
 =======
 use Mockery;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleBusinessCoverage;
@@ -32,6 +35,7 @@ uses(TestCase::class);
 
 afterEach(function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ctcDnL
     Mockery::close();
 =======
@@ -53,6 +57,9 @@ afterEach(function (): void {
 >>>>>>> .merge_file_7Y2mjx
 =======
     Mockery::close();
+>>>>>>> laraxot/dev
+=======
+    \Mockery::close();
 >>>>>>> laraxot/dev
 });
 

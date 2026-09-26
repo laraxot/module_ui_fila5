@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nEBIIy
 =======
 =======
@@ -63,6 +64,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5t0rdC
 >>>>>>> .merge_file_EmuiVJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Esempio Pratico: Implementazione TableLayoutEnum
@@ -224,6 +227,7 @@ class UserResource extends XotBaseResource
     public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nEBIIy
 =======
     public function getFormSchema(): array
@@ -245,6 +249,8 @@ class UserResource extends XotBaseResource
 >>>>>>> .merge_file_5t0rdC
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_EmuiVJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     {
@@ -433,6 +439,7 @@ class ListUsersTest extends TestCase
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nEBIIy
 - [UI Module Architecture](../architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
@@ -464,6 +471,10 @@ class ListUsersTest extends TestCase
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 >>>>>>> .merge_file_5t0rdC
 >>>>>>> .merge_file_EmuiVJ
+>>>>>>> laraxot/dev
+=======
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
 >>>>>>> laraxot/dev
 =======
 - [UI Module Architecture](../architecture_rules.md)

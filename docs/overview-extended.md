@@ -3,6 +3,7 @@
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1smfRo
 =======
 [![Laravel 13.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -24,6 +25,8 @@
 >>>>>>> .merge_file_Qk3Ana
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_vdSAJY
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
@@ -33,6 +36,7 @@
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1smfRo
 =======
 [![Laravel 13.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -54,6 +58,8 @@
 >>>>>>> .merge_file_Qk3Ana
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_vdSAJY
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
@@ -300,6 +306,7 @@ php artisan ui:test-components
 - [Filament Components](filament-components.md) - Componenti Filament
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1smfRo
 - [Widget System](widget-optimization.md) - Sistema widget personalizzati
 =======
@@ -323,6 +330,9 @@ php artisan ui:test-components
 - [Widget System](widget-optimization.md) - Sistema widget personalizzati
 >>>>>>> .merge_file_Qk3Ana
 >>>>>>> .merge_file_vdSAJY
+>>>>>>> laraxot/dev
+=======
+- [Widget System](widget-optimization.md) - Sistema widget personalizzati
 >>>>>>> laraxot/dev
 =======
 - [Widget System](widget-optimization.md) - Sistema widget personalizzati

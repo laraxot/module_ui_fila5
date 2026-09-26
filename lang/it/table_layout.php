@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RhBuNW
 <<<<<<< HEAD
 =======
@@ -28,6 +29,8 @@ return [
     'actions' => [
 <<<<<<< .merge_file_ck6vTQ
 =======
+=======
+>>>>>>> laraxot/dev
 return [
     'actions' => [
 >>>>>>> laraxot/dev
@@ -36,6 +39,7 @@ return [
             'tooltip' => 'Passa da vista a elenco a vista a griglia',
             'helper_text' => 'Cambia il tipo di visualizzazione',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_RhBuNW
 =======
@@ -66,12 +70,15 @@ return [
 >>>>>>> .merge_file_z01UBl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Table Layout',
     'plural_label' => 'Table Layout (Plurale)',
     'navigation' => [
         'name' => 'Table Layout',
         'plural' => 'Table Layout',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_RhBuNW
 <<<<<<< HEAD
@@ -84,6 +91,8 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_z01UBl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         'group' => [
@@ -126,6 +135,7 @@ return [
             'description' => '',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RhBuNW
 =======
 =======
@@ -162,6 +172,8 @@ return [
 =======
 >>>>>>> .merge_file_BLV0cT
 >>>>>>> .merge_file_z01UBl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ],

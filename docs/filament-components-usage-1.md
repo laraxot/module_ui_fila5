@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Utilizzo dei Componenti Filament
 =======
 <<<<<<< .merge_file_Xh5RFe
@@ -13,6 +14,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_dSitmn
+=======
+# Utilizzo dei Componenti Filament
+>>>>>>> laraxot/dev
 =======
 # Utilizzo dei Componenti Filament
 >>>>>>> laraxot/dev
@@ -150,12 +154,15 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
     </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xh5RFe
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_dSitmn
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -172,6 +179,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xh5RFe
 =======
 <<<<<<< HEAD
@@ -191,6 +199,8 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_dSitmn
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. **SEMPRE utilizzare i componenti Filament** quando disponibili invece di creare componenti personalizzati
@@ -201,6 +211,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 6. **SEMPRE verificare il percorso corretto** dei componenti e degli asset
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xh5RFe
 =======
 =======
@@ -209,11 +220,14 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 >>>>>>> .merge_file_dSitmn
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Errori Comuni
 
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xh5RFe
 =======
@@ -229,6 +243,8 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_dSitmn
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament

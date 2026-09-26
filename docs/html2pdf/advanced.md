@@ -4,6 +4,7 @@ topic: advanced
 canonical: ../../../../Themes/docs/shared-components/advanced.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dh988n
 =======
 =======
@@ -37,6 +38,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7AsJnw
 >>>>>>> .merge_file_rXxgwP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

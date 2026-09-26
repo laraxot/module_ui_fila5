@@ -31,6 +31,9 @@ discussions:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
@@ -71,6 +74,9 @@ discussions:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "../../../../Xot/docs/wiki/concepts/xotbase-filament-widget-hierarchy.md"

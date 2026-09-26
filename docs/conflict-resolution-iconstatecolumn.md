@@ -70,6 +70,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [table-components.md](table-components.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
 <<<<<<< .merge_file_Tkne80
@@ -92,6 +93,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 =======
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> .merge_file_ZA5ehl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Modules/UI/docs/](../../docs/)
@@ -110,6 +113,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 ### Conflitto 1 (Linea 29-37) - Gestione Tipi Nullable
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
 =======
@@ -157,6 +161,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```php
         $this->icon(fn($state): ?string => $state?->icon());
         $this->color(fn($state): ?string => $state?->color());
@@ -164,6 +170,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
 <<<<<<< .merge_file_Tkne80
@@ -183,6 +190,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> .merge_file_ZA5ehl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 **Problema**: Differenza nella gestione dei tipi nullable e nell'uso dell'operatore nullsafe `?->`
 
@@ -190,6 +199,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 ### Criteri di Risoluzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
@@ -209,6 +219,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZA5ehl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. **Robustezza**: Preferire gestione nullable per evitare errori runtime
@@ -218,6 +230,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 5. **PHPStan Compliance**: Mantenere tipi corretti per analisi statica
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
 <<<<<<< .merge_file_Tkne80
@@ -236,11 +249,14 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> .merge_file_ZA5ehl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### Risoluzione Applicata
 
 #### ✅ DECISIONE FINALE: Versione HEAD (Gestione nullable con operatore nullsafe)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
@@ -259,6 +275,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZA5ehl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **Motivazione**:
@@ -269,6 +287,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - Mantiene compatibilità con diversi scenari d'uso
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 
 =======
@@ -288,6 +307,9 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> .merge_file_ZA5ehl
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -298,6 +320,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 3. **Conflitto gestione state**: Mantenere approccio difensivo HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
 <<<<<<< .merge_file_Tkne80
@@ -316,11 +339,14 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> .merge_file_ZA5ehl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Giustificazione Tecnica
 
 ### Perché la versione HEAD?
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
@@ -339,6 +365,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZA5ehl
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. **Null Safety**: L'operatore `?->` previene errori quando state è null
@@ -349,6 +377,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 6. **User Experience**: Evita crash dell'interfaccia utente
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 
 ### Impatto
@@ -380,6 +409,11 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> .merge_file_ZA5ehl
+>>>>>>> laraxot/dev
+=======
+
+### Impatto
+
 >>>>>>> laraxot/dev
 =======
 
@@ -393,6 +427,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - ✅ Migliora user experience
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
 <<<<<<< .merge_file_Tkne80
@@ -411,6 +446,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> .merge_file_ZA5ehl
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 
@@ -420,6 +457,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_chHj7y
 =======
@@ -464,6 +502,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 =======
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> .merge_file_ZA5ehl
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

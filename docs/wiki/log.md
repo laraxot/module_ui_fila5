@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uf9N3K
 =======
 <<<<<<< .merge_file_8M1OQh
@@ -143,6 +144,32 @@ related:
 # UI Wiki Log
 
 >>>>>>> laraxot/dev
+=======
+## [2026-09-25] phpstan | OpeningHoursField deprecated Placeholder fix
+- `app/Filament/Forms/Components/OpeningHoursField.php`: replaced deprecated `Placeholder::make()` with `TextEntry::make()->state()` (Filament v5 migration).
+- PHPStan `method.deprecatedClass` / `staticMethod.deprecatedClass` cleared.
+
+## [2026-09-25] phpstan | lang/it array_merge mixed type fix
+- `lang/it/icon_state_group.php` + `lang/it/opening_hours_field.php`: added `@var array<string, mixed>` annotations before each `require` so PHPStan sees array-typed values for `array_merge(...)` variadic.
+- Cleared 15 `argument.type` errors (mixed → array).
+
+## [2026-09-25] git | UI module interactive rebase resolved
+- Rebase of `dev` onto `a8ef7c56` with 29 conflicted files completed.
+- Conflicts in `.gitattributes`, `.gitignore`, `app/Actions/Icon/GetAllIconsAction.php`, `app/Filament/Components/SpatieDocumentUpload.php`, blade templates, docs, lang files, tests resolved by merging both sides (forward-only, no revert).
+- Final state: `dev` branch, clean except `app/View/Components/Render/Block.php` (pending PHPStan fix).
+
+## [2026-09-25] phpstan | UI/Render/Block view property type
+- `app/View/Components/Render/Block.php`: removed inline `@var view-string` inside `if (null === $view)` block that confused PHPStan's assign.propertyType; moved assertion after `Assert::string()`.
+- Cleared `assign.propertyType` error.
+
+## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
+
+- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
+- GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+
+# UI Wiki Log
+
+>>>>>>> laraxot/dev
 ## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
 - Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
 - Root cause identificata in `x-ui.marketing.header`: container mobile fullscreen `fixed` che intercettava i click anche a menu chiuso.
@@ -158,6 +185,7 @@ related:
 - Nuova pagina: `concepts/model-states-module-ownership.md`.
 - Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uf9N3K
@@ -181,6 +209,8 @@ related:
 >>>>>>> .merge_file_EyGpLn
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_gyhAFy
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -208,6 +238,7 @@ related:
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uf9N3K
 =======
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
@@ -381,4 +412,15 @@ related:
 =======
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
+>>>>>>> laraxot/dev
+=======
+- Schema: `docs/.schema/WIKI_SCHEMA.md`
+- Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
+
+---
+
+## [2026-09-25] phpstan | UI/Render/Block merge markers cleanup
+- `app/View/Components/Render/Block.php`: resolved `<<<<<<<` / `=======` / `>>>>>>>` merge conflict markers left from previous merge.
+- Final state uses `GetCmsViewAction::class->execute($view)` consistently in both `__construct()` and `render()`.
+- Cleared 3 `phpstan.parse` syntax errors.
 >>>>>>> laraxot/dev

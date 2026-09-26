@@ -24,6 +24,7 @@ final class ImageSpatie
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vvFQTX
 <<<<<<< HEAD
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString()),
@@ -62,6 +63,9 @@ final class ImageSpatie
 =======
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString()),
 >>>>>>> laraxot/dev
+=======
+                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString()),
+>>>>>>> laraxot/dev
                 // ->live()
                 SpatieMediaLibraryFileUpload::make('image')
                     ->live()
@@ -77,6 +81,7 @@ final class ImageSpatie
                     ->openable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vvFQTX
 =======
@@ -110,6 +115,10 @@ final class ImageSpatie
                     ->collection(fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(function (
 >>>>>>> laraxot/dev
+=======
+                    ->collection(fn (Get $get) => $get('img_uuid'))
+                    ->afterStateUpdated(function (
+>>>>>>> laraxot/dev
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,
@@ -120,16 +129,20 @@ final class ImageSpatie
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vvFQTX
 =======
 <<<<<<< .merge_file_zTSv5Q
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                             $collection_name = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $res = $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -149,10 +162,13 @@ final class ImageSpatie
 >>>>>>> .merge_file_Pj0Hqc
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                     }),
                 TextInput::make('caption'),
             ])
             ->columns('form' === $context ? 2 : 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vvFQTX
 =======
@@ -177,6 +193,8 @@ final class ImageSpatie
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_p0GqKA
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

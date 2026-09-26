@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WQ4ccr
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_eUW87D
 >>>>>>> .merge_file_EIEd8n
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Fasi di sviluppo - UI Module

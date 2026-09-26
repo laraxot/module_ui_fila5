@@ -267,6 +267,7 @@ php artisan test --filter=Xot
 ./vendor/bin/phpstan analyse Modules
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_CtY6Co
 
@@ -280,5 +281,7 @@ php artisan test --filter=Xot
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KmI7XY
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

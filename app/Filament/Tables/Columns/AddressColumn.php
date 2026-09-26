@@ -7,6 +7,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M1wv0c
 
 /**
@@ -24,14 +25,19 @@ use Filament\Tables\Columns\TextColumn;
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\AddressField;
 
 /**
  * Controparte in lista di {@see AddressField}.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> .merge_file_NIB9Ux
 >>>>>>> .merge_file_Bag2pu
 >>>>>>> .merge_file_hJD7Qz
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
  *
@@ -54,6 +60,7 @@ class AddressColumn extends GroupColumn
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M1wv0c
      * Stesso ordine di {@see \Modules\UI\Filament\Forms\Components\AddressField::getDefaultChildComponents()}.
 =======
@@ -67,6 +74,9 @@ class AddressColumn extends GroupColumn
 >>>>>>> .merge_file_NIB9Ux
 >>>>>>> .merge_file_Bag2pu
 >>>>>>> .merge_file_hJD7Qz
+=======
+     * Stesso ordine di {@see AddressField::getDefaultChildComponents()}.
+>>>>>>> laraxot/dev
 =======
      * Stesso ordine di {@see AddressField::getDefaultChildComponents()}.
 >>>>>>> laraxot/dev
@@ -92,6 +102,7 @@ class AddressColumn extends GroupColumn
      * Sostituisce l'elenco dei campi mostrati.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M1wv0c
      * @param  list<string>  $fields
 =======
@@ -112,6 +123,9 @@ class AddressColumn extends GroupColumn
 >>>>>>> .merge_file_NIB9Ux
 >>>>>>> .merge_file_Bag2pu
 >>>>>>> .merge_file_hJD7Qz
+=======
+     * @param list<string> $fields
+>>>>>>> laraxot/dev
 =======
      * @param list<string> $fields
 >>>>>>> laraxot/dev

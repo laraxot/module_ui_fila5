@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sPeRki
 =======
 <<<<<<< .merge_file_OrA5GF
@@ -77,6 +78,10 @@ sources: []
 
 >>>>>>> .merge_file_ox0TQy
 >>>>>>> .merge_file_HO3knZ
+=======
+# 🎨 UI
+
+>>>>>>> laraxot/dev
 =======
 # 🎨 UI
 
@@ -90,6 +95,7 @@ sources: []
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sPeRki
 =======
 <<<<<<< .merge_file_OrA5GF
@@ -104,6 +110,9 @@ sources: []
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ox0TQy
+=======
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+>>>>>>> laraxot/dev
 
 Vocabolario riusabile Blade, Livewire e Filament senza logica di dominio.
 
@@ -144,6 +153,7 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 
 <<<<<<< .merge_file_OrA5GF
 **Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -363,4 +373,6 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 ---
 
 **Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

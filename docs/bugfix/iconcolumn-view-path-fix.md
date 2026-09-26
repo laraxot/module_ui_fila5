@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Rmbcaz
 =======
 =======
@@ -64,6 +65,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1KYqa8
 >>>>>>> .merge_file_rM1jKw
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Bugfix: IconColumn View Path Mismatch
@@ -182,6 +185,7 @@ protected string $view = 'ui::filament.tables.columns.icon';
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Rmbcaz
 - [Laraxot Architectural Rules](../../architecture_rules.md)
 =======
@@ -205,6 +209,9 @@ protected string $view = 'ui::filament.tables.columns.icon';
 - [Laraxot Architectural Rules](../../architecture_rules.md)
 >>>>>>> .merge_file_1KYqa8
 >>>>>>> .merge_file_rM1jKw
+>>>>>>> laraxot/dev
+=======
+- [Laraxot Architectural Rules](../../architecture_rules.md)
 >>>>>>> laraxot/dev
 =======
 - [Laraxot Architectural Rules](../../architecture_rules.md)

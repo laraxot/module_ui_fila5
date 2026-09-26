@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -55,6 +59,7 @@ declare(strict_types=1);
         <div class="text-gray-700">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1Q0An8
 =======
             {!! $material->content !!}
@@ -73,6 +78,9 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k0TqYe
+=======
+            {!! $material->content !!}
+>>>>>>> laraxot/dev
 =======
             {!! $material->content !!}
 >>>>>>> laraxot/dev

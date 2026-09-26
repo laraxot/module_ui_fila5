@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DpIZ0S
 =======
 <<<<<<< .merge_file_i5JNqs
@@ -26,6 +27,9 @@
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QQzosc
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -66,6 +70,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
       "command": "npx",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DpIZ0S
       "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
 ||||||| parent of 9a84589 (.)
@@ -89,6 +94,10 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> .merge_file_QQzosc
+>>>>>>> laraxot/dev
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
+||||||| parent of 9a84589 (.)
 >>>>>>> laraxot/dev
 =======
       "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
@@ -103,6 +112,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
       "env": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DpIZ0S
 =======
 <<<<<<< .merge_file_i5JNqs
@@ -127,6 +137,10 @@ The UI module's MCP configuration enables AI assistants to interact with:
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QQzosc
+=======
+        "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
+||||||| parent of 9a84589 (.)
+>>>>>>> laraxot/dev
 =======
         "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
 ||||||| parent of 9a84589 (.)
@@ -148,6 +162,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 # Create task
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DpIZ0S
 =======
 <<<<<<< .merge_file_i5JNqs
@@ -172,6 +187,9 @@ The UI module's MCP configuration enables AI assistants to interact with:
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QQzosc
+=======
+"Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
+>>>>>>> laraxot/dev
 =======
 "Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
 >>>>>>> laraxot/dev
@@ -229,6 +247,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DpIZ0S
 =======
 <<<<<<< .merge_file_i5JNqs
@@ -245,6 +264,8 @@ The UI module's MCP configuration enables AI assistants to interact with:
 =======
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> .merge_file_QQzosc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Asana MCP Configuration](../../../../docs/mcp-asana-configuration.md)
@@ -252,6 +273,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 - [Redmine MCP Configuration](../../../../docs/mcp-redmine-configuration.md)
 - [UI Module Roadmap](./roadmap-[date].md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DpIZ0S
 =======
 =======
@@ -274,6 +296,8 @@ The UI module's MCP configuration enables AI assistants to interact with:
 =======
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> .merge_file_QQzosc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -284,6 +308,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DpIZ0S
 - **[DATE]**: Added ClickUp support
 - **[DATE]**: Planned Redmine integration
@@ -315,6 +340,10 @@ The UI module's MCP configuration enables AI assistants to interact with:
 - **[DATE]**: Planned Redmine integration
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> .merge_file_QQzosc
+>>>>>>> laraxot/dev
+=======
+- **[DATE]**: Added ClickUp support
+- **[DATE]**: Planned Redmine integration
 >>>>>>> laraxot/dev
 =======
 - **[DATE]**: Added ClickUp support
@@ -328,6 +357,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 **MCP Version**: 2.0.0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Review**: 31 Gennaio 2026
 =======
 <<<<<<< .merge_file_DpIZ0S
@@ -347,6 +377,9 @@ The UI module's MCP configuration enables AI assistants to interact with:
 **Last Review**: 31 Gennaio 2026
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> .merge_file_QQzosc
+>>>>>>> laraxot/dev
+=======
+**Last Review**: 31 Gennaio 2026
 >>>>>>> laraxot/dev
 =======
 **Last Review**: 31 Gennaio 2026

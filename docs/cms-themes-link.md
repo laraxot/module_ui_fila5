@@ -13,6 +13,7 @@ Secondo le regole di organizzazione della documentazione:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Oepzts
 =======
 <<<<<<< .merge_file_gV6Lxs
@@ -29,6 +30,8 @@ Secondo le regole di organizzazione della documentazione:
 =======
 >>>>>>> .merge_file_hPhW7m
 >>>>>>> .merge_file_PdVJuS
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Compilazione dei Temi](../../cms/docs/theme_compilation.md) - Processo di compilazione e pubblicazione dei temi
@@ -36,6 +39,7 @@ Secondo le regole di organizzazione della documentazione:
 - [Struttura dei Temi](../../cms/docs/themes/structure.md) - Organizzazione dei file nei temi
 - [Frontoffice](../../cms/docs/frontoffice.md) - Documentazione completa sul frontend
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Oepzts
 =======
 =======
@@ -58,6 +62,8 @@ Secondo le regole di organizzazione della documentazione:
 =======
 >>>>>>> .merge_file_hPhW7m
 >>>>>>> .merge_file_PdVJuS
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -74,6 +80,7 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Compilazione Temi](../../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
 - [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
 =======
@@ -82,6 +89,10 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 - [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
 <<<<<<< HEAD
 =======
+>>>>>>> laraxot/dev
+=======
+- [Compilazione Temi](../../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
+- [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
 >>>>>>> laraxot/dev
 
 ## Collegamento Bidirezionale
@@ -105,6 +116,7 @@ Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modul
 
 ## Documentazione dei Temi
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Oepzts
 =======
@@ -185,10 +197,13 @@ Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modul
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 Secondo le regole di organizzazione della documentazione:
 - La documentazione dei componenti UI va nel modulo UI
 - La documentazione del frontend va nel modulo Cms
 - La documentazione dei temi è distribuita tra entrambi i moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Oepzts
@@ -199,6 +214,8 @@ Secondo le regole di organizzazione della documentazione:
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PdVJuS
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -230,6 +247,7 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../cm
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -301,4 +319,6 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 =======
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

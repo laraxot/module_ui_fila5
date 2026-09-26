@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 <<<<<<< .merge_file_SvvvVN
@@ -1188,6 +1189,11 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+>>>>>>> laraxot/dev
+=======
+# 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
+
+[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 >>>>>>> laraxot/dev
 =======
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
@@ -1201,6 +1207,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 [![Laravel 13.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -1222,6 +1229,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> .merge_file_JzGveY
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1xmNjN
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
@@ -1326,6 +1335,7 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 ### ❌ MAI usare ->label()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 <<<<<<< .merge_file_SvvvVN
@@ -1350,6 +1360,8 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 >>>>>>> .merge_file_JzGveY
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1xmNjN
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```php
@@ -1476,6 +1488,7 @@ php artisan ui:test-components
 ### 🏗️ **Architettura**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 =======
@@ -1487,6 +1500,8 @@ php artisan ui:test-components
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Components Guide](components.md) - Guida completa componenti
@@ -1494,6 +1509,7 @@ php artisan ui:test-components
 - [Architecture Rules](architecture_rules.md) - Regole architetturali
 - [Best Practices](best-practices.md) - Linee guida sviluppo
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 =======
@@ -1506,6 +1522,8 @@ php artisan ui:test-components
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1518,6 +1536,7 @@ php artisan ui:test-components
 - **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema progressioni
 
 ### 🧩 **Componenti**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
@@ -1536,6 +1555,8 @@ php artisan ui:test-components
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Blade Components](blade-components.md) - Componenti Blade riutilizzabili
@@ -1554,6 +1575,7 @@ php artisan ui:test-components
 - [Translation Fixes](theme-translation-sync.md) - Correzioni traduzioni
 - [Clean Code](clean-code/README.md) - Principi clean code
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 =======
@@ -1576,6 +1598,8 @@ php artisan ui:test-components
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1703,6 +1727,7 @@ class DataTableComponent extends Component
 ### ❌ MAI usa match() per traduzioni negli Enum
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 <<<<<<< .merge_file_SvvvVN
@@ -1727,6 +1752,8 @@ class DataTableComponent extends Component
 >>>>>>> .merge_file_JzGveY
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1xmNjN
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```php
@@ -1828,6 +1855,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ### 📋 **Checklist Contribuzione**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 =======
@@ -1839,6 +1867,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [ ] Codice passa PHPStan level 10
@@ -1851,6 +1881,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [ ] Componenti testati
 - [ ] Responsive design verificato
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 =======
@@ -1863,6 +1894,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1876,6 +1909,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ## 📊 **Roadmap**
 
 ### 🎯 **Q1 2025**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
@@ -1894,6 +1928,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [ ] **Advanced Components** - Componenti interattivi avanzati
@@ -1910,6 +1946,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [ ] **Advanced Layouts** - Layout avanzati e dinamici
 - [ ] **Real-time Collaboration** - Collaborazione in tempo reale
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 =======
@@ -1932,6 +1969,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1981,6 +2020,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 =======
@@ -1992,6 +2032,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Documentazione Root](../../../docs/translation_standards_links.md)
@@ -2001,6 +2043,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [TableLayoutEnum Analysis](table_layout_enum_analysis.md)
 - [TableLayoutEnum Usage](table-layout-enum-usage.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ptGnEP
 =======
 =======
@@ -2013,6 +2056,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> .merge_file_1xmNjN
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

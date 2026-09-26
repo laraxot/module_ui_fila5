@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qEJ92Z
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
 =======
@@ -1523,6 +1524,9 @@ Se il troubleshooting non risolve:
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
 >>>>>>> .merge_file_AdOWrM
 >>>>>>> .merge_file_mrNAcP
+>>>>>>> laraxot/dev
+=======
+For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
 >>>>>>> laraxot/dev
 =======
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).

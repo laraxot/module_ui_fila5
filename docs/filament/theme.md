@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_anBZVn
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JWoMS0
 >>>>>>> .merge_file_QTErwO
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 https://fly.io/laravel-bytes/filamentphp-adding-some-style/

@@ -5,12 +5,15 @@ tags: [ui, actions, queueable-action, support, refactor, adapter]
 created: 2026-07-12
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yDyNzg
 =======
 <<<<<<< .merge_file_Gewcg7
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_OZ6TH3
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 updated: 2026-07-13
@@ -22,6 +25,7 @@ discussions:
 related:
   - block-rendering-and-optional-services.md
   - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< .merge_file_yDyNzg
@@ -65,6 +69,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 
 # no `app/Support/` — business logic in QueueableAction
@@ -73,6 +79,7 @@ related:
 
 Nel modulo UI **non** esiste più `app/Support/`.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_yDyNzg
@@ -93,6 +100,8 @@ Nel modulo UI **non** esiste più `app/Support/`.
 =======
 >>>>>>> .merge_file_7oi7LE
 >>>>>>> .merge_file_OZ6TH3
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Migrazione (2026-07-12)
@@ -119,6 +128,7 @@ Rimosso l'intera cartella `app/Services/` — duplicati o wrapper inutili:
 | `Map/NullMapService` | Già in `Adapters/Map/NullMapServiceAdapter` |
 | `Map/NullGeocodingService` | Già in `Adapters/Map/NullGeocodingServiceAdapter` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yDyNzg
 =======
 =======
@@ -143,6 +153,8 @@ Rimosso l'intera cartella `app/Services/` — duplicati o wrapper inutili:
 =======
 >>>>>>> .merge_file_7oi7LE
 >>>>>>> .merge_file_OZ6TH3
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -3,6 +3,7 @@
 ## Data
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B7hL5u
 [DATE]
 =======
@@ -26,6 +27,9 @@
 [DATE]
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> .merge_file_biNVuI
+>>>>>>> laraxot/dev
+=======
+[DATE]
 >>>>>>> laraxot/dev
 =======
 [DATE]
@@ -80,6 +84,7 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B7hL5u
 =======
 <<<<<<< .merge_file_GaK4SO
@@ -96,6 +101,8 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 =======
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> .merge_file_biNVuI
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
@@ -103,6 +110,7 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 
 *Ultimo aggiornamento: [DATE]*
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B7hL5u
 =======
 =======
@@ -125,6 +133,8 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 =======
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> .merge_file_biNVuI
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

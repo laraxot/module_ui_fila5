@@ -12,6 +12,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_drJowR
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 =======
@@ -52,6 +53,9 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma <
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 >>>>>>> .merge_file_uVwjfc
 >>>>>>> .merge_file_uLhkcc
+>>>>>>> laraxot/dev
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 >>>>>>> laraxot/dev
 =======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
@@ -336,6 +340,7 @@ UI Module
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_drJowR
 =======
 <<<<<<< .merge_file_FSEgFI
@@ -363,6 +368,9 @@ UI Module
 >>>>>>> .merge_file_uVwjfc
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_uLhkcc
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev

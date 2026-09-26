@@ -1,11 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_E7byec
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7D5E3n
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---
@@ -15,6 +18,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-january-2025-Mod
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-january-2025-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_E7byec
 =======
@@ -84,5 +88,7 @@ public function canTransitionTo(int|string $recordId, string $stateClass): bool
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7D5E3n
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -293,6 +293,7 @@ class ExampleComponent extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JaDrH5
 =======
 <<<<<<< .merge_file_KMqVnO
@@ -309,6 +310,8 @@ class ExampleComponent extends Component
 =======
 >>>>>>> .merge_file_7ysxSq
 >>>>>>> .merge_file_SR3J6U
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Documentazione Core](../../../../docs/core/)
@@ -316,6 +319,7 @@ class ExampleComponent extends Component
 - [Convenzioni Sistema](../../../../docs/core/conventions.md)
 - [Template Modulo](../../../../docs/templates/module-template.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JaDrH5
 =======
 =======
@@ -338,6 +342,8 @@ class ExampleComponent extends Component
 =======
 >>>>>>> .merge_file_7ysxSq
 >>>>>>> .merge_file_SR3J6U
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

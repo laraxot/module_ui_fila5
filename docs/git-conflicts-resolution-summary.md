@@ -47,6 +47,7 @@ Tutti i file risolti rispettano:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZWFJuS
 =======
 <<<<<<< .merge_file_s4T8Rp
@@ -85,6 +86,11 @@ Tutti i file risolti rispettano:
 - [Design System Guidelines](../../../../docs/design-system.md)
 >>>>>>> .merge_file_PWu1IH
 >>>>>>> .merge_file_uk1LgX
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Root UI](../../../../docs/modules/ui.md)
+- [Components Documentation](./components.md)
+- [Design System Guidelines](../../../../docs/design-system.md)
 >>>>>>> laraxot/dev
 =======
 - [Documentazione Root UI](../../../../docs/modules/ui.md)

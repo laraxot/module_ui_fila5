@@ -3,6 +3,7 @@ module: theme
 topic: ARCHITECTURE_2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< .merge_file_bedqmp
@@ -17,10 +18,13 @@ topic: ARCHITECTURE_2025
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 canonical: ../../../Themes/docs/shared-components/ARCHITECTURE.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/ARCHITECTURE.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bedqmp
@@ -69,5 +73,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/architecture
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_EyTxJq
 >>>>>>> .merge_file_nF6lb3
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

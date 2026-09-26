@@ -142,6 +142,7 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 # Testare l'URL che causava l'errore
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
@@ -187,12 +188,16 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 =======
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 >>>>>>> laraxot/dev
+=======
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+>>>>>>> laraxot/dev
 ```
 
 ### Risultati Test
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haWD6k
 =======
 ✅ **Sintassi PHP**: Nessun errore di sintassi
@@ -219,6 +224,11 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P07Ixw
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
+>>>>>>> laraxot/dev
 =======
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
@@ -251,6 +261,7 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haWD6k
 =======
 **Modulo**: UI
@@ -280,6 +291,11 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P07Ixw
+>>>>>>> laraxot/dev
+=======
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
 >>>>>>> laraxot/dev
 =======
 **Modulo**: UI

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Feature;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K1YqmF
 =======
 <<<<<<< .merge_file_46fMKE
@@ -15,6 +16,9 @@ use Filament\Tables\Columns\Column;
 >>>>>>> .merge_file_OqUqfT
 >>>>>>> .merge_file_bRWqlC
 >>>>>>> .merge_file_kGuRY1
+=======
+use Filament\Tables\Columns\Column;
+>>>>>>> laraxot/dev
 =======
 use Filament\Tables\Columns\Column;
 >>>>>>> laraxot/dev
@@ -37,6 +41,7 @@ describe('PersonColumn — controparte di PersonSection', function (): void {
     it('exposes the default field set, one TextColumn per field, directly on the record', function (): void {
         $column = PersonColumn::make();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K1YqmF
         $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
 =======
@@ -50,6 +55,9 @@ describe('PersonColumn — controparte di PersonSection', function (): void {
 >>>>>>> .merge_file_OqUqfT
 >>>>>>> .merge_file_bRWqlC
 >>>>>>> .merge_file_kGuRY1
+=======
+        $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
+>>>>>>> laraxot/dev
 =======
         $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
 >>>>>>> laraxot/dev
@@ -69,6 +77,7 @@ describe('PersonColumn — controparte di PersonSection', function (): void {
     it('restricts the field set via fields()', function (): void {
         $column = PersonColumn::make()->fields(['first_name', 'last_name']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_K1YqmF
         $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
 =======
@@ -82,6 +91,9 @@ describe('PersonColumn — controparte di PersonSection', function (): void {
 >>>>>>> .merge_file_OqUqfT
 >>>>>>> .merge_file_bRWqlC
 >>>>>>> .merge_file_kGuRY1
+=======
+        $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
+>>>>>>> laraxot/dev
 =======
         $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
 >>>>>>> laraxot/dev

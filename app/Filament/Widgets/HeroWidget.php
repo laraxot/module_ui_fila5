@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KRaZOD
 <<<<<<< HEAD
 =======
@@ -49,10 +50,15 @@ class HeroWidget extends XotBaseStatsOverviewWidget
 >>>>>>> .merge_file_lKEpGh
 >>>>>>> .merge_file_rGVqi0
 =======
-use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget as BaseWidget;
+=======
 use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> laraxot/dev
+use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget as BaseWidget;
 
 class HeroWidget extends BaseWidget
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 {
     protected ?string $heading = 'Hero Widget';

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fLZEw9
 # Utilizzo dei Componenti Filament Dropdown e Avatar 
 =======
@@ -50,6 +51,9 @@
 # Utilizzo dei Componenti Filament Dropdown e Avatar 
 >>>>>>> .merge_file_QauW3D
 >>>>>>> .merge_file_65JZXe
+>>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Filament Dropdown e Avatar 
 >>>>>>> laraxot/dev
 =======
 # Utilizzo dei Componenti Filament Dropdown e Avatar 
@@ -124,6 +128,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
     <div class="relative" x-data="{ open: false }" @click.away="open = false">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fLZEw9
 =======
 <<<<<<< .merge_file_FXkjod
@@ -182,6 +187,10 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_65JZXe
+>>>>>>> laraxot/dev
+=======
+        <button 
+            @click="open = ! open" 
 >>>>>>> laraxot/dev
 =======
         <button 
@@ -203,6 +212,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fLZEw9
         <div 
 =======
@@ -260,6 +270,9 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
         <div 
 >>>>>>> .merge_file_QauW3D
 >>>>>>> .merge_file_65JZXe
+>>>>>>> laraxot/dev
+=======
+        <div 
 >>>>>>> laraxot/dev
 =======
         <div 
@@ -382,6 +395,7 @@ $this->mount(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fLZEw9
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 =======
@@ -452,6 +466,9 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 >>>>>>> .merge_file_QauW3D
 >>>>>>> .merge_file_65JZXe
+>>>>>>> laraxot/dev
+=======
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 >>>>>>> laraxot/dev
 =======
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.

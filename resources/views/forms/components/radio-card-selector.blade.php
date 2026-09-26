@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DEMuud
 <<<<<<< HEAD
 =======
@@ -47,10 +48,15 @@
 
 declare(strict_types=1);
 =======
+=======
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 {{-- Radio Card Selector Component --}}

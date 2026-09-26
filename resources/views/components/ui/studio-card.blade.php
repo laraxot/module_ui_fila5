@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_83WXNq
 <<<<<<< HEAD
 =======
@@ -53,10 +54,15 @@
 
 declare(strict_types=1);
 =======
+=======
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 {{--

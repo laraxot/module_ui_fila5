@@ -142,6 +142,7 @@ Tutte le traduzioni seguono la struttura espansa:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zn9HBw
 =======
 <<<<<<< .merge_file_Z3wc97
@@ -175,6 +176,11 @@ Tutte le traduzioni seguono la struttura espansa:
 >>>>>>> .merge_file_BJD0Kx
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rNlBiX
+=======
+- [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
+- [Translation Standards](../../xot/docs/translation-standards.md)
+- [UI Module Documentation](../readme.md)
+>>>>>>> laraxot/dev
 =======
 - [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
 - [Translation Standards](../../xot/docs/translation-standards.md)

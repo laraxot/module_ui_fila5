@@ -28,6 +28,7 @@ final class UiCoverageNamedState implements StateContract
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> .merge_file_yImIAw
 =======
     /** @param array<array-key, mixed>|Model|string|null $record */
@@ -48,12 +49,15 @@ final class UiCoverageNamedState implements StateContract
     /**
 >>>>>>> .merge_file_S3isby
 >>>>>>> .merge_file_SBavPe
+=======
+>>>>>>> laraxot/dev
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_sCC0zr
 >>>>>>> laraxot/dev
 =======
@@ -63,6 +67,8 @@ final class UiCoverageNamedState implements StateContract
 >>>>>>> .merge_file_S3isby
 >>>>>>> .merge_file_SBavPe
 >>>>>>> .merge_file_yImIAw
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -110,6 +116,7 @@ final class UiCoverageNamedState implements StateContract
 
     /** @param  array<string, mixed>  $data */
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M8u3Yx
     public function modalActionByRecord(Model $record, array $data): void {}
 =======
@@ -135,6 +142,11 @@ final class UiCoverageNamedState implements StateContract
 >>>>>>> .merge_file_yImIAw
 =======
     public function modalActionByRecord(Model $record, array $data): void {}
+>>>>>>> laraxot/dev
+=======
+    public function modalActionByRecord(Model $record, array $data): void
+    {
+    }
 >>>>>>> laraxot/dev
 
     /** @return list<string> */
@@ -149,6 +161,7 @@ final class UiCoverageNamedState implements StateContract
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M8u3Yx
     public function transitionTo(string $state, ?string $message = null): void {}
 =======
@@ -174,6 +187,11 @@ final class UiCoverageNamedState implements StateContract
 >>>>>>> .merge_file_yImIAw
 =======
     public function transitionTo(string $state, ?string $message = null): void {}
+>>>>>>> laraxot/dev
+=======
+    public function transitionTo(string $state, ?string $message = null): void
+    {
+    }
 >>>>>>> laraxot/dev
 
     /** @return Collection<string, string> */

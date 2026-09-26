@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Actions\Header;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9ukwOs
 <<<<<<< HEAD
 use Filament\Actions\Action;
@@ -30,6 +31,9 @@ use Modules\Xot\Filament\Actions\XotBaseAction;
 use Modules\Xot\Filament\Actions\XotBaseAction;
 >>>>>>> .merge_file_DmZjB7
 >>>>>>> .merge_file_o0SU0w
+=======
+use Filament\Actions\Action;
+>>>>>>> laraxot/dev
 =======
 use Filament\Actions\Action;
 >>>>>>> laraxot/dev
@@ -38,6 +42,7 @@ use Filament\Actions\Action;
  * @see https://filamentphp.com/plugins/tgeorgel-table-layout-toggle
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9ukwOs
 =======
 <<<<<<< .merge_file_LyDJcY
@@ -61,6 +66,9 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
 class TableLayoutToggleHeaderAction extends XotBaseAction
 >>>>>>> .merge_file_DmZjB7
 >>>>>>> .merge_file_o0SU0w
+=======
+class TableLayoutToggleHeaderAction extends Action
+>>>>>>> laraxot/dev
 =======
 class TableLayoutToggleHeaderAction extends Action
 >>>>>>> laraxot/dev
@@ -81,14 +89,18 @@ class TableLayoutToggleHeaderAction extends Action
             // ->icon($this->listIcon)
             /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9ukwOs
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
              * /*
              * /*
              * /*
              * /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -113,6 +125,8 @@ class TableLayoutToggleHeaderAction extends Action
 =======
 >>>>>>> .merge_file_DmZjB7
 >>>>>>> .merge_file_o0SU0w
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
              * @param object{layoutView?: string|null} $livewire
@@ -130,6 +144,7 @@ class TableLayoutToggleHeaderAction extends Action
             })
             /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9ukwOs
 <<<<<<< HEAD
 =======
@@ -146,6 +161,8 @@ class TableLayoutToggleHeaderAction extends Action
 >>>>>>> .merge_file_o0SU0w
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
              * /*
              * /*
              * /*
@@ -153,6 +170,7 @@ class TableLayoutToggleHeaderAction extends Action
              * @param object{layoutView?: string|null} $livewire
              */
             ->action(function (object $livewire): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9ukwOs
 =======
@@ -174,6 +192,8 @@ class TableLayoutToggleHeaderAction extends Action
             ->action(static function (object $livewire): void {
 >>>>>>> .merge_file_DmZjB7
 >>>>>>> .merge_file_o0SU0w
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire

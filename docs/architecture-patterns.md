@@ -438,6 +438,7 @@ IconService
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ftiwjk
 =======
 <<<<<<< .merge_file_oQJTGD
@@ -499,10 +500,15 @@ IconService
 - **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> laraxot/dev
 - **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
 - **Index**: [INDEX.md](./INDEX.md)
 - **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
 - **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---

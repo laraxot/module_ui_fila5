@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_c8KRDW
 
 =======
@@ -10,6 +11,9 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_biX8tr
 >>>>>>> .merge_file_SzWcjP
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev

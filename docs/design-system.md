@@ -81,6 +81,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< .merge_file_VZusAK
@@ -161,6 +162,11 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     Contenuto della card
 
 >>>>>>> laraxot/dev
+=======
+
+    Contenuto della card
+
+>>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
     </x-slot>
@@ -205,6 +211,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 - [README](readme.md)
 =======
@@ -228,6 +235,9 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [README](readme.md)
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+>>>>>>> laraxot/dev
+=======
+- [README](readme.md)
 >>>>>>> laraxot/dev
 =======
 - [README](readme.md)
@@ -240,6 +250,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Theme Config](../config/theme.php)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< .merge_file_VZusAK
@@ -257,6 +268,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Filament UI](../../cms/docs/filament-components.md)
@@ -268,6 +281,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Componenti Base
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< HEAD
@@ -311,12 +325,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### 1. Tipografia
 ```css
 /* Font Family */
 --app-font-sans: 'Inter', sans-serif;
 --app-font-serif: 'Merriweather', serif;
 --app-font-mono: 'JetBrains Mono', monospace;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
@@ -338,6 +355,9 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -351,6 +371,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 
 ### 2. Colori
@@ -382,6 +403,11 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ```css
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+>>>>>>> laraxot/dev
+=======
+
+### 2. Colori
+```css
 >>>>>>> laraxot/dev
 =======
 
@@ -394,6 +420,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --app-accent: #EC4899;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 
 =======
@@ -413,6 +440,9 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -424,6 +454,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --app-info: #3B82F6;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< .merge_file_VZusAK
@@ -438,6 +469,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -445,6 +478,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 3. Spaziatura
 ```css
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 ### 3. Spaziatura
@@ -461,6 +495,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 /* Spacing Scale */
@@ -471,6 +507,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --so-spacing-xl: 2rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< .merge_file_VZusAK
@@ -485,6 +522,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -492,6 +531,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Componenti UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 ## Componenti UI
@@ -508,6 +548,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### 1. Pulsanti
@@ -517,6 +559,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 </x-ui.button>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< .merge_file_VZusAK
@@ -534,6 +577,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -545,6 +590,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 2. Form
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< .merge_file_VZusAK
@@ -563,6 +609,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 <x-ui.form.input
@@ -573,6 +621,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 
 =======
@@ -592,6 +641,9 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -602,6 +654,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     :options="$types"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< .merge_file_VZusAK
@@ -616,6 +669,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 />
@@ -624,6 +679,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 3. Card
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 ### 3. Card
@@ -642,10 +698,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_J8OenT
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <x-ui.card>
     <x-slot name="header">
         Titolo Card
     </x-slot>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
@@ -666,6 +725,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -682,6 +743,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 1. Grid System
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 =======
@@ -706,6 +768,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -716,6 +780,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 </x-ui.grid>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 <<<<<<< .merge_file_VZusAK
@@ -733,6 +798,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -747,6 +814,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
 =======
@@ -773,10 +841,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. **Coerenza**
    - Usare i componenti standard
    - Mantenere la palette colori
    - Seguire la scala tipografica
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
@@ -798,6 +869,9 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -808,6 +882,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
    - Testo alternativo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 
 =======
@@ -831,10 +906,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 3. **Responsive**
    - Mobile first
    - Breakpoint standard
    - Layout fluido
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
@@ -860,6 +939,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_J8OenT
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti Bidirezionali
 - [README](readme.md)
@@ -872,6 +953,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Filament UI](../../cms/project_docs/filament-components.md)
 - [Filament UI](../../cms/project_docs/filament-components.md)
 - [Filament UI](../../cms/project_docs/filament-components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vi9jA4
 =======
@@ -920,6 +1002,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> .merge_file_J8OenT
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

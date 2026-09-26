@@ -6,6 +6,7 @@ namespace Modules\UI\Actions;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YM9JS4
 =======
 =======
@@ -14,11 +15,14 @@ namespace Modules\UI\Actions;
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jhelL8
+=======
+>>>>>>> laraxot/dev
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 <<<<<<< .merge_file_ZxcNIN
 use Modules\User\Models\User;
+<<<<<<< HEAD
 <<<<<<< .merge_file_YM9JS4
 =======
 =======
@@ -57,6 +61,8 @@ use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 use Modules\User\Models\User;
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -68,6 +74,7 @@ class GetUserDataAction
     {
         $user = Auth::user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! $user instanceof UserContract) {
             return null;
@@ -141,6 +148,12 @@ class GetUserDataAction
             return null;
         }
 
+=======
+        if (! $user instanceof User) {
+            return null;
+        }
+
+>>>>>>> laraxot/dev
         // PHPStan L10: tenancy() è helper function, ma PHPStan non la riconosce
         // Rimuoviamo questa logica se non è necessaria per GetUserDataAction
         // Se necessario, usare Filament::getTenant() invece
@@ -159,12 +172,16 @@ class GetUserDataAction
         }
 
         // PHPStan L10: getRoleNames() restituisce Collection, ma PHPStan non lo riconosce dal trait
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         /** @var Collection<int, string> $roleNames */
         $roleNames = $user->getRoleNames();
         $firstRole = $roleNames->isNotEmpty() ? $roleNames->first() : null;
         $roleValue = is_string($firstRole) ? $firstRole : null;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YM9JS4
 <<<<<<< HEAD
@@ -225,6 +242,8 @@ class GetUserDataAction
 >>>>>>> .merge_file_C2T0Nu
 >>>>>>> .merge_file_jhelL8
 =======
+=======
+>>>>>>> laraxot/dev
         // Get settings - could be in profile or extra attributes
         /** @var array<string, mixed> $settingsArray */
         $settingsArray = [];
@@ -242,12 +261,16 @@ class GetUserDataAction
 
         // PHPStan L10: getAllPermissions() restituisce Collection, ma PHPStan non lo riconosce dal trait
         // method_exists() è sempre true perché User ha HasPermissions trait
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         /** @var Collection<int, Permission> $allPermissions */
         $allPermissions = $user->getAllPermissions();
         /** @var array<int, string> $permissions */
         $permissions = $allPermissions->pluck('name')->toArray();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YM9JS4
 <<<<<<< HEAD
@@ -272,6 +295,8 @@ class GetUserDataAction
             role: $roleValue,
             permissions: $permissions,
 =======
+=======
+>>>>>>> laraxot/dev
         return new UserData(
             id: (int) $user->id,
             name: (string) ($user->name ?? ''),
@@ -284,6 +309,7 @@ class GetUserDataAction
         );
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -327,6 +353,8 @@ class GetUserDataAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jhelL8
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

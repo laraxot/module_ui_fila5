@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g8i0mf
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_tlCd9t
 >>>>>>> .merge_file_coqdmo
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 https://github.com/tecnickcom/TCPDF

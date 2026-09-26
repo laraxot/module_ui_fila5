@@ -9,10 +9,13 @@ qmd: "01-current-state current state - ui"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WhegMH
 =======
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_43vT39
 =======
@@ -59,6 +62,9 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"

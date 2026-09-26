@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ra1LEC
 <<<<<<< HEAD
 =======
@@ -31,6 +32,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_IgHIoS
 >>>>>>> .merge_file_bIpOWO
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 return [
@@ -64,6 +67,7 @@ return [
         'label' => 'Table Layout Enum',
         'sort' => 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ra1LEC
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -89,6 +93,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_IgHIoS
 >>>>>>> .merge_file_bIpOWO
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> laraxot/dev

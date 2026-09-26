@@ -70,6 +70,7 @@ In il progetto, i form Filament sono implementati attraverso la classe base `Xot
 public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_Y7cJtp
 public function getFormSchema(): array
@@ -83,6 +84,8 @@ public function getFormSchema(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PyYs06
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

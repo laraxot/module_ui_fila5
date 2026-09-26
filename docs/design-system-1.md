@@ -81,6 +81,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     Contenuto della card
 
@@ -101,6 +102,11 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8lfGE4
+=======
+
+    Contenuto della card
+
+>>>>>>> laraxot/dev
 =======
 
     Contenuto della card

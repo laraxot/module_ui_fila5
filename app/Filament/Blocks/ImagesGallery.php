@@ -23,6 +23,7 @@ final class ImagesGallery
                             // ->maxSize(5000)
                             ->multiple()
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sokSPj
 <<<<<<< HEAD
                             ->enableReordering()
@@ -48,6 +49,9 @@ final class ImagesGallery
                             ->reorderable()
 >>>>>>> .merge_file_EBBQM2
 >>>>>>> .merge_file_o8RN7F
+=======
+                            ->reorderable()
+>>>>>>> laraxot/dev
 =======
                             ->reorderable()
 >>>>>>> laraxot/dev
@@ -75,6 +79,7 @@ final class ImagesGallery
                 //         // ->maxSize(5000)
                 //     ->multiple()
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sokSPj
 =======
 <<<<<<< .merge_file_gFx5sY
@@ -101,6 +106,9 @@ final class ImagesGallery
 =======
                 //     ->enableReordering()
 >>>>>>> laraxot/dev
+=======
+                //     ->enableReordering()
+>>>>>>> laraxot/dev
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()
@@ -120,6 +128,7 @@ final class ImagesGallery
             ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sokSPj
 =======
             ->columns('form' === $context ? 2 : 1);
@@ -140,6 +149,9 @@ final class ImagesGallery
 >>>>>>> .merge_file_o8RN7F
 =======
             ->columns($context === 'form' ? 2 : 1);
+>>>>>>> laraxot/dev
+=======
+            ->columns('form' === $context ? 2 : 1);
 >>>>>>> laraxot/dev
     }
 

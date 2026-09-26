@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tSPTqv
 <<<<<<< HEAD
 =======
@@ -42,6 +43,8 @@ return [
             'morning_label' => ['label' => 'Etichetta Mattina', 'placeholder' => 'es. Visite specialistiche', 'helper_text' => 'Descrizione attività mattutine del lunedì'],
             'afternoon_label' => ['label' => 'Etichetta Pomeriggio', 'placeholder' => 'es. Consulenze', 'helper_text' => 'Descrizione attività pomeridiane del lunedì'],
 =======
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'monday' => [
@@ -89,6 +92,9 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del lunedì',
             ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
@@ -96,6 +102,7 @@ return [
             'description' => '',
         ],
         'tuesday' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'morning' => ['label' => 'Mattina Martedì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del martedì mattina'],
             'afternoon' => ['label' => 'Pomeriggio Martedì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del martedì pomeriggio'],
@@ -106,6 +113,8 @@ return [
             'morning_label' => ['label' => 'Etichetta Mattina', 'placeholder' => 'es. Visite specialistiche', 'helper_text' => 'Descrizione attività mattutine del martedì'],
             'afternoon_label' => ['label' => 'Etichetta Pomeriggio', 'placeholder' => 'es. Consulenze', 'helper_text' => 'Descrizione attività pomeridiane del martedì'],
 =======
+=======
+>>>>>>> laraxot/dev
             'morning' => [
                 'label' => 'Mattina Martedì',
                 'placeholder' => 'Seleziona orario mattutino',
@@ -150,6 +159,9 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del martedì',
             ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
@@ -157,6 +169,7 @@ return [
             'description' => '',
         ],
         'wednesday' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'morning' => ['label' => 'Mattina Mercoledì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del mercoledì mattina'],
             'afternoon' => ['label' => 'Pomeriggio Mercoledì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del mercoledì pomeriggio'],
@@ -167,6 +180,8 @@ return [
             'morning_label' => ['label' => 'Etichetta Mattina', 'placeholder' => 'es. Visite specialistiche', 'helper_text' => 'Descrizione attività mattutine del mercoledì'],
             'afternoon_label' => ['label' => 'Etichetta Pomeriggio', 'placeholder' => 'es. Consulenze', 'helper_text' => 'Descrizione attività pomeridiane del mercoledì'],
 =======
+=======
+>>>>>>> laraxot/dev
             'morning' => [
                 'label' => 'Mattina Mercoledì',
                 'placeholder' => 'Seleziona orario mattutino',
@@ -211,6 +226,9 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del mercoledì',
             ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
@@ -218,6 +236,7 @@ return [
             'description' => '',
         ],
         'thursday' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'morning' => ['label' => 'Mattina Giovedì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del giovedì mattina'],
             'afternoon' => ['label' => 'Pomeriggio Giovedì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del giovedì pomeriggio'],
@@ -228,6 +247,8 @@ return [
             'morning_label' => ['label' => 'Etichetta Mattina', 'placeholder' => 'es. Visite specialistiche', 'helper_text' => 'Descrizione attività mattutine del giovedì'],
             'afternoon_label' => ['label' => 'Etichetta Pomeriggio', 'placeholder' => 'es. Consulenze', 'helper_text' => 'Descrizione attività pomeridiane del giovedì'],
 =======
+=======
+>>>>>>> laraxot/dev
             'morning' => [
                 'label' => 'Mattina Giovedì',
                 'placeholder' => 'Seleziona orario mattutino',
@@ -272,6 +293,9 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del giovedì',
             ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
@@ -279,6 +303,7 @@ return [
             'description' => '',
         ],
         'friday' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'morning' => ['label' => 'Mattina Venerdì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del venerdì mattina'],
             'afternoon' => ['label' => 'Pomeriggio Venerdì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del venerdì pomeriggio'],
@@ -289,6 +314,8 @@ return [
             'morning_label' => ['label' => 'Etichetta Mattina', 'placeholder' => 'es. Visite specialistiche', 'helper_text' => 'Descrizione attività mattutine del venerdì'],
             'afternoon_label' => ['label' => 'Etichetta Pomeriggio', 'placeholder' => 'es. Consulenze', 'helper_text' => 'Descrizione attività pomeridiane del venerdì'],
 =======
+=======
+>>>>>>> laraxot/dev
             'morning' => [
                 'label' => 'Mattina Venerdì',
                 'placeholder' => 'Seleziona orario mattutino',
@@ -333,6 +360,9 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del venerdì',
             ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
@@ -340,6 +370,7 @@ return [
             'description' => '',
         ],
         'saturday' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'morning' => ['label' => 'Mattina Sabato', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del sabato mattina'],
             'afternoon' => ['label' => 'Pomeriggio Sabato', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del sabato pomeriggio'],
@@ -350,6 +381,8 @@ return [
             'morning_label' => ['label' => 'Etichetta Mattina', 'placeholder' => 'es. Visite specialistiche', 'helper_text' => 'Descrizione attività mattutine del sabato'],
             'afternoon_label' => ['label' => 'Etichetta Pomeriggio', 'placeholder' => 'es. Consulenze', 'helper_text' => 'Descrizione attività pomeridiane del sabato'],
 =======
+=======
+>>>>>>> laraxot/dev
             'morning' => [
                 'label' => 'Mattina Sabato',
                 'placeholder' => 'Seleziona orario mattutino',
@@ -394,6 +427,9 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del sabato',
             ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
@@ -401,6 +437,7 @@ return [
             'description' => '',
         ],
         'sunday' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'morning' => ['label' => 'Mattina Domenica', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura della domenica mattina'],
             'afternoon' => ['label' => 'Pomeriggio Domenica', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura della domenica pomeriggio'],
@@ -411,6 +448,8 @@ return [
             'morning_label' => ['label' => 'Etichetta Mattina', 'placeholder' => 'es. Visite specialistiche', 'helper_text' => 'Descrizione attività mattutine della domenica'],
             'afternoon_label' => ['label' => 'Etichetta Pomeriggio', 'placeholder' => 'es. Consulenze', 'helper_text' => 'Descrizione attività pomeridiane della domenica'],
 =======
+=======
+>>>>>>> laraxot/dev
             'morning' => [
                 'label' => 'Mattina Domenica',
                 'placeholder' => 'Seleziona orario mattutino',
@@ -451,12 +490,16 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane della domenica',
             ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
         'schedule' => ['label' => 'Programma Orari', 'placeholder' => 'Configura gli orari di apertura', 'helper_text' => 'Gestione completa degli orari di disponibilità', 'tooltip' => '', 'description' => ''],
         'availability' => ['label' => 'Disponibilità', 'placeholder' => 'Imposta la tua disponibilità', 'helper_text' => 'Configura quando sei disponibile per appuntamenti', 'tooltip' => '', 'description' => ''],
@@ -519,6 +562,8 @@ return [
             'afternoon_from' => ['label' => 'friday.afternoon_from', 'placeholder' => 'friday.afternoon_from', 'helper_text' => 'friday.afternoon_from', 'description' => 'friday.afternoon_from'],
             'afternoon_to' => ['label' => 'friday.afternoon_to', 'placeholder' => 'friday.afternoon_to', 'helper_text' => 'friday.afternoon_to', 'description' => 'friday.afternoon_to'],
 =======
+=======
+>>>>>>> laraxot/dev
         'schedule' => [
             'label' => 'Programma Orari',
             'placeholder' => 'Configura gli orari di apertura',
@@ -743,6 +788,9 @@ return [
                 'helper_text' => 'friday.afternoon_to',
                 'description' => 'friday.afternoon_to',
             ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         ],
     ],
@@ -751,6 +799,7 @@ return [
     'navigation' => [
         'name' => 'Opening Hours Field',
         'plural' => 'Opening Hours Field',
+<<<<<<< HEAD
 <<<<<<< HEAD
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Opening Hours Field',
@@ -771,6 +820,8 @@ return [
 >>>>>>> .merge_file_Xl9S4X
 >>>>>>> .merge_file_hQT2KH
 =======
+=======
+>>>>>>> laraxot/dev
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
@@ -780,4 +831,7 @@ return [
         'icon' => 'heroicon-o-collection',
     ],
 ];
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

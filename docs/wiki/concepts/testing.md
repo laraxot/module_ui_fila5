@@ -8,6 +8,7 @@ qmd: "UI module testing Pest PHPStan Sixteen components mockService createStub"
 issues:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ttQZaF
 =======
 <<<<<<< .merge_file_O021b8
@@ -30,6 +31,8 @@ related:
 =======
 >>>>>>> .merge_file_E3NDq0
 >>>>>>> .merge_file_9nUfrc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   - "https://github.com/laraxot/base_fixcity_fila5/issues/52"
@@ -39,6 +42,7 @@ related:
   - ../../../../Themes/Sixteen/docs/wiki/concepts/theme-component-test-contract.md
   - ../../../Xot/docs/wiki/concepts/phpstan-pest-bridge-discipline.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ttQZaF
 =======
 =======
@@ -67,6 +71,8 @@ related:
 =======
 >>>>>>> .merge_file_E3NDq0
 >>>>>>> .merge_file_9nUfrc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

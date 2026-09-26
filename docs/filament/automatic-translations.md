@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n2YBuO
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ae8Ptr
 >>>>>>> .merge_file_q8YVai
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Traduzioni Automatiche nei Componenti Filament

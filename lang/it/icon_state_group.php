@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ge4NPR
 <<<<<<< HEAD
 =======
@@ -115,6 +116,8 @@ return [
         'refund_integrate-icon' => ['label' => 'refund_integrate-icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'done-icon' => ['label' => 'done-icon'],
 =======
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'name' => [
@@ -603,6 +606,9 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     ],
     'label' => 'Icon State Group',
@@ -610,6 +616,7 @@ return [
     'navigation' => [
         'name' => 'Icon State Group',
         'plural' => 'Icon State Group',
+<<<<<<< HEAD
 <<<<<<< HEAD
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Icon State Group',
@@ -637,6 +644,8 @@ return [
 >>>>>>> .merge_file_0XOgfv
 >>>>>>> .merge_file_nEDNaI
 =======
+=======
+>>>>>>> laraxot/dev
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
@@ -657,4 +666,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

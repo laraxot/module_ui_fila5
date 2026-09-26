@@ -10,6 +10,7 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dp6MR9
 <<<<<<< HEAD
 =======
@@ -53,6 +54,11 @@ function renderCategoryTabsHtml(array $data = []): ?string
 
 /**
  * @param  array<string, mixed>  $data
+=======
+
+/**
+ * @param array<string, mixed> $data
+>>>>>>> laraxot/dev
  */
 function renderCategoryTabsHtml(array $data = []): ?string
 {
@@ -60,11 +66,15 @@ function renderCategoryTabsHtml(array $data = []): ?string
     $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
 
     if (! View::exists($viewName)) {
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         return null;
     }
 
     try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Dp6MR9
 <<<<<<< HEAD
@@ -103,6 +113,9 @@ function renderCategoryTabsHtml(array $data = []): ?string
 =======
         return View::make($viewName, $data)->render();
 >>>>>>> laraxot/dev
+=======
+        return View::make($viewName, $data)->render();
+>>>>>>> laraxot/dev
     } catch (\Throwable) {
         return null;
     }
@@ -111,6 +124,7 @@ function renderCategoryTabsHtml(array $data = []): ?string
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dp6MR9
 =======
  * @param array<string, mixed> $data
@@ -131,6 +145,9 @@ function renderCategoryTabsHtml(array $data = []): ?string
 >>>>>>> .merge_file_ywTZ5b
 =======
  * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
+=======
+ * @param array<string, mixed> $data
 >>>>>>> laraxot/dev
  */
 function requireCategoryTabsHtml(array $data = []): string
@@ -138,6 +155,7 @@ function requireCategoryTabsHtml(array $data = []): string
     $html = renderCategoryTabsHtml($data);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dp6MR9
 =======
     if (null === $html) {
@@ -158,6 +176,9 @@ function requireCategoryTabsHtml(array $data = []): string
 >>>>>>> .merge_file_ywTZ5b
 =======
     if ($html === null) {
+>>>>>>> laraxot/dev
+=======
+    if (null === $html) {
 >>>>>>> laraxot/dev
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }

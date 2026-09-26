@@ -3,6 +3,7 @@
 ## Collegamenti correlati
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dhNUFP
 =======
 <<<<<<< .merge_file_TI9D6n
@@ -27,6 +28,8 @@ Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere 
 >>>>>>> .merge_file_00nZA1
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [Documentazione centrale](/docs/readme.md)
 - [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
 - [Documentazione UI](/laravel/modules/ui/docs/readme.md)
@@ -37,6 +40,7 @@ Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere 
 ## Panoramica
 
 Il modulo UI di Quaeris include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dhNUFP
 =======
@@ -101,11 +105,14 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dhNUFP
@@ -197,6 +204,9 @@ Modules/UI/resources/svg/flags/
 /var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
 >>>>>>> .merge_file_Rcu61A
 >>>>>>> .merge_file_00nZA1
+>>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
 >>>>>>> laraxot/dev
 =======
 /var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
@@ -252,6 +262,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dhNUFP
 =======
 <<<<<<< .merge_file_TI9D6n
@@ -324,6 +335,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 =======
 >>>>>>> .merge_file_Rcu61A
 >>>>>>> .merge_file_00nZA1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -333,6 +346,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
     aria-label="Seleziona lingua italiana" 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -360,6 +374,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -428,6 +444,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 2. **Personalizzazione**: Facile da personalizzare con classi CSS
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
@@ -1099,6 +1116,9 @@ Le bandiere devono essere utilizzate come icone Filament:
 5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
 >>>>>>> .merge_file_Rcu61A
 >>>>>>> .merge_file_00nZA1
+>>>>>>> laraxot/dev
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
 >>>>>>> laraxot/dev
 =======
 5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
@@ -1160,6 +1180,7 @@ Per visualizzare correttamente le bandiere, è necessario:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 =======
 <<<<<<< HEAD
@@ -1201,6 +1222,9 @@ L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più effic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_00nZA1
+>>>>>>> laraxot/dev
+=======
+L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 >>>>>>> laraxot/dev
 =======
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.

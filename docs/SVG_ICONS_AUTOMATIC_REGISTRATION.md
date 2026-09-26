@@ -93,6 +93,7 @@ php artisan view:clear
 # Test in browser
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 =======
 <<<<<<< HEAD
@@ -136,6 +137,9 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9fcLLF
+>>>>>>> laraxot/dev
+=======
+# http://fixcity.local/it/tests/homepage
 >>>>>>> laraxot/dev
 =======
 # http://fixcity.local/it/tests/homepage

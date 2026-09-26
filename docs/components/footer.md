@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_f2bnQV
 =======
 =======
@@ -72,6 +73,8 @@ related:
 >>>>>>> .merge_file_yTo7t3
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Footer Component
 
 Questo documento serve come punto di riferimento centrale per la documentazione del componente Footer.
@@ -87,6 +90,7 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 ### Documentazione Principale
 - [Documentazione Dettagliata del Footer](../../../../themes/one/docs/components/layouts/footer.md)
 - [Guida allo Stile del Tema One](../../../../themes/one/docs/style_guide.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_f2bnQV
@@ -112,6 +116,9 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 - [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
 >>>>>>> .merge_file_gS9xt8
 >>>>>>> .merge_file_yTo7t3
+>>>>>>> laraxot/dev
+=======
+- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
 >>>>>>> laraxot/dev
 =======
 - [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)

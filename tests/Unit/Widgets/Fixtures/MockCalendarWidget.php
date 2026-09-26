@@ -14,6 +14,7 @@ class MockCalendarWidget extends BaseCalendarWidgetStub
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * <<<<<<< HEAD.
      *
      * @param array<string, mixed> $fetchInfo
@@ -25,6 +26,10 @@ class MockCalendarWidget extends BaseCalendarWidgetStub
      * @param array<string, mixed> $fetchInfo
 >>>>>>> laraxot/dev
      *
+=======
+     * @param array<string, mixed> $fetchInfo
+     *
+>>>>>>> laraxot/dev
      * @return array<int, array{id: int, title: string, start: string, end: string, color: string}>
      */
     public function fetchEvents(array $fetchInfo): array

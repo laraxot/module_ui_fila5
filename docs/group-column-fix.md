@@ -3,6 +3,7 @@
 ## Problema
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D1jbSL
 =======
 <<<<<<< .merge_file_63Rzcf
@@ -43,6 +44,8 @@ La view ora usa un approccio a due livelli:
 =======
 >>>>>>> .merge_file_ilb9LM
 >>>>>>> .merge_file_g20to9
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 L'errore `LogicException - The column [matr] is not mounted to a table` si verificava quando il componente `GroupColumn` veniva utilizzato in una tabella Filament. Il problema era che le colonne figlio non erano correttamente montate alla tabella padre.
@@ -101,6 +104,7 @@ La view è stata aggiornata per:
 - Aggiungere etichette per migliorare la leggibilità
 - Gestire meglio i valori null
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D1jbSL
 =======
 =======
@@ -150,10 +154,13 @@ La view ora usa un approccio a due livelli:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ```php
 @php
     $name = $field->getName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D1jbSL
@@ -206,6 +213,8 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 =======
 >>>>>>> .merge_file_ilb9LM
 >>>>>>> .merge_file_g20to9
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     $value = $record->getAttribute($name);
@@ -230,6 +239,7 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 ## Utilizzo
 Il `GroupColumn` può essere utilizzato per raggruppare più valori in una singola colonna della tabella, risparmiando spazio:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D1jbSL
 =======
 =======
@@ -289,12 +299,15 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ```php
 GroupColumn::make('lavoratore')->schema([
     TextColumn::make('matr'),
     TextColumn::make('cognome'),
     TextColumn::make('nome'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D1jbSL
@@ -369,6 +382,8 @@ I test verificano:
 =======
 >>>>>>> .merge_file_ilb9LM
 >>>>>>> .merge_file_g20to9
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     TextColumn::make('email'),
@@ -390,6 +405,7 @@ Sono stati creati test per verificare:
 - [ProgressioniResource Usage](../../progressioni/docs/progressioni-resource.md)
 - [Filament Tables Documentation](https://filamentphp.com/docs/3.x/tables/columns)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D1jbSL
 =======
 =======
@@ -468,6 +484,8 @@ I test verificano:
 =======
 >>>>>>> .merge_file_ilb9LM
 >>>>>>> .merge_file_g20to9
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

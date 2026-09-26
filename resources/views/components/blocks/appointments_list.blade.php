@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mmKz5M
 <<<<<<< HEAD
 =======
@@ -44,10 +45,15 @@
 
 declare(strict_types=1);
 =======
+=======
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 @props(['title' => 'Appuntamenti'])

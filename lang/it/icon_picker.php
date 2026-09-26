@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xG1ICI
 <<<<<<< HEAD
 =======
@@ -20,6 +21,8 @@ declare(strict_types=1);
 // File: lang/it/icon_picker.php
 =======
 >>>>>>> .merge_file_kULYkf
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 return [
@@ -48,6 +51,7 @@ return [
             'description' => '',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xG1ICI
 =======
 =======
@@ -71,12 +75,15 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Icon Picker',
     'plural_label' => 'Icon Picker (Plurale)',
     'navigation' => [
         'name' => 'Icon Picker',
         'plural' => 'Icon Picker',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xG1ICI
@@ -87,6 +94,8 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Lqn04c
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         'group' => [
@@ -111,6 +120,7 @@ return [
         'delete' => [
             'label' => 'Elimina Icon Picker',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xG1ICI
 =======
@@ -147,6 +157,8 @@ return [
         ],
 >>>>>>> .merge_file_kULYkf
 >>>>>>> .merge_file_Lqn04c
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ],

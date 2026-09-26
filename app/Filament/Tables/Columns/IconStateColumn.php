@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_dGJT1b
 use Exception;
@@ -19,6 +20,8 @@ use Exception;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_f2LYFQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -28,6 +31,7 @@ use Filament\Forms\Components\Textarea;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Get;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 <<<<<<< HEAD
 use Filament\Tables\Columns\IconColumn;
@@ -49,6 +53,9 @@ use Filament\Tables\Columns\IconColumn;
 =======
 >>>>>>> .merge_file_TiXTrx
 >>>>>>> .merge_file_f2LYFQ
+=======
+use Filament\Tables\Columns\IconColumn;
+>>>>>>> laraxot/dev
 =======
 use Filament\Tables\Columns\IconColumn;
 >>>>>>> laraxot/dev
@@ -58,6 +65,7 @@ use Illuminate\Support\Str;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract as XotStateContract;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 =======
 <<<<<<< .merge_file_tjAhRw
@@ -89,6 +97,10 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseIconColumn;
 class IconStateColumn extends XotBaseIconColumn
 >>>>>>> .merge_file_TiXTrx
 >>>>>>> .merge_file_f2LYFQ
+=======
+
+class IconStateColumn extends IconColumn
+>>>>>>> laraxot/dev
 =======
 
 class IconStateColumn extends IconColumn
@@ -100,6 +112,7 @@ class IconStateColumn extends IconColumn
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 <<<<<<< HEAD
 =======
@@ -111,6 +124,8 @@ class IconStateColumn extends IconColumn
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_f2LYFQ
+=======
+>>>>>>> laraxot/dev
         $this->icon(function (XotStateContract $state) {
 =======
         $this->icon(static function (XotStateContract $state) {
@@ -124,6 +139,7 @@ class IconStateColumn extends IconColumn
 
 <<<<<<< .merge_file_tjAhRw
         $this->tooltip(function (XotStateContract $state) {
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 =======
 =======
@@ -164,6 +180,8 @@ class IconStateColumn extends IconColumn
 
         $this->tooltip(function (XotStateContract $state) {
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
             return $state->label();
         });
         // $this->label('aaa');
@@ -172,6 +190,7 @@ class IconStateColumn extends IconColumn
             Action::make('change-state')
                 ->schema([
                     Select::make('state')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 <<<<<<< HEAD
@@ -198,13 +217,18 @@ class IconStateColumn extends IconColumn
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                         ->options(function (Model $record, string $_state): array {
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
                             if (null === $state) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> .merge_file_TiXTrx
 >>>>>>> .merge_file_f2LYFQ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                                 if (! method_exists($record, 'getDefaultStateFor')) {
@@ -232,6 +256,7 @@ class IconStateColumn extends IconColumn
                                 /** @var array<int|string, mixed> $statesArray */
                                 $statesArray = $state->transitionableStates();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
                             } catch (Exception $e) {
 =======
@@ -241,6 +266,9 @@ class IconStateColumn extends IconColumn
                             } catch (\Exception $e) {
 >>>>>>> .merge_file_TiXTrx
 >>>>>>> .merge_file_f2LYFQ
+=======
+                            } catch (\Exception $e) {
+>>>>>>> laraxot/dev
 =======
                             } catch (\Exception $e) {
 >>>>>>> laraxot/dev
@@ -258,7 +286,11 @@ class IconStateColumn extends IconColumn
                             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                             return Arr::mapWithKeys($statesArray, static function (mixed $stateItem) use ($record): array {
+=======
+                            return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
+>>>>>>> laraxot/dev
 =======
                             return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
 >>>>>>> laraxot/dev
@@ -273,6 +305,7 @@ class IconStateColumn extends IconColumn
                             });
                         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 >>>>>>> laraxot/dev
 =======
@@ -285,6 +318,8 @@ class IconStateColumn extends IconColumn
 =======
 >>>>>>> .merge_file_TiXTrx
 >>>>>>> .merge_file_f2LYFQ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                         ->required()
@@ -334,6 +369,7 @@ class IconStateColumn extends IconColumn
                     ];
                 })
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 <<<<<<< HEAD
 =======
@@ -345,6 +381,8 @@ class IconStateColumn extends IconColumn
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_f2LYFQ
+=======
+>>>>>>> laraxot/dev
                 ->action(function ($record, $data): void {
 =======
                 ->action(function (Model $record, array $data): void {
@@ -365,6 +403,7 @@ class IconStateColumn extends IconColumn
                     if (! is_object($record)) {
                         throw new \Exception('Record must be an object');
                     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 =======
@@ -393,6 +432,8 @@ class IconStateColumn extends IconColumn
 >>>>>>> .merge_file_f2LYFQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                     $model = Str::of(class_basename($record))->slug()->toString();
                     /** @var string $label */
                     $label = __('pub_theme::'.$model.'_states.'.$state.'.label');
@@ -401,6 +442,7 @@ class IconStateColumn extends IconColumn
                     if (! is_object($currentState) || ! method_exists($currentState, 'transitionTo')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 =======
                         throw new \Exception('Current state is not a valid State instance');
@@ -419,6 +461,9 @@ class IconStateColumn extends IconColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_f2LYFQ
+=======
+                        throw new \Exception('Current state is not a valid State instance');
+>>>>>>> laraxot/dev
 =======
                         throw new \Exception('Current state is not a valid State instance');
 >>>>>>> laraxot/dev
@@ -435,6 +480,7 @@ class IconStateColumn extends IconColumn
                 }),
         );
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dGJT1b
 <<<<<<< HEAD
@@ -538,6 +584,8 @@ class IconStateColumn extends IconColumn
 =======
 >>>>>>> .merge_file_TiXTrx
 >>>>>>> .merge_file_f2LYFQ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }

@@ -11,6 +11,7 @@ use function Safe\file_get_contents;
 
 uses(TestCase::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iaCL3h
 <<<<<<< HEAD
 =======
@@ -44,6 +45,8 @@ uses(TestCase::class);
 =======
 >>>>>>> .merge_file_7veupQ
 >>>>>>> .merge_file_AF5FIT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 

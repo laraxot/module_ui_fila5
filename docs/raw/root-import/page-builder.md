@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vvber9
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_oOIclS
 >>>>>>> .merge_file_ealWv3
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891

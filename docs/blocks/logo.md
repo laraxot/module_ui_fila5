@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZwsOkZ
 =======
 =======
@@ -66,6 +67,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YRmqoB
 >>>>>>> .merge_file_CDorOV
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Logo Component

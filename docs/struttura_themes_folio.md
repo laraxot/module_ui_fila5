@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_edIFA2
 # Struttura Themes e Folio in <nome progetto>
 =======
@@ -51,6 +52,9 @@
 # Struttura Themes e Folio in <nome progetto>
 >>>>>>> .merge_file_9wocbN
 >>>>>>> .merge_file_rDPLP9
+>>>>>>> laraxot/dev
+=======
+# Struttura Themes e Folio in <nome progetto>
 >>>>>>> laraxot/dev
 =======
 # Struttura Themes e Folio in <nome progetto>
@@ -66,6 +70,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_edIFA2
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 =======
@@ -136,6 +141,9 @@ Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifi
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 >>>>>>> .merge_file_9wocbN
 >>>>>>> .merge_file_rDPLP9
+>>>>>>> laraxot/dev
+=======
+Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 >>>>>>> laraxot/dev
 =======
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:

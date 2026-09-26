@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mICuVn
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rmTtGI
 >>>>>>> .merge_file_JuKdlI
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # effetcts

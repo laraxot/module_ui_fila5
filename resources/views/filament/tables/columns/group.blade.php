@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XIq0w6
 <<<<<<< HEAD
 =======
@@ -10,6 +11,8 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_w11qC4
+=======
+>>>>>>> laraxot/dev
 <?php
 =======
 @php
@@ -28,6 +31,7 @@
     $record = $getRecord();
 <<<<<<< .merge_file_1v2lTy
 ?>
+<<<<<<< HEAD
 <<<<<<< .merge_file_XIq0w6
 =======
 =======
@@ -71,11 +75,14 @@ declare(strict_types=1);
     $record = $getRecord();
 ?>
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <div
     {{
         $attributes
             ->merge($getExtraAttributes(), escape: false)
             ->class([
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XIq0w6
 <<<<<<< HEAD
@@ -92,10 +99,13 @@ declare(strict_types=1);
 >>>>>>> .merge_file_w11qC4
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                 'fi-ta-icon flex flex-wrap gap-1.5',
                 'px-3 py-4' => ! $isInline(),
                 //'flex-col' => $isListWithLineBreaks(),
                 'flex-col' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XIq0w6
 =======
@@ -117,10 +127,13 @@ declare(strict_types=1);
 >>>>>>> .merge_file_w11qC4
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
             ])
     }}
 >
     @foreach ($fields as $field)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XIq0w6
 <<<<<<< HEAD
@@ -241,6 +254,9 @@ declare(strict_types=1);
 >>>>>>> .merge_file_w11qC4
 =======
      
+=======
+     
+>>>>>>> laraxot/dev
         @php
             $name = $field->getName();
             $value = $record->{$name} ?? null;
@@ -253,6 +269,9 @@ declare(strict_types=1);
             $formattedValue = $value;
 
             // Resolve the label leveraging LangServiceProvider auto translations
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             $rawLabel = $field->getLabel();
 
@@ -269,6 +288,7 @@ declare(strict_types=1);
             }
 
             if ($labelText === '') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XIq0w6
 <<<<<<< HEAD
@@ -300,6 +320,8 @@ declare(strict_types=1);
         @endphp
 <<<<<<< .merge_file_1v2lTy
 =======
+=======
+>>>>>>> laraxot/dev
                 $translationKey = 'ui::table.columns.' . $name . '.label';
                 $translated = __($translationKey);
                 $labelText = $translated !== $translationKey
@@ -314,6 +336,7 @@ declare(strict_types=1);
             {{ $displayText }}<br/>
         
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XIq0w6
 =======
@@ -380,6 +403,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_iTWqf4
 >>>>>>> .merge_file_w11qC4
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     @endforeach

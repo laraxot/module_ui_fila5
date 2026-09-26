@@ -113,6 +113,9 @@ php artisan view:clear
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # http://fixcity.local/it/tests/homepage
 
@@ -147,6 +150,9 @@ php artisan view:clear
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -208,6 +214,9 @@ php artisan view:clear
 =======
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 

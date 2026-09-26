@@ -9,6 +9,7 @@ qmd: "UI icon_state_group opening_hours_field split claude-audit"
 issues:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cnKS99
 =======
 <<<<<<< .merge_file_9F7aKh
@@ -25,6 +26,8 @@ related:
 =======
 >>>>>>> .merge_file_psdzOI
 >>>>>>> .merge_file_ZvWrsT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   - "https://github.com/laraxot/module_ui_fila5/issues/1"
@@ -33,6 +36,7 @@ discussions:
 related:
   - ./claude-audit-static.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cnKS99
 =======
 <<<<<<< .merge_file_9F7aKh
@@ -50,6 +54,8 @@ related:
 >>>>>>> .merge_file_psdzOI
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZvWrsT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

@@ -6,6 +6,7 @@ return [
     'name' => 'UI',
     'description' => 'Modulo per la gestione dell\'interfaccia utente e componenti',
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2ctsNY
 <<<<<<< HEAD
     'icon' => 'heroicon-o-squares-2x2',
@@ -31,6 +32,9 @@ return [
     'icon' => 'ui-icon',
 >>>>>>> .merge_file_fKWbd6
 >>>>>>> .merge_file_t1U4Ku
+=======
+    'icon' => 'heroicon-o-squares-2x2',
+>>>>>>> laraxot/dev
 =======
     'icon' => 'heroicon-o-squares-2x2',
 >>>>>>> laraxot/dev

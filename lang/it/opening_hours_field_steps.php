@@ -7,6 +7,7 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/opening_hours_field_steps.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dhd2zI
 <<<<<<< HEAD
 return array (
@@ -47,6 +48,8 @@ return array (
 >>>>>>> .merge_file_vILJcO
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     'steps' => [
         'Afternoon to' => [
@@ -76,9 +79,12 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dhd2zI
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_vILJcO
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

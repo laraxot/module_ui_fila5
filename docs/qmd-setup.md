@@ -90,6 +90,9 @@ qmd search "form" -c ui  # Solo questo modulo
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---

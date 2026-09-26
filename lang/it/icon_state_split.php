@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sHCBt9
 <<<<<<< HEAD
 =======
@@ -53,6 +54,9 @@ return [
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
+>>>>>>> laraxot/dev
+=======
+return [
 >>>>>>> laraxot/dev
 =======
 return [
@@ -287,6 +291,7 @@ return [
             'description' => '',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sHCBt9
 =======
 return [
@@ -355,12 +360,15 @@ return [
 >>>>>>> .merge_file_o2Btpe
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Icon State Split',
     'plural_label' => 'Icon State Split (Plurale)',
     'navigation' => [
         'name' => 'Icon State Split',
         'plural' => 'Icon State Split',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_sHCBt9
 <<<<<<< HEAD
@@ -373,6 +381,8 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_o2Btpe
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         'group' => [
@@ -405,6 +415,7 @@ return [
         'delete' => [
             'label' => 'Elimina Icon State Split',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_sHCBt9
 =======
@@ -441,6 +452,8 @@ return [
 =======
 >>>>>>> .merge_file_QIKtdu
 >>>>>>> .merge_file_o2Btpe
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ],

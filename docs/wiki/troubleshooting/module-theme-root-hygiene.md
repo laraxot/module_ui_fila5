@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_H9aIl4
 title: "Root modulo/tema — zero .txt, max 4 .md"
 =======
@@ -28,6 +29,9 @@ title: "Root modulo/tema — zero .txt, max 4 .md"
 =======
 title: "Root modulo/tema — zero .txt, max 4 .md"
 >>>>>>> laraxot/dev
+=======
+title: "Root modulo/tema — zero .txt, max 4 .md"
+>>>>>>> laraxot/dev
 type: rule
 module: UI
 tags: [hygiene, modules, themes, txt, markdown]
@@ -35,6 +39,7 @@ created: 2026-07-08
 updated: 2026-07-08
 qmd: "module theme root txt md hygiene audit fix"
 related:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_H9aIl4
@@ -105,6 +110,10 @@ related:
   - ../../../../../../docs/wiki/rules/module-theme-root-no-txt-files.md
   - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
 >>>>>>> laraxot/dev
+=======
+  - ../../../../../../docs/wiki/rules/module-theme-root-no-txt-files.md
+  - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
+>>>>>>> laraxot/dev
 ---
 
 # Root modulo/tema — igiene
@@ -114,6 +123,7 @@ related:
 | Root `Modules/*` e `Themes/*` | Consentito |
 |---------------------------------|------------|
 | `*.txt` | **0** |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_H9aIl4
@@ -139,6 +149,9 @@ related:
 | `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
 >>>>>>> .merge_file_qeFkI5
 >>>>>>> .merge_file_7MmBAG
+>>>>>>> laraxot/dev
+=======
+| `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
 >>>>>>> laraxot/dev
 =======
 | `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |

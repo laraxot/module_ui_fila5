@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PI2Vtq
 **Date**: [DATE]
 =======
@@ -25,6 +26,9 @@
 **Date**: [DATE]
 >>>>>>> .merge_file_RPcte6
 >>>>>>> .merge_file_FMXEQm
+>>>>>>> laraxot/dev
+=======
+**Date**: [DATE]
 >>>>>>> laraxot/dev
 =======
 **Date**: [DATE]

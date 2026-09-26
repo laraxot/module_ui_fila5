@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_m80B2m
 =======
 <<<<<<< .merge_file_pu5N2D
@@ -159,6 +160,8 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 >>>>>>> .merge_file_ICC7ZV
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # 📚 **Indice Documentazione Modulo UI**
 
 **Status**: ✅ PHPStan Level 10 Compliant
@@ -269,6 +272,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 ## Dependency Intelligence
 
 - [Dependency intelligence](dependency-intelligence.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_m80B2m
 =======
@@ -448,5 +452,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 >>>>>>> .merge_file_nqacJU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ICC7ZV
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

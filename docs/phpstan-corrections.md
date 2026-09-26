@@ -1,11 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pq7FLV
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GzarhA
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # PHPStan Corrections - Modulo UI
@@ -132,6 +135,7 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_pq7FLV
 =======
@@ -288,6 +292,9 @@ return view($this->view, $viewParamsArray);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GzarhA
+=======
+Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
+>>>>>>> laraxot/dev
 =======
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
 >>>>>>> laraxot/dev

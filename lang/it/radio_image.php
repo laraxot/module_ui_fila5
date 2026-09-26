@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NLHaMT
 <<<<<<< HEAD
 =======
@@ -33,6 +34,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_QuUBR2
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'view' => [
@@ -53,6 +56,7 @@ return [
         ],
         'label' => 'Radio Image',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_NLHaMT
 <<<<<<< HEAD
@@ -79,6 +83,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_uCPaMx
 >>>>>>> .merge_file_QuUBR2
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> laraxot/dev

@@ -8,6 +8,7 @@ Questo file contiene i collegamenti alla documentazione UI che si trova nel modu
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_EOdh68
 =======
 <<<<<<< .merge_file_V8hDdk
@@ -24,6 +25,8 @@ Questo file contiene i collegamenti alla documentazione UI che si trova nel modu
 =======
 >>>>>>> .merge_file_ZwTNkX
 >>>>>>> .merge_file_yVC7IU
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Compilazione Temi](../laravel/modules/ui/docs/compilazione_temi.md)
@@ -31,6 +34,7 @@ Questo file contiene i collegamenti alla documentazione UI che si trova nel modu
 * [ui.md](../../../xot/docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../ui/docs/ui.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_EOdh68
 =======
 =======
@@ -53,6 +57,8 @@ Questo file contiene i collegamenti alla documentazione UI che si trova nel modu
 =======
 >>>>>>> .merge_file_ZwTNkX
 >>>>>>> .merge_file_yVC7IU
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

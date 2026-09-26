@@ -5,6 +5,7 @@
 ### Core
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_236Ahi
 - [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
 =======
@@ -28,6 +29,9 @@
 - [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
 >>>>>>> .merge_file_aW8dTb
 >>>>>>> .merge_file_OJY3vD
+>>>>>>> laraxot/dev
+=======
+- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
 >>>>>>> laraxot/dev
 =======
 - [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
@@ -85,6 +89,7 @@
 ## Collegamenti tra versioni di packages.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_236Ahi
 =======
 <<<<<<< .merge_file_vrjsfC
@@ -106,6 +111,8 @@
 =======
 >>>>>>> .merge_file_aW8dTb
 >>>>>>> .merge_file_OJY3vD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 * [packages.md](../../../gdpr/docs/packages.md)
@@ -118,6 +125,7 @@
 * [packages.md](../../../media/docs/packages.md)
 * [packages.md](../../../tenant/docs/packages.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_236Ahi
 =======
 =======
@@ -145,6 +153,8 @@
 =======
 >>>>>>> .merge_file_aW8dTb
 >>>>>>> .merge_file_OJY3vD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

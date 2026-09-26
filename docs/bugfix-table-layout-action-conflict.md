@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AT4Lh7
 =======
 =======
@@ -10,6 +11,8 @@
 >>>>>>> .merge_file_JqctW0
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: bugfix-table-layout-action-conflict
@@ -17,6 +20,7 @@ canonical: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AT4Lh7
 =======
@@ -225,6 +229,8 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JqctW0
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

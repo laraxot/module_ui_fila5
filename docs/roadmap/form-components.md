@@ -4,6 +4,7 @@ topic: form-components
 canonical: ../../../../Themes/docs/shared-components/form-components.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mWH1kd
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RtJfDP
 >>>>>>> .merge_file_AXAWTL
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_IUBT5o
 <<<<<<< HEAD
 =======
@@ -33,6 +34,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_2ADKqW
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     'dark_mode_switcher' => [
         'toggle_aria_label' => 'Cambia tema',
@@ -51,6 +54,7 @@ return [
         ],
         'label' => 'Widgets',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_IUBT5o
 <<<<<<< HEAD
@@ -77,6 +81,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_5bWvyw
 >>>>>>> .merge_file_2ADKqW
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> laraxot/dev

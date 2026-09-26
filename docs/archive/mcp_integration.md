@@ -2,6 +2,7 @@
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_LSJKzC
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
 =======
@@ -11,6 +12,9 @@ Questo documento fornisce linee guida per l'integrazione dei server MCP (Model C
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
 >>>>>>> .merge_file_8qQHLb
 >>>>>>> .merge_file_fFb4bM
+=======
+Questo documento fornisce linee guida per l’integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le convenzioni di codice stabilite per i progetti Laraxot.
+>>>>>>> laraxot/dev
 
 ## Server MCP Consigliati
 
@@ -708,6 +712,7 @@ $analyze = function () {
 
 ## Conclusione
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_LSJKzC
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
 =======
@@ -717,3 +722,6 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
 >>>>>>> .merge_file_8qQHLb
 >>>>>>> .merge_file_fFb4bM
+=======
+L’integrazione dei server MCP può supportare automazione del browser, gestione degli asset e analisi dell’interfaccia; ogni uso deve seguire le convenzioni del progetto ospitante.
+>>>>>>> laraxot/dev

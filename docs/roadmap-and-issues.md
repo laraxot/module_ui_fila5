@@ -199,6 +199,7 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
   - Auto-completion
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UTK4Rw
   - <nome progetto>ive inputs
 =======
@@ -250,6 +251,9 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
   - <nome progetto>ive inputs
 >>>>>>> .merge_file_OcNEEX
 >>>>>>> .merge_file_7HquaU
+>>>>>>> laraxot/dev
+=======
+  - <nome progetto>ive inputs
 >>>>>>> laraxot/dev
 =======
   - <nome progetto>ive inputs
@@ -332,6 +336,7 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UTK4Rw
 - [← UI Module README](../readme.md)
 =======
@@ -355,6 +360,9 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 - [← UI Module README](../readme.md)
 >>>>>>> .merge_file_OcNEEX
 >>>>>>> .merge_file_7HquaU
+>>>>>>> laraxot/dev
+=======
+- [← UI Module README](../readme.md)
 >>>>>>> laraxot/dev
 =======
 - [← UI Module README](../readme.md)

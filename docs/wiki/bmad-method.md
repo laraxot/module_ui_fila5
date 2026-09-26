@@ -4,6 +4,7 @@ topic: bmad-method
 canonical: ../../../../Themes/docs/shared-components/bmad-method.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gaGqst
 =======
 =======
@@ -37,6 +38,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WS0k91
 >>>>>>> .merge_file_wkteie
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

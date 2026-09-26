@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DCcWsM
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_af09oO
 >>>>>>> .merge_file_IJTYv7
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # ci

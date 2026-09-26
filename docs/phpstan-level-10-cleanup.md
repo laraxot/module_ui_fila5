@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Zt1gPH
 =======
 =======
@@ -8,12 +9,15 @@
 >>>>>>> .merge_file_gHLwdO
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # PHPStan Level 10 Cleanup Session - [DATE]
 
 ## Executive Summary
 
 - Session precedente ([DATE]): ✅ zero errori PHPStan Level 10.
 - Nuova esecuzione ([DATE]): ⚠️ rilevato 1 parse error in `UI/app/Filament/Blocks/Title.php` (`unexpected EOF`).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Zt1gPH
 =======
@@ -32,6 +36,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_gHLwdO
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - Obiettivo attuale: ripristinare il blocco Title seguendo le specifiche documentate in `./index.md` e `./core/architecture.md`, quindi rilanciare `phpstan`.

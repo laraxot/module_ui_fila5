@@ -6,6 +6,7 @@ namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Filament\Forms\Components\EnumSelect;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -41,6 +42,11 @@ uses(\Modules\UI\Tests\TestCase::class);
 uses(TestCase::class);
 >>>>>>> .merge_file_4e7Ndv
 >>>>>>> .merge_file_V2bHoE
+=======
+use PHPUnit\Framework\Assert;
+
+uses(\Modules\UI\Tests\TestCase::class);
+>>>>>>> laraxot/dev
 =======
 use PHPUnit\Framework\Assert;
 

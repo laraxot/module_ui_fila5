@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hFGqaR
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jTKcFK
 >>>>>>> .merge_file_eHGaOP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 https://bitbucket.org/modcreative/wayble-pulse/src/main/filament/Widgets/Charts/SignalHitsByCategory.php

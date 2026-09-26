@@ -13,7 +13,11 @@
 - [ ] Replace labels with translations (expanded structure)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> laraxot/dev
 =======
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> laraxot/dev

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti di Navigazione
 =======
 <<<<<<< .merge_file_VepfuF
@@ -13,6 +14,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5NlOyJ
+=======
+# Componenti di Navigazione
+>>>>>>> laraxot/dev
 =======
 # Componenti di Navigazione
 >>>>>>> laraxot/dev
@@ -87,6 +91,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VepfuF
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
@@ -101,6 +106,9 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/htm
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5NlOyJ
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
+>>>>>>> laraxot/dev
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 >>>>>>> laraxot/dev

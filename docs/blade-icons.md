@@ -116,6 +116,7 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Utilizzo**: `@svg('ui-login')` o `ui-login` nei componenti Filament
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1VaCOO
 - **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
 =======
@@ -139,6 +140,9 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
 >>>>>>> .merge_file_8lqCJ0
 >>>>>>> .merge_file_JiJKSX
+>>>>>>> laraxot/dev
+=======
+- **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
 >>>>>>> laraxot/dev
 =======
 - **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
@@ -151,6 +155,7 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Utilizzo**: `@svg('ui-authenticate')` o `ui-authenticate` nei componenti Filament
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1VaCOO
 =======
 <<<<<<< .merge_file_Ru4Igi
@@ -175,6 +180,9 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 >>>>>>> .merge_file_8lqCJ0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JiJKSX
+=======
+- **Aggiunta**: [DATE] - Sostituisce `authenticate` non disponibile
+>>>>>>> laraxot/dev
 =======
 - **Aggiunta**: [DATE] - Sostituisce `authenticate` non disponibile
 >>>>>>> laraxot/dev
@@ -228,6 +236,7 @@ MenuItem::make()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1VaCOO
 =======
 <<<<<<< .merge_file_Ru4Igi
@@ -247,6 +256,8 @@ MenuItem::make()
 =======
 >>>>>>> .merge_file_8lqCJ0
 >>>>>>> .merge_file_JiJKSX
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Nota sulla correzione e centralizzazione ([DATE])
@@ -257,6 +268,7 @@ MenuItem::make()
 
 **Collegamento:** Vedi anche [XotBaseServiceProvider.md](./xotbaseserviceprovider.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1VaCOO
 =======
 =======
@@ -282,6 +294,8 @@ MenuItem::make()
 =======
 >>>>>>> .merge_file_8lqCJ0
 >>>>>>> .merge_file_JiJKSX
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

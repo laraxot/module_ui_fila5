@@ -358,6 +358,7 @@ dd($this->layout->getTableContentGrid());
 - [Filament Tables](https://filamentphp.com/docs/3.x/tables/overview)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nB19v4
 =======
 <<<<<<< .merge_file_eSPwEA
@@ -375,6 +376,8 @@ dd($this->layout->getTableContentGrid());
 =======
 >>>>>>> .merge_file_ugQGLx
 >>>>>>> .merge_file_vRltUz
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Translation Standards](../../xot/docs/translation-standards.md)
@@ -383,6 +386,7 @@ dd($this->layout->getTableContentGrid());
 ## Ultimo Aggiornamento
 [DATE] - Documentazione completa TableLayoutEnum
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nB19v4
 =======
 =======
@@ -406,6 +410,8 @@ dd($this->layout->getTableContentGrid());
 =======
 >>>>>>> .merge_file_ugQGLx
 >>>>>>> .merge_file_vRltUz
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

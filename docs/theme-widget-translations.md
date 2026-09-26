@@ -231,6 +231,7 @@ Includi sempre esempi pratici:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_v2BN1M
 =======
 *Ultimo aggiornamento: Dicembre 2024*
@@ -252,5 +253,7 @@ Includi sempre esempi pratici:
 >>>>>>> .merge_file_F5vB1A
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_gDCsyb
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

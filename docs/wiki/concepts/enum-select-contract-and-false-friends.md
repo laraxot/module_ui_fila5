@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a6CWqZ
 =======
 =======
@@ -72,6 +73,8 @@ related:
 >>>>>>> .merge_file_177KYX
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # EnumSelect Contract And False Friends
 
 ## Context
@@ -86,6 +89,7 @@ Questa pagina fissa il contratto minimo del componente.
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_a6CWqZ
@@ -115,6 +119,9 @@ Questa pagina fissa il contratto minimo del componente.
 - Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
 >>>>>>> .merge_file_1KhGKn
 >>>>>>> .merge_file_177KYX
+>>>>>>> laraxot/dev
+=======
+- Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
 >>>>>>> laraxot/dev
 =======
 - Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.

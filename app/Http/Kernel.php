@@ -17,6 +17,7 @@ use Illuminate\Foundation\Http\Kernel as HttpKernel;
 use Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull;
 use Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KzH2HH
 <<<<<<< HEAD
 =======
@@ -42,10 +43,13 @@ use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 >>>>>>> .merge_file_cdvgyV
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 use Illuminate\Foundation\Http\Middleware\TrimStrings;
 use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KzH2HH
 >>>>>>> laraxot/dev
@@ -62,6 +66,8 @@ use Illuminate\Foundation\Http\Middleware\TrimStrings;
 use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
 >>>>>>> .merge_file_x6vhVk
 >>>>>>> .merge_file_cdvgyV
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 use Illuminate\Http\Middleware\HandleCors;
@@ -105,6 +111,7 @@ class Kernel extends HttpKernel
             StartSession::class,
             ShareErrorsFromSession::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KzH2HH
 =======
 <<<<<<< .merge_file_92fbwG
@@ -128,6 +135,9 @@ class Kernel extends HttpKernel
             PreventRequestForgery::class,
 >>>>>>> .merge_file_x6vhVk
 >>>>>>> .merge_file_cdvgyV
+=======
+            PreventRequestForgery::class,
+>>>>>>> laraxot/dev
 =======
             PreventRequestForgery::class,
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cVolWz
 =======
 <<<<<<< .merge_file_QdVD6G
@@ -24,6 +25,8 @@
 >>>>>>> .merge_file_HUom6J
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Risoluzione Conflitto LocationSelector.php
 
 ## Problema Identificato
@@ -32,6 +35,7 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 
 1. **Linea 278**: Metodo getCapOptions con logica di gestione errori
 2. **Linea 312**: Metodo validate con logica di validazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cVolWz
@@ -86,6 +90,9 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HUom6J
+>>>>>>> laraxot/dev
+=======
+3. **Linea 322**: Continuazione metodo validate
 >>>>>>> laraxot/dev
 =======
 3. **Linea 322**: Continuazione metodo validate
@@ -161,6 +168,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [components.md](components.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cVolWz
 - [Modules/UI/docs/](../../docs/)
 
@@ -212,6 +220,10 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HUom6J
+>>>>>>> laraxot/dev
+=======
+- [Modules/UI/docs/](../../docs/)
+
 >>>>>>> laraxot/dev
 =======
 - [Modules/UI/docs/](../../docs/)
@@ -299,6 +311,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cVolWz
 <<<<<<< HEAD
 =======
@@ -339,6 +352,9 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 
 >>>>>>> .merge_file_TkLQGl
 >>>>>>> .merge_file_HUom6J
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 

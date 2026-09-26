@@ -25,6 +25,7 @@ Empty values are automatically skipped to save visual space, except for:
 - `'0'` (string zero)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_h6AVnh
 =======
 =======
@@ -80,6 +81,8 @@ Esempio: `HaDirittoColumn` include `ValutatoreSelectColumn` per modificare `valu
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ss2wCM
 >>>>>>> .merge_file_CLUPXD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 

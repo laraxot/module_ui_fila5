@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fBioI0
 =======
 <<<<<<< .merge_file_wBNOws
@@ -86,6 +87,11 @@ related:
 [![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
 >>>>>>> .merge_file_5hGiu2
 >>>>>>> .merge_file_XqJghY
+>>>>>>> laraxot/dev
+=======
+# Schemaless Attributes Guide for UI Themes
+
+[![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
 >>>>>>> laraxot/dev
 =======
 # Schemaless Attributes Guide for UI Themes

@@ -6,6 +6,7 @@
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Themes/One/resources/views/pages/auth/logout.blade.php
 <<<<<<< .merge_file_MvJgIE
 =======
@@ -65,6 +66,9 @@
 =======
 // Themes/One/resources/views/pages/auth/logout.blade.php
 >>>>>>> laraxot/dev
+=======
+// Themes/One/resources/views/pages/auth/logout.blade.php
+>>>>>>> laraxot/dev
 
 <?php
 
@@ -88,6 +92,7 @@ $logout = function() {
         <div class="text-center">
             <h2 class="text-2xl font-bold mb-4">{{ __('Stai per essere disconnesso') }}</h2>
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
@@ -157,10 +162,13 @@ $logout = function() {
 >>>>>>> .merge_file_bvntYk
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -195,10 +203,13 @@ $logout = function() {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                     class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                 >
                     {{ __('Esci') }}
                 </button>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
@@ -292,6 +303,11 @@ $logout = function() {
                     href="{{ url()->previous() }}"
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
+                <a
+                    href="{{ url()->previous() }}"
 >>>>>>> laraxot/dev
 =======
 
@@ -368,6 +384,7 @@ $logout = function() {
 4. Assicurare la responsività su tutti i dispositivi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 =======
 =======
@@ -376,6 +393,8 @@ $logout = function() {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bvntYk
+=======
+>>>>>>> laraxot/dev
 5. Utilizzare le traduzioni per il supporto multilingua
 # Pagine di Autenticazione
 <<<<<<< HEAD
@@ -408,6 +427,7 @@ state([
     'confirmingLogout' => false,
 ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 =======
@@ -455,6 +475,8 @@ state([
 =======
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -466,9 +488,12 @@ $logout = function() {
 };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 =======
 <<<<<<< .merge_file_UsJiXu
+=======
+>>>>>>> laraxot/dev
 
 ?>
 =======
@@ -477,6 +502,7 @@ $logout = function() {
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ?>
@@ -503,6 +529,8 @@ $logout = function() {
 
 ?>
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
     <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
@@ -511,6 +539,7 @@ $logout = function() {
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -530,6 +559,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -543,6 +575,7 @@ $logout = function() {
                 </button>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 =======
 <<<<<<< .merge_file_UsJiXu
@@ -560,6 +593,8 @@ $logout = function() {
 =======
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -568,6 +603,7 @@ $logout = function() {
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 =======
 <<<<<<< .merge_file_UsJiXu
@@ -586,6 +622,8 @@ $logout = function() {
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bvntYk
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                     {{ __('Annulla') }}
@@ -597,6 +635,7 @@ $logout = function() {
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -616,6 +655,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -627,6 +669,7 @@ $logout = function() {
    - Componente Livewire reattivo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -646,6 +689,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -657,6 +703,7 @@ $logout = function() {
    - Opzione di annullamento con ritorno alla pagina precedente
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -676,6 +723,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -687,6 +737,7 @@ $logout = function() {
    - Gestione sicura del logout
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -706,6 +757,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -717,6 +771,7 @@ $logout = function() {
    - Animazioni fluide
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -736,6 +791,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -747,6 +805,7 @@ $logout = function() {
    - Supporto tastiera
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -766,6 +825,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -778,6 +840,7 @@ $logout = function() {
 5. Mantenere la coerenza con il design system
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -797,6 +860,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -808,6 +874,7 @@ $logout = function() {
    - Supporto nativo per i middleware
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -827,6 +894,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -837,6 +907,7 @@ $logout = function() {
    - Integrazione nativa con Livewire
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 
 =======
@@ -856,6 +927,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -866,6 +940,7 @@ $logout = function() {
    - Ottimizzazione delle performance
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 =======
 <<<<<<< .merge_file_UsJiXu
@@ -883,6 +958,8 @@ $logout = function() {
 >>>>>>> .merge_file_bvntYk
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### Best Practices
 1. Mantenere il design semplice e intuitivo
@@ -890,6 +967,7 @@ $logout = function() {
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
 5. Utilizzare le traduzioni per il supporto multilingua
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MvJgIE
 =======
@@ -930,6 +1008,8 @@ $logout = function() {
 =======
 >>>>>>> .merge_file_uj67q4
 >>>>>>> .merge_file_bvntYk
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

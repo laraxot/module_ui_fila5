@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_HmPzWm
 <<<<<<< HEAD
 =======
@@ -56,10 +57,15 @@
 
 declare(strict_types=1);
 =======
+=======
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 <div class="relative bg-gray-50">

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OvhzZC
 =======
 <<<<<<< .merge_file_S6qdnv
@@ -160,6 +161,8 @@ Tutte le traduzioni seguono la struttura espansa:
 =======
 >>>>>>> .merge_file_1iopam
 >>>>>>> .merge_file_KxDKtH
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---
@@ -170,6 +173,7 @@ canonical: ../../../Themes/docs/shared-components/translations-update-january.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/translations-update-january.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OvhzZC
 =======
 =======
@@ -336,6 +340,8 @@ Tutte le traduzioni seguono la struttura espansa:
 =======
 >>>>>>> .merge_file_1iopam
 >>>>>>> .merge_file_KxDKtH
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

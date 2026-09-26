@@ -4,6 +4,7 @@ topic: compilation
 canonical: ../../../../Themes/docs/shared-components/.gitkeep
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tz7WAl
 =======
 =======
@@ -37,6 +38,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_H74PDA
 >>>>>>> .merge_file_kWmcmZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

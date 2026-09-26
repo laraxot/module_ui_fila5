@@ -49,6 +49,9 @@ Technical implementation details for the UI module.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Filament 5.x
 - Xot Module

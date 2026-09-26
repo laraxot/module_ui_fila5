@@ -109,6 +109,7 @@
             "    public static function getFormSchema(): array",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_R0WmD8
             "    public function getFormSchema(): array",
@@ -122,6 +123,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bnL6ZL
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QZM8ZN
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_BE3LoT
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     'region' => [
         'label' => 'Region',
@@ -52,12 +55,15 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QZM8ZN
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BE3LoT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     'navigation' => [
@@ -74,6 +80,7 @@ return [
     'actions' => [
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QZM8ZN
 =======
 =======
@@ -82,6 +89,8 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BE3LoT
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

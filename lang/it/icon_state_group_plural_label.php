@@ -7,6 +7,7 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_plural_label.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kT0gjL
 <<<<<<< HEAD
 return array (
@@ -22,6 +23,11 @@ return [
     'plural_label' => 'Icon State Group (Plurale)',
 ];
 >>>>>>> .merge_file_XuUAoK
+=======
+return [
+    'plural_label' => 'Icon State Group (Plurale)',
+];
+>>>>>>> laraxot/dev
 =======
 return [
     'plural_label' => 'Icon State Group (Plurale)',

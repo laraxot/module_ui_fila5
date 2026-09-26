@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vURbqJ
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_LO4lQ9
 >>>>>>> .merge_file_17cxAE
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Checklist qualità - UI Module

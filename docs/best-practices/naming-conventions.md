@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mV6wA8
 =======
 =======
@@ -59,6 +60,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mHaVe1
 >>>>>>> .merge_file_T23vND
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Collegamenti tra versioni di naming-conventions.md

@@ -10,6 +10,7 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 <<<<<<< HEAD
 =======
@@ -43,16 +44,22 @@ uses(TestCase::class);
 /** @param array<string, mixed> $data */
 function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
 =======
+=======
+>>>>>>> laraxot/dev
 
 /**
  * @return view-string
  */
 function kalshiHeroViewName(): string
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 {
     /** @var view-string $viewName */
     $viewName = 'pub_theme::components.blocks.hero.kalshi-inspired';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     return View::make($viewName, $data);
 }
@@ -71,6 +78,8 @@ function kalshiHeroViewName(): string
 >>>>>>> .merge_file_M4UP35
 >>>>>>> .merge_file_sSUx14
 =======
+=======
+>>>>>>> laraxot/dev
     return $viewName;
 }
 >>>>>>> laraxot/dev
@@ -102,6 +111,7 @@ test('kalshi inspired hero component renders without errors', function () {
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 <<<<<<< HEAD
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', $componentData);
@@ -130,6 +140,9 @@ test('kalshi inspired hero component renders without errors', function () {
 =======
     $view = View::make(kalshiHeroViewName(), $componentData);
 >>>>>>> laraxot/dev
+=======
+    $view = View::make(kalshiHeroViewName(), $componentData);
+>>>>>>> laraxot/dev
 
     $html = $view->render();
     Assert::assertStringContainsString((string) 'Test <nome progetto>ion Platform', (string) $html);
@@ -139,6 +152,7 @@ test('kalshi inspired hero component renders without errors', function () {
 });
 
 test('kalshi hero shows statistics when enabled', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 =======
@@ -163,6 +177,9 @@ test('kalshi hero shows statistics when enabled', function () {
     $view = makeKalshiView([
 >>>>>>> .merge_file_M4UP35
 >>>>>>> .merge_file_sSUx14
+=======
+    $view = View::make(kalshiHeroViewName(), [
+>>>>>>> laraxot/dev
 =======
     $view = View::make(kalshiHeroViewName(), [
 >>>>>>> laraxot/dev
@@ -182,6 +199,7 @@ test('kalshi hero shows statistics when enabled', function () {
 
 test('kalshi hero hides statistics when disabled', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 =======
 <<<<<<< .merge_file_4acLeC
@@ -208,6 +226,9 @@ test('kalshi hero hides statistics when disabled', function () {
 =======
     $view = View::make(kalshiHeroViewName(), [
 >>>>>>> laraxot/dev
+=======
+    $view = View::make(kalshiHeroViewName(), [
+>>>>>>> laraxot/dev
         'show_stats' => false,
     ]);
 
@@ -217,6 +238,7 @@ test('kalshi hero hides statistics when disabled', function () {
 });
 
 test('kalshi hero shows categories when enabled', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 <<<<<<< HEAD
@@ -243,6 +265,9 @@ test('kalshi hero shows categories when enabled', function () {
     $view = makeKalshiView([
 >>>>>>> .merge_file_M4UP35
 >>>>>>> .merge_file_sSUx14
+=======
+    $view = View::make(kalshiHeroViewName(), [
+>>>>>>> laraxot/dev
 =======
     $view = View::make(kalshiHeroViewName(), [
 >>>>>>> laraxot/dev
@@ -261,6 +286,7 @@ test('kalshi hero shows categories when enabled', function () {
 
 test('kalshi hero hides categories when disabled', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 =======
 <<<<<<< .merge_file_4acLeC
@@ -287,6 +313,9 @@ test('kalshi hero hides categories when disabled', function () {
 =======
     $view = View::make(kalshiHeroViewName(), [
 >>>>>>> laraxot/dev
+=======
+    $view = View::make(kalshiHeroViewName(), [
+>>>>>>> laraxot/dev
         'show_categories' => false,
     ]);
 
@@ -295,6 +324,7 @@ test('kalshi hero hides categories when disabled', function () {
 });
 
 test('kalshi hero supports custom props', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 =======
@@ -319,6 +349,9 @@ test('kalshi hero supports custom props', function () {
     $view = makeKalshiView([
 >>>>>>> .merge_file_M4UP35
 >>>>>>> .merge_file_sSUx14
+=======
+    $view = View::make(kalshiHeroViewName(), [
+>>>>>>> laraxot/dev
 =======
     $view = View::make(kalshiHeroViewName(), [
 >>>>>>> laraxot/dev
@@ -341,6 +374,7 @@ test('kalshi hero supports custom props', function () {
 
 test('kalshi hero has proper css classes and styling', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 <<<<<<< HEAD
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
@@ -366,6 +400,9 @@ test('kalshi hero has proper css classes and styling', function () {
     $view = makeKalshiView();
 >>>>>>> .merge_file_M4UP35
 >>>>>>> .merge_file_sSUx14
+=======
+    $view = View::make(kalshiHeroViewName());
+>>>>>>> laraxot/dev
 =======
     $view = View::make(kalshiHeroViewName());
 >>>>>>> laraxot/dev
@@ -379,6 +416,7 @@ test('kalshi hero has proper css classes and styling', function () {
 
 test('kalshi hero includes required css animations', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 =======
 <<<<<<< .merge_file_4acLeC
@@ -405,6 +443,9 @@ test('kalshi hero includes required css animations', function () {
 =======
     $view = View::make(kalshiHeroViewName());
 >>>>>>> laraxot/dev
+=======
+    $view = View::make(kalshiHeroViewName());
+>>>>>>> laraxot/dev
 
     $html = $view->render();
     Assert::assertStringContainsString((string) '@keyframes gradient-x', (string) $html);
@@ -413,6 +454,7 @@ test('kalshi hero includes required css animations', function () {
 });
 
 test('kalshi hero has responsive design classes', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jW6p6z
 =======
@@ -437,6 +479,9 @@ test('kalshi hero has responsive design classes', function () {
     $view = makeKalshiView();
 >>>>>>> .merge_file_M4UP35
 >>>>>>> .merge_file_sSUx14
+=======
+    $view = View::make(kalshiHeroViewName());
+>>>>>>> laraxot/dev
 =======
     $view = View::make(kalshiHeroViewName());
 >>>>>>> laraxot/dev

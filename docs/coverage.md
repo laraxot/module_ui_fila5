@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_CZYfnV
 =======
@@ -56,6 +57,8 @@ Story: `docs/stories/ui-services-to-actions.story.md`.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MAtuxB
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -143,6 +146,7 @@ endor/laravel/framework/src/Illuminate/Container/Container.php:1415
 
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -504,6 +508,8 @@ Tests: 6 failed, 1 risky, 109 skipped, 199 passed (654 assertions)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MAtuxB
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

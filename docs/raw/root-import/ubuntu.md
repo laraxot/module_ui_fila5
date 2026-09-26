@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jYSGlR
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5XmRqX
 >>>>>>> .merge_file_BRYbFm
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 sudo apt-get install jpegoptim

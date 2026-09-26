@@ -70,6 +70,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Mxzg7W
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:
 =======
@@ -121,6 +122,9 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `[project-roo
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:
 >>>>>>> .merge_file_vqaVnm
 >>>>>>> .merge_file_skT2rS
+>>>>>>> laraxot/dev
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:
 >>>>>>> laraxot/dev
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:

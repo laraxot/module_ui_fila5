@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Zz5A9R
 =======
 <<<<<<< .merge_file_C3ZJrS
@@ -246,6 +247,8 @@ return [
 >>>>>>> .merge_file_PPkXyQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: navigation-components
@@ -253,6 +256,7 @@ canonical: ../../../Themes/docs/shared-components/navigation-components.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/navigation-components.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Zz5A9R
 =======
@@ -587,6 +591,8 @@ return [
 =======
 >>>>>>> .merge_file_W3PFRX
 >>>>>>> .merge_file_PPkXyQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

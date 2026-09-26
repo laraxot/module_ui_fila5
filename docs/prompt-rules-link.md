@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_17FPiM
 Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../xot/docs/prompt_rules.md)
 =======
@@ -144,11 +145,15 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 =======
 Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../xot/docs/prompt_rules.md)
 >>>>>>> laraxot/dev
+=======
+Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../xot/docs/prompt_rules.md)
+>>>>>>> laraxot/dev
 ### Versione HEAD
 
 ### Versione Incoming
 
 ## Collegamenti tra versioni di PROMPT_RULES_LINK.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_17FPiM
@@ -162,6 +167,8 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 =======
 >>>>>>> .merge_file_OBv5Pj
 >>>>>>> .merge_file_TKjYdX
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 * [PROMPT_RULES_LINK.md](../../../ui/docs/prompt_rules_link.md)
@@ -190,6 +197,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 * [prompt_rules_link.md](../../cms/docs/prompt_rules_link.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 ---
 <<<<<<< HEAD
@@ -305,6 +313,9 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_TKjYdX
+>>>>>>> laraxot/dev
+=======
+---
 >>>>>>> laraxot/dev
 =======
 ---

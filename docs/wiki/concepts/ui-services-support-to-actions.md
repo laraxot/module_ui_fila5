@@ -10,6 +10,7 @@ issues: []
 discussions: []
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Sj8QZ2
 =======
 <<<<<<< .merge_file_GNmMUS
@@ -35,6 +36,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jMoTUM
 >>>>>>> .merge_file_rGjnRs
+=======
+  - ../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
+  - ../../Xot/docs/wiki/concepts/no-app-support-queueable-actions.md
+>>>>>>> laraxot/dev
 =======
   - ../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
   - ../../Xot/docs/wiki/concepts/no-app-support-queueable-actions.md
@@ -67,6 +72,7 @@ invece `Modules\Xot\Services\ThemeService` (archiviato). Nessuna duplicazione tr
 | Legacy path | Nuovo path | Tipo | Note |
 |-------------|-----------|------|------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Sj8QZ2
 | `Services/ComponentService.php` | *(archiviato `.bak`)* | — | classe vuota, nessun caller, nessuna Action creata |
 | `Services/ThemeService.php` | *(archiviato `.bak`)* | — | classe vuota, nessun caller, nessuna Action creata |
@@ -93,6 +99,11 @@ invece `Modules\Xot\Services\ThemeService` (archiviato). Nessuna duplicazione tr
 | `Services/ThemeService.php` | *(eliminato)* | — | classe vuota, nessun caller, nessuna Action creata |
 | `Services/UIService.php` | *(eliminato)* | — | `asset()` era solo passthrough di `Xot\Actions\File\AssetAction`; nessun caller in produzione, chiamare direttamente `app(AssetAction::class)->execute($path)` se serve |
 >>>>>>> laraxot/dev
+=======
+| `Services/ComponentService.php` | *(eliminato)* | — | classe vuota, nessun caller, nessuna Action creata |
+| `Services/ThemeService.php` | *(eliminato)* | — | classe vuota, nessun caller, nessuna Action creata |
+| `Services/UIService.php` | *(eliminato)* | — | `asset()` era solo passthrough di `Xot\Actions\File\AssetAction`; nessun caller in produzione, chiamare direttamente `app(AssetAction::class)->execute($path)` se serve |
+>>>>>>> laraxot/dev
 | `Services/Map/NullMapService.php` | `Adapters/Map/NullMapServiceAdapter.php` | Adapter | implementa `MapServiceContract` |
 | `Services/Map/NullGeocodingService.php` | `Adapters/Map/NullGeocodingServiceAdapter.php` | Adapter | implementa `GeocodingServiceContract` |
 
@@ -102,6 +113,7 @@ Nessun chiamante PHP in `Modules/*` o `Themes/*` da aggiornare: i Service non av
 consumer in codice produzione, e i loro stub Action (rimossi in questa revisione)
 non avevano a loro volta consumer.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Sj8QZ2
 =======
@@ -136,6 +148,11 @@ Nessun `.php` attivo resta in `app/Services/`.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jMoTUM
 >>>>>>> .merge_file_rGjnRs
+=======
+## File eliminati
+
+- `app/Services/` (directory intera, prima migrazione)
+>>>>>>> laraxot/dev
 =======
 ## File eliminati
 

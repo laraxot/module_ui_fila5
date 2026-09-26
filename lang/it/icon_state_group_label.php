@@ -7,6 +7,7 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_label.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_I0vzop
 <<<<<<< HEAD
 return array (
@@ -22,6 +23,11 @@ return [
     'label' => 'Icon State Group',
 ];
 >>>>>>> .merge_file_rwWuNP
+=======
+return [
+    'label' => 'Icon State Group',
+];
+>>>>>>> laraxot/dev
 =======
 return [
     'label' => 'Icon State Group',

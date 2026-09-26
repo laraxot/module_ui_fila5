@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_BA3U2W
 <<<<<<< HEAD
 =======
@@ -43,6 +44,9 @@ return [
 =======
 return [
 >>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> laraxot/dev
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -58,6 +62,7 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_BA3U2W
 =======
@@ -95,6 +100,8 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -107,6 +114,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_BA3U2W
 =======
@@ -131,6 +139,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_wyyyJH
 >>>>>>> .merge_file_4ZRdCn
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> laraxot/dev

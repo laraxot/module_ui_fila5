@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tlelEw
 
 =======
@@ -14,6 +15,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_bRBOwk
 >>>>>>> .merge_file_Hd8eVk
 >>>>>>> .merge_file_XBUnxk
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 use Illuminate\Database\Schema\Blueprint;

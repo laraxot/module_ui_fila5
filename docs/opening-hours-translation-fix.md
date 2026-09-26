@@ -10,6 +10,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 - `morning` - Sezione mattutina
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `afternoon` - Sezione pomeridiana
 =======
 <<<<<<< HEAD
@@ -51,6 +52,9 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BAbrJI
+>>>>>>> laraxot/dev
+=======
+- `afternoon` - Sezione pomeridiana
 >>>>>>> laraxot/dev
 =======
 - `afternoon` - Sezione pomeridiana
@@ -172,6 +176,7 @@ done
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
 <<<<<<< .merge_file_7BiS1G
@@ -196,6 +201,9 @@ done
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BAbrJI
+=======
+- [Documentazione Root Traduzioni](../../../../../docs/translation_standards_links.md)
+>>>>>>> laraxot/dev
 =======
 - [Documentazione Root Traduzioni](../../../../../docs/translation_standards_links.md)
 >>>>>>> laraxot/dev
@@ -209,6 +217,7 @@ done
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
 - **REGOLA CRITICA**: Controllo automatico con script
@@ -276,6 +285,9 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 >>>>>>> laraxot/dev
 =======
 - **REGOLA CRITICA**: Controllo automatico con script
+=======
+- **REGOLA CRITICA**: Controllo automatico con script
+>>>>>>> laraxot/dev
 # Fix Traduzioni Opening Hours Field - Modulo UI
 
 ## Problema Identificato
@@ -284,6 +296,9 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 
 ## Voci Mancanti Identificate
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Campi per Ogni Giorno
 - `morning` - Sezione mattutina
@@ -292,6 +307,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 - `afternoon_label` - Etichetta attività pomeridiane
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 
 =======
@@ -311,6 +327,9 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> .merge_file_BAbrJI
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -322,9 +341,12 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 - Mancanza di `declare(strict_types=1);`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
 <<<<<<< .merge_file_7BiS1G
+=======
+>>>>>>> laraxot/dev
 
 ## Soluzione Implementata
 =======
@@ -332,6 +354,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 =======
 >>>>>>> .merge_file_tJXWLV
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Soluzione Implementata
@@ -356,6 +379,8 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 
 ## Soluzione Implementata
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### 1. Aggiunta Campi Mancanti
 ```php
@@ -371,6 +396,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
         'helper_text' => 'Monday afternoon opening hours',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
     ],
 =======
@@ -392,6 +418,9 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BAbrJI
+=======
+    ],
+>>>>>>> laraxot/dev
 =======
     ],
 >>>>>>> laraxot/dev
@@ -401,6 +430,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
         'helper_text' => 'Description of Monday morning activities',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
     ],
 =======
@@ -422,6 +452,9 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BAbrJI
+=======
+    ],
+>>>>>>> laraxot/dev
 =======
     ],
 >>>>>>> laraxot/dev
@@ -431,6 +464,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
         'helper_text' => 'Description of Monday afternoon activities',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
 <<<<<<< .merge_file_7BiS1G
@@ -448,6 +482,8 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 =======
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> .merge_file_BAbrJI
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ],
@@ -456,6 +492,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
 <<<<<<< .merge_file_7BiS1G
@@ -476,10 +513,13 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 >>>>>>> .merge_file_BAbrJI
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### 2. Modernizzazione Sintassi
 - Sostituito `array()` con `[]`
 - Aggiunto `declare(strict_types=1);`
 - Aggiornato `help` a `helper_text` per coerenza
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
@@ -501,6 +541,9 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> .merge_file_BAbrJI
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -513,6 +556,7 @@ Tutti i campi ora seguono la struttura espansa con:
 - `description` - Descrizione tecnica (dove appropriato)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
 <<<<<<< .merge_file_7BiS1G
@@ -531,11 +575,14 @@ Tutti i campi ora seguono la struttura espansa con:
 >>>>>>> .merge_file_BAbrJI
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Regola Critica Implementata
 
 **SINCRONIZZAZIONE LINGUE**: Tutti i file di traduzione inglesi (`lang/en/`) devono avere esattamente le stesse voci dei file italiani (`lang/it/`) corrispondenti.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
@@ -554,6 +601,8 @@ Tutti i campi ora seguono la struttura espansa con:
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BAbrJI
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### Checklist Sincronizzazione
@@ -562,6 +611,7 @@ Tutti i campi ora seguono la struttura espansa con:
 - [ ] Stessi nomi di chiavi
 - [ ] Traduzioni appropriate per ogni lingua
 - [ ] Sintassi moderna e coerente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
@@ -590,6 +640,8 @@ php -l laravel/Modules/UI/lang/en/opening_hours_field.php
 =======
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> .merge_file_BAbrJI
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -616,6 +668,7 @@ php -l laravel/Modules/UI/lang/en/opening_hours_field.php
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
 =======
@@ -651,10 +704,13 @@ php -l laravel/Modules/UI/lang/en/opening_hours_field.php
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Verifica Sintassi
 - PHP lint passato ✅
 - Struttura JSON valida ✅
 - Sintassi moderna `[]` ✅
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
@@ -673,6 +729,8 @@ php -l laravel/Modules/UI/lang/en/opening_hours_field.php
 =======
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> .merge_file_BAbrJI
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -682,6 +740,7 @@ php -l laravel/Modules/UI/lang/en/opening_hours_field.php
 ```bash
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
 <<<<<<< .merge_file_7BiS1G
@@ -699,6 +758,8 @@ php -l laravel/Modules/UI/lang/en/opening_hours_field.php
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BAbrJI
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Controlla file con meno voci in inglese
@@ -714,6 +775,7 @@ for file in $(find laravel/Modules -path "*/lang/it" -name "*.php"); do
 done
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 ```
 
@@ -742,12 +804,17 @@ done
 ```
 
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> laraxot/dev
 ### Regole da Seguire
 1. **SEMPRE** confrontare file IT e EN prima di modifiche
 2. **SEMPRE** aggiungere nuove voci in entrambe le lingue
 3. **SEMPRE** usare sintassi moderna `[]`
 4. **SEMPRE** includere `declare(strict_types=1);`
 5. **SEMPRE** struttura espansa completa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
@@ -774,6 +841,8 @@ done
 >>>>>>> .merge_file_BAbrJI
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 
@@ -787,6 +856,7 @@ done
 - **REGOLA CRITICA**: Struttura espansa per tutti i campi
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
 - **REGOLA CRITICA**: Controllo automatico con script
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vUYmyy
 =======
@@ -834,6 +904,8 @@ done
 =======
 >>>>>>> .merge_file_tJXWLV
 >>>>>>> .merge_file_BAbrJI
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

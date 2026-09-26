@@ -44,6 +44,7 @@ class OpeningHoursRule implements ValidationRule
     use TransTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 
 =======
@@ -96,6 +97,9 @@ class OpeningHoursRule implements ValidationRule
 
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -249,6 +253,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -262,6 +267,8 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 - [TransTrait Documentation](../../xot/docs/trans_trait.md)
 >>>>>>> laraxot/dev
 =======
@@ -288,6 +295,7 @@ I file `validation.php` contengono i messaggi di validazione specifici del modul
 ## Struttura File Validation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 =======
@@ -331,6 +339,8 @@ I file `validation.php` contengono i messaggi di validazione specifici del modul
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -343,6 +353,7 @@ I file `validation.php` contengono i messaggi di validazione specifici del modul
 - `Modules/UI/lang/de/opening_hours.php` ✅ (aggiornato con sezione validation.opening_hours)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -361,11 +372,14 @@ Ogni file contiene la sezione `opening_hours` con:
 >>>>>>> .merge_file_AZmUgq
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### Contenuto Standardizzato
 
 Ogni file contiene la sezione `opening_hours` con:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
@@ -384,6 +398,8 @@ Ogni file contiene la sezione `opening_hours` con:
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```php
@@ -400,6 +416,7 @@ return [
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -419,6 +436,8 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -435,6 +454,7 @@ class OpeningHoursRule implements ValidationRule
     use TransTrait;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 =======
@@ -463,11 +483,14 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     // Utilizzo nelle validazioni
     $fail(static::trans('validation.opening_hours.morning_before_afternoon', params: [
         'day' => $dayLabel
     ]));
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
@@ -494,6 +517,10 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AZmUgq
+=======
+```
+
+>>>>>>> laraxot/dev
 =======
 ```
 
@@ -506,6 +533,7 @@ class OpeningHoursRule implements ValidationRule
 5. **Performance ottimizzate** per traduzioni frequenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -522,6 +550,8 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -530,6 +560,7 @@ class OpeningHoursRule implements ValidationRule
 ### Italiano (it/validation.php)
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -547,6 +578,8 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 'opening_hours' => [
@@ -559,6 +592,7 @@ class OpeningHoursRule implements ValidationRule
 ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -573,6 +607,8 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -581,6 +617,7 @@ class OpeningHoursRule implements ValidationRule
 ```php
 'opening_hours' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 ### Inglese (en/validation.php)
@@ -597,6 +634,8 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     'morning' => 'Morning',
@@ -607,6 +646,7 @@ class OpeningHoursRule implements ValidationRule
     'opening_before_closing' => 'The :day :session opening time must be before closing time.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -621,6 +661,8 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ],
@@ -630,6 +672,7 @@ class OpeningHoursRule implements ValidationRule
 ```php
 'opening_hours' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 ### Tedesco (de/validation.php)
@@ -646,6 +689,8 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     'morning' => 'Vormittag',
@@ -656,6 +701,7 @@ class OpeningHoursRule implements ValidationRule
     'opening_before_closing' => 'Die :day :session Öffnungszeit muss vor der Schließzeit liegen.',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -673,6 +719,8 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ],
@@ -687,6 +735,7 @@ class OpeningHoursRule implements ValidationRule
 ### Esempio di Utilizzo
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 =======
@@ -713,10 +762,13 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 // Input: day = "Monday", session = "morning"
 // Output IT: "Per Monday, l'orario di chiusura mattina deve essere..."
 // Output EN: "For Monday, morning closing time must be..."
 // Output DE: "Für Monday muss die Vormittags-Schließzeit..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
@@ -733,6 +785,8 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -740,6 +794,7 @@ class OpeningHoursRule implements ValidationRule
 ## Best Practices Implementate
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 ## Best Practices Implementate
@@ -756,6 +811,8 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### Struttura File
@@ -765,6 +822,7 @@ class OpeningHoursRule implements ValidationRule
 4. **Naming consistente** tra le lingue
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 
 =======
@@ -784,6 +842,9 @@ class OpeningHoursRule implements ValidationRule
 
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -795,6 +856,7 @@ class OpeningHoursRule implements ValidationRule
 4. **Terminologia appropriata** per dominio medico
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 
 =======
@@ -814,6 +876,9 @@ class OpeningHoursRule implements ValidationRule
 
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -825,6 +890,7 @@ class OpeningHoursRule implements ValidationRule
 4. **Struttura scalabile** per nuove validazioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -844,12 +910,15 @@ Per aggiungere nuove validazioni agli orari di apertura:
 >>>>>>> .merge_file_AZmUgq
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Estensibilità
 
 ### Aggiunta Nuove Validazioni
 Per aggiungere nuove validazioni agli orari di apertura:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
@@ -869,6 +938,8 @@ Per aggiungere nuove validazioni agli orari di apertura:
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. **Aggiungere chiave** in tutti e tre i file validation.php
@@ -877,6 +948,7 @@ Per aggiungere nuove validazioni agli orari di apertura:
 4. **Testare** in tutte le lingue
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -895,10 +967,13 @@ Per supportare una nuova lingua (es: francese):
 >>>>>>> .merge_file_AZmUgq
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### Aggiunta Nuove Lingue
 Per supportare una nuova lingua (es: francese):
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
@@ -917,6 +992,8 @@ Per supportare una nuova lingua (es: francese):
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. **Creare** `Modules/UI/lang/fr/validation.php`
@@ -925,6 +1002,7 @@ Per supportare una nuova lingua (es: francese):
 4. **Aggiornare** documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -941,6 +1019,8 @@ Per supportare una nuova lingua (es: francese):
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -949,6 +1029,7 @@ Per supportare una nuova lingua (es: francese):
 ### Test per Ogni Lingua
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 <<<<<<< .merge_file_hmOCFx
@@ -968,10 +1049,13 @@ Per supportare una nuova lingua (es: francese):
 >>>>>>> .merge_file_AZmUgq
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 // Test italiano
 App::setLocale('it');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
@@ -995,6 +1079,8 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1015,6 +1101,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 ## Benefici della Implementazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
 =======
@@ -1045,10 +1132,13 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Per gli Utenti
 - **Messaggi nella lingua nativa** per migliore comprensione
 - **Terminologia medica appropriata** per ogni cultura
 - **User experience coerente** in tutte le lingue
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
@@ -1070,6 +1160,9 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1081,6 +1174,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - **Conformità** alle best practices Laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 
 =======
@@ -1104,10 +1198,14 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 ### Per il Progetto
 - **Supporto internazionale** completo
 - **Professionalità** nell'approccio multilingua
 - **Facilità di espansione** in nuovi mercati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
@@ -1129,6 +1227,8 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 >>>>>>> .merge_file_AZmUgq
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
@@ -1137,6 +1237,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [Localization Guidelines](./localization_guidelines.md)
 
 *Implementazione completata: gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Acq7Hi
 =======
@@ -1180,6 +1281,8 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> .merge_file_uVeUUU
 >>>>>>> .merge_file_AZmUgq
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

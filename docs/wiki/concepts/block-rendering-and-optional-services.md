@@ -5,6 +5,7 @@ tags: [ui, blocks, livewire, phpstan, geo, cms]
 created: 2026-06-15
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qJlCtx
 =======
 updated: 2026-06-15
@@ -14,6 +15,9 @@ updated: 2026-06-15
 <<<<<<< HEAD
 >>>>>>> .merge_file_4GWtMh
 updated: 2026-07-13
+>>>>>>> laraxot/dev
+=======
+updated: 2026-06-15
 >>>>>>> laraxot/dev
 qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
 related:
@@ -30,6 +34,7 @@ related:
   - ./phpstan-dynamic-array-normalization.md
   - ../../../../../docs/wiki/patterns/phpstan-optional-contracts.md
   - ../log.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_qJlCtx
 =======
 =======
@@ -67,6 +72,8 @@ related:
   - ./phpstan-dynamic-array-normalization.md
   - ../../../../../docs/wiki/patterns/phpstan-optional-contracts.md
   - ../log.md
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 
@@ -105,12 +112,15 @@ flowchart LR
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qJlCtx
 =======
 <<<<<<< .merge_file_SFCuFr
 =======
 =======
 >>>>>>> .merge_file_aFTBdU
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 | Artefatto | Ruolo | Consumer noti |
@@ -122,6 +132,7 @@ flowchart LR
 
 Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServiceProvider` senza toccare `InteractiveMap`.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SFCuFr
 =======
@@ -147,6 +158,8 @@ Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServicePr
 >>>>>>> .merge_file_aFTBdU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_4GWtMh
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Regola PHPStan

@@ -8,6 +8,7 @@ qmd: "ponytail audit UI modulo stub config archive root md"
 issues:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a86VEB
 =======
 <<<<<<< .merge_file_k7dLh3
@@ -30,6 +31,8 @@ related:
 =======
 >>>>>>> .merge_file_CWNP6q
 >>>>>>> .merge_file_wNY1xF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   - "https://github.com/laraxot/base_predict_fila5/issues/221"
@@ -39,6 +42,7 @@ related:
   - ../../ponytail-audit-over-engineering.md
   - module-root-uppercase-folders-archive.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a86VEB
 =======
 =======
@@ -67,6 +71,8 @@ related:
 =======
 >>>>>>> .merge_file_CWNP6q
 >>>>>>> .merge_file_wNY1xF
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

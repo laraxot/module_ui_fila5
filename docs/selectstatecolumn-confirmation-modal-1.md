@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_Hyscqr
 =======
@@ -18,6 +19,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ogR1Fb
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # SelectStateColumn - Aggiunta Modal di Conferma

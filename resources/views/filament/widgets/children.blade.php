@@ -6,6 +6,7 @@ declare(strict_types=1);
 <x-filament::widget class="filament-widgets-tree-widget">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {{-- $this->tree --}}
 <<<<<<< .merge_file_5HPdiW
     {{ dddx($record) }}
@@ -29,6 +30,10 @@ declare(strict_types=1);
     {{-- ponytail: tree rendering WIP — dddx($record) removed (fatal on render) --}}
 >>>>>>> .merge_file_bTAtOn
 >>>>>>> .merge_file_WopfdT
+=======
+    {{-- $this->tree --}}
+    {{ dddx($record) }}
+>>>>>>> laraxot/dev
 =======
     {{-- $this->tree --}}
     {{ dddx($record) }}

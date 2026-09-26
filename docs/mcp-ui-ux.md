@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fLmItK
 =======
 > Ultimo aggiornamento: Febbraio 2026
@@ -23,6 +24,8 @@
 >>>>>>> .merge_file_f2WbPw
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_clyfnF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -61,6 +64,7 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fLmItK
 - [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
@@ -92,6 +96,10 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
 >>>>>>> .merge_file_f2WbPw
 >>>>>>> .merge_file_clyfnF
+>>>>>>> laraxot/dev
+=======
+- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
+- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
 >>>>>>> laraxot/dev
 =======
 - [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZrbPy4
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_glxuAS
 >>>>>>> .merge_file_4iJnPb
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 https://dev.to/themesberg/how-to-build-a-blog-template-with-tailwind-css-and-flowbite-5e4n

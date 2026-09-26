@@ -15,6 +15,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qDNtsj
 =======
 <<<<<<< .merge_file_SEA8j8
@@ -82,10 +83,13 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> .merge_file_9PTGPQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     <x-filament::icon-button
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
         label="Test Azione"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -117,6 +121,8 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9PTGPQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -178,6 +184,7 @@ public function prova($recordId): void
 
 ### Nel Template
 ```blade
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qDNtsj
@@ -247,10 +254,13 @@ public function prova($recordId): void
 >>>>>>> .merge_file_9PTGPQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <x-filament::icon-button
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
     label="Test Azione"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -282,6 +292,8 @@ public function prova($recordId): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9PTGPQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -319,6 +331,7 @@ public function transitionState($recordId, $stateClass): void
     // Logica per la transizione di stato
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qDNtsj
@@ -377,6 +390,9 @@ public function transitionState($recordId, $stateClass): void
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
         ->success()
@@ -386,6 +402,7 @@ public function transitionState($recordId, $stateClass): void
 
 ### 2. Aggiungere il pulsante nel template
 ```blade
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qDNtsj
@@ -455,10 +472,13 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> .merge_file_9PTGPQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <x-filament::icon-button
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
     label="Cambia Stato"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -493,6 +513,8 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 />
 ```
 
@@ -506,6 +528,7 @@ La soluzione semplice è la migliore perché:
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qDNtsj
@@ -559,6 +582,9 @@ La soluzione semplice è la migliore perché:
 
 >>>>>>> .merge_file_j3kMXb
 >>>>>>> .merge_file_9PTGPQ
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -707,6 +733,7 @@ La soluzione semplice è la migliore perché:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qDNtsj
 =======
 =======
@@ -717,10 +744,13 @@ La soluzione semplice è la migliore perché:
 >>>>>>> .merge_file_9PTGPQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qDNtsj
 =======
@@ -760,6 +790,8 @@ La soluzione semplice è la migliore perché:
 =======
 >>>>>>> .merge_file_j3kMXb
 >>>>>>> .merge_file_9PTGPQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jdzKdT
 =======
 <<<<<<< .merge_file_u0vq8t
@@ -809,6 +810,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> .merge_file_lP2yva
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 title: "architecture-rules — puntatore"
 type: reference
@@ -820,6 +823,7 @@ updated: 2026-05-21
 Contenuto in wiki di progetto — non duplicare nei moduli ([#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)).
 
 → [docs/wiki/rules/00-TRIGGER_MAP.md](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jdzKdT
 =======
@@ -1824,6 +1828,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> .merge_file_zJsofP
 >>>>>>> .merge_file_lP2yva
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

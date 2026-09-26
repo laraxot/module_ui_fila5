@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -84,6 +85,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -122,6 +125,7 @@ class ThemeRegistry
     protected array $themes = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -189,10 +193,13 @@ class ThemeRegistry
 >>>>>>> .merge_file_VQLtDP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -224,6 +231,8 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -233,6 +242,7 @@ class ThemeRegistry
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -285,6 +295,9 @@ class ThemeRegistry
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -307,6 +320,7 @@ class Theme
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -359,6 +373,9 @@ class Theme
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -369,6 +386,7 @@ class Theme
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -421,6 +439,9 @@ class Theme
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -594,6 +615,7 @@ class ThemeCompiler
 4. Aggiungere theme builder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 =======
@@ -602,6 +624,8 @@ class ThemeCompiler
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 5. Migliorare documentazione
 # Sistema di Theming
 <<<<<<< HEAD
@@ -616,6 +640,7 @@ Completamento: 40%
 ## 📊 Stato Implementazione
 Completamento: 40%
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
@@ -656,6 +681,8 @@ Completamento: 40%
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -666,6 +693,7 @@ Completamento: 40%
 4. Customizzazione component-level
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 ## 🤔 Sfide di Design
@@ -697,6 +725,11 @@ Completamento: 40%
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
+## 🤔 Sfide di Design
+
 >>>>>>> laraxot/dev
 =======
 
@@ -709,6 +742,7 @@ Completamento: 40%
 - Tipizzazione configurazioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -728,6 +762,9 @@ Completamento: 40%
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -738,6 +775,7 @@ Completamento: 40%
 - Performance ottimizzazione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -757,6 +795,9 @@ Completamento: 40%
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -767,9 +808,12 @@ Completamento: 40%
 - CSS-in-JS solution
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
+=======
+>>>>>>> laraxot/dev
 
 ## 💡 Soluzioni Proposte
 =======
@@ -778,6 +822,7 @@ Completamento: 40%
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## 💡 Soluzioni Proposte
@@ -804,6 +849,8 @@ Completamento: 40%
 
 ## 💡 Soluzioni Proposte
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### 1. Theme Registry
 ```php
@@ -813,6 +860,7 @@ class ThemeRegistry
     protected array $themes = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -831,10 +879,13 @@ class ThemeRegistry
 >>>>>>> .merge_file_VQLtDP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
@@ -853,12 +904,15 @@ class ThemeRegistry
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
@@ -879,6 +933,8 @@ class Theme
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -894,6 +950,7 @@ class Theme
 class Theme
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 =======
@@ -918,6 +975,8 @@ class Theme
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -928,6 +987,7 @@ class Theme
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -945,6 +1005,8 @@ class Theme
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -956,6 +1018,7 @@ class Theme
     public function extend(array $overrides): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -974,6 +1037,8 @@ class Theme
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         return new self(
@@ -983,6 +1048,7 @@ class Theme
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -997,6 +1063,8 @@ class Theme
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }
@@ -1006,6 +1074,7 @@ class Theme
 ## 📝 Steps Implementazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 ## 📝 Steps Implementazione
@@ -1022,6 +1091,8 @@ class Theme
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### Fase 1: Core (✅ Completato)
@@ -1031,6 +1102,7 @@ class Theme
 4. ✅ Basic overrides
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -1050,6 +1122,9 @@ class Theme
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1062,6 +1137,7 @@ class Theme
 5. 📝 CSS-in-JS
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -1085,12 +1161,16 @@ class Theme
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 ### Fase 3: Advanced
 1. 📝 Theme presets
 2. 📝 Custom schemes
 3. 📝 Theme builder
 4. 📝 Export/Import
 5. 📝 Theme preview
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
@@ -1112,6 +1192,8 @@ class ThemeResolver
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1128,6 +1210,7 @@ class ThemeResolver
     public function resolve(Theme $theme, string $path)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 =======
@@ -1153,6 +1236,8 @@ class ThemeResolver
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1166,6 +1251,7 @@ class ThemeResolver
         return $value;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -1184,6 +1270,8 @@ class ThemeCache
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }
@@ -1201,6 +1289,7 @@ class ThemeCache
     public function get(Theme $theme): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 =======
@@ -1225,6 +1314,8 @@ class ThemeCache
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1236,6 +1327,7 @@ class ThemeCache
                 fn() => $theme->all()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -1250,6 +1342,8 @@ class ThemeCache
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
             );
@@ -1260,6 +1354,7 @@ class ThemeCache
 ## ✅ Code Review Checklist
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 ## ✅ Code Review Checklist
@@ -1276,6 +1371,8 @@ class ThemeCache
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. Configuration
@@ -1284,6 +1381,7 @@ class ThemeCache
    - [ ] Override system
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -1303,6 +1401,9 @@ class ThemeCache
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1313,6 +1414,7 @@ class ThemeCache
    - [ ] Runtime switching
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 =======
@@ -1336,10 +1438,14 @@ class ThemeCache
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 3. Integration
    - [ ] Component support
    - [ ] Tenant handling
    - [ ] Mode switching
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
@@ -1369,6 +1475,8 @@ class ThemeCompiler
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1409,6 +1517,7 @@ class ThemeCompiler
 ## 📚 Lessons Learned
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 =======
@@ -1445,10 +1554,13 @@ class ThemeCompiler
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. Importanza della cache per performance
 2. Necessità di type safety in configurazione
 3. Flessibilità per multi-tenant
 4. Ottimizzazione CSS runtime
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
@@ -1482,6 +1594,11 @@ class ThemeCompiler
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
+## 🔗 Resources
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1494,6 +1611,7 @@ class ThemeCompiler
 - [Performance Tips](docs/themes/performance.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 
 ## 🤝 Contributing
@@ -1525,6 +1643,11 @@ class ThemeCompiler
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+
+## 🤝 Contributing
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1538,6 +1661,7 @@ class ThemeCompiler
 5. Testa compatibilità
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
 <<<<<<< .merge_file_oQU1yA
@@ -1560,6 +1684,8 @@ class ThemeCompiler
 >>>>>>> .merge_file_VQLtDP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## ⚠️ Known Issues
 
@@ -1573,6 +1699,7 @@ class ThemeCompiler
 
 ## 🎯 Next Steps
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 =======
@@ -1600,6 +1727,8 @@ class ThemeCompiler
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1609,6 +1738,7 @@ class ThemeCompiler
 4. Aggiungere theme builder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_spqRKK
 5. Migliorare documentazione
 =======
@@ -1667,6 +1797,9 @@ class ThemeCompiler
 5. Migliorare documentazione
 >>>>>>> .merge_file_jIxECU
 >>>>>>> .merge_file_VQLtDP
+>>>>>>> laraxot/dev
+=======
+5. Migliorare documentazione
 >>>>>>> laraxot/dev
 =======
 5. Migliorare documentazione

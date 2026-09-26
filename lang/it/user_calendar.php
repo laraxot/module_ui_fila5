@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_efA19a
 <<<<<<< HEAD
 =======
@@ -133,6 +134,9 @@ return [
 >>>>>>> .merge_file_awaNkD
 =======
 return [
+=======
+return [
+>>>>>>> laraxot/dev
     'months' => [
         'long' => [
             0 => 'Gennaio',
@@ -252,12 +256,16 @@ return [
         'date' => 'Inserisci una data valida',
         'after' => 'La data di fine deve essere successiva alla data di inizio',
     ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     'label' => 'User Calendar',
     'plural_label' => 'User Calendar (Plurale)',
     'navigation' => [
         'name' => 'User Calendar',
         'plural' => 'User Calendar',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_efA19a
 <<<<<<< HEAD
@@ -272,6 +280,8 @@ return [
 >>>>>>> .merge_file_awaNkD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
@@ -279,6 +289,7 @@ return [
         'label' => 'User Calendar',
         'sort' => 1,
         'icon' => 'heroicon-o-collection',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_efA19a
 =======
@@ -307,6 +318,8 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_WRmyJm
 >>>>>>> .merge_file_awaNkD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ],

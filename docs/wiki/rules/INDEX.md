@@ -36,6 +36,7 @@ Le Rules progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate 
 - Non embeddare Rules nei prompt di avvio
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
 =======
 <<<<<<< HEAD
@@ -57,6 +58,9 @@ Le Rules progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_sjzvuw
+>>>>>>> laraxot/dev
+=======
+- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
 >>>>>>> laraxot/dev
 =======
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)

@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_IDSqlO
 =======
 **Data**: 11 Novembre 2025
@@ -23,6 +24,8 @@
 >>>>>>> .merge_file_9leHQi
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Fwx8QC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO

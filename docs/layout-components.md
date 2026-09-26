@@ -144,6 +144,7 @@ $breakpoints: (
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 =======
@@ -200,11 +201,16 @@ $breakpoints: (
 >>>>>>> .merge_file_8LYICu
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> laraxot/dev
 - [Accessibilità](./standards/accessibility.md)
 # Componenti Layout
 
 ## 📐 Struttura Base
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Container
 ```html
@@ -213,6 +219,7 @@ $breakpoints: (
 </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 <<<<<<< .merge_file_3zePlE
@@ -229,6 +236,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -240,6 +249,7 @@ $breakpoints: (
 ### Grid System
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 =======
@@ -262,6 +272,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -271,6 +283,7 @@ $breakpoints: (
   </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 <<<<<<< .merge_file_3zePlE
@@ -288,6 +301,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   <div class="col-md-6">
@@ -301,6 +316,7 @@ $breakpoints: (
 ### Header
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 <<<<<<< .merge_file_3zePlE
@@ -321,10 +337,13 @@ $breakpoints: (
 >>>>>>> .merge_file_8LYICu
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <header class="header">
   <div class="header-brand">
     <img src="logo.png" alt="Logo">
     <h1>Nome Applicazione</h1>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
@@ -346,6 +365,9 @@ $breakpoints: (
   </div>
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+=======
+  </div>
 >>>>>>> laraxot/dev
 =======
   </div>
@@ -357,6 +379,7 @@ $breakpoints: (
     <!-- Azioni -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 <<<<<<< .merge_file_3zePlE
@@ -374,6 +397,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   </div>
@@ -387,6 +412,7 @@ $breakpoints: (
     <h2>Menu</h2>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 =======
@@ -410,6 +436,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -425,6 +453,7 @@ $breakpoints: (
     </ul>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 <<<<<<< .merge_file_3zePlE
@@ -441,6 +470,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   </nav>
@@ -450,6 +481,7 @@ $breakpoints: (
 ### Footer
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 <<<<<<< .merge_file_3zePlE
@@ -467,6 +499,8 @@ $breakpoints: (
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 <footer class="footer">
@@ -477,6 +511,7 @@ $breakpoints: (
     </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 <<<<<<< .merge_file_3zePlE
@@ -495,6 +530,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     <div class="footer-section">
@@ -511,6 +548,7 @@ $breakpoints: (
 ## 📱 Responsive
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 =======
@@ -535,6 +573,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -550,6 +590,7 @@ $breakpoints: (
 );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 <<<<<<< .merge_file_3zePlE
@@ -564,6 +605,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -571,6 +614,7 @@ $breakpoints: (
 ### Media Queries
 ```scss
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
 ### Media Queries
@@ -587,6 +631,8 @@ $breakpoints: (
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 @mixin media-up($breakpoint) {
@@ -598,6 +644,7 @@ $breakpoints: (
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 
 =======
@@ -621,10 +668,14 @@ $breakpoints: (
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 // Utilizzo
 .element {
   @include media-up('md') {
     // Stili per schermi md e superiori
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
@@ -657,6 +708,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   }
@@ -692,6 +745,7 @@ $breakpoints: (
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_srebSp
 =======
@@ -747,6 +801,8 @@ $breakpoints: (
 =======
 >>>>>>> .merge_file_ydSnRx
 >>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

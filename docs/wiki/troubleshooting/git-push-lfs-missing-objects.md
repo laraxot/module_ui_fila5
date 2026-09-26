@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
 <<<<<<< .merge_file_pMJxA6
@@ -113,6 +114,8 @@ Quando **nessun** remote/clone ha gli OID LFS (404 ovunque) e i puntatori nello 
 =======
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 title: "Git push — oggetti LFS mancanti (module_ui_fila5)"
@@ -201,6 +204,7 @@ Risultato: `laraxot/dev` aggiornato (`f552d26..7a189bb`), branch traccia `laraxo
 - `git config lfs.allowincompletepush true` — push incompleto, clone rotti per altri.
 - Force push su `main`/`master` senza coordinamento.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
 =======
@@ -322,10 +326,13 @@ Quando **nessun** remote/clone ha gli OID LFS (404 ovunque) e i puntatori nello 
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - Reintrodurre LFS su `*.svg` / `*.png` senza policy e storage affidabile.
 
 ## Prevenzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
@@ -352,6 +359,8 @@ grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.t
 =======
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. **LFS solo se necessario** (file >100 MB o binari pesanti). SVG/PNG piccoli → blob Git normali.
@@ -376,6 +385,7 @@ git lfs push laraxot --all
 git lfs fsck
 git push -u laraxot dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
 =======
@@ -409,10 +419,13 @@ grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.t
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## Riferimenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
@@ -432,6 +445,8 @@ grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.t
 =======
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - Issue: [laraxot/module_ui_fila5#24](https://github.com/laraxot/module_ui_fila5/issues/24)
@@ -466,6 +481,7 @@ find . -maxdepth 1 -name '*.txt' -print
 | Marker `<<<<<<<` in `docs/` | Risolvi forward-only, vedi [git-merge-conflict-inventory](./git-merge-conflict-inventory.md) |
 | Root `.txt` duplicati | Rimuovi da root; contenuto in `_docs/` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
 =======
@@ -489,6 +505,8 @@ find . -maxdepth 1 -name '*.txt' -print
 =======
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

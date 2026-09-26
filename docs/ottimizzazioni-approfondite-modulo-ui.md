@@ -68,6 +68,7 @@ app/
 **Guide da consolidare:**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_e6lLKY
 =======
 <<<<<<< .merge_file_xfcjQe
@@ -84,6 +85,8 @@ app/
 =======
 >>>>>>> .merge_file_5CKuv3
 >>>>>>> .merge_file_L8McSK
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - **PHPStan:** Fare riferimento a `../../../docs/core/phpstan-guide.md`
@@ -91,6 +94,7 @@ app/
 - **Testing:** Fare riferimento a `../../../docs/core/testing-guide.md`
 - **Code Quality:** Fare riferimento a `../../../docs/core/code-quality-guide.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_e6lLKY
 =======
 =======
@@ -113,6 +117,8 @@ app/
 =======
 >>>>>>> .merge_file_5CKuv3
 >>>>>>> .merge_file_L8McSK
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -324,6 +330,7 @@ php artisan test --testsuite=UI
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_e6lLKY
 =======
 <<<<<<< .merge_file_xfcjQe
@@ -341,6 +348,8 @@ php artisan test --testsuite=UI
 =======
 >>>>>>> .merge_file_5CKuv3
 >>>>>>> .merge_file_L8McSK
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [**Documentazione Core Sistema**](../../../docs/core/)
@@ -349,6 +358,7 @@ php artisan test --testsuite=UI
 - [**Convenzioni Sistema**](../../../docs/core/conventions.md)
 - [**Template Moduli**](../../../docs/templates/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_e6lLKY
 =======
 =======
@@ -372,6 +382,8 @@ php artisan test --testsuite=UI
 =======
 >>>>>>> .merge_file_5CKuv3
 >>>>>>> .merge_file_L8McSK
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

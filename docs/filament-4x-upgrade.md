@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
 **Data**: 2025-09-30
@@ -23,6 +24,8 @@
 >>>>>>> .merge_file_VODkQH
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_pdBite
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO
@@ -171,6 +174,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
 <<<<<<< .merge_file_MDBNXW
@@ -197,6 +201,8 @@ Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche princ
 =======
 >>>>>>> .merge_file_VODkQH
 >>>>>>> .merge_file_pdBite
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 *Ultimo aggiornamento: [DATE]*
@@ -223,6 +229,7 @@ Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche princ
 #### Modifiche Specifiche
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
 =======
@@ -274,12 +281,15 @@ Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche princ
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```php
 // PRIMA (Filament 3)
 use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 use Saade\FilamentFullCalendar\Widgets\Concerns\InteractsWithEvents;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
 <<<<<<< .merge_file_MDBNXW
@@ -320,6 +330,8 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 >>>>>>> .merge_file_pdBite
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 class UserCalendarWidget extends FullCalendarWidget
 {
@@ -360,6 +372,7 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
    - Da: `protected static ?string $view`
    - A: `protected string $view`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
@@ -405,6 +418,8 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 =======
 >>>>>>> .merge_file_VODkQH
 >>>>>>> .merge_file_pdBite
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -415,6 +430,7 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
    - `getActionName()` - Logica custom mantenuta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
 <<<<<<< .merge_file_MDBNXW
@@ -450,6 +466,8 @@ Quando il pacchetto sarà compatibile:
 =======
 >>>>>>> .merge_file_VODkQH
 >>>>>>> .merge_file_pdBite
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -500,6 +518,7 @@ class UserCalendarWidget extends FullCalendarWidget
 ## 🎨 View Template
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
 =======
@@ -544,12 +563,15 @@ Quando il pacchetto sarà compatibile:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare:
 - Messaggio temporaneo di disabilitazione
 - Link alla documentazione
 - Alternativa manuale (se applicabile)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
 <<<<<<< .merge_file_MDBNXW
@@ -569,6 +591,8 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 >>>>>>> .merge_file_pdBite
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## 🔗 Collegamenti
 
@@ -578,6 +602,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 ## 📋 Checklist
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
@@ -602,6 +627,8 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 =======
 >>>>>>> .merge_file_VODkQH
 >>>>>>> .merge_file_pdBite
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -615,9 +642,12 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 - [ ] Monitoraggio aggiornamenti pacchetto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 =======
 <<<<<<< .merge_file_MDBNXW
+=======
+>>>>>>> laraxot/dev
 
 ## 🚨 Note Importanti
 =======
@@ -625,6 +655,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 =======
 >>>>>>> .merge_file_VODkQH
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## 🚨 Note Importanti
@@ -649,6 +680,8 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 ## 🚨 Note Importanti
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 1. **Breaking Change**: La proprietà `$view` in Filament 4 **non è più statica**
 2. **Compatibilità**: Il widget attuale non renderà il calendario fino all'aggiornamento del pacchetto
@@ -656,6 +689,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 4. **Testing**: Testare approfonditamente il widget quando il pacchetto sarà aggiornato
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lyCjot
 
 *Ultimo aggiornamento: [DATE]*
@@ -731,6 +765,11 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 *Modulo UI compatibile con Filament 4.0.20*
 >>>>>>> .merge_file_VODkQH
 >>>>>>> .merge_file_pdBite
+>>>>>>> laraxot/dev
+=======
+
+*Ultimo aggiornamento: [DATE]*
+*Modulo UI compatibile con Filament 4.0.20*
 >>>>>>> laraxot/dev
 =======
 

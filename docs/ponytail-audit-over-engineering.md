@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cnvj22
 =======
 <<<<<<< .merge_file_AIPy2Y
@@ -15,6 +16,8 @@
 =======
 >>>>>>> .merge_file_GrWaaM
 >>>>>>> .merge_file_kNq4rE
+=======
+>>>>>>> laraxot/dev
 **Ultimo run:** 2026-07-01  
 >>>>>>> laraxot/dev
 =======
@@ -48,6 +51,7 @@
 | UI1 | `delete` | `Config/` maiuscolo + `Config.bak/` (duplicato di `config/`) | Solo `config/` | `Config/`, `Config.bak/` | ✅ 2026-07-01 |
 | UI2 | `delete` | `docs/archive/` (~144 file duplicati sessione) | Solo `docs/wiki/` | `docs/archive/` | ✅ 2026-07-01 |
 | UI3 | `delete` | ~26 stub `.md` / `.txt` in root + mirror `_docs/`, `docs/root-*` | `docs/wiki/` + indici | root `Modules/UI/*`, `_docs/` | ✅ 2026-07-01 |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cnvj22
 =======
@@ -106,12 +110,15 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 
 - [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cnvj22
 - [00-INDEX.md](./00-INDEX.md)
 =======
@@ -163,6 +170,9 @@
 - [00-INDEX.md](./00-INDEX.md)
 >>>>>>> .merge_file_GrWaaM
 >>>>>>> .merge_file_kNq4rE
+>>>>>>> laraxot/dev
+=======
+- [00-INDEX.md](./00-INDEX.md)
 >>>>>>> laraxot/dev
 =======
 - [00-INDEX.md](./00-INDEX.md)

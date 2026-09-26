@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AbQU7y
 =======
 =======
@@ -67,6 +68,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ENbuD7
 >>>>>>> .merge_file_eK7Wim
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Chart Export Strategy (PNG/SVG)

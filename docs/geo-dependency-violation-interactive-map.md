@@ -9,11 +9,14 @@ qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violav
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_On3dMq
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_m7hylc
 <<<<<<< HEAD
@@ -35,6 +38,9 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 updated: 2026-08-18
 qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violava regola "ui non importa geo""
@@ -59,6 +65,9 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 =======
@@ -84,6 +93,9 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"

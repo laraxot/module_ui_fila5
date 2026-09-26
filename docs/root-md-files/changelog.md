@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
@@ -92,6 +93,11 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_gT4da1
+>>>>>>> laraxot/dev
+=======
+# Changelog
+
+Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 >>>>>>> laraxot/dev
 =======
 # Changelog

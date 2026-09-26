@@ -9,6 +9,7 @@ use Modules\UI\Enums\TableLayoutEnum;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @phpstan-ignore trait.unused */
 =======
 <<<<<<< .merge_file_SYNS1n
@@ -21,6 +22,9 @@ use Modules\UI\Enums\TableLayoutEnum;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_3nw5NO
+>>>>>>> laraxot/dev
+=======
+/** @phpstan-ignore trait.unused */
 >>>>>>> laraxot/dev
 =======
 /** @phpstan-ignore trait.unused */

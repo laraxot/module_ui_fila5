@@ -4,6 +4,7 @@ topic: bottlenecks
 canonical: ../../../../Themes/docs/shared-components/bottlenecks-Modules.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MFZtWg
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_T9fYzx
 >>>>>>> .merge_file_VtWniW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

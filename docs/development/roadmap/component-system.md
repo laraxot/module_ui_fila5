@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_C4NTuY
 =======
 =======
@@ -66,6 +67,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GKeq2S
 >>>>>>> .merge_file_QGTKa7
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Sistema Componenti UI

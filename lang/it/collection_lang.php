@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mLBY6d
 <<<<<<< HEAD
 =======
@@ -33,6 +34,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_Uw3CFC
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     'model' => [
         'label' => 'Modello Collezione',
@@ -42,6 +45,7 @@ return [
     'navigation' => [
         'label' => 'Collezioni',
         'group' => 'UI',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mLBY6d
 <<<<<<< HEAD
@@ -68,6 +72,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_6XQvyw
 >>>>>>> .merge_file_Uw3CFC
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> laraxot/dev

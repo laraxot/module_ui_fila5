@@ -4,6 +4,7 @@ topic: laravel
 canonical: ../../../../Themes/docs/shared-components/laravel-Modules.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pwilnx
 =======
 =======
@@ -37,6 +38,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zfaFnm
 >>>>>>> .merge_file_OErLFy
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

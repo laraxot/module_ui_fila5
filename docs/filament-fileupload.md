@@ -91,6 +91,7 @@ return [
 ## Collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -106,6 +107,8 @@ return [
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 - [Translation System](../../lang/docs/translation-system.md)
 - [Form Components](../../patient/docs/filament-form-components.md)
 - [Best Practices](../../xot/docs/filament-best-practices.md)
@@ -127,6 +130,7 @@ return [
 
 ## Metodi Disponibili
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 =======
@@ -175,6 +179,8 @@ return [
 
 ## Metodi Disponibili
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Configurazione Base
 ```php
@@ -187,6 +193,7 @@ FileUpload::make('document')
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -201,6 +208,8 @@ FileUpload::make('document')
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -208,6 +217,7 @@ FileUpload::make('document')
 ```php
 FileUpload::make('document')
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 ### UI/UX
@@ -224,6 +234,8 @@ FileUpload::make('document')
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ->downloadable()
@@ -236,6 +248,7 @@ FileUpload::make('document')
     ->uploadProgressIndicatorPosition('right')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -258,6 +271,8 @@ FileUpload::make('document')
 >>>>>>> .merge_file_Wtdikt
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## ⚠️ Errori Comuni
@@ -284,6 +299,7 @@ FileUpload::make('document')
 
 ✅ **FARE**:
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
@@ -311,6 +327,8 @@ FileUpload::make('document')
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -327,6 +345,7 @@ return [
 ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -341,6 +360,8 @@ return [
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -348,6 +369,7 @@ return [
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 ## Best Practices
@@ -364,6 +386,8 @@ return [
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. **Sicurezza**
@@ -373,6 +397,7 @@ return [
    - Implementa validazione server-side
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 
 =======
@@ -394,6 +419,9 @@ return [
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wtdikt
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -404,6 +432,7 @@ return [
    - Fornisci feedback di progresso
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 
 =======
@@ -425,6 +454,9 @@ return [
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wtdikt
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -435,6 +467,7 @@ return [
    - Implementa drag & drop
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 
 =======
@@ -458,11 +491,15 @@ return [
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 4. **Manutenibilità**
    - Usa costanti per configurazioni comuni
    - Centralizza la logica di upload
    - Documenta requisiti specifici
    - Segui le convenzioni di naming
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
@@ -481,6 +518,8 @@ return [
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -498,6 +537,7 @@ return [
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -593,6 +633,8 @@ return [
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> .merge_file_Wtdikt
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -17,6 +17,7 @@ uses(TestCase::class);
 test('stats overview widget extends correct base class', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new StatsOverviewWidget();
 =======
 <<<<<<< .merge_file_TnEyfv
@@ -32,6 +33,9 @@ test('stats overview widget extends correct base class', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+>>>>>>> laraxot/dev
+=======
+    $widget = new StatsOverviewWidget();
 >>>>>>> laraxot/dev
 =======
     $widget = new StatsOverviewWidget();
@@ -46,6 +50,7 @@ test('stats overview widget has correct namespace', function (): void {
 test('stats overview widget has getStats method', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TnEyfv
 =======
     $widget = new StatsOverviewWidget();
@@ -64,6 +69,9 @@ test('stats overview widget has getStats method', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+=======
+    $widget = new StatsOverviewWidget();
+>>>>>>> laraxot/dev
 =======
     $widget = new StatsOverviewWidget();
 >>>>>>> laraxot/dev
@@ -74,6 +82,7 @@ test('stats overview widget has getStats method', function (): void {
 test('stats overview widget returns correct stats', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TnEyfv
 =======
     $widget = new StatsOverviewWidget();
@@ -92,6 +101,9 @@ test('stats overview widget returns correct stats', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+=======
+    $widget = new StatsOverviewWidget();
+>>>>>>> laraxot/dev
 =======
     $widget = new StatsOverviewWidget();
 >>>>>>> laraxot/dev
@@ -111,6 +123,7 @@ test('stats overview widget returns correct stats', function (): void {
 test('stats overview widget can be instantiated', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new StatsOverviewWidget();
 =======
 <<<<<<< .merge_file_TnEyfv
@@ -126,6 +139,9 @@ test('stats overview widget can be instantiated', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+>>>>>>> laraxot/dev
+=======
+    $widget = new StatsOverviewWidget();
 >>>>>>> laraxot/dev
 =======
     $widget = new StatsOverviewWidget();
@@ -139,6 +155,7 @@ test('stats overview widget has correct strict types declaration', function (): 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TnEyfv
 =======
     if (false !== $filename) {
@@ -157,6 +174,9 @@ test('stats overview widget has correct strict types declaration', function (): 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+=======
+    if (false !== $filename) {
+>>>>>>> laraxot/dev
 =======
     if (false !== $filename) {
 >>>>>>> laraxot/dev
@@ -178,6 +198,7 @@ test('stats overview widget getStats method has correct return type', function (
 
     Assert::assertNotNull($returnType);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TnEyfv
 =======
 <<<<<<< .merge_file_Ye3B8G
@@ -204,6 +225,9 @@ test('stats overview widget getStats method has correct return type', function (
     Assert::assertSame('array', $returnType->getName());
 >>>>>>> .merge_file_JqIqDg
 >>>>>>> .merge_file_IuyZio
+=======
+    Assert::assertSame('array', $returnType instanceof \ReflectionNamedType ? $returnType->getName() : (string) $returnType);
+>>>>>>> laraxot/dev
 =======
     Assert::assertSame('array', $returnType instanceof \ReflectionNamedType ? $returnType->getName() : (string) $returnType);
 >>>>>>> laraxot/dev
@@ -215,10 +239,14 @@ test('stats overview widget has correct use statements', function (): void {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
     if (false !== $filename) {
         $content = file_get_contents($filename);
 <<<<<<< .merge_file_Ye3B8G
         Assert::assertStringContainsString('use Filament\\Widgets\\StatsOverviewWidget as BaseWidget;', $content);
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_TnEyfv
     if ($filename !== false) {
@@ -250,6 +278,8 @@ test('stats overview widget has correct use statements', function (): void {
     if (false !== $filename) {
         $content = file_get_contents($filename);
         Assert::assertStringContainsString('use Filament\\Widgets\\StatsOverviewWidget as BaseWidget;', $content);
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     }
 });

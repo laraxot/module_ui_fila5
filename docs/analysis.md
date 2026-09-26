@@ -63,6 +63,7 @@ Modules/UI/
 ## Collegamenti tra versioni di analysis.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2XoB2k
 =======
 <<<<<<< .merge_file_DPWtZZ
@@ -88,6 +89,8 @@ Modules/UI/
 =======
 >>>>>>> .merge_file_eZDgZp
 >>>>>>> .merge_file_8BpSc8
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 * [analysis.md](../../../notify/docs/analysis.md)
@@ -104,6 +107,7 @@ Modules/UI/
 * [analysis.md](../../../media/docs/phpstan/analysis.md)
 * [analysis.md](../../../../themes/one/docs/analysis.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2XoB2k
 =======
 =======
@@ -135,6 +139,8 @@ Modules/UI/
 =======
 >>>>>>> .merge_file_eZDgZp
 >>>>>>> .merge_file_8BpSc8
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

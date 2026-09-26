@@ -5,6 +5,7 @@ extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XQwiaA
 =======
 <<<<<<< .merge_file_QdamCF
@@ -29,6 +30,8 @@ related:
 >>>>>>> .merge_file_5EjmjC
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jSoJfj
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

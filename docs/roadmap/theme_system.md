@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sSwZyW
 =======
 <<<<<<< .merge_file_8uMWvz
@@ -247,6 +248,8 @@ class ThemeCompiler
 =======
 >>>>>>> .merge_file_hgzFMe
 >>>>>>> .merge_file_JEBYUI
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---
@@ -257,6 +260,7 @@ canonical: ../../../../Themes/docs/shared-components/theme-system.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/theme-system.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sSwZyW
 =======
 =======
@@ -510,6 +514,8 @@ class ThemeCompiler
 =======
 >>>>>>> .merge_file_hgzFMe
 >>>>>>> .merge_file_JEBYUI
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

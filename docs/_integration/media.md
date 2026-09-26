@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1LVQZc
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_pehJ6m
 >>>>>>> .merge_file_2pD2YX
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # media

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VoF6mK
 =======
 <<<<<<< .merge_file_93zF1y
@@ -137,6 +138,8 @@ Se entrambi i file contengono contenuto diverso:
 >>>>>>> .merge_file_1K0HEL
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: file-naming-rules
@@ -144,6 +147,7 @@ canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VoF6mK
 =======
@@ -290,6 +294,8 @@ Se entrambi i file contengono contenuto diverso:
 =======
 >>>>>>> .merge_file_vVQXRF
 >>>>>>> .merge_file_1K0HEL
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -13,6 +13,7 @@ final class Navigation extends XotBaseBlock
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dkbKjD
 <<<<<<< HEAD
 =======
@@ -24,6 +25,8 @@ final class Navigation extends XotBaseBlock
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fW81i1
+=======
+>>>>>>> laraxot/dev
      * @return array<int, Component>
 =======
      * @return array<string, Component>
@@ -39,6 +42,7 @@ final class Navigation extends XotBaseBlock
 <<<<<<< HEAD
 <<<<<<< .merge_file_VfWMxq
             Repeater::make('items')
+<<<<<<< HEAD
 <<<<<<< .merge_file_dkbKjD
 =======
 =======
@@ -67,6 +71,8 @@ final class Navigation extends XotBaseBlock
 >>>>>>> .merge_file_fW81i1
 =======
             Repeater::make('items')
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
                 ->label(__('ui::blocks.navigation.fields.items.label'))
                 ->schema([
@@ -87,6 +93,7 @@ final class Navigation extends XotBaseBlock
      * @return array<string, Component>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dkbKjD
 =======
 <<<<<<< .merge_file_VfWMxq
@@ -110,6 +117,9 @@ final class Navigation extends XotBaseBlock
     public static function getFormSchema(): array
 >>>>>>> .merge_file_fdBkUg
 >>>>>>> .merge_file_fW81i1
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
 =======
     public function getFormSchema(): array
 >>>>>>> laraxot/dev

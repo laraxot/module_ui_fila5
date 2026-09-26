@@ -85,6 +85,7 @@ mkdir -p archive
 # Spostare file con date
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z3ADhZ
 mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
@@ -116,6 +117,10 @@ mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
 >>>>>>> .merge_file_wWg3mK
 >>>>>>> .merge_file_lU1ACM
+>>>>>>> laraxot/dev
+=======
+mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
+mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
 >>>>>>> laraxot/dev
 =======
 mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
@@ -131,6 +136,7 @@ mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z3ADhZ
 =======
 <<<<<<< .merge_file_1oK3S0
@@ -154,6 +160,8 @@ done
 =======
 >>>>>>> .merge_file_wWg3mK
 >>>>>>> .merge_file_lU1ACM
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
@@ -167,6 +175,7 @@ if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
     fi
 fi
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z3ADhZ
 =======
 =======
@@ -196,6 +205,8 @@ done
 =======
 >>>>>>> .merge_file_wWg3mK
 >>>>>>> .merge_file_lU1ACM
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

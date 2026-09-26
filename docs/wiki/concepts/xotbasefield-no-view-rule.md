@@ -4,6 +4,7 @@ description: XotBaseField subclasses must not declare a protected $view property
 type: concept
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0rwitM
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5oV5hV
 >>>>>>> .merge_file_0FdoLp
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

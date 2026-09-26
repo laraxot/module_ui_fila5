@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AcJ599
 =======
 =======
@@ -59,6 +60,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MZEV0E
 >>>>>>> .merge_file_8HSY6y
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # FullCalendar Component

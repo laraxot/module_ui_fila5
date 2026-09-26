@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_e3ExFm
 =======
 <<<<<<< .merge_file_hcJM4E
@@ -39,6 +40,8 @@ https://keen-slider.io/examples
 >>>>>>> .merge_file_FB6IQp
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
@@ -48,6 +51,7 @@ https://www.embla-carousel.com/examples/predefined/
 https://tw-elements.com/docs/standard/components/carousel/
 
 https://keen-slider.io/examples
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_e3ExFm
 =======
@@ -163,6 +167,8 @@ https://keen-slider.io/examples
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_FB6IQp
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -175,6 +181,7 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 https://www.embla-carousel.com/examples/predefined/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -208,11 +215,14 @@ https://www.embla-carousel.com/examples/predefined/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 https://tw-elements.com/docs/standard/components/carousel/
 
 https://keen-slider.io/examples
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_e3ExFm
 =======
@@ -267,6 +277,9 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_FB6IQp
+>>>>>>> laraxot/dev
+=======
+https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 >>>>>>> laraxot/dev
 =======
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library

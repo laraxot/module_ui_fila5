@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PCm1Wm
 <<<<<<< HEAD
 =======
@@ -28,6 +29,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_ZtV6vN
 >>>>>>> .merge_file_069IjV
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 return [
@@ -70,12 +73,15 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PCm1Wm
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_069IjV
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     'label' => 'Location Selector',
@@ -123,6 +129,7 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PCm1Wm
 =======
 =======
@@ -131,6 +138,8 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_069IjV
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

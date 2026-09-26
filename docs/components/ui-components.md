@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_q9BUHA
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_x7j1bX
 >>>>>>> .merge_file_Q3NnWS
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Componenti UI - Modulo UI
@@ -252,6 +255,7 @@ return [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_q9BUHA
 - [**README Modulo UI**](../readme.md)
 =======
@@ -275,6 +279,9 @@ return [
 - [**README Modulo UI**](../readme.md)
 >>>>>>> .merge_file_x7j1bX
 >>>>>>> .merge_file_Q3NnWS
+>>>>>>> laraxot/dev
+=======
+- [**README Modulo UI**](../readme.md)
 >>>>>>> laraxot/dev
 =======
 - [**README Modulo UI**](../readme.md)

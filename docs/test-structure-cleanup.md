@@ -107,6 +107,7 @@ Modules/UI/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_U9l3EO
 ### 4. **Autoloader <nome progetto>ability**
 =======
@@ -158,6 +159,9 @@ Modules/UI/
 ### 4. **Autoloader <nome progetto>ability**
 >>>>>>> .merge_file_OsHfpv
 >>>>>>> .merge_file_8WV8oF
+>>>>>>> laraxot/dev
+=======
+### 4. **Autoloader <nome progetto>ability**
 >>>>>>> laraxot/dev
 =======
 ### 4. **Autoloader <nome progetto>ability**
@@ -230,6 +234,7 @@ After cleanup:
 - ✅ No more PSR-4 autoloading warnings
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_U9l3EO
 - ✅ Clear, <nome progetto>able test structure
 =======
@@ -300,6 +305,9 @@ After cleanup:
 - ✅ Clear, <nome progetto>able test structure
 >>>>>>> .merge_file_OsHfpv
 >>>>>>> .merge_file_8WV8oF
+>>>>>>> laraxot/dev
+=======
+- ✅ Clear, <nome progetto>able test structure
 >>>>>>> laraxot/dev
 =======
 - ✅ Clear, <nome progetto>able test structure

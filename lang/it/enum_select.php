@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_rXNPX7
 <<<<<<< HEAD
 =======
@@ -56,10 +57,15 @@ return [
 >>>>>>> .merge_file_fvUmpV
 >>>>>>> .merge_file_7Z0zcc
 =======
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'type_id' => ['label' => 'type_id', 'placeholder' => 'type_id', 'helper_text' => 'type_id', 'description' => 'type_id'],
         'enum' => ['label' => 'enum', 'placeholder' => 'enum', 'helper_text' => 'enum', 'description' => 'enum'],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     ],
 ];

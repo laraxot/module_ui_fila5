@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WKa7sT
 =======
 <<<<<<< .merge_file_RoN8Qw
@@ -400,6 +401,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 >>>>>>> .merge_file_1mok7I
 >>>>>>> .merge_file_hdYPwT
+=======
+>>>>>>> laraxot/dev
 # Best Practices UI
 
 ## Principi Generali
@@ -793,6 +796,7 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 * [best-practices.md](docs/tecnico/filament/best-practices.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
 * [best-practices.md](../../../ui/docs/best-practices.md)
 * [best-practices.md](../../../../themes/one/docs/best-practices.md)
@@ -824,6 +828,11 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
+=======
+* [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
+* [best-practices.md](../../../ui/docs/best-practices.md)
+* [best-practices.md](../../../../themes/one/docs/best-practices.md)
 >>>>>>> laraxot/dev
 =======
 * [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
@@ -838,6 +847,7 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WKa7sT
 =======
 =======
@@ -846,6 +856,8 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hdYPwT
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Best Practices UI
@@ -1108,6 +1120,7 @@ class AdvancedForm extends Component
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WKa7sT
 =======
 =======
@@ -1142,6 +1155,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 >>>>>>> .merge_file_1mok7I
 >>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

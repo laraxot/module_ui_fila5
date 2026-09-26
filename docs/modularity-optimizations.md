@@ -212,6 +212,7 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZTSMbG
 =======
 <<<<<<< .merge_file_LsNnWM
@@ -228,6 +229,8 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 =======
 >>>>>>> .merge_file_zKNuKa
 >>>>>>> .merge_file_yym3nW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Root Docs: Modularity Hardcoded Names](../../../../docs/modularity-hardcoded-names.md)
@@ -235,6 +238,7 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 - [UI Architecture Overview](./architecture-overview.md)
 - [UI Best Practices](./best-practices/readme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZTSMbG
 =======
 =======
@@ -257,6 +261,8 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 =======
 >>>>>>> .merge_file_zKNuKa
 >>>>>>> .merge_file_yym3nW
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

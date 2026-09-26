@@ -21,6 +21,7 @@ uses(TestCase::class);
  * verificare. Qui il set è reale, i file SVG sono reali, e si asserisce il risultato.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xgz9D2
  * @param  array<int, string>  $relativeFiles
 =======
@@ -48,6 +49,10 @@ uses(TestCase::class);
 >>>>>>> .merge_file_Lhm2h5
 =======
  * @param  array<int, string>  $relativeFiles
+>>>>>>> laraxot/dev
+=======
+ * @param array<int, string> $relativeFiles
+ *
 >>>>>>> laraxot/dev
  * @return array{dir: string, prefix: string, set: string}
  */

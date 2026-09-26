@@ -83,6 +83,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DwC5nL
 <<<<<<< HEAD
 /**
@@ -101,12 +102,15 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> .merge_file_NUhrBN
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     /**
      * Get the appropriate table columns for this layout type.
      *
      * This method replaces the old debug_backtrace approach with explicit
      * parameter passing for better type safety and testability.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KUPd6T
 <<<<<<< HEAD
@@ -138,10 +142,13 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
      * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
      *
      * @return array<Column|ColumnGroup|Component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KUPd6T
 >>>>>>> laraxot/dev
@@ -149,6 +156,9 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> .merge_file_XNuapC
      */
 >>>>>>> .merge_file_NUhrBN
+=======
+     */
+>>>>>>> laraxot/dev
 =======
      */
 >>>>>>> laraxot/dev

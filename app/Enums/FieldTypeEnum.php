@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -18,6 +22,7 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_PhCfas
 =======
@@ -42,6 +47,9 @@ use Modules\Xot\Traits\EnumTrait;
  * Defines the different types of appointments in the system.
 >>>>>>> .merge_file_qCIK1o
 >>>>>>> .merge_file_yndxKC
+=======
+ * Defines the different types of appointments in the system.
+>>>>>>> laraxot/dev
 =======
  * Defines the different types of appointments in the system.
 >>>>>>> laraxot/dev
@@ -60,6 +68,7 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     // case NUMBER   = 'number';
     case EMAIL = 'email';
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PhCfas
 =======
 <<<<<<< .merge_file_k4aE4q
@@ -81,6 +90,9 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     // case PASSWORD = 'password';
 >>>>>>> .merge_file_qCIK1o
 >>>>>>> .merge_file_yndxKC
+=======
+    // case PASSWORD = 'password';
+>>>>>>> laraxot/dev
 =======
     // case PASSWORD = 'password';
 >>>>>>> laraxot/dev

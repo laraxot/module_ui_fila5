@@ -291,6 +291,9 @@ Modules/UI/
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 
@@ -1341,6 +1344,9 @@ Core functionality tests pass:
 =======
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](./icon-system.md) — Icon system details

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SfNl26
 <<<<<<< HEAD
 =======
@@ -45,10 +46,15 @@
 
 declare(strict_types=1);
 =======
+=======
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 <header class="w-full">
@@ -57,6 +63,7 @@ declare(strict_types=1);
             <div class="relative z-50 flex items-center w-auto h-full">
                 <a href="{{ route('home') }}" class="flex items-center mr-0 md:mr-5 shrink-0">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SfNl26
 =======
 <<<<<<< .merge_file_aJgP8s
@@ -80,6 +87,9 @@ declare(strict_types=1);
                     <img src="{{ asset('assets/branding/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
 >>>>>>> .merge_file_yQr11U
 >>>>>>> .merge_file_NhkGBv
+=======
+                    <img src="{{ asset('assets/predict/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
+>>>>>>> laraxot/dev
 =======
                     <img src="{{ asset('assets/predict/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
 >>>>>>> laraxot/dev
@@ -132,7 +142,11 @@ declare(strict_types=1);
         {{-- Right Menu --}}
         <div class="relative z-50 flex items-stretch space-x-3 text-neutral-800">
 <<<<<<< HEAD
+<<<<<<< HEAD
             @livewire(\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class)
+=======
+            <livewire:lang.change></livewire:lang.change>
+>>>>>>> laraxot/dev
 =======
             <livewire:lang.change></livewire:lang.change>
 >>>>>>> laraxot/dev

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3CKY4z
 =======
 <<<<<<< .merge_file_KdmMcq
@@ -717,6 +718,8 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 =======
 >>>>>>> .merge_file_1RmOGR
 >>>>>>> .merge_file_4K6VKM
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---
@@ -727,6 +730,7 @@ canonical: ../../../Themes/docs/shared-components/mcp-integration.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/mcp-integration.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3CKY4z
 =======
 =======
@@ -1492,6 +1496,8 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 =======
 >>>>>>> .merge_file_1RmOGR
 >>>>>>> .merge_file_4K6VKM
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

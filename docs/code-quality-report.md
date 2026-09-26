@@ -60,9 +60,12 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 <<<<<<< HEAD
 | TechPlanner | - | - | 2% | 0 |
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RPj2TK
 =======
 =======
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_HXxlsw
@@ -120,6 +123,9 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 | Tenant | - | - | 75% | 6 |
 | UI | - | - | 34% | 4 |

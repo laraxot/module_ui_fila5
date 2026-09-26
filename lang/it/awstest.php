@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aO7CD3
 <<<<<<< HEAD
 =======
@@ -51,6 +52,9 @@ return [
 return [
 >>>>>>> .merge_file_0eHKaq
 >>>>>>> .merge_file_ztLYet
+=======
+return [
+>>>>>>> laraxot/dev
 =======
 return [
 >>>>>>> laraxot/dev
@@ -196,6 +200,7 @@ return [
         'label' => 'Awstest',
         'sort' => 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aO7CD3
 =======
 <<<<<<< .merge_file_vkD52q
@@ -219,6 +224,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_0eHKaq
 >>>>>>> .merge_file_ztLYet
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> laraxot/dev

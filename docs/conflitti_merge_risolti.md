@@ -12,7 +12,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 2. paths-and-assets.md
+=======
+### 2. PATHS_AND_ASSETS.md
+>>>>>>> laraxot/dev
 =======
 ### 2. PATHS_AND_ASSETS.md
 >>>>>>> laraxot/dev

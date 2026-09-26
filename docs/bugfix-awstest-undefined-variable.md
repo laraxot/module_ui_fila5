@@ -128,6 +128,7 @@ Ogni metodo di test implementa:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zt8JZo
 =======
 *Ultimo aggiornamento: Gennaio 2025*
@@ -149,6 +150,8 @@ Ogni metodo di test implementa:
 >>>>>>> .merge_file_sqfIti
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_uTQL39
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 *Errore risolto: ErrorException Undefined variable $results*

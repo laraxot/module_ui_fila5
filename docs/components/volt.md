@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_t8iLPr
 =======
 =======
@@ -72,6 +73,8 @@ related:
 >>>>>>> .merge_file_QG9KVp
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Componenti Volt
 
 ## Panoramica
@@ -83,6 +86,7 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Livewire](https://livewire.laravel.com)
 - [Filament](https://filamentphp.com)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_t8iLPr
@@ -108,6 +112,9 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione UI](../readme.md)
 >>>>>>> .merge_file_GLr51b
 >>>>>>> .merge_file_QG9KVp
+>>>>>>> laraxot/dev
+=======
+- [Documentazione UI](../readme.md)
 >>>>>>> laraxot/dev
 =======
 - [Documentazione UI](../readme.md)

@@ -250,6 +250,9 @@ php artisan view:clear
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # http://fixcity.local/it/tests/homepage
 
@@ -284,6 +287,9 @@ php artisan view:clear
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 

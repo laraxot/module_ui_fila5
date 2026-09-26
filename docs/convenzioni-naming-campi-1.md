@@ -104,6 +104,7 @@ TextInput::make('full_name')
 - [Best Practices Database](../../../docs/database/best-practices.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_Mq7Z4d
 =======
@@ -119,6 +120,8 @@ TextInput::make('full_name')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_FANG3M
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Convenzioni API](../../../docs/api/convenzioni.md)

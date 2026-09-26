@@ -10,6 +10,7 @@ use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qrnzbr
 <<<<<<< HEAD
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
@@ -42,13 +43,18 @@ use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
 >>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
+=======
+use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
+use Modules\Cms\Actions\View\GetCmsViewAction;
+>>>>>>> laraxot/dev
 
 /**
- * .
+ * Blade component that renders a CMS block.
  */
 class Block extends Component
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $view = null;
 
     /**
@@ -72,11 +78,17 @@ class Block extends Component
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_N1Nshf
 =======
+=======
+>>>>>>> laraxot/dev
     /** @var view-string|null */
     public ?string $view = null;
 
     /**
+<<<<<<< HEAD
      * @param  array<string, mixed>  $block
+>>>>>>> laraxot/dev
+=======
+     * @param array<string, mixed> $block
 >>>>>>> laraxot/dev
      */
     public function __construct(
@@ -84,6 +96,7 @@ class Block extends Component
         public ?Model $model = null,
         public string $tpl = '',
     ) {
+<<<<<<< HEAD
         $view = Arr::get($this->block, 'data.view', null);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,12 +129,21 @@ class Block extends Component
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         /** @var view-string $view */
 >>>>>>> laraxot/dev
+=======
+        $view = Arr::get($this->block, 'data.view');
+        if (! is_string($view) || ! view()->exists($view)) {
+            $view = 'ui::empty';
+        }
+
+        /** @var view-string $view */
+>>>>>>> laraxot/dev
         $this->view = $view;
     }
 
     public function render(): ViewFactory|View
     {
         if (! isset($this->block['type'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             return view('ui::empty');
         }
@@ -222,17 +244,17 @@ class Block extends Component
     private function normalizeViewData(array $data): array
     {
 =======
+=======
+>>>>>>> laraxot/dev
             /** @var view-string $viewName */
             $viewName = 'ui::empty';
 
             return view($viewName);
         }
 
-        $view = $this->view ?? 'ui::empty';
-        /** @var view-string $view */
-        $viewPath = (string) $view;
+        $viewPath = $this->view ?? 'ui::empty';
         if (! view()->exists($viewPath)) {
-            $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
+            $message = 'view not exists ['.$viewPath.'] ! <pre>'.print_r($this->block, true).'</pre>';
             $view_params = [
                 'title' => 'deprecated',
                 'message' => $message,
@@ -245,6 +267,10 @@ class Block extends Component
         $view_params = $this->normalizeViewData($this->block['data'] ?? []);
         $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
         $view_params = $this->normalizeViewData($view_params);
+<<<<<<< HEAD
+=======
+        $view = app(GetCmsViewAction::class)->execute($viewPath);
+>>>>>>> laraxot/dev
 
         return view($view, $view_params);
     }
@@ -258,6 +284,9 @@ class Block extends Component
             return [];
         }
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         $viewData = [];
 
@@ -265,6 +294,7 @@ class Block extends Component
             if (! is_string($key)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qrnzbr
 =======
                 throw new \UnexpectedValueException('Block view data must have string keys.');
@@ -283,6 +313,9 @@ class Block extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_N1Nshf
+=======
+                throw new \UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> laraxot/dev
 =======
                 throw new \UnexpectedValueException('Block view data must have string keys.');
 >>>>>>> laraxot/dev

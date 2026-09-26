@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_F0I3gM
 =======
 =======
@@ -59,6 +60,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_OwHZhX
 >>>>>>> .merge_file_ZY8Gx8
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Architettura Modulo UI

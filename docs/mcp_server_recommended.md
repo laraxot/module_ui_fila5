@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5zIr9S
 =======
 <<<<<<< .merge_file_6toagu
@@ -35,6 +36,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 =======
 >>>>>>> .merge_file_tTDqqI
 >>>>>>> .merge_file_KR4pvd
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---
@@ -45,6 +48,7 @@ canonical: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules
 
 See canonical documentation: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5zIr9S
 =======
 =======
@@ -86,6 +90,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 =======
 >>>>>>> .merge_file_tTDqqI
 >>>>>>> .merge_file_KR4pvd
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

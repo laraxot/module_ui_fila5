@@ -87,6 +87,7 @@ Questi metodi sono già stati refactorizzati e la complessità è al limite acce
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_fOeTFf
 **Data**: 2025-01-06
@@ -98,6 +99,8 @@ Questi metodi sono già stati refactorizzati e la complessità è al limite acce
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_VrFVIg
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **Status**: Correzioni completate per modulo UI

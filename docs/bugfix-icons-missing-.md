@@ -96,6 +96,7 @@ php artisan config:clear
 - [Blade Icons Documentation](../blade-icons.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OE40GP
 =======
 <<<<<<< .merge_file_UoxqVO
@@ -116,6 +117,8 @@ php artisan config:clear
 =======
 >>>>>>> .merge_file_5ARnhq
 >>>>>>> .merge_file_dnJo8A
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [XotBaseServiceProvider](../xotbaseserviceprovider.md)
@@ -126,6 +129,7 @@ php artisan config:clear
 **Tipo**: Bug Fix
 **Priorità**: Alta
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OE40GP
 =======
 =======
@@ -152,6 +156,8 @@ php artisan config:clear
 =======
 >>>>>>> .merge_file_5ARnhq
 >>>>>>> .merge_file_dnJo8A
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

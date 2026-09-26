@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Y0z6Sy
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rMJbix
 >>>>>>> .merge_file_CTSw4n
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # qrcode

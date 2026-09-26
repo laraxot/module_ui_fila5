@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ocxHua
 =======
 <<<<<<< .merge_file_2foyPM
@@ -17,6 +18,8 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> .merge_file_sgzRtR
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: changelog
@@ -24,6 +27,7 @@ canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ocxHua
 =======
@@ -87,6 +91,8 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 =======
 >>>>>>> .merge_file_65l4Zj
 >>>>>>> .merge_file_sgzRtR
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

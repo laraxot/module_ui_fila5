@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xUQFKG
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 =======
@@ -27,6 +28,9 @@ L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP 
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 >>>>>>> .merge_file_Xe3HsK
 >>>>>>> .merge_file_ABTvrE
+>>>>>>> laraxot/dev
+=======
+L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 >>>>>>> laraxot/dev
 =======
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
@@ -79,6 +83,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 
 ## Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xUQFKG
@@ -136,10 +141,13 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 >>>>>>> .merge_file_ABTvrE
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [Regole Generali per strict_types](../../xot/docs/php-strict-types.md)
 - [Linee Guida PHPStan Livello 10](../../xot/docs/phpstan/level10_linee_guida.md)
 - [Conflitti Merge Risolti](./conflitti_merge_risolti.md)
 - [README del Modulo UI](./readme.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xUQFKG
 =======
@@ -234,6 +242,8 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 =======
 >>>>>>> .merge_file_Xe3HsK
 >>>>>>> .merge_file_ABTvrE
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -44,6 +44,7 @@ I componenti che richiedono funzionalità geografiche **appartengono al modulo G
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qT1RUn
 =======
 <<<<<<< .merge_file_a4zsjo
@@ -69,6 +70,8 @@ Se serve geografia: modulo `Geo` (quando presente), mai ricopiare in UI.
 >>>>>>> .merge_file_91DP7y
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Contratti e Null Services (accettabili in UI)
 
 I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacce astratte senza dipendere da classi Geo concrete:
@@ -77,6 +80,7 @@ I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacc
 |-------------------------------------------------|-----------------------------------------------------------|
 | `app/Contracts/GeocodingServiceContract.php`    | Interfaccia astratta — nessuna dipendenza da Geo          |
 | `app/Contracts/MapServiceContract.php`          | Interfaccia astratta — nessuna dipendenza da Geo          |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_a4zsjo
 <<<<<<< HEAD
@@ -90,6 +94,10 @@ I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacc
 | `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
 | `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
 >>>>>>> .merge_file_OvPl19
+=======
+| `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
+| `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
+>>>>>>> laraxot/dev
 =======
 | `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
 | `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
@@ -110,6 +118,7 @@ I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacc
 
 Se in futuro si vuole un selettore regione/provincia/CAP nel modulo UI, deve usare **solo contratti astratti** (es. `GeocodingServiceContract`) e ricevere i dati via dependency injection, senza importare classi concrete di Geo.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qT1RUn
 =======
 =======
@@ -139,6 +148,8 @@ Se serve geografia: modulo `Geo` (quando presente), mai ricopiare in UI.
 =======
 >>>>>>> .merge_file_OvPl19
 >>>>>>> .merge_file_91DP7y
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

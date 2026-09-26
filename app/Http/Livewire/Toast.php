@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -19,6 +23,7 @@ final class Toast extends Component
     public function render(): View
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view = 'ui::livewire.toast';
 <<<<<<< .merge_file_ZGeH2B
 <<<<<<< HEAD
@@ -35,11 +40,16 @@ final class Toast extends Component
         /** @var view-string $view */
         $view = 'ui::livewire.toast';
 >>>>>>> laraxot/dev
+=======
+        /** @var view-string $view */
+        $view = 'ui::livewire.toast';
+>>>>>>> laraxot/dev
         $view_params = [
             'view' => $view,
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZGeH2B
 =======
@@ -70,6 +80,8 @@ final class Toast extends Component
         return view($view, $viewParams);
 >>>>>>> .merge_file_0dXZFZ
 >>>>>>> .merge_file_2nt62T
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }

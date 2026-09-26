@@ -95,6 +95,7 @@ foreach ($paths as $path) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
 =======
@@ -112,6 +113,10 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ccFHOt
+=======
+### **Problemi di Larastan (Laravel 12 Compatibility)**
+La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
+>>>>>>> laraxot/dev
 =======
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
@@ -137,6 +142,7 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 ### **Prossimi Passi**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
 =======
 <<<<<<< .merge_file_Z2Svpe
@@ -153,11 +159,15 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 =======
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
 >>>>>>> laraxot/dev
+=======
+1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
+>>>>>>> laraxot/dev
 2. 📝 **Baseline PHPStan** per ignorare errori framework temporanei
 3. 🔄 **Monitoraggio mensile** aggiornamenti Larastan
 
 ## 🎯 Conclusioni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Z2Svpe
@@ -174,6 +184,9 @@ Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I r
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ccFHOt
+=======
+Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
+>>>>>>> laraxot/dev
 =======
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
 >>>>>>> laraxot/dev
@@ -276,6 +289,7 @@ foreach ($paths as $path) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
 =======
@@ -293,6 +307,10 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ccFHOt
+=======
+### **Problemi di Larastan (Laravel 12 Compatibility)**
+La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
+>>>>>>> laraxot/dev
 =======
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
@@ -318,6 +336,7 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 ### **Prossimi Passi**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
 =======
 <<<<<<< .merge_file_Z2Svpe
@@ -334,11 +353,15 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 =======
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
 >>>>>>> laraxot/dev
+=======
+1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
+>>>>>>> laraxot/dev
 2. 📝 **Baseline PHPStan** per ignorare errori framework temporanei
 3. 🔄 **Monitoraggio mensile** aggiornamenti Larastan
 
 ## 🎯 Conclusioni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Z2Svpe
@@ -355,6 +378,9 @@ Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I r
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ccFHOt
+=======
+Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
+>>>>>>> laraxot/dev
 =======
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
 >>>>>>> laraxot/dev

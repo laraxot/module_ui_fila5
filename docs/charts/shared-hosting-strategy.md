@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LUCHlS
 =======
 =======
@@ -67,6 +68,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9lsBpH
 >>>>>>> .merge_file_kM3WQj
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Shared Hosting Chart Strategy (No NPM/Node)

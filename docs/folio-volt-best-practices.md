@@ -24,6 +24,7 @@ Example of a Volt component in a Folio page:
 use App\Models\Event;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_I4XK9k
 =======
 <<<<<<< .merge_file_vr0SfW
@@ -41,6 +42,8 @@ $events = computed(fn () => Event::upcoming()->get());
 =======
 >>>>>>> .merge_file_wzNGkO
 >>>>>>> .merge_file_XsR6up
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 use Livewire\Volt\Component;
@@ -55,6 +58,7 @@ new class extends Component {
     }
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_I4XK9k
 =======
 <<<<<<< .merge_file_vr0SfW
@@ -73,6 +77,8 @@ $events = computed(fn () => Event::upcoming()->get());
 >>>>>>> .merge_file_wzNGkO
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XsR6up
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ?>
@@ -105,6 +111,7 @@ $events = computed(fn () => Event::upcoming()->get());
 ### 5. Data Handling
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_I4XK9k
 - In class-based components, keep state in `public` properties and initialize in `mount()`
 - For derived values, prefer methods/getters in the class (functional `computed()` / `state()` is legacy/mantenimento)
@@ -140,6 +147,10 @@ $events = computed(fn () => Event::upcoming()->get());
 - For derived values, prefer methods/getters in the class (functional `computed()` / `state()` is legacy/mantenimento)
 >>>>>>> .merge_file_wzNGkO
 >>>>>>> .merge_file_XsR6up
+>>>>>>> laraxot/dev
+=======
+- In class-based components, keep state in `public` properties and initialize in `mount()`
+- For derived values, prefer methods/getters in the class (functional `computed()` / `state()` is legacy/mantenimento)
 >>>>>>> laraxot/dev
 =======
 - In class-based components, keep state in `public` properties and initialize in `mount()`
@@ -191,6 +202,7 @@ middleware(['auth', 'verified']);
 ## Date
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_I4XK9k
 [DATE]
 =======
@@ -214,6 +226,9 @@ middleware(['auth', 'verified']);
 [DATE]
 >>>>>>> .merge_file_wzNGkO
 >>>>>>> .merge_file_XsR6up
+>>>>>>> laraxot/dev
+=======
+[DATE]
 >>>>>>> laraxot/dev
 =======
 [DATE]

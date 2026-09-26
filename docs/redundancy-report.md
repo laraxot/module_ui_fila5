@@ -32,6 +32,7 @@ Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/Fixcity/app/Models/Category.php`
 <<<<<<< .merge_file_DmQOKR
 =======
@@ -86,6 +87,9 @@ Esiste anche in:
 =======
 >>>>>>> .merge_file_lqKVtP
 >>>>>>> .merge_file_OLxSx6
+>>>>>>> laraxot/dev
+=======
+- `Modules/Fixcity/app/Models/Category.php`
 >>>>>>> laraxot/dev
 =======
 - `Modules/Fixcity/app/Models/Category.php`

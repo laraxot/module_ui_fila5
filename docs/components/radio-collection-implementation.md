@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NCHCoj
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_FNLajK
 >>>>>>> .merge_file_A8aY2r
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # RadioCollection Component - Implementation Guide
@@ -298,6 +301,7 @@ RadioCollection::make('studio_id')
 - [UI Module Overview](../ui.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NCHCoj
 - [Filament Form Components](../filament/filament_components_usage.md)
 =======
@@ -321,6 +325,9 @@ RadioCollection::make('studio_id')
 - [Filament Form Components](../filament/filament_components_usage.md)
 >>>>>>> .merge_file_FNLajK
 >>>>>>> .merge_file_A8aY2r
+>>>>>>> laraxot/dev
+=======
+- [Filament Form Components](../filament/filament_components_usage.md)
 >>>>>>> laraxot/dev
 =======
 - [Filament Form Components](../filament/filament_components_usage.md)

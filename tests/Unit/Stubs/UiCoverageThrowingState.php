@@ -17,6 +17,7 @@ final class UiCoverageThrowingState implements StateContract
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_47qJFB
 =======
 <<<<<<< .merge_file_wafKYE
@@ -41,12 +42,15 @@ final class UiCoverageThrowingState implements StateContract
 =======
 >>>>>>> .merge_file_8r5QfC
 >>>>>>> .merge_file_Xkzbe0
+=======
+>>>>>>> laraxot/dev
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_wafKYE
 >>>>>>> laraxot/dev
 =======
@@ -56,6 +60,8 @@ final class UiCoverageThrowingState implements StateContract
 >>>>>>> .merge_file_8r5QfC
 >>>>>>> .merge_file_Xkzbe0
 >>>>>>> .merge_file_OHJ2eZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -107,6 +113,7 @@ final class UiCoverageThrowingState implements StateContract
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_47qJFB
      * @param  array<string, mixed>  $data
      */
@@ -126,11 +133,14 @@ final class UiCoverageThrowingState implements StateContract
 =======
 >>>>>>> .merge_file_8r5QfC
 >>>>>>> .merge_file_Xkzbe0
+=======
+>>>>>>> laraxot/dev
      * @param array<string, mixed> $data
      */
     public function modalActionByRecord(Model $record, array $data): void
     {
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_wafKYE
 >>>>>>> laraxot/dev
 =======
@@ -144,6 +154,8 @@ final class UiCoverageThrowingState implements StateContract
      * @param  array<string, mixed>  $data
      */
     public function modalActionByRecord(Model $record, array $data): void {}
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
     /**
@@ -160,6 +172,7 @@ final class UiCoverageThrowingState implements StateContract
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_47qJFB
     public function transitionTo(string $state, ?string $message = null): void {}
 =======
@@ -185,6 +198,11 @@ final class UiCoverageThrowingState implements StateContract
 >>>>>>> .merge_file_OHJ2eZ
 =======
     public function transitionTo(string $state, ?string $message = null): void {}
+>>>>>>> laraxot/dev
+=======
+    public function transitionTo(string $state, ?string $message = null): void
+    {
+    }
 >>>>>>> laraxot/dev
 
     /**

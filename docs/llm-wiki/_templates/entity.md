@@ -4,6 +4,7 @@ topic: entity
 canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NvgvGu
 =======
 <<<<<<< .merge_file_xAbREX
@@ -24,6 +25,8 @@ related:
 =======
 >>>>>>> .merge_file_BG6WQQ
 >>>>>>> .merge_file_5DAMaJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

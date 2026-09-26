@@ -147,6 +147,9 @@ Pages are configured via JSON files:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **Location**: `config/local/fixcity/database/content/pages/`
 
@@ -171,6 +174,9 @@ Pages are configured via JSON files:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
@@ -201,6 +207,9 @@ Pages are configured via JSON files:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 **Example**: `tests.homepage.json`

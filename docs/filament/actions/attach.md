@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nA6Hmy
 =======
 =======
@@ -63,6 +64,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1JpCnW
 >>>>>>> .merge_file_4b2FML
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```php

@@ -5,6 +5,7 @@ module: UI
 created: 2026-07-06
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2RgSBP
 updated: 2026-07-06
 =======
@@ -50,10 +51,14 @@ updated: 2026-07-06
 =======
 updated: 2026-07-06
 >>>>>>> laraxot/dev
+=======
+updated: 2026-07-06
+>>>>>>> laraxot/dev
 ---
 
 # Confine UI e Geo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_2RgSBP
@@ -172,6 +177,8 @@ git grep -n 'Modules\\Geo' -- app || true
 >>>>>>> .merge_file_XxJIHL
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Regola
 
 Il modulo `UI` non deve dipendere dal modulo `Geo`.
@@ -200,6 +207,7 @@ Non riattivarlo in `UI`. Se in futuro servira' una mappa, crearla nel modulo `Ge
 ## Motivazione
 
 Questa separazione evita dipendenze inverse, classi mancanti e accoppiamento tra design system e dominio geografico.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_2RgSBP
 =======
@@ -352,6 +360,8 @@ git grep -n 'Modules\\Geo' -- app || true
 =======
 >>>>>>> .merge_file_KluykR
 >>>>>>> .merge_file_XxJIHL
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

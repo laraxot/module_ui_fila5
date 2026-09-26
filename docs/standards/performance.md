@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_J73Xkq
 =======
 =======
@@ -68,6 +69,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZCqgIR
 >>>>>>> .merge_file_SXk9Sc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Standard di Performance

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_5pRQ7d
 =======
@@ -18,6 +19,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/inline-date-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9j8eGR
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # InlineDatePicker Component

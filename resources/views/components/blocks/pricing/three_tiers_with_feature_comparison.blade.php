@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D9KZQh
 <<<<<<< HEAD
 =======
@@ -51,10 +52,15 @@
 
 declare(strict_types=1);
 =======
+=======
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 {{-- Requires Js --}}
@@ -287,6 +293,7 @@ declare(strict_types=1);
                             <span class="text-gray-900">3 invoices</span>
                           </dd>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D9KZQh
 <<<<<<< HEAD
 @include('ui::components.blocks.pricing.partials.three_tiers_with_feature_comparison_tail.blade')
@@ -305,6 +312,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_ZWo6B1
 >>>>>>> .merge_file_4P7NAu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                         </div>
@@ -1249,6 +1258,7 @@ declare(strict_types=1);
     </div>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D9KZQh
 >>>>>>> laraxot/dev
 =======
@@ -1261,5 +1271,7 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_ZWo6B1
 >>>>>>> .merge_file_4P7NAu
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

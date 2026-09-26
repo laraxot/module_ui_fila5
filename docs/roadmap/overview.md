@@ -9,10 +9,13 @@ qmd: "00-overview roadmap overview (module ui)"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gDx9Wy
 =======
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_CtsUfS
 =======
@@ -59,6 +62,9 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"

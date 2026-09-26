@@ -4,6 +4,7 @@ topic: filament-4-migration-sumy
 canonical: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zotoLk
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MhwvcN
 >>>>>>> .merge_file_DhIRMm
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

@@ -80,6 +80,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Dopo
 =======
 <<<<<<< HEAD
@@ -121,6 +122,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+// Dopo
 >>>>>>> laraxot/dev
 =======
 // Dopo
@@ -206,6 +210,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 =======
 *Correzioni completate: gennaio 2025*
@@ -277,6 +282,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 >>>>>>> laraxot/dev
 =======
 *Correzioni completate: gennaio 2025*
+=======
+*Correzioni completate: gennaio 2025*
+>>>>>>> laraxot/dev
 # Correzioni Lingua Italiana - Opening Hours
 
 ## Problema Identificato
@@ -287,6 +295,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 ### 1. **Terminologia "Mattina" → "Mattino"**
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 #### ❌ Prima (Scorretto)
 ```php
@@ -297,6 +308,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 #### ✅ Dopo (Corretto)
@@ -328,6 +340,11 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 ```php
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+#### ✅ Dopo (Corretto)
+```php
 >>>>>>> laraxot/dev
 =======
 
@@ -340,6 +357,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 'labels' => ['morning' => 'Mattino'],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 =======
 <<<<<<< .merge_file_CB2f6W
@@ -380,6 +398,8 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 =======
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -446,6 +466,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 ## Principi di Correzione Applicati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 =======
 =======
@@ -495,10 +516,13 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### 1. **Naturalezza**
 - Uso di espressioni che un italiano nativo utilizzerebbe spontaneamente
 - Evitare traduzioni letterali dall'inglese
 - Preferire costruzioni sintattiche italiane
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
@@ -520,6 +544,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -530,6 +557,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - Terminologia uniforme
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -549,6 +577,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -559,6 +590,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - Terminologia appropriata per il contesto medico
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -578,6 +610,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -588,6 +623,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - Tono professionale per ambiente sanitario
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 ## Impatto delle Correzioni
@@ -619,6 +655,11 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+## Impatto delle Correzioni
+
 >>>>>>> laraxot/dev
 =======
 
@@ -631,6 +672,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - **Interfaccia più professionale** per ambiente medico
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -650,6 +692,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -660,6 +705,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - **Standard professionali** per software sanitario
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -679,6 +725,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -689,6 +738,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - **Esempio di qualità** per altre sezioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 ## Best Practices per Traduzioni Italiane
@@ -720,6 +770,11 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+## Best Practices per Traduzioni Italiane
+
 >>>>>>> laraxot/dev
 =======
 
@@ -732,6 +787,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 3. **Preposizioni**: Usare quelle corrette ("del", "per", "a")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -751,6 +807,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -761,6 +820,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 3. **Contesto**: Adattare al dominio (medico/sanitario)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -780,6 +840,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -790,13 +853,17 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 3. **Completezza**: Informazioni sufficienti per l'utente
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 =======
 <<<<<<< .merge_file_CB2f6W
+=======
+>>>>>>> laraxot/dev
 
 ## Controllo Qualità
 >>>>>>> .merge_file_XMCe7w
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Controllo Qualità
@@ -826,6 +893,8 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 ## Controllo Qualità
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Verifica Linguistica
 - ✅ Grammatica italiana corretta
@@ -834,6 +903,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - ✅ Consistenza terminologica
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -853,6 +923,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -864,6 +937,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - ✅ Nessuna stringa hardcoded
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -883,6 +957,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -893,6 +970,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Linee Guida Localizzazione](./localization_guidelines.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 *Correzioni completate: gennaio 2025*
@@ -957,6 +1035,10 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 *Correzioni completate: gennaio 2025*
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+*Correzioni completate: gennaio 2025*
 >>>>>>> laraxot/dev
 =======
 

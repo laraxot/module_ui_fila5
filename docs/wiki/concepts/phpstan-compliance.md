@@ -1,12 +1,15 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_66zYOD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7EuwCd
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 title: "UI Module - PHPStan Type Compliance"
@@ -140,6 +143,7 @@ vendor/bin/pest laravel/Modules/UI/tests --parallel
 **Last Updated**: 2026-06-10  
 **Status**: GREEN
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_66zYOD
 =======
 <<<<<<< HEAD
@@ -211,5 +215,7 @@ cd laravel
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7EuwCd
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

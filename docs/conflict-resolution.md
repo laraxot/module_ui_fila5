@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Fl3JMM
 =======
 <<<<<<< .merge_file_SAffAK
@@ -53,6 +54,8 @@ Ultimo aggiornamento: 2025-01-06
 =======
 >>>>>>> .merge_file_hWHUFi
 >>>>>>> .merge_file_llH9I8
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Conflict Resolution — Module UI
@@ -119,6 +122,7 @@ Ultimo aggiornamento: 2025-01-06
 ## Backlinks
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Fl3JMM
 =======
 =======
@@ -178,6 +182,8 @@ Ultimo aggiornamento: 2025-01-06
 =======
 >>>>>>> .merge_file_hWHUFi
 >>>>>>> .merge_file_llH9I8
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

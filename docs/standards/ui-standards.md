@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aKPPXR
 =======
 =======
@@ -68,6 +69,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_nnUBRl
 >>>>>>> .merge_file_Z1ZBUC
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Standard UI

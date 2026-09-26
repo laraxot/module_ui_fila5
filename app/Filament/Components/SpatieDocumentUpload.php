@@ -20,6 +20,7 @@ final class SpatieDocumentUpload
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $name       Nome del campo
      * @param string $collection Nome della media collection
 =======
@@ -44,6 +45,10 @@ final class SpatieDocumentUpload
 =======
      * @param  string  $name  Nome del campo
      * @param  string  $collection  Nome della media collection
+>>>>>>> laraxot/dev
+=======
+     * @param string $name       Nome del campo
+     * @param string $collection Nome della media collection
 >>>>>>> laraxot/dev
      */
     public static function make(string $name, string $collection): SpatieMediaLibraryFileUpload
@@ -111,6 +116,7 @@ final class SpatieDocumentUpload
         return self::make('certifications', 'certificazioni_professionali')
             ->multiple()
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_blDACa
 =======
 <<<<<<< .merge_file_V5jE6n
@@ -137,6 +143,9 @@ final class SpatieDocumentUpload
 =======
             ->reorderable()
 >>>>>>> laraxot/dev
+=======
+            ->reorderable()
+>>>>>>> laraxot/dev
             ->maxFiles(10) // Max 10 certificazioni per dottore
             ->acceptedFileTypes(['application/pdf'])
             ->maxSize(10240); // 10MB per certificazioni multiple
@@ -147,6 +156,7 @@ final class SpatieDocumentUpload
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_blDACa
 =======
 =======
@@ -155,10 +165,13 @@ final class SpatieDocumentUpload
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wUQaNQ
+=======
+>>>>>>> laraxot/dev
      * @param string        $name       Nome del campo
      * @param string        $collection Nome della collection
      * @param array<string> $mimeTypes  Tipi MIME accettati
      * @param int           $maxSize    Dimensione massima in KB
+<<<<<<< HEAD
 <<<<<<< .merge_file_blDACa
 =======
 =======
@@ -181,6 +194,8 @@ final class SpatieDocumentUpload
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wUQaNQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

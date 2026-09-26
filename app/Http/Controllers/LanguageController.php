@@ -27,6 +27,7 @@ class LanguageController extends Controller
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_631qhw
 =======
         return redirect()->back();
@@ -52,6 +53,9 @@ class LanguageController extends Controller
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JZHS2A
+=======
+        return redirect()->back();
+>>>>>>> laraxot/dev
 =======
         return redirect()->back();
 >>>>>>> laraxot/dev

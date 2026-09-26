@@ -198,6 +198,7 @@ TextInput::make('full_name')
 - [Naming Conventions](naming-conventions.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -211,6 +212,8 @@ TextInput::make('full_name')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 - [Translation System](../../lang/docs/translation-system.md)
 >>>>>>> laraxot/dev
 =======
@@ -238,6 +241,7 @@ Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di
 ## Installazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 =======
@@ -282,6 +286,8 @@ Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -291,6 +297,7 @@ Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di
 4. Installa il plugin di doonfrs
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -321,6 +328,11 @@ Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di
 >>>>>>> .merge_file_CaD30X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZeRtQc
+=======
+
+## Funzionalità Principali
+
+>>>>>>> laraxot/dev
 =======
 
 ## Funzionalità Principali
@@ -334,6 +346,7 @@ TextInput::make('field_name')
     ->maxLength(255)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 
 =======
@@ -353,6 +366,9 @@ TextInput::make('field_name')
 
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -365,6 +381,7 @@ Select::make('status')
     ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -382,6 +399,8 @@ DatePicker::make('published_at')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ->required()
@@ -395,6 +414,7 @@ DatePicker::make('published_at')
 ### 2. Snippet per Table Columns
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 =======
@@ -418,6 +438,8 @@ DatePicker::make('published_at')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -427,6 +449,7 @@ TextColumn::make('title')
     ->sortable()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -443,6 +466,8 @@ IconColumn::make('is_published')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -455,6 +480,7 @@ IconColumn::make('is_published')
 ### 3. Snippet per Actions
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 =======
@@ -477,6 +503,8 @@ IconColumn::make('is_published')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -487,6 +515,7 @@ Action::make('approve')
     ->action(fn () => $this->approve())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -505,6 +534,8 @@ BulkAction::make('delete')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -520,6 +551,7 @@ BulkAction::make('delete')
 ### 1. Organizzazione Form
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 =======
@@ -547,11 +579,14 @@ BulkAction::make('delete')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 // Raggruppa campi correlati
 Section::make('Personal Information')
     ->schema([
         $this->getPersonalInfoFields(),    // ✅ Metodo separato
         $this->getContactFields(),         // ✅ Metodo separato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
@@ -570,6 +605,8 @@ Section::make('Personal Information')      // ❌ Troppi campi inline
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ])
@@ -578,6 +615,7 @@ Section::make('Personal Information')      // ❌ Troppi campi inline
 Section::make('Personal Information')      // ❌ Troppi campi inline
     ->schema([
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -597,10 +635,13 @@ Section::make('Personal Information')      // ❌ Troppi campi inline
 >>>>>>> .merge_file_ZeRtQc
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         TextInput::make('name'),
         TextInput::make('email'),
         TextInput::make('phone'),
         // ... altri 10 campi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
@@ -630,6 +671,8 @@ Select::make('category_id')            // ❌ Query manuale
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ])
@@ -664,6 +707,7 @@ Select::make('category_id')            // ❌ Query manuale
 ## Scorciatoie da Tastiera
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 =======
@@ -697,6 +741,8 @@ Select::make('category_id')            // ❌ Query manuale
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -713,6 +759,7 @@ Select::make('category_id')            // ❌ Query manuale
 | `fil-card→` | Card Layout |
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -743,6 +790,11 @@ Select::make('category_id')            // ❌ Query manuale
 
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
+
+## Validazione in Tempo Reale
+
 >>>>>>> laraxot/dev
 =======
 
@@ -756,6 +808,7 @@ Il plugin fornisce:
 - Controllo namespace
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -774,6 +827,8 @@ TextInput::make('nome')         // ❌ Non segue convenzioni
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -792,6 +847,7 @@ TextInput::make('nome')         // ❌ Non segue convenzioni
 ### 2. Struttura Form
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 =======
@@ -816,6 +872,8 @@ TextInput::make('nome')         // ❌ Non segue convenzioni
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -827,6 +885,7 @@ Forms\Components\Wizard::make([
 ->skippable(false)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -841,6 +900,8 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -848,6 +909,7 @@ Forms\Components\Wizard::make([
 ### 3. Traduzioni
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 ### 3. Traduzioni
@@ -864,6 +926,8 @@ Forms\Components\Wizard::make([
 >>>>>>> .merge_file_CaD30X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 // Supporto per il nostro sistema di traduzioni
@@ -872,6 +936,7 @@ TextInput::make('full_name')
     ->placeholder(trans("$prefix.fields.full_name.placeholder"))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -886,6 +951,8 @@ TextInput::make('full_name')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -893,6 +960,7 @@ TextInput::make('full_name')
 ## Configurazione Raccomandata
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 ## Configurazione Raccomandata
@@ -909,6 +977,8 @@ TextInput::make('full_name')
 >>>>>>> .merge_file_CaD30X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```json
@@ -922,6 +992,7 @@ TextInput::make('full_name')
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -938,6 +1009,8 @@ TextInput::make('full_name')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -947,6 +1020,7 @@ TextInput::make('full_name')
 ### Problemi Comuni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -966,10 +1040,13 @@ TextInput::make('full_name')
 >>>>>>> .merge_file_ZeRtQc
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. **Snippet non funzionano**
    - Verifica che il file sia riconosciuto come PHP
    - Controlla che i suggerimenti snippet siano abilitati
    - Riavvia VSCode
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
@@ -991,6 +1068,9 @@ TextInput::make('full_name')
 
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1001,6 +1081,7 @@ TextInput::make('full_name')
    - Aggiorna il plugin
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 
 =======
@@ -1020,6 +1101,9 @@ TextInput::make('full_name')
 
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1030,6 +1114,7 @@ TextInput::make('full_name')
    - Disabilita temporaneamente altre estensioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
 <<<<<<< .merge_file_rRaqcH
@@ -1052,6 +1137,8 @@ TextInput::make('full_name')
 >>>>>>> .merge_file_ZeRtQc
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 - [Form Components](form-components.md)
@@ -1062,6 +1149,7 @@ TextInput::make('full_name')
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
@@ -1091,10 +1179,13 @@ TextInput::make('full_name')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [Development Tools](development-tools.md)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_g70EhP
 =======
@@ -1134,6 +1225,8 @@ TextInput::make('full_name')
 =======
 >>>>>>> .merge_file_CaD30X
 >>>>>>> .merge_file_ZeRtQc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

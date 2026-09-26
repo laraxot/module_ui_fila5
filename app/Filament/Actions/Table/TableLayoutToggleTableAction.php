@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Actions\Table;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_rEbfRz
 <<<<<<< HEAD
 =======
@@ -54,10 +55,16 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 >>>>>>> .merge_file_v5MH1K
 =======
 use Filament\Actions\Action;
+=======
+use Filament\Actions\Action;
+>>>>>>> laraxot/dev
 use Filament\Resources\Pages\ListRecords;
 use Modules\UI\Contracts\HasTableLayout;
 
 final class TableLayoutToggleTableAction extends Action implements HasTableLayout
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 {
     use TableLayoutTrait;
@@ -67,6 +74,7 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
         parent::setUp();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_rEbfRz
 <<<<<<< HEAD
 =======
@@ -80,12 +88,15 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
 >>>>>>> .merge_file_v5MH1K
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         $current = $this->getCurrentLayout();
 
         $this->label(__('ui::table_layout.actions.toggle.label'))
             ->tooltip($current->getLabel())
             ->color($current->getColor())
             ->icon($current->getIcon())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_rEbfRz
 =======
@@ -115,6 +126,8 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
 >>>>>>> .merge_file_v5MH1K
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
             ->action($this->toggleLayout(...));
     }
 
@@ -123,6 +136,7 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
         return 'table_layout_toggle';
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_rEbfRz
 <<<<<<< HEAD
@@ -135,6 +149,8 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_v5MH1K
+=======
+>>>>>>> laraxot/dev
     protected function toggleLayout(?ListRecords $livewire): void
 =======
     protected function toggleLayout(): void
@@ -155,6 +171,7 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
             $livewire->resetTable();
         }
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -277,5 +294,7 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
             $livewire->dispatch('$refresh');
         }
     }
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 }

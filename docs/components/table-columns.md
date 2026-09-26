@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nJ92VH
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_L5OBZs
 >>>>>>> .merge_file_ukjqoZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Table Columns Components
@@ -240,6 +243,7 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 - [Filament Components](../filament-components.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nJ92VH
 - [UI Architecture](../architecture_rules.md)
 =======
@@ -263,6 +267,9 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 - [UI Architecture](../architecture_rules.md)
 >>>>>>> .merge_file_L5OBZs
 >>>>>>> .merge_file_ukjqoZ
+>>>>>>> laraxot/dev
+=======
+- [UI Architecture](../architecture_rules.md)
 >>>>>>> laraxot/dev
 =======
 - [UI Architecture](../architecture_rules.md)
@@ -280,6 +287,7 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 **Compatibility**: Filament 3.x, Laravel 10.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nJ92VH
 =======
 <<<<<<< .merge_file_Xj58oX
@@ -304,5 +312,7 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 >>>>>>> .merge_file_L5OBZs
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ukjqoZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

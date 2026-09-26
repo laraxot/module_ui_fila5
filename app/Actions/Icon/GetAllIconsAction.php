@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_ecYbnZ
 use ReflectionClass;
@@ -22,6 +23,8 @@ use ReflectionClass;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5WmvF9
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -42,9 +45,13 @@ class GetAllIconsAction
         try {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
             $reflection = new \ReflectionClass($iconsFactory);
 <<<<<<< .merge_file_NeiVhj
             $property = $reflection->getProperty('iconSets');
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_ecYbnZ
             $reflection = new ReflectionClass($iconsFactory);
@@ -71,6 +78,8 @@ class GetAllIconsAction
 =======
             $reflection = new \ReflectionClass($iconsFactory);
             $property = $reflection->getProperty('iconSets');
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
@@ -80,6 +89,7 @@ class GetAllIconsAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ecYbnZ
 =======
 <<<<<<< .merge_file_NeiVhj
@@ -105,6 +115,10 @@ class GetAllIconsAction
         if (! is_iterable($icons)) {
 >>>>>>> .merge_file_G45wnI
 >>>>>>> .merge_file_5WmvF9
+=======
+        // Verifica che $icons sia un array prima di usare Arr::map()
+        if (! is_array($icons)) {
+>>>>>>> laraxot/dev
 =======
         // Verifica che $icons sia un array prima di usare Arr::map()
         if (! is_array($icons)) {
@@ -141,6 +155,7 @@ class GetAllIconsAction
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ecYbnZ
 <<<<<<< HEAD
 =======
@@ -176,6 +191,8 @@ class GetAllIconsAction
 >>>>>>> .merge_file_G45wnI
 >>>>>>> .merge_file_5WmvF9
 =======
+=======
+>>>>>>> laraxot/dev
                 $files = File::allFiles($path);
                 if (! is_iterable($files)) {
                     continue;
@@ -189,16 +206,22 @@ class GetAllIconsAction
 
                     // Simply ignore files that aren't SVGs
                     if ('svg' !== $file->getExtension()) {
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
                         continue;
                     }
 
                     $pathname = $file->getPathname();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ecYbnZ
 =======
 <<<<<<< .merge_file_NeiVhj
 =======
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                     if (! is_string($pathname)) {
@@ -207,8 +230,11 @@ class GetAllIconsAction
 
                     // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> .merge_file_G45wnI
 >>>>>>> .merge_file_5WmvF9
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                     $iconName = str($pathname)
@@ -219,6 +245,7 @@ class GetAllIconsAction
 
                     $prefix = $set['prefix'] ?? '';
                     $prefixString = is_string($prefix) ? $prefix : '';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ecYbnZ
                     $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
@@ -241,6 +268,11 @@ class GetAllIconsAction
                 }
 >>>>>>> .merge_file_G45wnI
 >>>>>>> .merge_file_5WmvF9
+=======
+                    $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+                    $iconsList[] = $iconFullName;
+                }
+>>>>>>> laraxot/dev
 =======
                     $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
                     $iconsList[] = $iconFullName;
@@ -253,6 +285,7 @@ class GetAllIconsAction
 
         return $mappedIcons;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ecYbnZ
 <<<<<<< HEAD
@@ -313,6 +346,8 @@ class GetAllIconsAction
 =======
 >>>>>>> .merge_file_G45wnI
 >>>>>>> .merge_file_5WmvF9
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }

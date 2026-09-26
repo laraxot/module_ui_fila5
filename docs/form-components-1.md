@@ -147,6 +147,7 @@ public function form(Form $form): Form
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_sTdp59
 =======
@@ -162,6 +163,8 @@ public function form(Form $form): Form
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_d9hs6T
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 <x-ui::input
@@ -307,6 +310,7 @@ form.addEventListener('submit', (e) => {
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_sTdp59
 =======
@@ -323,6 +327,8 @@ form.addEventListener('submit', (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_d9hs6T
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)

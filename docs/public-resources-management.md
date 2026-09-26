@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LapbDr
 =======
 <<<<<<< .merge_file_NbqQYs
@@ -294,6 +295,8 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 >>>>>>> .merge_file_QY7R3J
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: public-resources-management
@@ -301,6 +304,7 @@ canonical: ../../../Themes/docs/shared-components/public-resources-management.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/public-resources-management.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_LapbDr
 =======
@@ -844,6 +848,8 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 =======
 >>>>>>> .merge_file_6FcGvo
 >>>>>>> .merge_file_QY7R3J
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

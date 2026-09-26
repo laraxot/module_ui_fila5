@@ -12,6 +12,7 @@ use Modules\Xot\Models\XotBaseModel;
 abstract class BaseModel extends XotBaseModel
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vQ3FGp
 =======
 <<<<<<< .merge_file_MDcu1L
@@ -36,6 +37,8 @@ abstract class BaseModel extends XotBaseModel
     protected $connection = 'u_i';
 >>>>>>> .merge_file_sTQhhx
 >>>>>>> .merge_file_6fKqap
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }

@@ -1,7 +1,10 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 /**
@@ -42,6 +45,7 @@ final class Blocks extends Component
          */
         $view = app(GetViewAction::class)->execute($this->view);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NHwVnj
 =======
 <<<<<<< .merge_file_XmSmpH
@@ -65,6 +69,9 @@ final class Blocks extends Component
         $viewParams = [
 >>>>>>> .merge_file_PHlHUT
 >>>>>>> .merge_file_MNxlHf
+=======
+        $view_params = [
+>>>>>>> laraxot/dev
 =======
         $view_params = [
 >>>>>>> laraxot/dev
@@ -74,6 +81,7 @@ final class Blocks extends Component
         ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NHwVnj
 =======
 <<<<<<< .merge_file_XmSmpH
@@ -97,6 +105,9 @@ final class Blocks extends Component
         return view($view, $viewParams);
 >>>>>>> .merge_file_PHlHUT
 >>>>>>> .merge_file_MNxlHf
+=======
+        return view($view, $view_params);
+>>>>>>> laraxot/dev
 =======
         return view($view, $view_params);
 >>>>>>> laraxot/dev

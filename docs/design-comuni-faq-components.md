@@ -362,6 +362,7 @@ pub_theme:: → Themes/Sixteen/resources/views/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Configurato in `config/local/fixcity/xra.php`:
 <<<<<<< .merge_file_Qv79Zd
 =======
@@ -416,6 +417,9 @@ Configurato in `config/local/<nome progetto>/xra.php`:
 =======
 >>>>>>> .merge_file_xzsWx4
 >>>>>>> .merge_file_0svSw8
+>>>>>>> laraxot/dev
+=======
+Configurato in `config/local/fixcity/xra.php`:
 >>>>>>> laraxot/dev
 =======
 Configurato in `config/local/fixcity/xra.php`:

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 =======
 <<<<<<< .merge_file_LBuxzN
@@ -24,11 +25,14 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 >>>>>>> .merge_file_xblXUR
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # SelectStateColumn - Aggiunta Modal di Conferma
 
 ## Panoramica
 Questo documento descrive l'implementazione di una modale di conferma con textarea per il componente `SelectStateColumn`. La modale richiederà all'utente di confermare la transizione di stato e fornire un messaggio opzionale.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 =======
@@ -92,11 +96,14 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Requisiti
 - Aggiungere una modale di conferma prima della transizione di stato
 - Includere una textarea per inserire un messaggio
 - Passare il messaggio al metodo `transitionTo`
 - Mantenere la compatibilità con il funzionamento esistente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
@@ -130,6 +137,11 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 
 >>>>>>> .merge_file_nTb6SK
 >>>>>>> .merge_file_xblXUR
+>>>>>>> laraxot/dev
+=======
+
+## Specifiche Tecniche
+
 >>>>>>> laraxot/dev
 =======
 
@@ -144,6 +156,7 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 5. In caso di annullamento, la transizione viene interrotta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 
 =======
@@ -163,6 +176,9 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 
 >>>>>>> .merge_file_nTb6SK
 >>>>>>> .merge_file_xblXUR
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -173,6 +189,7 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 - Lo stato del form deve essere resettato dopo la chiusura
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 
 =======
@@ -192,6 +209,9 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 
 >>>>>>> .merge_file_nTb6SK
 >>>>>>> .merge_file_xblXUR
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -202,6 +222,7 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 - Gestire lo stato della modale con Livewire
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 
 =======
@@ -221,6 +242,9 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 
 >>>>>>> .merge_file_nTb6SK
 >>>>>>> .merge_file_xblXUR
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -231,6 +255,7 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 - Verificare i permessi dell'utente prima di consentire la transizione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 =======
 <<<<<<< .merge_file_LBuxzN
@@ -247,6 +272,8 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 =======
 >>>>>>> .merge_file_nTb6SK
 >>>>>>> .merge_file_xblXUR
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -256,6 +283,7 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 - [State Management](./state-management.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 =======
 =======
@@ -281,10 +309,13 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Note di Implementazione
 - La modale dovrebbe essere disabilitabile tramite configurazione
 - Considerare l'aggiunta di un hook per la validazione personalizzata
 - Documentare il formato del messaggio atteso dalle transizioni
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
@@ -308,6 +339,9 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 >>>>>>> .merge_file_nTb6SK
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xblXUR
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -320,6 +354,7 @@ Verificare che:
 5. Gli errori vengano gestiti in modo appropriato
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 =======
 <<<<<<< .merge_file_LBuxzN
@@ -336,6 +371,8 @@ Verificare che:
 =======
 >>>>>>> .merge_file_nTb6SK
 >>>>>>> .merge_file_xblXUR
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # SelectStateColumn - Aggiunta Modal di Conferma
@@ -377,6 +414,7 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 - [SelectStateColumn.md](./selectstatecolumn.md)
 - [Filament Modals Documentation](https://filamentphp.com/project_docs/3.x/panels/modals)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 =======
 <<<<<<< HEAD
@@ -392,6 +430,8 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xblXUR
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Filament Modals Documentation](https://filamentphp.com/project_docs/3.x/panels/modals)
@@ -410,6 +450,7 @@ Verificare che:
 3. La modale si chiuda in entrambi gli scenari
 4. Lo stato venga aggiornato correttamente nel database
 5. Gli errori vengano gestiti in modo appropriato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_B3XF7C
 =======
@@ -449,6 +490,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 =======
 >>>>>>> .merge_file_nTb6SK
 >>>>>>> .merge_file_xblXUR
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

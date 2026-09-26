@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -84,6 +85,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -122,6 +125,7 @@ class FormBuilder extends XotBaseUIComponent
     protected array $fields = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -189,10 +193,13 @@ class FormBuilder extends XotBaseUIComponent
 >>>>>>> .merge_file_9n3q1G
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
     /** @var array<string, mixed> */
     protected array $values = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -224,6 +231,8 @@ class FormBuilder extends XotBaseUIComponent
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -234,6 +243,7 @@ class FormBuilder extends XotBaseUIComponent
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 
 =======
@@ -286,6 +296,9 @@ class FormBuilder extends XotBaseUIComponent
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -308,6 +321,7 @@ abstract class FormField
     protected array $validators = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 
 =======
@@ -360,6 +374,9 @@ abstract class FormField
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -375,6 +392,7 @@ class InputField extends FormField
     protected ?string $pattern = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 
 =======
@@ -427,6 +445,9 @@ class InputField extends FormField
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -523,6 +544,7 @@ protected function validateField(string $name): void
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -591,11 +613,14 @@ protected function validateField(string $name): void
 >>>>>>> .merge_file_9n3q1G
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
     $result = $this->fields[$name]->validate(
         $this->values[$name]
     );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -627,6 +652,8 @@ protected function validateField(string $name): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -642,6 +669,7 @@ class FormState
     protected array $initialValues = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -661,6 +689,8 @@ class FormState
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
     /** @var array<string, mixed> */
     protected array $currentValues = [];
@@ -674,6 +704,7 @@ class FormState
     public function isDirty(string $field): bool
     {
         return $this->initialValues[$field] !==
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_7IN8bV
@@ -789,6 +820,8 @@ class FormState
 >>>>>>> .merge_file_9n3q1G
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                $this->currentValues[$field];
     }
 }
@@ -834,6 +867,7 @@ class FormState
 4. Migliorare validation performance
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 =======
@@ -842,6 +876,8 @@ class FormState
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 5. Documentare best practices
 # Form Component
 <<<<<<< HEAD
@@ -856,6 +892,7 @@ Completamento: 45%
 ## 📊 Stato Implementazione
 Completamento: 45%
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
@@ -896,6 +933,8 @@ Completamento: 45%
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -906,9 +945,12 @@ Completamento: 45%
 4. Ottimizzare la UX con feedback immediato
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
+=======
+>>>>>>> laraxot/dev
 
 ## 🤔 Sfide di Design
 =======
@@ -917,6 +959,7 @@ Completamento: 45%
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## 🤔 Sfide di Design
@@ -943,6 +986,8 @@ Completamento: 45%
 
 ## 🤔 Sfide di Design
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### 1. Type Safety
 - Validazione input tipizzata
@@ -950,6 +995,7 @@ Completamento: 45%
 - Type inference per campi dinamici
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 
 =======
@@ -969,6 +1015,9 @@ Completamento: 45%
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -979,6 +1028,7 @@ Completamento: 45%
 - Custom validation rules
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 
 =======
@@ -998,6 +1048,9 @@ Completamento: 45%
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1008,9 +1061,12 @@ Completamento: 45%
 - Error handling
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
+=======
+>>>>>>> laraxot/dev
 
 ## 💡 Soluzioni Proposte
 =======
@@ -1018,6 +1074,7 @@ Completamento: 45%
 =======
 >>>>>>> .merge_file_1Er1j0
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## 💡 Soluzioni Proposte
@@ -1042,6 +1099,8 @@ Completamento: 45%
 
 ## 💡 Soluzioni Proposte
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### 1. Form Builder
 ```php
@@ -1051,6 +1110,7 @@ class FormBuilder extends XotBaseUIComponent
     protected array $fields = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -1069,10 +1129,13 @@ class FormBuilder extends XotBaseUIComponent
 >>>>>>> .merge_file_9n3q1G
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
     /** @var array<string, mixed> */
     protected array $values = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
@@ -1091,6 +1154,8 @@ class FormBuilder extends XotBaseUIComponent
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     public function addField(string $name, FormField $field): self
@@ -1098,6 +1163,7 @@ class FormBuilder extends XotBaseUIComponent
         $this->fields[$name] = $field;
         return $this;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
@@ -1118,6 +1184,8 @@ abstract class FormField
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1133,6 +1201,7 @@ abstract class FormField
 abstract class FormField
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 =======
@@ -1157,6 +1226,8 @@ abstract class FormField
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1167,6 +1238,7 @@ abstract class FormField
     protected array $validators = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -1188,6 +1260,8 @@ class InputField extends FormField
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1212,6 +1286,7 @@ class InputField extends FormField
 ## 📝 Steps Implementazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 =======
@@ -1242,11 +1317,14 @@ class InputField extends FormField
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Fase 1: Core (✅ Completato)
 1. ✅ Form builder base
 2. ✅ Field type system
 3. ✅ Basic validation
 4. ✅ Event system
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
@@ -1268,6 +1346,9 @@ class InputField extends FormField
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1280,6 +1361,7 @@ class InputField extends FormField
 5. 📝 Rich text editor
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 
 =======
@@ -1299,6 +1381,9 @@ class InputField extends FormField
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1311,6 +1396,7 @@ class InputField extends FormField
 5. 📝 Multi-step forms
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -1336,6 +1422,8 @@ class DynamicField extends FormField
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1365,6 +1453,7 @@ $form->addDynamicField('custom_field')
 class DynamicField extends FormField
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 =======
@@ -1396,6 +1485,8 @@ class DynamicField extends FormField
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1406,6 +1497,7 @@ class DynamicField extends FormField
         $this->validator = $registry->getValidator($fieldType);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -1420,6 +1512,8 @@ class DynamicField extends FormField
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }
@@ -1429,6 +1523,7 @@ class DynamicField extends FormField
 ## ✅ Code Review Checklist
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 ## ✅ Code Review Checklist
@@ -1445,6 +1540,8 @@ class DynamicField extends FormField
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. Type Safety
@@ -1453,6 +1550,7 @@ class DynamicField extends FormField
    - [ ] Event handlers typed
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 
 =======
@@ -1472,6 +1570,9 @@ class DynamicField extends FormField
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1482,6 +1583,7 @@ class DynamicField extends FormField
    - [ ] Custom rules support
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 
 =======
@@ -1505,10 +1607,14 @@ class DynamicField extends FormField
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 3. UX
    - [ ] Error messages
    - [ ] Loading states
    - [ ] Success feedback
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
@@ -1540,6 +1646,8 @@ class FormState
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1582,6 +1690,7 @@ class FormState
 ## 📚 Lessons Learned
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 =======
@@ -1620,16 +1729,21 @@ class FormState
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. Importanza della validazione incrementale
 2. Necessità di type safety per nested data
 3. UX critical per form complessi
 4. Performance impact della validazione real-time
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 
 ## 🔗 Resources
 =======
@@ -1637,6 +1751,7 @@ class FormState
 =======
 >>>>>>> .merge_file_1Er1j0
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## 🔗 Resources
@@ -1663,6 +1778,8 @@ class FormState
 
 ## 🔗 Resources
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Form Architecture](docs/architecture/forms.md)
 - [Validation System](docs/validation/rules.md)
@@ -1670,6 +1787,7 @@ class FormState
 - [State Management](docs/state/form_state.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -1700,6 +1818,11 @@ class FormState
 
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+
+## 🤝 Contributing
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1713,6 +1836,7 @@ class FormState
 5. Ottimizza performance
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 <<<<<<< .merge_file_7IN8bV
@@ -1732,6 +1856,8 @@ class FormState
 =======
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1748,6 +1874,7 @@ class FormState
 ## 🎯 Next Steps
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
 =======
 =======
@@ -1776,10 +1903,13 @@ class FormState
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. Completare checkbox/radio components
 2. Implementare file upload
 3. Aggiungere nested form support
 4. Migliorare validation performance
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WpqptD
@@ -1840,6 +1970,9 @@ class FormState
 5. Documentare best practices
 >>>>>>> .merge_file_1Er1j0
 >>>>>>> .merge_file_9n3q1G
+>>>>>>> laraxot/dev
+=======
+5. Documentare best practices
 >>>>>>> laraxot/dev
 =======
 5. Documentare best practices

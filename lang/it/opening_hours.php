@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 <<<<<<< HEAD
 =======
@@ -35,6 +36,9 @@ return [
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
+>>>>>>> laraxot/dev
+=======
+return [
 >>>>>>> laraxot/dev
 =======
 return [
@@ -86,6 +90,7 @@ return [
         'empty_hint' => 'Lasciare vuoto significa "chiuso"',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 =======
 return [
@@ -122,6 +127,8 @@ return [
 >>>>>>> .merge_file_r8F6zm
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     'validation' => [
         'invalid_format' => 'Formato orario non valido. Utilizzare HH:MM-HH:MM',
         'invalid_time_range' => 'L\'orario di apertura deve essere precedente all\'orario di chiusura',
@@ -135,6 +142,7 @@ return [
         'opening_before_closing' => 'L\'orario di apertura del :session per :day deve essere precedente a quello di chiusura.',
         'morning' => 'mattino',
         'afternoon' => 'pomeriggio',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 <<<<<<< HEAD
@@ -150,6 +158,8 @@ return [
 >>>>>>> .merge_file_r8F6zm
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         'opening_hours' => [
             'morning_before_afternoon' => 'Per :day, l\'orario di chiusura del mattino deve essere precedente all\'apertura del pomeriggio.',
             'missing_closing_time' => 'Se specifichi l\'orario di apertura del :session  :day, devi specificare anche quello di chiusura.',
@@ -158,6 +168,7 @@ return [
             'morning' => 'mattino',
             'afternoon' => 'pomeriggio',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 =======
@@ -177,12 +188,15 @@ return [
 >>>>>>> .merge_file_r8F6zm
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Opening Hours',
     'plural_label' => 'Opening Hours (Plurale)',
     'navigation' => [
         'name' => 'Opening Hours',
         'plural' => 'Opening Hours',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 <<<<<<< HEAD
@@ -195,6 +209,8 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_r8F6zm
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         'group' => [
@@ -305,5 +321,8 @@ return [
             'label' => 'Elimina Opening Hours',
         ],
     ],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ];

@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UFnOE5
 **Date**: [DATE]
 =======
@@ -25,6 +26,9 @@
 **Date**: [DATE]
 >>>>>>> .merge_file_Vyhk3B
 >>>>>>> .merge_file_F8rPmF
+>>>>>>> laraxot/dev
+=======
+**Date**: [DATE]
 >>>>>>> laraxot/dev
 =======
 **Date**: [DATE]
@@ -176,6 +180,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UFnOE5
 =======
 <<<<<<< .merge_file_MRbWq9
@@ -192,6 +197,8 @@
 =======
 >>>>>>> .merge_file_Vyhk3B
 >>>>>>> .merge_file_F8rPmF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Xot Philosophy](../xot/docs/philosophy-complete.md)
@@ -199,6 +206,7 @@
 - [Development Guidelines](../../../../docs/development/readme.md)
 - [Git Workflow](../../../../docs/git-conflict-resolution/readme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UFnOE5
 =======
 =======
@@ -221,6 +229,8 @@
 =======
 >>>>>>> .merge_file_Vyhk3B
 >>>>>>> .merge_file_F8rPmF
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

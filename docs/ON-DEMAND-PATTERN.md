@@ -58,6 +58,7 @@ qmd search "<topic>"
 └── wiki/                    # Knowledge base locale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< .merge_file_p4Z5cM
@@ -72,10 +73,13 @@ qmd search "<topic>"
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
     ├── commands/INDEX.md   # Indici commands
     └── memories/INDEX.md   # Indice memories
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -103,6 +107,8 @@ qmd search "<topic>"
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 \`\`\`
 
 ## Quick Reference
@@ -116,6 +122,7 @@ qmd search "<topic>"
 
 ## Regole Critiche per Module
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
@@ -139,6 +146,9 @@ qmd search "<topic>"
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JOiRRX
+>>>>>>> laraxot/dev
+=======
+1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
 >>>>>>> laraxot/dev
 =======
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md

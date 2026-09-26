@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
 <<<<<<< .merge_file_zLbaKL
@@ -25,6 +26,8 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 >>>>>>> .merge_file_XYIUrt
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Sistema di Blocchi
 
 ## Introduzione
@@ -32,6 +35,7 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 
 ## Architettura
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
@@ -96,6 +100,8 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Struttura Base
 ```
 laravel/Modules/Cms/
@@ -110,6 +116,7 @@ laravel/Modules/Cms/
     └── blocks/              # Documentazione dei blocchi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
 <<<<<<< .merge_file_zLbaKL
@@ -126,6 +133,8 @@ laravel/Modules/Cms/
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -134,6 +143,7 @@ laravel/Modules/Cms/
 
 1. **[NavigationBlock](../laravel/modules/cms/docs/blocks/navigation-block.md)**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
 <<<<<<< .merge_file_zLbaKL
@@ -153,10 +163,13 @@ laravel/Modules/Cms/
 >>>>>>> .merge_file_XYIUrt
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
    - Gestione menu di navigazione
    - Header e footer
    - Menu multilivello
    - Supporto mobile
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
@@ -178,6 +191,9 @@ laravel/Modules/Cms/
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -188,6 +204,7 @@ laravel/Modules/Cms/
    - Layout flessibile
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 
 =======
@@ -207,6 +224,9 @@ laravel/Modules/Cms/
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -217,6 +237,7 @@ laravel/Modules/Cms/
    - Gestione submit
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
 <<<<<<< .merge_file_zLbaKL
@@ -237,6 +258,8 @@ use Filament\Forms\Components\Builder\Block;
 >>>>>>> .merge_file_XYIUrt
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Implementazione
 
@@ -244,6 +267,7 @@ use Filament\Forms\Components\Builder\Block;
 ```php
 use Filament\Forms\Components\Builder\Block;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
@@ -269,6 +293,8 @@ use Filament\Forms\Components\Builder\Block;
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -283,6 +309,7 @@ class CustomBlock extends Block
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
 <<<<<<< .merge_file_zLbaKL
@@ -309,6 +336,8 @@ public function render()
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -337,6 +366,7 @@ public function render()
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
 =======
@@ -372,11 +402,14 @@ public function render()
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### 1. Struttura
 - Un blocco per funzionalità
 - Schema JSON consistente
 - Documentazione completa
 - Test automatizzati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
@@ -398,6 +431,9 @@ public function render()
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -409,6 +445,7 @@ public function render()
 - Asset management
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 
 =======
@@ -428,6 +465,9 @@ public function render()
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -439,6 +479,7 @@ public function render()
 - Backup automatici
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 
 =======
@@ -458,6 +499,9 @@ public function render()
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -468,6 +512,7 @@ public function render()
 - [Best Practices UI](ui-best-practices.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
 <<<<<<< .merge_file_zLbaKL
@@ -486,6 +531,8 @@ Questa documentazione è parte del sistema di documentazione di il progetto. Per
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -600,6 +647,7 @@ public function render()
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4jEXLO
 =======
 =======
@@ -643,6 +691,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/blocks-syste
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> .merge_file_XYIUrt
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

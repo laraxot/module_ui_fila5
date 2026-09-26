@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CWveyZ
 =======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Collegamenti tra versioni di naming-conventions.md
@@ -37,6 +40,7 @@
 * [naming-conventions.md](../../../../../docs/project/naming-conventions.md)
 * [naming-conventions.md](../../xot/project_docs/naming-conventions.md)
 * [naming-conventions.md](../../patient/project_docs/naming-conventions.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CWveyZ
 =======
@@ -122,6 +126,8 @@
 =======
 >>>>>>> .merge_file_VXWeAq
 >>>>>>> .merge_file_c9EWc5
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

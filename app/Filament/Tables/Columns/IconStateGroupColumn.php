@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Actions\Action;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OBRcG4
 <<<<<<< HEAD
 =======
@@ -17,6 +18,8 @@ use Filament\Actions\Action;
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_NRmVmJ
+=======
+>>>>>>> laraxot/dev
 use Filament\Tables\Columns\ColumnGroup;
 =======
 >>>>>>> .merge_file_mCNWDg
@@ -28,6 +31,7 @@ use Webmozart\Assert\Assert;
 
 <<<<<<< .merge_file_Ysa4s4
 class IconStateGroupColumn extends ColumnGroup
+<<<<<<< HEAD
 <<<<<<< .merge_file_OBRcG4
 =======
 =======
@@ -63,6 +67,8 @@ use Modules\Xot\Contracts\StateContract;
 use Webmozart\Assert\Assert;
 
 class IconStateGroupColumn extends ColumnGroup
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 {
     public string $stateClass = '';
@@ -143,6 +149,7 @@ class IconStateGroupColumn extends ColumnGroup
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OBRcG4
 <<<<<<< HEAD
 =======
@@ -154,6 +161,8 @@ class IconStateGroupColumn extends ColumnGroup
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_NRmVmJ
+=======
+>>>>>>> laraxot/dev
                     ->modalHeading(function (Model $record) use ($stateInstance) {
 =======
                     ->modalHeading(static function (Model $record) use ($stateInstance) {
@@ -167,6 +176,7 @@ class IconStateGroupColumn extends ColumnGroup
                     })
 <<<<<<< .merge_file_Ysa4s4
                     ->schema(function (Model $record) use ($stateInstance) {
+<<<<<<< HEAD
 <<<<<<< .merge_file_OBRcG4
 =======
 =======
@@ -207,10 +217,13 @@ class IconStateGroupColumn extends ColumnGroup
                     })
                     ->schema(function (Model $record) use ($stateInstance) {
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                         // StateContract provides modalFormSchema()
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_OBRcG4
 =======
@@ -235,6 +248,9 @@ class IconStateGroupColumn extends ColumnGroup
                     ->action(static function (Model $record, array $data) use ($stateInstance): void {
 >>>>>>> .merge_file_mCNWDg
 >>>>>>> .merge_file_NRmVmJ
+=======
+                    ->action(function (Model $record, array $data) use ($stateInstance): void {
+>>>>>>> laraxot/dev
 =======
                     ->action(function (Model $record, array $data) use ($stateInstance): void {
 >>>>>>> laraxot/dev
@@ -247,6 +263,7 @@ class IconStateGroupColumn extends ColumnGroup
             );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OBRcG4
 =======
 <<<<<<< .merge_file_Ysa4s4
@@ -273,6 +290,9 @@ class IconStateGroupColumn extends ColumnGroup
             $column->visible((bool) $visibleValue);
 >>>>>>> .merge_file_mCNWDg
 >>>>>>> .merge_file_NRmVmJ
+=======
+            $column->visible((bool) ($this->data[$visibleKey] ?? false));
+>>>>>>> laraxot/dev
 =======
             $column->visible((bool) ($this->data[$visibleKey] ?? false));
 >>>>>>> laraxot/dev

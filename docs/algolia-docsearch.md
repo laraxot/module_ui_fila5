@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
 =======
 <<<<<<< .merge_file_6uOCr6
@@ -71,6 +72,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/algolia-docs
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 title: Algolia DocSearch
 description: Configure Algolia DocSearch with the Jigsaw docs starter template
 extends: _layouts.documentation
@@ -78,6 +81,7 @@ section: content
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
 =======
 <<<<<<< .merge_file_6uOCr6
@@ -97,6 +101,8 @@ This starter template includes support for [DocSearch](https://community.algolia
 >>>>>>> .merge_file_3rKrkB
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 # Algolia DocSearch {#algolia-docsearch}
 
@@ -104,6 +110,7 @@ This starter template includes support for [DocSearch](https://community.algolia
 
 [Get your DocSearch credentials here.](https://community.algolia.com/docsearch/#join-docsearch-program)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
 =======
@@ -123,6 +130,8 @@ This starter template includes support for [DocSearch](https://community.algolia
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_3rKrkB
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```php
@@ -134,6 +143,7 @@ return [
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
 =======
 <<<<<<< .merge_file_6uOCr6
@@ -151,6 +161,8 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> .merge_file_3rKrkB
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -167,6 +179,7 @@ To help Algolia index your pages correctly, it's good practice to add a unique `
 If you'd like to customize the styling of the search results, Algolia exposes custom CSS classes that you can modify:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
 =======
 =======
@@ -193,11 +206,14 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```css
 /* Main dropdown wrapper */
 .algolia-autocomplete .ds-dropdown-menu {
   width: 500px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
@@ -219,6 +235,9 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 
 >>>>>>> .merge_file_loDZZE
 >>>>>>> .merge_file_3rKrkB
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -229,6 +248,7 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
   border: 1px solid gray;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
 =======
 <<<<<<< .merge_file_6uOCr6
@@ -246,6 +266,8 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> .merge_file_3rKrkB
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }
@@ -256,6 +278,7 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
 =======
 <<<<<<< .merge_file_6uOCr6
@@ -274,12 +297,15 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_3rKrkB
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 /* Title (eg. Bootstrap CDN) */
 .algolia-autocomplete .algolia-docsearch-suggestion--title {
   font-weight: bold;
   color: black;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
@@ -316,6 +342,8 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> .merge_file_3rKrkB
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }
@@ -431,6 +459,7 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YGI0AQ
 =======
 =======
@@ -491,6 +520,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/algolia-docs
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> .merge_file_3rKrkB
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

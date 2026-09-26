@@ -28,6 +28,7 @@ class UiCoverageStateContract implements StateContract
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> .merge_file_Q2Pa7K
 =======
     /** @param array<array-key, mixed>|Model|string|null $record */
@@ -48,12 +49,15 @@ class UiCoverageStateContract implements StateContract
     /**
 >>>>>>> .merge_file_VBJMIg
 >>>>>>> .merge_file_onzDGm
+=======
+>>>>>>> laraxot/dev
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_q32wCm
 >>>>>>> laraxot/dev
 =======
@@ -63,6 +67,8 @@ class UiCoverageStateContract implements StateContract
 >>>>>>> .merge_file_VBJMIg
 >>>>>>> .merge_file_onzDGm
 >>>>>>> .merge_file_Q2Pa7K
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -114,6 +120,7 @@ class UiCoverageStateContract implements StateContract
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_u3U2M8
      * @param  array<string, mixed>  $data
 =======
@@ -135,6 +142,9 @@ class UiCoverageStateContract implements StateContract
 >>>>>>> .merge_file_Q2Pa7K
 =======
      * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
+=======
+     * @param array<string, mixed> $data
 >>>>>>> laraxot/dev
      */
     public function modalActionByRecord(Model $record, array $data): void
@@ -153,6 +163,7 @@ class UiCoverageStateContract implements StateContract
     public function canTransitionTo(string $stateClass): bool
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_u3U2M8
         return $stateClass === UiCoverageDoneState::class;
 =======
@@ -174,6 +185,9 @@ class UiCoverageStateContract implements StateContract
 >>>>>>> .merge_file_Q2Pa7K
 =======
         return $stateClass === UiCoverageDoneState::class;
+>>>>>>> laraxot/dev
+=======
+        return UiCoverageDoneState::class === $stateClass;
 >>>>>>> laraxot/dev
     }
 

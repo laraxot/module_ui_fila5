@@ -55,6 +55,7 @@ If the project maintainer has any additional requirements, you will find them li
 **Happy coding**!
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4YngCU
 =======
 =======
@@ -143,5 +144,7 @@ If the project maintainer has any additional requirements, you will find them li
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_s8RbEM
 >>>>>>> .merge_file_OXdFhS
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

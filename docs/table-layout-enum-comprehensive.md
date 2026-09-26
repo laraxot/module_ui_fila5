@@ -400,6 +400,7 @@ Restituisce il testo di aiuto tradotto per il layout.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JnZybt
 =======
 <<<<<<< .merge_file_ercbjm
@@ -416,6 +417,8 @@ Restituisce il testo di aiuto tradotto per il layout.
 =======
 >>>>>>> .merge_file_MkbDTr
 >>>>>>> .merge_file_6u04VE
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [TransTrait Documentation](../../xot/docs/filament/trans-trait.md)
@@ -423,6 +426,7 @@ Restituisce il testo di aiuto tradotto per il layout.
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Translation Standards](../../../../docs/translation_standards.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JnZybt
 =======
 =======
@@ -445,6 +449,8 @@ Restituisce il testo di aiuto tradotto per il layout.
 =======
 >>>>>>> .merge_file_MkbDTr
 >>>>>>> .merge_file_6u04VE
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

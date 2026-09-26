@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_izjsIy
 =======
 =======
@@ -59,6 +60,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MxfUu7
 >>>>>>> .merge_file_B8218C
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Gestione delle Traduzioni con LangServiceProvider
@@ -190,6 +193,7 @@ return [
 public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_izjsIy
 =======
 public function getFormSchema(): array
@@ -211,6 +215,8 @@ public function getFormSchema(): array
 >>>>>>> .merge_file_MxfUu7
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_B8218C
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 {

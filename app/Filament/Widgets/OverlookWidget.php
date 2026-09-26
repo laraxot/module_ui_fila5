@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -11,6 +15,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_pS5m0R
 =======
@@ -35,6 +40,8 @@ use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_JpxdKA
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class OverlookWidget extends XotBaseSchemaWidget
@@ -57,6 +64,7 @@ final class OverlookWidget extends XotBaseSchemaWidget
     /** @var array<int, array<string, mixed>> */
     public array $stats = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /** @phpstan-var view-string */
     /** @phpstan-ignore property.defaultValue */
@@ -92,6 +100,8 @@ final class OverlookWidget extends XotBaseSchemaWidget
 >>>>>>> .merge_file_i5w7yF
 >>>>>>> .merge_file_JpxdKA
 =======
+=======
+>>>>>>> laraxot/dev
     /** @var view-string */
     protected string $view;
 
@@ -106,6 +116,9 @@ final class OverlookWidget extends XotBaseSchemaWidget
 
     protected int|string|array $columnSpan = 1;
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     public function getFormSchema(): array
     {

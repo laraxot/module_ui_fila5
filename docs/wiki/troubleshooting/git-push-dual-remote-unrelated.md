@@ -31,6 +31,9 @@ related:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
@@ -73,6 +76,9 @@ related:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   - "../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md"
 ---
@@ -127,6 +133,9 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
@@ -169,5 +178,8 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Storico risoluzione marker di conflitto (73 file, poi ricorsi): [git-merge-conflict-inventory.md](./git-merge-conflict-inventory.md)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -84,6 +85,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -135,6 +138,7 @@ use Saade\FilamentFullCalendar\Data\EventData;
  * Base widget for FullCalendar.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -176,6 +180,9 @@ use Saade\FilamentFullCalendar\Data\EventData;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
+ *
 >>>>>>> laraxot/dev
 =======
  *
@@ -222,6 +229,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->required(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 
 =======
@@ -274,6 +282,9 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -285,6 +296,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                         ->required(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 
 =======
@@ -337,6 +349,9 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -347,6 +362,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ]),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 
 =======
@@ -399,6 +415,9 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -409,6 +428,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->columnSpanFull(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -477,11 +497,14 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_kxhjPP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -513,6 +536,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -662,6 +687,7 @@ To use the widget in a Blade view:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -699,6 +725,8 @@ use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
 >>>>>>> .merge_file_kxhjPP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
@@ -726,6 +754,7 @@ In the UI module service provider (`Modules/UI/Providers/UIServiceProvider.php`)
 ```php
 use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
@@ -802,6 +831,8 @@ use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 // Inside the boot() or register() method
 $this->app->booted(function () {
     // Register the plugin for all Filament panels
@@ -809,6 +840,7 @@ $this->app->booted(function () {
         FilamentFullCalendarPlugin::make()
     );
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
@@ -828,6 +860,8 @@ namespace Modules\UI\Filament\Widgets;
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -844,6 +878,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 =======
@@ -870,10 +905,13 @@ namespace Modules\UI\Filament\Widgets;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 use Saade\FilamentFullCalendar\Data\EventData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
@@ -895,6 +933,9 @@ use Saade\FilamentFullCalendar\Data\EventData;
 
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -914,6 +955,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
     protected Model | string | null $model = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -931,6 +973,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -944,6 +988,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
         parent::setUp();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 =======
@@ -967,6 +1012,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -978,6 +1025,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -995,6 +1043,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1006,6 +1056,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
     public function getFormSchema(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1026,12 +1077,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_kxhjPP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         return [
             Forms\Components\TextInput::make('title')
                 ->label(__('ui::calendar.fields.title.label'))
                 ->placeholder(__('ui::calendar.fields.title.placeholder'))
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
@@ -1053,6 +1107,9 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1064,6 +1121,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                         ->required(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1081,6 +1139,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1090,6 +1150,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ]),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1110,12 +1171,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_kxhjPP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
                 ->columnSpanFull(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1133,6 +1197,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1141,6 +1207,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->rgb(),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1159,6 +1226,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_cVtnME
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
             Forms\Components\Toggle::make('is_all_day')
@@ -1167,6 +1236,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
         ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1198,6 +1268,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_kxhjPP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     }
 
     /**
@@ -1236,6 +1308,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
             return [];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
@@ -1272,6 +1345,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1279,6 +1354,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
             ->get()
             ->map(fn ($event) => $this->mapEventToCalendar($event))
             ->toArray();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
@@ -1298,6 +1374,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }
@@ -1312,6 +1390,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1330,6 +1409,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_cVtnME
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
             'id' => $event->id,
@@ -1342,6 +1423,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
             'description' => $event->description,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1361,6 +1443,8 @@ public function eventDidMount(): string
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         ];
@@ -1383,6 +1467,7 @@ To customize event appearance:
 public function eventDidMount(): string
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 =======
@@ -1411,10 +1496,13 @@ public function eventDidMount(): string
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     return <<<JS
 function({ event, el }) {
     el.setAttribute("x-tooltip", "tooltip");
     el.setAttribute("x-data", "{ tooltip: '"+event.title+"' }");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
@@ -1435,6 +1523,8 @@ protected function modalActions(): array
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }
@@ -1455,6 +1545,7 @@ To populate the form with new event data after drag & drop:
 protected function modalActions(): array
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 =======
@@ -1479,6 +1570,8 @@ protected function modalActions(): array
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1499,6 +1592,7 @@ protected function modalActions(): array
     ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 <<<<<<< .merge_file_KSEKzW
@@ -1515,6 +1609,8 @@ To use the widget in a Blade view:
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }
@@ -1531,6 +1627,7 @@ To use the widget in a Blade view:
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
 =======
@@ -1556,6 +1653,8 @@ To use the widget in a Blade view:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. Always extend `BaseCalendarWidget` to maintain consistency
 2. Always use translation files for all labels
 3. Document every property and method with complete PHPDoc
@@ -1564,6 +1663,7 @@ To use the widget in a Blade view:
 6. Implement appropriate validation in the form schema
 7. Test on different devices to ensure responsiveness
 8. Always use English for class and attribute names
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
@@ -1583,10 +1683,13 @@ To use the widget in a Blade view:
 >>>>>>> .merge_file_kxhjPP
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Backlinks and References
 
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
@@ -1612,10 +1715,13 @@ To use the widget in a Blade view:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
 *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOBTcp
 =======
@@ -1655,6 +1761,8 @@ To use the widget in a Blade view:
 =======
 >>>>>>> .merge_file_cVtnME
 >>>>>>> .merge_file_kxhjPP
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

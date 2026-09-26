@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -23,10 +27,13 @@ abstract class RowWidget extends XotBaseSchemaWidget
     public array $widgets = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @phpstan-var view-string */
     /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.row';
 =======
+=======
+>>>>>>> laraxot/dev
     /** @var view-string */
     protected string $view;
 
@@ -38,6 +45,9 @@ abstract class RowWidget extends XotBaseSchemaWidget
 
         parent::__construct();
     }
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
     protected int|string|array $columnSpan = 'full';

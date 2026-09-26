@@ -6,6 +6,7 @@ namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YXMM1A
 <<<<<<< HEAD
 use Modules\UI\Database\Factories\FieldOptionFactory;
@@ -34,10 +35,15 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\UI\Database\Factories\FieldOptionFactory;
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\UI\Database\Factories\FieldOptionFactory;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> laraxot/dev
 use Modules\Xot\Models\BaseModel;
 
 /**
  * FieldOption model for UI module.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YXMM1A
 <<<<<<< HEAD
@@ -55,6 +61,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> .merge_file_q38P58
  * FormBuilder module not available - extending from XotBaseModel instead.
 =======
+=======
+>>>>>>> laraxot/dev
  * FormBuilder module not available - extending from XotBaseModel instead.
  */
 /**
@@ -67,6 +75,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int                  $id
  * @property string|null          $field_id
@@ -145,6 +154,10 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_q38P58
+>>>>>>> laraxot/dev
+=======
+ * @property ProfileContract|null $deleter
+ *
 >>>>>>> laraxot/dev
 =======
  * @property ProfileContract|null $deleter

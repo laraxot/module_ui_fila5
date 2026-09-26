@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qCzYS8
 =======
 =======
@@ -59,6 +60,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_4n3ss7
 >>>>>>> .merge_file_LuAUDg
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Analisi Qualità - Modulo UI
@@ -137,6 +140,7 @@ related:
 - [PHPStan Compliance](./phpstan-compliance.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qCzYS8
 - [Optimization Recommendations](./optimization_recommendations.md)
 =======
@@ -160,6 +164,9 @@ related:
 - [Optimization Recommendations](./optimization_recommendations.md)
 >>>>>>> .merge_file_4n3ss7
 >>>>>>> .merge_file_LuAUDg
+>>>>>>> laraxot/dev
+=======
+- [Optimization Recommendations](./optimization_recommendations.md)
 >>>>>>> laraxot/dev
 =======
 - [Optimization Recommendations](./optimization_recommendations.md)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sUR509
 <<<<<<< HEAD
 =======
@@ -54,10 +55,15 @@
 
 declare(strict_types=1);
 =======
+=======
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 <div class="bg-gray-900 py-24 sm:py-32">
@@ -334,6 +340,7 @@ declare(strict_types=1);
                     <span class="text-4xl font-bold">$9</span>
                     <span class="text-sm font-semibold leading-6">/month</span>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sUR509
 <<<<<<< HEAD
 @include('ui::components.blocks.pricing.partials.with_comparison_table_on_dark.blade_body')
@@ -352,6 +359,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_AXhkXY
 >>>>>>> .merge_file_m9HG8r
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                   </div>
@@ -681,6 +690,7 @@ declare(strict_types=1);
     </div>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sUR509
 >>>>>>> laraxot/dev
 =======
@@ -693,5 +703,7 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_AXhkXY
 >>>>>>> .merge_file_m9HG8r
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

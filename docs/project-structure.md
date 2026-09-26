@@ -61,6 +61,9 @@ tags: [structure, architecture, module]
 =======
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`

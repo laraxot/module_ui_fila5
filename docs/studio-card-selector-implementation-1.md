@@ -23,6 +23,7 @@ class StudioCardSelector extends Field
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_gQxY7E
 =======
@@ -38,6 +39,8 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mbsK20
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -140,6 +143,7 @@ private function getStudiosForLocation(Get $get): Collection
     $cap = $get('cap');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_gQxY7E
 =======
@@ -159,6 +163,8 @@ private function getStudiosForLocation(Get $get): Collection
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mbsK20
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     $province = $get('province');
@@ -222,6 +228,7 @@ return [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_gQxY7E
 =======
@@ -241,6 +248,8 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mbsK20
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### Modulo <nome progetto>

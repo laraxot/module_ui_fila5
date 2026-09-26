@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ExbyOV
 <<<<<<< HEAD
 use Modules\UI\Database\Factories\CategoryFactory;
@@ -29,6 +30,9 @@ use Modules\UI\Database\Factories\CategoryFactory;
 =======
 use Modules\UI\Database\Factories\CategoryFactory;
 >>>>>>> laraxot/dev
+=======
+use Modules\UI\Database\Factories\CategoryFactory;
+>>>>>>> laraxot/dev
 use Modules\UI\Models\Category;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
@@ -36,6 +40,7 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 describe('Category Model', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ExbyOV
 <<<<<<< HEAD
@@ -65,6 +70,8 @@ describe('Category Model', function (): void {
         Assert::assertSame('test-category', $category->slug);
         Assert::assertSame(1, (int) $category->is_active);
 =======
+=======
+>>>>>>> laraxot/dev
     test('it can create a category with valid data', function (): void {
         $category = CategoryFactory::new()->createOne([
             'title' => 'Test Category',
@@ -80,6 +87,7 @@ describe('Category Model', function (): void {
     test('it has fillable attributes', function (): void {
         $category = new Category();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ExbyOV
 =======
 =======
@@ -114,6 +122,8 @@ describe('Category Model', function (): void {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         $expected = ['name', 'description', 'icon', 'parent_id', 'is_active', 'sort_order'];
 
         foreach ($expected as $field) {
@@ -121,6 +131,7 @@ describe('Category Model', function (): void {
         }
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ExbyOV
 <<<<<<< HEAD
@@ -135,11 +146,14 @@ describe('Category Model', function (): void {
 >>>>>>> .merge_file_LXb8tQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     test('category has timestamps', function (): void {
         $category = CategoryFactory::new()->createOne();
 
         Assert::assertNotNull($category->created_at);
         Assert::assertNotNull($category->updated_at);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ExbyOV
 =======
@@ -168,6 +182,8 @@ describe('Category Model', function (): void {
         Assert::assertTrue($category->timestamps);
 >>>>>>> .merge_file_nuoiNl
 >>>>>>> .merge_file_LXb8tQ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     });

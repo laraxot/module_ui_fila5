@@ -6,6 +6,7 @@ namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_R6qAC8
 =======
 <<<<<<< .merge_file_iW8GiV
@@ -33,10 +34,15 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> laraxot/dev
+=======
+use Modules\UI\Database\Factories\CollectionFactory;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> laraxot/dev
 use Modules\Xot\Models\BaseModel;
 
 /**
  * Collection model for UI module.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_R6qAC8
 <<<<<<< HEAD
@@ -147,6 +153,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> .merge_file_ZmRhSs
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> laraxot/dev
  * FormBuilder module not available - extending from XotBaseModel instead.
  */
 /**
@@ -165,6 +173,9 @@ use Modules\Xot\Models\BaseModel;
  *
  * @property ProfileContract|null $deleter
  *
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
  * @mixin \Eloquent
  */

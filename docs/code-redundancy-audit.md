@@ -8,6 +8,7 @@ updated: "2026-05-26"
 owner: "UI"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
 <<<<<<< .merge_file_LFVXG3
 =======
@@ -44,6 +45,9 @@ issue: "https://github.com/provtv/<nome repository>/issues/150"
 =======
 >>>>>>> .merge_file_SbiLuR
 >>>>>>> .merge_file_N4XaS6
+>>>>>>> laraxot/dev
+=======
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
 >>>>>>> laraxot/dev
 =======
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
@@ -131,6 +135,7 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 - Markdown locale + Git restano la base piu' portabile: gli agenti leggono/scrivono file senza database esterni.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 =======
 <<<<<<< HEAD
@@ -154,6 +159,9 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_N4XaS6
+=======
+- AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
+>>>>>>> laraxot/dev
 =======
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 >>>>>>> laraxot/dev

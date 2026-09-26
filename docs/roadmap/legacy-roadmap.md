@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_BiP6KO
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_d5QvFd
 >>>>>>> .merge_file_MbNT4F
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # UI Module Roadmap

@@ -7,6 +7,7 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/opening_hours_field_time_pickers.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wuoCnE
 <<<<<<< HEAD
 return array (
@@ -213,6 +214,8 @@ return array (
 >>>>>>> .merge_file_0KQh5B
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     // UI — translation section (claude-audit doc ratio).
     // UI — translation section (claude-audit doc ratio).
@@ -382,9 +385,12 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wuoCnE
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_0KQh5B
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

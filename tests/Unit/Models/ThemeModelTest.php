@@ -9,6 +9,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 <<<<<<< HEAD
 =======
@@ -51,6 +52,8 @@ use PHPUnit\Framework\Assert;
 >>>>>>> .merge_file_mcoYME
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 uses(TestCase::class);
 
 beforeEach(function (): void {
@@ -62,6 +65,7 @@ beforeEach(function (): void {
 
 describe('Theme Model', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 <<<<<<< .merge_file_1WIglI
@@ -90,6 +94,10 @@ describe('Theme Model', function (): void {
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set (test skipped at runtime)) */
 >>>>>>> .merge_file_nLvUFx
 >>>>>>> .merge_file_mcoYME
+=======
+    test('it can create atheme with valid data', function (): void {
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+>>>>>>> laraxot/dev
 =======
     test('it can create atheme with valid data', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
@@ -100,6 +108,7 @@ describe('Theme Model', function (): void {
         ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 <<<<<<< .merge_file_1WIglI
@@ -141,10 +150,16 @@ describe('Theme Model', function (): void {
         Assert::assertSame('Test Theme', $theme->name);
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> laraxot/dev
+=======
+        /* @phpstan-ignore-next-line -- Theme model is optional */
+        Assert::assertSame('Test Theme', $theme->name);
+        /* @phpstan-ignore-next-line -- Theme model is optional */
+>>>>>>> laraxot/dev
         Assert::assertTrue($theme->is_active);
     });
 
     test('it has fillable attributes', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 <<<<<<< HEAD
@@ -157,6 +172,8 @@ describe('Theme Model', function (): void {
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mcoYME
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
 =======
         /** @phpstan-ignore-next-line class.notFound (Theme model absent from artifact set) */
@@ -172,6 +189,7 @@ describe('Theme Model', function (): void {
 <<<<<<< .merge_file_1WIglI
             /* @phpstan-ignore-next-line -- Theme model is optional */
             Assert::assertTrue(in_array($field, $theme->getFillable()));
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 =======
@@ -204,11 +222,14 @@ describe('Theme Model', function (): void {
             /* @phpstan-ignore-next-line -- Theme model is optional */
             Assert::assertTrue(in_array($field, $theme->getFillable()));
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         }
     });
 
     test('it casts is active to boolean', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 <<<<<<< HEAD
 =======
@@ -220,6 +241,8 @@ describe('Theme Model', function (): void {
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mcoYME
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
 =======
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
@@ -230,6 +253,7 @@ describe('Theme Model', function (): void {
         Assert::assertIsBool($theme->is_active);
 <<<<<<< .merge_file_1WIglI
         /* @phpstan-ignore-next-line -- Theme model is optional */
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 =======
@@ -263,12 +287,15 @@ describe('Theme Model', function (): void {
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertIsBool($theme->is_active);
         /* @phpstan-ignore-next-line -- Theme model is optional */
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         Assert::assertTrue($theme->is_active);
     });
 
     test('it casts config to array', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 <<<<<<< .merge_file_1WIglI
@@ -292,6 +319,9 @@ describe('Theme Model', function (): void {
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
 >>>>>>> .merge_file_nLvUFx
 >>>>>>> .merge_file_mcoYME
+=======
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+>>>>>>> laraxot/dev
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
 >>>>>>> laraxot/dev
@@ -300,6 +330,7 @@ describe('Theme Model', function (): void {
         ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 <<<<<<< .merge_file_1WIglI
@@ -336,6 +367,11 @@ describe('Theme Model', function (): void {
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
 >>>>>>> .merge_file_nLvUFx
 >>>>>>> .merge_file_mcoYME
+=======
+        /* @phpstan-ignore-next-line -- Theme model is optional */
+        Assert::assertIsArray($theme->config);
+        /* @phpstan-ignore-next-line -- Theme model is optional */
+>>>>>>> laraxot/dev
 =======
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertIsArray($theme->config);
@@ -346,6 +382,7 @@ describe('Theme Model', function (): void {
 
     test('it casts needs compilation to boolean', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 <<<<<<< HEAD
 =======
@@ -357,6 +394,8 @@ describe('Theme Model', function (): void {
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mcoYME
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
 =======
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
@@ -367,6 +406,7 @@ describe('Theme Model', function (): void {
         Assert::assertIsBool($theme->needs_compilation);
 <<<<<<< .merge_file_1WIglI
         /* @phpstan-ignore-next-line -- Theme model is optional */
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 =======
@@ -400,12 +440,15 @@ describe('Theme Model', function (): void {
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertIsBool($theme->needs_compilation);
         /* @phpstan-ignore-next-line -- Theme model is optional */
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         Assert::assertTrue($theme->needs_compilation);
     });
 
     test('theme can have parent theme', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 <<<<<<< HEAD
 =======
@@ -417,6 +460,8 @@ describe('Theme Model', function (): void {
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mcoYME
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
 =======
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
@@ -427,6 +472,7 @@ describe('Theme Model', function (): void {
 
 <<<<<<< .merge_file_1WIglI
         /* @phpstan-ignore-next-line -- Theme model is optional */
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 =======
@@ -460,12 +506,15 @@ describe('Theme Model', function (): void {
         $child = Theme::factory()->createOne(['name' => 'Child Theme', 'parent_id' => $parent->id]);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         Assert::assertSame('Parent Theme', $child->parent->name);
     });
 
     test('theme can be active', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 <<<<<<< HEAD
 =======
@@ -479,10 +528,13 @@ describe('Theme Model', function (): void {
 >>>>>>> .merge_file_mcoYME
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->createOne(['is_active' => true]);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
@@ -511,6 +563,8 @@ describe('Theme Model', function (): void {
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
 >>>>>>> .merge_file_nLvUFx
 >>>>>>> .merge_file_mcoYME
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         Assert::assertTrue($theme->is_active);
@@ -518,6 +572,7 @@ describe('Theme Model', function (): void {
 
     test('theme can be inactive', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 <<<<<<< HEAD
 =======
@@ -531,10 +586,13 @@ describe('Theme Model', function (): void {
 >>>>>>> .merge_file_mcoYME
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->createOne(['is_active' => false]);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
@@ -563,6 +621,8 @@ describe('Theme Model', function (): void {
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
 >>>>>>> .merge_file_nLvUFx
 >>>>>>> .merge_file_mcoYME
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         Assert::assertFalse($theme->is_active);
@@ -570,6 +630,7 @@ describe('Theme Model', function (): void {
 
     test('theme has timestamps', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 <<<<<<< HEAD
 =======
@@ -581,6 +642,8 @@ describe('Theme Model', function (): void {
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mcoYME
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
 =======
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
@@ -591,6 +654,7 @@ describe('Theme Model', function (): void {
         Assert::assertNotNull($theme->created_at);
 <<<<<<< .merge_file_1WIglI
         /* @phpstan-ignore-next-line -- Theme model is optional */
+<<<<<<< HEAD
 <<<<<<< .merge_file_guVjzA
 =======
 =======
@@ -624,6 +688,8 @@ describe('Theme Model', function (): void {
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertNotNull($theme->created_at);
         /* @phpstan-ignore-next-line -- Theme model is optional */
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         Assert::assertNotNull($theme->updated_at);
     });

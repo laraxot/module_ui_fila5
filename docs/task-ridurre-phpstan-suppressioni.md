@@ -5,6 +5,7 @@
 **Completamento**: 0%
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RgGmxj
 =======
 **Data**: 2026-01-30
@@ -26,6 +27,8 @@
 >>>>>>> .merge_file_p8DBWV
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_EoYkMz
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 

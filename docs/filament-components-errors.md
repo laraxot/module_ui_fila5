@@ -139,6 +139,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../../docs/filament/components.md)
 =======
 <<<<<<< HEAD
@@ -188,6 +189,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 - [Documentazione Componenti Filament](../../../../docs/filament/components.md)
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Componenti Filament](../../../../docs/filament/components.md)
+>>>>>>> laraxot/dev
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -220,6 +224,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 3. Seguire le convenzioni di naming del progetto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
 =======
@@ -228,6 +233,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+=======
+>>>>>>> laraxot/dev
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 <<<<<<< HEAD
 =======
@@ -238,6 +245,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 ## ⚠️ Errori di Metodi Non Supportati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
@@ -286,6 +294,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -297,6 +307,7 @@ FileUpload::make('document')
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
 =======
@@ -305,6 +316,8 @@ FileUpload::make('document')
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -358,6 +371,7 @@ TextInput::make('last_name') // ✅ Usare 'last_name' per il cognome
 ❌ **NON FARE**:
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
 =======
@@ -388,6 +402,8 @@ TextInput::make('last_name') // ✅ Usare 'last_name' per il cognome
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -399,6 +415,7 @@ Forms\Components\Wizard::make([
 ]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
 =======
@@ -407,6 +424,8 @@ Forms\Components\Wizard::make([
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -454,6 +473,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Mantenere una struttura coerente
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
 =======
@@ -489,12 +509,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 2. **Struttura del Documento**:
    - Titolo chiaro e descrittivo
    - Esempio dell'errore (❌)
    - Esempio della correzione (✅)
    - Spiegazione del perché
    - Collegamenti bidirezionali
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
@@ -513,6 +536,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -522,12 +548,16 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Collegare a esempi di implementazione corretta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
+=======
+>>>>>>> laraxot/dev
 
 ## Best Practices per la Documentazione
 >>>>>>> .merge_file_5qWaaD
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Best Practices per la Documentazione
@@ -551,6 +581,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 ## Best Practices per la Documentazione
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 1. **Organizzazione**:
    - Raggruppare errori per tipo di componente
@@ -558,6 +590,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Usare markdown per la formattazione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 
 =======
@@ -574,6 +607,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -583,6 +619,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Fornire soluzioni alternative
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_GLWL6r
@@ -595,6 +632,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -605,6 +645,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Aggiungere nuovi errori quando scoperti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
 =======
@@ -617,12 +658,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> .merge_file_5qWaaD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti Bidirezionali
 
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
@@ -638,6 +682,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - [Best Practices UI](../../best-practices.md)
@@ -649,12 +695,16 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 - [Componente FileUpload](./filament-components/file-upload.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
+=======
+>>>>>>> laraxot/dev
 
 ## Processo di Documentazione
 >>>>>>> .merge_file_5qWaaD
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Processo di Documentazione
@@ -678,6 +728,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 ## Processo di Documentazione
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 1. **Identificazione**:
    - Riconoscere l'errore come problema UI
@@ -685,6 +737,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Determinare la posizione corretta della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 
 =======
@@ -701,6 +754,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -710,6 +766,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Aggiungere collegamenti bidirezionali
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
 =======
@@ -718,6 +775,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5qWaaD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -731,6 +790,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
@@ -759,11 +819,14 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GLWL6r
 =======
@@ -806,6 +869,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> .merge_file_4QPpIf
 >>>>>>> .merge_file_5qWaaD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -35,6 +35,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
     </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -87,6 +88,9 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -230,6 +234,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 Nel progetto la sintassi di default per i componenti Volt interattivi è **class-based** (`new class extends Livewire\Volt\Component`). Gli esempi qui sotto che usano `use function Livewire\Volt\{state, mount\}` sono **legacy/mantenimento**.
 
@@ -253,6 +258,10 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+Nel progetto la sintassi di default per i componenti Volt interattivi è **class-based** (`new class extends Livewire\Volt\Component`). Gli esempi qui sotto che usano `use function Livewire\Volt\{state, mount\}` sono **legacy/mantenimento**.
+
 >>>>>>> laraxot/dev
 =======
 Nel progetto la sintassi di default per i componenti Volt interattivi è **class-based** (`new class extends Livewire\Volt\Component`). Gli esempi qui sotto che usano `use function Livewire\Volt\{state, mount\}` sono **legacy/mantenimento**.
@@ -267,6 +276,7 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -335,11 +345,14 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 >>>>>>> .merge_file_DDXAqJ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
   state([
       'property' => null,
   ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -371,6 +384,8 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -380,6 +395,7 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
   ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -432,6 +448,9 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -451,6 +470,7 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -518,10 +538,13 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 >>>>>>> .merge_file_DDXAqJ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
   middleware(['auth']);
   name('page.name');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -553,6 +576,8 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -562,6 +587,7 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
   ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -614,6 +640,9 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -626,6 +655,7 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 ### Gestione dello Stato
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 - In class-based, usa proprietà `public` e inizializza in `mount(): void`
 - Gli helper functional `state()` / `computed()` sono legacy/mantenimento (non per nuovi componenti)
@@ -657,6 +687,10 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 - Gli helper functional `state()` / `computed()` sono legacy/mantenimento (non per nuovi componenti)
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+- In class-based, usa proprietà `public` e inizializza in `mount(): void`
+- Gli helper functional `state()` / `computed()` sono legacy/mantenimento (non per nuovi componenti)
 >>>>>>> laraxot/dev
 =======
 - In class-based, usa proprietà `public` e inizializza in `mount(): void`
@@ -701,6 +735,7 @@ $logout = function () {
     @endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -753,6 +788,9 @@ $logout = function () {
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -806,6 +844,7 @@ $logout = function () {
         @endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -858,6 +897,9 @@ $logout = function () {
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1013,6 +1055,7 @@ $logout = function () {
 - ✅ Gestire correttamente le traduzioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Testare in entrambi gli stati
 =======
 <<<<<<< HEAD
@@ -1069,10 +1112,16 @@ $logout = function () {
 >>>>>>> laraxot/dev
 =======
 - ✅ Testare in entrambi gli stati
+=======
+- ✅ Testare in entrambi gli stati
+>>>>>>> laraxot/dev
 # Guida ai Componenti UI
 
 ## Layout
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Frontoffice
 - Utilizzare `x-layouts.main` come layout principale
@@ -1084,6 +1133,7 @@ $logout = function () {
       </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -1103,6 +1153,9 @@ $logout = function () {
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1114,6 +1167,7 @@ $logout = function () {
   ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -1134,6 +1188,8 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 >>>>>>> .merge_file_DDXAqJ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### Backoffice
 - Utilizzare i layout Filament
@@ -1144,6 +1200,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 ### Dropdown
 Il componente dropdown di Filament offre una soluzione completa per i menu a tendina con le seguenti funzionalità:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
@@ -1169,6 +1226,8 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1181,6 +1240,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
     </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -1200,6 +1260,9 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1213,6 +1276,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -1232,6 +1296,9 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1247,6 +1314,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 - **Link**: Converti in link con `tag="a"` e `href`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -1263,6 +1331,8 @@ Il componente avatar di Filament gestisce le immagini profilo con:
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1271,6 +1341,7 @@ Il componente avatar di Filament gestisce le immagini profilo con:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -1288,6 +1359,8 @@ Il componente avatar di Filament gestisce le immagini profilo con:
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 <x-filament::avatar
@@ -1297,6 +1370,7 @@ Il componente avatar di Filament gestisce le immagini profilo con:
 />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 ```
 
@@ -1320,6 +1394,10 @@ Il componente avatar di Filament gestisce le immagini profilo con:
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+```
+
 >>>>>>> laraxot/dev
 =======
 ```
@@ -1331,6 +1409,7 @@ Il componente avatar di Filament gestisce le immagini profilo con:
 - **Fallback**: Gestione automatica delle immagini mancanti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -1350,6 +1429,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1368,6 +1449,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -1396,11 +1478,14 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Layout
 - Mantenere la separazione tra frontoffice e backoffice
 - Utilizzare i layout appropriati per ogni contesto
 - Seguire la struttura standard dei layout
 - Supportare il tema scuro
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -1422,6 +1507,9 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1433,6 +1521,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 - Testare in entrambi i temi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -1452,6 +1541,9 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1463,6 +1555,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 - ❌ Ignorare il supporto per il tema scuro
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 
 =======
@@ -1482,6 +1575,9 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1494,6 +1590,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 - ✅ Testare in entrambi i temi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -1510,6 +1607,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1520,6 +1619,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <x-filament::dropdown>
     <x-slot name="trigger">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -1537,6 +1637,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         <button class="flex items-center">
@@ -1550,6 +1652,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
                 class="ml-1 h-4 w-4"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -1564,6 +1667,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
             />
@@ -1572,6 +1677,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 
     <x-filament::dropdown.list>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
         </button>
@@ -1590,12 +1696,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> .merge_file_DDXAqJ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         <x-filament::dropdown.list.item
             icon="heroicon-o-user"
             href="{{ route('profile.show') }}"
             tag="a"
         >
             {{ __('Profile') }}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -1618,6 +1727,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         </x-filament::dropdown.list.item>
@@ -1644,6 +1755,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 ### Loading State
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -1673,12 +1785,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <div>
     <x-filament::loading-indicator wire:loading />
     <div wire:loading.remove>
         {{ $content }}
     </div>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -1709,10 +1824,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 ```
 
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> laraxot/dev
 ## Collegamenti Correlati
 - [Documentazione Dropdown Filament](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Documentazione Avatar Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -1736,6 +1856,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1756,6 +1878,7 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
   ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -1786,10 +1909,13 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
   };
   ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -1815,10 +1941,14 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
   @endvolt
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -1849,6 +1979,8 @@ use function Livewire\Volt\{state, mount};
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   ```
@@ -1889,6 +2021,7 @@ use function Livewire\Volt\{state, mount};
 use function Livewire\Volt\{state, mount};
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -1926,11 +2059,14 @@ use function Livewire\Volt\{state, mount};
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 state([
     'isLoggingOut' => false,
     'success' => false,
     'error' => false,
 ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -1952,6 +2088,9 @@ state([
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -1969,6 +2108,7 @@ $logout = function () {
 ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -1997,6 +2137,10 @@ $logout = function () {
 
 <div>
 >>>>>>> laraxot/dev
+=======
+
+<div>
+>>>>>>> laraxot/dev
     @if($success)
         <!-- Success state -->
     @elseif($error)
@@ -2004,6 +2148,7 @@ $logout = function () {
     @else
         <!-- Default state -->
     @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2028,6 +2173,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -2071,6 +2218,7 @@ $logout = function () {
     </x-slot>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -2102,6 +2250,8 @@ name('auth.logout');
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     <div>
         @if($success)
             <!-- Success state -->
@@ -2110,6 +2260,7 @@ name('auth.logout');
         @else
             <!-- Default state -->
         @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2128,6 +2279,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -2141,6 +2294,7 @@ name('auth.logout');
 ### Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -2166,10 +2320,13 @@ name('auth.logout');
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 #### Gestione dello Stato
 - Mantenere gli stati semplici e chiari
 - Documentare gli stati e le loro transizioni
 - Gestire correttamente gli errori
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2188,6 +2345,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - Implementare stati di loading
@@ -2199,6 +2358,7 @@ name('auth.logout');
 - Testare i componenti in isolamento
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -2224,11 +2384,14 @@ name('auth.logout');
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 #### Cosa NON fare
 - ❌ Omettere la direttiva `@volt` nei componenti Volt
 - ❌ Mischiare logica di business con la presentazione
 - ❌ Duplicare stati tra componenti
 - ❌ Ignorare la gestione degli errori
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2250,6 +2413,9 @@ name('auth.logout');
 
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -2262,6 +2428,7 @@ name('auth.logout');
 - ✅ Testare i componenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -2279,6 +2446,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -2289,6 +2458,7 @@ name('auth.logout');
 - Struttura standard:
   ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -2309,12 +2479,15 @@ name('auth.logout');
 >>>>>>> .merge_file_DDXAqJ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
   <x-blocks.navigation.user-dropdown :user="auth()->user()">
       <x-slot name="trigger">
           <x-filament::avatar
               src="{{ $user->profile_photo_url }}"
               alt="{{ $user->name }}"
           />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2334,6 +2507,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
       </x-slot>
@@ -2345,6 +2520,7 @@ name('auth.logout');
 - Struttura standard:
   ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -2365,6 +2541,8 @@ name('auth.logout');
 >>>>>>> .merge_file_DDXAqJ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
   <x-blocks.navigation.login-buttons>
       <x-ui.button
           href="{{ route('login') }}"
@@ -2372,6 +2550,7 @@ name('auth.logout');
       >
           {{ __('auth.login.link') }}
       </x-ui.button>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2392,6 +2571,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -2409,6 +2590,7 @@ name('auth.logout');
 - Esempio:
   ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -2436,11 +2618,14 @@ name('auth.logout');
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
   @auth
       <x-blocks.navigation.user-dropdown :user="auth()->user()" />
   @else
       <x-blocks.navigation.login-buttons />
   @endauth
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2459,6 +2644,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   ```
@@ -2467,6 +2654,7 @@ name('auth.logout');
 - Utilizzare il namespace `auth.` per le traduzioni
 - Struttura standard:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -2484,6 +2672,8 @@ name('auth.logout');
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
   ```php
@@ -2501,6 +2691,7 @@ name('auth.logout');
           'title' => 'Register',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -2518,6 +2709,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
           'email' => 'Email',
@@ -2527,6 +2720,7 @@ name('auth.logout');
           'link' => 'Register',
       ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 <<<<<<< .merge_file_geucKW
@@ -2545,6 +2739,8 @@ name('auth.logout');
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
       'logout' => [
@@ -2560,6 +2756,7 @@ name('auth.logout');
           'try_again' => 'Try again',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
       ],
 =======
@@ -2583,11 +2780,15 @@ name('auth.logout');
 =======
       ],
 >>>>>>> laraxot/dev
+=======
+      ],
+>>>>>>> laraxot/dev
       'user_dropdown' => [
           'manage_account' => 'Manage Account',
           'profile' => 'Profile',
           'settings' => 'Settings',
           'logout' => 'Logout',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2606,6 +2807,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
       ],
@@ -2621,6 +2824,7 @@ name('auth.logout');
 - Supportare il tema scuro
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
 =======
@@ -2646,11 +2850,14 @@ name('auth.logout');
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 #### Traduzioni
 - Utilizzare chiavi semantiche
 - Mantenere la coerenza nella struttura
 - Documentare le traduzioni
 - Testare in tutte le lingue
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
@@ -2673,6 +2880,8 @@ name('auth.logout');
 >>>>>>> .merge_file_DDXAqJ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 #### Cosa NON fare
 - ❌ Mischiare stati autenticati e non
@@ -2685,6 +2894,7 @@ name('auth.logout');
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
 - ✅ Testare in entrambi gli stati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Kps3Q3
 =======
@@ -2728,6 +2938,8 @@ name('auth.logout');
 =======
 >>>>>>> .merge_file_eBFVRP
 >>>>>>> .merge_file_DDXAqJ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

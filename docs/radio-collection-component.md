@@ -95,6 +95,7 @@ If radio buttons are not selecting properly, check:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
 <<<<<<< .merge_file_qDkfGG
@@ -108,6 +109,8 @@ If radio buttons are not selecting properly, check:
 =======
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> .merge_file_kblJk8
+=======
+>>>>>>> laraxot/dev
 ### [DATE]
 >>>>>>> laraxot/dev
 =======
@@ -136,6 +139,7 @@ The RadioCollection component provides a customizable radio button group for Fil
 ### Class Structure
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
 =======
@@ -179,6 +183,8 @@ The RadioCollection component provides a customizable radio button group for Fil
 =======
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> .merge_file_kblJk8
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -190,6 +196,7 @@ The RadioCollection component provides a customizable radio button group for Fil
   - `valueKey(string $key)`: Set the key used for option values
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 
 ### Template Structure
@@ -221,6 +228,11 @@ The RadioCollection component provides a customizable radio button group for Fil
 
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> .merge_file_kblJk8
+>>>>>>> laraxot/dev
+=======
+
+### Template Structure
+
 >>>>>>> laraxot/dev
 =======
 
@@ -235,6 +247,7 @@ The RadioCollection component provides a customizable radio button group for Fil
   - Dark mode compatibility
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
 <<<<<<< .merge_file_qDkfGG
@@ -253,11 +266,14 @@ The RadioCollection component provides a customizable radio button group for Fil
 >>>>>>> .merge_file_kblJk8
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Usage
 
 ### Basic Usage
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
@@ -276,6 +292,8 @@ The RadioCollection component provides a customizable radio button group for Fil
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kblJk8
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```php
@@ -289,6 +307,7 @@ RadioCollection::make('status')
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
 <<<<<<< .merge_file_qDkfGG
@@ -307,11 +326,14 @@ Create a Blade view that will be rendered for each item:
 >>>>>>> .merge_file_kblJk8
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### Custom Item View
 
 Create a Blade view that will be rendered for each item:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
@@ -330,6 +352,8 @@ Create a Blade view that will be rendered for each item:
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kblJk8
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```blade
@@ -342,6 +366,7 @@ Create a Blade view that will be rendered for each item:
 </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
 <<<<<<< .merge_file_qDkfGG
@@ -359,6 +384,8 @@ If radio buttons are not selecting properly, check:
 =======
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> .merge_file_kblJk8
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -370,6 +397,7 @@ If radio buttons are not selecting properly, check:
 If radio buttons are not selecting properly, check:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
 <<<<<<< .merge_file_qDkfGG
@@ -390,10 +418,13 @@ If radio buttons are not selecting properly, check:
 >>>>>>> .merge_file_kblJk8
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. Ensure `wire:key` is unique for each option
 2. Verify that `$getStatePath()` is resolving correctly
 3. Check for JavaScript errors in the console
 4. Ensure the component is properly initialized in a Livewire context
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
@@ -426,6 +457,11 @@ If radio buttons are not selecting properly, check:
 
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> .merge_file_kblJk8
+>>>>>>> laraxot/dev
+=======
+
+## Best Practices
+
 >>>>>>> laraxot/dev
 =======
 
@@ -438,6 +474,7 @@ If radio buttons are not selecting properly, check:
 4. Verify accessibility of custom item views
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
 <<<<<<< .merge_file_qDkfGG
@@ -456,11 +493,14 @@ If radio buttons are not selecting properly, check:
 >>>>>>> .merge_file_kblJk8
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Troubleshooting
 
 ### Radio Buttons Not Selecting
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
@@ -479,12 +519,15 @@ If radio buttons are not selecting properly, check:
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kblJk8
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. Check browser console for JavaScript errors
 2. Verify Livewire component is properly initialized
 3. Ensure the state path is correct and accessible
 4. Test with default item view to isolate the issue
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
@@ -514,6 +557,8 @@ If radio buttons are not selecting properly, check:
 >>>>>>> .merge_file_kblJk8
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### State Not Updating
 
@@ -533,6 +578,7 @@ If radio buttons are not selecting properly, check:
 
 - Initial documentation
 - Added troubleshooting section for selection issues
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9vD8Ml
 =======
@@ -583,6 +629,8 @@ If radio buttons are not selecting properly, check:
 =======
 >>>>>>> .merge_file_BDpFKz
 >>>>>>> .merge_file_kblJk8
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

@@ -12,6 +12,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
 <<<<<<< .merge_file_DEXTRO
@@ -25,6 +26,9 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> laraxot/dev
 =======
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 >>>>>>> laraxot/dev
@@ -35,12 +39,15 @@ I file SVG delle bandiere sono archiviati in:
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 Modules/UI/resources/svg/flags/
@@ -52,6 +59,7 @@ Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come n
 
 I componenti SVG sono autoregistrati tramite il metodo `registerBladeIcons()` nel `XotBaseServiceProvider`. Questo metodo configura i set di icone Blade con il prefisso del modulo, consentendo di utilizzare i componenti SVG delle bandiere in qualsiasi vista Blade.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
@@ -71,11 +79,14 @@ I componenti SVG sono autoregistrati tramite il metodo `registerBladeIcons()` ne
 >>>>>>> .merge_file_wRIvCW
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```php
 public function registerBladeIcons(): void
 {
     // ...
     $svgPath = module_path($this->name, $relativePath.'/../svg');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
@@ -84,6 +95,8 @@ public function registerBladeIcons(): void
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     // ...
@@ -99,6 +112,7 @@ public function registerBladeIcons(): void
 I componenti SVG delle bandiere possono essere utilizzati con la seguente sintassi:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
 <<<<<<< HEAD
@@ -116,6 +130,8 @@ I componenti SVG delle bandiere possono essere utilizzati con la seguente sintas
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```blade
@@ -124,6 +140,7 @@ I componenti SVG delle bandiere possono essere utilizzati con la seguente sintas
 <x-ui-flags.fr class="h-5 w-5" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
 ```
@@ -139,6 +156,10 @@ I componenti SVG delle bandiere possono essere utilizzati con la seguente sintas
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+```
+
+>>>>>>> laraxot/dev
 =======
 ```
 
@@ -149,12 +170,15 @@ Dove:
 - `it`, `gb`, `fr` sono i codici ISO dei paesi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -163,6 +187,7 @@ Dove:
 I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
 <<<<<<< HEAD
@@ -176,6 +201,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - `class`: Per applicare classi CSS
@@ -185,12 +212,15 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 - `aria-*`: Per migliorare l'accessibilità
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -201,6 +231,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
@@ -218,6 +249,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 />
@@ -287,6 +320,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DEXTRO
 =======
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
@@ -301,6 +335,9 @@ Le bandiere devono essere utilizzate come icone Filament:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRIvCW
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+>>>>>>> laraxot/dev
 =======
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 >>>>>>> laraxot/dev

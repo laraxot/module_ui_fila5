@@ -49,6 +49,7 @@ class ExampleTransition extends Transition
 - [State Management](./state-management.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [SelectStateColumn Documentation](./select-state-column.md)
 =======
 <<<<<<< HEAD
@@ -112,6 +113,9 @@ This document outlines the standards and patterns for implementing state transit
 >>>>>>> laraxot/dev
 =======
 - [SelectStateColumn Documentation](./select-state-column.md)
+=======
+- [SelectStateColumn Documentation](./select-state-column.md)
+>>>>>>> laraxot/dev
 # State Transitions Guide
 
 ## Overview
@@ -119,6 +123,9 @@ This document outlines the standards and patterns for implementing state transit
 
 ## Transition Class Structure
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Required Structure
 ```php
@@ -130,6 +137,7 @@ class ExampleTransition extends Transition
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dM5P90
 
 =======
@@ -149,6 +157,9 @@ class ExampleTransition extends Transition
 
 >>>>>>> .merge_file_nei5JC
 >>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -162,6 +173,7 @@ class ExampleTransition extends Transition
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dM5P90
 
 =======
@@ -181,6 +193,9 @@ class ExampleTransition extends Transition
 
 >>>>>>> .merge_file_nei5JC
 >>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -192,6 +207,7 @@ class ExampleTransition extends Transition
 - `handle()` must return the updated model
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dM5P90
 =======
 <<<<<<< .merge_file_ZLjIU6
@@ -210,6 +226,8 @@ class ExampleTransition extends Transition
 >>>>>>> .merge_file_uxdxAr
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Implementation Notes
 
@@ -217,6 +235,7 @@ class ExampleTransition extends Transition
 1. `$model`: The model instance being transitioned
 2. `$message`: Optional message for the transition (default: empty string)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dM5P90
 =======
@@ -240,6 +259,8 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> .merge_file_nei5JC
 >>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -249,6 +270,7 @@ class ExampleTransition extends Transition
 - Place in `app/States/{ModelName}/Transitions/`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dM5P90
 
 =======
@@ -268,6 +290,9 @@ class ExampleTransition extends Transition
 
 >>>>>>> .merge_file_nei5JC
 >>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -279,6 +304,7 @@ class ExampleTransition extends Transition
 - Always provide default values for optional parameters
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dM5P90
 =======
 <<<<<<< .merge_file_ZLjIU6
@@ -295,10 +321,13 @@ class ExampleTransition extends Transition
 >>>>>>> .merge_file_uxdxAr
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Related Documentation
 - [State Management](./state-management.md)
 - [SelectStateColumn Documentation](./select-state-column.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dM5P90
 =======
@@ -338,6 +367,8 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> .merge_file_nei5JC
 >>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

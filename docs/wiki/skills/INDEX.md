@@ -36,6 +36,7 @@ Le Skills progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate
 - Non embeddare Skills nei prompt di avvio
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PpdNJ2
 =======
 - Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/index.md)
@@ -54,6 +55,9 @@ Le Skills progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate
 >>>>>>> .merge_file_4UNwPZ
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fDGUIF
+=======
+- Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/INDEX.md)
+>>>>>>> laraxot/dev
 =======
 - Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/INDEX.md)
 >>>>>>> laraxot/dev

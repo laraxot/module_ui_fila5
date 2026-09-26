@@ -7,6 +7,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UObH3E
 
 /**
@@ -24,14 +25,19 @@ use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\OpeningHoursField;
 
 /**
  * Controparte in lista di {@see OpeningHoursField}.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
 >>>>>>> .merge_file_8q6xIP
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
  *
@@ -81,6 +87,7 @@ class OpeningHoursColumn extends TextColumn
 
             $abbrev = mb_substr($dayLabel, 0, 3);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UObH3E
             $parts[] = $slots === []
 =======
@@ -100,6 +107,9 @@ class OpeningHoursColumn extends TextColumn
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
 >>>>>>> .merge_file_8q6xIP
+=======
+            $parts[] = [] === $slots
+>>>>>>> laraxot/dev
 =======
             $parts[] = [] === $slots
 >>>>>>> laraxot/dev
@@ -108,6 +118,7 @@ class OpeningHoursColumn extends TextColumn
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UObH3E
         return $parts === [] ? '—' : implode(' · ', $parts);
 =======
@@ -127,6 +138,9 @@ class OpeningHoursColumn extends TextColumn
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
 >>>>>>> .merge_file_8q6xIP
+=======
+        return [] === $parts ? '—' : implode(' · ', $parts);
+>>>>>>> laraxot/dev
 =======
         return [] === $parts ? '—' : implode(' · ', $parts);
 >>>>>>> laraxot/dev

@@ -54,6 +54,9 @@ headroom perf --hours 24
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # UI
 
@@ -90,11 +93,14 @@ Core module for the FixCity Platform.
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bKhEUL
 =======
 >>>>>>> laraxot/dev
 =======
 =======
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_irkwG5
@@ -119,4 +125,7 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

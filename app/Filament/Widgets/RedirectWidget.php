@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Yli5YI
 =======
 <<<<<<< .merge_file_hbQ76G
@@ -26,6 +27,8 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_iGPWtr
 >>>>>>> .merge_file_PYBKPZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
@@ -99,12 +102,16 @@ final class RedirectWidget extends XotBaseSchemaWidget
 
         parent::__construct();
     }
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
     /**
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Yli5YI
 =======
@@ -129,6 +136,9 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * @return array<string, Component>
 >>>>>>> .merge_file_iGPWtr
 >>>>>>> .merge_file_PYBKPZ
+=======
+     * @return array<string, mixed>
+>>>>>>> laraxot/dev
 =======
      * @return array<string, mixed>
 >>>>>>> laraxot/dev

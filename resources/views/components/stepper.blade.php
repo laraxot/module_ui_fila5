@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_grHv5B
 <<<<<<< HEAD
 =======
@@ -80,6 +81,8 @@ declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_mCH0S8
 >>>>>>> .merge_file_wOdVbY
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 @props([

@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 <<<<<<< .merge_file_tR081w
@@ -59,6 +60,10 @@ class GroupColumn extends XotBaseColumn
 
 class GroupColumn extends Column
 >>>>>>> laraxot/dev
+=======
+
+class GroupColumn extends Column
+>>>>>>> laraxot/dev
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -73,6 +78,7 @@ class GroupColumn extends Column
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 =======
@@ -81,6 +87,8 @@ class GroupColumn extends Column
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6jBa4s
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
      * Initialize the component.
@@ -94,6 +102,7 @@ class GroupColumn extends Column
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 =======
@@ -103,6 +112,8 @@ class GroupColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6jBa4s
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -116,6 +127,7 @@ class GroupColumn extends Column
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 =======
@@ -126,10 +138,13 @@ class GroupColumn extends Column
 >>>>>>> .merge_file_6jBa4s
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
      * @param array<int|string, mixed> $form
      */
     public function schema(array $form): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_tR081w
         // Type-check to ensure all elements are Column instances
@@ -163,6 +178,10 @@ class GroupColumn extends Column
         // Type-check to ensure all elements are Column instances
         $filtered = array_filter($form, function (mixed $item): bool {
 >>>>>>> laraxot/dev
+=======
+        // Type-check to ensure all elements are Column instances
+        $filtered = array_filter($form, function (mixed $item): bool {
+>>>>>>> laraxot/dev
             return $item instanceof Column;
         });
 
@@ -170,6 +189,7 @@ class GroupColumn extends Column
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
@@ -248,6 +268,10 @@ class GroupColumn extends Column
 =======
 >>>>>>> .merge_file_qrATa5
 >>>>>>> .merge_file_6jBa4s
+=======
+        return $this;
+    }
+>>>>>>> laraxot/dev
 =======
         return $this;
     }

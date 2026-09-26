@@ -7,6 +7,7 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pBdh1b
 =======
 =======
@@ -46,5 +47,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_q6ahf0
 >>>>>>> .merge_file_EhyZ4k
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

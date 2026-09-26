@@ -4,6 +4,7 @@ topic: styling
 canonical: ../../../../Themes/docs/shared-components/styling.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WLq3S3
 =======
 =======
@@ -37,6 +38,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZUo9Hv
 >>>>>>> .merge_file_9Ehgqd
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

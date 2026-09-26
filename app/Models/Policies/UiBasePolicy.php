@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -15,8 +19,12 @@ use Illuminate\Auth\Access\HandlesAuthorization;
 use Modules\Xot\Contracts\UserContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Datas\XotData;
 =======
+>>>>>>> laraxot/dev
+=======
+use Modules\Xot\Datas\XotData;
 >>>>>>> laraxot/dev
 =======
 use Modules\Xot\Datas\XotData;
@@ -33,8 +41,12 @@ abstract class UiBasePolicy
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $xotData = XotData::make();
 =======
+>>>>>>> laraxot/dev
+=======
+        $xotData = XotData::make();
 >>>>>>> laraxot/dev
 =======
         $xotData = XotData::make();

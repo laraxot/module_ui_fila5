@@ -185,6 +185,7 @@ class StatsWidget extends Widget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZpeQOd
 =======
 =======
@@ -196,6 +197,8 @@ class StatsWidget extends Widget
 =======
 >>>>>>> .merge_file_d5aZzB
 >>>>>>> .merge_file_G9mbQb
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### Sottocartelle (es. brands)
@@ -204,6 +207,7 @@ class StatsWidget extends Widget
 - **Vietato** SVG inline nelle Blade: vedi [no-svg-hardcoded-in-blade.md](no-svg-hardcoded-in-blade.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZpeQOd
 =======
 =======
@@ -216,6 +220,8 @@ class StatsWidget extends Widget
 =======
 >>>>>>> .merge_file_d5aZzB
 >>>>>>> .merge_file_G9mbQb
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -364,6 +370,7 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZpeQOd
 ### v1.1.0 - [DATE]
 =======
@@ -387,6 +394,9 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 ### v1.1.0 - [DATE]
 >>>>>>> .merge_file_d5aZzB
 >>>>>>> .merge_file_G9mbQb
+>>>>>>> laraxot/dev
+=======
+### v1.1.0 - [DATE]
 >>>>>>> laraxot/dev
 =======
 ### v1.1.0 - [DATE]
@@ -397,6 +407,7 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZpeQOd
 ### v1.0.0 - [DATE]
 =======
@@ -420,6 +431,9 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 ### v1.0.0 - [DATE]
 >>>>>>> .merge_file_d5aZzB
 >>>>>>> .merge_file_G9mbQb
+>>>>>>> laraxot/dev
+=======
+### v1.0.0 - [DATE]
 >>>>>>> laraxot/dev
 =======
 ### v1.0.0 - [DATE]

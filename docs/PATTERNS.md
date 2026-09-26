@@ -390,6 +390,9 @@ Quando aggiungi feature nuova a UI:
 - [INDEX](./INDEX.md) — Documentazione index completo
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [TROUBLESHOOTING](./TROUBLESHOOTING.md) — Errori comuni e soluzioni
 - [architecture/component-registration](./architecture/component-registration.md) — Registrazione dettagliata

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bZs02b
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RNywvY
 >>>>>>> .merge_file_8cU1S6
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # ratings

@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2cdnZX
 **Date**: [DATE]
 =======
@@ -25,6 +26,9 @@
 **Date**: [DATE]
 >>>>>>> .merge_file_E4ZBkT
 >>>>>>> .merge_file_GpPfpo
+>>>>>>> laraxot/dev
+=======
+**Date**: [DATE]
 >>>>>>> laraxot/dev
 =======
 **Date**: [DATE]

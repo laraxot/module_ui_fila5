@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8te21d
 <<<<<<< HEAD
 =======
@@ -74,6 +75,8 @@ declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_zFtlCi
 >>>>>>> .merge_file_CzK3HZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 @props([
@@ -207,6 +210,7 @@ declare(strict_types=1);
         @endif
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8te21d
 <<<<<<< HEAD
 </div>
@@ -232,6 +236,9 @@ declare(strict_types=1);
 </div>
 >>>>>>> .merge_file_zFtlCi
 >>>>>>> .merge_file_CzK3HZ
+=======
+</div>
+>>>>>>> laraxot/dev
 =======
 </div>
 >>>>>>> laraxot/dev

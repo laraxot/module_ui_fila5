@@ -7,6 +7,7 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_navigation.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lg5QUK
 <<<<<<< HEAD
 return array (
@@ -29,6 +30,8 @@ return array (
 >>>>>>> .merge_file_CfXVOw
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 return [
     'navigation' => [
         'name' => 'Icon State Group',
@@ -39,6 +42,7 @@ return [
         ],
         'label' => 'Icon State Group',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oCJe72
 =======
@@ -64,6 +68,11 @@ return [
     ],
 ];
 >>>>>>> .merge_file_CfXVOw
+=======
+        'icon' => 'heroicon-o-collection',
+    ],
+];
+>>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-collection',
     ],

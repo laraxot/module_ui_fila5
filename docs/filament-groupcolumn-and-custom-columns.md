@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QHwvhS
 =======
 =======
@@ -13,6 +14,8 @@
 =======
 >>>>>>> .merge_file_IKMwec
 >>>>>>> .merge_file_y7eXwb
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 > **REGOLA IMPORTANTE**: Quando esiste una colonna personalizzata come `WorkerColumn`, `ValutatoreColumn`, ecc., USARLA invece di creare TextColumns separati. Le colonne personalizzate encapsulano la logica e mantengono DRY.
@@ -37,6 +40,7 @@ Le colonne personalizzate come `WorkerColumn` sono pre-configurate con:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QHwvhS
 =======
 =======
@@ -49,6 +53,8 @@ Le colonne personalizzate come `WorkerColumn` sono pre-configurate con:
 =======
 >>>>>>> .merge_file_IKMwec
 >>>>>>> .merge_file_y7eXwb
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

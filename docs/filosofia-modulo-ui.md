@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9cySTk
 > **Generato**: [DATE]
 =======
@@ -25,6 +26,9 @@
 > **Generato**: [DATE]
 >>>>>>> .merge_file_7VNOdi
 >>>>>>> .merge_file_RLvjB0
+>>>>>>> laraxot/dev
+=======
+> **Generato**: [DATE]
 >>>>>>> laraxot/dev
 =======
 > **Generato**: [DATE]
@@ -111,6 +115,7 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9cySTk
 =======
 <<<<<<< .merge_file_Wz8tm1
@@ -170,6 +175,10 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 // LocationSelector - Usato in TechPlanner, Employee, Geo
 >>>>>>> .merge_file_7VNOdi
 >>>>>>> .merge_file_RLvjB0
+>>>>>>> laraxot/dev
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
 >>>>>>> laraxot/dev
 =======
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
@@ -487,6 +496,7 @@ Altri moduli consumano componenti UI:
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9cySTk
 // In TechPlanner/Filament/Resources/DeviceResource.php
 =======
@@ -545,6 +555,9 @@ Altri moduli consumano componenti UI:
 // In TechPlanner/Filament/Resources/DeviceResource.php
 >>>>>>> .merge_file_7VNOdi
 >>>>>>> .merge_file_RLvjB0
+>>>>>>> laraxot/dev
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
 >>>>>>> laraxot/dev
 =======
 // In TechPlanner/Filament/Resources/DeviceResource.php
@@ -824,6 +837,7 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Framework**: Laravel 12 + Filament 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9cySTk
 =======
 **Framework**: Laravel 13 + Filament 4
@@ -845,6 +859,8 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 >>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RLvjB0
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **PHPStan**: Level 10 ✅

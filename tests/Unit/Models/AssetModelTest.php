@@ -15,6 +15,7 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 <<<<<<< HEAD
 =======
@@ -88,6 +89,8 @@ uses(TestCase::class);
 beforeEach(function (): void {
     if (! class_exists(UI_ASSET_MODEL_CLASS)) {
 =======
+=======
+>>>>>>> laraxot/dev
 uses(TestCase::class);
 
 beforeEach(function (): void {
@@ -100,6 +103,7 @@ beforeEach(function (): void {
 
 describe('Asset Model', function (): void {
     test('can be instantiated', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 =======
@@ -129,6 +133,11 @@ describe('Asset Model', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6b4X3J
+=======
+        /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
+        $asset = new Asset();
+        /* @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
+>>>>>>> laraxot/dev
         Assert::assertInstanceOf(Asset::class, $asset);
 =======
         Assert::assertInstanceOf(uiAssetModelClass(), uiAssetModel());
@@ -145,6 +154,7 @@ describe('Asset Model', function (): void {
         $expected = ['name', 'type', 'path', 'theme_id', 'is_minified', 'is_compressed', 'order', 'should_bundle'];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 <<<<<<< HEAD
 =======
@@ -158,10 +168,13 @@ describe('Asset Model', function (): void {
 >>>>>>> .merge_file_6b4X3J
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
         $asset = new Asset();
         foreach ($expected as $field) {
             /* @phpstan-ignore-next-line -- Asset model is optional */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 =======
@@ -183,6 +196,8 @@ describe('Asset Model', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6b4X3J
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
             Assert::assertTrue(in_array($field, $asset->getFillable()));
 =======
         $fillable = uiAssetModel()->getFillable();
@@ -197,6 +212,7 @@ describe('Asset Model', function (): void {
 
     test('has casts defined', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 <<<<<<< HEAD
 =======
@@ -210,6 +226,8 @@ describe('Asset Model', function (): void {
 >>>>>>> .merge_file_6b4X3J
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
         $asset = new Asset();
         $casts = $asset->getCasts(); // @phpstan-ignore-line
@@ -220,6 +238,7 @@ describe('Asset Model', function (): void {
         /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('integer', $casts['order']);
         /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 =======
@@ -250,12 +269,15 @@ describe('Asset Model', function (): void {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         Assert::assertSame('boolean', $casts['should_bundle']);
     });
 
     test('has theme relationship', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 =======
         /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
@@ -274,6 +296,9 @@ describe('Asset Model', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6b4X3J
+=======
+        /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
+>>>>>>> laraxot/dev
         $reflection = new \ReflectionClass(Asset::class);
 =======
         $casts = uiAssetModel()->getCasts();
@@ -294,6 +319,7 @@ describe('Asset Model', function (): void {
     });
 
     test('has correct table name', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 =======
@@ -328,10 +354,16 @@ describe('Asset Model', function (): void {
         $asset = new Asset();
         /* @phpstan-ignore-next-line -- Asset model is optional */
 >>>>>>> laraxot/dev
+=======
+        /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
+        $asset = new Asset();
+        /* @phpstan-ignore-next-line -- Asset model is optional */
+>>>>>>> laraxot/dev
         Assert::assertSame('assets', $asset->getTable());
     });
 
     test('has model base class', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         /* @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
@@ -349,6 +381,9 @@ describe('Asset Model', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6b4X3J
+>>>>>>> laraxot/dev
+=======
+        /* @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
 >>>>>>> laraxot/dev
 =======
         /* @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
@@ -359,6 +394,7 @@ describe('Asset Model', function (): void {
     test('uses strict types', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 =======
         /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
@@ -377,6 +413,9 @@ describe('Asset Model', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6b4X3J
+=======
+        /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
+>>>>>>> laraxot/dev
         $reflection = new \ReflectionClass(Asset::class);
 =======
         Assert::assertSame('assets', uiAssetModel()->getTable());
@@ -401,6 +440,7 @@ describe('Asset Model', function (): void {
 
     test('has correct namespace', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3fBwDg
 =======
 <<<<<<< .merge_file_TYIwra
@@ -421,6 +461,9 @@ describe('Asset Model', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6b4X3J
+=======
+        /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
+>>>>>>> laraxot/dev
         $reflection = new \ReflectionClass(Asset::class);
         Assert::assertSame('Modules\UI\Models', $reflection->getNamespaceName());
 =======

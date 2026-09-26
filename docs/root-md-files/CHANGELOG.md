@@ -3,6 +3,7 @@
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_A63pmP
 =======
@@ -47,6 +48,8 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_UNKxAL
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

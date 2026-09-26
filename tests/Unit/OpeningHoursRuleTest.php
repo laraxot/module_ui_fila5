@@ -20,6 +20,7 @@ uses(TestCase::class);
  * una closure di comodo con firma diversa passerebbe a runtime e mentirebbe sul contratto.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yLcX0n
  * @return list<string>
  */
@@ -49,6 +50,13 @@ function uiOpeningHoursFailures(array|string|int|null $value): array
  */
 function uiOpeningHoursFailures(array|string|int|null $value): array
 >>>>>>> laraxot/dev
+=======
+ * @param array<string, mixed>|string|int|null $value
+ *
+ * @return list<string>
+ */
+function uiOpeningHoursFailures(array|string|int|null $value): array
+>>>>>>> laraxot/dev
 {
     /** @var list<string> $failures */
     $failures = [];
@@ -59,6 +67,7 @@ function uiOpeningHoursFailures(array|string|int|null $value): array
         return new PotentiallyTranslatedString($message, app('translator'));
     };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_yLcX0n
     (new OpeningHoursRule)->validate('orari', $value, $collect);
@@ -81,6 +90,9 @@ function uiOpeningHoursFailures(array|string|int|null $value): array
 >>>>>>> .merge_file_ztSEB3
 =======
     (new OpeningHoursRule)->validate('orari', $value, $collect);
+>>>>>>> laraxot/dev
+=======
+    (new OpeningHoursRule())->validate('orari', $value, $collect);
 >>>>>>> laraxot/dev
 
     return $failures;

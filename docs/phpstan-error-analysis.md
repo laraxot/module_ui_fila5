@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_rOMtlI
 **Data**: 2025-12-23
@@ -13,6 +14,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5vUgVO
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **Modulo**: UI

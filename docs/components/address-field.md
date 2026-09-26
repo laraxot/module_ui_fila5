@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
 =======
 <<<<<<< .merge_file_hv4tsL
@@ -84,6 +85,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica
@@ -123,6 +126,7 @@ AddressField::make('address')
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
 =======
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components)
@@ -145,11 +149,15 @@ Il componente AddressField è un campo Filament personalizzato per la gestione d
 =======
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components)
 >>>>>>> laraxot/dev
+=======
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+>>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica
 Il componente AddressField è un campo Filament personalizzato per la gestione degli indirizzi. Integra funzionalità di geocoding e validazione degli indirizzi.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
 =======
@@ -195,6 +203,8 @@ Il componente AddressField è un campo Filament personalizzato per la gestione d
 =======
 >>>>>>> .merge_file_nY17UK
 >>>>>>> .merge_file_4kx6JZ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -205,6 +215,7 @@ Il componente AddressField è un campo Filament personalizzato per la gestione d
 - Supporto per formati di indirizzo internazionali
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
 =======
 <<<<<<< .merge_file_hv4tsL
@@ -223,10 +234,13 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 >>>>>>> .merge_file_4kx6JZ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
 =======
@@ -245,6 +259,8 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 >>>>>>> .merge_file_nY17UK
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_4kx6JZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 1. Tipizzazione stretta dei parametri
@@ -254,6 +270,7 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 5. Implementazione delle interfacce corrette
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
 =======
 <<<<<<< .merge_file_hv4tsL
@@ -271,6 +288,8 @@ use Modules\UI\ment\Forms\Components\AddressField;
 =======
 >>>>>>> .merge_file_nY17UK
 >>>>>>> .merge_file_4kx6JZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -279,6 +298,7 @@ use Modules\UI\ment\Forms\Components\AddressField;
 use Modules\UI\ment\Forms\Components\AddressField;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
 =======
 <<<<<<< .merge_file_hv4tsL
@@ -297,6 +317,8 @@ use Modules\UI\ment\Forms\Components\AddressField;
 >>>>>>> .merge_file_nY17UK
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_4kx6JZ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 AddressField::make('address')
@@ -307,6 +329,7 @@ AddressField::make('address')
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
 
 =======
@@ -330,11 +353,15 @@ AddressField::make('address')
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 ## Best Practices
 1. Utilizzare sempre la validazione dei campi
 2. Implementare la gestione degli errori per il geocoding
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_N0K9eP
@@ -401,6 +428,10 @@ AddressField::make('address')
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components)
 >>>>>>> .merge_file_nY17UK
 >>>>>>> .merge_file_4kx6JZ
+>>>>>>> laraxot/dev
+=======
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
 >>>>>>> laraxot/dev
 =======
 

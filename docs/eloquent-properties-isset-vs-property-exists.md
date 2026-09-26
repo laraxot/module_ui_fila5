@@ -166,6 +166,7 @@ Prima di commit, verifica:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_H9XEqF
 =======
 <<<<<<< .merge_file_SDnv61
@@ -204,6 +205,11 @@ Prima di commit, verifica:
 - **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
 >>>>>>> .merge_file_GYmgok
 >>>>>>> .merge_file_bkmHRX
+>>>>>>> laraxot/dev
+=======
+- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
+- **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
+- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
 >>>>>>> laraxot/dev
 =======
 - **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
@@ -227,6 +233,7 @@ Prima di commit, verifica:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_H9XEqF
 =======
 <<<<<<< .merge_file_SDnv61
@@ -243,6 +250,8 @@ Prima di commit, verifica:
 =======
 >>>>>>> .merge_file_GYmgok
 >>>>>>> .merge_file_bkmHRX
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **Progetto**: base_<nome progetto>_fila5_mono
@@ -250,6 +259,7 @@ Prima di commit, verifica:
 **Status**: ✅ 0 Errors
 **Ultimo aggiornamento**: [DATE]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_H9XEqF
 =======
 =======
@@ -272,6 +282,8 @@ Prima di commit, verifica:
 =======
 >>>>>>> .merge_file_GYmgok
 >>>>>>> .merge_file_bkmHRX
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

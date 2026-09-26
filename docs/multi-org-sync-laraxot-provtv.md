@@ -28,6 +28,9 @@ updated: "2026-07-29"
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
@@ -67,6 +70,9 @@ updated: "2026-07-23"
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
@@ -98,6 +104,9 @@ related:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
@@ -133,6 +142,9 @@ related:
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   - "./git-multi-org-sync-handoff.md"
 ---
@@ -180,6 +192,9 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
@@ -225,6 +240,9 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - **Violazione di dipendenza Geo→UI**: `app/Livewire/Components/Map/InteractiveMap.php`
   importava `Modules\\Geo\\Services\\{Geocoding,Map}Service`, un modulo che non fa
@@ -264,6 +282,9 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 =======
@@ -315,6 +336,9 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Regola per il futuro
@@ -343,6 +367,9 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
@@ -385,6 +412,9 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 =======
 =======
 >>>>>>> 804451c (Lint)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### Caso User 2026-07-23 (unrelated)

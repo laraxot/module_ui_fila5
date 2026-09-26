@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_w5JAxp
 =======
 =======
@@ -72,6 +73,8 @@ related:
 >>>>>>> .merge_file_uM7P4C
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope
@@ -85,6 +88,7 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_w5JAxp
@@ -110,6 +114,9 @@ related:
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> .merge_file_bHx9Fg
 >>>>>>> .merge_file_uM7P4C
+>>>>>>> laraxot/dev
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> laraxot/dev
 =======
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`

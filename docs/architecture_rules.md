@@ -147,6 +147,7 @@ class CustomMiddleware
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
 =======
 <<<<<<< HEAD
@@ -188,6 +189,9 @@ class CustomMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_cDbapr
+>>>>>>> laraxot/dev
+=======
+<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
 >>>>>>> laraxot/dev
 =======
 <img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">

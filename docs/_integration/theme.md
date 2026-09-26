@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_arGt67
 =======
 =======
@@ -70,6 +71,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Q3VYtG
 >>>>>>> .merge_file_IAsROG
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # theme

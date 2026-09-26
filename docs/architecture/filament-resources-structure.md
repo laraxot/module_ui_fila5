@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qjYtMB
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_z2Kbf8
 >>>>>>> .merge_file_zsy1Hd
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Struttura delle Filament Resources

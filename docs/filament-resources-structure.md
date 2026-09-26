@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
 =======
 <<<<<<< .merge_file_i7XovI
@@ -26,6 +27,8 @@ Le Filament Resources seguono una struttura gerarchica standardizzata:
 >>>>>>> .merge_file_XkJuwQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Struttura delle Filament Resources
 
 ## Panoramica
@@ -34,6 +37,7 @@ Questo documento descrive la struttura e l'organizzazione delle Filament Resourc
 ## Struttura Base
 Le Filament Resources seguono una struttura gerarchica standardizzata:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
 =======
@@ -99,6 +103,8 @@ Le Filament Resources seguono una struttura gerarchica standardizzata:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```
 laravel/
 └── Modules/
@@ -117,6 +123,7 @@ laravel/
                     └── {Model}Resource.php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
 =======
 <<<<<<< .merge_file_i7XovI
@@ -133,6 +140,8 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 =======
 >>>>>>> .merge_file_agUjWu
 >>>>>>> .merge_file_XkJuwQ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -141,6 +150,7 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
 =======
 <<<<<<< .merge_file_i7XovI
@@ -160,10 +170,13 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 >>>>>>> .merge_file_XkJuwQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. **XotBaseListRecords**
    - Gestione della lista dei record
    - Filtri e ordinamento
    - Azioni di massa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
@@ -187,6 +200,9 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 >>>>>>> .merge_file_agUjWu
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XkJuwQ
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -196,6 +212,7 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
    - Gestione delle traduzioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
 =======
 <<<<<<< .merge_file_i7XovI
@@ -212,6 +229,8 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 =======
 >>>>>>> .merge_file_agUjWu
 >>>>>>> .merge_file_XkJuwQ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -221,6 +240,7 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
    - Gestione delle traduzioni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
 =======
 <<<<<<< .merge_file_i7XovI
@@ -240,12 +260,15 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 >>>>>>> .merge_file_XkJuwQ
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Namespace e Import
 Le classi base devono essere importate dal namespace corretto:
 ```php
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
@@ -262,6 +285,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 >>>>>>> .merge_file_agUjWu
 >>>>>>> .merge_file_XkJuwQ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```
@@ -399,6 +424,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 - [Documentazione CMS Module](../laravel/modules/cms/project_docs/filament-resources.md)
 - [Documentazione Xot Module](../laravel/modules/xot/project_docs/filament-resources.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
 =======
 =======
@@ -450,6 +476,8 @@ Questa documentazione è collegata bidirezionalmente con la documentazione speci
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Best Practices
 1. **Namespace**
@@ -479,6 +507,7 @@ Questa documentazione è collegata bidirezionalmente con la documentazione speci
 
 ## Note
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_53wReX
 =======
@@ -518,6 +547,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-res
 =======
 >>>>>>> .merge_file_agUjWu
 >>>>>>> .merge_file_XkJuwQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

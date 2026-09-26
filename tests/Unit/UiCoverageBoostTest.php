@@ -34,6 +34,7 @@ describe('UI coverage boost — Enums', function (): void {
 describe('UI coverage boost — Models', function (): void {
     test('Category fillable matches domain fields', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mo8aTh
         $fillable = (new Category)->getFillable();
 =======
@@ -55,6 +56,9 @@ describe('UI coverage boost — Models', function (): void {
 >>>>>>> .merge_file_dF44d2
 =======
         $fillable = (new Category)->getFillable();
+>>>>>>> laraxot/dev
+=======
+        $fillable = (new Category())->getFillable();
 >>>>>>> laraxot/dev
 
         Assert::assertContains('name', $fillable);
@@ -65,6 +69,7 @@ describe('UI coverage boost — Models', function (): void {
 describe('UI coverage boost — Filament widgets', function (): void {
     test('StatsOverviewWidget declares heading', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mo8aTh
         $widget = new StatsOverviewWidget;
 =======
@@ -86,6 +91,9 @@ describe('UI coverage boost — Filament widgets', function (): void {
 >>>>>>> .merge_file_dF44d2
 =======
         $widget = new StatsOverviewWidget;
+>>>>>>> laraxot/dev
+=======
+        $widget = new StatsOverviewWidget();
 >>>>>>> laraxot/dev
         $ref = new \ReflectionClass($widget);
         $prop = $ref->getProperty('heading');

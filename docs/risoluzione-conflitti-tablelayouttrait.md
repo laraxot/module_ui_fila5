@@ -15,6 +15,7 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
    - `namespace Modules\UI\Traits;`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - `namespace Modules\UI\app\Traits;`
 =======
 <<<<<<< HEAD
@@ -56,6 +57,9 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_30sQ3N
+>>>>>>> laraxot/dev
+=======
+   - `namespace Modules\UI\app\Traits;`
 >>>>>>> laraxot/dev
 =======
    - `namespace Modules\UI\app\Traits;`
@@ -112,6 +116,7 @@ Questo trait è strettamente correlato a:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JG6y8S
 =======
 =======
@@ -120,6 +125,8 @@ Questo trait è strettamente correlato a:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_30sQ3N
+=======
+>>>>>>> laraxot/dev
 La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati.
 # Risoluzione Conflitti in TableLayoutTrait
 <<<<<<< HEAD
@@ -165,6 +172,7 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 
 ### 1. Standardizzazione del Namespace
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JG6y8S
 =======
@@ -216,6 +224,8 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 =======
 >>>>>>> .merge_file_TWcWK5
 >>>>>>> .merge_file_30sQ3N
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -226,6 +236,7 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 - Riferimenti esistenti a questo namespace in altri file, come `BaseListRecords.php`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JG6y8S
 =======
 <<<<<<< .merge_file_EEu8Qb
@@ -258,6 +269,8 @@ Il trait `TableLayoutTrait` lavora in sinergia con:
 >>>>>>> .merge_file_30sQ3N
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ### 2. Pulizia della Formattazione
 
@@ -287,6 +300,7 @@ Il trait `TableLayoutTrait` lavora in sinergia con:
 
 ## Collegamento con Altri File
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JG6y8S
 =======
@@ -324,6 +338,8 @@ Il trait `TableLayoutTrait` lavora in sinergia con:
 =======
 >>>>>>> .merge_file_TWcWK5
 >>>>>>> .merge_file_30sQ3N
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -331,6 +347,7 @@ Questo trait è strettamente correlato a:
 - `TableLayout.php`: L'enum che definisce i possibili stati del layout
 - `BaseListRecords.php`: La classe base che utilizza il trait
 - `TableLayoutToggleTableAction.php`: L'azione che consente di cambiare il layout nella tabella
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JG6y8S
@@ -394,6 +411,12 @@ La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mante
 =======
 >>>>>>> .merge_file_TWcWK5
 >>>>>>> .merge_file_30sQ3N
+>>>>>>> laraxot/dev
+=======
+
+## Conclusione
+
+La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati.
 >>>>>>> laraxot/dev
 =======
 

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tmOuwE
 
 <<<<<<< HEAD
@@ -13,6 +14,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GH01sE
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -86,6 +90,7 @@ function makeCollection(array $attributes = []): Collection
     return CollectionFactory::new()->makeOne($attributes);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TZyfnJ
 =======
 =======
@@ -126,5 +131,7 @@ function makeCollection(array $attributes = []): Collection
 =======
 >>>>>>> .merge_file_PyKFmt
 >>>>>>> .merge_file_GH01sE
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

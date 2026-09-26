@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pMlCCB
 =======
 <<<<<<< .merge_file_DvIeri
@@ -272,6 +273,8 @@ To use the widget in a Blade view:
 =======
 >>>>>>> .merge_file_FlebvB
 >>>>>>> .merge_file_0nwsP0
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---
@@ -282,6 +285,7 @@ canonical: ../../../../Themes/docs/shared-components/full_calendar.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/full_calendar.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pMlCCB
 =======
 =======
@@ -560,6 +564,8 @@ To use the widget in a Blade view:
 =======
 >>>>>>> .merge_file_FlebvB
 >>>>>>> .merge_file_0nwsP0
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

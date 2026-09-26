@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -36,6 +40,7 @@ declare(strict_types=1);
     };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_m9skSN
 =======
 =======
@@ -66,6 +71,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_bZaLOk
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 @endphp
 
 @php
@@ -90,6 +97,7 @@ switch ($tag ?? 'button') {
     {{ $slot }}
 </{{ $tagClose }}>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_m9skSN
 =======
 <<<<<<< HEAD
@@ -99,6 +107,8 @@ switch ($tag ?? 'button') {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bZaLOk
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

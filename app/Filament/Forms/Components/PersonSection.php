@@ -7,6 +7,7 @@ namespace Modules\UI\Filament\Forms\Components;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dYmJgX
 =======
 <<<<<<< .merge_file_pxmKdd
@@ -25,15 +26,20 @@ use Modules\Xot\Filament\Schemas\Components\XotBaseSection;
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Tables\Columns\PersonColumn;
 use Modules\Xot\Filament\Schemas\Components\XotBaseSection;
 
 /**
  * Controparte in form di {@see PersonColumn}.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> .merge_file_U9Vd6i
 >>>>>>> .merge_file_f37cON
 >>>>>>> .merge_file_7w43WL
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
  *

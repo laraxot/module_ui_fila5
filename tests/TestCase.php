@@ -8,6 +8,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 <<<<<<< HEAD
 =======
@@ -24,6 +25,11 @@ use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+use Mockery\Expectation;
+use Mockery\LegacyMockInterface;
+use Mockery\MockInterface;
+>>>>>>> laraxot/dev
 use Modules\UI\Providers\UIServiceProvider;
 use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
@@ -49,6 +55,7 @@ use Modules\Xot\Contracts\UserContract;
 =======
 use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
 use Modules\User\Models\User;
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
@@ -73,10 +80,18 @@ use function Safe\file_get_contents;
 =======
 
 >>>>>>> laraxot/dev
+=======
+use Modules\User\Providers\UserServiceProvider;
+use Modules\Xot\Tests\XotBaseTestCase;
+
+use function Safe\file_get_contents;
+
+>>>>>>> laraxot/dev
 /**
  * Base test case for UI module.
  *
  * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 =======
@@ -99,6 +114,9 @@ use function Safe\file_get_contents;
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+ * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
+>>>>>>> laraxot/dev
 =======
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
 >>>>>>> laraxot/dev
@@ -107,6 +125,7 @@ abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 <<<<<<< HEAD
     use EnsuresUiDatabaseSchema;
@@ -125,6 +144,9 @@ abstract class TestCase extends XotBaseTestCase
 =======
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+    use EnsuresUiDatabaseSchema;
+>>>>>>> laraxot/dev
 =======
     use EnsuresUiDatabaseSchema;
 >>>>>>> laraxot/dev
@@ -149,6 +171,7 @@ abstract class TestCase extends XotBaseTestCase
         return $expectation;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 >>>>>>> laraxot/dev
 =======
@@ -161,6 +184,8 @@ abstract class TestCase extends XotBaseTestCase
 =======
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -181,6 +206,7 @@ abstract class TestCase extends XotBaseTestCase
 
     protected function setUp(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 <<<<<<< HEAD
@@ -265,6 +291,8 @@ abstract class TestCase extends XotBaseTestCase
 
         parent::setUp();
 =======
+=======
+>>>>>>> laraxot/dev
         $this->prepareSharedSqliteForTesting();
 
         parent::setUp();
@@ -291,7 +319,7 @@ abstract class TestCase extends XotBaseTestCase
 
         $testFile = $this->resolvePestTestFile();
 
-        if ($testFile !== null && is_file($testFile)) {
+        if (null !== $testFile && is_file($testFile)) {
             $source = file_get_contents($testFile);
             if (str_contains($source, "group('no-ui-db')")) {
                 return false;
@@ -301,7 +329,7 @@ abstract class TestCase extends XotBaseTestCase
             }
         }
 
-        if ($testFile !== null && str_contains($testFile, '/tests/Unit/')) {
+        if (null !== $testFile && str_contains($testFile, '/tests/Unit/')) {
             return false;
         }
 
@@ -321,7 +349,7 @@ abstract class TestCase extends XotBaseTestCase
 
         $file = (new \ReflectionClass($this))->getFileName();
 
-        return $file !== false ? $file : null;
+        return false !== $file ? $file : null;
     }
 
 <<<<<<< HEAD
@@ -359,6 +387,7 @@ abstract class TestCase extends XotBaseTestCase
             return true;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 >>>>>>> laraxot/dev
 =======
@@ -371,6 +400,8 @@ abstract class TestCase extends XotBaseTestCase
 =======
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }

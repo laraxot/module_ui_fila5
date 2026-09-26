@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ### Versione HEAD
@@ -60,6 +63,7 @@ Per correggere questa situazione, è necessario:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -89,6 +93,8 @@ Per correggere questa situazione, è necessario:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QrNUW0
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -236,6 +242,7 @@ Questa scelta evita ambiguità e possibili errori runtime nella gestione delle i
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 <<<<<<< .merge_file_7oR25a
@@ -250,6 +257,9 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QrNUW0
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
+>>>>>>> laraxot/dev
 =======
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
@@ -262,6 +272,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7oR25a
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../docs/risoluzione_conflitti_git.md).
 =======
@@ -271,6 +282,9 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QrNUW0
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
+>>>>>>> laraxot/dev
 =======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
@@ -596,6 +610,7 @@ Per correggere questa situazione, è necessario:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -610,6 +625,8 @@ Per correggere questa situazione, è necessario:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Creare la directory Themes se non esiste
@@ -754,6 +771,7 @@ Questa scelta evita ambiguità e possibili errori runtime nella gestione delle i
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 <<<<<<< HEAD
@@ -787,6 +805,11 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
@@ -797,6 +820,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 <<<<<<< HEAD
@@ -836,6 +860,11 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
 
 ## Layout System
@@ -892,6 +921,7 @@ class Dashboard extends Component
     protected static string $layout = AdminLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -925,6 +955,9 @@ class Dashboard extends Component
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
@@ -953,6 +986,7 @@ class Dashboard extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### PrintLayout
 =======
@@ -983,6 +1017,9 @@ class Dashboard extends Component
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+#### PrintLayout
 >>>>>>> laraxot/dev
 ```php
 use Modules\UI\Layouts\PrintLayout;
@@ -992,6 +1029,7 @@ class StampaPratica extends Component
     protected static string $layout = PrintLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1025,6 +1063,9 @@ class StampaPratica extends Component
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
@@ -1070,6 +1111,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1103,6 +1145,9 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
         // Tipografia
         'typography' => [
@@ -1118,6 +1163,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1151,6 +1197,9 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
         // Spaziature
         'spacing' => [
@@ -1160,6 +1209,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1194,11 +1244,15 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2518,6 +2572,9 @@ return [
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -2624,6 +2681,7 @@ AdminLayout::make()
    - Seguire convenzioni di naming
    - Centralizzare configurazioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7oR25a
 =======
 <<<<<<< HEAD
@@ -2663,6 +2721,8 @@ AdminLayout::make()
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QrNUW0
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

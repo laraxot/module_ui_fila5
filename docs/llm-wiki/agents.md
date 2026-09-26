@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hnIYYI
 =======
 <<<<<<< .merge_file_ue7IAj
@@ -159,6 +160,8 @@ Related:
 >>>>>>> .merge_file_Cm6ezW
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Agent instructions"
 type: reference
@@ -171,6 +174,7 @@ discussions: []
 related:
   - ./coding-agent-manifests.md
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 
@@ -553,6 +557,9 @@ Related:
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -691,6 +698,7 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
@@ -732,6 +740,10 @@ Related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Cm6ezW
+>>>>>>> laraxot/dev
+=======
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Module Documentation](../README.md)
 >>>>>>> laraxot/dev
 =======
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)

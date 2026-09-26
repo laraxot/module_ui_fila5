@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eHLqzJ
 <<<<<<< HEAD
 =======
@@ -33,6 +34,8 @@ return [
     'actions' => [
 <<<<<<< .merge_file_KjlbZJ
 =======
+=======
+>>>>>>> laraxot/dev
 return [
     'navigation' => [
         'label' => 'Navigazione',
@@ -85,6 +88,7 @@ return [
             'confirm' => 'Sei sicuro di voler eliminare questa navigazione?',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eHLqzJ
 =======
 =======
@@ -121,6 +125,8 @@ return [
         'delete' => ['label' => 'Elimina Navigazione', 'success' => 'Navigazione eliminata con successo', 'failure' => 'Errore nell\'eliminazione della navigazione', 'confirm' => 'Sei sicuro di voler eliminare questa navigazione?'],
 >>>>>>> .merge_file_uXkuEx
 >>>>>>> .merge_file_ZJkWMJ
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     ],

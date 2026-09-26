@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_W4jSte
 =======
 =======
@@ -78,6 +79,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_0LpHLP
 >>>>>>> .merge_file_qBlVFn
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Indice task - Modulo UI

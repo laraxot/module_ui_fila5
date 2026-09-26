@@ -2,10 +2,14 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nzHAzy
 
 =======
 >>>>>>> .merge_file_wC1Box
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev

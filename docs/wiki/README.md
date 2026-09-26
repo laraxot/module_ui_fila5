@@ -20,6 +20,7 @@ Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
 QMD: [https://github.com/tobi/qmd](https://github.com/tobi/qmd)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_33TJqo
 =======
 =======
@@ -79,5 +80,7 @@ Core module for the FixCity Platform.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_vHZw4D
 >>>>>>> .merge_file_rskRRq
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

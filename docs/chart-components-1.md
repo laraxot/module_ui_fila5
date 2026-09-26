@@ -9,6 +9,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::line-chart
 =======
 <<<<<<< .merge_file_YqTr01
@@ -22,6 +23,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2VA6er
+=======
+<x-ui::line-chart
+>>>>>>> laraxot/dev
 =======
 <x-ui::line-chart
 >>>>>>> laraxot/dev
@@ -46,6 +50,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YqTr01
 =======
 <x-ui::pie-chart
@@ -60,6 +65,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2VA6er
+=======
+<x-ui::pie-chart
+>>>>>>> laraxot/dev
 =======
 <x-ui::pie-chart
 >>>>>>> laraxot/dev
@@ -78,6 +86,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YqTr01
 =======
 <x-ui::stats-overview
@@ -92,6 +101,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2VA6er
+=======
+<x-ui::stats-overview
+>>>>>>> laraxot/dev
 =======
 <x-ui::stats-overview
 >>>>>>> laraxot/dev
@@ -146,6 +158,7 @@ class UserStats extends Component
     public $chartData;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_YqTr01
@@ -159,6 +172,9 @@ class UserStats extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2VA6er
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -168,6 +184,7 @@ class UserStats extends Component
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YqTr01
 =======
 
@@ -182,6 +199,9 @@ class UserStats extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2VA6er
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev
@@ -200,6 +220,7 @@ class UserStats extends Component
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YqTr01
 =======
 
@@ -214,6 +235,9 @@ class UserStats extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2VA6er
+=======
+
+>>>>>>> laraxot/dev
 =======
 
 >>>>>>> laraxot/dev

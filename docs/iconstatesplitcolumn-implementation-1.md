@@ -38,6 +38,7 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
 use Modules\<nome progetto>\Models\Appointment;
 =======
@@ -55,6 +56,10 @@ use Modules\SaluteOra\Models\Appointment;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WkkJPA
+=======
+use Modules\<nome progetto>\States\Appointment\AppointmentState;
+use Modules\<nome progetto>\Models\Appointment;
+>>>>>>> laraxot/dev
 =======
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
 use Modules\<nome progetto>\Models\Appointment;
@@ -303,6 +308,7 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 // Custom event dispatch
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wvyi96
 =======
 =======
@@ -311,12 +317,15 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 >>>>>>> .merge_file_WkkJPA
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
         stateClass: '{{ $state['class']::class }}',
         action: 'prova'
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_wvyi96
 =======
@@ -335,6 +344,8 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WkkJPA
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }))"
@@ -382,6 +393,7 @@ document.addEventListener('state-transition', function(event) {
 **Version**: 2.1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wvyi96
 =======
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -396,6 +408,9 @@ document.addEventListener('state-transition', function(event) {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WkkJPA
+=======
+**Compatibility**: Filament 3.x, Laravel 10.x
+>>>>>>> laraxot/dev
 =======
 **Compatibility**: Filament 3.x, Laravel 10.x
 >>>>>>> laraxot/dev

@@ -11,6 +11,7 @@ use function Safe\file_get_contents;
 
 uses(TestCase::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kVOMdP
 <<<<<<< HEAD
 =======
@@ -44,6 +45,8 @@ uses(TestCase::class);
 =======
 >>>>>>> .merge_file_7cX4SD
 >>>>>>> .merge_file_lqZL7W
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -137,6 +140,7 @@ describe('Component Files Exist', function (): void {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ([] !== $legacyPresent) {
 =======
 <<<<<<< .merge_file_kVOMdP
@@ -152,6 +156,9 @@ describe('Component Files Exist', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_lqZL7W
+>>>>>>> laraxot/dev
+=======
+        if ([] !== $legacyPresent) {
 >>>>>>> laraxot/dev
 =======
         if ([] !== $legacyPresent) {

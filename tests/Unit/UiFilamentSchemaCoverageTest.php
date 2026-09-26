@@ -40,6 +40,7 @@ describe('UI Filament schema coverage', function (): void {
         ));
         Assert::assertSame([], array_diff($resources, $resources));
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SIhndf
         if ($resources === []) {
 =======
@@ -61,6 +62,9 @@ describe('UI Filament schema coverage', function (): void {
 >>>>>>> .merge_file_eyfFEH
 =======
         if ($resources === []) {
+>>>>>>> laraxot/dev
+=======
+        if ([] === $resources) {
 >>>>>>> laraxot/dev
             return;
         }

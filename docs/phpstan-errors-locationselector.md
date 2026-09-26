@@ -110,6 +110,7 @@ Aggiungere `@phpstan-ignore` e gestione errori:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_nzCqXE
 *Ultimo aggiornamento: 2025-01-27*
@@ -121,6 +122,8 @@ Aggiungere `@phpstan-ignore` e gestione errori:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WhFbbe
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 

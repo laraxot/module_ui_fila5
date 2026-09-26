@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 =======
@@ -8,6 +9,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+=======
+>>>>>>> laraxot/dev
 # List Records in Filament
 
 ## Estensione Corretta
@@ -26,6 +29,7 @@ use Filament\Resources\Pages\ListRecords;
 // ❌ ERRATO: Non estendere ListRecords
 use Filament\Resources\Pages\ListRecords;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
@@ -104,10 +108,13 @@ use Filament\Resources\Pages\ListRecords;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 class ListMyRecords extends ListRecords
 {
     // ...
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
@@ -168,6 +175,10 @@ Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contr
 
 // ✅ CORRETTO: Estendere XotBaseListRecords
 >>>>>>> laraxot/dev
+=======
+
+// ✅ CORRETTO: Estendere XotBaseListRecords
+>>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListMyRecords extends XotBaseListRecords
@@ -180,9 +191,12 @@ class ListMyRecords extends XotBaseListRecords
             // definizione colonne
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 // colonne
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -191,6 +205,7 @@ class ListMyRecords extends XotBaseListRecords
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -373,6 +388,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> .merge_file_qwilWF
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
@@ -542,6 +559,7 @@ declare(strict_types=1);
 namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 =======
@@ -575,6 +593,8 @@ namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -618,6 +638,7 @@ class ListXXX extends XotBaseListRecords
 =======
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -649,11 +670,15 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 class ListXXX extends XotBaseListRecords
 {
 
     protected static string $resource = XXXResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -712,11 +737,14 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     public function getGridTableColumns(): array
     {
         return [
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -761,12 +789,15 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
     public function getListTableColumns(): array
     {
         return [
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
@@ -777,6 +808,8 @@ class ListMyRecords extends XotBaseListRecords
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -809,6 +842,7 @@ class ListMyRecords extends XotBaseListRecords
 
     public function table(Table $table): Table
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
@@ -872,11 +906,14 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         return $table
             // ->columns($this->getTableColumns())
             ->columns($this->layoutView->getTableColumns())
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
@@ -898,6 +935,9 @@ class ListMyRecords extends XotBaseListRecords
 
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> .merge_file_qwilWF
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 =======
 
@@ -914,6 +954,7 @@ class ListMyRecords extends XotBaseListRecords
             );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 =======
@@ -925,6 +966,8 @@ class ListMyRecords extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> .merge_file_qwilWF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     }
@@ -955,6 +998,7 @@ class ListMyRecords extends XotBaseListRecords
         return [
             // definizione colonne
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
             TextColumn::make('id')->sortable(),
@@ -1050,11 +1094,14 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         ];
     }
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1065,12 +1112,15 @@ class ListMyRecords extends XotBaseListRecords
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
@@ -1113,10 +1163,13 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. `getListTableColumns()`: Definisce le colonne della tabella
 2. `getListTableActions()`: Definisce le azioni per singola riga
 3. `getListTableBulkActions()`: Definisce le azioni di massa
 4. `getListTableFilters()`: Definisce i filtri della tabella
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
@@ -1127,6 +1180,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1156,6 +1211,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 2. **❌ Metodi Senza Prefisso List**:
    ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 =======
@@ -1186,10 +1242,13 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
    public function getTableActions(): array
    public function getTableBulkActions(): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
@@ -1200,6 +1259,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
    ```
@@ -1254,6 +1315,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 ## Note Importanti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 =======
@@ -1291,10 +1353,13 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. XotBaseListRecords fornisce funzionalità aggiuntive rispetto a ListRecords:
    - Gestione automatica delle traduzioni
    - Integrazione con il sistema di permessi
    - Funzionalità custom del framework
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
@@ -1305,6 +1370,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
@@ -1322,6 +1389,7 @@ use Filament\Actions;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 =======
@@ -1344,6 +1412,8 @@ use Filament\Actions\CreateAction;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -1365,6 +1435,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 =======
@@ -1373,6 +1444,8 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qwilWF
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -1424,6 +1497,7 @@ class ListXXX extends XotBaseListRecords
     public function table(Table $table): Table
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
 =======
 =======
@@ -1453,11 +1527,14 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         return $table
             // ->columns($this->getTableColumns())
             ->columns($this->layoutView->getTableColumns())
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
@@ -1479,6 +1556,9 @@ class ListXXX extends XotBaseListRecords
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->persistFiltersInSession()
@@ -1489,6 +1569,7 @@ class ListXXX extends XotBaseListRecords
                 column: 'created_at',
                 direction: 'DESC',
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mzK4lq
@@ -1541,6 +1622,11 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> .merge_file_qwilWF
+>>>>>>> laraxot/dev
+=======
+    }
+}
+```
 >>>>>>> laraxot/dev
 =======
     }

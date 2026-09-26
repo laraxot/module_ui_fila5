@@ -11,8 +11,12 @@ use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 =======
+>>>>>>> laraxot/dev
+=======
+use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 >>>>>>> laraxot/dev
 =======
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
@@ -22,6 +26,7 @@ final class Hero
 {
     public static function make(string $name = 'hero', string $context = 'form'): Block
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_J1jDH7
@@ -43,6 +48,11 @@ final class Hero
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9seAIt
+=======
+        $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('hero', true);
+
+        // ---------------
+>>>>>>> laraxot/dev
 =======
         $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('hero', true);
 

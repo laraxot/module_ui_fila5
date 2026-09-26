@@ -24,6 +24,7 @@ final class VideoSpatie
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMzJHv
 <<<<<<< HEAD
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
@@ -62,6 +63,9 @@ final class VideoSpatie
 =======
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
 >>>>>>> laraxot/dev
+=======
+                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
+>>>>>>> laraxot/dev
                     ->live(),
                 // ->required(),
 
@@ -70,6 +74,7 @@ final class VideoSpatie
                     ->hiddenLabel()
                     // ->imagePreviewHeight('250')
                     // ->panelLayout('integrated')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_eMzJHv
 =======
@@ -94,6 +99,9 @@ final class VideoSpatie
                     ->automaticallyResizeImagesMode('cover')
 >>>>>>> .merge_file_1oo0iq
 >>>>>>> .merge_file_i2uq4o
+=======
+                    ->automaticallyResizeImagesMode('cover')
+>>>>>>> laraxot/dev
 =======
                     ->automaticallyResizeImagesMode('cover')
 >>>>>>> laraxot/dev
@@ -106,6 +114,7 @@ final class VideoSpatie
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMzJHv
 =======
 <<<<<<< .merge_file_ug2JQa
@@ -134,6 +143,10 @@ final class VideoSpatie
                     ->afterStateUpdated(static function (
 >>>>>>> .merge_file_1oo0iq
 >>>>>>> .merge_file_i2uq4o
+=======
+                    ->collection(fn (Get $get) => $get('img_uuid'))
+                    ->afterStateUpdated(function (
+>>>>>>> laraxot/dev
 =======
                     ->collection(fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(function (
@@ -148,6 +161,7 @@ final class VideoSpatie
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMzJHv
 <<<<<<< HEAD
 =======
@@ -161,10 +175,13 @@ final class VideoSpatie
 >>>>>>> .merge_file_i2uq4o
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                             $collection_name = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_eMzJHv
 =======
@@ -193,6 +210,8 @@ final class VideoSpatie
                         $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collectionName);
 >>>>>>> .merge_file_1oo0iq
 >>>>>>> .merge_file_i2uq4o
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
                     }),
@@ -213,6 +232,7 @@ final class VideoSpatie
             ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMzJHv
 =======
             ->columns('form' === $context ? 2 : 1);
@@ -233,6 +253,9 @@ final class VideoSpatie
 >>>>>>> .merge_file_i2uq4o
 =======
             ->columns($context === 'form' ? 2 : 1);
+>>>>>>> laraxot/dev
+=======
+            ->columns('form' === $context ? 2 : 1);
 >>>>>>> laraxot/dev
     }
 

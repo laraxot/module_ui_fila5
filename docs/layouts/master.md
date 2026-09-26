@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GVVrTj
 =======
 =======
@@ -59,6 +60,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YQvVjX
 >>>>>>> .merge_file_FZnHVe
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Master Layout Documentation
