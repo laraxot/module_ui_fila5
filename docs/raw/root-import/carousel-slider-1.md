@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "carousel slider 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://www.embla-carousel.com/examples/predefined/
 
 

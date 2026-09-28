@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Block rendering e servizi opzionali"
 type: concept
 tags: [ui, blocks, livewire, phpstan, geo, cms]
@@ -11,20 +8,9 @@ created: 2026-06-15
 updated: 2026-06-15
 qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
 related:
-<<<<<<< HEAD
-  - "./auth-register-focus-loss-overlay.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-  - "./enum-select-usage.md"
-=======
   - ./phpstan-dynamic-array-normalization.md
   - ../../../../../docs/wiki/patterns/phpstan-optional-contracts.md
   - ../log.md
->>>>>>> laraxot/dev
 ---
 
 # Block rendering e servizi opzionali
@@ -60,8 +46,6 @@ flowchart LR
 
 ## Catena di utilizzo — Mappa
 
-<<<<<<< HEAD
-=======
 | Artefatto | Ruolo | Consumer noti |
 |-----------|-------|---------------|
 | `InteractiveMap` (Livewire) | Marker, filtri, export, geocoding | `resources/views/livewire/components/map/interactive-map.blade.php`; integrazione documentata in `docs/map-integration-guide.md` |
@@ -71,7 +55,6 @@ flowchart LR
 
 Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServiceProvider` senza toccare `InteractiveMap`.
 
->>>>>>> laraxot/dev
 ## Regola PHPStan
 
 - Non importare `Modules\Geo\*` o `Modules\Cms\*` nel consumer UI.

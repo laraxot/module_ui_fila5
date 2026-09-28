@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "qrcode"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://github.com/tecnickcom/TCPDF
 
 simplesoftwareio/simple-qrcode  

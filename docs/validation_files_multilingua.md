@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "validation files multilingua"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # File Validation Multilingua - Modulo UI
 
 ## Panoramica

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "italian language corrections"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Correzioni Lingua Italiana - Opening Hours
 
 ## Problema Identificato

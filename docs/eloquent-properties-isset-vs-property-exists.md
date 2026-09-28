@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "eloquent properties isset vs property exists"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Eloquent Properties: isset() vs property_exists() - Guida Completa
 
 ## 🚨 Regola Critica
@@ -178,15 +175,9 @@ Prima di commit, verifica:
 
 ## Documentazione Completa
 
-<<<<<<< HEAD
-- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../Xot/docs/eloquent-models-critical-rules.md)
-- **Cast Actions**: [Xot: Cast Actions](../../Xot/docs/cast-actions.md)
-- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../Xot/docs/eloquent-properties-best-practices.md)
-=======
 - **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
 - **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
 - **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
->>>>>>> laraxot/dev
 
 ## Risorse
 
@@ -202,12 +193,6 @@ Prima di commit, verifica:
 
 ---
 
-<<<<<<< HEAD
-**Progetto**: base_<nome progetto>_fila4_mono
-**PHPStan**: Level 10
-**Status**: ✅ 0 Errors
-**Ultimo aggiornamento**: 2025-01-06
-=======
 title: "eloquent properties isset vs property exists"
 type: note
 tags: [documentation]
@@ -220,4 +205,3 @@ discussions: []
 **PHPStan**: Level 10
 **Status**: ✅ 0 Errors
 **Ultimo aggiornamento**: [DATE]
->>>>>>> laraxot/dev

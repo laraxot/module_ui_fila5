@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament dropdown avatar components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Dropdown, Avatar e Loading Indicator di Filament 
 
 ## Indice

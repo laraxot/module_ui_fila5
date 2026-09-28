@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "component system"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "component system"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: component_system
 canonical: ../../../../../Themes/docs/shared-components/component-system.md

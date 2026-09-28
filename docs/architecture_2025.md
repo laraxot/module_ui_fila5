@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "architecture 2025"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "architecture 2025"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: ARCHITECTURE_2025
 canonical: ../../../Themes/docs/shared-components/ARCHITECTURE.md

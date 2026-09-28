@@ -1,13 +1,10 @@
 ---
-<<<<<<< HEAD
-=======
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
 qmd: "continuazione domani"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Continuazione BMAD — Domani (regressione marker docs/architecture.md + Geo boundary InteractiveMap)"
 type: module-fix
 scope: UI

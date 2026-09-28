@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "form components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Form
 
 ## Introduzione

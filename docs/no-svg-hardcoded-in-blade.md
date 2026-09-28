@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "no svg hardcoded in blade"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regola: No SVG Hardcoded nelle Blade
 
 ## Scopo

@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ?>
 <div class="bg-gray-50">
     <div class="relative bg-indigo-600">

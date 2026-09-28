@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# 🔧 PSR-4 Fix Implementation Plan - UI Module
-
-**Data**: Dicembre 15, 2025
-=======
 ---
 title: "psr4 fix implementation plan"
 type: note
@@ -16,14 +11,11 @@ discussions: []
 
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
->>>>>>> laraxot/dev
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "psr4 fix implementation plan"
 type: note
 tags: [documentation]
@@ -32,7 +24,6 @@ updated: 2026-09-26
 qmd: "psr4 fix implementation plan"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Analisi Completa File Affetti
 
 ### File UI con Namespace Errato (11 totali)
@@ -56,10 +47,6 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 ### Import Statements da Verificare
 
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
-<<<<<<< HEAD
-**modulo operativo/app/Filament/Resources/ClientResource.php**:
-=======
->>>>>>> laraxot/dev
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
 ```

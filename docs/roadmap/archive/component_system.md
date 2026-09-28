@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "component system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "flags components 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti SVG Bandiere nel Modulo UI
 
 ## Collegamenti correlati

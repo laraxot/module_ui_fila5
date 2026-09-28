@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "eav 1"
 type: note
@@ -11,6 +9,5 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://github.com/yemenpoint/filament-custom-fields
 

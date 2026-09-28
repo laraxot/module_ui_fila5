@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "spatie media library migration 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Migrazione da FileUpload a Spatie Media Library
 
 ## 🌍 Analisi Multidimensionale della Migrazione
@@ -40,8 +37,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "spatie media library migration 1"
 type: note
 tags: [documentation]
@@ -50,7 +45,6 @@ updated: 2026-09-26
 qmd: "spatie media library migration 1"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📊 Situazione Attuale (Analisi Completa)
 
 ### ✅ **Già Migrati a SpatieMediaLibraryFileUpload**

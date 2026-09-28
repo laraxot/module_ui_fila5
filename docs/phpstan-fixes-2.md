@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan fixes 2"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Correzioni PHPStan - Modulo UI
 
 Questo documento traccia gli errori PHPStan identificati nel modulo UI e le relative soluzioni implementate.

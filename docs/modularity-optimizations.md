@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "modularity optimizations"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Modulo UI - Ottimizzazioni per Modularità
 
 ## Problemi Identificati
@@ -224,17 +221,10 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 
 ## Documentazione Correlata
 
-<<<<<<< HEAD
-- [Root Docs: Modularity Hardcoded Names](../../../docs/modularity-hardcoded-names.md)
-- [Regole Cursor: Modularity Rules](../../../.cursor/rules/modularity-hardcoded-names.mdc)
-- [UI Architecture Overview](./architecture-overview.md)
-- [UI Best Practices](./best-practices/README.md)
-=======
 - [Root Docs: Modularity Hardcoded Names](../../../../docs/modularity-hardcoded-names.md)
 - [Regole Cursor: Modularity Rules](../../../.cursor/rules/modularity-hardcoded-names.mdc)
 - [UI Architecture Overview](./architecture-overview.md)
 - [UI Best Practices](./best-practices/readme.md)
->>>>>>> laraxot/dev
 
 ## Note di Implementazione
 
@@ -252,8 +242,6 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "modularity optimizations"
 type: note
 tags: [documentation]
@@ -262,5 +250,4 @@ updated: 2026-09-26
 qmd: "modularity optimizations"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Queste ottimizzazioni sono CRITICHE per mantenere l'architettura modulare del sistema. Ogni violazione deve essere corretta immediatamente.**

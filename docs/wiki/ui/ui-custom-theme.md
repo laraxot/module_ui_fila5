@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "ui custom theme"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI custom theme"
 type: reference
 tags: [ui]

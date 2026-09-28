@@ -1,15 +1,4 @@
 ---
-<<<<<<< HEAD
-module: theme
-topic: theme-system
-canonical: ../../../../../Themes/docs/shared-components/theme-system.md
-related:
-  - "./component-system-1.md"
-  - "./component-system.md"
-  - "./form-component-1.md"
-  - "./form-component.md"
-  - "./theme-system-1.md"
-=======
 title: "theme system"
 type: note
 tags: [documentation]
@@ -21,7 +10,6 @@ discussions: []
 module: theme
 topic: theme-system
 canonical: ../../../../../Themes/docs/shared-components/theme-system.md
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/theme-system.md

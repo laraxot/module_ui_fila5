@@ -1,25 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "RadioCollection - Esempi di Utilizzo"
-type: concept
-tags: [radio, collection, usage, examples]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "radio-collection-usage-examples radiocollection - esempi di utilizzo"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./address-field-1.md"
-  - "./address-field.md"
-  - "./blade-component-registration.md"
-  - "./filament-usage.md"
-  - "./filament.md"
-  - "./file-upload.md"
-  - "./footer.md"
-  - "./full-calendar-1.md"
-=======
 title: "radio collection usage examples"
 type: note
 tags: [documentation]
@@ -28,7 +7,6 @@ updated: 2026-09-26
 qmd: "radio collection usage examples"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # RadioCollection - Esempi di Utilizzo

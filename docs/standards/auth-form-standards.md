@@ -1,22 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Standard Form di Autenticazione"
-type: rule
-tags: [auth, form, standards]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "auth-form-standards standard form di autenticazione"
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./accessibility.md"
-  - "./auth-form-standards-1.md"
-  - "./form-standards-1.md"
-  - "./form-standards.md"
-  - "./performance.md"
-  - "./ui-standards.md"
----
-=======
 title: "auth form standards"
 type: note
 tags: [documentation]
@@ -27,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Standard Form di Autenticazione
 
 ## Principi di Design
@@ -75,10 +56,6 @@ discussions: []
     <div class="mt-1">
       <input
         type="email"
-<<<<<<< HEAD
-        type="email" 
-=======
->>>>>>> laraxot/dev
         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
       >
     </div>
@@ -88,19 +65,6 @@ discussions: []
 
   <div>
     <button
-<<<<<<< HEAD
-  
-  <!-- Altri campi -->
-  
-  <div>
-    <button 
-
-  <!-- Altri campi -->
-  
-  <div>
-    <button
-=======
->>>>>>> laraxot/dev
       type="submit"
       class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
     >
@@ -159,10 +123,7 @@ discussions: []
 ```scss
 .auth-card {
   @apply shadow-sm;
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
   @screen sm {
     @apply shadow-md;
   }
@@ -260,9 +221,6 @@ discussions: []
    - Sanitizzazione input
 
 ## Collegamenti
-<<<<<<< HEAD
-- [Form Standards](./form-standards.md)
-=======
 - [Form Standards](./form_standards.md)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
@@ -479,6 +437,5 @@ discussions: []
 
 ## Collegamenti
 - [Form Standards](./form_standards.md)
->>>>>>> laraxot/dev
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)

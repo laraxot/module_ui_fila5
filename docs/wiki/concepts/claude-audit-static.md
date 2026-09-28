@@ -4,29 +4,6 @@ type: concept
 module: UI
 tags: [ui, quality, claude-audit, i18n, blade]
 created: 2026-07-09
-<<<<<<< HEAD
-updated: 2026-09-24
-qmd: "UI claude-audit static 80 score lang split pricing blade partials SelectStateColumn"
-issues:
-discussions:
-related:
-  - "./auth-register-focus-loss-overlay.md"
-  - "./block-rendering-and-optional-services.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-  - "./enum-select-usage.md"
----
-
-> **SUPERSEDED 2026-09-24** — i "bridge" `audit-coverage/tests/*AuditBridgeTest*.php` descritti qui
-> sono **vietati** dalla regola `bashscripts/ai/wiki/rules/tests-auditcoverage-forbidden.md`
-> (anche `audit-coverage/` va in `.gitignore`, non tolto). Sono test finti per gonfiare un
-> rapporto statico: hanno prodotto parse error `T_SL` e 16 `staticMethod.notFound` (Rating,
-> 2026-09-24). Non seguire le istruzioni sotto; restano solo come storia.
-
-=======
 updated: 2026-07-12
 qmd: "UI claude-audit static 80 score lang split pricing blade partials SelectStateColumn"
 issues:
@@ -40,7 +17,6 @@ related:
   - ../memories/lang-split-ui-claude-audit.md
 ---
 
->>>>>>> laraxot/dev
 # claude-audit static (UI)
 
 ## Comando

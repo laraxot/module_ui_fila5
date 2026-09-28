@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "api"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Api'
 module: UI
 type: reference

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "quality report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Module - Quality Report
 
 **Generated**: 2026-06-18  
@@ -19,8 +16,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "quality report"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "quality report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 1. PHPStan Analysis
 
 ### Configuration

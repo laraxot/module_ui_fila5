@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan errors resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Errors Resolution Guide — UI Module
 
 **Date**: 2026-07-08  
@@ -44,8 +41,6 @@ Trait Modules\UI\Filament\Traits\HasTableLayoutPage is used zero times and is no
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan errors resolution"
 type: note
 tags: [documentation]
@@ -54,7 +49,6 @@ updated: 2026-09-26
 qmd: "phpstan errors resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ### 2. Ignored Error Pattern — Configuration Issue
 
 **Error**:

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "layouts and themes 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ### Versione HEAD
 
 # Struttura dei Temi

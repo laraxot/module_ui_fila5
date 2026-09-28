@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament pages refactoring"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament Pages Refactoring - UI Module
 
 ## S3Test.php Refactoring

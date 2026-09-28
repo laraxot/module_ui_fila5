@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "enum transclass implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione transClass() negli Enum del Modulo UI
 
 ## Principio Fondamentale per il Modulo UI
@@ -147,15 +144,7 @@ grep -r "__(" Modules/UI/app/Enums/
 **"Ogni enum del modulo UI DEVE utilizzare transClass() per TUTTE le sue proprietà traducibili."**
 
 ## Collegamenti
-<<<<<<< HEAD
-- [../../../../docs/enum-transclass-rule.md](../../../../docs/enum-transclass-rule.md)
-- [../filament/no-label-rule.md](../filament/no-label-rule.md)
-- [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
-
-*Ultimo aggiornamento: 2025-08-04*
-=======
 - [../../../../../docs/enum-transclass-rule.md](../../../../../docs/enum-transclass-rule.md)
 - [../filament/no-label-rule.md](../filament/no-label-rule.md)
 - [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
 
->>>>>>> laraxot/dev

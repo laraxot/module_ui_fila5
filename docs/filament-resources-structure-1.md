@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament resources structure 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Struttura delle Filament Resources
 
 ## Panoramica

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "custom theme 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
 

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "theme system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione

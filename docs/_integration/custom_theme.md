@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "custom theme"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->

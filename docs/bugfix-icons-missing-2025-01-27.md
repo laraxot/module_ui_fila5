@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "bugfix icons missing 2025 01 27"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "bugfix icons missing 2025 01 27"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: bugfix-icons-missing-2025-01-27
 canonical: ../../../Themes/docs/shared-components/bugfix-icons-missing.md

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "opening hours rule localization"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Localizzazione OpeningHoursRule - Modulo UI
 
 ## Problema Identificato

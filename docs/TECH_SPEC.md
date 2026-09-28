@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "TECH SPEC"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Technical Specification - UI Module"
 type: technical_spec
 tags: [tech spec, ui]
@@ -31,15 +28,12 @@ Technical implementation details for the UI module.
 ## Dependencies
 - Laravel 12.x
 - Laravel 13.x
-<<<<<<< HEAD
-=======
 ---
 ---
 ---
 - Laravel 13.x
 ---
 ---
->>>>>>> laraxot/dev
 - Filament 5.x
 - Xot Module
 

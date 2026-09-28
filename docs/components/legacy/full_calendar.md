@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "full calendar"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # FullCalendar Component for Filament
 
 ## Introduction

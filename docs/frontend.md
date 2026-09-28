@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "frontend"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Frontend e Sistema di Componenti
 
 ## Struttura della Homepage

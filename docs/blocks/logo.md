@@ -1,21 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Logo Component"
-type: concept
-tags: [logo]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "logo logo component"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./correct-filament-components.md"
-  - "./filament-component-integration.md"
-  - "./navigation.md"
-  - "./user-dropdown.md"
-=======
 title: "logo"
 type: note
 tags: [documentation]
@@ -24,7 +7,6 @@ updated: 2026-09-26
 qmd: "logo"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Logo Component

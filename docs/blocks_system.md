@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "blocks system"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "blocks system"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: blocks_system
 canonical: ../../../Themes/docs/shared-components/blocks-system_1.md

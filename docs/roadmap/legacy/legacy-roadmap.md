@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "legacy roadmap"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Module - Complete Roadmap 2026
 
 **Generated**: 2026-01-02
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "legacy roadmap"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "legacy roadmap"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🎯 **MODULE IDENTITY**
 
 ### **Domain**: Component Library & Design System
@@ -760,11 +754,7 @@ class UserCalendarWidget extends XotBaseWidget
 
 ## 🎯 MODULE OVERVIEW
 
-<<<<<<< HEAD
-Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
->>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
 ```

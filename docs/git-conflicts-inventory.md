@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "git conflicts inventory"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Inventario Conflitti Git - UI Module
 
 ## File con conflitti di merge non risolti
@@ -41,9 +38,5 @@ discussions: []
 
 ## Stato
 - ❌ Conflitti da risolvere
-<<<<<<< HEAD
-- 📅 Data rilevamento: 2025-11-12
-=======
 - 📅 Data rilevamento: [DATE]
->>>>>>> laraxot/dev
 - 🔄 Priorità: ALTA - Componenti UI critici

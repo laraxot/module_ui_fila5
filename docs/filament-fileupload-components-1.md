@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament fileupload components 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti FileUpload in Filament
 
 ## Errore Comune: prefixIcon

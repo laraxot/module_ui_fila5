@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Parita' Forms/Components <-> Tables/Columns in UI"
 type: rule
 tags: [filament, forms, columns, parity, ui]

@@ -1,25 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Filament 4 Migration Summary"
-type: concept
-tags: [filament, migration, summary]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "filament-4-migration-summary filament 4 migration summary"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./automatic-translations.md"
-  - "./best-practices.md"
-  - "./component-icon-support.md"
-  - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-guide.md"
-  - "./filament-4-migration-sumy.md"
-  - "./file-upload-component.md"
-=======
 title: "filament 4 migration summary"
 type: note
 tags: [documentation]
@@ -28,7 +7,6 @@ updated: 2026-09-26
 qmd: "filament 4 migration summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Filament 4 Migration Summary
@@ -47,10 +25,6 @@ discussions: []
 - ✅ Created detailed **Filament 4 Components Development Guide**
 - ✅ Updated project **CLAUDE.md** rules for Filament 4
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 12.30.1)
-<<<<<<< HEAD
-- ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
-=======
->>>>>>> laraxot/dev
 
 ### 3. Code Updates and Fixes
 
@@ -176,8 +150,6 @@ vendor/bin/pint --dirty
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament 4 migration summary"
 type: note
 tags: [documentation]
@@ -186,7 +158,6 @@ updated: 2026-09-26
 qmd: "filament 4 migration summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: ✅ **COMPLETED SUCCESSFULLY**
 **Time**: All tasks completed in single session
 **Errors Resolved**: 5/5 PHPStan errors fixed

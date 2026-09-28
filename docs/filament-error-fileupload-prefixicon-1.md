@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament error fileupload prefixicon 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Errore UI: Uso di `prefixIcon` su FileUpload di Filament
 
 ## Descrizione
@@ -38,8 +35,6 @@ Se serve un’icona, usare solo i metodi previsti dalla documentazione Filament.
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament error fileupload prefixicon 1"
 type: note
 tags: [documentation]
@@ -48,7 +43,6 @@ updated: 2026-09-26
 qmd: "filament error fileupload prefixicon 1"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Collegamento bidirezionale:**
 - Questo errore si è manifestato nel modulo Patient: vedere [Patient/docs/filament-error-fileupload-prefixicon.md](../../Patient/docs/filament-error-fileupload-prefixicon.md)
 

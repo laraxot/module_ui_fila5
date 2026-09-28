@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Module - Comprehensive Analysis
 
 ## Module Overview
@@ -19,10 +16,6 @@ discussions: []
 **Type**: User Interface & Component Library Module  
 **Status**: ✅ Active  
 **Framework**: Laravel 12.x + Filament 4.x + Tailwind CSS  
-<<<<<<< HEAD
-**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
-=======
->>>>>>> laraxot/dev
 **Component Library**: Custom UI components and styles  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -79,10 +72,6 @@ The UI module provides comprehensive user interface components and styling:
 - **User**: Authentication interface components
 - **Cms**: Content display components
 - **Quaeris**: Dashboard UI components
-<<<<<<< HEAD
-- **modulo questionari**: Dashboard UI components
-=======
->>>>>>> laraxot/dev
 - **Xot**: Base UI infrastructure
 - **Filament**: Component compatibility
 
@@ -113,8 +102,4 @@ The UI module provides comprehensive user interface components and styling:
 - Version management
 - Styling system
 - Accessibility tools
-<<<<<<< HEAD
 - Performance optimization
-=======
-- Performance optimization
->>>>>>> laraxot/dev

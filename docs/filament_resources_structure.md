@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "filament resources structure"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "filament resources structure"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: filament_resources_structure
 canonical: ../../../Themes/docs/shared-components/filament-resources-structure_1.md

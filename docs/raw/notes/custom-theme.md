@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "custom theme"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Custom theme'
 module: UI
 type: reference

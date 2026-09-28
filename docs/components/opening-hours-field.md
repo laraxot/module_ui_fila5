@@ -1,25 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "OpeningHoursField Component"
-type: concept
-tags: [opening, hours, field]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "opening-hours-field openinghoursfield component"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./address-field-1.md"
-  - "./address-field.md"
-  - "./blade-component-registration.md"
-  - "./filament-usage.md"
-  - "./filament.md"
-  - "./file-upload.md"
-  - "./footer.md"
-  - "./full-calendar-1.md"
-=======
 title: "opening hours field"
 type: note
 tags: [documentation]
@@ -28,7 +7,6 @@ updated: 2026-09-26
 qmd: "opening hours field"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # OpeningHoursField Component
@@ -447,8 +425,6 @@ class Doctor extends BaseModel
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "opening hours field"
 type: note
 tags: [documentation]
@@ -457,4 +433,3 @@ updated: 2026-09-26
 qmd: "opening hours field"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

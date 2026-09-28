@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "18 1 drift sync tier1.story"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 id: story-181-drift-sync-tier1
 title: Drift Sync Tier 1 — laraxot/dev fetch e merge moduli critica (UI, Job, AI, Geo, Tenant)
 slug: story-181-drift-sync-tier1

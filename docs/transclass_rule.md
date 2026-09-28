@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "transclass rule"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 ## Data: 2025-01-06

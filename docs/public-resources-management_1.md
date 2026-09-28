@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "public resources management 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Gestione delle Risorse Pubbliche 
 
 ## Indice

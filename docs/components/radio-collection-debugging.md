@@ -1,25 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "RadioCollection: Debugging & Risoluzione Problemi di Selezione"
-type: concept
-tags: [radio, collection, debugging]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "radio-collection-debugging radiocollection: debugging & risoluzione problemi di selezione"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./address-field-1.md"
-  - "./address-field.md"
-  - "./blade-component-registration.md"
-  - "./filament-usage.md"
-  - "./filament.md"
-  - "./file-upload.md"
-  - "./footer.md"
-  - "./full-calendar-1.md"
-=======
 title: "radio collection debugging"
 type: note
 tags: [documentation]
@@ -28,7 +7,6 @@ updated: 2026-09-26
 qmd: "radio collection debugging"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # RadioCollection: Debugging & Risoluzione Problemi di Selezione
@@ -353,8 +331,6 @@ class RadioCollection extends Field
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "radio collection debugging"
 type: note
 tags: [documentation]
@@ -363,7 +339,6 @@ updated: 2026-09-26
 qmd: "radio collection debugging"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Diagnosi completata**: Dicembre 2024
 **Correzione implementata**: v2.0.0
 **Status**: Risolto ✅

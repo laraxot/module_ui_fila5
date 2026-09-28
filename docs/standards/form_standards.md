@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "form standards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Standard Form nei Temi
 
 ## Principi Generali

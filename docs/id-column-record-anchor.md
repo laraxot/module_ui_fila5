@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "id column record anchor"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # IDColumn: colonna id e ancora della riga
 
 ## Cosa fa

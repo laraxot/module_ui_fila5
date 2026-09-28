@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "test structure cleanup"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Module Test Structure Cleanup
 
 ## Problem Identified
@@ -119,12 +116,7 @@ Modules/UI/
 - Minimal disruption to existing code
 - Clear migration path
 
-<<<<<<< HEAD
-### 4. **Autoloader Predictability**
-### 4. **Autoloader stability**
-=======
 ### 4. **Autoloader <nome progetto>ability**
->>>>>>> laraxot/dev
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
 - Reliable test discovery and execution
@@ -191,12 +183,7 @@ composer dump-autoload 2>&1 | grep -i "ui"
 After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
-<<<<<<< HEAD
-- ✅ Clear, predictable test structure
-- ✅ Clear, stable test structure
-=======
 - ✅ Clear, <nome progetto>able test structure
->>>>>>> laraxot/dev
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system
 - ✅ Maintains all existing test functionality
@@ -250,8 +237,6 @@ Modules/UI/tests/Unit/Widgets/
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "test structure cleanup"
 type: note
 tags: [documentation]
@@ -260,7 +245,6 @@ updated: 2026-09-26
 qmd: "test structure cleanup"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Cleanup Status**: Ready for implementation
 **Impact**: Medium risk, improves code quality and test reliability
 **Time Estimate**: 15-30 minutes

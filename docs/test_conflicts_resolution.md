@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "test conflicts resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Test di Risoluzione Conflitti nel Modulo UI
 
 ## Descrizione

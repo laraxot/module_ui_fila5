@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module analysis complete"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Completa Modulo UI - Factory, Seeder e Test
 
 ## 📊 Panoramica Generale
@@ -245,8 +242,6 @@ Il modulo UI è il sistema di componenti e interfacce utente condivisi di <nome 
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "module analysis complete"
 type: note
 tags: [documentation]
@@ -255,7 +250,6 @@ updated: 2026-09-26
 qmd: "module analysis complete"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Ultimo aggiornamento**: Dicembre 2024
 **Versione**: 1.0
 **Stato**: In Progress

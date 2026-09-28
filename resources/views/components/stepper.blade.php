@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-<?php
-
-declare(strict_types=1);
-?>
-=======
->>>>>>> laraxot/dev
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "code quality report"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Code quality — modulo UI
 
 Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (ruleset codesize+unusedcode), grep mirati (TODO/FIXME/@deprecated, dd()/dump(), facade in app/Actions, extends Filament diretto), rapporto file test/app.
@@ -72,9 +69,6 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 | Rating | - | - | 7% | 0 |
 | Seo | - | - | 100% | 0 |
 | TechPlanner | - | - | 2% | 0 |
-<<<<<<< HEAD
-| modulo operativo | - | - | 2% | 0 |
-=======
 ---
 title: "code quality report"
 type: note
@@ -102,7 +96,6 @@ discussions: []
 ---
 ---
 ---
->>>>>>> laraxot/dev
 | Tenant | - | - | 75% | 6 |
 | UI | - | - | 34% | 4 |
 | User | - | - | 23% | 4 |

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "optimization analysis dry kiss"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Ottimizzazioni Modulo UI - DRY + KISS
 
 ## 🎯 Obiettivo Analisi
@@ -91,8 +88,6 @@ class Block extends Component
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "optimization analysis dry kiss"
 type: note
 tags: [documentation]
@@ -101,7 +96,6 @@ updated: 2026-09-26
 qmd: "optimization analysis dry kiss"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ### 2. **Widget Structure Duplication - ALTO** 🔴
 
 #### Problema Attuale

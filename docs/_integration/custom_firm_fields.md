@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "custom firm fields"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->

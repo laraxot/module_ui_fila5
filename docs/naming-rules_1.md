@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "naming rules 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
 
 ## Regola: No Nomi Specifici dell'Applicazione

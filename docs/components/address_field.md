@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "address field"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica

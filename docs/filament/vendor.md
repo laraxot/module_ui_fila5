@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,23 +6,10 @@ updated: 2026-09-26
 qmd: "vendor"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: Ripristinare cartella vendor
 description: Ripristinare cartella vendor
 extends: _layouts.documentation
 section: content
-<<<<<<< HEAD
-related:
-  - "./automatic-translations.md"
-  - "./best-practices.md"
-  - "./component-icon-support.md"
-  - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-guide.md"
-  - "./filament-4-migration-summary.md"
-  - "./filament-4-migration-sumy.md"
-=======
->>>>>>> laraxot/dev
 ---
 
 # Ripristinare la cartella vendor
@@ -36,8 +21,4 @@ php artisan vendor:publish
 ```
 digitare il numero 0 e premere invio
 
-<<<<<<< HEAD
 NB: La cartella non la sovrascrive perciò bisogna prima spostarla
-=======
-NB: La cartella non la sovrascrive perciò bisogna prima spostarla
->>>>>>> laraxot/dev

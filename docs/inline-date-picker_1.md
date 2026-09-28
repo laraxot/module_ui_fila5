@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "inline date picker 1"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "inline date picker 1"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: inline-date-picker_1
 canonical: ../../../Themes/docs/shared-components/inline-date-picker-1.md

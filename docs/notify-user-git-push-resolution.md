@@ -1,13 +1,10 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 created: 2026-09-26
 updated: 2026-09-26
 qmd: "notify user git push resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Notify & User Git Push Resolution — 2026-07-28"
 date: 2026-07-28
 created_at: '2026-07-28'

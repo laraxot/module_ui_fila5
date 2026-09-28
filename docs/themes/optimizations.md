@@ -1,22 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Themes - Ottimizzazioni e Correzioni"
-type: concept
-tags: [optimizations]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "optimizations themes - ottimizzazioni e correzioni"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./asset-management-1.md"
-  - "./asset-management.md"
-  - "./compilation.md"
-  - "./components.md"
-  - "./schemaless-attributes-guide.md"
-=======
 title: "optimizations"
 type: note
 tags: [documentation]
@@ -25,7 +7,6 @@ updated: 2026-09-26
 qmd: "optimizations"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Themes - Ottimizzazioni e Correzioni
@@ -732,8 +713,6 @@ module.exports = {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "optimizations"
 type: note
 tags: [documentation]
@@ -742,5 +721,4 @@ updated: 2026-09-26
 qmd: "optimizations"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Documentazione aggiornata: $(date +%Y-%m-%d)*

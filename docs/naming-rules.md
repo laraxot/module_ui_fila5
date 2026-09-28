@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "naming rules"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
 
 ## Regola: No Nomi Specifici dell'Applicazione
@@ -52,22 +49,13 @@ I nomi specifici dell'applicazione devono apparire solo:
 4. Usare esempi generici nelle spiegazioni
 
 ## Collegamenti Bidirezionali
-<<<<<<< HEAD
-- [README](README.md)
-=======
 - [README](readme.md)
->>>>>>> laraxot/dev
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
-<<<<<<< HEAD
-- [Documentazione Principale](../../../docs/README.md)
-- [Standard di Codice](../../../docs/standards/coding-standards.md)
-=======
 - [Documentazione Principale](../../../../docs/readme.md)
 - [Standard di Codice](../../../../docs/standards/coding-standards.md)
->>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
 
 ## Regola: No Nomi Specifici dell'Applicazione
@@ -106,21 +94,11 @@ I nomi specifici dell'applicazione devono apparire solo:
 4. Usare esempi generici nelle spiegazioni
 
 ## Collegamenti Bidirezionali
-<<<<<<< HEAD
-- [README](README.md)
-=======
 - [README](readme.md)
->>>>>>> laraxot/dev
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
-<<<<<<< HEAD
-- [Documentazione Principale](../../../project_docs/README.md)
-- [Standard di Codice](../../../project_docs/standards/coding-standards.md)
-- [Best Practices](../../../project_docs/standards/best-practices.md)
-=======
 - [Documentazione Principale](../../../../docs/project/readme.md)
 - [Standard di Codice](../../../../docs/project/standards/coding-standards.md)
 - [Best Practices](../../../../docs/project/standards/best-practices.md)
->>>>>>> laraxot/dev

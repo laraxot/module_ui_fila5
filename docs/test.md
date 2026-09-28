@@ -1,12 +1,4 @@
 ---
-<<<<<<< HEAD
-module: theme
-topic: test
-canonical: ../../../Themes/docs/shared-components/.gitkeep-Modules
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/.gitkeep-Modules
-=======
 title: "test"
 type: note
 tags: [documentation]
@@ -16,4 +8,3 @@ qmd: "test"
 issues: []
 discussions: []
 ---
->>>>>>> laraxot/dev

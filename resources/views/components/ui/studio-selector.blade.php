@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ?>
 {{--
     Studio Selector Component - Selezione semplice studio con pulsanti

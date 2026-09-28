@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "product strategy"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -21,8 +18,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "product strategy"
 type: note
 tags: [documentation]
@@ -31,7 +26,6 @@ updated: 2026-09-26
 qmd: "product strategy"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Executive Summary
 
 The UI module provides a comprehensive design system and component library, enabling consistent, accessible, and beautiful user interfaces across the entire platform.

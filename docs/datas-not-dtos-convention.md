@@ -1,11 +1,8 @@
 ---
-<<<<<<< HEAD
-=======
 updated: 2026-09-26
 qmd: "datas not dtos convention"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: Datas, non DTOs
 type: convention
 tags: [datas, spatie-laravel-data, dto, root-app-cleanup]

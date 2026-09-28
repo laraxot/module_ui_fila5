@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "svg icons automatic registration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ SVG Icons - Automatic Registration
 
 **Data**: 2026-03-30  
@@ -105,10 +102,6 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
-# http://<nome progetto>.local/it/tests/homepage
-# http://app.local/it/tests/homepage
-=======
 ---
 title: "svg icons automatic registration"
 type: note
@@ -136,7 +129,6 @@ discussions: []
 ---
 ---
 ---
->>>>>>> laraxot/dev
 ```
 
 ## 📊 Icon Inventory
@@ -171,9 +163,6 @@ discussions: []
 - [Component Libraries](https://laravel.com/docs/blade#managing-component-libraries)
 
 ### Project Documentation
-<<<<<<< HEAD
-- [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
-=======
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 ---
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
@@ -183,7 +172,6 @@ discussions: []
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 ---
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
->>>>>>> laraxot/dev
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 
 ---

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "advanced form components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Form Avanzati
 
 ## 📝 Input Avanzati
@@ -33,11 +30,6 @@ discussions: []
   <input
     type="email"
     id="email"
-<<<<<<< HEAD
-    type="email" 
-    id="email" 
-=======
->>>>>>> laraxot/dev
     class="form-control is-invalid"
     aria-describedby="email-error"
   >
@@ -54,11 +46,6 @@ discussions: []
   <input
     type="text"
     id="search"
-<<<<<<< HEAD
-    type="text" 
-    id="search" 
-=======
->>>>>>> laraxot/dev
     class="form-control"
     list="suggestions"
     autocomplete="off"
@@ -80,11 +67,6 @@ discussions: []
     <input
       type="text"
       id="date"
-<<<<<<< HEAD
-      type="text" 
-      id="date" 
-=======
->>>>>>> laraxot/dev
       class="form-control"
       data-date-format="dd/mm/yyyy"
     >
@@ -103,11 +85,6 @@ discussions: []
     <input
       type="text"
       id="time"
-<<<<<<< HEAD
-      type="text" 
-      id="time" 
-=======
->>>>>>> laraxot/dev
       class="form-control"
       data-time-format="HH:mm"
     >
@@ -127,11 +104,6 @@ discussions: []
   <input
     type="range"
     id="range"
-<<<<<<< HEAD
-    type="range" 
-    id="range" 
-=======
->>>>>>> laraxot/dev
     class="form-range"
     min="0"
     max="100"
@@ -150,11 +122,6 @@ discussions: []
     <input
       type="number"
       id="quantity"
-<<<<<<< HEAD
-      type="number" 
-      id="quantity" 
-=======
->>>>>>> laraxot/dev
       class="form-control text-center"
       min="0"
       max="100"
@@ -203,13 +170,6 @@ discussions: []
     border-color: $primary;
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
-<<<<<<< HEAD
-  
-  &.is-invalid {
-    border-color: $danger;
-    
-=======
->>>>>>> laraxot/dev
 
   &.is-invalid {
     border-color: $danger;
@@ -225,10 +185,7 @@ discussions: []
 ```scss
 .input-group {
   transition: all 0.3s ease;
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -242,13 +199,9 @@ discussions: []
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
 # Componenti Form Avanzati
-<<<<<<< HEAD
-## 📝 Input Avanzati
-=======
 
 ## 📝 Input Avanzati
 
->>>>>>> laraxot/dev
 ### Input con Icona
 ```html
 <div class="input-group">
@@ -258,13 +211,9 @@ discussions: []
   <input type="text" class="form-control" placeholder="Username">
 </div>
 ```
-<<<<<<< HEAD
-### Input con Validazione
-=======
 
 ### Input con Validazione
 ```html
->>>>>>> laraxot/dev
 <div class="form-group">
   <label for="email">Email</label>
   <input
@@ -276,10 +225,6 @@ discussions: []
   <div id="email-error" class="invalid-feedback">
     Inserisci un indirizzo email valido
   </div>
-<<<<<<< HEAD
-### Input con Autocompletamento
-  <label for="search">Cerca</label>
-=======
 </div>
 ```
 
@@ -288,24 +233,16 @@ discussions: []
 <div class="form-group">
   <label for="search">Cerca</label>
   <input
->>>>>>> laraxot/dev
     type="text"
     id="search"
     class="form-control"
     list="suggestions"
     autocomplete="off"
-<<<<<<< HEAD
-=======
   >
->>>>>>> laraxot/dev
   <datalist id="suggestions">
     <option value="Suggerimento 1">
     <option value="Suggerimento 2">
   </datalist>
-<<<<<<< HEAD
-## 📅 Selezione Data e Ora
-### DatePicker
-=======
 </div>
 ```
 
@@ -314,7 +251,6 @@ discussions: []
 ### DatePicker
 ```html
 <div class="form-group">
->>>>>>> laraxot/dev
   <label for="date">Data</label>
   <div class="input-group datepicker">
     <input
@@ -326,17 +262,6 @@ discussions: []
     <span class="input-group-text">
       <i class="fas fa-calendar"></i>
     </span>
-<<<<<<< HEAD
-### TimePicker
-  <label for="time">Ora</label>
-  <div class="input-group timepicker">
-      id="time"
-      data-time-format="HH:mm"
-      <i class="fas fa-clock"></i>
-## 📊 Input Numerici
-### Range Slider
-  <label for="range">Range</label>
-=======
   </div>
 </div>
 ```
@@ -366,20 +291,12 @@ discussions: []
 <div class="form-group">
   <label for="range">Range</label>
   <input
->>>>>>> laraxot/dev
     type="range"
     id="range"
     class="form-range"
     min="0"
     max="100"
     step="1"
-<<<<<<< HEAD
-  <div class="range-value">50</div>
-### Input con Step
-  <label for="quantity">Quantità</label>
-  <div class="input-group">
-    <button class="btn btn-outline-secondary" type="button">-</button>
-=======
   >
   <div class="range-value">50</div>
 </div>
@@ -392,7 +309,6 @@ discussions: []
   <div class="input-group">
     <button class="btn btn-outline-secondary" type="button">-</button>
     <input
->>>>>>> laraxot/dev
       type="number"
       id="quantity"
       class="form-control text-center"
@@ -400,11 +316,6 @@ discussions: []
       max="100"
       step="1"
       value="1"
-<<<<<<< HEAD
-    <button class="btn btn-outline-secondary" type="button">+</button>
-## 📎 Upload File
-### Drag & Drop
-=======
     >
     <button class="btn btn-outline-secondary" type="button">+</button>
   </div>
@@ -415,7 +326,6 @@ discussions: []
 
 ### Drag & Drop
 ```html
->>>>>>> laraxot/dev
 <div class="upload-area">
   <input type="file" id="file" class="d-none">
   <label for="file" class="upload-label">
@@ -423,15 +333,11 @@ discussions: []
     <span>Trascina i file qui o clicca per selezionare</span>
   </label>
   <div class="upload-preview"></div>
-<<<<<<< HEAD
-### Preview Immagini
-=======
 </div>
 ```
 
 ### Preview Immagini
 ```html
->>>>>>> laraxot/dev
 <div class="image-upload">
   <input type="file" id="image" accept="image/*" class="d-none">
   <label for="image" class="image-preview">
@@ -440,16 +346,12 @@ discussions: []
       <i class="fas fa-camera"></i>
       <span>Cambia immagine</span>
     </div>
-<<<<<<< HEAD
-## 🎨 Stili e Comportamenti
-=======
   </label>
 </div>
 ```
 
 ## 🎨 Stili e Comportamenti
 
->>>>>>> laraxot/dev
 ### Focus States
 ```scss
 .form-control {
@@ -457,20 +359,6 @@ discussions: []
     border-color: $primary;
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
-<<<<<<< HEAD
-  &.is-invalid {
-    border-color: $danger;
-    &:focus {
-      box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
-    }
-}
-### Animazioni
-.input-group {
-  transition: all 0.3s ease;
-  &:focus-within {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-=======
 
   &.is-invalid {
     border-color: $danger;
@@ -494,14 +382,8 @@ discussions: []
 }
 ```
 
->>>>>>> laraxot/dev
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< HEAD
-
-```
-=======
 - [Performance](./standards/performance.md)
->>>>>>> laraxot/dev

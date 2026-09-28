@@ -1,20 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Modulo UI"
-type: concept
-tags: [structure]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "structure modulo ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./component-registration.md"
-  - "./filament-pages-structure.md"
-  - "./filament-resources-structure.md"
-=======
 title: "structure"
 type: note
 tags: [documentation]
@@ -23,7 +7,6 @@ updated: 2026-09-26
 qmd: "structure"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Modulo UI

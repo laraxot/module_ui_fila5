@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "widgets 1"
 type: note
@@ -11,5 +9,4 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/

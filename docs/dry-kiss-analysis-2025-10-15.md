@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "dry kiss analysis 2025 10 15"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # DRY & KISS Analysis - Modulo UI
 
 **Data:** 15 Ottobre 2025  
@@ -47,8 +44,6 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "dry kiss analysis 2025 10 15"
 type: note
 tags: [documentation]
@@ -57,6 +52,5 @@ updated: 2026-09-26
 qmd: "dry kiss analysis 2025 10 15"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Conclusione:** 🏆 **GOLD STANDARD** per BaseModel minimali!
 

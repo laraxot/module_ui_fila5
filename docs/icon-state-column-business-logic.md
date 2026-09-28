@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "icon state column business logic"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # IconStateColumn business logic
 
  ## Obiettivo

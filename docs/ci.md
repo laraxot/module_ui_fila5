@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ci"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 ---------------------------------------------------------------------------------------------------
 Automatic Code formatting for Apps with Laravel Code Style
 https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style

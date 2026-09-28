@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "copilot redundancy audit"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 Copilot Redundancy Audit — 2026-05-25
 
 Sintesi

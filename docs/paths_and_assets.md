@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "paths and assets"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # AVVISO IMPORTANTE (2025-05-13)
 
 > **ATTENZIONE:** Tutti i componenti UI condivisi (come `logo.blade.php`) devono essere SEMPRE posizionati in `Modules/UI/resources/views/components/ui/` e MAI in `resources/views/components/`. Qualsiasi violazione di questa regola causa errori di rendering, override errati, problemi di modularità e manutenzione.
@@ -36,12 +33,7 @@ discussions: []
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/
-[project-root]/
-=======
 /var/www/html/<nome progetto>/
->>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -59,21 +51,10 @@ discussions: []
 
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
-<<<<<<< HEAD
-| Immagini | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
-| CSS | `[project-root]/public_html/css/` | `[project-root]/laravel/public/css/` |
-| JavaScript | `[project-root]/public_html/js/` | `[project-root]/laravel/public/js/` |
-| SVG | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
-| Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
-| CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
-| JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
-| SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
-=======
 | Immagini | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
 | CSS | `/var/www/html/<nome progetto>/public_html/css/` | `/var/www/html/<nome progetto>/laravel/public/css/` |
 | JavaScript | `/var/www/html/<nome progetto>/public_html/js/` | `/var/www/html/<nome progetto>/laravel/public/js/` |
 | SVG | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
->>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -104,12 +85,7 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati come componenti Blade in:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
-[project-root]/laravel/Themes/One/resources/views/components/ui/
-=======
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
->>>>>>> laraxot/dev
 ```
 
 ### SVG come Asset Pubblici
@@ -117,12 +93,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/public_html/images/
-[project-root]/public_html/images/
-=======
 /var/www/html/<nome progetto>/public_html/images/
->>>>>>> laraxot/dev
 ```
 
 ## Gestione dei Componenti UI
@@ -132,23 +103,13 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 Il componente avatar è implementato in:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
-[project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
-=======
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
->>>>>>> laraxot/dev
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/public_html/images/avatars/
-[project-root]/public_html/images/avatars/
-=======
 /var/www/html/<nome progetto>/public_html/images/avatars/
->>>>>>> laraxot/dev
 ```
 
 ### Componente Icon
@@ -156,12 +117,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 Il componente icon è implementato in:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
-[project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
-=======
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
->>>>>>> laraxot/dev
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -202,12 +158,7 @@ E include le definizioni SVG direttamente nel componente.
 
 ## Errori Comuni
 
-<<<<<<< HEAD
-1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
-1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
-=======
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
->>>>>>> laraxot/dev
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

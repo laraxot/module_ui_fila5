@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament extension fixes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Correzione Estensione Filament - S3Test.php
 
 ## Problema Identificato
@@ -94,15 +91,6 @@ class S3Test extends XotBasePage
 
 ## Collegamenti
 - [Regole Estensione Filament](../../../.cursor/rules/filament-extension-rules.mdc)
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06*
-- [XotBasePage Implementation](../../Xot/project_docs/xotbasepage_implementation.md)
-- [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
-
-*Ultimo aggiornamento: 2025-01-06*
-*Ultimo aggiornamento: 2025-01-06*
-=======
 - [XotBasePage Implementation](../../xot/project_docs/xotbasepage_implementation.md)
 - [Filament Best Practices](../../../../docs/project/filament-best-practices.md)
 
->>>>>>> laraxot/dev

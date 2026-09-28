@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "widget optimization"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Ottimizzazioni Widget - Modulo UI
 
 ## Panoramica
@@ -356,8 +353,6 @@ class SystemTestWidget extends UIBaseTestWidget
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "widget optimization"
 type: note
 tags: [documentation]
@@ -366,6 +361,5 @@ updated: 2026-09-26
 qmd: "widget optimization"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: Giugno 2025*
 *Autore: Analisi Automatica del Progetto*

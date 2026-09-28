@@ -1,30 +1,16 @@
 ---
-<<<<<<< HEAD
-=======
 updated: 2026-09-26
 qmd: "filament first blade canonical"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI — Filament Blade canonical (modulo UI)"
 type: concept
 status: active
 created: 2026-05-28
 tags: [filament, ui, blade]
 related:
-<<<<<<< HEAD
-  - "./auth-register-focus-loss-overlay.md"
-  - "./block-rendering-and-optional-services.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-=======
   - ../../../../../../docs/wiki/rules/filament-first-rule.md
   - ../../blade/filament-components.md
->>>>>>> laraxot/dev
 ---
 
 # UI — Filament Blade canonical

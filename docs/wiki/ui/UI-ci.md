@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "UI ci"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI ci"
 type: reference
 tags: [wiki, ui, link-dump]

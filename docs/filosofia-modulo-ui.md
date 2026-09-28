@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Analisi Approfondita del Modulo UI
-
-> **Generato**: 2025-12-24
-=======
 ---
 title: "filosofia modulo ui"
 type: note
@@ -17,13 +12,10 @@ discussions: []
 # Analisi Approfondita del Modulo UI
 
 > **Generato**: [DATE]
->>>>>>> laraxot/dev
 > **Scopo**: Documentare la filosofia, logica, business logic e architettura del modulo UI
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filosofia modulo ui"
 type: note
 tags: [documentation]
@@ -32,7 +24,6 @@ updated: 2026-09-26
 qmd: "filosofia modulo ui"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 1. LOGICA - Come Funziona il Modulo UI
 
 ### Architettura Componenti Custom Filament
@@ -109,13 +100,8 @@ Questo è intenzionale: UI è un **consumer** di Xot, non un base layer.
 Ogni componente è progettato per essere riutilizzato in più moduli senza duplicazione:
 
 ```php
-<<<<<<< HEAD
-// InlineDatePicker - Usato in modulo operativo, Employee, Cms
-// LocationSelector - Usato in modulo operativo, Employee, Geo
-=======
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
 // LocationSelector - Usato in TechPlanner, Employee, Geo
->>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -426,11 +412,7 @@ namespace Modules\UI\...;
 Altri moduli consumano componenti UI:
 
 ```php
-<<<<<<< HEAD
-// In modulo operativo/Filament/Resources/DeviceResource.php
-=======
 // In TechPlanner/Filament/Resources/DeviceResource.php
->>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 
@@ -704,10 +686,6 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Modulo**: UI
 **Versione**: 4.1.0
 **Framework**: Laravel 12 + Filament 4
-<<<<<<< HEAD
-**Framework**: Laravel 13 + Filament 4
-=======
->>>>>>> laraxot/dev
 **PHPStan**: Level 10 ✅
 **Filosofia**: Estendere, Riutilizzare, Tradurre, Adattare
 **Zen**: I componenti si scoprono da soli 禅

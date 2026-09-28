@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "selectstatecolumn confirmation modal"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "selectstatecolumn confirmation modal"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: selectstatecolumn_confirmation_modal
 canonical: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md

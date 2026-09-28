@@ -1,13 +1,10 @@
 ---
-<<<<<<< HEAD
-=======
 tags: [documentation]
 created: 2026-09-26
 updated: 2026-09-26
 qmd: "ignore suppressions audit"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Audit @phpstan-ignore: 48 soppressioni chiuse cancellando 3 test fantasma"
 type: report
 created_at: '2026-09-01'

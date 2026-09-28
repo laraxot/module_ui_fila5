@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "table layout toggle"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # TableLayoutToggleTableAction
 
 ## Panoramica

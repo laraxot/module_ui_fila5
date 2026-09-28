@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament fileupload"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # FileUpload Component in Filament
 
 ## Metodi Disponibili

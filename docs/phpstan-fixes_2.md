@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "phpstan fixes 2"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "phpstan fixes 2"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: phpstan-fixes_2
 canonical: ../../../Themes/docs/shared-components/phpstan-fixes-2.md

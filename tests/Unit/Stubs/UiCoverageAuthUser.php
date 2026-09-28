@@ -20,11 +20,7 @@ final class UiCoverageAuthUser extends AuthenticatableUser
             return false;
         }
 
-<<<<<<< HEAD
-        return $key === 'profile' && $this->profile !== null;
-=======
         return 'profile' === $key && null !== $this->profile;
->>>>>>> laraxot/dev
     }
 
     /**

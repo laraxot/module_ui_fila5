@@ -12,13 +12,9 @@ final class BreadLink extends Component
     /**
      * Create a new component instance.
      */
-<<<<<<< HEAD
-    public function __construct() {}
-=======
     public function __construct()
     {
     }
->>>>>>> laraxot/dev
 
     public function render(): View
     {

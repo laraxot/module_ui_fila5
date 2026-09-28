@@ -1,21 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "REGOLA CRITICA: NO Commenti Ovvi nel Codice"
-type: concept
-tags: [obvious, comments]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "no-obvious-comments regola critica: no commenti ovvi nel codice"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./syntax-error-fixes.md"
-  - "./wizard-schema-aration.md"
-  - "./wizard-schema-separation.md"
-  - "./wizard-steps.md"
-=======
 title: "no obvious comments"
 type: note
 tags: [documentation]
@@ -24,7 +7,6 @@ updated: 2026-09-26
 qmd: "no obvious comments"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # REGOLA CRITICA: NO Commenti Ovvi nel Codice

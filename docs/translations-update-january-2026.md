@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "translations update january 2026"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Aggiornamento Traduzioni Modulo UI - Gennaio 2026
 
 ## Data Intervento

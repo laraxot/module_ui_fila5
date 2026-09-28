@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament 4x upgrade"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament 4.x Upgrade - Modulo UI
 
 **Data**: 2025-09-30

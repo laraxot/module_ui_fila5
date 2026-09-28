@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "form component"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Form Component
 
 ## 📊 Stato Implementazione

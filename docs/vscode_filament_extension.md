@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "vscode filament extension"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # VSCode Filament Extension (doonfrs.vscode-filament)
 
 ## Cos'è
@@ -19,8 +16,6 @@ Estensione per Visual Studio Code che fornisce **syntax highlighting** e **autoc
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "vscode filament extension"
 type: note
 tags: [documentation]
@@ -29,7 +24,6 @@ updated: 2026-09-26
 qmd: "vscode filament extension"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Funzionalità principali
 - **Autocompletamento dei componenti**: suggerisce tutti i componenti Filament disponibili (UI, Action, Form, Table) mentre si scrive nei file Blade.
 - **Autocompletamento degli attributi**: mostra gli attributi disponibili per ciascun componente.

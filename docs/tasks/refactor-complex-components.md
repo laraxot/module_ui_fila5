@@ -1,26 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Task: Refactoring Componenti Complessi - UI"
-type: concept
-tags: [refactor, complex, components]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "refactor-complex-components task: refactoring componenti complessi - ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./001-design-system-components.md"
-  - "./cleanup-redundant-files.md"
-  - "./filament-v5-alignment.md"
-  - "./increase-test-coverage.md"
-  - "./tasks-index.md"
-  - "./ui-cleanup-docs.md"
-  - "./ui-filament-v5.md"
-=======
 title: "refactor complex components"
 type: note
 tags: [documentation]
@@ -29,7 +7,6 @@ updated: 2026-09-26
 qmd: "refactor complex components"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Task: Refactoring Componenti Complessi - UI

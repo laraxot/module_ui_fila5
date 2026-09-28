@@ -1,11 +1,8 @@
 ---
-<<<<<<< HEAD
-=======
 tags: [documentation]
 qmd: "custom theme"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Custom theme"
 type: reference
 status: active

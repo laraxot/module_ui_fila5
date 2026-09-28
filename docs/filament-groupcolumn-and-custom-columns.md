@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Guida all'utilizzo di GroupColumn e Colonne Custom
-
-=======
 ---
 title: "filament groupcolumn and custom columns"
 type: note
@@ -44,7 +40,6 @@ updated: 2026-09-26
 qmd: "filament groupcolumn and custom columns"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 Questo documento spiega le cause e le soluzioni per un problema comune riscontrato con il componente custom `GroupColumn`: la mancata visualizzazione di dati provenienti da relazioni Eloquent (campi con notazione "dot notation").
 
 **AGGIORNAMENTO**: Il componente `GroupColumn` è stato aggiornato per supportare nativamente la "dot notation". Le soluzioni manuali descritte di seguito sono ancora valide per scenari complessi ma non più necessarie per il caso d'uso standard. La corretta funzionalità è garantita da un test automatizzato.

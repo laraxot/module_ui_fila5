@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "phpstan fixes gennaio"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "phpstan fixes gennaio"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: phpstan-fixes-gennaio
 canonical: ../../../Themes/docs/shared-components/phpstan-fixes-gennaio-2025-Modules.md

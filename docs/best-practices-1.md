@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "best practices 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Best Practices UI
 
 ## Principi Generali
@@ -265,8 +262,6 @@ class AdvancedForm extends Component
 - Breaking changes
 
 ---
-<<<<<<< HEAD
-=======
 title: "best practices 1"
 type: note
 tags: [documentation]
@@ -275,4 +270,3 @@ updated: 2026-09-26
 qmd: "best practices 1"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

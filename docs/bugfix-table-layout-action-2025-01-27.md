@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "bugfix table layout action 2025 01 27"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -187,8 +184,6 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "bugfix table layout action 2025 01 27"
 type: note
 tags: [documentation]
@@ -197,7 +192,6 @@ updated: 2026-09-26
 qmd: "bugfix table layout action 2025 01 27"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  

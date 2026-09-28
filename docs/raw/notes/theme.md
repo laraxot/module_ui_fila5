@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "theme"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Theme — risorse esterne'
 module: UI
 type: reference

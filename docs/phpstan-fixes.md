@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan fixes"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Correzioni e Audit Qualità - Modulo UI (PHPStan Level 10)
 
 Questo documento traccia l'audit di qualità e le correzioni basate sulla "PHPStan Code Quality Guide - Laraxot".
@@ -24,8 +21,6 @@ Questo documento traccia l'audit di qualità e le correzioni basate sulla "PHPSt
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan fixes"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "phpstan fixes"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 🏗️ Regole Architetturali Applicate
 
 ### 1. Rimozione Metodi UI Proibiti

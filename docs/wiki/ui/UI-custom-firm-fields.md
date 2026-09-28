@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "UI custom firm fields"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI custom firm fields"
 type: reference
 tags: [ui]

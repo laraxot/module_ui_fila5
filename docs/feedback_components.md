@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "feedback components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Feedback e Notifiche
 
 ## 🚨 Alert e Notifiche

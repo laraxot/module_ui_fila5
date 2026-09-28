@@ -1,20 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Registrazione dei Componenti nei Moduli"
-type: concept
-tags: [component, registration]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "component-registration registrazione dei componenti nei moduli"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./filament-pages-structure.md"
-  - "./filament-resources-structure.md"
-  - "./structure.md"
-=======
 title: "component registration"
 type: note
 tags: [documentation]
@@ -23,7 +7,6 @@ updated: 2026-09-26
 qmd: "component registration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Registrazione dei Componenti nei Moduli

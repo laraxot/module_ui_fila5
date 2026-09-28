@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "custom firm fields 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://github.com/tanthammar/filament-extras
 
 

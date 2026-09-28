@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "bugfix address field hydration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Bug Fix: AddressField non idratava lo stato + cleanup phpmd
 
 ## Problema

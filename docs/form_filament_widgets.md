@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "form filament widgets"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Utilizzo dei Widget Filament per i Form in il progetto
 
 ## Indice
@@ -82,10 +79,6 @@ In il progetto, i form Filament sono implementati attraverso la classe base `Xot
 
 ```php
 public static function getFormSchema(): array
-<<<<<<< HEAD
-public function getFormSchema(): array
-=======
->>>>>>> laraxot/dev
 {
     return [
         Forms\Components\Grid::make()->columns(2)->schema([

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "enum select"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Enum select'
 module: UI
 type: reference

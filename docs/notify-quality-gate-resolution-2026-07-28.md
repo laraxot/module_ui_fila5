@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "notify quality gate resolution 2026 07 28"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: Notify Module Quality Gate Resolution (2026-07-28)
 author: Session J
 date: 2026-07-28

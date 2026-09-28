@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "models factory seeder analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Modelli, Factory e Seeder - Modulo UI
 
 ## Riepilogo Modelli
@@ -41,9 +38,6 @@ discussions: []
 Il modulo UI non dovrebbe avere modelli - è dedicato a componenti di interfaccia.
 
 ---
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06*
-=======
 title: "models factory seeder analysis"
 type: note
 tags: [documentation]
@@ -52,4 +46,3 @@ updated: 2026-09-26
 qmd: "models factory seeder analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

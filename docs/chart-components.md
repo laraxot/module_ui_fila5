@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "chart components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Chart
 
 ## Introduzione
@@ -105,18 +102,12 @@ use Livewire\Component;
 class UserStats extends Component
 {
     public $chartData;
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     public function mount()
     {
         $this->updateChartData();
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     public function updateChartData()
     {
         $this->chartData = [
@@ -130,10 +121,7 @@ class UserStats extends Component
             ]
         ];
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     public function render()
     {
         return view('livewire.user-stats');
@@ -160,13 +148,6 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
-# Componenti Chart
-## Introduzione
-I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Chart.js come motore di rendering. Supportano vari tipi di grafici e sono altamente personalizzabili.
-## Componenti Disponibili
-=======
 - [Documentazione Frontend](../cms/docs/frontend-architecture.md)
 # Componenti Chart
 
@@ -175,7 +156,6 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ## Componenti Disponibili
 
->>>>>>> laraxot/dev
 ### LineChart
 ```blade
 <x-ui::line-chart
@@ -195,23 +175,14 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
     :tooltips="true"
 />
 ```
-<<<<<<< HEAD
-### PieChart
-=======
 
 ### PieChart
 ```blade
->>>>>>> laraxot/dev
 <x-ui::pie-chart
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
     :colors="['#4CAF50', '#F44336', '#FFC107']"
-<<<<<<< HEAD
-### StatsOverview
-<x-ui::stats-overview
-    :stats="[
-=======
     :height="300"
     :responsive="true"
     :legend="true"
@@ -224,35 +195,25 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <x-ui::stats-overview
     :stats="[
         [
->>>>>>> laraxot/dev
             'label' => 'Utenti Totali',
             'value' => 1234,
             'icon' => 'users',
             'trend' => '+12%',
             'trendColor' => 'success'
         ],
-<<<<<<< HEAD
-=======
         [
->>>>>>> laraxot/dev
             'label' => 'Nuovi Oggi',
             'value' => 45,
             'icon' => 'user-plus',
             'trend' => '+5%',
-<<<<<<< HEAD
-=======
             'trendColor' => 'success'
         ],
         [
->>>>>>> laraxot/dev
             'label' => 'Conversioni',
             'value' => '78%',
             'icon' => 'chart-line',
             'trend' => '-2%',
             'trendColor' => 'danger'
-<<<<<<< HEAD
-## Personalizzazione
-=======
         ]
     ]"
 />
@@ -260,30 +221,17 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ## Personalizzazione
 
->>>>>>> laraxot/dev
 ### Tema
 - Colori personalizzati
 - Stili CSS
 - Animazioni
 - Tooltip
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### Dati
 - Formati supportati
 - Aggiornamento in tempo reale
 - Filtri
 - Trasformazioni
-<<<<<<< HEAD
-## Integrazione
-### Livewire
-```php
-use Livewire\Component;
-class UserStats extends Component
-{
-    public $chartData;
-=======
 
 ## Integrazione
 
@@ -295,18 +243,13 @@ class UserStats extends Component
 {
     public $chartData;
 
->>>>>>> laraxot/dev
     public function mount()
     {
         $this->updateChartData();
     }
-<<<<<<< HEAD
-    public function updateChartData()
-=======
 
     public function updateChartData()
     {
->>>>>>> laraxot/dev
         $this->chartData = [
             'labels' => ['Gen', 'Feb', 'Mar'],
             'datasets' => [
@@ -317,12 +260,6 @@ class UserStats extends Component
                 ]
             ]
         ];
-<<<<<<< HEAD
-    public function render()
-        return view('livewire.user-stats');
-}
-## Best Practices
-=======
     }
 
     public function render()
@@ -334,35 +271,23 @@ class UserStats extends Component
 
 ## Best Practices
 
->>>>>>> laraxot/dev
 ### Utilizzo
 - Dati significativi
 - Leggibilità
 - Responsive design
 - Accessibilità
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### Performance
 - Ottimizzazione dati
 - Lazy loading
 - Cache risultati
 - Aggiornamento efficiente
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-
-```
-=======
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
->>>>>>> laraxot/dev

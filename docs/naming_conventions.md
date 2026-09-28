@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "naming conventions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
  
 ## Collegamenti tra versioni di naming-conventions.md
 * [naming-conventions.md](../../../../../docs/naming-conventions.md)

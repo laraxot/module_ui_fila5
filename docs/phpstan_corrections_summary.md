@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "phpstan corrections summary"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "phpstan corrections summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: phpstan_corrections_summary
 canonical: ../../../Themes/docs/shared-components/phpstan-corrections.md

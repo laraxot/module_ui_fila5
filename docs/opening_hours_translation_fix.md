@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "opening hours translation fix"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Fix Traduzioni Opening Hours Field - Modulo UI
 
 ## Problema Identificato

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "selectstatecolumn"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi SelectStateColumn
 
 ## Problemi Identificati

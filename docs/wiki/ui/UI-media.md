@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "UI media"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI media"
 type: reference
 tags: [ui]

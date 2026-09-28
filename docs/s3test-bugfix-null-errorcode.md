@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "s3test bugfix null errorcode"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # S3Test Bugfix: Null ErrorCode Handling
 
 ## Problema Risolto
@@ -135,11 +132,7 @@ try {
 - [Best Practices](../best-practices.md)
 
 ## Data Correzione
-<<<<<<< HEAD
-2025-01-06
-=======
 [DATE]
->>>>>>> laraxot/dev
 
 ## Autore
 AI Assistant

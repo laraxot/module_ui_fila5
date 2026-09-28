@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "iconstatesplitcolumn implementation"
 type: note
@@ -524,7 +522,6 @@ discussions: []
 ---
 
 **Compatibility**: Filament 3.x, Laravel 10.x
->>>>>>> laraxot/dev
 # IconStateSplitColumn Implementation
 
 ## Overview
@@ -854,13 +851,7 @@ document.addEventListener('state-transition', function(event) {
 
 ---
 
-<<<<<<< HEAD
-**Last Updated**: June 2025
-**Version**: 2.1
-**Compatibility**: Filament 4.x, Laravel 10.x
-=======
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
->>>>>>> laraxot/dev

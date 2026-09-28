@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan fixes november 2025"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Fixes - November 2025
 
 **Data:** 11 Novembre 2025  
@@ -74,8 +71,6 @@ private function buildStateArray(array $stateMapping, mixed $record): array
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan fixes november 2025"
 type: note
 tags: [documentation]
@@ -84,7 +79,6 @@ updated: 2026-09-26
 qmd: "phpstan fixes november 2025"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ### 2. **OpeningHoursRule.php** - Type Narrowing Ottimizzato
 
 **Problema:** `function.alreadyNarrowedType` - `is_string()` ripetuto su variabile già ristretta

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "s3test method duplication bugfix"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # S3Test Bugfix: Duplicazione Metodo debugConfig()
 
 ## Problema Identificato
@@ -201,11 +198,7 @@ public function testAndReturnData(): array // Viola SRP
 - [Best Practices](best-practices.md) - Migliori pratiche
 
 ## Data Correzione
-<<<<<<< HEAD
-2025-01-06
-=======
 [DATE]
->>>>>>> laraxot/dev
 
 ## Correzioni Aggiuntive Implementate
 

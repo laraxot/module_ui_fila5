@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "strict types implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Implementazione di strict_types nel Modulo UI
 
 ## Importanza di declare(strict_types=1)

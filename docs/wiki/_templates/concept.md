@@ -1,12 +1,4 @@
 ---
-<<<<<<< HEAD
-module: theme
-topic: concept
-canonical: ../../../../../Themes/docs/shared-components/concept.md
-related:
-  - "./entity.md"
-  - "./source.md"
-=======
 title: "concept"
 type: note
 tags: [documentation]
@@ -18,7 +10,6 @@ discussions: []
 module: theme
 topic: concept
 canonical: ../../../../../Themes/docs/shared-components/concept.md
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md

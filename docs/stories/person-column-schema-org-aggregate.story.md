@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "person column schema org aggregate.story"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Story: PersonColumn — aggregato riutilizzabile anagrafica + contatto
 
 ## Contesto (BMAD: dev)

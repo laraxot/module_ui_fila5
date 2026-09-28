@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ListRecords"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # List Records in Filament
 
 ## Estensione Corretta

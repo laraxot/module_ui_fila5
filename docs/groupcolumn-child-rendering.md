@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "groupcolumn child rendering"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GroupColumn — rendering delle colonne figlie
 
 ## Sintomo

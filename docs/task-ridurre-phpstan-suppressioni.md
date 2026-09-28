@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "task ridurre phpstan suppressioni"
 type: note
@@ -11,18 +9,11 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task: Ridurre Suppressioni PHPStan Inline - UI
 
 **Modulo**: UI
 **Priorita'**: Alta
 **Completamento**: 0%
-<<<<<<< HEAD
-**Data**: 2026-01-30
-
----
-
-=======
 
 ---
 
@@ -34,7 +25,6 @@ updated: 2026-09-26
 qmd: "task ridurre phpstan suppressioni"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## File Coinvolti (28 suppressioni)
 
 | File | Suppressioni |

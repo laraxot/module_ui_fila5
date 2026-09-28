@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "studio card selector implementation 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -197,8 +194,6 @@ return [
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "studio card selector implementation 1"
 type: note
 tags: [documentation]
@@ -207,7 +202,6 @@ updated: 2026-09-26
 qmd: "studio card selector implementation 1"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Component Status**: 📋 Documented - Ready for Implementation  
 **Reusability**: 🔄 High - Cross-module compatible  
 **Last Updated**: January 2025 

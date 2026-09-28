@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "ui chunk"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI chunk"
 type: reference
 tags: [ui]

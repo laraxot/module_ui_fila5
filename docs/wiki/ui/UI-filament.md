@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "UI filament"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI filament"
 type: reference
 tags: [ui]

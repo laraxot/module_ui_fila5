@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "groupcolumn relationship resolution analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # GroupColumn Relationship Resolution - Analisi Tecnica Dettagliata
 
 ## Problema Identificato

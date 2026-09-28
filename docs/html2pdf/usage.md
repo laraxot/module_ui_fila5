@@ -1,15 +1,4 @@
 ---
-<<<<<<< HEAD
-module: theme
-topic: usage
-canonical: ../../../../Themes/docs/shared-components/usage-Modules.md
-related:
-  - "./advanced.md"
-  - "./index.md"
-  - "./laravel.md"
-  - "./security.md"
-  - "./styling.md"
-=======
 title: "usage"
 type: note
 tags: [documentation]
@@ -21,7 +10,6 @@ discussions: []
 module: theme
 topic: usage
 canonical: ../../../../Themes/docs/shared-components/usage-Modules.md
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/usage-Modules.md

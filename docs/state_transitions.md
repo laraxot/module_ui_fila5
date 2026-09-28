@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "state transitions"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # State Transitions Guide
 
 ## Overview

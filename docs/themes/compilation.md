@@ -1,15 +1,4 @@
 ---
-<<<<<<< HEAD
-module: theme
-topic: compilation
-canonical: ../../../../Themes/docs/shared-components/.gitkeep
-related:
-  - "./asset-management-1.md"
-  - "./asset-management.md"
-  - "./components.md"
-  - "./optimizations.md"
-  - "./schemaless-attributes-guide.md"
-=======
 title: "compilation"
 type: note
 tags: [documentation]
@@ -21,7 +10,6 @@ discussions: []
 module: theme
 topic: compilation
 canonical: ../../../../Themes/docs/shared-components/.gitkeep
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/.gitkeep

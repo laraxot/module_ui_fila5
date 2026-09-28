@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "s3test critical errors analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # S3Test Critical Errors Analysis
 
 ## Problemi Critici Identificati

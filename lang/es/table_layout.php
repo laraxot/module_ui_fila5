@@ -3,23 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
-    'values' => [
-        'list' => [
-            'label' => 'Lista',
-            'icon' => 'heroicon-o-list-bullet',
-            'color' => 'primary',
-            'description' => 'Lista',
-        ],
-        'grid' => [
-            'label' => 'Cuadrícula',
-            'icon' => 'heroicon-o-squares-2x2',
-            'color' => 'secondary',
-            'description' => 'Cuadrícula',
-        ],
-    ],
-=======
->>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Cambiar diseño',

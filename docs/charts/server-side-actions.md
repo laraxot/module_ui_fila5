@@ -1,22 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Server-Side Chart Generation Actions"
-type: concept
-tags: [server, side, actions]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "server-side-actions server-side chart generation actions"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./chartjs-datalabels-multiple-labels-complete-guide.md"
-  - "./chartjs-plugin-datalabels-filament5.md"
-  - "./export-strategy.md"
-  - "./filament-chart-js-guide.md"
-  - "./shared-hosting-strategy.md"
-=======
 title: "server side actions"
 type: note
 tags: [documentation]
@@ -25,7 +7,6 @@ updated: 2026-09-26
 qmd: "server side actions"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Server-Side Chart Generation Actions
@@ -43,8 +24,6 @@ npm install puppeteer
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "server side actions"
 type: note
 tags: [documentation]
@@ -53,7 +32,6 @@ updated: 2026-09-26
 qmd: "server side actions"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📸 Action 1: Generate PNG (Best for Email/PDF)
 
 This action renders the chart widget in a headless browser and takes a screenshot.

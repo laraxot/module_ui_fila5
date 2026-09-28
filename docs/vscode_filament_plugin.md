@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "vscode filament plugin"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Plugin VSCode per Filament
 
 ## Overview

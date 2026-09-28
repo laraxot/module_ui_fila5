@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "design comuni implementation"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # 🎨 Design Comuni Implementation Guide
 
 **Module**: UI (User Interface)  
@@ -20,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "design comuni implementation"
 type: note
 tags: [documentation]
@@ -30,7 +25,6 @@ updated: 2026-09-26
 qmd: "design comuni implementation"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## 📋 Overview
 
 This module implements Design Comuni (Italian Municipalities Design System) components using Tailwind CSS with @apply directive.

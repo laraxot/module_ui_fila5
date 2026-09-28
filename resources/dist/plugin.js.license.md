@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "plugin.js.license"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 /**!
  * Sortable 1.15.0
  * @author	RubaXa   <trash@rubaxa.org>

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "navbar 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://tw-elements.com/docs/standard/navigation/navbar/
 
 https://flowbite.com/docs/components/navbar/

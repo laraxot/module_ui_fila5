@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament error fileupload icon 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Errore: Metodo `icon()` su FileUpload di Filament
 
 ## Descrizione

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "design system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Design System
 
 ## Panoramica

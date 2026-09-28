@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "README"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI — BMAD Method Integration"
 description: "BMAD workflow documentation per il modulo UI"
 module: "UI"

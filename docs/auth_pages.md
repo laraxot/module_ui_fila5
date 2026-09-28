@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "auth pages"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pagine di Autenticazione
 
 ## Pagina di Logout con Folio e Volt

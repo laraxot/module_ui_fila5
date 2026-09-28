@@ -1,15 +1,4 @@
 ---
-<<<<<<< HEAD
-module: theme
-topic: laravel
-canonical: ../../../../Themes/docs/shared-components/laravel-Modules.md
-related:
-  - "./advanced.md"
-  - "./index.md"
-  - "./security.md"
-  - "./styling.md"
-  - "./usage.md"
-=======
 title: "laravel"
 type: note
 tags: [documentation]
@@ -21,7 +10,6 @@ discussions: []
 module: theme
 topic: laravel
 canonical: ../../../../Themes/docs/shared-components/laravel-Modules.md
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/laravel-Modules.md

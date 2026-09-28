@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "theme build"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Theme Build & Publish Guide
 
 ## Installazione dipendenze

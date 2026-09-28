@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament components errors"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Errori Comuni nei Componenti Filament UI
 
 ## ⚠️ Errori di Metodi Non Supportati

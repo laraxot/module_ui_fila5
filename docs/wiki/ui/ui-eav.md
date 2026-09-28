@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "ui eav"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI eav"
 type: reference
 tags: [ui]

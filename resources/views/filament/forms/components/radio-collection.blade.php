@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ?>
 {{-- resources/views/forms/components/radio-collection.blade.php --}}
 <x-dynamic-component :component="$getFieldWrapperView()" :field="$field">

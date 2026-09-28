@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "disabled components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Disabled/Stale Components in UI Module
 
 **Status**: Documentation of unavailable dependencies  
@@ -82,8 +79,6 @@ if (class_exists('Modules\\Cms\\Actions\\ResolveLocalizedBlockDataAction')) {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "disabled components"
 type: note
 tags: [documentation]
@@ -92,7 +87,6 @@ updated: 2026-09-26
 qmd: "disabled components"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Guidelines for Optional Module Dependencies
 
 When UI module needs features from optional modules:

@@ -11,15 +11,6 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
-<<<<<<< HEAD
-describe('Component', function (): void {
-    test('ui components can be rendered', function (): void {
-        $component = new class extends Component
-        {
-            public function render(): View
-            {
-                return view('ui::components.ui.button');
-=======
 /**
  * @return view-string
  */
@@ -48,7 +39,6 @@ describe('Component', function (): void {
             public function render(): View
             {
                 return view(uiButtonViewName());
->>>>>>> laraxot/dev
             }
         };
 
@@ -56,19 +46,11 @@ describe('Component', function (): void {
     });
 
     test('ui button component has correct attributes', function (): void {
-<<<<<<< HEAD
-        Assert::assertInstanceOf(View::class, view('ui::components.ui.button'));
-    });
-
-    test('ui card component renders content', function (): void {
-        $view = view('ui::components.ui.card', [
-=======
         Assert::assertInstanceOf(View::class, view(uiButtonViewName()));
     });
 
     test('ui card component renders content', function (): void {
         $view = view(uiCardViewName(), [
->>>>>>> laraxot/dev
             'title' => 'Test Card',
             'content' => 'Test Content',
         ]);

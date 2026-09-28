@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "table components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Table
 
 ## Introduzione
@@ -108,10 +105,7 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -121,10 +115,7 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     public function render()
     {
         $users = User::query()
@@ -134,10 +125,7 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
 }
@@ -162,13 +150,6 @@ class UserTable extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
-# Componenti Table
-## Introduzione
-I componenti table forniscono una gestione efficiente e personalizzabile dei dati tabulari, con funzionalità avanzate di ordinamento, filtro e paginazione.
-## Componenti Disponibili
-=======
 - [Documentazione Frontend](../cms/docs/frontend-architecture.md)
 # Componenti Table
 
@@ -177,7 +158,6 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ## Componenti Disponibili
 
->>>>>>> laraxot/dev
 ### DataTable
 ```blade
 <x-ui::datatable
@@ -195,29 +175,21 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
     :exportable="true"
 />
 ```
-<<<<<<< HEAD
-### StatusBadge
-=======
 
 ### StatusBadge
 ```blade
->>>>>>> laraxot/dev
 <x-ui::status-badge
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
         'inactive' => ['label' => 'Inattivo', 'color' => 'danger'],
         'pending' => ['label' => 'In attesa', 'color' => 'warning'],
-<<<<<<< HEAD
-### ActionButtons
-=======
     ]"
 />
 ```
 
 ### ActionButtons
 ```blade
->>>>>>> laraxot/dev
 <x-ui::action-buttons
     :actions="[
         [
@@ -226,59 +198,36 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
             'icon' => 'eye',
             'label' => 'Visualizza'
         ],
-<<<<<<< HEAD
-=======
         [
->>>>>>> laraxot/dev
             'type' => 'edit',
             'url' => route('users.edit', $user),
             'icon' => 'pencil',
             'label' => 'Modifica'
-<<<<<<< HEAD
-=======
         ],
         [
->>>>>>> laraxot/dev
             'type' => 'delete',
             'url' => route('users.destroy', $user),
             'icon' => 'trash',
             'label' => 'Elimina',
             'confirm' => true
         ]
-<<<<<<< HEAD
-## Funzionalità
-=======
     ]"
 />
 ```
 
 ## Funzionalità
 
->>>>>>> laraxot/dev
 ### Ordinamento
 - Multi-colonna
 - Direzione (asc/desc)
 - Personalizzazione
 - Cache risultati
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### Filtri
 - Testo libero
 - Select multipli
 - Date range
 - Custom filters
-<<<<<<< HEAD
-### Paginazione
-- Server-side
-- Client-side
-- Cache pagine
-## Integrazione
-### Livewire
-```php
-use Livewire\Component;
-=======
 
 ### Paginazione
 - Server-side
@@ -292,17 +241,13 @@ use Livewire\Component;
 ```php
 use Livewire\Component;
 
->>>>>>> laraxot/dev
 class UserTable extends Component
 {
     public $sortField = 'name';
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -312,13 +257,9 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
-<<<<<<< HEAD
-    public function render()
-=======
 
     public function render()
     {
->>>>>>> laraxot/dev
         $users = User::query()
             ->when($this->search, function ($query) {
                 $query->where('name', 'like', '%'.$this->search.'%')
@@ -326,15 +267,6 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
-<<<<<<< HEAD
-        return view('livewire.user-table', compact('users'));
-}
-## Best Practices
-### Utilizzo
-- Ottimizzazione query
-- Lazy loading
-- Responsive design
-=======
 
         return view('livewire.user-table', compact('users'));
     }
@@ -349,26 +281,17 @@ class UserTable extends Component
 - Lazy loading
 - Responsive design
 
->>>>>>> laraxot/dev
 ### Performance
 - Indici database
 - Query ottimizzate
 - Cache paginazione
 - Lazy loading colonne
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-
-```
-=======
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
->>>>>>> laraxot/dev

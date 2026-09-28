@@ -1,25 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "RadioCollection: Riassunto Correzione & Risultati FINALI"
-type: concept
-tags: [radio, collection, fix, summary]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "radio-collection-fix-summary radiocollection: riassunto correzione & risultati finali"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./address-field-1.md"
-  - "./address-field.md"
-  - "./blade-component-registration.md"
-  - "./filament-usage.md"
-  - "./filament.md"
-  - "./file-upload.md"
-  - "./footer.md"
-  - "./full-calendar-1.md"
-=======
 title: "radio collection fix summary"
 type: note
 tags: [documentation]
@@ -28,7 +7,6 @@ updated: 2026-09-26
 qmd: "radio collection fix summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # RadioCollection: Riassunto Correzione & Risultati FINALI
@@ -162,8 +140,6 @@ Il componente rispetta la **dignità** dell'utente fornendo feedback immediato, 
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "radio collection fix summary"
 type: note
 tags: [documentation]
@@ -172,7 +148,6 @@ updated: 2026-09-26
 qmd: "radio collection fix summary"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: ✅ **COMPLETATO**
 **Data**: Dicembre 2024
 **Versione**: RadioCollection v2.0.0 Quantum

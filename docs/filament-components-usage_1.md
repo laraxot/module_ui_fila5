@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament components usage 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Utilizzo dei Componenti Filament 
 
 ## Collegamenti correlati

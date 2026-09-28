@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "inline date picker 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # InlineDatePicker Component
 
 A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.

@@ -1,19 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "UI Module Wiki Index"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "index ui module wiki index"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./agents.md"
-  - "./log.md"
-=======
 title: "index"
 type: note
 tags: [documentation]
@@ -22,7 +7,6 @@ updated: 2026-09-26
 qmd: "index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # UI Module Wiki Index
@@ -33,8 +17,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "index"
 type: note
 tags: [documentation]
@@ -43,7 +25,6 @@ updated: 2026-09-26
 qmd: "index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Concepts
 
 _No concept pages created yet_

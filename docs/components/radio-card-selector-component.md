@@ -1,25 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "RadioCardSelector Component - Modulo UI"
-type: concept
-tags: [radio, card, selector, component]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "radio-card-selector-component radiocardselector component - modulo ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./address-field-1.md"
-  - "./address-field.md"
-  - "./blade-component-registration.md"
-  - "./filament-usage.md"
-  - "./filament.md"
-  - "./file-upload.md"
-  - "./footer.md"
-  - "./full-calendar-1.md"
-=======
 title: "radio card selector component"
 type: note
 tags: [documentation]
@@ -28,7 +7,6 @@ updated: 2026-09-26
 qmd: "radio card selector component"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # RadioCardSelector Component - Modulo UI
@@ -310,8 +288,6 @@ RadioCardSelector::make('item')
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "radio card selector component"
 type: note
 tags: [documentation]
@@ -320,7 +296,6 @@ updated: 2026-09-26
 qmd: "radio card selector component"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Autore**: Implementazione completata per <nome progetto> widget
 **Ultima modifica**: Gennaio 2025
 **Versione**: 1.0.0

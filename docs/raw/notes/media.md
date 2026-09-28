@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "media"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Media — risorse esterne'
 module: UI
 type: reference

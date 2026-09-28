@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "layout components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Layout
 
 ## 📐 Struttura Base

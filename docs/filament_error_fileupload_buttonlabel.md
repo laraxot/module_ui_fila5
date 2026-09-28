@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament error fileupload buttonlabel"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Errore: Metodo `buttonLabel()` su FileUpload di Filament
 
 ## Descrizione
@@ -40,8 +37,6 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament error fileupload buttonlabel"
 type: note
 tags: [documentation]
@@ -50,7 +45,6 @@ updated: 2026-09-26
 qmd: "filament error fileupload buttonlabel"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 > **NOTA IMPORTANTE**: Questo documento è la fonte principale per la gestione degli errori legati a FileUpload. Ogni modulo che implementa FileUpload DEVE collegarsi a questa doc e rispettare la regola.
 
 ## Regola vincolante

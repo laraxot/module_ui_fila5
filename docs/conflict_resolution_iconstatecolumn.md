@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "conflict resolution iconstatecolumn"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Risoluzione Conflitto IconStateColumn.php
 
 ## Problema Identificato

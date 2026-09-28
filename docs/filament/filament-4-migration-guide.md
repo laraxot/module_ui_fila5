@@ -1,25 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Filament 4 Migration Guide"
-type: guide
-tags: [filament, migration, guide]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "filament-4-migration-guide filament 4 migration guide"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./automatic-translations.md"
-  - "./best-practices.md"
-  - "./component-icon-support.md"
-  - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-summary.md"
-  - "./filament-4-migration-sumy.md"
-  - "./file-upload-component.md"
-=======
 title: "filament 4 migration guide"
 type: note
 tags: [documentation]
@@ -28,7 +7,6 @@ updated: 2026-09-26
 qmd: "filament 4 migration guide"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Filament 4 Migration Guide

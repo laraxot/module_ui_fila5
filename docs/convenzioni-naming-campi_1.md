@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "convenzioni naming campi 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Convenzioni di Naming dei Campi
 
 ## Collegamenti Bidirezionali

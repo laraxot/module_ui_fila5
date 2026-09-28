@@ -1,17 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Analisi Qualità - Modulo UI"
-type: concept
-tags: [module, quality, report]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "ui-module-quality-report analisi qualità - modulo ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-=======
 title: "ui module quality report"
 type: note
 tags: [documentation]
@@ -20,7 +7,6 @@ updated: 2026-09-26
 qmd: "ui module quality report"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Analisi Qualità - Modulo UI
@@ -97,11 +83,7 @@ discussions: []
 ## 🔗 Collegamenti
 
 - [PHPStan Compliance](./phpstan-compliance.md)
-<<<<<<< HEAD
-- [Optimization Recommendations](./optimization-recommendations-1.md)
-=======
 - [Optimization Recommendations](./optimization_recommendations.md)
->>>>>>> laraxot/dev
 - [Modularity Optimizations](./modularity-optimizations.md)
 - [Xot Quality Analysis](../xot/docs/quality-analysis/current-status.md)
 

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "blocks 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://github.com/whitecube/nova-flexible-content
 
 

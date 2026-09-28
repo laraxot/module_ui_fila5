@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan level 10 cleanup"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # PHPStan Level 10 Cleanup Session - [DATE]
 
 ## Executive Summary
@@ -39,8 +36,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan level 10 cleanup"
 type: note
 tags: [documentation]
@@ -49,7 +44,6 @@ updated: 2026-09-26
 qmd: "phpstan level 10 cleanup"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Initial State
 
 ### Git Merge Conflicts (Blocking)

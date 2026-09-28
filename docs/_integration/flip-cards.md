@@ -1,23 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "flip_cards"
-type: concept
-tags: [flip, cards]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "flip-cards flip_cards"
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./api.md"
-  - "./blocks.md"
-  - "./carousel-slider-1.md"
-  - "./carousel-slider.md"
-  - "./chunk.md"
-  - "./ci.md"
-  - "./custom-firm-fields-1.md"
-  - "./custom-firm-fields.md"
-=======
 title: "flip cards"
 type: note
 tags: [documentation]
@@ -26,7 +7,6 @@ updated: 2026-09-26
 qmd: "flip cards"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # flip_cards
@@ -44,8 +24,6 @@ https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
-<<<<<<< HEAD
-=======
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
@@ -61,4 +39,3 @@ https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
->>>>>>> laraxot/dev

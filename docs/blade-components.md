@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "blade components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Blade
 
 ## Registrazione Automatica

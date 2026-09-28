@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 /**
  * @see https://github.com/bezhanSalleh/filament-language-switch/blob/main/src/Http/Livewire/FilamentLanguageSwitch.php
  */
@@ -18,14 +15,6 @@ final class Toast extends Component
 {
     public function render(): View
     {
-<<<<<<< HEAD
-        $view = 'ui::livewire.toast';
-        $viewParams = [
-            'view' => $view,
-        ];
-
-        return view($view, $viewParams);
-=======
         /** @var view-string $view */
         $view = 'ui::livewire.toast';
         $view_params = [
@@ -33,6 +22,5 @@ final class Toast extends Component
         ];
 
         return view($view, $view_params);
->>>>>>> laraxot/dev
     }
 }

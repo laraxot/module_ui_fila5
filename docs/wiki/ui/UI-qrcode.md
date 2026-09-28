@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "UI qrcode"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI qrcode"
 type: reference
 tags: [ui]

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Analisi Metodi Duplicati - Modulo UI
-
-**Data Generazione**: 2025-10-15 06:41:17
-=======
 ---
 title: "duplicate methods analysis"
 type: note
@@ -16,7 +11,6 @@ discussions: []
 
 # Analisi Metodi Duplicati - Modulo UI
 
->>>>>>> laraxot/dev
 **Totale Gruppi di Duplicati**:
 
 ## Sommario Esecutivo
@@ -70,8 +64,6 @@ public function asset(): string
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "duplicate methods analysis"
 type: note
 tags: [documentation]
@@ -80,7 +72,6 @@ updated: 2026-09-26
 qmd: "duplicate methods analysis"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ### 2. Metodo: `execute`
 
 **Tipo Refactoring**: `Interface` | **Complessità**: 🟢 Low | **Confidenza**: ❌ 9%
@@ -102,14 +93,6 @@ discussions: []
 - `SaveHeadernavConfigAction::execute` - [Modules/Cms/app/Actions/SaveHeadernavConfigAction.php:12](Modules/Cms/app/Actions/SaveHeadernavConfigAction.php) (Modulo: Cms)
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
-<<<<<<< HEAD
-- `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
-- `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
-- `ChangeStatus::execute` - [Modules/Project/app/Actions/ChangeStatus.php:12](Modules/Project/app/Actions/ChangeStatus.php) (Modulo: progetto corrente)
-- `GenerateTicketsAction::execute` - [Modules/Project/app/Actions/GenerateTicketsAction.php:24](Modules/Project/app/Actions/GenerateTicketsAction.php) (Modulo: progetto corrente)
-- `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
-=======
->>>>>>> laraxot/dev
 - `CalculateDistanceAction::execute` - [Modules/Geo/app/Actions/CalculateDistanceAction.php:47](Modules/Geo/app/Actions/CalculateDistanceAction.php) (Modulo: Geo)
 - `ClusterLocationsAction::execute` - [Modules/Geo/app/Actions/ClusterLocationsAction.php:25](Modules/Geo/app/Actions/ClusterLocationsAction.php) (Modulo: Geo)
 - `FilterCoordinatesAction::execute` - [Modules/Geo/app/Actions/FilterCoordinatesAction.php:29](Modules/Geo/app/Actions/FilterCoordinatesAction.php) (Modulo: Geo)

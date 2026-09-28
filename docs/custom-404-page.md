@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -8,7 +6,6 @@ updated: 2026-09-26
 qmd: "custom 404 page"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: Custom 404 Page
 description: Custom 404 pages with Jigsaw docs starter template
 extends: _layouts.documentation
@@ -41,19 +38,11 @@ Depending on where your site is hosted, you may need to configure your server to
 ### Versione HEAD
 
 ## Collegamenti tra versioni di custom-404-page.md
-<<<<<<< HEAD
-* [custom-404-page.md](../../../Gdpr/docs/custom-404-page.md)
-* [custom-404-page.md](../../../Xot/docs/custom-404-page.md)
-* [custom-404-page.md](../../../UI/docs/custom-404-page.md)
-* [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
-* [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
-=======
 * [custom-404-page.md](../../../gdpr/docs/custom-404-page.md)
 * [custom-404-page.md](../../../xot/docs/custom-404-page.md)
 * [custom-404-page.md](../../../ui/docs/custom-404-page.md)
 * [custom-404-page.md](../../../tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../cms/docs/custom-404-page.md)
->>>>>>> laraxot/dev
 
 ### Versione Incoming
 
@@ -95,29 +84,12 @@ Depending on where your site is hosted, you may need to configure your server to
 ### Versione HEAD
 
 ## Collegamenti tra versioni di custom-404-page.md
-<<<<<<< HEAD
-* [custom-404-page.md](../../../Gdpr/project_docs/custom-404-page.md)
-* [custom-404-page.md](../../../Xot/project_docs/custom-404-page.md)
-* [custom-404-page.md](../../../UI/project_docs/custom-404-page.md)
-* [custom-404-page.md](../../../Tenant/project_docs/it/custom-404-page.md)
-* [custom-404-page.md](../../../Cms/project_docs/custom-404-page.md)
-=======
 * [custom-404-page.md](../../../gdpr/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../xot/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../ui/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../tenant/project_docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../cms/project_docs/custom-404-page.md)
->>>>>>> laraxot/dev
 
 ### Versione Incoming
 
 ---
-<<<<<<< HEAD
-
-### Versione Incoming
-
-
----
-### Versione Incoming
-=======
->>>>>>> laraxot/dev

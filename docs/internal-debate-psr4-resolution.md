@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Internal Debate: PSR-4 Autoloading Resolution Strategy
-
-**Date**: 2025-12-15
-=======
 ---
 title: "internal debate psr4 resolution"
 type: note
@@ -17,7 +12,6 @@ discussions: []
 # Internal Debate: PSR-4 Autoloading Resolution Strategy
 
 **Date**: [DATE]
->>>>>>> laraxot/dev
 **Context**: Resolving `composer dumpautoload -o` PSR-4 compliance errors
 **Debate Format**: Pro/Con analysis of different approaches
 
@@ -177,8 +171,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "internal debate psr4 resolution"
 type: note
 tags: [documentation]
@@ -187,5 +179,4 @@ updated: 2026-09-26
 qmd: "internal debate psr4 resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Decision**: Proceed with complete fix (Option 3). Uphold standards, maintain functionality, follow project philosophy, and document everything.

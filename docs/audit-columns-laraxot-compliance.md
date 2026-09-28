@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Audit e Correzione Colonne Filament - Modulo UI
-
-**Data**: 11 Novembre 2025
-=======
 ---
 title: "audit columns laraxot compliance"
 type: note
@@ -16,7 +11,6 @@ discussions: []
 
 # Audit e Correzione Colonne Filament - Modulo UI
 
->>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO
 
 ## Analisi Completa

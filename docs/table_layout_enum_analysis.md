@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "table layout enum analysis"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Completa TableLayoutEnum
 
 ## Data: 2025-01-06

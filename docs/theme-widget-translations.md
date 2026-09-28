@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "theme widget translations"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Regole per Traduzioni Widget nel Tema
 
 ## Panoramica
@@ -243,9 +240,6 @@ Includi sempre esempi pratici:
 
 ---
 
-<<<<<<< HEAD
-*Ultimo aggiornamento: Dicembre 2024*
-=======
 title: "theme widget translations"
 type: note
 tags: [documentation]
@@ -254,4 +248,3 @@ updated: 2026-09-26
 qmd: "theme widget translations"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

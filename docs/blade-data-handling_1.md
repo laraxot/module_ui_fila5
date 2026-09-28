@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "blade data handling 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Data Handling in Blade Components
 
 This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.

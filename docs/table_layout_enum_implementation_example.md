@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "table layout enum implementation example"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Esempio Implementazione TableLayoutEnum
 
 ## Data: 2025-01-27

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "data display components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Componenti Visualizzazione Dati
 
 ## 📊 Tabelle

@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "eav"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Eav — risorse esterne'
 module: UI
 type: reference

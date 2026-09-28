@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "flip cards"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->

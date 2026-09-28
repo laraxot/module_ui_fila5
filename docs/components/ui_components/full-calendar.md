@@ -1,17 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "FullCalendar Component"
-type: concept
-tags: [full, calendar]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "full-calendar fullcalendar component"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-=======
 title: "full calendar"
 type: note
 tags: [documentation]
@@ -20,7 +7,6 @@ updated: 2026-09-26
 qmd: "full calendar"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # FullCalendar Component

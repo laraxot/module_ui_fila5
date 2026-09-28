@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "ci"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Ci'
 module: UI
 type: reference

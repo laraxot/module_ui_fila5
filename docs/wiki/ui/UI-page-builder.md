@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "UI page builder"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI page builder"
 type: reference
 tags: [ui]

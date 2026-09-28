@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "task consolidare documentazione"
 type: note
@@ -11,18 +9,11 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task: Consolidare Documentazione - UI
 
 **Modulo**: UI
 **Priorita'**: Bassa
 **Completamento**: 15%
-<<<<<<< HEAD
-**Data**: 2026-01-30
-
----
-
-=======
 
 ---
 
@@ -34,7 +25,6 @@ updated: 2026-09-26
 qmd: "task consolidare documentazione"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Criteri di Completamento
 
 - [ ] Rimossi file duplicati da 272 docs

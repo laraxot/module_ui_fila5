@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "auth pages"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Pagine di Autenticazione
 
 ## Pagina di Logout con Folio e Volt
@@ -19,10 +16,6 @@ discussions: []
 ### Struttura
 ```php
 // Themes/One/resources/views/pages/auth/logout.blade.php
-<<<<<<< HEAD
-// Themes/One/resources/views/pages/auth/logout.blade.php
-=======
->>>>>>> laraxot/dev
 
 <?php
 
@@ -46,13 +39,6 @@ $logout = function() {
         <div class="text-center">
             <h2 class="text-2xl font-bold mb-4">{{ __('Stai per essere disconnesso') }}</h2>
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
-<<<<<<< HEAD
-            
-            <div class="flex justify-center space-x-4">
-                <button 
-                    wire:click="logout" 
-=======
->>>>>>> laraxot/dev
 
             <div class="flex justify-center space-x-4">
                 <button
@@ -61,16 +47,9 @@ $logout = function() {
                 >
                     {{ __('Esci') }}
                 </button>
-<<<<<<< HEAD
-                <a
-                    href="{{ url()->previous() }}"
-                <a 
-                    href="{{ url()->previous() }}" 
-=======
 
                 <a
                     href="{{ url()->previous() }}"
->>>>>>> laraxot/dev
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
                     {{ __('Annulla') }}
@@ -141,17 +120,6 @@ $logout = function() {
 4. Assicurare la responsività su tutti i dispositivi
 5. Utilizzare le traduzioni per il supporto multilingua
 # Pagine di Autenticazione
-<<<<<<< HEAD
-## Pagina di Logout con Folio e Volt
-### Struttura
-```php
-// Themes/One/resources/views/pages/auth/logout.blade.php
-<?php
-use function Livewire\Volt\{state, mount};
-state([
-    'confirmingLogout' => false,
-]);
-=======
 
 ## Pagina di Logout con Folio e Volt
 
@@ -167,29 +135,21 @@ state([
     'confirmingLogout' => false,
 ]);
 
->>>>>>> laraxot/dev
 $logout = function() {
     auth()->logout();
     session()->invalidate();
     session()->regenerateToken();
     return redirect('/');
 };
-<<<<<<< HEAD
-?>
-=======
 
 ?>
 
->>>>>>> laraxot/dev
 <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
     <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
         <div class="text-center">
             <h2 class="text-2xl font-bold mb-4">{{ __('Stai per essere disconnesso') }}</h2>
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
@@ -197,17 +157,11 @@ $logout = function() {
                 >
                     {{ __('Esci') }}
                 </button>
-<<<<<<< HEAD
-                <a
-                    href="{{ url()->previous() }}"
-                    class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
-=======
 
                 <a
                     href="{{ url()->previous() }}"
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
->>>>>>> laraxot/dev
                     {{ __('Annulla') }}
                 </a>
             </div>
@@ -215,91 +169,59 @@ $logout = function() {
     </div>
 </div>
 ```
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### Caratteristiche
 1. **Architettura**
    - Utilizzo di Folio per il routing delle pagine
    - Implementazione con Volt per la gestione dello stato
    - Componente Livewire reattivo
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 2. **Funzionalità**
    - Gestione dello stato con Volt
    - Logout sicuro con invalidazione della sessione
    - Redirect automatico dopo il logout
    - Opzione di annullamento con ritorno alla pagina precedente
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 3. **Sicurezza**
    - Invalidazione della sessione
    - Rigenerazione del token CSRF
    - Protezione contro attacchi CSRF
    - Gestione sicura del logout
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 4. **UX/UI**
    - Design responsive con Tailwind
    - Feedback visivo immediato
    - Doppia opzione (conferma/annulla)
    - Animazioni fluide
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 5. **Accessibilità**
    - Testi tradotti
    - Struttura semantica
    - Focus visibile
    - Supporto tastiera
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### Best Practices
 1. Utilizzare Volt per la gestione dello stato
 2. Implementare feedback visivi per le azioni
 3. Garantire la sicurezza del processo di logout
 4. Fornire opzioni di annullamento
 5. Mantenere la coerenza con il design system
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### Note Tecniche
 1. **Folio**
    - La pagina viene automaticamente mappata alla rotta `/logout`
    - Non è necessario definire rotte manualmente
    - Supporto nativo per i middleware
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 2. **Volt**
    - Gestione reattiva dello stato
    - Metodi e proprietà automaticamente disponibili
    - Integrazione nativa con Livewire
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 3. **Livewire**
    - Interazioni reattive senza refresh
    - Gestione automatica degli stati
    - Ottimizzazione delle performance
-<<<<<<< HEAD
-1. Mantenere il design semplice e intuitivo
-2. Fornire feedback chiari all'utente
-4. Assicurare la responsività su tutti i dispositivi
-=======
 
 ### Best Practices
 1. Mantenere il design semplice e intuitivo
@@ -307,4 +229,3 @@ $logout = function() {
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
 5. Utilizzare le traduzioni per il supporto multilingua
->>>>>>> laraxot/dev

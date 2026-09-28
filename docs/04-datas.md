@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "04 datas"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Datas in UI Module
 
 All data objects in the UI module use the `Spatie\LaravelData\Data` contract for type safety and serialization.

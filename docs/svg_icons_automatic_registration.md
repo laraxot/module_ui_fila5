@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "svg icons automatic registration"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # ✅ SVG Icons - Automatic Registration
 
 **Data**: 2026-03-30  
@@ -147,8 +144,6 @@ php artisan view:clear
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "svg icons automatic registration"
 type: note
 tags: [documentation]
@@ -157,7 +152,6 @@ updated: 2026-09-26
 qmd: "svg icons automatic registration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Stato**: ✅ **CORRETTO - AUTOMATICO**  
 **Usage**: `<x-svg name="brands.facebook" />`  
 **Config**: ❌ **NON SERVONO CONFIGURAZIONI**

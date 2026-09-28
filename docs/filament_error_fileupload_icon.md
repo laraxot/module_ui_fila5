@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "filament error fileupload icon"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "filament error fileupload icon"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: filament_error_fileupload_icon
 canonical: ../../../Themes/docs/shared-components/filament-error-fileupload-icon_1.md

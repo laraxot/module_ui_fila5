@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "cms themes link 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Collegamenti ai Temi nel Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms per quanto riguarda i temi.

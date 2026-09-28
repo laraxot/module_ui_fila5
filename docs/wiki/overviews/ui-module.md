@@ -1,12 +1,4 @@
 ---
-<<<<<<< HEAD
-type: overview
-module: UI
-sources:
-confidence: high
-updated: 2026-04-15
-related:
-=======
 title: "ui module"
 tags: [documentation]
 created: 2026-09-26
@@ -22,7 +14,6 @@ sources:
   - ../../../docs/table-components.md
 confidence: high
 updated: 2026-04-15
->>>>>>> laraxot/dev
 ---
 
 # UI Module — Overview

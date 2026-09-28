@@ -1,17 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Pest Testing Guide - UI Module"
-type: guide
-tags: [pest, testing, guide]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "pest-testing-guide pest testing guide - ui module"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-=======
 title: "pest testing guide"
 type: note
 tags: [documentation]
@@ -20,7 +7,6 @@ updated: 2026-09-26
 qmd: "pest testing guide"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Pest Testing Guide - UI Module
@@ -354,11 +340,7 @@ Based on existing UI module tests:
 ## 🔗 Related Documentation
 
 ### **Module Documentation**
-<<<<<<< HEAD
-- [UI Module README](../README.md)
-=======
 - [UI Module README](../readme.md)
->>>>>>> laraxot/dev
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)
 
@@ -379,8 +361,6 @@ Based on existing UI module tests:
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "pest testing guide"
 type: note
 tags: [documentation]
@@ -389,6 +369,5 @@ updated: 2026-09-26
 qmd: "pest testing guide"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: ✅ PRODUCTION READY
 **Coverage**: UI Components + Business Logic + Service Integration

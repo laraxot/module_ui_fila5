@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "links"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Links'
 module: UI
 type: reference

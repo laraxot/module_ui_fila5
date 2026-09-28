@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "carousel slider"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->

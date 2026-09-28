@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "filament custom columns relationship resolution"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Filament Custom Columns - Relationship Resolution Ultimate Guide
 
 ## Executive Summary
@@ -24,8 +21,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "filament custom columns relationship resolution"
 type: note
 tags: [documentation]
@@ -34,7 +29,6 @@ updated: 2026-09-26
 qmd: "filament custom columns relationship resolution"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Understanding the Problem
 
 ### How Standard Filament TextColumn Works
@@ -191,11 +185,7 @@ class ValutatoreColumn extends GroupColumn
 
 ```php
 // In your Model (e.g., Schede.php)
-<<<<<<< HEAD
-class Schede extends BaseModel
-=======
 class Scheda extends BaseModel
->>>>>>> laraxot/dev
 {
     protected function valutatoreNomeDiri(): Attribute
     {
@@ -657,8 +647,4 @@ The relationship resolution problem in custom Filament columns stems from the di
 
 ---
 
-<<<<<<< HEAD
 *This document is part of the PTVX development guide. For related documentation, see the UI module documentation and Laraxot architecture guides.*
-=======
-*This document is part of the PTVX development guide. For related documentation, see the UI module documentation and Laraxot architecture guides.*
->>>>>>> laraxot/dev

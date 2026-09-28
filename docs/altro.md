@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "altro"
 type: note
@@ -11,5 +9,4 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # altro md

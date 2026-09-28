@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "GroupColumn IconColumn mostra 1 invece dell'icona"
 type: bugfix
 module: UI

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "effetcts 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://mridul2820.github.io/css-js/
 
 https://github.com/Mridul2820/css-js

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "brands icons"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Brands Icons - Documentazione
 
 ## Panoramica

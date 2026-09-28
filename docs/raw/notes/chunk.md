@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "chunk"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: 'Chunk — risorse esterne'
 module: UI
 type: reference

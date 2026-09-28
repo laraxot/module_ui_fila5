@@ -1,15 +1,4 @@
 ---
-<<<<<<< HEAD
-module: theme
-topic: styling
-canonical: ../../../../Themes/docs/shared-components/styling.md
-related:
-  - "./advanced.md"
-  - "./index.md"
-  - "./laravel.md"
-  - "./security.md"
-  - "./usage.md"
-=======
 title: "styling"
 type: note
 tags: [documentation]
@@ -21,7 +10,6 @@ discussions: []
 module: theme
 topic: styling
 canonical: ../../../../Themes/docs/shared-components/styling.md
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/styling.md

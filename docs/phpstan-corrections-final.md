@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "phpstan corrections final"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Correzioni PHPStan Completate - Gennaio 2025
 
 ## Riepilogo Finale
@@ -121,8 +118,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "phpstan corrections final"
 type: note
 tags: [documentation]
@@ -131,7 +126,6 @@ updated: 2026-09-26
 qmd: "phpstan corrections final"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Status**: ✅ Tutte le correzioni completate
 **PHPStan Level**: 10 ✅
 **Errori totali**: 0 ✅

@@ -1,14 +1,4 @@
 ---
-<<<<<<< HEAD
-module: theme
-topic: wizard-schema-separation
-canonical: ../../../../Themes/docs/shared-components/wizard-schema-aration.md
-related:
-  - "./no-obvious-comments.md"
-  - "./syntax-error-fixes.md"
-  - "./wizard-schema-aration.md"
-  - "./wizard-steps.md"
-=======
 title: "wizard schema separation"
 type: note
 tags: [documentation]
@@ -20,7 +10,6 @@ discussions: []
 module: theme
 topic: wizard-schema-separation
 canonical: ../../../../Themes/docs/shared-components/wizard-schema-aration.md
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/wizard-schema-aration.md

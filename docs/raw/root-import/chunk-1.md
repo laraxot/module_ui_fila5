@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "chunk 1"
 type: note
@@ -11,5 +9,4 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 https://github.com/owainjones74/filament-chunked-file-uploads/tree/main

@@ -1,21 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Integrazione dei Componenti Filament nei Blocchi"
-type: concept
-tags: [filament, component, integration]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "filament-component-integration integrazione dei componenti filament nei blocchi"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./correct-filament-components.md"
-  - "./logo.md"
-  - "./navigation.md"
-  - "./user-dropdown.md"
-=======
 title: "filament component integration"
 type: note
 tags: [documentation]
@@ -24,7 +7,6 @@ updated: 2026-09-26
 qmd: "filament component integration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Integrazione dei Componenti Filament nei Blocchi
@@ -215,8 +197,6 @@ I form Filament che utilizzano campi complessi, wizard multi-step o molti campi 
 - [Best practices per i componenti UI](../components/best-practices.md)
 
 ---
-<<<<<<< HEAD
-=======
 title: "filament component integration"
 type: note
 tags: [documentation]
@@ -225,5 +205,4 @@ updated: 2026-09-26
 qmd: "filament component integration"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Aggiornato: 2025-05-08*

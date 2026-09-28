@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
-=======
 qmd: "ui carousel slider"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "UI carousel slider"
 type: reference
 tags: [ui]

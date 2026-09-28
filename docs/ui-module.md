@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ui module"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Module Documentation
 
 ## Overview

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "changelog 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.

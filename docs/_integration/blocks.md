@@ -1,25 +1,5 @@
 ---
 title: "blocks"
-<<<<<<< HEAD
-type: concept
-tags: [blocks]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "blocks blocks"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./api.md"
-  - "./carousel-slider-1.md"
-  - "./carousel-slider.md"
-  - "./chunk.md"
-  - "./ci.md"
-  - "./custom-firm-fields-1.md"
-  - "./custom-firm-fields.md"
-  - "./custom-theme-1.md"
-=======
 type: note
 tags: [documentation]
 created: 2026-09-26
@@ -27,7 +7,6 @@ updated: 2026-09-26
 qmd: "blocks"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # blocks

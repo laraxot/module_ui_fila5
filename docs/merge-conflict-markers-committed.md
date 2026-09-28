@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
-=======
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "Marker di merge committati nel modulo UI — diagnosi e criteri di risoluzione"
 module: "UI"
 type: troubleshooting

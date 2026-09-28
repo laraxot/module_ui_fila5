@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "module icons design system"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Sistema di Design per Icone SVG dei Moduli
 
 ## Principi di Design
@@ -154,15 +151,7 @@ return [
 - **Colori sbagliati**: Verificare uso di `currentColor` invece di colori fissi
 
 ## Collegamenti
-<<<<<<< HEAD
-- [UI Module Icons](../laravel/Modules/UI/docs/icons.md)
-- [Filament Icon Registration](../laravel/Modules/Xot/docs/filament-assets.md)
-- [Accessibility Guidelines](../docs/accessibility-standards.md)
-
-*Ultimo aggiornamento: Agosto 2025*
-=======
 - [UI Module Icons](../laravel/modules/ui/docs/icons.md)
 - [Filament Icon Registration](../laravel/modules/xot/docs/filament-assets.md)
 - [Accessibility Guidelines](../../docs/accessibility-standards.md)
 
->>>>>>> laraxot/dev

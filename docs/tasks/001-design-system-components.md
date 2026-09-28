@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "001 design system components"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Task 001: Implement Design System and Reusable Components
 
 ## Description
@@ -290,11 +287,6 @@ The UI module needs a robust design system with consistent components, theming c
 
 ---
 
-<<<<<<< HEAD
-**Created**: 2026-01-31
-**Status**: Pending
-**Assignee**: TBD
-=======
 title: "001 design system components"
 type: note
 tags: [documentation]
@@ -305,4 +297,3 @@ issues: []
 discussions: []
 **Status**: Pending
 **Assignee**: TBD
->>>>>>> laraxot/dev

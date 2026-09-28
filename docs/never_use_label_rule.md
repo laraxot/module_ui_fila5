@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "never use label rule"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # REGOLA CRITICA: MAI usare ->label()
 
 ## Data: 2025-01-06

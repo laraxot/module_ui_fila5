@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
-
-## Data: 2025-01-06
-=======
 ---
 title: "transclass rule"
 type: note
@@ -17,7 +12,6 @@ discussions: []
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 ## Data: [DATE]
->>>>>>> laraxot/dev
 
 ## ✅ CORRETTO - Implementazione Enum con TransTrait
 
@@ -36,10 +30,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -156,10 +147,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }
@@ -305,15 +293,9 @@ rules:
 
 ## Collegamenti
 
-<<<<<<< HEAD
-- [Translation Standards](../../../docs/translation_standards.md)
-- [Filament Best Practices](../../../docs/filament_best_practices.md)
-- [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
-=======
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
->>>>>>> laraxot/dev
 
 ## Memoria Permanente
 
@@ -324,16 +306,6 @@ rules:
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06*
-# REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
-## Data: 2025-01-06
-## ✅ CORRETTO - Implementazione Enum con TransTrait
-```php
-<?php
-declare(strict_types=1);
-namespace Modules\UI\Enums;
-=======
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 ## Data: [DATE]
@@ -347,18 +319,10 @@ declare(strict_types=1);
 
 namespace Modules\UI\Enums;
 
->>>>>>> laraxot/dev
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Filament\Traits\TransTrait;
-<<<<<<< HEAD
-enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
-{
-    use TransTrait;
-    case LIST = 'list';
-    case GRID = 'grid';
-=======
 
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
@@ -367,28 +331,10 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     case LIST = 'list';
     case GRID = 'grid';
 
->>>>>>> laraxot/dev
     public function getLabel(): string
     {
         return $this->transClass(self::class, $this->value . '.label');
     }
-<<<<<<< HEAD
-    public function getColor(): string
-        return $this->transClass(self::class, $this->value . '.color');
-    public function getIcon(): string
-        return $this->transClass(self::class, $this->value . '.icon');
-    public function getDescription(): string
-        return $this->transClass(self::class, $this->value . '.description');
-    public function getTooltip(): string
-        return $this->transClass(self::class, $this->value . '.tooltip');
-    public function getHelperText(): string
-        return $this->transClass(self::class, $this->value . '.helper_text');
-}
-```
-## ❌ ERRORE - Non fare mai questo
-// ❌ ERRORE - Non usare mai match() per traduzioni
-public function getLabel(): string
-=======
 
     public function getColor(): string
     {
@@ -423,18 +369,10 @@ public function getLabel(): string
 // ❌ ERRORE - Non usare mai match() per traduzioni
 public function getLabel(): string
 {
->>>>>>> laraxot/dev
     return match ($this) {
         self::LIST => __('ui::table-layout.list.label'),
         self::GRID => __('ui::table-layout.grid.label'),
     };
-<<<<<<< HEAD
-// ❌ ERRORE - Non hardcodare valori
-public function getColor(): string
-        self::LIST => 'primary',
-        self::GRID => 'secondary',
-## Perché questa Regola è Critica
-=======
 }
 
 // ❌ ERRORE - Non hardcodare valori
@@ -449,39 +387,25 @@ public function getColor(): string
 
 ## Perché questa Regola è Critica
 
->>>>>>> laraxot/dev
 ### 1. Centralizzazione Traduzioni
 - Tutte le traduzioni sono nei file `lang/`
 - Facile manutenzione e aggiornamento
 - Sincronizzazione automatica tra lingue
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### 2. Type Safety
 - Il `transClass()` gestisce automaticamente le traduzioni
 - Controllo automatico delle traduzioni mancanti
 - Struttura coerente per tutti gli enum
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### 3. Performance
 - Cache delle traduzioni ottimizzata
 - Nessun overhead di match() per ogni chiamata
 - Codice più pulito e manutenibile
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 ### 4. Estensibilità
 - Facile aggiungere nuove proprietà
 - Struttura scalabile per enum complessi
 - Pattern riutilizzabile
-<<<<<<< HEAD
-## Struttura Traduzioni Obbligatoria
-### File: `Modules/UI/lang/it/table-layout.php`
-=======
 
 ## Struttura Traduzioni Obbligatoria
 
@@ -491,7 +415,6 @@ public function getColor(): string
 
 declare(strict_types=1);
 
->>>>>>> laraxot/dev
 return [
     'list' => [
         'label' => 'Lista',
@@ -508,27 +431,6 @@ return [
         'helper_text' => 'Layout a griglia con card responsive',
         'color' => 'secondary',
         'icon' => 'heroicon-o-squares-2x2',
-<<<<<<< HEAD
-];
-## Pattern Standard per Enum
-### 1. Import TransTrait
-enum MyEnum: string implements HasColor, HasIcon, HasLabel
-    case VALUE1 = 'value1';
-    case VALUE2 = 'value2';
-### 2. Metodi Standard
-    return $this->transClass(self::class, $this->value . '.label');
-    return $this->transClass(self::class, $this->value . '.color');
-public function getIcon(): string
-    return $this->transClass(self::class, $this->value . '.icon');
-public function getDescription(): string
-    return $this->transClass(self::class, $this->value . '.description');
-public function getTooltip(): string
-    return $this->transClass(self::class, $this->value . '.tooltip');
-public function getHelperText(): string
-    return $this->transClass(self::class, $this->value . '.helper_text');
-### 3. Struttura Traduzioni
-// File: Modules/ModuleName/lang/it/enum_name.php
-=======
     ],
 ];
 ```
@@ -585,29 +487,19 @@ public function getHelperText(): string
 ```php
 // File: Modules/ModuleName/lang/it/enum_name.php
 return [
->>>>>>> laraxot/dev
     'value1' => [
         'label' => 'Etichetta 1',
         'description' => 'Descrizione 1',
         'tooltip' => 'Tooltip 1',
         'helper_text' => 'Helper text 1',
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-icon1',
-=======
         'color' => 'primary',
         'icon' => 'heroicon-o-icon1',
     ],
->>>>>>> laraxot/dev
     'value2' => [
         'label' => 'Etichetta 2',
         'description' => 'Descrizione 2',
         'tooltip' => 'Tooltip 2',
         'helper_text' => 'Helper text 2',
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-icon2',
-## Checklist Pre-Implementazione
-Prima di creare un nuovo Enum:
-=======
         'color' => 'secondary',
         'icon' => 'heroicon-o-icon2',
     ],
@@ -618,21 +510,12 @@ Prima di creare un nuovo Enum:
 
 Prima di creare un nuovo Enum:
 
->>>>>>> laraxot/dev
 - [ ] Importare `TransTrait`
 - [ ] Implementare tutti i metodi standard con `transClass()`
 - [ ] Creare file traduzioni in `lang/it/`, `lang/en/`, `lang/de/`
 - [ ] Struttura espansa completa per ogni valore
 - [ ] Sincronizzazione IT/EN/DE
 - [ ] Testare traduzioni in ambiente di sviluppo
-<<<<<<< HEAD
-## Esempi di Errori Comuni
-### ❌ ERRORE - Match per traduzioni
-### ✅ CORRETTO - transClass()
-### ❌ ERRORE - Valori hardcoded
-## Verifica Automatica
-### PHPStan Rule (Ideale)
-=======
 
 ## Esempi di Errori Comuni
 
@@ -678,39 +561,18 @@ public function getColor(): string
 
 ### PHPStan Rule (Ideale)
 ```php
->>>>>>> laraxot/dev
 // Regola PHPStan per rilevare match() in enum
 // Implementare in phpstan.neon
 rules:
     - rule: Never use match() for translations in enums
-<<<<<<< HEAD
-=======
 ```
 
->>>>>>> laraxot/dev
 ### Code Review Checklist
 - [ ] TransTrait importato
 - [ ] Tutti i metodi usano `transClass()`
 - [ ] Nessun `match()` per traduzioni
 - [ ] Traduzioni implementate in tutte le lingue
 - [ ] Struttura espansa completa
-<<<<<<< HEAD
-## Penalità per Violazioni
-### Livello 1 - Warning
-- Commento nel code review
-- Richiesta di correzione
-### Livello 2 - Blocco
-- Blocco del merge
-- Correzione obbligatoria
-### Livello 3 - Sanzione
-- Documentazione della violazione
-- Training obbligatorio
-## Collegamenti
-- [Translation Standards](../../../docs/translation_standards.md)
-- [Filament Best Practices](../../../docs/filament_best_practices.md)
-- [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
-## Memoria Permanente
-=======
 
 ## Penalità per Violazioni
 
@@ -734,14 +596,10 @@ rules:
 
 ## Memoria Permanente
 
->>>>>>> laraxot/dev
 **RICORDA SEMPRE**:
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev

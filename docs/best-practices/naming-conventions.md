@@ -1,17 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Naming Conventions"
-type: concept
-tags: [naming, conventions]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "naming-conventions naming conventions"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-=======
 title: "naming conventions"
 type: note
 tags: [documentation]
@@ -20,7 +7,6 @@ updated: 2026-09-26
 qmd: "naming conventions"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 ## Collegamenti tra versioni di naming-conventions.md

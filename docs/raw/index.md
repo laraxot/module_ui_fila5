@@ -1,17 +1,4 @@
 ---
-<<<<<<< HEAD
-title: "Raw Sources — UI"
-type: concept
-tags: [index]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "index raw sources — ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-=======
 title: "index"
 type: note
 tags: [documentation]
@@ -20,7 +7,6 @@ updated: 2026-09-26
 qmd: "index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ---
 
 # Raw Sources — UI
@@ -53,16 +39,10 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 ## Schema di riferimento
 
 → `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-<<<<<<< HEAD
-→ `docs/.schema/wiki-schema.md` (root progetto)
-=======
->>>>>>> laraxot/dev
 → `docs/project/llm-wiki-module-adoption.md` (guida per moduli/temi)
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "index"
 type: note
 tags: [documentation]
@@ -71,5 +51,4 @@ updated: 2026-09-26
 qmd: "index"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2026-04-15*

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "bottlenecks"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # Analisi Bottlenecks Modulo UI
 
 ## Performance
@@ -141,11 +138,7 @@ discussions: []
 
 ### Collegamenti Interni
 - [Roadmap](roadmap.md)
-<<<<<<< HEAD
-- [Best Practices](BEST-PRACTICES.md)
-=======
 - [Best Practices](best-practices.md)
->>>>>>> laraxot/dev
 ### Versione HEAD
 
 - [Testing](testing.md)
@@ -155,29 +148,6 @@ discussions: []
 - [Testing](testing.md)
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../../bashscripts/docs/bottlenecks.md)
-<<<<<<< HEAD
-* [bottlenecks.md](../../Chart/docs/bottlenecks.md)
-* [bottlenecks.md](../../Chart/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Gdpr/docs/bottlenecks.md)
-* [bottlenecks.md](../../Gdpr/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Dental/docs/bottlenecks.md)
-* [bottlenecks.md](../../User/docs/bottlenecks.md)
-* [bottlenecks.md](../../User/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Lang/docs/bottlenecks.md)
-* [bottlenecks.md](../../Lang/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Job/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Media/docs/bottlenecks.md)
-* [bottlenecks.md](../../Media/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Activity/docs/bottlenecks.md)
-* [bottlenecks.md](../../Patient/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Cms/docs/bottlenecks.md)
-
----
-=======
 * [bottlenecks.md](../../chart/docs/bottlenecks.md)
 * [bottlenecks.md](../../chart/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../gdpr/docs/bottlenecks.md)
@@ -207,4 +177,3 @@ updated: 2026-09-26
 qmd: "bottlenecks"
 issues: []
 discussions: []
->>>>>>> laraxot/dev

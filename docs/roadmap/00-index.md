@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "00 index"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Module - Roadmap
 
 > Ecosistema UI Headless-first: Tailwind v4, Flux, Design Tokens.

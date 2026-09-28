@@ -1,6 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
 title: "form component"
 type: note
 tags: [documentation]
@@ -9,7 +7,6 @@ updated: 2026-09-26
 qmd: "form component"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 module: theme
 topic: form_component
 canonical: ../../../../../Themes/docs/shared-components/form-component.md

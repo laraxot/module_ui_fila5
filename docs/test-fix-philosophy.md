@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Test Fix Philosophy: Fix Tests, Not Production Code
-
-**Date**: 2025-12-15
-=======
 ---
 title: "test fix philosophy"
 type: note
@@ -17,7 +12,6 @@ discussions: []
 # Test Fix Philosophy: Fix Tests, Not Production Code
 
 **Date**: [DATE]
->>>>>>> laraxot/dev
 **Context**: Understanding the correct approach to fixing test failures
 
 ## 🎯 Core Principle
@@ -192,8 +186,6 @@ it('extends UserCalendarWidget', function () {
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "test fix philosophy"
 type: note
 tags: [documentation]
@@ -202,5 +194,4 @@ updated: 2026-09-26
 qmd: "test fix philosophy"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Remember**: The site works. Tests fail. Therefore, tests are wrong. Fix the tests, not the working code.

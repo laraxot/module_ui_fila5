@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "table layout enum usage 1"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # TableLayoutEnum Usage Guide
 
 ## Nuovo Approccio (Corretto)

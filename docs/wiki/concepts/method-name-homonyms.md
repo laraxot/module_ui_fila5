@@ -1,30 +1,16 @@
 ---
-<<<<<<< HEAD
-=======
 tags: [documentation]
 created: 2026-09-26
 qmd: "method name homonyms"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 title: "censimento omonimi metodi — modulo UI"
 type: analysis
 module: UI
 updated: 2026-06-15
 related:
-<<<<<<< HEAD
-  - "./auth-register-focus-loss-overlay.md"
-  - "./block-rendering-and-optional-services.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-=======
   - ../../../../../../docs/wiki/method-name-homonym-census.md
   - ../../../../../../bashscripts/docs/method-homonym-census.json
->>>>>>> laraxot/dev
 ---
 
 # Censimento omonimi metodi — UI

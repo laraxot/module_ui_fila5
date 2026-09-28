@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "PRODUCT ROADMAP"
 type: note
@@ -11,7 +9,6 @@ issues: []
 discussions: []
 ---
 
->>>>>>> laraxot/dev
 # UI Module - Product Roadmap
 
 **Module:** UI  
@@ -22,8 +19,6 @@ discussions: []
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "PRODUCT ROADMAP"
 type: note
 tags: [documentation]
@@ -32,7 +27,6 @@ updated: 2026-09-26
 qmd: "PRODUCT ROADMAP"
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 ## Vision Statement
 
 To create a **unified, beautiful, and accessible design system** that ensures consistent, high-quality user experiences across the entire platform while enabling rapid development and brand coherence.
