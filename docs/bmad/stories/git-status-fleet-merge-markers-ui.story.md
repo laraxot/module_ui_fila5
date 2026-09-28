@@ -1,4 +1,13 @@
 ---
+<<<<<<< HEAD
+=======
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "git status fleet merge markers ui.story"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Story — bonifica marker merge residui modulo UI"
 type: story
 module: UI

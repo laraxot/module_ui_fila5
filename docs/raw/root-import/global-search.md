@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Global Search"
 type: concept
 tags: [global, search]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "global search"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "global search"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://github.com/spatie/laravel-searchable

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament pages refactoring"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament pages refactoring"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Filament Pages Refactoring - UI Module
 
 ## S3Test.php Refactoring
@@ -138,6 +152,7 @@ class S3Test extends XotBasePage
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Filament Best Practices](../../Xot/docs/filament_best_practices.md)
 - [XotBasePage Implementation](../../Xot/docs/xotbasepage_implementation.md)
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
@@ -240,3 +255,9 @@ class S3Test extends XotBasePage
 - [Filament Best Practices](../../Xot/docs/filament_best_practices.md)
 - [XotBasePage Implementation](../../Xot/docs/xotbasepage_implementation.md)
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
+=======
+- [Filament Best Practices](../../xot/docs/filament_best_practices.md)
+- [XotBasePage Implementation](../../xot/docs/xotbasepage_implementation.md)
+- [DRY + KISS Principles](../../xot/docs/dry_kiss_principles.md)
+
+>>>>>>> laraxot/dev

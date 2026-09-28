@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "architecture rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Regole Architetturali
 
 ## Principi Fondamentali
@@ -145,7 +159,11 @@ class CustomMiddleware
 }
 
 // Non hardcodare percorsi delle risorse
+<<<<<<< HEAD
 <img src="[project-root]/laravel/public/images/avatar.png">
+=======
+<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
+>>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');

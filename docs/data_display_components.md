@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "data display components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "data display components"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Componenti Visualizzazione Dati
 
 ## 📊 Tabelle

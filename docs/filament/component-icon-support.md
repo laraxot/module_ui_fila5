@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Supporto per Icone nei Componenti Filament"
 type: concept
 tags: [component, icon, support]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
   - "./file-upload-component.md"
+=======
+title: "component icon support"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "component icon support"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Supporto per Icone nei Componenti Filament

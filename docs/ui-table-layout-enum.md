@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ui table layout enum"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ui table layout enum"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # TableLayoutEnum - Sistema di Layout per Tabelle Filament
 
 ## Panoramica
@@ -159,10 +173,19 @@ Seleziona le colonne appropriate in base al layout corrente.
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione Completa TableLayoutEnum](../../laravel/Modules/UI/docs/table-layout-enum-complete-guide.md)
 - [Modulo UI](../../laravel/Modules/UI/docs/README.md)
+=======
+- [Documentazione Completa TableLayoutEnum](../../laravel/modules/ui/docs/table-layout-enum-complete-guide.md)
+- [Modulo UI](../../laravel/modules/ui/docs/readme.md)
+>>>>>>> laraxot/dev
 - [Enum Standards](enum_standards.md)
 - [Filament Best Practices](filament-widget-best-practices.md)
 
 ## Ultimo Aggiornamento
+<<<<<<< HEAD
 2025-01-27 - Documentazione TableLayoutEnum nella root docs
+=======
+[DATE] - Documentazione TableLayoutEnum nella root docs
+>>>>>>> laraxot/dev

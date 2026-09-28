@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "REGOLA CRITICA: MAI ->label() nei Componenti Filament UI"
 type: rule
 tags: [label, rule]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+title: "no label rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "no label rule"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # REGOLA CRITICA: MAI ->label() nei Componenti Filament UI

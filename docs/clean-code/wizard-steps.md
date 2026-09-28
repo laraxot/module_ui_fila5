@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Gestione degli Step nei Wizard Filament"
 type: concept
 tags: [wizard, steps]
@@ -14,6 +15,16 @@ related:
   - "./syntax-error-fixes.md"
   - "./wizard-schema-aration.md"
   - "./wizard-schema-separation.md"
+=======
+title: "wizard steps"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "wizard steps"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Gestione degli Step nei Wizard Filament
@@ -132,7 +143,10 @@ class DoctorResource extends XotBaseResource
     }
 
     public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
     public function getFormSchemaWidget(): array
+=======
+>>>>>>> laraxot/dev
     {
         return [
             'wizard' => Forms\Components\Wizard::make([

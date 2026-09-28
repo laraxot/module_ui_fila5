@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan fixes summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan fixes summary"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Fixes Summary - UI and Xot Modules
 
 ## Overview

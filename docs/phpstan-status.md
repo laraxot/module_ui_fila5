@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan status"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan status"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Status - UI Module
 
 ## Current Status: ✅ PASSED
@@ -69,5 +83,16 @@ The UI module integrates with:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "phpstan status"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan status"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Status: ✅ PHPStan Level 10 Compliant*
 *

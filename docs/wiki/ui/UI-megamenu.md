@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "UI megamenu"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI megamenu"
 type: reference
 tags: [ui]

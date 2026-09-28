@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "dry kiss analysis "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry kiss analysis "
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # DRY & KISS Analysis - Modulo UI
 
 **Data:** 15 Ottobre 2025
@@ -29,8 +43,23 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 - ✅ Connection automatica da XotBaseModel
 
 ## 🔗 Collegamenti
+<<<<<<< HEAD
 [DRY/KISS Global](../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)
 
 ---
 
+=======
+[DRY/KISS Global](../../../docs/dry_kiss_analysis_2025-10-15.md)
+
+---
+
+title: "dry kiss analysis "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry kiss analysis "
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Conclusione:** 🏆 **GOLD STANDARD** per BaseModel minimali!

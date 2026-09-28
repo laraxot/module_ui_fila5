@@ -1,3 +1,21 @@
+<<<<<<< HEAD
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+=======
+---
+title: "changelog"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "changelog"
+issues: []
+discussions: []
+module: theme
+topic: changelog
+canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Page Builder"
 type: concept
 tags: [page, builder]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "page builder"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "page builder"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891

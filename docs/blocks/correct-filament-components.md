@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Uso Corretto dei Componenti Filament nei Blocchi"
 type: concept
 tags: [correct, filament, components]
@@ -14,6 +15,16 @@ related:
   - "./logo.md"
   - "./navigation.md"
   - "./user-dropdown.md"
+=======
+title: "correct filament components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "correct filament components"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Uso Corretto dei Componenti Filament nei Blocchi
@@ -140,4 +151,15 @@ Per il componente `user-dropdown.blade.php`, l'implementazione corretta è:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "correct filament components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "correct filament components"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 > **Nota Importante**: Questo documento segue la regola di documentazione UI per il progetto. Riferimenti a questo documento devono essere creati in tutti i moduli che utilizzano componenti Filament nei blocchi.

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "UI — indice della documentazione"
 description: "Documentazione del modulo UI: componenti di interfaccia condivisi."
 module: UI
@@ -11,6 +12,16 @@ related:
   - ../../../../docs/wiki/audits/docs-redundancy-audit.md
 issues: https://github.com/laraxot/module_ui_fila5/issues
 discussions: https://github.com/laraxot/module_ui_fila5/discussions
+=======
+title: "index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # UI Module Documentation
@@ -1155,10 +1166,17 @@ Common issues and solutions:
 7. **Testing**: Test components with various data types and edge cases
 
 ## Related Modules
+<<<<<<< HEAD
 - [Chart Module](../Chart/docs/index.md) - Chart generation and data processing
 - [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
 - [LimeSurvey Module](../Limesurvey/docs/index.md) - Survey data access with dynamic models
 - [Xot Module](../Xot/docs/index.md) - Base UI infrastructure and component patterns
+=======
+- [Chart Module](../chart/docs/index.md) - Chart generation and data processing
+- [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
+- [LimeSurvey Module](../limesurvey/docs/index.md) - Survey data access with dynamic models
+- [Xot Module](../xot/docs/index.md) - Base UI infrastructure and component patterns
+>>>>>>> laraxot/dev
 
 ## Statistical Analysis for Question Type Y
 
@@ -1398,6 +1416,7 @@ Specialized UI components for displaying statistics of Y type questions:
     </script>
 </div>
 ```
+<<<<<<< HEAD
 
 ---
 
@@ -4066,3 +4085,6 @@ laravel/Modules/UI/
 - [git-merge-conflict-inventory-1.md](./wiki/troubleshooting/git-merge-conflict-inventory-1.md)
 - [git-merge-conflict-inventory-2026-04-28.deprecated.md](./wiki/troubleshooting/git-merge-conflict-inventory-2026-04-28.deprecated.md)
 - [git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md)
+=======
+- [Conflict Resolution](conflict-resolution.md)
+>>>>>>> laraxot/dev

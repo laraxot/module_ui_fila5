@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ui blocks"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI blocks"
 type: reference
 tags: [ui]

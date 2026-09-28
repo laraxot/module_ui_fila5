@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Errore: Tag Mancante nei Dropdown List Items"
 type: concept
 tags: [dropdown, list, item, tag]
@@ -12,6 +13,16 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./common-errors.md"
   - "./static-instance-method-incompatibility.md"
+=======
+title: "dropdown list item tag"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dropdown list item tag"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Errore: Tag Mancante nei Dropdown List Items

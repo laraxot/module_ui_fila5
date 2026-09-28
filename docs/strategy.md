@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "strategy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "strategy"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Product Strategy: UI Module
 
 ## 🌍 Market Context

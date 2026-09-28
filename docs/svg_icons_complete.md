@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "svg icons complete"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg icons complete"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ SVG Icons - Automatic Registration COMPLETE
 
 **Data**: 2026-03-30  
@@ -117,6 +131,17 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "svg icons complete"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg icons complete"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Stato**: ✅ **SVG REGISTRATI AUTOMATICAMENTE**  
 **Icone**: **6 social brands**  
 **Utilizzo**: **`<x-filament::icon icon="ui-brands.facebook" />`**  

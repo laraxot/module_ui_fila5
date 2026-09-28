@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "SVG ICONS AUTOMATIC REGISTRATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SVG ICONS AUTOMATIC REGISTRATION"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ SVG Icons - Automatic Registration
 
 **Data**: 2026-03-30  
@@ -91,7 +105,11 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
+<<<<<<< HEAD
 # http://app.local/it/tests/homepage
+=======
+# http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
 ```
 
 ## 📊 Icon Inventory
@@ -131,6 +149,17 @@ php artisan view:clear
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "SVG ICONS AUTOMATIC REGISTRATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SVG ICONS AUTOMATIC REGISTRATION"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Stato**: ✅ **CORRETTO - AUTOMATICO**  
 **Usage**: `<x-svg name="brands.facebook" />`  
 **Config**: ❌ **NON SERVONO CONFIGURAZIONI**

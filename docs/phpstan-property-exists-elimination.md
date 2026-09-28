@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan property exists elimination"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan property exists elimination"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Property Exists Elimination - UI Module
 
 ## Overview

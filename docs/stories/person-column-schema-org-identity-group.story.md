@@ -1,4 +1,13 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "person column schema org identity group.story"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 id: story-ui-person-column-schema-org-identity-group
 slug: person-column-schema-org-identity-group
 title: "STORY — PersonColumn: componente riutilizzabile per l'identita' di una persona (schema.org/Person)"

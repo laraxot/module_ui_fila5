@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "brands icons integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "brands icons integration"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🎨 UI Brands Icons - Integration Guide
 
 **Data**: 2026-03-30  
@@ -281,6 +295,17 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "brands icons integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "brands icons integration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Stato**: ✅ **ICONE REGISTRATE E PRONTE ALL'USO**  
 **Usage**: `<x-filament::icon icon="ui-brands.facebook" />`  
 **Filament Way**: ✅ **Implemented**

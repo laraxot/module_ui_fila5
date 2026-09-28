@@ -1,7 +1,22 @@
+<<<<<<< HEAD
+=======
+---
+title: "troubleshooting"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "troubleshooting"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Troubleshooting
 
 ## Common Issues
 
+<<<<<<< HEAD
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../Xot/docs/troubleshooting.md).
 
 ---
@@ -749,3 +764,6 @@ Se il troubleshooting non risolve:
 - [PATTERNS](./PATTERNS.md) — Decisioni architetturali
 - [INDEX](./index.md) — Indice documentazione completo
 - [standards/ui-standards](./standards/ui-standards.md) — Component standards
+=======
+For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
+>>>>>>> laraxot/dev

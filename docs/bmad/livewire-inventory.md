@@ -1,4 +1,13 @@
 ---
+<<<<<<< HEAD
+=======
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "livewire inventory"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Inventario UI — Livewire HTTP → Filament widget"
 type: inventory
 module: UI

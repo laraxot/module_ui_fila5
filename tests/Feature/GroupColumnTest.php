@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
+<<<<<<< HEAD
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\SelectColumn;
@@ -45,6 +46,13 @@ function groupColumnViewTableBag(): array
     ];
 }
 
+=======
+use Filament\Tables\Columns\TextColumn;
+use Illuminate\View\ComponentAttributeBag;
+use Modules\UI\Filament\Tables\Columns\GroupColumn;
+use PHPUnit\Framework\Assert;
+
+>>>>>>> laraxot/dev
 // Test GroupColumn class
 describe('GroupColumn class', function (): void {
     it('can be instantiated with make()', function (): void {
@@ -93,6 +101,7 @@ describe('GroupColumn class', function (): void {
 
         Assert::assertSame('ui::filament.tables.columns.group', $property->getValue($column));
     });
+<<<<<<< HEAD
 
     it('propagates table mount to schema children', function (): void {
         $child = TextColumn::make('id');
@@ -106,6 +115,8 @@ describe('GroupColumn class', function (): void {
 
         Assert::assertSame($fakeTable, $tableProperty->getValue($child));
     });
+=======
+>>>>>>> laraxot/dev
 });
 
 // Test view rendering with data_get() fallback
@@ -185,6 +196,7 @@ describe('GroupColumn view rendering', function (): void {
             return;
         }
 
+<<<<<<< HEAD
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
@@ -192,6 +204,17 @@ describe('GroupColumn view rendering', function (): void {
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
+=======
+        /** @var view-string $viewName */
+        $viewName = 'ui::filament.tables.columns.group';
+
+        $html = view($viewName, [
+            'getFields' => fn () => $fields,
+            'getRecord' => fn () => $record,
+            'attributes' => new ComponentAttributeBag(),
+            'getExtraAttributes' => fn () => [],
+            'isInline' => fn () => false,
+>>>>>>> laraxot/dev
         ])->render();
 
         Assert::assertStringContainsString((string) 'Mario Rossi', (string) $html);
@@ -218,6 +241,7 @@ describe('GroupColumn view rendering', function (): void {
             return;
         }
 
+<<<<<<< HEAD
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
@@ -225,6 +249,17 @@ describe('GroupColumn view rendering', function (): void {
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
+=======
+        /** @var view-string $viewName */
+        $viewName = 'ui::filament.tables.columns.group';
+
+        $html = view($viewName, [
+            'getFields' => fn () => $fields,
+            'getRecord' => fn () => $record,
+            'attributes' => new ComponentAttributeBag(),
+            'getExtraAttributes' => fn () => [],
+            'isInline' => fn () => false,
+>>>>>>> laraxot/dev
         ])->render();
 
         Assert::assertStringContainsString((string) '12345', (string) $html);
@@ -243,7 +278,11 @@ describe('GroupColumn view rendering', function (): void {
 
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
+<<<<<<< HEAD
             return empty($value) && $value !== 0 && $value !== '0';
+=======
+            return empty($value) && 0 !== $value && '0' !== $value;
+>>>>>>> laraxot/dev
         };
 
         Assert::assertTrue($shouldSkip($record->empty_field));
@@ -251,6 +290,7 @@ describe('GroupColumn view rendering', function (): void {
         Assert::assertFalse($shouldSkip($record->zero_int));
         Assert::assertFalse($shouldSkip($record->zero_string));
     });
+<<<<<<< HEAD
 
     it('renders IconColumn boolean via toEmbeddedHtml instead of raw 1', function (): void {
         $record = ['ha_diritto' => 1];
@@ -330,4 +370,6 @@ describe('GroupColumn view rendering', function (): void {
             'Expected SelectColumn embedded HTML, got: '.$html
         );
     });
+=======
+>>>>>>> laraxot/dev
 });

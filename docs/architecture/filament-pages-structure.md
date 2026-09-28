@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Struttura Pagine Filament - Modulo UI"
 type: concept
 tags: [filament, pages, structure]
@@ -13,6 +14,16 @@ related:
   - "./component-registration.md"
   - "./filament-resources-structure.md"
   - "./structure.md"
+=======
+title: "filament pages structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament pages structure"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Struttura Pagine Filament - Modulo UI

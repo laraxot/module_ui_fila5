@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "map picker"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Map picker'
 module: UI
 type: reference

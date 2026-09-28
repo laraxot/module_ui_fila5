@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "icon state column business logic"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "icon state column business logic"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # IconStateColumn business logic
 
  ## Obiettivo

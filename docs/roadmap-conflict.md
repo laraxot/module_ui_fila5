@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "roadmap conflict"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap conflict"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🎨 UI MODULE - ROADMAP 2025
 
 **Modulo**: UI (User Interface Components & Design System)
@@ -8,9 +22,23 @@
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+title: "roadmap conflict"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap conflict"
+issues: []
+discussions: []
+## 🎯 MODULE OVERVIEW
+
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+>>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
 ```
@@ -289,8 +317,12 @@ UI Module
 
 ---
 
+<<<<<<< HEAD
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
+=======
+
+>>>>>>> laraxot/dev
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Best Practices per i Wizard in Filament"
 type: concept
 tags: [wizard, best, practices]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+title: "wizard best practices"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "wizard best practices"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Best Practices per i Wizard in Filament
@@ -31,7 +42,10 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 ```php
 // ✅ CORRETTO
 public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
 public function getFormSchemaWidget(): array
+=======
+>>>>>>> laraxot/dev
 {
     return [
         Forms\Components\Wizard::make([
@@ -59,7 +73,10 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 ```php
 // ❌ ERRATO
 public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
 public function getFormSchemaWidget(): array
+=======
+>>>>>>> laraxot/dev
 {
     return [
         Forms\Components\Wizard::make([
@@ -122,7 +139,10 @@ Ogni step di un wizard rappresenta una fase logica distinta del processo. Estrar
 class PatientResource extends XotBaseResource
 {
     public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
     public function getFormSchemaWidget(): array
+=======
+>>>>>>> laraxot/dev
     {
         return [
             Forms\Components\Wizard::make([
@@ -162,7 +182,10 @@ L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 
 ```php
 public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
 public function getFormSchemaWidget(): array
+=======
+>>>>>>> laraxot/dev
 {
     $steps = [
         self::getPersonalDataStep(),

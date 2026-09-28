@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Custom Theme"
 type: concept
 tags: [custom, theme]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "custom theme"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom theme"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss

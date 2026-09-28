@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "INDEX"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "concepts index — UI"
 type: index
 tags: [concepts, UI]

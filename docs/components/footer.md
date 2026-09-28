@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Footer Component"
 type: concept
 tags: [footer]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./full-calendar-1.md"
   - "./full-calendar.md"
+=======
+title: "footer"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "footer"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Footer Component
@@ -35,7 +46,11 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 ### Documentazione Principale
 - [Documentazione Dettagliata del Footer](../../../../themes/one/docs/components/layouts/footer.md)
 - [Guida allo Stile del Tema One](../../../../themes/one/docs/style_guide.md)
+<<<<<<< HEAD
 - [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
+=======
+- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
+>>>>>>> laraxot/dev
 
 ### Best Practices e Linee Guida
 - [Best Practices Components](../../../cms/docs/best-practices/components.md)

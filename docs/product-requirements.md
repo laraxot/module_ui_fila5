@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "product requirements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product requirements"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Product Requirements Document (PRD)
 
 ## Metadata
@@ -13,6 +27,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "product requirements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product requirements"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 1. Panoramica del Prodotto
 
 ### Descrizione Breve

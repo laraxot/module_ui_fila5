@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "bugfix icons missing "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix icons missing "
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Bug Fix: Icone Mancanti - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -94,6 +108,7 @@ php artisan config:clear
 
 - [Sistema Icone UI](../icon-system.md)
 - [Blade Icons Documentation](../blade-icons.md)
+<<<<<<< HEAD
 - [XotBaseServiceProvider](../XotBaseServiceProvider.md)
 
 ---
@@ -102,4 +117,21 @@ php artisan config:clear
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
+=======
+- [XotBaseServiceProvider](../xotbaseserviceprovider.md)
+
+---
+
+title: "bugfix icons missing "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix icons missing "
+issues: []
+discussions: []
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
+>>>>>>> laraxot/dev
 **Stato**: ✅ Risolto

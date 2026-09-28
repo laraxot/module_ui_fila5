@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Componente FileUpload in Filament"
 type: concept
 tags: [file, upload, component]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+title: "file upload component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "file upload component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Componente FileUpload in Filament

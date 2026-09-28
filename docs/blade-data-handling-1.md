@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "blade data handling 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "blade data handling 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Data Handling in Blade Components
 
 This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.
@@ -62,6 +76,7 @@ Components should never rely on variables that haven't been explicitly defined a
         <h2>{{ $prop1 }}</h2>
     @endif
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_8HIMyn
 =======
 =======
@@ -86,6 +101,8 @@ Components should never rely on variables that haven't been explicitly defined a
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7ugBYl
 >>>>>>> .merge_file_Hn35Is
+=======
+>>>>>>> laraxot/dev
     @if($prop2)
         <p>{{ $prop2 }}</p>
     @endif
@@ -118,6 +135,7 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ```blade
 <!-- INCORRECT: Hard-coded project references -->
+<<<<<<< HEAD
 <<<<<<< .merge_file_8HIMyn
 <div class="title">Welcome to <nome progetto></div>
 =======
@@ -137,6 +155,9 @@ Components should never rely on variables that haven't been explicitly defined a
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7ugBYl
 >>>>>>> .merge_file_Hn35Is
+=======
+<div class="title">Welcome to <nome progetto></div>
+>>>>>>> laraxot/dev
 
 <!-- CORRECT: Dynamic configuration -->
 <div class="title">Welcome to {{ config('app.name') }}</div>

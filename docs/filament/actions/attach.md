@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Attach"
 type: concept
 tags: [attach]
@@ -11,6 +12,16 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./pdf.md"
+=======
+title: "attach"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "attach"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 ```php

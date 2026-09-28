@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "groupcolumn child rendering"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "groupcolumn child rendering"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # GroupColumn — rendering delle colonne figlie
 
 ## Sintomo

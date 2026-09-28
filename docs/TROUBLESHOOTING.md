@@ -1,4 +1,11 @@
 ---
+<<<<<<< HEAD
+=======
+created: 2026-09-26
+qmd: "TROUBLESHOOTING"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: UI Module — Troubleshooting Guide
 module: UI
 type: troubleshooting

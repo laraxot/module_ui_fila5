@@ -1,5 +1,6 @@
 ---
 title: "blocks"
+<<<<<<< HEAD
 type: concept
 tags: [blocks]
 created: 2026-07-14
@@ -18,6 +19,15 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
   - "./custom-theme-1.md"
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "blocks"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # blocks

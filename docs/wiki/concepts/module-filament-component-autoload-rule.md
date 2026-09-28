@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Module Filament Component Autoload Rule"
 type: rule
 tags: [module, filament, component, autoload]
@@ -18,6 +19,16 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+=======
+title: "module filament component autoload rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "module filament component autoload rule"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Module Filament Component Autoload Rule
@@ -33,8 +44,11 @@ Non usare path paralleli fuori da `app/` per classi namespaced `Modules\UI\...`.
 ## Perche'
 
 L'errore recente su `EnumSelect` non era un problema del widget Fixcity ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
+<<<<<<< HEAD
 L'errore recente su `EnumSelect` non era un problema del widget <nome progetto> ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
 L'errore recente su `EnumSelect` non era un problema del widget progetto corrente ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
+=======
+>>>>>>> laraxot/dev
 
 ## Best Practices
 

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "megamenu"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Megamenu — risorse esterne'
 module: UI
 type: reference

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 module: theme
 topic: roadmap
 canonical: ../../../../Themes/docs/shared-components/q4-roadmap.md
@@ -11,6 +12,19 @@ related:
   - "./02-goals.md"
   - "./02-next.md"
   - "./03-later.md"
+=======
+title: "roadmap"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap"
+issues: []
+discussions: []
+module: theme
+topic: roadmap
+canonical: ../../../../Themes/docs/shared-components/q4-roadmap.md
+>>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/q4-roadmap.md

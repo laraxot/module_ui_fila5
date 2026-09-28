@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "EnumSelect Contract And False Friends"
 type: concept
 tags: [enum, select, contract, false]
@@ -18,6 +19,16 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-usage.md"
+=======
+title: "enum select contract and false friends"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "enum select contract and false friends"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # EnumSelect Contract And False Friends
@@ -34,8 +45,12 @@ Questa pagina fissa il contratto minimo del componente.
 
 ## Best Practices
 
+<<<<<<< HEAD
 - Estendere `Modules\Xot\Filament\Forms\Components\XotBaseSelect`, mantenendo compatibilita' totale con la API Filament parent.
 - In `make(?string $name = null)`, chiamare `parent::make()` nel ramo `null` e `parent::make($name)` solo nel ramo stringa: preserva la risoluzione del nome di default senza passare `null` al contratto statico Xot.
+=======
+- Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
+>>>>>>> laraxot/dev
 - Dichiarare `public static function make(?string $name = null): static`.
 - Mantenere **identica** la firma di `enum()` al parent Filament: `enum(string|Closure|null $enum): static`.
 - Validare sempre che la classe passata a `->enum()` sia una backed enum esistente.

@@ -1,5 +1,6 @@
 ---
 title: "eav"
+<<<<<<< HEAD
 type: concept
 tags: [eav]
 created: 2026-07-14
@@ -18,6 +19,15 @@ related:
   - "./ci.md"
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "eav"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # eav

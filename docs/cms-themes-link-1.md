@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "cms themes link 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cms themes link 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Collegamenti ai Temi nel Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms per quanto riguarda i temi.

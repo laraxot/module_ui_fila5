@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 module: theme
 topic: list-records
 canonical: ../../../../Themes/docs/shared-components/listrecords-1.md
@@ -14,3 +15,19 @@ related:
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/listrecords-1.md
+=======
+title: "list records"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "list records"
+issues: []
+discussions: []
+module: theme
+topic: list-records
+canonical: ../../../../Themes/docs/shared-components/ListRecords.md
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/ListRecords.md
+>>>>>>> laraxot/dev

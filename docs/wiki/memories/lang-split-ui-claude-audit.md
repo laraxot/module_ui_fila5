@@ -7,8 +7,16 @@ created: 2026-07-09
 updated: 2026-07-09
 qmd: "UI icon_state_group opening_hours_field split claude-audit"
 issues:
+<<<<<<< HEAD
 discussions:
 related:
+=======
+  - "https://github.com/laraxot/module_ui_fila5/issues/1"
+discussions:
+  - "https://github.com/laraxot/base_fixcity_fila5/discussions/304"
+related:
+  - ./claude-audit-static.md
+>>>>>>> laraxot/dev
 ---
 
 # Split lang UI (claude-audit)

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament 4x upgrade"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament 4x upgrade"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Filament 4.x Upgrade - Modulo UI
 
 **Data**: 2025-09-30

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "flip_cards"
 type: concept
 tags: [flip, cards]
@@ -16,6 +17,16 @@ related:
   - "./ci.md"
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
+=======
+title: "flip cards"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "flip cards"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # flip_cards
@@ -33,3 +44,21 @@ https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+<<<<<<< HEAD
+=======
+# flip_cards
+
+<!-- Contenuto migrato da _docs/flip_cards.txt -->
+
+https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
+
+https://codepen.io/desandro/pen/LmWozd
+
+https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
+
+https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6
+
+https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
+
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+>>>>>>> laraxot/dev

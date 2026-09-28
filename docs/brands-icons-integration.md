@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "brands icons integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "brands icons integration"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🎨 UI Brands Icons - Integration Guide
 
 **Data**: 2026-03-30  
@@ -228,8 +242,38 @@ $socialLinks = [
 php artisan view:clear
 
 # Test in browser
+<<<<<<< HEAD
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
+=======
+---
+title: "brands icons integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "brands icons integration"
+issues: []
+discussions: []
+---
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
+---
+---
+# http://fixcity.local/it/tests/homepage
+
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
+---
+# http://fixcity.local/it/tests/homepage
+---
+# http://app.local/it/tests/homepage
+---
+# http://<nome progetto>.local/it/tests/homepage
+---
+---
+---
+>>>>>>> laraxot/dev
 ```
 
 ### Verify SVG Files

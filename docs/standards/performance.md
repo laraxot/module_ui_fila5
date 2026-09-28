@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Standard di Performance"
 type: concept
 tags: [performance]
@@ -16,6 +17,16 @@ related:
   - "./form-standards-1.md"
   - "./form-standards.md"
   - "./ui-standards.md"
+=======
+title: "performance"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "performance"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Standard di Performance

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Blocks 1"
 type: concept
 tags: [blocks]
@@ -18,6 +19,16 @@ related:
   - "./changelog-1.md"
   - "./changelog-2.md"
   - "./changelog.md"
+=======
+title: "blocks"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "blocks"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://github.com/whitecube/nova-flexible-content

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "global search"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Global search — risorse esterne'
 module: UI
 type: reference

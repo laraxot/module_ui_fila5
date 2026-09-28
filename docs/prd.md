@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "prd"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "prd"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PRD: UI Module
 
 ## 📋 Overview
@@ -28,6 +42,7 @@ Modern, clean "Bento Grid" style with high contrast and clear typography for Pub
 ## 🚫 Out of Scope
 - Business logic.
 - Backend API development.
+<<<<<<< HEAD
 
 ---
 
@@ -60,3 +75,5 @@ UI module for Laraxot platform providing core functionality.
 - PHPStan Level 10 compliance
 - Pest test coverage >90%
 - Integration testing
+=======
+>>>>>>> laraxot/dev

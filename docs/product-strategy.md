@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "product strategy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product strategy"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # UI - Product Strategy
 
 > Strategia prodotto. Modulo.
@@ -47,6 +61,7 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 
 ## Regola architetturale
+<<<<<<< HEAD
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -138,6 +153,8 @@ Easy to use and extend.
 ---
 
 *Last Updated: March 12, 2026*
+=======
+>>>>>>> laraxot/dev
 
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`

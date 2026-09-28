@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "person column schema org aggregate.story"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "person column schema org aggregate.story"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Story: PersonColumn — aggregato riutilizzabile anagrafica + contatto
 
 ## Contesto (BMAD: dev)

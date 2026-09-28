@@ -1,10 +1,23 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pdf"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: Filament Action PDF
 description: Azioni Filament per creare PDF
 extends: _layouts.documentation
 section: content
+<<<<<<< HEAD
 related:
   - "./attach.md"
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Metodo 1

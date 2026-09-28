@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Form Component"
 type: concept
 tags: [form, component]
@@ -14,6 +15,16 @@ related:
   - "./component-system.md"
   - "./form-components.md"
   - "./theme-system.md"
+=======
+title: "form component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "form component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Form Component

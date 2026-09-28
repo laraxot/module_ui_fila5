@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "geo map widget"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Geo map widget'
 module: UI
 type: reference

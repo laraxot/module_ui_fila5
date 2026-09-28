@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "UI ubuntu"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI ubuntu"
 type: reference
 tags: [ui]

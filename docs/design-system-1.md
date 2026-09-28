@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "design system 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "design system 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Design System
 
 ## Panoramica
@@ -82,6 +96,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
     Contenuto della card
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZoWcB
 =======
 =======
@@ -102,6 +117,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8lfGE4
 >>>>>>> .merge_file_AuRhQy
+=======
+>>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
     </x-slot>

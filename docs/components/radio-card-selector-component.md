@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "RadioCardSelector Component - Modulo UI"
 type: concept
 tags: [radio, card, selector, component]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "radio card selector component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio card selector component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # RadioCardSelector Component - Modulo UI
@@ -299,6 +310,17 @@ RadioCardSelector::make('item')
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "radio card selector component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio card selector component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Autore**: Implementazione completata per <nome progetto> widget
 **Ultima modifica**: Gennaio 2025
 **Versione**: 1.0.0

@@ -1,4 +1,15 @@
 ---
+<<<<<<< HEAD
+=======
+title: "reusable filament components pattern"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "reusable filament components pattern"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 name: reusable-filament-components-pattern
 description: "Un componente Filament riutilizzabile porta con sé la sua logica di styling/comportamento, non va sparpagliata nel Resource che lo usa"
 metadata:

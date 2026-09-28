@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "filament"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Filament — risorse esterne'
 module: UI
 type: reference

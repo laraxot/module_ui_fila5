@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ui qrcode"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI qrcode"
 type: reference
 tags: [ui]

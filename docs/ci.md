@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ci"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ci"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 ---------------------------------------------------------------------------------------------------
 Automatic Code formatting for Apps with Laravel Code Style
 https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style

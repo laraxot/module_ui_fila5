@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Registrazione dei Componenti nei Moduli"
 type: concept
 tags: [component, registration]
@@ -13,6 +14,16 @@ related:
   - "./filament-pages-structure.md"
   - "./filament-resources-structure.md"
   - "./structure.md"
+=======
+title: "component registration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "component registration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Registrazione dei Componenti nei Moduli

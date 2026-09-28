@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "USER RESEARCH"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "USER RESEARCH"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # UI Module - User Research
 
 **Module:** UI  
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "USER RESEARCH"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "USER RESEARCH"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Research Goals
 
 1. Understand component needs

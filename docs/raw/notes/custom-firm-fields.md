@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "custom firm fields"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Custom firm fields — risorse esterne'
 module: UI
 type: reference

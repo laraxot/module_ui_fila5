@@ -24,6 +24,7 @@ uses(TestCase::class);
  * connessione. Non è una scorciatoia — è il modo di provare la logica dell'azione invece
  * della disponibilità del database.
  *
+<<<<<<< HEAD
  * @param  array<int, string>  $roles
  * @param  array<int, string>  $permissions
  * @param  array<string, mixed>  $attributes
@@ -32,6 +33,15 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
 {
     $user = new class extends User
     {
+=======
+ * @param array<int, string>   $roles
+ * @param array<int, string>   $permissions
+ * @param array<string, mixed> $attributes
+ */
+function uiAuthUser(array $roles = [], array $permissions = [], array $attributes = []): Authenticatable
+{
+    $user = new class extends User {
+>>>>>>> laraxot/dev
         public ?object $profile = null;
 
         public function relationLoaded(mixed $key): bool
@@ -40,7 +50,11 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
                 return false;
             }
 
+<<<<<<< HEAD
             return $key === 'profile' && $this->profile !== null;
+=======
+            return 'profile' === $key && null !== $this->profile;
+>>>>>>> laraxot/dev
         }
     };
     $user->forceFill(array_merge([
@@ -50,12 +64,20 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
     ], $attributes));
 
     $user->setRelation('roles', collect(array_map(
+<<<<<<< HEAD
         static fn (string $name): Role => tap(new Role)->forceFill(['name' => $name]),
+=======
+        static fn (string $name): Role => tap(new Role())->forceFill(['name' => $name]),
+>>>>>>> laraxot/dev
         $roles,
     )));
 
     $user->setRelation('permissions', collect(array_map(
+<<<<<<< HEAD
         static fn (string $name): Permission => tap(new Permission)->forceFill(['name' => $name]),
+=======
+        static fn (string $name): Permission => tap(new Permission())->forceFill(['name' => $name]),
+>>>>>>> laraxot/dev
         $permissions,
     )));
 

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "mcp server recommended"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp server recommended"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # MCP Server Consigliati per il Modulo UI
 
 ## Scopo del Modulo
@@ -21,6 +35,7 @@ Gestione interfaccia utente, componenti, asset e frontend.
 
 ## Note
 - Personalizza la configurazione per esigenze di frontend avanzato.
+<<<<<<< HEAD
 # MCP Server Consigliati per il Modulo UI
 ## Scopo del Modulo
 Gestione interfaccia utente, componenti, asset e frontend.
@@ -39,3 +54,5 @@ Gestione interfaccia utente, componenti, asset e frontend.
 }
 ```
 ## Note
+=======
+>>>>>>> laraxot/dev

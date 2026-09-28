@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Task: Refactoring Componenti Complessi - UI"
 type: concept
 tags: [refactor, complex, components]
@@ -19,6 +20,16 @@ related:
   - "./tasks-index.md"
   - "./ui-cleanup-docs.md"
   - "./ui-filament-v5.md"
+=======
+title: "refactor complex components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "refactor complex components"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Task: Refactoring Componenti Complessi - UI

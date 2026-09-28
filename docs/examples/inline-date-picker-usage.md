@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Esempi di Utilizzo di InlineDatePicker"
 type: concept
 tags: [inline, date, picker, usage]
@@ -11,6 +12,16 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./table-layout-implementation-example.md"
+=======
+title: "inline date picker usage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "inline date picker usage"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Esempi di Utilizzo di InlineDatePicker
@@ -440,5 +451,16 @@ class InlineDatePickerTest extends TestCase
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "inline date picker usage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "inline date picker usage"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Ultima modifica: Gennaio 2025*
 *Versione: 1.0.0*

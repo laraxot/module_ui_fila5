@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Ubuntu"
 type: concept
 tags: [ubuntu]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "ubuntu"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ubuntu"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 sudo apt-get install jpegoptim

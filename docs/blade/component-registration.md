@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Registrazione Componenti Blade nei Moduli"
 type: concept
 tags: [component, registration]
@@ -11,6 +12,16 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./filament-components.md"
+=======
+title: "component registration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "component registration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Registrazione Componenti Blade nei Moduli

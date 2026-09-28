@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Colli di Bottiglia - Modulo UI"
 type: concept
 tags: [bottlenecks]
@@ -14,6 +15,16 @@ related:
   - "./form-component.md"
   - "./form-components.md"
   - "./theme-system.md"
+=======
+title: "bottlenecks"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bottlenecks"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Colli di Bottiglia - Modulo UI

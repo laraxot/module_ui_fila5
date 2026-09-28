@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "full calendar"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "full calendar"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # FullCalendar (saade/filament-fullcalendar) – Integrazione PTVX
 
 ## Introduzione
@@ -156,8 +170,16 @@ public function eventDidMount(): string
 - [Documentazione ufficiale](https://filamentphp.com/plugins/saade-fullcalendar)
 - [GitHub](https://github.com/saade/filament-fullcalendar)
 - [Esempio Laravel Daily](https://laraveldaily.com/post/filament-show-calendar-of-tasks-with-fullcalendar)
+<<<<<<< HEAD
 - [Modules/UI/docs/full-calendar.md](../Modules/UI/docs/full-calendar.md)
 - [Regole .mdc](../.cursor/rules/cursor.mdc), [../.windsurf/rules/windsurf.mdc]
 
 ## Ultimo aggiornamento
 2025-06-04
+=======
+- [Modules/UI/docs/full-calendar.md](../modules/ui/docs/full-calendar.md)
+- [Regole .mdc](../.cursor/rules/cursor.mdc), [../.windsurf/rules/windsurf.mdc]
+
+## Ultimo aggiornamento
+[DATE]
+>>>>>>> laraxot/dev

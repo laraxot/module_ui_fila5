@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "RadioCollection: Riassunto Correzione & Risultati FINALI"
 type: concept
 tags: [radio, collection, fix, sumy]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "radio collection fix sumy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection fix sumy"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # RadioCollection: Riassunto Correzione & Risultati FINALI
@@ -151,6 +162,17 @@ Il componente rispetta la **dignità** dell'utente fornendo feedback immediato, 
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "radio collection fix sumy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection fix sumy"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Status**: ✅ **COMPLETATO**
 **Versione**: RadioCollection v2.0.0 Quantum
 **Stabilità**: Production Ready

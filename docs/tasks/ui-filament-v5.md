@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Task: UI Filament v5 \u0026 Tailwind v4 Alignment"
 type: concept
 tags: [filament]
@@ -19,6 +20,16 @@ related:
   - "./refactor-complex-components.md"
   - "./tasks-index.md"
   - "./ui-cleanup-docs.md"
+=======
+title: "ui filament v5"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ui filament v5"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Task: UI Filament v5 \u0026 Tailwind v4 Alignment

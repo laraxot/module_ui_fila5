@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Navbar"
 type: concept
 tags: [navbar]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "navbar"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "navbar"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://tw-elements.com/docs/standard/navigation/navbar/

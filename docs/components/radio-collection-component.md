@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "RadioCollection Component: Analisi Ontologica e Fenomenologica"
 type: concept
 tags: [radio, collection, component]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "radio collection component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # RadioCollection Component: Analisi Ontologica e Fenomenologica
@@ -286,6 +297,17 @@ wire:model.live="{{ $getStatePath() }}"
 - [Design Pattern Zen](./design-pattern-zen.md)
 - [JavaScript Phenomenology](./javascript-phenomenology.md)
 ---
+<<<<<<< HEAD
+=======
+title: "radio collection component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *"In ogni scelta si cela l'universo intero, e in ogni click si manifesta la volontà dell'essere digitale."*
 **Ultimo aggiornamento ontologico**: Dicembre 2024
 **Versione dell'esistenza**: 1.0.0

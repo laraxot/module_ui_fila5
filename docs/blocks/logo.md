@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Logo Component"
 type: concept
 tags: [logo]
@@ -14,6 +15,16 @@ related:
   - "./filament-component-integration.md"
   - "./navigation.md"
   - "./user-dropdown.md"
+=======
+title: "logo"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "logo"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Logo Component

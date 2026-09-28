@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "User Dropdown Component"
 type: concept
 tags: [user, dropdown]
@@ -14,6 +15,16 @@ related:
   - "./filament-component-integration.md"
   - "./logo.md"
   - "./navigation.md"
+=======
+title: "user dropdown"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "user dropdown"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # User Dropdown Component

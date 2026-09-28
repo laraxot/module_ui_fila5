@@ -1,4 +1,11 @@
 ---
+<<<<<<< HEAD
+=======
+tags: [documentation]
+qmd: "event detail page"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "event-detail-page"
 type: source
 module: UI

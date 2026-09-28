@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DRY & KISS Analysis - Modulo UI
 
 **Data:** 15 Ottobre 2025
@@ -55,3 +56,20 @@ Models: 5 | Resources: 0 | Services: 1 | Actions: 5 | Docs: 233 🟡
 Docs cleanup (1 sett)
 
 **Status:** 🟢 OTTIMO, docs da consolidare
+=======
+---
+title: "dry kiss analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry kiss analysis"
+issues: []
+discussions: []
+module: theme
+topic: dry-kiss-analysis
+canonical: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-Modules.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-Modules.md
+>>>>>>> laraxot/dev

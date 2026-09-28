@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Themes - Ottimizzazioni e Correzioni"
 type: concept
 tags: [optimizations]
@@ -15,6 +16,16 @@ related:
   - "./compilation.md"
   - "./components.md"
   - "./schemaless-attributes-guide.md"
+=======
+title: "optimizations"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "optimizations"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Themes - Ottimizzazioni e Correzioni
@@ -721,4 +732,15 @@ module.exports = {
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "optimizations"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "optimizations"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Documentazione aggiornata: $(date +%Y-%m-%d)*

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Flip Cards"
 type: concept
 tags: [flip, cards]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "flip cards"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "flip cards"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect

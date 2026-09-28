@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "bottlenecks"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bottlenecks"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Analisi Bottlenecks Modulo UI
 
 ## Performance
@@ -127,7 +141,11 @@
 
 ### Collegamenti Interni
 - [Roadmap](roadmap.md)
+<<<<<<< HEAD
 - [Best Practices](BEST-PRACTICES.md)
+=======
+- [Best Practices](best-practices.md)
+>>>>>>> laraxot/dev
 ### Versione HEAD
 
 - [Testing](testing.md)
@@ -137,6 +155,7 @@
 - [Testing](testing.md)
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../../bashscripts/docs/bottlenecks.md)
+<<<<<<< HEAD
 * [bottlenecks.md](../../Chart/docs/bottlenecks.md)
 * [bottlenecks.md](../../Chart/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../Gdpr/docs/bottlenecks.md)
@@ -158,3 +177,34 @@
 * [bottlenecks.md](../../Cms/docs/bottlenecks.md)
 
 ---
+=======
+* [bottlenecks.md](../../chart/docs/bottlenecks.md)
+* [bottlenecks.md](../../chart/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../gdpr/docs/bottlenecks.md)
+* [bottlenecks.md](../../gdpr/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../xot/docs/bottlenecks.md)
+* [bottlenecks.md](../../xot/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../xot/docs/roadmap/bottlenecks.md)
+* [bottlenecks.md](../../dental/docs/bottlenecks.md)
+* [bottlenecks.md](../../user/docs/bottlenecks.md)
+* [bottlenecks.md](../../user/docs/roadmap/bottlenecks.md)
+* [bottlenecks.md](roadmap/bottlenecks.md)
+* [bottlenecks.md](../../lang/docs/bottlenecks.md)
+* [bottlenecks.md](../../lang/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../job/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../media/docs/bottlenecks.md)
+* [bottlenecks.md](../../media/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../activity/docs/bottlenecks.md)
+* [bottlenecks.md](../../patient/docs/roadmap/bottlenecks.md)
+* [bottlenecks.md](../../cms/docs/bottlenecks.md)
+
+---
+title: "bottlenecks"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bottlenecks"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Sistema Componenti UI"
 type: concept
 tags: [component, system]
@@ -14,6 +15,16 @@ related:
   - "./form-component.md"
   - "./form-components.md"
   - "./theme-system.md"
+=======
+title: "component system"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "component system"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Sistema Componenti UI

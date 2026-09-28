@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -258,3 +259,20 @@ To use the widget in a Blade view:
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
 *Last updated: June 2025*
+=======
+---
+title: "full calendar"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "full calendar"
+issues: []
+discussions: []
+module: theme
+topic: full_calendar
+canonical: ../../../../Themes/docs/shared-components/full_calendar.md
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/full_calendar.md
+>>>>>>> laraxot/dev

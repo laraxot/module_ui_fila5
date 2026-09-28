@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ubuntu 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ubuntu 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
 sudo apt-get install pngquant // For PNG Image

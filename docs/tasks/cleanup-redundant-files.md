@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Task: Cleanup Redundant Files (UI Module)"
 type: concept
 tags: [cleanup, redundant, files]
@@ -19,6 +20,16 @@ related:
   - "./tasks-index.md"
   - "./ui-cleanup-docs.md"
   - "./ui-filament-v5.md"
+=======
+title: "cleanup redundant files"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cleanup redundant files"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Task: Cleanup Redundant Files (UI Module)

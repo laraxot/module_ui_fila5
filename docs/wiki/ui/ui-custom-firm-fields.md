@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ui custom firm fields"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI custom firm fields"
 type: reference
 tags: [ui]

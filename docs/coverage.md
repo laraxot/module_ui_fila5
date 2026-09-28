@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Code Coverage: UI
 
 ## 2026-09-04 — Concrete models → contracts (UI, User modules)
@@ -38,6 +39,21 @@ Story: `docs/stories/ui-services-to-actions.story.md`.
 ---
 
 **Date:** 2026-01-17
+=======
+---
+title: "coverage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "coverage"
+issues: []
+discussions: []
+---
+
+# Code Coverage: UI
+
+>>>>>>> laraxot/dev
 **Lines Coverage:** N/A (Failed to parse)
 **Test Exit Code:** 2
 
@@ -122,6 +138,7 @@ endor/laravel/framework/src/Illuminate/Container/Container.php:1415
 
 
 ```
+<<<<<<< HEAD
 
 ---
 
@@ -465,3 +482,5 @@ Tests: 6 failed, 1 risky, 109 skipped, 199 passed (654 assertions)
 **Previous:** 76 failed, 42 passed (2026-01-17)
 **Current:** 6 failed, 199 passed (improvement)
 **Action:** Address 6 test failures before final merge
+=======
+>>>>>>> laraxot/dev

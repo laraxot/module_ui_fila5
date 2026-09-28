@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Api"
 type: concept
 tags: [api]
@@ -18,6 +19,16 @@ related:
   - "./changelog-1.md"
   - "./changelog-2.md"
   - "./changelog.md"
+=======
+title: "api"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "api"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 -------------------------------------------------------------------------------------------------

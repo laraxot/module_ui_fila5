@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "bugfix table layout action "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix table layout action "
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -140,7 +154,11 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
+<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
+=======
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+>>>>>>> laraxot/dev
 ```
 
 ### Risultati Test
@@ -173,8 +191,22 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 
 ---
 
+<<<<<<< HEAD
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
+=======
+title: "bugfix table layout action "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix table layout action "
+issues: []
+discussions: []
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
+>>>>>>> laraxot/dev
 **Stato**: ✅ Risolto

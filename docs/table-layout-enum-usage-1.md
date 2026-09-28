@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "table layout enum usage 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "table layout enum usage 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # TableLayoutEnum Usage Guide
 
 ## Nuovo Approccio (Corretto)
@@ -43,6 +57,7 @@ class ListUsers extends ListRecords
                 Tables\Columns\TextColumn::make('email'),
             ]),
         ];
+<<<<<<< HEAD
 <<<<<<< .merge_file_wJzR5N
 =======
 <<<<<<< HEAD
@@ -62,6 +77,8 @@ class ListUsers extends ListRecords
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_aVXKHy
 >>>>>>> .merge_file_Az7P0S
+=======
+>>>>>>> laraxot/dev
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }

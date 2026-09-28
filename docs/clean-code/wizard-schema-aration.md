@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Separazione dello Schema dagli Step nei Wizard Filament"
 type: concept
 tags: [wizard, schema, aration]
@@ -14,6 +15,16 @@ related:
   - "./syntax-error-fixes.md"
   - "./wizard-schema-separation.md"
   - "./wizard-steps.md"
+=======
+title: "wizard schema aration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "wizard schema aration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Separazione dello Schema dagli Step nei Wizard Filament

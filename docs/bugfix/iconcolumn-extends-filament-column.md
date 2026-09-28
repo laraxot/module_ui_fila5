@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Bugfix: IconColumn Estende Direttamente Filament Column"
 type: concept
 tags: [iconcolumn, extends, filament, column]
@@ -12,6 +13,16 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./groupcolumn-architectural-violations.md"
   - "./iconcolumn-view-path-fix.md"
+=======
+title: "iconcolumn extends filament column"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "iconcolumn extends filament column"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Bugfix: IconColumn Estende Direttamente Filament Column

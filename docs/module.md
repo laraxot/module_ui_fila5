@@ -1,4 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI Module — Doctrine"
 type: doctrine
 tags: [ui, design-system, module-doctrine]

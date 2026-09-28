@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament fileupload"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament fileupload"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # FileUpload Component in Filament
 
 ## Metodi Disponibili

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "StudioCardSelector Component - Modulo UI"
 type: concept
 tags: [studio, card, selector, component]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "studio card selector component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "studio card selector component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # StudioCardSelector Component - Modulo UI
@@ -524,6 +535,17 @@ class StudioCardSelectorTest extends DuskTestCase
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "studio card selector component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "studio card selector component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 **Complexity**: 🟡 Medium - Custom view with Alpine.js

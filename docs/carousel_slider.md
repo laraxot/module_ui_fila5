@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "carousel slider"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Carousel slider — risorse esterne'
 module: UI
 type: reference

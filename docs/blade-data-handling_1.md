@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "blade data handling 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "blade data handling 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Data Handling in Blade Components
 
 This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ubuntu"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Ubuntu'
 module: UI
 type: reference

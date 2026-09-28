@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "InlineDatePicker Component"
 type: concept
 tags: [inline, date, picker]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "inline date picker"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "inline date picker"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # InlineDatePicker Component
@@ -416,6 +427,17 @@ public function register(): void
         Js::make('inline-date-picker', __DIR__.'/../resources/js/inline-date-picker.js'),
     ], 'ui');
 ---
+<<<<<<< HEAD
+=======
+title: "inline date picker"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "inline date picker"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Ultimo aggiornamento**: Dicembre 2024
 **Versione**: 2.0 con Navigazione Temporale Avanzata
 **Compatibilità**: Laraxot , Filament 4.x, Alpine.js 3.x

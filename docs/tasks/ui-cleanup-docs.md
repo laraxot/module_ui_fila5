@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Task: UI Docs Cleanup"
 type: concept
 tags: [cleanup, docs]
@@ -19,6 +20,16 @@ related:
   - "./refactor-complex-components.md"
   - "./tasks-index.md"
   - "./ui-filament-v5.md"
+=======
+title: "ui cleanup docs"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ui cleanup docs"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Task: UI Docs Cleanup

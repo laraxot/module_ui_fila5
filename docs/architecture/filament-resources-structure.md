@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Struttura delle Filament Resources"
 type: concept
 tags: [filament, resources, structure]
@@ -13,6 +14,16 @@ related:
   - "./component-registration.md"
   - "./filament-pages-structure.md"
   - "./structure.md"
+=======
+title: "filament resources structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament resources structure"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Struttura delle Filament Resources

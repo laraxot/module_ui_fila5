@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Form Components - 95% Completato"
 type: concept
 tags: [form, components]
@@ -14,6 +15,16 @@ related:
   - "./component-system.md"
   - "./form-component.md"
   - "./theme-system.md"
+=======
+title: "form components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "form components"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Form Components - 95% Completato

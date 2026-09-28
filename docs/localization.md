@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "localization"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "localization"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Localizzazione UI
 
 ## Integrazione con Laravel Localization
@@ -125,5 +139,10 @@ Modules/UI/
 - [Documentazione Laravel Localization](https://github.com/mcamara/laravel-localization)
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Documentazione Folio](https://laravel.com/docs/folio)
+<<<<<<< HEAD
 - [Best Practices UI](./UI_BEST_PRACTICES.md)
 - [Guida Componenti](./COMPONENTS_GUIDE.md)
+=======
+- [Best Practices UI](./ui_best_practices.md)
+- [Guida Componenti](./components_guide.md)
+>>>>>>> laraxot/dev

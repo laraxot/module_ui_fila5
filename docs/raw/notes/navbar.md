@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "navbar"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Navbar — risorse esterne'
 module: UI
 type: reference

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura Themes e Folio in <nome progetto>corrente
 # Struttura Themes e Folio in <nome progetto>corrente
 # Struttura Themes e Folio in
@@ -280,3 +281,20 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 - [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
 
 ```
+=======
+---
+title: "struttura themes folio"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "struttura themes folio"
+issues: []
+discussions: []
+module: theme
+topic: struttura-themes-folio
+canonical: ../../../Themes/docs/shared-components/struttura-themes-folio.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/struttura-themes-folio.md
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Componente FileUpload"
 type: concept
 tags: [file, upload]
@@ -10,6 +11,16 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+=======
+title: "file upload"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "file upload"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Componente FileUpload

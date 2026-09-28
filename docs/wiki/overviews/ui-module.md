@@ -1,10 +1,28 @@
 ---
+<<<<<<< HEAD
 type: overview
 module: UI
 sources:
 confidence: high
 updated: 2026-04-15
 related:
+=======
+title: "ui module"
+tags: [documentation]
+created: 2026-09-26
+qmd: "ui module"
+issues: []
+discussions: []
+type: overview
+module: UI
+sources:
+  - ../../../docs/module-ui.md
+  - ../../../docs/philosophy.md
+  - ../../../docs/design-system.md
+  - ../../../docs/table-components.md
+confidence: high
+updated: 2026-04-15
+>>>>>>> laraxot/dev
 ---
 
 # UI Module — Overview

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Fasi di sviluppo - UI Module"
 type: concept
 tags: [phases]
@@ -18,6 +19,16 @@ related:
   - "./02-goals.md"
   - "./02-next.md"
   - "./03-later.md"
+=======
+title: "phases"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phases"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Fasi di sviluppo - UI Module

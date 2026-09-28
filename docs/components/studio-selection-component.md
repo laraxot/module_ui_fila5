@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Studio Selection Component con Pulsanti"
 type: concept
 tags: [studio, selection, component]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "studio selection component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "studio selection component"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Studio Selection Component con Pulsanti

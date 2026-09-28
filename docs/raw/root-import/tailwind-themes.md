@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Tailwind Themes"
 type: concept
 tags: [tailwind, themes]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "tailwind themes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tailwind themes"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo

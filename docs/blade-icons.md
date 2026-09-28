@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "blade icons"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "blade icons"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Documentazione del Metodo registerBladeIcons
 
 ## Panoramica
@@ -114,14 +128,22 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **File**: `Modules/UI/resources/svg/login.svg`
 - **Descrizione**: Icona per l'autenticazione e il login degli utenti
 - **Utilizzo**: `@svg('ui-login')` o `ui-login` nei componenti Filament
+<<<<<<< HEAD
 - **Aggiunta**: 2025-01-27 - Sostituisce `heroicon-o-login` non disponibile
+=======
+- **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
+>>>>>>> laraxot/dev
 
 ### Icona Authenticate
 - **Nome**: `ui-authenticate`
 - **File**: `Modules/UI/resources/svg/authenticate.svg`
 - **Descrizione**: Icona per l'autenticazione e verifica utenti
 - **Utilizzo**: `@svg('ui-authenticate')` o `ui-authenticate` nei componenti Filament
+<<<<<<< HEAD
 - **Aggiunta**: 2025-01-27 - Sostituisce `authenticate` non disponibile
+=======
+- **Aggiunta**: [DATE] - Sostituisce `authenticate` non disponibile
+>>>>>>> laraxot/dev
 
 ## Come Funziona il Sistema
 
@@ -170,6 +192,7 @@ MenuItem::make()
     ->url('/login')
 ```
 
+<<<<<<< HEAD
 ## Nota sulla correzione e centralizzazione (2025-05-13)
 
 - Seguire i pattern e le regole documentate in [XotBaseServiceProvider.md](./XotBaseServiceProvider.md) per la registrazione delle icone Blade.
@@ -177,6 +200,15 @@ MenuItem::make()
 - Documentare ogni estensione o personalizzazione.
 
 **Collegamento:** Vedi anche [XotBaseServiceProvider.md](./XotBaseServiceProvider.md)
+=======
+## Nota sulla correzione e centralizzazione ([DATE])
+
+- Seguire i pattern e le regole documentate in [XotBaseServiceProvider.md](./xotbaseserviceprovider.md) per la registrazione delle icone Blade.
+- Centralizzare la logica di fallback e logging per i path SVG e la configurazione delle icone.
+- Documentare ogni estensione o personalizzazione.
+
+**Collegamento:** Vedi anche [XotBaseServiceProvider.md](./xotbaseserviceprovider.md)
+>>>>>>> laraxot/dev
 
 ## Conclusione
 Il metodo `registerBladeIcons` rappresenta un esempio di come la filosofia zen e i principi di design software possano convergere in una soluzione elegante ed efficace. La sua implementazione bilancia perfettamente la necessità di flessibilità con la robustezza del sistema, creando un ponte tra la modularità del codice e l'espressività dell'interfaccia utente.

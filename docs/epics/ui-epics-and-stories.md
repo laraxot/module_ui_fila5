@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ui epics and stories"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI Epics and User Stories"
 type: user_stories
 tags: [user stories, epics, ui]

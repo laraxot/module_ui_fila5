@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "auth pages"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "auth pages"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Pagine di Autenticazione
 
 ## Pagina di Logout con Folio e Volt

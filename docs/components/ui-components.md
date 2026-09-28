@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Componenti UI - Modulo UI"
 type: concept
 tags: [components]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "ui components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ui components"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Componenti UI - Modulo UI
@@ -198,10 +209,25 @@ return [
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
 - [**README Modulo UI**](../README.md)
+=======
+- [**README Modulo UI**](../readme.md)
+>>>>>>> laraxot/dev
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
 - [**Personalizzazioni Filament**](../filament/filament-customizations.md)
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "ui components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ui components"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev

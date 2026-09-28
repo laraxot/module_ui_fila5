@@ -1,4 +1,11 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 id: "ui-root-hygiene-conflict-markers"
 title: "UI: README/contributing marker + md uppercase in root"
 status: review

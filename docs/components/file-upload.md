@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Componente FileUpload"
 type: concept
 tags: [file, upload]
@@ -18,6 +19,16 @@ related:
   - "./footer.md"
   - "./full-calendar-1.md"
   - "./full-calendar.md"
+=======
+title: "file upload"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "file upload"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Componente FileUpload

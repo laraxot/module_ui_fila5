@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "qrcode"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Qrcode — risorse esterne'
 module: UI
 type: reference

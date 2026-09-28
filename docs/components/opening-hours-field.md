@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "OpeningHoursField Component"
 type: concept
 tags: [opening, hours, field]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "opening hours field"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "opening hours field"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # OpeningHoursField Component
@@ -436,3 +447,14 @@ class Doctor extends BaseModel
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "opening hours field"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "opening hours field"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev

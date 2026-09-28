@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Checklist qualità - UI Module"
 type: concept
 tags: [quality]
@@ -18,6 +19,16 @@ related:
   - "./02-goals.md"
   - "./02-next.md"
   - "./03-later.md"
+=======
+title: "quality"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "quality"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Checklist qualità - UI Module

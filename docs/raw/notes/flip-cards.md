@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "flip cards"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Flip cards — risorse esterne'
 module: UI
 type: reference

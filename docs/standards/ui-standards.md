@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Standard UI"
 type: rule
 tags: [standards]
@@ -16,6 +17,16 @@ related:
   - "./form-standards-1.md"
   - "./form-standards.md"
   - "./performance.md"
+=======
+title: "ui standards"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ui standards"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Standard UI

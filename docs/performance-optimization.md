@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "performance optimization"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Performance Optimization — Module UI"
 type: documentation
 created: 2026-05-11
@@ -118,6 +124,16 @@ context-mode ctx-stats
 - [QMD Setup](./QMD-SETUP.md)
 - [On-Demand Pattern](./on-demand-pattern.md)
 - [QMD Setup](./qmd-setup.md)
+<<<<<<< HEAD
+=======
+---
+---
+---
+- [On-Demand Pattern](./on-demand-pattern.md)
+- [QMD Setup](./qmd-setup.md)
+---
+---
+>>>>>>> laraxot/dev
 
 ---
 *Status: Ottimizzato | Token risparmiati: ~48K per session*

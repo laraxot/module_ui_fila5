@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Convenzioni di Naming per i Wizard Step in Filament"
 type: concept
 tags: [wizard, step, naming]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+title: "wizard step naming"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "wizard step naming"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Convenzioni di Naming per i Wizard Step in Filament

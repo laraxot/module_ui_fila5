@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 name: xotbasefield-no-view-rule
 description: XotBaseField subclasses must not declare a protected $view property; view is computed dynamically.
 type: concept
@@ -11,6 +12,18 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+=======
+title: "xotbasefield no view rule"
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "xotbasefield no view rule"
+issues: []
+discussions: []
+name: xotbasefield-no-view-rule
+description: XotBaseField subclasses must not declare a protected $view property; view is computed dynamically.
+type: concept
+>>>>>>> laraxot/dev
 ---
 
 # XotBaseField – No `$view` Property Rule

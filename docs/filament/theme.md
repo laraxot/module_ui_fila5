@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Theme"
 type: concept
 tags: [theme]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+title: "theme"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "theme"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://fly.io/laravel-bytes/filamentphp-adding-some-style/

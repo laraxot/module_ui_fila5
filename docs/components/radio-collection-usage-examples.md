@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "RadioCollection - Esempi di Utilizzo"
 type: concept
 tags: [radio, collection, usage, examples]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "radio collection usage examples"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection usage examples"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # RadioCollection - Esempi di Utilizzo

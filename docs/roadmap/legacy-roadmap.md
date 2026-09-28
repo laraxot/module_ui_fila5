@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "UI Module Roadmap"
 type: concept
 tags: [legacy, roadmap]
@@ -18,6 +19,16 @@ related:
   - "./02-goals.md"
   - "./02-next.md"
   - "./03-later.md"
+=======
+title: "legacy roadmap"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "legacy roadmap"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # UI Module Roadmap

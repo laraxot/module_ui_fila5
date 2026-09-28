@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "dependency rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dependency rules"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Regole di Dipendenza — Modulo UI
 
 > **Creato**: 2026-07-06
@@ -5,6 +19,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "dependency rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dependency rules"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Principio Fondamentale
 
 Il modulo **UI è una dipendenza condivisa** di tutti gli altri moduli. Il suo scopo è fornire componenti UI generici (Filament, Blade, Livewire) senza conoscere il dominio applicativo di nessun modulo specifico.
@@ -42,6 +67,7 @@ I componenti che richiedono funzionalità geografiche **appartengono al modulo G
 | `app/Filament/Forms/Components/LocationSelector.php.old`                    | Usa `Modules\Geo\Models\Comune` direttamente    | `Modules/Geo/`     |
 | `resources/views/livewire/components/map/interactive-map.blade.php.old`     | View del componente Geo disabilitato            | `Modules/Geo/`     |
 
+<<<<<<< HEAD
 ### Contratti / Adapter Map-Location — **non** accettabili in UI
 
 Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contratti/null-adapter erano dominio geografico.
@@ -53,6 +79,33 @@ Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contr
 | `LocationSelector.php` attivo | Selettore geografico |
 
 Se serve geografia: modulo `Geo` (quando presente), mai ricopiare in UI.
+=======
+### Contratti e Null Services (accettabili in UI)
+
+I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacce astratte senza dipendere da classi Geo concrete:
+
+| File                                            | Motivo                                                    |
+|-------------------------------------------------|-----------------------------------------------------------|
+| `app/Contracts/GeocodingServiceContract.php`    | Interfaccia astratta — nessuna dipendenza da Geo          |
+| `app/Contracts/MapServiceContract.php`          | Interfaccia astratta — nessuna dipendenza da Geo          |
+| `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
+| `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
+
+### Documentazione archiviata
+
+| File                                        | Motivo                              |
+|---------------------------------------------|-------------------------------------|
+| `docs/map-integration-guide.md.old`         | Descriveva componenti Geo nel UI    |
+
+---
+
+## LocationSelector: già disabilitato
+
+`LocationSelector` importava direttamente `Modules\Geo\Models\Comune` — violazione della regola.
+È stato rinominato `LocationSelector.php.old` in data 2026-07-06.
+
+Se in futuro si vuole un selettore regione/provincia/CAP nel modulo UI, deve usare **solo contratti astratti** (es. `GeocodingServiceContract`) e ricevere i dati via dependency injection, senza importare classi concrete di Geo.
+>>>>>>> laraxot/dev
 
 ---
 

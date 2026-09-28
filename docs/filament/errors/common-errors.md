@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Errori Comuni in Filament"
 type: concept
 tags: [common, errors]
@@ -12,6 +13,16 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./dropdown-list-item-tag.md"
   - "./static-instance-method-incompatibility.md"
+=======
+title: "common errors"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "common errors"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Errori Comuni in Filament

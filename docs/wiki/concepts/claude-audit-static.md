@@ -4,6 +4,7 @@ type: concept
 module: UI
 tags: [ui, quality, claude-audit, i18n, blade]
 created: 2026-07-09
+<<<<<<< HEAD
 updated: 2026-09-24
 qmd: "UI claude-audit static 80 score lang split pricing blade partials SelectStateColumn"
 issues:
@@ -25,6 +26,21 @@ related:
 > rapporto statico: hanno prodotto parse error `T_SL` e 16 `staticMethod.notFound` (Rating,
 > 2026-09-24). Non seguire le istruzioni sotto; restano solo come storia.
 
+=======
+updated: 2026-07-12
+qmd: "UI claude-audit static 80 score lang split pricing blade partials SelectStateColumn"
+issues:
+  - "https://github.com/laraxot/module_ui_fila5/issues/1"
+discussions:
+  - "https://github.com/laraxot/base_fixcity_fila5/discussions/304"
+related:
+  - ../../../../../../bashscripts/tools/run-claude-audit-module-static.sh
+  - ../../../../../../bashscripts/tools/split-module-lang-monolith-for-audit.php
+  - ../../Xot/docs/wiki/concepts/claude-audit-static-all-modules.md
+  - ../memories/lang-split-ui-claude-audit.md
+---
+
+>>>>>>> laraxot/dev
 # claude-audit static (UI)
 
 ## Comando

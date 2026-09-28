@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "UI flip cards"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI flip cards"
 type: reference
 tags: [ui]

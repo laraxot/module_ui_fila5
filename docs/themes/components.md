@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Componenti del Tema"
 type: concept
 tags: [components]
@@ -15,6 +16,16 @@ related:
   - "./compilation.md"
   - "./optimizations.md"
   - "./schemaless-attributes-guide.md"
+=======
+title: "components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "components"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Componenti del Tema

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "IconStateSplitColumn - Comprehensive Improvements Summary"
 type: concept
 tags: [iconstatesplicolumn, improvements]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "iconstatesplicolumn improvements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "iconstatesplicolumn improvements"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # IconStateSplitColumn - Comprehensive Improvements Summary
@@ -294,4 +305,15 @@ This comprehensive refactor demonstrates best practices for Filament component d
 ---
 
 
+<<<<<<< HEAD
+=======
+title: "iconstatesplicolumn improvements"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "iconstatesplicolumn improvements"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Status**: ✅ Production Ready

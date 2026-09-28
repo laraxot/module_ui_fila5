@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Compatibilità dei Metodi nei Componenti Filament"
 type: concept
 tags: [component, methods, compatibility]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
   - "./file-upload-component.md"
+=======
+title: "component methods compatibility"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "component methods compatibility"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Compatibilità dei Metodi nei Componenti Filament

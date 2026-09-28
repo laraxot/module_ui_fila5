@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Utilizzo dei Componenti Filament nel Progetto"
 type: concept
 tags: [filament, usage]
@@ -18,6 +19,16 @@ related:
   - "./footer.md"
   - "./full-calendar-1.md"
   - "./full-calendar.md"
+=======
+title: "filament usage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament usage"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Utilizzo dei Componenti Filament nel Progetto

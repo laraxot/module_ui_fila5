@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Pulse"
 type: concept
 tags: [pulse]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+title: "pulse"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "pulse"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://bitbucket.org/modcreative/wayble-pulse/src/main/filament/Widgets/Charts/SignalHitsByCategory.php

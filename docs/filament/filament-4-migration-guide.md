@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Filament 4 Migration Guide"
 type: guide
 tags: [filament, migration, guide]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
   - "./file-upload-component.md"
+=======
+title: "filament 4 migration guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament 4 migration guide"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Filament 4 Migration Guide

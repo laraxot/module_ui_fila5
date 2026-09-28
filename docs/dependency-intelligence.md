@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "dependency intelligence"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dependency intelligence"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Dependency Intelligence - Module UI
 
 Aggiornato da `composer show` il 2026-03-02.

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "marketing components implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "marketing components implementation"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Marketing Components Implementation - UI Module
 
 **Date**: February 6, 2026
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "marketing components implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "marketing components implementation"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Overview
 
 This document outlines the marketing components that need to be implemented in the UI Module to support SEO, lead generation, and monetization features.

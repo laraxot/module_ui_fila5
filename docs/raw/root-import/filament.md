@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Filament"
 type: concept
 tags: [filament]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "filament"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://github.com/savannabits/filament-signature-pad

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Task: Filament v5 Alignment (UI Module)"
 type: concept
 tags: [filament, alignment]
@@ -19,6 +20,16 @@ related:
   - "./tasks-index.md"
   - "./ui-cleanup-docs.md"
   - "./ui-filament-v5.md"
+=======
+title: "filament v5 alignment"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament v5 alignment"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Task: Filament v5 Alignment (UI Module)

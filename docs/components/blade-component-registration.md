@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Registrazione corretta dei componenti Blade nei moduli"
 type: concept
 tags: [blade, component, registration]
@@ -18,6 +19,16 @@ related:
   - "./footer.md"
   - "./full-calendar-1.md"
   - "./full-calendar.md"
+=======
+title: "blade component registration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "blade component registration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Registrazione corretta dei componenti Blade nei moduli

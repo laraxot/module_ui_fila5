@@ -1,4 +1,14 @@
 ---
+<<<<<<< HEAD
+=======
+title: "PHILOSOPHY"
+type: note
+tags: [documentation]
+created: 2026-09-26
+qmd: "PHILOSOPHY"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 module: UI
 topic: PHILOSOPHY
 canonical: ./PHILOSOPHY.md
@@ -244,12 +254,29 @@ Modules/UI/
 │   ├── Feature/
 │   └── Unit/
 ├── README.md
+<<<<<<< HEAD
+=======
+---
+---
+>>>>>>> laraxot/dev
 └── CHANGELOG.md
 ```
 
 (`ARCHITECTURE.md`, `TESTING.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
 
 ---
+<<<<<<< HEAD
+=======
+---
+├── ARCHITECTURE.md
+└── CHANGELOG.md
+```
+
+---
+---
+---
+---
+>>>>>>> laraxot/dev
 
 ### Blade Component Naming
 
@@ -1272,7 +1299,19 @@ Core functionality tests pass:
 ### Core Documentation
 
 - [README.md](./README.md) — Module overview
+<<<<<<< HEAD
 - [architecture.md](./architecture.md) — System architecture
+=======
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+---
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+---
+- [architecture.md](./architecture.md) — System architecture
+---
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+---
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+>>>>>>> laraxot/dev
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](./icon-system.md) — Icon system details
 

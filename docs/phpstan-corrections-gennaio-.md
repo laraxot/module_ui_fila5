@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan corrections gennaio "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan corrections gennaio "
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Corrections - Gennaio 2025
 
 ## Riepilogo

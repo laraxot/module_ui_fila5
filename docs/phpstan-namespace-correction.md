@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan namespace correction"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan namespace correction"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Correzione Namespace nel Modulo UI
 
 ## Problema Identificato

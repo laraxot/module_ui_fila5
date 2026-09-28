@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Filament 4 Migration Summary"
 type: concept
 tags: [filament, migration, summary]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-sumy.md"
   - "./file-upload-component.md"
+=======
+title: "filament 4 migration summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament 4 migration summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Filament 4 Migration Summary
@@ -36,7 +47,10 @@ related:
 - ✅ Created detailed **Filament 4 Components Development Guide**
 - ✅ Updated project **CLAUDE.md** rules for Filament 4
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 12.30.1)
+<<<<<<< HEAD
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
+=======
+>>>>>>> laraxot/dev
 
 ### 3. Code Updates and Fixes
 
@@ -162,6 +176,17 @@ vendor/bin/pint --dirty
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "filament 4 migration summary"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament 4 migration summary"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Status**: ✅ **COMPLETED SUCCESSFULLY**
 **Time**: All tasks completed in single session
 **Errors Resolved**: 5/5 PHPStan errors fixed

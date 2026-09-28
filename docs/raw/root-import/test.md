@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Test"
 type: concept
 tags: [test]
@@ -20,3 +21,14 @@ related:
   - "./changelog-2.md"
 ---
 
+=======
+title: "test"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "test"
+issues: []
+discussions: []
+---
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Integrazione dei Componenti Filament nei Blocchi"
 type: concept
 tags: [filament, component, integration]
@@ -14,6 +15,16 @@ related:
   - "./logo.md"
   - "./navigation.md"
   - "./user-dropdown.md"
+=======
+title: "filament component integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament component integration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Integrazione dei Componenti Filament nei Blocchi
@@ -204,4 +215,15 @@ I form Filament che utilizzano campi complessi, wizard multi-step o molti campi 
 - [Best practices per i componenti UI](../components/best-practices.md)
 
 ---
+<<<<<<< HEAD
+=======
+title: "filament component integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament component integration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 *Aggiornato: 2025-05-08*

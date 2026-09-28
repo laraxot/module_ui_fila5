@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Indice task - Modulo UI"
 type: concept
 tags: [tasks, index]
@@ -19,6 +20,16 @@ related:
   - "./refactor-complex-components.md"
   - "./ui-cleanup-docs.md"
   - "./ui-filament-v5.md"
+=======
+title: "tasks index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "tasks index"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Indice task - Modulo UI

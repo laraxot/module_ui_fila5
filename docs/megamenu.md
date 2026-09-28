@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "megamenu"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "megamenu"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 https://www.tailwindtoolbox.com/components/megamenu
 
 

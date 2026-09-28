@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "SPRINT PLANNING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SPRINT PLANNING"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # UI Module - Sprint Planning
 
 **Module:** UI  
@@ -6,6 +20,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "SPRINT PLANNING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SPRINT PLANNING"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Sprint Goal
 
 Implement core design system with essential UI components.

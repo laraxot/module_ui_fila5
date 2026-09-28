@@ -56,16 +56,29 @@ class OpeningHoursColumn extends TextColumn
             $slots = is_array($day) ? self::formatSlots($day) : [];
 
             $abbrev = mb_substr($dayLabel, 0, 3);
+<<<<<<< HEAD
             $parts[] = $slots === []
+=======
+            $parts[] = [] === $slots
+>>>>>>> laraxot/dev
                 ? "{$abbrev} chiuso"
                 : $abbrev.' '.implode(', ', $slots);
         }
 
+<<<<<<< HEAD
         return $parts === [] ? '—' : implode(' · ', $parts);
     }
 
     /**
      * @param  array<array-key, mixed>  $day
+=======
+        return [] === $parts ? '—' : implode(' · ', $parts);
+    }
+
+    /**
+     * @param array<array-key, mixed> $day
+     *
+>>>>>>> laraxot/dev
      * @return list<string>
      */
     private static function formatSlots(array $day): array
@@ -74,7 +87,11 @@ class OpeningHoursColumn extends TextColumn
         foreach (['morning', 'afternoon'] as $period) {
             $from = $day["{$period}_from"] ?? null;
             $until = $day["{$period}_to"] ?? null;
+<<<<<<< HEAD
             if (is_string($from) && is_string($until) && $from !== '' && $until !== '') {
+=======
+            if (is_string($from) && is_string($until) && '' !== $from && '' !== $until) {
+>>>>>>> laraxot/dev
                 $slots[] = "{$from}-{$until}";
             }
         }

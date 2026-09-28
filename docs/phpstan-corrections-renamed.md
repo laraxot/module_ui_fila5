@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan corrections renamed"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan corrections renamed"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Corrections - UI Module - Gennaio 2026
 
 **Status**: ✅ COMPLETATO

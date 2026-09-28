@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 module: theme
 topic: bottlenecks
 canonical: ../../../../Themes/docs/shared-components/bottlenecks-Modules.md
@@ -11,6 +12,19 @@ related:
   - "./02-goals.md"
   - "./02-next.md"
   - "./03-later.md"
+=======
+title: "bottlenecks"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bottlenecks"
+issues: []
+discussions: []
+module: theme
+topic: bottlenecks
+canonical: ../../../../Themes/docs/shared-components/bottlenecks-Modules.md
+>>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/bottlenecks-Modules.md

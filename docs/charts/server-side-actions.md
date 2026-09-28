@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Server-Side Chart Generation Actions"
 type: concept
 tags: [server, side, actions]
@@ -15,6 +16,16 @@ related:
   - "./export-strategy.md"
   - "./filament-chart-js-guide.md"
   - "./shared-hosting-strategy.md"
+=======
+title: "server side actions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "server side actions"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Server-Side Chart Generation Actions
@@ -32,6 +43,17 @@ npm install puppeteer
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "server side actions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "server side actions"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📸 Action 1: Generate PNG (Best for Email/PDF)
 
 This action renders the chart widget in a headless browser and takes a screenshot.

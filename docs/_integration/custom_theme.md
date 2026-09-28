@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "custom theme"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom theme"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->

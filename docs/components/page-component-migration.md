@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Migrazione Componenti di Pagina - Modulo UI"
 type: concept
 tags: [page, component, migration]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "page component migration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "page component migration"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Migrazione Componenti di Pagina - Modulo UI

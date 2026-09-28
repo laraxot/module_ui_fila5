@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Visione - UI Module"
 type: concept
 tags: [vision]
@@ -18,6 +19,16 @@ related:
   - "./02-goals.md"
   - "./02-next.md"
   - "./03-later.md"
+=======
+title: "vision"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vision"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Visione - UI Module

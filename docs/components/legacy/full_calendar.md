@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "full calendar"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "full calendar"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # FullCalendar Component for Filament
 
 ## Introduction

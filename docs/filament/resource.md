@@ -1,8 +1,19 @@
 ---
+<<<<<<< HEAD
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "resource"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: Creazione di una Resource
 description: Creazione di una Resource
 extends: _layouts.documentation
 section: content
+<<<<<<< HEAD
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -12,6 +23,8 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Creazione di una Resource {#creazione-resource}

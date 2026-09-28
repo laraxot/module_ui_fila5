@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "vscode filament plugin 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vscode filament plugin 1"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Plugin VSCode per Filament
 
 ## Overview

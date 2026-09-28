@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "RadioCollection: Debugging & Risoluzione Problemi di Selezione"
 type: concept
 tags: [radio, collection, debugging]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "radio collection debugging"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection debugging"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # RadioCollection: Debugging & Risoluzione Problemi di Selezione
@@ -342,6 +353,17 @@ class RadioCollection extends Field
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "radio collection debugging"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection debugging"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Diagnosi completata**: Dicembre 2024
 **Correzione implementata**: v2.0.0
 **Status**: Risolto ✅

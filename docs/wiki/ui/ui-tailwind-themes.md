@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ui tailwind themes"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI tailwind themes"
 type: reference
 tags: [ui]

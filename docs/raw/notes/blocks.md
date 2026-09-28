@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "blocks"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Blocks — risorse esterne'
 module: UI
 type: reference

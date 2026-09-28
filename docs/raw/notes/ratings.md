@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ratings"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Ratings'
 module: UI
 type: reference

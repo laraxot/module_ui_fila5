@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: 'Custom firm fields — risorse esterne'
 module: UI
 type: reference
@@ -24,6 +25,18 @@ updated: 2026-08-24
 - <https://github.com/tanthammar/filament-extras>
 - <https://github.com/saade/filament-extra>
 - <https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function>
+=======
+title: "custom firm fields"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom firm fields"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 https://github.com/tanthammar/filament-extras
 
 
@@ -33,6 +46,7 @@ https://github.com/saade/filament-extra
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 
+<<<<<<< HEAD
 
 
 ## Appendice — contenuto migrato
@@ -44,3 +58,5 @@ canonical: ../../../Themes/docs/shared-components/custom-firm-fields.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/custom-firm-fields.md
+=======
+>>>>>>> laraxot/dev

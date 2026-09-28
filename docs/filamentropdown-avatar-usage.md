@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filamentropdown avatar usage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filamentropdown avatar usage"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Utilizzo dei Componenti Filament Dropdown e Avatar 
 
 ## Collegamenti correlati
@@ -201,7 +215,10 @@ $this->mount(function () {
 ## Gestione delle Traduzioni
 
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di Quaeris per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+<<<<<<< HEAD
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di modulo questionari per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+=======
+>>>>>>> laraxot/dev
 
 ### Struttura delle Traduzioni
 

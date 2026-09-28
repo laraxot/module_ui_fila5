@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ottimizzazioni approfondite modulo ui"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ottimizzazioni approfondite modulo ui"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Ottimizzazioni Approfondite Modulo UI - DRY + KISS
 
 ## Panoramica
@@ -66,10 +80,17 @@ app/
 **Impatto:** Riduzione da 30+ a 10-15 file
 
 **Guide da consolidare:**
+<<<<<<< HEAD
 - **PHPStan:** Fare riferimento a `../../docs/core/phpstan-guide.md`
 - **Filament:** Fare riferimento a `../../docs/core/filament-best-practices.md`
 - **Testing:** Fare riferimento a `../../docs/core/testing-guide.md`
 - **Code Quality:** Fare riferimento a `../../docs/core/code-quality-guide.md`
+=======
+- **PHPStan:** Fare riferimento a `../../../docs/core/phpstan-guide.md`
+- **Filament:** Fare riferimento a `../../../docs/core/filament-best-practices.md`
+- **Testing:** Fare riferimento a `../../../docs/core/testing-guide.md`
+- **Code Quality:** Fare riferimento a `../../../docs/core/code-quality-guide.md`
+>>>>>>> laraxot/dev
 
 ### 2. Standardizzazione Naming File
 **Azione:** Rinominare tutti i file seguendo convenzioni corrette
@@ -276,6 +297,7 @@ php artisan test --testsuite=UI
 
 ## 🔗 Collegamenti Sistema
 
+<<<<<<< HEAD
 - [**Documentazione Core Sistema**](../../docs/core/)
 - [**PHPStan Guide**](../../docs/core/phpstan-guide.md)
 - [**Filament Best Practices**](../../docs/core/filament-best-practices.md)
@@ -284,6 +306,24 @@ php artisan test --testsuite=UI
 
 ---
 
+=======
+- [**Documentazione Core Sistema**](../../../docs/core/)
+- [**PHPStan Guide**](../../../docs/core/phpstan-guide.md)
+- [**Filament Best Practices**](../../../docs/core/filament-best-practices.md)
+- [**Convenzioni Sistema**](../../../docs/core/conventions.md)
+- [**Template Moduli**](../../../docs/templates/)
+
+---
+
+title: "ottimizzazioni approfondite modulo ui"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ottimizzazioni approfondite modulo ui"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Priorità:** MEDIA (modulo UI del sistema)
 **Impatto:** Tutti i moduli e sviluppatori
 **Stato:** In attesa implementazione

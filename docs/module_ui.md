@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "module ui"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "module ui"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Modulo UI
 
 ## Informazioni Generali

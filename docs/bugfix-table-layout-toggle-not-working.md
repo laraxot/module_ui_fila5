@@ -1,9 +1,23 @@
 ---
+<<<<<<< HEAD
+=======
+title: "bugfix table layout toggle not working"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix table layout toggle not working"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 module: UI
 topic: table-layout-toggle
 status: open
 related_issue: provtv/base_ptv_fila5_mono
+<<<<<<< HEAD
 related_issue: provtv/<nome repository>
+=======
+>>>>>>> laraxot/dev
 related_module_repo: laraxot/module_ui_fila5
 ---
 

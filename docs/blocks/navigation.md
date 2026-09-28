@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Navigation Component"
 type: concept
 tags: [navigation]
@@ -14,6 +15,16 @@ related:
   - "./filament-component-integration.md"
   - "./logo.md"
   - "./user-dropdown.md"
+=======
+title: "navigation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "navigation"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Navigation Component

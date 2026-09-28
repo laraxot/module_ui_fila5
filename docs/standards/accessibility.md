@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Standard di Accessibilità"
 type: concept
 tags: [accessibility]
@@ -16,6 +17,16 @@ related:
   - "./form-standards.md"
   - "./performance.md"
   - "./ui-standards.md"
+=======
+title: "accessibility"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "accessibility"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Standard di Accessibilità

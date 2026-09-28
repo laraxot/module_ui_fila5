@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Risorse Filament"
 type: concept
 tags: [resources]
@@ -18,6 +19,16 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+title: "resources"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "resources"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Risorse Filament

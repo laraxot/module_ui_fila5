@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Shared Hosting Chart Strategy (No NPM/Node)"
 type: concept
 tags: [shared, hosting, strategy]
@@ -15,6 +16,16 @@ related:
   - "./export-strategy.md"
   - "./filament-chart-js-guide.md"
   - "./server-side-actions.md"
+=======
+title: "shared hosting strategy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "shared hosting strategy"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Shared Hosting Chart Strategy (No NPM/Node)
@@ -36,6 +47,17 @@ No strict dependencies, just standard `Guzzle` (included in Laravel).
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "shared hosting strategy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "shared hosting strategy"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📸 Action: Generate PNG via API
 
 This action reads the data from your Filament Chart Widget and calls the API.

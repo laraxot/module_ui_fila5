@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "tailwind themes"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Tailwind themes — risorse esterne'
 module: UI
 type: reference

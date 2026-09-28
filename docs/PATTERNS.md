@@ -1,4 +1,11 @@
 ---
+<<<<<<< HEAD
+=======
+created: 2026-09-26
+qmd: "PATTERNS"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: UI Module — Architettura e Patterns
 module: UI
 type: patterns
@@ -357,6 +364,19 @@ Quando aggiungi feature nuova a UI:
 
 - [README](./README.md) — Overview modulo
 - [INDEX](./index.md) — Documentazione index completo
+<<<<<<< HEAD
+=======
+---
+- [INDEX](./INDEX.md) — Documentazione index completo
+---
+- [INDEX](./INDEX.md) — Documentazione index completo
+---
+- [INDEX](./index.md) — Documentazione index completo
+---
+- [INDEX](./INDEX.md) — Documentazione index completo
+---
+- [INDEX](./INDEX.md) — Documentazione index completo
+>>>>>>> laraxot/dev
 - [TROUBLESHOOTING](./TROUBLESHOOTING.md) — Errori comuni e soluzioni
 - [architecture/component-registration](./architecture/component-registration.md) — Registrazione dettagliata
 - [standards/ui-standards](./standards/ui-standards.md) — UI component standards

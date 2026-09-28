@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ui global search"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI global search"
 type: reference
 tags: [ui]

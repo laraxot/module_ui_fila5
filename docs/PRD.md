@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "PRD"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "Product Requirements Document (PRD) - UI Module"
 module: "UI"
 type: concept

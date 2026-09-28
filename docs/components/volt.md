@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Componenti Volt"
 type: concept
 tags: [volt]
@@ -18,6 +19,16 @@ related:
   - "./file-upload.md"
   - "./footer.md"
   - "./full-calendar-1.md"
+=======
+title: "volt"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "volt"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Componenti Volt
@@ -31,7 +42,11 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Livewire](https://livewire.laravel.com)
 - [Filament](https://filamentphp.com)
+<<<<<<< HEAD
 - [Documentazione UI](../README.md)
+=======
+- [Documentazione UI](../readme.md)
+>>>>>>> laraxot/dev
 - [Best Practices](../best-practices.md)
 - [Layout](../layouts.md)
 - [Temi](../themes.md)

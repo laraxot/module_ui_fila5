@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "UI ratings"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI ratings"
 type: reference
 tags: [wiki, ui, link-dump]

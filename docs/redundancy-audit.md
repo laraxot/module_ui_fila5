@@ -1,13 +1,24 @@
 ---
+<<<<<<< HEAD
+=======
+updated: 2026-09-26
+qmd: "redundancy audit"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI redundancy audit 2026-05-21"
 type: audit
 module: UI
 tags: [redundancy, components, config, design-system]
 created: 2026-05-21
 related:
+<<<<<<< HEAD
   - https://github.com/laraxot/<nome repitory>/issues/89
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
   - https://github.com/laraxot/platform/issues/89
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+>>>>>>> laraxot/dev
 ---
 
 # UI redundancy audit 2026-05-21

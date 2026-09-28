@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "transclass rule"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "transclass rule"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 ## Data: 2025-01-06

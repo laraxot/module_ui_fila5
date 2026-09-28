@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica
@@ -181,3 +182,20 @@ class S3Test extends XotBasePage
 - [Blade Components](./blade-components.md)
 
 *Ultimo aggiornamento: 2025-01-06*
+=======
+---
+title: "filament pages structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament pages structure"
+issues: []
+discussions: []
+module: theme
+topic: filament-pages-structure
+canonical: ../../../Themes/docs/shared-components/filament-pages-structure.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/filament-pages-structure.md
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Task: Incremento Test Coverage (Pest) - UI"
 type: concept
 tags: [increase, test, coverage]
@@ -19,6 +20,16 @@ related:
   - "./tasks-index.md"
   - "./ui-cleanup-docs.md"
   - "./ui-filament-v5.md"
+=======
+title: "increase test coverage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "increase test coverage"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Task: Incremento Test Coverage (Pest) - UI

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -233,3 +234,20 @@ class ThemeCompiler
 3. Ottimizzare caching
 4. Aggiungere theme builder
 5. Migliorare documentazione 
+=======
+---
+title: "theme system"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "theme system"
+issues: []
+discussions: []
+module: theme
+topic: theme_system
+canonical: ../../../../Themes/docs/shared-components/theme-system.md
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/theme-system.md
+>>>>>>> laraxot/dev

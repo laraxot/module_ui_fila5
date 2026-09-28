@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Chart Export Strategy (PNG/SVG)"
 type: concept
 tags: [export, strategy]
@@ -15,6 +16,16 @@ related:
   - "./filament-chart-js-guide.md"
   - "./server-side-actions.md"
   - "./shared-hosting-strategy.md"
+=======
+title: "export strategy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "export strategy"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Chart Export Strategy (PNG/SVG)

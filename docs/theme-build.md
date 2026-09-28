@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "theme build"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "theme build"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Theme Build & Publish Guide
 
 ## Installazione dipendenze

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "roadmap and issues"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap and issues"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # UI Module - Roadmap, Issues & Optimization
 
 **Modulo**: UI (User Interface Components)
@@ -7,6 +21,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "roadmap and issues"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap and issues"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 📊 STATO ATTUALE
 
 ### Completezza Funzionale: 95%
@@ -197,8 +222,12 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 - [ ] **AI-Powered Components**
   - Smart forms
   - Auto-completion
+<<<<<<< HEAD
   - Predictive inputs
   - forecastive inputs
+=======
+  - <nome progetto>ive inputs
+>>>>>>> laraxot/dev
 
 - [ ] **Real-Time Components**
   - Live updates
@@ -275,7 +304,11 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
 - [← UI Module README](../README.md)
+=======
+- [← UI Module README](../readme.md)
+>>>>>>> laraxot/dev
 - [← Components Documentation](./components.md)
 - [← Project Roadmap](../../../docs/project-analysis-and-roadmap.md)
 - [← Root Documentation](../../../docs/index.md)

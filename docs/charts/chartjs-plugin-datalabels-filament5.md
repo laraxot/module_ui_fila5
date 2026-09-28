@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)"
 type: concept
 tags: [chartjs, plugin, datalabels, filament5]
@@ -15,6 +16,16 @@ related:
   - "./filament-chart-js-guide.md"
   - "./server-side-actions.md"
   - "./shared-hosting-strategy.md"
+=======
+title: "chartjs plugin datalabels filament5"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "chartjs plugin datalabels filament5"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "code redundancy ui"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "ridondanza codice — modulo UI"
 module: UI
 type: concept
@@ -6,6 +12,7 @@ tags: [redundancy, ui, filament, traits]
 created: "2026-05-26"
 updated: "2026-05-26"
 related:
+<<<<<<< HEAD
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -14,6 +21,11 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
+=======
+  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+  - ../../../redundancy-audit-2026-05-21.md
+  - ../../../redundancy-report.md
+>>>>>>> laraxot/dev
 ---
 
 # Ridondanza — UI

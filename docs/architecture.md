@@ -1,6 +1,23 @@
+<<<<<<< HEAD
 # UI Module - Architecture Guide (2025)
 
 > **Last Updated:** 2025-11-19
+=======
+---
+title: "architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture"
+issues: []
+discussions: []
+---
+
+# UI Module - Architecture Guide (2025)
+
+> **
+>>>>>>> laraxot/dev
 > **PHPStan Level:** 10
 > **Status:** Shared UI Components & Filament Customizations
 
@@ -14,6 +31,17 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## Module Overview
 
 ### Primary Purpose
@@ -544,6 +572,30 @@ class MyFormComponent extends Field
         $this->validateUsing([/* validation rules */]);
     }
 }
+<<<<<<< HEAD
+=======
+
+// Non aggiungere route manualmente
+Route::get('/example', [ExampleController::class, 'index']);
+
+// Non creare middleware personalizzati
+class CustomMiddleware
+{
+    public function handle($request, Closure $next)
+    {
+        // ...
+    }
+}
+
+// Non hardcodare percorsi delle risorse
+<img src="/var/www/html/Quaeris/laravel/public/images/avatar.png">
+
+// Non duplicare la registrazione dei componenti
+Blade::component('ui::components.icon', 'ui.icon');
+
+// Non creare componenti personalizzati se esiste un equivalente Filament
+<x-ui.button>Click me</x-ui.button>
+>>>>>>> laraxot/dev
 ```
 
 ### Widget Development
@@ -650,6 +702,7 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 ---
 
 **Document Version:** 1.0
+<<<<<<< HEAD
 **Generated:** 2025-11-19
 **Author:** Claude Code Analysis
 # UI Module - Architecture Guide (2025)
@@ -1359,3 +1412,6 @@ The UI module provides Filament-based admin interface components, themes, and ut
 - Wiki: `docs/wiki/ui/`
 - Components: `docs/wiki/ui/UI-*.md`
 - Filament: `docs/wiki/concepts/UI-filament-patterns.md`
+=======
+**Author:** Claude Code Analysis
+>>>>>>> laraxot/dev

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "state transitions"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "state transitions"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # State Transitions Guide
 
 ## Overview

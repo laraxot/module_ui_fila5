@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan radio badge fix"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan radio badge fix"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento

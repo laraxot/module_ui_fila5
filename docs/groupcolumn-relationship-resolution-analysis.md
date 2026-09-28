@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "groupcolumn relationship resolution analysis"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "groupcolumn relationship resolution analysis"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # GroupColumn Relationship Resolution - Analisi Tecnica Dettagliata
 
 ## Problema Identificato

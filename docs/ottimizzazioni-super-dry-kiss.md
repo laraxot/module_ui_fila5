@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "ottimizzazioni super dry kiss"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ottimizzazioni super dry kiss"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Ottimizzazioni Super DRY + KISS - Modulo UI
 
 ## 🎯 Panoramica
@@ -291,6 +305,7 @@ class ExampleComponent extends Component
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione Core](../../../docs/core/)
 - [Best Practices Filament](../../../docs/core/filament-best-practices.md)
 - [Convenzioni Sistema](../../../docs/core/conventions.md)
@@ -298,6 +313,23 @@ class ExampleComponent extends Component
 
 ---
 
+=======
+- [Documentazione Core](../../../../docs/core/)
+- [Best Practices Filament](../../../../docs/core/filament-best-practices.md)
+- [Convenzioni Sistema](../../../../docs/core/conventions.md)
+- [Template Modulo](../../../../docs/templates/module-template.md)
+
+---
+
+title: "ottimizzazioni super dry kiss"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ottimizzazioni super dry kiss"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Responsabile:** Team UI
 **Data:** 2025-01-XX
 **Stato:** In Analisi

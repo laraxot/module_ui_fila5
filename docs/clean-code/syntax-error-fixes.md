@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Correzioni Errori di Sintassi - Modulo UI"
 type: concept
 tags: [syntax, error, fixes]
@@ -14,6 +15,16 @@ related:
   - "./wizard-schema-aration.md"
   - "./wizard-schema-separation.md"
   - "./wizard-steps.md"
+=======
+title: "syntax error fixes"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "syntax error fixes"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Correzioni Errori di Sintassi - Modulo UI

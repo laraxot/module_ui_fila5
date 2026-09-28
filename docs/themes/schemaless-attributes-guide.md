@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Schemaless Attributes Guide for UI Themes"
 type: guide
 tags: [schemaless, attributes, guide]
@@ -15,12 +16,25 @@ related:
   - "./compilation.md"
   - "./components.md"
   - "./optimizations.md"
+=======
+title: "schemaless attributes guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "schemaless attributes guide"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Schemaless Attributes Guide for UI Themes
 
 [![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
+<<<<<<< HEAD
 [![Laravel 13.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
+=======
+>>>>>>> laraxot/dev
 [![Filament 5.0.0](https://img.shields.io/badge/Filament-5.0.0-blue.svg)](https://filamentphp.com/)
 [![Spatie Schemaless](https://img.shields.io/badge/Spatie-Schemaless-orange.svg)](https://github.com/spatie/laravel-schemaless-attributes)
 [![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
@@ -29,6 +43,17 @@ related:
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "schemaless attributes guide"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "schemaless attributes guide"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ## 🎯 Scopo della Guida
 
 ### Obiettivi

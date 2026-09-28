@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: 'Carousel slider — risorse esterne'
 module: UI
 type: reference
@@ -21,6 +22,18 @@ updated: 2026-08-24
 - <https://tw-elements.com/docs/standard/components/carousel/>
 - <https://keen-slider.io/examples>
 - <https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library>
+=======
+title: "carousel slider"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "carousel slider"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 https://www.embla-carousel.com/examples/predefined/
 
 
@@ -31,6 +44,7 @@ https://keen-slider.io/examples
 
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 
+<<<<<<< HEAD
 
 
 ## Appendice — contenuto migrato
@@ -42,3 +56,5 @@ canonical: ../../../Themes/docs/shared-components/carousel-slider.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/carousel-slider.md
+=======
+>>>>>>> laraxot/dev

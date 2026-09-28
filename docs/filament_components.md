@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "filament components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament components"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # Componenti Filament UI
 
 ## Collegamenti Bidirezionali
@@ -66,3 +80,8 @@
 * [filament-components.md](../../Cms/project_docs/filament-components.md)
 * [filament-components.md](../../../project_docs/rules/filament-components.md)
 
+<<<<<<< HEAD
+=======
+||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
+* [filament-components.md](../../../docs/rules/filament-components.md)
+>>>>>>> laraxot/dev

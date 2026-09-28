@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "svg icons automatic registration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg icons automatic registration"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # ✅ SVG Icons - Automatic Registration
 
 **Data**: 2026-03-30  
@@ -91,8 +105,38 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
+<<<<<<< HEAD
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
+=======
+---
+title: "svg icons automatic registration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg icons automatic registration"
+issues: []
+discussions: []
+---
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
+---
+---
+# http://fixcity.local/it/tests/homepage
+
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
+---
+# http://fixcity.local/it/tests/homepage
+---
+# http://app.local/it/tests/homepage
+---
+# http://<nome progetto>.local/it/tests/homepage
+---
+---
+---
+>>>>>>> laraxot/dev
 ```
 
 ## 📊 Icon Inventory
@@ -127,7 +171,19 @@ php artisan view:clear
 - [Component Libraries](https://laravel.com/docs/blade#managing-component-libraries)
 
 ### Project Documentation
+<<<<<<< HEAD
 - [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
+=======
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+---
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+---
+- [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
+---
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+---
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+>>>>>>> laraxot/dev
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 
 ---

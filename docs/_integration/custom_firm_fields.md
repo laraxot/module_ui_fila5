@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "custom firm fields"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "custom firm fields"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->

@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "UI navbar"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI navbar"
 type: reference
 tags: [ui]

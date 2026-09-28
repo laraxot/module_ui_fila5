@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "product launch plan"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "product launch plan"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # UI - Product Launch Plan
 
 > Piano di lancio. Modulo.
@@ -44,6 +58,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 | Documentazione di supporto aggiornata | 100% |
 
 ## Rischi
+<<<<<<< HEAD
 # UI Module - Product Launch Plan
 
 **Module:** UI  
@@ -127,6 +142,8 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 ---
 
 *Last Updated: March 12, 2026*
+=======
+>>>>>>> laraxot/dev
 
 - lancio di superfici non ancora supportate dal backend
 - documentazione non aderente al codice reale

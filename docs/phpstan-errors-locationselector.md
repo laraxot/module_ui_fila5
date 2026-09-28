@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "phpstan errors locationselector"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan errors locationselector"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # PHPStan Errori LocationSelector - Analisi e Correzione
 
 ## Problema Identificato

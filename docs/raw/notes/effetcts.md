@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "effetcts"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Effetcts — risorse esterne'
 module: UI
 type: reference

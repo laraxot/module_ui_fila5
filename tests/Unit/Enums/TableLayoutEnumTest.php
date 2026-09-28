@@ -17,6 +17,18 @@ it('has enum values', function (): void {
     Assert::assertSame('grid', TableLayoutEnum::GRID->value);
 });
 
+<<<<<<< HEAD
+=======
+it('resolves localized layout icon names from the enum value translation group', function (): void {
+    app()->setLocale('it');
+
+    Assert::assertSame('Lista', TableLayoutEnum::LIST->getLabel());
+    Assert::assertSame('Griglia', TableLayoutEnum::GRID->getLabel());
+    Assert::assertSame('heroicon-o-list-bullet', TableLayoutEnum::LIST->getIcon());
+    Assert::assertSame('heroicon-o-squares-2x2', TableLayoutEnum::GRID->getIcon());
+});
+
+>>>>>>> laraxot/dev
 it('has default layout', function (): void {
     $default = TableLayoutEnum::init();
     Assert::assertSame(TableLayoutEnum::LIST, $default);

@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "BRANDS ICONS INTEGRATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "BRANDS ICONS INTEGRATION"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # 🎨 UI Brands Icons - Integration Guide
 
 **Data**: 2026-03-30  
@@ -228,7 +242,11 @@ $socialLinks = [
 php artisan view:clear
 
 # Test in browser
+<<<<<<< HEAD
 # http://app.local/it/tests/homepage
+=======
+# http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
 ```
 
 ### Verify SVG Files
@@ -279,6 +297,17 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "BRANDS ICONS INTEGRATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "BRANDS ICONS INTEGRATION"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Stato**: ✅ **ICONE REGISTRATE E PRONTE ALL'USO**  
 **Usage**: `<x-filament::icon icon="ui-brands.facebook" />`  
 **Filament Way**: ✅ **Implemented**

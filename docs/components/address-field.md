@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "AddressField Component"
 type: concept
 tags: [address, field]
@@ -17,6 +18,18 @@ related:
   - "./full-calendar-1.md"
   - "./full-calendar.md"
 ---
+=======
+title: "address field"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "address field"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica
@@ -55,33 +68,65 @@ AddressField::make('address')
 4. Testare con diversi formati di indirizzo
 
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+<<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
 # AddressField Component
 ## Panoramica
 Il componente AddressField è un campo Filament personalizzato per la gestione degli indirizzi. Integra funzionalità di geocoding e validazione degli indirizzi.
+=======
+# AddressField Component
+
+## Panoramica
+Il componente AddressField è un campo Filament personalizzato per la gestione degli indirizzi. Integra funzionalità di geocoding e validazione degli indirizzi.
+
+>>>>>>> laraxot/dev
 ## Caratteristiche
 - Autocompletamento degli indirizzi
 - Validazione dei campi dell'indirizzo
 - Integrazione con servizi di geocoding
 - Supporto per formati di indirizzo internazionali
+<<<<<<< HEAD
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
+=======
+
+## Miglioramenti PHPStan Livello 9
+Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
+
+>>>>>>> laraxot/dev
 1. Tipizzazione stretta dei parametri
 2. Gestione null-safe degli oggetti Address
 3. Validazione dei dati di input
 4. Correzione dei type hints per le proprietà
 5. Implementazione delle interfacce corrette
+<<<<<<< HEAD
 ## Utilizzo
 ```php
 use Modules\UI\ment\Forms\Components\AddressField;
+=======
+
+## Utilizzo
+```php
+use Modules\UI\ment\Forms\Components\AddressField;
+
+>>>>>>> laraxot/dev
 AddressField::make('address')
     ->required()
     ->searchable()
     ->withMap()
     ->withValidation();
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ## Best Practices
 1. Utilizzare sempre la validazione dei campi
 2. Implementare la gestione degli errori per il geocoding
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
+<<<<<<< HEAD
+=======
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+>>>>>>> laraxot/dev

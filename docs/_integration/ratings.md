@@ -1,5 +1,6 @@
 ---
 title: "ratings"
+<<<<<<< HEAD
 type: concept
 tags: [ratings]
 created: 2026-07-14
@@ -18,6 +19,15 @@ related:
   - "./ci.md"
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
+=======
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ratings"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # ratings

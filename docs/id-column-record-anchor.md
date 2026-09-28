@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "id column record anchor"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "id column record anchor"
+issues: []
+discussions: []
+---
+
+>>>>>>> laraxot/dev
 # IDColumn: colonna id e ancora della riga
 
 ## Cosa fa

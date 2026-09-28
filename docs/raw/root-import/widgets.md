@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Widgets"
 type: concept
 tags: [widgets]
@@ -18,6 +19,16 @@ related:
   - "./carousel-slider.md"
   - "./changelog-1.md"
   - "./changelog-2.md"
+=======
+title: "widgets"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "widgets"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/

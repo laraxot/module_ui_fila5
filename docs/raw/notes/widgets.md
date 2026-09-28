@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "widgets"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: 'Widgets — risorse esterne'
 module: UI
 type: reference

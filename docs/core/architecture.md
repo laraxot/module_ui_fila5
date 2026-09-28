@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Architettura Modulo UI"
 type: concept
 tags: [architecture]
@@ -10,6 +11,16 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
+=======
+title: "architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 ---
 
 # Architettura Modulo UI
@@ -235,4 +246,15 @@ public function boot(): void
 
 ---
 
+<<<<<<< HEAD
+=======
+title: "architecture"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 **Versione:** 2.0 - Consolidata DRY + KISS

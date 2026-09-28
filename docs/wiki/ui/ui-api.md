@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
+=======
+qmd: "ui api"
+issues: []
+discussions: []
+>>>>>>> laraxot/dev
 title: "UI api"
 type: reference
 tags: [wiki, ui, link-dump]
