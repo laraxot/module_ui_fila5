@@ -1,3 +1,14 @@
+---
+title: "iconstatesplitcolumn implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "iconstatesplitcolumn implementation"
+issues: []
+discussions: []
+---
+
 # IconStateSplitColumn Implementation
 
 ## Overview
@@ -46,8 +57,6 @@ use Modules\<nome progetto>\Models\Appointment;
 
 ## Implementation
 ### Basic Usage
-```
-
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome modulo>\States\Appointment\AppointmentState;
@@ -424,8 +433,6 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Problem Analysis
 The main issue was that `wire:click` doesn't work directly in Filament table columns because they are not Livewire components. The solution implements a custom event system:
 #### Solution Architecture
-```
-
 ```javascript
 // Custom event dispatch
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
@@ -490,8 +497,15 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 
 ---
-**Last Updated**: June 2025
-**Version**: 2.1
+
+title: "iconstatesplitcolumn implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "iconstatesplitcolumn implementation"
+issues: []
+discussions: []
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -500,15 +514,13 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 
 ---
-**Last Updated**: June 2025
-**Version**: 2.1
+
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 ---
-**Last Updated**: June 2025
-**Version**: 2.1
+
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Implementation
 
@@ -546,8 +558,6 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 
 ### Basic Usage
 
-```
-
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
@@ -580,19 +590,23 @@ class IconStateSplitColumn extends Column
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
     protected string $stateClass = '';
     protected string $modelClass = '';
+
     protected function setUp(): void
     {
         parent::setUp();
         $this->label('Stati');
     }
+
     public function stateClass(string $stateClass, string $modelClass): static
     {
         // Configure states and model
     }
+
     public function getRecordStates(): array
     {
         // Return array of available states
     }
+
     public function canTransitionTo($recordId, $stateClass): bool
     {
         // Check if transition is possible
@@ -790,12 +804,6 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Solution Architecture
 ```javascript
 // Custom event dispatch
-onclick="window.dispatchEvent(new CustomEvent('state-transition', { 
-    detail: { 
-        recordId: {{ $record->id }}, 
-        stateClass: '{{ $state['class']::class }}',
-        action: 'prova'
-    } 
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
@@ -807,6 +815,7 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 // Event listener for Livewire integration
 document.addEventListener('state-transition', function(event) {
     const { recordId, stateClass, action } = event.detail;
+
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
             .call(action, recordId, stateClass);
@@ -842,8 +851,7 @@ document.addEventListener('state-transition', function(event) {
 
 ---
 
-**Last Updated**: June 2025
-**Version**: 2.1
-**Compatibility**: Filament 4.x, Laravel 10.x
+
+**Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x

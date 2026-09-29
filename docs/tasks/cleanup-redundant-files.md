@@ -1,24 +1,12 @@
 ---
-title: "Task: Cleanup Redundant Files (UI Module)"
-type: concept
-tags: [cleanup, redundant, files]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "cleanup-redundant-files task: cleanup redundant files (ui module)"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./001-design-system-components.md"
-  - "./filament-v5-alignment.md"
-  - "./increase-test-coverage.md"
-  - "./refactor-complex-components.md"
-  - "./tasks-index.md"
-  - "./ui-cleanup-docs.md"
-  - "./ui-filament-v5.md"
+title: "cleanup redundant files"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cleanup redundant files"
+issues: []
+discussions: []
 ---
 
 # Task: Cleanup Redundant Files (UI Module)

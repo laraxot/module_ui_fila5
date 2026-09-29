@@ -1,4 +1,7 @@
 ---
+qmd: "tailwind themes"
+issues: []
+discussions: []
 title: 'Tailwind themes — risorse esterne'
 module: UI
 type: reference

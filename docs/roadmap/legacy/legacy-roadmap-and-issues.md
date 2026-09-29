@@ -1,3 +1,14 @@
+---
+title: "legacy roadmap and issues"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "legacy roadmap and issues"
+issues: []
+discussions: []
+---
+
 # UI Module - Roadmap, Issues & Optimization
 
 **Modulo**: UI (User Interface Components)
@@ -7,6 +18,14 @@
 
 ---
 
+title: "legacy roadmap and issues"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "legacy roadmap and issues"
+issues: []
+discussions: []
 ## 📊 STATO ATTUALE
 
 ### Completezza Funzionale: 95%

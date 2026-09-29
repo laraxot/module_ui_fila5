@@ -4,20 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
+use Filament\Tables\Columns\SelectColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
-use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
-use ReflectionClass;
 
-class SelectStateColumn extends XotBaseSelectColumn
+class SelectStateColumn extends SelectColumn
 {
     protected function setUp(): void
     {
         parent::setUp();
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
-            if ($state === null) {
+            if (null === $state) {
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
                 }
@@ -54,15 +53,14 @@ class SelectStateColumn extends XotBaseSelectColumn
                 if (class_exists($stateClass)) {
                     $stateNameProperty = null;
                     try {
-                        $reflection = new ReflectionClass($stateClass);
+                        $reflection = new \ReflectionClass($stateClass);
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
-                        // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
-                    if ($stateNameProperty !== null) {
+                    if (null !== $stateNameProperty) {
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;
@@ -101,17 +99,18 @@ class SelectStateColumn extends XotBaseSelectColumn
     }
 
     /**
-     * @param  array<int|string, mixed>  $states
+     * @param array<int|string, mixed> $states
+     *
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
-            static fn (int|string $key): string => SafeStringCastAction::cast($key),
+            static fn ($key) => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
-            SafeStringCastAction::cast(...),
+            static fn ($value) => SafeStringCastAction::cast($value),
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

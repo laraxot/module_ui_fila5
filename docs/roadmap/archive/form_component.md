@@ -1,3 +1,14 @@
+---
+title: "form component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "form component"
+issues: []
+discussions: []
+---
+
 # Form Component
 
 ## 📊 Stato Implementazione

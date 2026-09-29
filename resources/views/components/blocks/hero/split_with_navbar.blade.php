@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 <div class="relative bg-gray-50">
     <div class="relative bg-white shadow">

@@ -1,3 +1,14 @@
+---
+title: "bugfix table layout action "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix table layout action "
+issues: []
+discussions: []
+---
+
 # Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -140,40 +151,14 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
-<<<<<<< HEAD
-curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
-=======
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 ```
 
 ### Risultati Test
 
-✅ **Sintassi PHP**: Nessun errore di sintassi  
-✅ **Istanziazione**: Classe istanziabile correttamente  
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
 ## Impatto
@@ -199,8 +184,15 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 
 ---
 
-**Data**: 27 Gennaio 2025  
-**Modulo**: UI  
-**Tipo**: Bug Fix  
-**Priorità**: Alta  
+title: "bugfix table layout action "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix table layout action "
+issues: []
+discussions: []
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
 **Stato**: ✅ Risolto

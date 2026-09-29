@@ -1,19 +1,12 @@
 ---
-title: "User Dropdown Component"
-type: concept
-tags: [user, dropdown]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "user-dropdown user dropdown component"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./correct-filament-components.md"
-  - "./filament-component-integration.md"
-  - "./logo.md"
-  - "./navigation.md"
+title: "user dropdown"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "user dropdown"
+issues: []
+discussions: []
 ---
 
 # User Dropdown Component

@@ -1,3 +1,14 @@
+---
+title: "conflitti merge risolti"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "conflitti merge risolti"
+issues: []
+discussions: []
+---
+
 # Conflitti di Merge Risolti nel Modulo UI
 
 ## Conflitti Risolti (2025-05-13)

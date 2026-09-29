@@ -1,4 +1,7 @@
 ---
+qmd: "UI ubuntu"
+issues: []
+discussions: []
 title: "UI ubuntu"
 type: reference
 tags: [ui]

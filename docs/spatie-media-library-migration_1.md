@@ -1,3 +1,14 @@
+---
+title: "spatie media library migration 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "spatie media library migration 1"
+issues: []
+discussions: []
+---
+
 # Migrazione da FileUpload a Spatie Media Library
 
 ## 🌍 Analisi Multidimensionale della Migrazione
@@ -26,6 +37,14 @@
 
 ---
 
+title: "spatie media library migration 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "spatie media library migration 1"
+issues: []
+discussions: []
 ## 📊 Situazione Attuale (Analisi Completa)
 
 ### ✅ **Già Migrati a SpatieMediaLibraryFileUpload**

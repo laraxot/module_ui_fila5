@@ -1,4 +1,7 @@
 ---
+qmd: "ui page builder"
+issues: []
+discussions: []
 title: "UI page builder"
 type: reference
 tags: [ui]

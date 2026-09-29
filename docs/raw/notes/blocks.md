@@ -1,4 +1,7 @@
 ---
+qmd: "blocks"
+issues: []
+discussions: []
 title: 'Blocks — risorse esterne'
 module: UI
 type: reference

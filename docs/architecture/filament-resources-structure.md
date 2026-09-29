@@ -1,18 +1,12 @@
 ---
-title: "Struttura delle Filament Resources"
-type: concept
-tags: [filament, resources, structure]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "filament-resources-structure struttura delle filament resources"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./component-registration.md"
-  - "./filament-pages-structure.md"
-  - "./structure.md"
+title: "filament resources structure"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament resources structure"
+issues: []
+discussions: []
 ---
 
 # Struttura delle Filament Resources

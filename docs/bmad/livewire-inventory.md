@@ -1,8 +1,14 @@
 ---
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-29
+qmd: "livewire inventory"
+issues: []
+discussions: []
 title: "Inventario UI — Livewire HTTP → Filament widget"
 type: inventory
 module: UI
-status: implemented
+status: done
 related:
   - ./livewire-widget-prd.md
   - ./livewire-widget-architecture.md

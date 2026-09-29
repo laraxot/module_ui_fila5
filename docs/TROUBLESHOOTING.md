@@ -1,4 +1,8 @@
 ---
+created: 2026-09-26
+qmd: "TROUBLESHOOTING"
+issues: []
+discussions: []
 title: UI Module — Troubleshooting Guide
 module: UI
 type: troubleshooting
