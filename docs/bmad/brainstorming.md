@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_jnjBKD
 <<<<<<< .merge_file_80UpUp
 ---
 title: "UI — Brainstorming"
@@ -66,6 +67,8 @@ In `app/Filament/Widgets/` coesistono `UserCalendarWidget.php` attivo e le varia
 2. Aggiornare [architecture.md](architecture.md) quando una duplicazione viene sciolta.
 3. Portare ogni decisione chiusa nelle story in `stories/`.
 =======
+=======
+>>>>>>> .merge_file_5hO95H
 # Brainstorming - Modulo UI
 
 ## Idee iniziali
@@ -88,4 +91,7 @@ In `app/Filament/Widgets/` coesistono `UserCalendarWidget.php` attivo e le varia
 
 - [DOMANDA 1]
 - [DOMANDA 2]
+<<<<<<< .merge_file_jnjBKD
 >>>>>>> .merge_file_VOhVL5
+=======
+>>>>>>> .merge_file_5hO95H
