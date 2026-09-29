@@ -1,4 +1,5 @@
 ---
+<<<<<<< .merge_file_YDuj6D
 <<<<<<< .merge_file_hwkA1b
 title: "UI — BMAD Documentation Index"
 type: note
@@ -15,6 +16,8 @@ related:
   - ./setup-guide.md
   - ../../../Xot/docs/bmad-method.md
 =======
+=======
+>>>>>>> .merge_file_KmC9PY
 title: "UI — BMAD Method Integration"
 description: "BMAD workflow documentation per il modulo UI"
 module: "UI"
