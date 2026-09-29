@@ -25,8 +25,6 @@ final class StatWithIconWidget extends XotBaseSchemaWidget
      */
     protected function getData(): array
     {
-        dddx($this->label);
-
         return [];
     }
 }
