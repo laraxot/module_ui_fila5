@@ -1,15 +1,4 @@
----
-title: "paths and assets"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "paths and assets"
-issues: []
-discussions: []
----
-
-# AVVISO IMPORTANTE ([DATE])
+# AVVISO IMPORTANTE (2025-05-13)
 
 > **ATTENZIONE:** Tutti i componenti UI condivisi (come `logo.blade.php`) devono essere SEMPRE posizionati in `Modules/UI/resources/views/components/ui/` e MAI in `resources/views/components/`. Qualsiasi violazione di questa regola causa errori di rendering, override errati, problemi di modularità e manutenzione.
 >
@@ -19,21 +8,20 @@ discussions: []
 >
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
-# Gestione dei Percorsi e degli Asset 
-
+# Gestione dei Percorsi e degli Asset
 ## Collegamenti correlati
-- [README modulo UI](/laravel/modules/ui/docs/readme.md)
-- [Architettura Modulare](/laravel/modules/ui/docs/architecture.md)
+- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+- [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
 
 ### Struttura delle Directory
 
-, è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
+In <nome progetto>, è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
-/var/www/html/Quaeris/
+[project-root]/
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -51,10 +39,10 @@ discussions: []
 
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
-| Immagini | `/var/www/html/Quaeris/public_html/images/` | `/var/www/html/Quaeris/laravel/public/images/` |
-| CSS | `/var/www/html/Quaeris/public_html/css/` | `/var/www/html/Quaeris/laravel/public/css/` |
-| JavaScript | `/var/www/html/Quaeris/public_html/js/` | `/var/www/html/Quaeris/laravel/public/js/` |
-| SVG | `/var/www/html/Quaeris/public_html/images/` | `/var/www/html/Quaeris/laravel/public/images/` |
+| Immagini | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
+| CSS | `[project-root]/public_html/css/` | `[project-root]/laravel/public/css/` |
+| JavaScript | `[project-root]/public_html/js/` | `[project-root]/laravel/public/js/` |
+| SVG | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -71,7 +59,7 @@ Quando si fa riferimento agli asset nei componenti Blade, utilizzare sempre l'he
 Per garantire una buona esperienza utente, implementare sempre un fallback per le immagini che potrebbero non essere disponibili:
 
 ```php
-<img 
+<img
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
     onerror="this.src='{{ asset('images/default-avatar.svg') }}'"
@@ -85,7 +73,7 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati come componenti Blade in:
 
 ```
-/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/
+[project-root]/laravel/Themes/One/resources/views/components/ui/
 ```
 
 ### SVG come Asset Pubblici
@@ -93,7 +81,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 
 ```
-/var/www/html/Quaeris/public_html/images/
+[project-root]/public_html/images/
 ```
 
 ## Gestione dei Componenti UI
@@ -103,13 +91,13 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 Il componente avatar è implementato in:
 
 ```
-/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+[project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
-/var/www/html/Quaeris/public_html/images/avatars/
+[project-root]/public_html/images/avatars/
 ```
 
 ### Componente Icon
@@ -117,7 +105,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 Il componente icon è implementato in:
 
 ```
-/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+[project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -126,7 +114,7 @@ E include le definizioni SVG direttamente nel componente.
 
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
-> `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
+> `Modules/UI/resources/views/components/ui/`
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
 
@@ -144,7 +132,7 @@ E include le definizioni SVG direttamente nel componente.
 ```
 **✅ Corretto:**
 ```
-/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
+Modules/UI/resources/views/components/ui/logo.blade.php
 ```
 
 ## Best Practices
@@ -158,7 +146,8 @@ E include le definizioni SVG direttamente nel componente.
 
 ## Errori Comuni
 
-1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/Quaeris/laravel/public/` invece di `/var/www/html/Quaeris/public_html/`
+1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili
+

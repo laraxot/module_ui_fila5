@@ -1,7 +1,4 @@
 ---
-qmd: "map picker"
-issues: []
-discussions: []
 title: 'Map picker'
 module: UI
 type: reference

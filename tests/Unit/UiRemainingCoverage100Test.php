@@ -26,6 +26,7 @@ use Modules\UI\View\Components\Std;
 use Modules\UI\View\Components\Svg;
 use Modules\Xot\Actions\GetViewAction;
 use PHPUnit\Framework\Assert;
+use ReflectionClass;
 
 use function Safe\mkdir;
 
@@ -85,8 +86,8 @@ describe('UI remaining 100 — view e actions', function (): void {
         foreach ([
             (new Std('tpl'))->render(),
             (new Svg('tpl'))->render(),
-            (new Navbar())->render(),
-            (new WithSidebar())->render(),
+            (new Navbar)->render(),
+            (new WithSidebar)->render(),
         ] as $view) {
             Assert::assertInstanceOf(View::class, $view);
             Assert::assertSame('ui::empty', $view->name());
@@ -101,7 +102,7 @@ describe('UI remaining 100 — altri componenti', function (): void {
         File::put($tmp.'/sample.svg', '<svg></svg>');
 
         $factory = App::make(IconFactory::class);
-        $prop = (new \ReflectionClass($factory))->getProperty('sets');
+        $prop = (new ReflectionClass($factory))->getProperty('sets');
         $prop->setAccessible(true);
         $prop->setValue($factory, [
             'test' => ['paths' => [$tmp], 'prefix' => 't'],
@@ -114,7 +115,7 @@ describe('UI remaining 100 — altri componenti', function (): void {
     });
 
     test('GetUserDataAction avatar da profile_photo_path', function (): void {
-        $user = new UiCoverageAuthUser();
+        $user = new UiCoverageAuthUser;
         $user->forceFill([
             'id' => 5,
             'name' => 'Path User',
@@ -131,9 +132,9 @@ describe('UI remaining 100 — altri componenti', function (): void {
 
 function uiRemainingSetProperty(object $target, string $name, mixed $value): void
 {
-    $ref = new \ReflectionClass($target);
+    $ref = new ReflectionClass($target);
 
-    while (false !== $ref) {
+    while ($ref !== false) {
         if ($ref->hasProperty($name)) {
             $prop = $ref->getProperty($name);
             $prop->setAccessible(true);
@@ -150,9 +151,9 @@ function uiRemainingSetProperty(object $target, string $name, mixed $value): voi
 
 function uiRemainingGetProperty(object $target, string $name): mixed
 {
-    $ref = new \ReflectionClass($target);
+    $ref = new ReflectionClass($target);
 
-    while (false !== $ref) {
+    while ($ref !== false) {
         if ($ref->hasProperty($name)) {
             $prop = $ref->getProperty($name);
             $prop->setAccessible(true);

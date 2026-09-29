@@ -1,7 +1,4 @@
 ---
-qmd: "UI blocks"
-issues: []
-discussions: []
 title: "UI blocks"
 type: reference
 tags: [ui]

@@ -1,15 +1,5 @@
----
-title: "struttura themes folio"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "struttura themes folio"
-issues: []
-discussions: []
----
-
-# Struttura Themes e Folio in <nome progetto>
+# Struttura Themes e Folio in SaluteOra
+# Struttura Themes e Folio in <nome progetto>corrente
 
 ## ⚠️ ATTENZIONE CRITICA
 
@@ -19,7 +9,8 @@ discussions: []
 
 ## Struttura del Progetto
 
-Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 
 ```
 /laravel/

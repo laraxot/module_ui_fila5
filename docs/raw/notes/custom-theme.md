@@ -1,7 +1,4 @@
 ---
-qmd: "custom theme"
-issues: []
-discussions: []
 title: 'Custom theme'
 module: UI
 type: reference

@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{-- Requires Js --}}
 <div class="isolate overflow-hidden">

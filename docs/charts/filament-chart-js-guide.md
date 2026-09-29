@@ -1,14 +1,19 @@
 ---
-title: "filament chart js guide"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament chart js guide"
-issues: []
-discussions: []
+title: "Filament Chart.js Guide"
+type: guide
+tags: [filament, chart, guide]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-chart-js-guide filament chart.js guide"
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./chartjs-datalabels-multiple-labels-complete-guide.md"
+  - "./chartjs-plugin-datalabels-filament5.md"
+  - "./export-strategy.md"
+  - "./server-side-actions.md"
+  - "./shared-hosting-strategy.md"
 ---
-
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.
@@ -117,7 +122,7 @@ See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/profes
 ## 5. PDF Reporting Strategy
 
 **Do NOT** use `dompdf` or client-side canvas capture for charts.
-The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+The architectural standard for modulo questionari is **Spatie Laravel PDF** (a wrapper around Browsershot).
 
 **Pattern:** "Shadow Report Views"
 1.  Create a dedicated Blade view for the report (linear layout).
@@ -126,14 +131,6 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 4.  **Critical**: Set `animation: false` in Chart.js options for the print view.
 
 ---
-title: "filament chart js guide"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament chart js guide"
-issues: []
-discussions: []
 **See Also**:
 -   [Dashboard Best Practices](../../../limesurvey/docs/dashboard-best-practices.md)
 -   [Professional Charts & PDF Guide](../../../limesurvey/docs/professional-charts-and-pdfs.md)

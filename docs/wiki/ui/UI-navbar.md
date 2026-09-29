@@ -1,7 +1,4 @@
 ---
-qmd: "UI navbar"
-issues: []
-discussions: []
 title: "UI navbar"
 type: reference
 tags: [ui]

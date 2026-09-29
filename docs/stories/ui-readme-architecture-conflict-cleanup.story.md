@@ -1,11 +1,4 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ui readme architecture conflict cleanup.story"
-issues: []
-discussions: []
 title: Risolve conflitti README + consolida docs/architecture case-dupes
 slug: ui-readme-architecture-conflict-cleanup
 status: done-partial

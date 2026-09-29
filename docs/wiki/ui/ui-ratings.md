@@ -1,7 +1,4 @@
 ---
-qmd: "ui ratings"
-issues: []
-discussions: []
 title: "UI ratings"
 type: reference
 tags: [wiki, ui, link-dump]

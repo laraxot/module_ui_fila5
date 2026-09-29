@@ -1,7 +1,4 @@
 ---
-qmd: "links"
-issues: []
-discussions: []
 title: 'Links'
 module: UI
 type: reference

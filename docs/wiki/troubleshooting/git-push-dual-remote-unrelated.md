@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "Git push UI — history unrelated laraxot vs provtv + loop automatico"
 type: rule
 module: UI
@@ -11,25 +9,8 @@ qmd: "UI module_ui_fila5 push unrelated histories laraxot provtv loop automatico
 related:
   - "../../multi-org-sync-laraxot-provtv.md"
   - "../../git-multi-org-sync-handoff.md"
----
----
   - "./git-push-lfs-missing-objects.md"
   - "./git-push-lfs-missing-objects.md"
----
----
----
----
-  - "./git-push-lfs-missing-objects.md"
-  - "./git-push-lfs-missing-objects.md"
----
----
----
-  - "./git-push-lfs-missing-objects.md"
----
----
----
----
----
   - "../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md"
 ---
 
@@ -61,23 +42,6 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 ## Relazione con altri playbook
 
 - Stesso pattern, altro modulo: [User git-push-dual-remote-unrelated](../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md)
----
----
 - LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
 - LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
----
----
----
----
-- LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
-- LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
----
----
----
-- LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
----
----
----
----
----
 - Storico risoluzione marker di conflitto (73 file, poi ricorsi): [git-merge-conflict-inventory.md](./git-merge-conflict-inventory.md)

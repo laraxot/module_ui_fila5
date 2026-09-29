@@ -1,14 +1,3 @@
----
-title: "table layout toggle"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "table layout toggle"
-issues: []
-discussions: []
----
-
 # TableLayoutToggleTableAction
 
 ## Panoramica

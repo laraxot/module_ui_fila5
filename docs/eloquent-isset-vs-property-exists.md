@@ -1,14 +1,3 @@
----
-title: "eloquent isset vs property exists"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "eloquent isset vs property exists"
-issues: []
-discussions: []
----
-
 # Eloquent: isset() vs property_exists()
 
 ## Regola Fondamentale
@@ -104,13 +93,5 @@ Tutti i file del modulo UI sono PHPStan Level 10 compliant usando `isset()`.
 
 ---
 
-title: "eloquent isset vs property exists"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "eloquent isset vs property exists"
-issues: []
-discussions: []
-**Ultimo aggiornamento**: [DATE]
+**Ultimo aggiornamento**: 2025-01-06
 **Status**: ✅ PHPStan Level 10 - 0 Errors
