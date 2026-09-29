@@ -1,12 +1,17 @@
 ---
-title: "index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "index"
-issues: []
-discussions: []
+title: "UI Module Wiki Index"
+type: concept
+tags: [index]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "index ui module wiki index"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./agents.md"
+  - "./log.md"
 ---
 
 # UI Module Wiki Index
@@ -17,14 +22,6 @@ discussions: []
 
 ---
 
-title: "index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "index"
-issues: []
-discussions: []
 ## Concepts
 
 _No concept pages created yet_

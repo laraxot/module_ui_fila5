@@ -1,14 +1,3 @@
----
-title: "design comuni faq components"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design comuni faq components"
-issues: []
-discussions: []
----
-
 # Design Comuni - Componenti UI per FAQ
 
 ## Panoramica
@@ -95,14 +84,6 @@ Componenti UI del modulo UI utilizzati per implementare la pagina FAQ del proget
 
 ---
 
-title: "design comuni faq components"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design comuni faq components"
-issues: []
-discussions: []
 ### 2. Hero Component
 
 **File**: `Themes/Sixteen/resources/views/components/blocks/hero/default.blade.php`
@@ -380,6 +361,8 @@ pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
 Configurato in `config/local/fixcity/xra.php`:
+Configurato in `config/local/<nome progetto>/xra.php`:
+Configurato in `config/local/current/xra.php`:
 ```php
 'pub_theme' => 'Sixteen',
 ```

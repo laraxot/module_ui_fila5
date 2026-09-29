@@ -1,11 +1,4 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ui root md file limit audit.story"
-issues: []
-discussions: []
 title: Audit igiene root — limite 6 file .md in Modules/UI
 slug: ui-root-md-file-limit-audit
 status: done

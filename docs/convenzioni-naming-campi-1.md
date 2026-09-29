@@ -1,14 +1,3 @@
----
-title: "convenzioni naming campi 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "convenzioni naming campi 1"
-issues: []
-discussions: []
----
-
 # Convenzioni di Naming dei Campi
 
 ## Collegamenti Bidirezionali
@@ -113,6 +102,10 @@ TextInput::make('full_name')
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../docs/database/best-practices.md)
+- [Convenzioni API](../../../docs/api/convenzioni.md) 
+## Collegamenti tra versioni di convenzioni-naming-campi.md
+* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
+
 - [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)

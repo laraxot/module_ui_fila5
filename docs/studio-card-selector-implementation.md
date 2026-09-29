@@ -1,14 +1,3 @@
----
-title: "studio card selector implementation"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "studio card selector implementation"
-issues: []
-discussions: []
----
-
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -227,25 +216,17 @@ return [
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
 ---
-title: "studio card selector implementation"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "studio card selector implementation"
-issues: []
-discussions: []
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
-
-
+**Last Updated**: January 2025
+**Last Updated**: January 2025
         ],
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
-
-
+**Last Updated**: January 2025
+**Last Updated**: January 2025
         ],
         'phone' => [
             'label' => 'Telefono',
@@ -274,20 +255,20 @@ discussions: []
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
-
-
-
-
----
-**Component Status**: 📋 Documented - Ready for Implementation
-**Reusability**: 🔄 High - Cross-module compatible
-
-
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
-
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+**Last Updated**: January 2025
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -296,6 +277,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 ## 🏗️ **Architettura Component**
 
 ### Classe PHP
+```
+
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
 <?php
@@ -311,6 +294,10 @@ use Closure;
 class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
+    
+    // Dati studios da visualizzare
+    protected Collection|Closure|null $studios = null;
+    
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
@@ -412,6 +399,17 @@ private function getStudiosForLocation(Get $get): Collection
     $province = $get('province');
     $region = $get('region');
 
+    $province = $get('province'); 
+    $region = $get('region');
+    
+    if (!$cap || !$province || !$region) {
+        return collect();
+    }
+    
+    return \Modules\<nome progetto>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+    $province = $get('province');
+    $region = $get('region');
+    
     if (!$cap || !$province || !$region) {
         return collect();
     }
@@ -470,17 +468,16 @@ return [
 - [Components Overview](./components.md)
 - [Form Components Guide](./form-components.md)
 
-### Modulo Generico
-- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
-### Modulo Generico
-- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
-### Modulo Generico
-- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+### Modulo <nome progetto>
+- [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
 ---
 
+**Component Status**: 📋 Documented - Ready for Implementation  
+**Reusability**: 🔄 High - Cross-module compatible  
+**Last Updated**: January 2025
+### Modulo Generico
+- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
-
-
-

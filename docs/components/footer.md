@@ -1,12 +1,23 @@
 ---
-title: "footer"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "footer"
-issues: []
-discussions: []
+title: "Footer Component"
+type: concept
+tags: [footer]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "footer footer component"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./address-field-1.md"
+  - "./address-field.md"
+  - "./blade-component-registration.md"
+  - "./filament-usage.md"
+  - "./filament.md"
+  - "./file-upload.md"
+  - "./full-calendar-1.md"
+  - "./full-calendar.md"
 ---
 
 # Footer Component
@@ -24,7 +35,7 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 ### Documentazione Principale
 - [Documentazione Dettagliata del Footer](../../../../themes/one/docs/components/layouts/footer.md)
 - [Guida allo Stile del Tema One](../../../../themes/one/docs/style_guide.md)
-- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
+- [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
 
 ### Best Practices e Linee Guida
 - [Best Practices Components](../../../cms/docs/best-practices/components.md)

@@ -10,15 +10,13 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
-/**
- * @return view-string
- */
-function kalshiHeroViewName(): string
+/** @param array<string, mixed> $data */
+function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
 {
     /** @var view-string $viewName */
     $viewName = 'pub_theme::components.blocks.hero.kalshi-inspired';
 
-    return $viewName;
+    return View::make($viewName, $data);
 }
 
 beforeEach(function () {
@@ -47,7 +45,7 @@ test('kalshi inspired hero component renders without errors', function () {
         'show_categories' => true,
     ];
 
-    $view = View::make(kalshiHeroViewName(), $componentData);
+    $view = makeKalshiView($componentData);
 
     $html = $view->render();
     Assert::assertStringContainsString((string) 'Test <nome progetto>ion Platform', (string) $html);
@@ -57,7 +55,7 @@ test('kalshi inspired hero component renders without errors', function () {
 });
 
 test('kalshi hero shows statistics when enabled', function () {
-    $view = View::make(kalshiHeroViewName(), [
+    $view = makeKalshiView([
         'show_stats' => true,
     ]);
 
@@ -73,7 +71,7 @@ test('kalshi hero shows statistics when enabled', function () {
 });
 
 test('kalshi hero hides statistics when disabled', function () {
-    $view = View::make(kalshiHeroViewName(), [
+    $view = makeKalshiView([
         'show_stats' => false,
     ]);
 
@@ -83,7 +81,7 @@ test('kalshi hero hides statistics when disabled', function () {
 });
 
 test('kalshi hero shows categories when enabled', function () {
-    $view = View::make(kalshiHeroViewName(), [
+    $view = makeKalshiView([
         'show_categories' => true,
     ]);
 
@@ -98,7 +96,7 @@ test('kalshi hero shows categories when enabled', function () {
 });
 
 test('kalshi hero hides categories when disabled', function () {
-    $view = View::make(kalshiHeroViewName(), [
+    $view = makeKalshiView([
         'show_categories' => false,
     ]);
 
@@ -107,7 +105,7 @@ test('kalshi hero hides categories when disabled', function () {
 });
 
 test('kalshi hero supports custom props', function () {
-    $view = View::make(kalshiHeroViewName(), [
+    $view = makeKalshiView([
         'title' => 'Custom Market Title',
         'subtitle' => 'Custom trading platform description',
         'cta_text' => 'Join Now',
@@ -126,7 +124,7 @@ test('kalshi hero supports custom props', function () {
 });
 
 test('kalshi hero has proper css classes and styling', function () {
-    $view = View::make(kalshiHeroViewName());
+    $view = makeKalshiView();
 
     $html = $view->render();
     Assert::assertStringContainsString((string) 'bg-gradient-to-br from-slate-900', (string) $html);
@@ -136,7 +134,7 @@ test('kalshi hero has proper css classes and styling', function () {
 });
 
 test('kalshi hero includes required css animations', function () {
-    $view = View::make(kalshiHeroViewName());
+    $view = makeKalshiView();
 
     $html = $view->render();
     Assert::assertStringContainsString((string) '@keyframes gradient-x', (string) $html);
@@ -145,7 +143,7 @@ test('kalshi hero includes required css animations', function () {
 });
 
 test('kalshi hero has responsive design classes', function () {
-    $view = View::make(kalshiHeroViewName());
+    $view = makeKalshiView();
 
     $html = $view->render();
     Assert::assertStringContainsString((string) 'md:text-7xl lg:text-8xl', (string) $html);

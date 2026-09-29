@@ -1,11 +1,4 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "navigation"
-issues: []
-discussions: []
 title: Navigation
 description: Building a navigation menu for your site
 extends: _layouts.documentation
@@ -42,12 +35,12 @@ $page->navigation
 ### Versione HEAD
 
 ## Collegamenti tra versioni di navigation.md
-* [navigation.md](../../../gdpr/docs/navigation.md)
-* [navigation.md](../../../xot/docs/navigation.md)
-* [navigation.md](../../../ui/docs/navigation.md)
-* [navigation.md](../../../cms/docs/blocks/navigation.md)
-* [navigation.md](../../../cms/docs/navigation.md)
-* [navigation.md](../../../cms/docs/components/navigation.md)
+* [navigation.md](../../../Gdpr/docs/navigation.md)
+* [navigation.md](../../../Xot/docs/navigation.md)
+* [navigation.md](../../../UI/docs/navigation.md)
+* [navigation.md](../../../Cms/docs/blocks/navigation.md)
+* [navigation.md](../../../Cms/docs/navigation.md)
+* [navigation.md](../../../Cms/docs/components/navigation.md)
 
 ### Versione Incoming
 

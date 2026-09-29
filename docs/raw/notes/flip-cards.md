@@ -1,7 +1,4 @@
 ---
-qmd: "flip cards"
-issues: []
-discussions: []
 title: 'Flip cards — risorse esterne'
 module: UI
 type: reference

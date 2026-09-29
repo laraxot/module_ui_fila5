@@ -1,14 +1,3 @@
----
-title: "design system 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "design system 1"
-issues: []
-discussions: []
----
-
 # Design System
 
 ## Panoramica
@@ -90,9 +79,9 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     <x-slot name="header">
         Titolo Card
     </x-slot>
-
+    
     Contenuto della card
-
+    
     <x-slot name="footer">
         Footer della card
     </x-slot>

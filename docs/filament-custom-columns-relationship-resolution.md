@@ -1,14 +1,3 @@
----
-title: "filament custom columns relationship resolution"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament custom columns relationship resolution"
-issues: []
-discussions: []
----
-
 # Filament Custom Columns - Relationship Resolution Ultimate Guide
 
 ## Executive Summary
@@ -21,14 +10,6 @@ discussions: []
 
 ---
 
-title: "filament custom columns relationship resolution"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament custom columns relationship resolution"
-issues: []
-discussions: []
 ## Understanding the Problem
 
 ### How Standard Filament TextColumn Works
@@ -185,7 +166,7 @@ class ValutatoreColumn extends GroupColumn
 
 ```php
 // In your Model (e.g., Schede.php)
-class Scheda extends BaseModel
+class Schede extends BaseModel
 {
     protected function valutatoreNomeDiri(): Attribute
     {

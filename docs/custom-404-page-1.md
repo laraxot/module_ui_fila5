@@ -1,11 +1,4 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "custom 404 page 1"
-issues: []
-discussions: []
 title: Custom 404 Page
 description: Custom 404 pages with Jigsaw docs starter template
 extends: _layouts.documentation
@@ -43,6 +36,12 @@ Depending on where your site is hosted, you may need to configure your server to
 * [custom-404-page.md](../../../UI/docs/custom-404-page.md)
 * [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
+
+
+### Versione Incoming
+
+
+---
 
 ### Versione Incoming
 

@@ -1,11 +1,4 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "setup guide"
-issues: []
-discussions: []
 title: "UI — BMAD Setup Guide"
 description: "Setup e configurazione BMAD per il modulo UI"
 module: "UI"

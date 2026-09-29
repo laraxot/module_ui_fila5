@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Widgets\StatsOverviewWidget\Stat;
-use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget as BaseWidget;
+use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget;
 
-class HeroWidget extends BaseWidget
+class HeroWidget extends XotBaseStatsOverviewWidget
 {
     protected ?string $heading = 'Hero Widget';
 

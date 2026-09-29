@@ -1,14 +1,3 @@
----
-title: "roadmap miglioramenti"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap miglioramenti"
-issues: []
-discussions: []
----
-
 # UI — cosa migliorerei se questo modulo fosse mio per un mese
 
 > I numeri misurati sono in [`docs/cosa-migliorare.md`](cosa-migliorare.md),
@@ -69,13 +58,5 @@ componenti, vale la pena chiedersi se questo modulo sta ancora facendo solo
 presentazione o se è già diventato un secondo modulo di dominio travestito.
 
 ---
-title: "roadmap miglioramenti"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "roadmap miglioramenti"
-issues: []
-discussions: []
 *Analisi generata il 2026-09-01, dati verificati sul codice (grep/find/ls),
 non sulla documentazione esistente.*

@@ -1,14 +1,3 @@
----
-title: "table layout enum comprehensive"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "table layout enum comprehensive"
-issues: []
-discussions: []
----
-
 # TableLayoutEnum - Documentazione Completa
 
 ## Panoramica
@@ -409,22 +398,14 @@ Restituisce il testo di aiuto tradotto per il layout.
 
 ## Collegamenti
 
-- [TransTrait Documentation](../../xot/docs/filament/trans-trait.md)
+- [TransTrait Documentation](../../Xot/docs/filament/trans-trait.md)
 - [UI Module Architecture](architecture_rules.md)
-- [Filament Best Practices](../../../../docs/filament_best_practices.md)
-- [Translation Standards](../../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [Translation Standards](../../../docs/translation_standards.md)
 - [Table Components](table-components.md)
 
 ---
 
-title: "table layout enum comprehensive"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "table layout enum comprehensive"
-issues: []
-discussions: []
 **Ultimo aggiornamento**: Gennaio 2025
 **Versione**: 2.0.0
 **Compatibilità**: Filament 3.x, Laravel 10.x, PHP 8.1+

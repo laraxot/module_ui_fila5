@@ -1,14 +1,3 @@
----
-title: "best practices 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "best practices 1"
-issues: []
-discussions: []
----
-
 # Best Practices UI
 
 ## Principi Generali
@@ -46,6 +35,10 @@ class CustomComponent extends Component
     // Proprietà pubbliche con type hint
     public string $label;
     public ?string $hint = null;
+    
+    // Proprietà private per stato interno
+    private bool $isLoading = false;
+    
 
     // Proprietà private per stato interno
     private bool $isLoading = false;
@@ -85,6 +78,11 @@ class CustomComponent extends Component
     &__header { }
     &__content { }
     &__footer { }
+    
+    // Stati
+    &--loading { }
+    &--disabled { }
+    
 
     // Stati
     &--loading { }
@@ -257,16 +255,15 @@ class AdvancedForm extends Component
 * [best-practices.md](../../../UI/docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/docs/best-practices.md)
 
+
+### Versione Incoming
+
+- Breaking changes 
+
+---
+
 ### Versione Incoming
 
 - Breaking changes
 
 ---
-title: "best practices 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "best practices 1"
-issues: []
-discussions: []

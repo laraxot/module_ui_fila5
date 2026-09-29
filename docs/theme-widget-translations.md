@@ -1,14 +1,3 @@
----
-title: "theme widget translations"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "theme widget translations"
-issues: []
-discussions: []
----
-
 # Regole per Traduzioni Widget nel Tema
 
 ## Panoramica
@@ -240,11 +229,4 @@ Includi sempre esempi pratici:
 
 ---
 
-title: "theme widget translations"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "theme widget translations"
-issues: []
-discussions: []
+*Ultimo aggiornamento: Dicembre 2024*

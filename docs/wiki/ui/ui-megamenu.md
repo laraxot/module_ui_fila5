@@ -1,7 +1,4 @@
 ---
-qmd: "ui megamenu"
-issues: []
-discussions: []
 title: "UI megamenu"
 type: reference
 tags: [ui]

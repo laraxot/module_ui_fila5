@@ -1,14 +1,3 @@
----
-title: "phpmd improvements"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpmd improvements"
-issues: []
-discussions: []
----
-
 # Miglioramenti PHPMD e PHP Insights - Modulo UI - Aggiornamento Finale
 
 ## Riepilogo Correzioni Completate
@@ -96,14 +85,7 @@ Questi metodi sono già stati refactorizzati e la complessità è al limite acce
 
 ---
 
-title: "phpmd improvements"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpmd improvements"
-issues: []
-discussions: []
+**Data**: 2025-01-06
 **Status**: Correzioni completate per modulo UI
 **Problemi critici rimanenti**: 0
 **Problemi al limite soglia**: ~4 (non critici)

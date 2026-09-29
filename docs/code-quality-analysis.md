@@ -1,18 +1,7 @@
----
-title: "code quality analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "code quality analysis"
-issues: []
-discussions: []
----
-
 # Analisi Qualità Codice - Modulo UI
 
 ## Data
-[DATE]
+2025-01-06
 
 ## Strumenti Utilizzati
 
@@ -61,7 +50,7 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 
 ## Collegamenti
 
-- [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
-- [PHPStan Level 10 Fixes](../../../../docs/phpstan-level10-fixes-[date].md)
+- [Module Analysis Report](../../../docs/module-analysis-report-2025-01-06.md)
+- [PHPStan Level 10 Fixes](../../../docs/phpstan-level10-fixes-2025-01-06.md)
 
-*Ultimo aggiornamento: [DATE]*
+*Ultimo aggiornamento: 2025-01-06*

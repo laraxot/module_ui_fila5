@@ -1,14 +1,3 @@
----
-title: "studio card selector implementation"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "studio card selector implementation"
-issues: []
-discussions: []
----
-
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -194,14 +183,6 @@ return [
 
 ---
 
-title: "studio card selector implementation"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "studio card selector implementation"
-issues: []
-discussions: []
 **Component Status**: 📋 Documented - Ready for Implementation  
 **Reusability**: 🔄 High - Cross-module compatible  
 **Last Updated**: January 2025

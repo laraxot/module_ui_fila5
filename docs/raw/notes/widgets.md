@@ -1,7 +1,4 @@
 ---
-qmd: "widgets"
-issues: []
-discussions: []
 title: 'Widgets — risorse esterne'
 module: UI
 type: reference

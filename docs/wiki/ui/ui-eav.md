@@ -1,7 +1,4 @@
 ---
-qmd: "ui eav"
-issues: []
-discussions: []
 title: "UI eav"
 type: reference
 tags: [ui]

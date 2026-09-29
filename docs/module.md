@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "UI Module — Doctrine"
 type: doctrine
 tags: [ui, design-system, module-doctrine]

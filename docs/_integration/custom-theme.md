@@ -1,12 +1,21 @@
 ---
-title: "custom theme"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "custom theme"
-issues: []
-discussions: []
+title: "custom_theme"
+type: concept
+tags: [custom, theme]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "custom-theme custom_theme"
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./api.md"
+  - "./blocks.md"
+  - "./carousel-slider-1.md"
+  - "./carousel-slider.md"
+  - "./chunk.md"
+  - "./ci.md"
+  - "./custom-firm-fields-1.md"
+  - "./custom-firm-fields.md"
 ---
 
 # custom_theme

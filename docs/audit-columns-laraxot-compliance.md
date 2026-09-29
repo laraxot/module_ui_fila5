@@ -1,16 +1,6 @@
----
-title: "audit columns laraxot compliance"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "audit columns laraxot compliance"
-issues: []
-discussions: []
----
-
 # Audit e Correzione Colonne Filament - Modulo UI
 
+**Data**: 11 Novembre 2025
 **Status**: ✅ COMPLETATO
 
 ## Analisi Completa

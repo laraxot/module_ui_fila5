@@ -1,14 +1,3 @@
----
-title: "phpstan errors locationselector"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan errors locationselector"
-issues: []
-discussions: []
----
-
 # PHPStan Errori LocationSelector - Analisi e Correzione
 
 ## Problema Identificato
@@ -119,4 +108,5 @@ Aggiungere `@phpstan-ignore` e gestione errori:
 - Valutare se Geo deve essere modulo separato o parte di UI
 - Documentare struttura dati JSON attesa
 
+*Ultimo aggiornamento: 2025-01-27*
 

@@ -1,14 +1,3 @@
----
-title: "navigation components"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "navigation components"
-issues: []
-discussions: []
----
-
 # Componenti di Navigazione 
 
 ## Indice
@@ -79,7 +68,8 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 ### Traduzioni Necessarie
 
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `[project-root]/laravel/lang/{locale}/auth.php`:
 
 ```php
 return [

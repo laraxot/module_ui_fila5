@@ -15,17 +15,7 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 
     public bool $darkMode = false;
 
-    /** @var view-string */
-    protected string $view;
-
-    public function __construct()
-    {
-        /** @var view-string $view */
-        $view = 'ui::filament.widgets.dark-mode-switcher';
-        $this->view = $view;
-
-        parent::__construct();
-    }
+    protected string $view = 'ui::filament.widgets.dark-mode-switcher';
 
     public function mount(): void
     {
@@ -51,6 +41,14 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
     public function getFormSchema(): array
     {
         return [];
+    }
+
+    /**
+     * Disabilitabile via config per temi/test (default: visibile).
+     */
+    public static function canView(): bool
+    {
+        return (bool) config('ui.dark_mode_switcher.enabled', true);
     }
 
     public function render(): View

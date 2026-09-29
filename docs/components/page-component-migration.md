@@ -1,12 +1,23 @@
 ---
-title: "page component migration"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "page component migration"
-issues: []
-discussions: []
+title: "Migrazione Componenti di Pagina - Modulo UI"
+type: concept
+tags: [page, component, migration]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "page-component-migration migrazione componenti di pagina - modulo ui"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./address-field-1.md"
+  - "./address-field.md"
+  - "./blade-component-registration.md"
+  - "./filament-usage.md"
+  - "./filament.md"
+  - "./file-upload.md"
+  - "./footer.md"
+  - "./full-calendar-1.md"
 ---
 
 # Migrazione Componenti di Pagina - Modulo UI

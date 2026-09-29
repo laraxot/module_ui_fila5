@@ -1,14 +1,3 @@
----
-title: "feedback components"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "feedback components"
-issues: []
-discussions: []
----
-
 # Componenti Feedback e Notifiche
 
 ## 🚨 Alert e Notifiche

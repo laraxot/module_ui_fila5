@@ -1,14 +1,3 @@
----
-title: "table components"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "table components"
-issues: []
-discussions: []
----
-
 # Componenti Table
 
 ## Introduzione

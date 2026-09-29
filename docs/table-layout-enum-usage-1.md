@@ -1,14 +1,3 @@
----
-title: "table layout enum usage 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "table layout enum usage 1"
-issues: []
-discussions: []
----
-
 # TableLayoutEnum Usage Guide
 
 ## Nuovo Approccio (Corretto)
@@ -54,6 +43,10 @@ class ListUsers extends ListRecords
                 Tables\Columns\TextColumn::make('email'),
             ]),
         ];
+        
+        return $this->layout->getTableColumns($listColumns, $gridColumns);
+    }
+    
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }

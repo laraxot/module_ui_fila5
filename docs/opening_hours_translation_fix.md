@@ -1,14 +1,3 @@
----
-title: "opening hours translation fix"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "opening hours translation fix"
-issues: []
-discussions: []
----
-
 # Fix Traduzioni Opening Hours Field - Modulo UI
 
 ## Problema Identificato

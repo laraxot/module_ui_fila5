@@ -1,11 +1,4 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "git push recovery 2026 07 28"
-issues: []
-discussions: []
 title: "Git Push Recovery — Remote Corruption Resolution (2026-07-28)"
 date: 2026-07-28
 author: claude-ai

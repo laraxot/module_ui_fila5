@@ -1,14 +1,3 @@
----
-title: "icons"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "icons"
-issues: []
-discussions: []
----
-
 # Sistema di Icone
 
 ## Utilizzo
@@ -56,9 +45,9 @@ Il modulo UI utilizza un sistema di icone standardizzato basato su:
 Questa documentazione integra entrambe le versioni emerse dal conflitto per fornire sia una panoramica rapida sia una guida dettagliata, facilitando la consultazione a diversi livelli di approfondimento.
 
 ## Backlink
-- [Torna a docs/links.md](../../../../../docs/links.md)
+- [Torna a docs/links.md](../../../../docs/links.md)
 - [Vedi anche: UI/docs/components.md](./components.md)
-- [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
+- [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
 
 ## Esempi
 ```blade
@@ -68,6 +57,6 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 ```
 
 ## Collegamenti
-- [Componenti UI](laravel/modules/ui/docs/components.md)
-- [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
-- [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
+- [Componenti UI](laravel/Modules/UI/docs/components.md)
+- [Documentazione Filament](laravel/Modules/UI/docs/filament/README.md)
+- [Convenzioni di Naming](laravel/Modules/UI/docs/naming-conventions.md)

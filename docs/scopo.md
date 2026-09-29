@@ -1,6 +1,4 @@
 ---
-issues: []
-discussions: []
 title: "UI — scopo, confini e come servirlo meglio"
 type: concept
 module: UI

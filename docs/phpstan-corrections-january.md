@@ -1,14 +1,3 @@
----
-title: "phpstan corrections january"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan corrections january"
-issues: []
-discussions: []
----
-
 # PHPStan Corrections - Gennaio 2025
 
 ## Riepilogo
@@ -245,6 +234,6 @@ class ViewLocation extends XotBaseViewRecord
 
 ## Riferimenti
 
-- [Regole Architetturali Critiche](../../xot/docs/critical-architecture-rules.md)
+- [Regole Architetturali Critiche](../../Xot/docs/critical-architecture-rules.md)
 - [PHPStan Patterns](./phpstan-patterns.md)
 - [PHPStan Compliance](./phpstan-compliance.md)

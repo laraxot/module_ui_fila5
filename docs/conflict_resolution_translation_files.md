@@ -1,14 +1,3 @@
----
-title: "conflict resolution translation files"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "conflict resolution translation files"
-issues: []
-discussions: []
----
-
 # Risoluzione Conflitti File di Traduzione UI
 
 ## Problema Identificato

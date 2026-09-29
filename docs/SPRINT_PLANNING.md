@@ -1,14 +1,3 @@
----
-title: "SPRINT PLANNING"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SPRINT PLANNING"
-issues: []
-discussions: []
----
-
 # UI Module - Sprint Planning
 
 **Module:** UI  
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "SPRINT PLANNING"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SPRINT PLANNING"
-issues: []
-discussions: []
 ## Sprint Goal
 
 Implement core design system with essential UI components.

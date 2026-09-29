@@ -1,14 +1,3 @@
----
-title: "never use label rule"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "never use label rule"
-issues: []
-discussions: []
----
-
 # REGOLA CRITICA: MAI usare ->label()
 
 ## Data: 2025-01-06

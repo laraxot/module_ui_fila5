@@ -1,7 +1,4 @@
 ---
-qmd: "UI tailwind themes"
-issues: []
-discussions: []
 title: "UI tailwind themes"
 type: reference
 tags: [ui]

@@ -1,14 +1,3 @@
----
-title: "blocks system 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "blocks system 1"
-issues: []
-discussions: []
----
-
 # Sistema di Blocchi
 
 ## Introduzione
@@ -112,4 +101,4 @@ public function render()
 - [Best Practices UI](ui-best-practices.md)
 
 ## Note
-Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
+Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli. 

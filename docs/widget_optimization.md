@@ -1,14 +1,3 @@
----
-title: "widget optimization"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "widget optimization"
-issues: []
-discussions: []
----
-
 # Ottimizzazioni Widget - Modulo UI
 
 ## Panoramica
@@ -353,13 +342,5 @@ class SystemTestWidget extends UIBaseTestWidget
 
 ---
 
-title: "widget optimization"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "widget optimization"
-issues: []
-discussions: []
 *Ultimo aggiornamento: Giugno 2025*
 *Autore: Analisi Automatica del Progetto*

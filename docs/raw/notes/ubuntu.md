@@ -1,7 +1,4 @@
 ---
-qmd: "ubuntu"
-issues: []
-discussions: []
 title: 'Ubuntu'
 module: UI
 type: reference

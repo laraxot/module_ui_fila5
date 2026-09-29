@@ -1,26 +1,19 @@
 ---
-title: "Archivio cartelle config duplicate — modulo UI"
+title: "Archivio Config.bak — modulo UI"
 type: concept
 module: UI
-status: resolved
-tags: [module-structure, config, archive, ponytail]
-created: 2026-06-30
-updated: 2026-07-01
-qmd: "UI modulo Config maiuscolo config minuscolo duplicato ponytail"
-issues:
-  - "https://github.com/laraxot/base_predict_fila5/issues/221"
-discussions:
-  - "https://github.com/laraxot/base_predict_fila5/discussions/222"
+status: active
+tags: [module-structure, config, archive]
+updated: "2026-06-30"
 related:
-  - ponytail-audit.md
   - ../../../../../../docs/project/module-root-structure-analysis.md
 ---
 
-# Cartelle config duplicate — UI
+# Archivio `Config.bak/` — UI
 
-## Situazione (risolta 2026-07-01)
+## Situazione
 
-`Config/` (maiuscolo) e `Config.bak/` duplicavano i file già in `config/`:
+`Config.bak/` duplicava i file già in `config/`:
 
 - `config.php`
 - `laravel-localization.php`
@@ -28,8 +21,8 @@ related:
 
 ## Regola
 
-Solo `config/` (minuscolo) alla root del modulo nwidart.
+Solo `config/` (minuscolo) alla root.
 
 ## Azione
 
-Rimossi `Config/` e `Config.bak/`; nessun autoload/require li referenziava. Git history conserva le versioni precedenti.
+`Config` → `Config.bak` (2026-06-30). Merge non necessario: contenuti allineati.

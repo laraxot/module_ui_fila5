@@ -1,15 +1,10 @@
 ---
-tags: [documentation]
-qmd: "ui architecture sources"
-issues: []
-discussions: []
 title: "UI Architecture Sources"
 module: "UI"
 type: source
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
-  - "[[UI Operating Model]]"
 ---
 
 # UI Architecture Sources
@@ -19,8 +14,8 @@ related:
 ## Source Cluster
 
 - `README.md`
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
+- `architecture-1.md`
+- `product-strategy-1.md`
 - `architecture/structure.md`
 
 ## Main Signals

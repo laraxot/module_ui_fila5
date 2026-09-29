@@ -1,18 +1,7 @@
----
-title: "phpstan radio badge fix"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan radio badge fix"
-issues: []
-discussions: []
----
-
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
-[DATE]
+2025-01-27
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`
@@ -158,7 +147,7 @@ class RadioBadge extends Radio
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
-[DATE]
+2025-01-27
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`

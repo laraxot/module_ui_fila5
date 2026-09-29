@@ -1,14 +1,3 @@
----
-title: "filament vscode 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "filament vscode 1"
-issues: []
-discussions: []
----
-
 # Filament VSCode Extension
 
 ## Panoramica
@@ -95,7 +84,7 @@ public static function form(Form $form): Form
         TextInput::make('title')
             ->required()
             ->maxLength(255),
-
+            
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -103,7 +92,7 @@ public static function form(Form $form): Form
                 'published' => 'Published',
             ])
             ->required(),
-
+            
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -124,7 +113,7 @@ public static function table(Table $table): Table
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
-
+                
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -164,7 +153,7 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
-
+                        
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),
