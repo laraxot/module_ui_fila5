@@ -202,17 +202,23 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
             }
         };
 
+        // Una variabile per scenario: la sessione cambia fra una lettura e l'altra,
+        // il valore letto prima non dice niente su quello letto dopo.
         Session::put('table_layout', TableLayoutEnum::LIST);
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
+        $fromEnum = $subject->getTableLayout();
+        Assert::assertSame(TableLayoutEnum::LIST, $fromEnum);
 
         Session::put('table_layout', 'list');
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
+        $fromString = $subject->getTableLayout();
+        Assert::assertSame(TableLayoutEnum::LIST, $fromString);
 
         Session::put('table_layout', 'invalid');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
+        $fromInvalid = $subject->getTableLayout();
+        Assert::assertSame(TableLayoutEnum::GRID, $fromInvalid);
 
         Session::forget('table_layout');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
+        $withoutSession = $subject->getTableLayout();
+        Assert::assertSame(TableLayoutEnum::GRID, $withoutSession);
 
         $subject->refreshTable();
         Assert::assertGreaterThan(0, $subject->dispatched);
