@@ -18,6 +18,11 @@ use Modules\UI\Filament\Widgets\RowWidget;
 use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Forms\Components\RadioCardSelector;
+<<<<<<< HEAD
+=======
+use Modules\Ui\Http\Livewire\DarkModeSwitcher;
+use Modules\UI\Http\Livewire\Toast;
+>>>>>>> laraxot/dev
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
 use Modules\UI\Tests\TestCase;
@@ -29,7 +34,20 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
+<<<<<<< HEAD
 describe('UI gap closer 100 — Widget Filament', function (): void {
+=======
+describe('UI gap closer 100 — Livewire', function (): void {
+    test('DarkModeSwitcher mount toggle and render', function (): void {
+        $component = new DarkModeSwitcher();
+        $component->mount();
+        Assert::assertFalse($component->darkMode);
+        $component->toggleDarkMode();
+        Assert::assertTrue($component->darkMode);
+        Assert::assertInstanceOf(ViewContract::class, $component->render());
+    });
+
+>>>>>>> laraxot/dev
     test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
         $widget = new DarkModeSwitcherWidget();
         $widget->mount();
@@ -38,6 +56,14 @@ describe('UI gap closer 100 — Widget Filament', function (): void {
         Assert::assertTrue($widget->darkMode);
         Assert::assertInstanceOf(ViewContract::class, $widget->render());
     });
+<<<<<<< HEAD
+=======
+
+    test('Toast render exposes view params', function (): void {
+        $component = new Toast();
+        Assert::assertInstanceOf(ViewContract::class, $component->render());
+    });
+>>>>>>> laraxot/dev
 });
 
 describe('UI gap closer 100 — View components', function (): void {
