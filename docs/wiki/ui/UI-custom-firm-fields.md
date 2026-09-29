@@ -1,7 +1,4 @@
 ---
-qmd: "UI custom firm fields"
-issues: []
-discussions: []
 title: "UI custom firm fields"
 type: reference
 tags: [ui]

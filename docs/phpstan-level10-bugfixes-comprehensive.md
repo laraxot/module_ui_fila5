@@ -1,14 +1,3 @@
----
-title: "phpstan level10 bugfixes comprehensive"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan level10 bugfixes comprehensive"
-issues: []
-discussions: []
----
-
 # PHPStan Level 10 Comprehensive Bugfixes
 
 ## Problema Generale
@@ -164,12 +153,12 @@ cd laravel
 - [S3Test Method Duplication Fix](s3test-method-duplication-bugfix.md)
 - [S3Test Null ErrorCode Handling](s3test-bugfix-null-errorcode.md)
 - [AwsTest Undefined Variable Fix](awstest-bugfix-undefined-variable.md)
-- [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
+- [Media Module PHPStan Fixes](../Media/project_docs/phpstan_level10_fixes.md)
 
 ## Aggiornamento Continuo
 
 Questo documento deve essere aggiornato ogni volta che vengono rilevati e corretti nuovi errori PHPStan level 9+.
 
-**Data Ultimo Aggiornamento**: [DATE]
+**Data Ultimo Aggiornamento**: 2025-01-06
 **PHPStan Version**: 1.12.x
 **Laravel Version**: 12.21.0

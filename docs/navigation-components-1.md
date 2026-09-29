@@ -1,15 +1,4 @@
----
-title: "navigation components 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "navigation components 1"
-issues: []
-discussions: []
----
-
-# Componenti di Navigazione
+# Componenti di Navigazione 
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -79,7 +68,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 ### Traduzioni Necessarie
 
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
 
 ```php
 return [

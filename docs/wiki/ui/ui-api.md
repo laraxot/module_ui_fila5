@@ -1,7 +1,4 @@
 ---
-qmd: "ui api"
-issues: []
-discussions: []
 title: "UI api"
 type: reference
 tags: [wiki, ui, link-dump]

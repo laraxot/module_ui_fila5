@@ -1,12 +1,19 @@
 ---
-title: "component system"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "component system"
-issues: []
-discussions: []
+title: "Sistema Componenti UI"
+type: concept
+tags: [component, system]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "component-system sistema componenti ui"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./bottlenecks.md"
+  - "./form-component.md"
+  - "./form-components.md"
+  - "./theme-system.md"
 ---
 
 # Sistema Componenti UI

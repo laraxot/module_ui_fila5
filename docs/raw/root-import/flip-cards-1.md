@@ -1,14 +1,3 @@
----
-title: "flip cards 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "flip cards 1"
-issues: []
-discussions: []
----
-
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 

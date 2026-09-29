@@ -1,14 +1,3 @@
----
-title: "component system"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "component system"
-issues: []
-discussions: []
----
-
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

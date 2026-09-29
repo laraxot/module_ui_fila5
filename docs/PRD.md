@@ -1,7 +1,4 @@
 ---
-qmd: "PRD"
-issues: []
-discussions: []
 title: "Product Requirements Document (PRD) - UI Module"
 module: "UI"
 type: concept

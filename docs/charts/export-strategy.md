@@ -1,12 +1,20 @@
 ---
-title: "export strategy"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "export strategy"
-issues: []
-discussions: []
+title: "Chart Export Strategy (PNG/SVG)"
+type: concept
+tags: [export, strategy]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "export-strategy chart export strategy (png/svg)"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./chartjs-datalabels-multiple-labels-complete-guide.md"
+  - "./chartjs-plugin-datalabels-filament5.md"
+  - "./filament-chart-js-guide.md"
+  - "./server-side-actions.md"
+  - "./shared-hosting-strategy.md"
 ---
 
 # Chart Export Strategy (PNG/SVG)

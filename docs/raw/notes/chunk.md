@@ -1,7 +1,4 @@
 ---
-qmd: "chunk"
-issues: []
-discussions: []
 title: 'Chunk — risorse esterne'
 module: UI
 type: reference

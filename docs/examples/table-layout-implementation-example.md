@@ -1,12 +1,16 @@
 ---
-title: "table layout implementation example"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "table layout implementation example"
-issues: []
-discussions: []
+title: "Esempio Pratico: Implementazione TableLayoutEnum"
+type: concept
+tags: [table, layout, implementation, example]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "table-layout-implementation-example esempio pratico: implementazione tablelayoutenum"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./inline-date-picker-usage.md"
 ---
 
 # Esempio Pratico: Implementazione TableLayoutEnum
@@ -166,6 +170,7 @@ class UserResource extends XotBaseResource
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
     public static function getFormSchema(): array
+    public function getFormSchema(): array
     {
         return [
             Forms\Components\TextInput::make('name')
@@ -350,6 +355,6 @@ class ListUsersTest extends TestCase
 ## Collegamenti
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
-- [UI Module Architecture](../architecture_rules.md)
-- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+- [UI Module Architecture](../architecture-rules-1.md)
+- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
 - [Translation Standards](../../../../docs/translation_standards.md)

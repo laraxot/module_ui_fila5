@@ -1,7 +1,4 @@
 ---
-qmd: "ui filament"
-issues: []
-discussions: []
 title: "UI filament"
 type: reference
 tags: [ui]

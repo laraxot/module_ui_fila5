@@ -1,8 +1,4 @@
 ---
-created: 2026-09-26
-qmd: "architecture patterns"
-issues: []
-discussions: []
 title: Architecture Patterns — UI Module
 type: architecture
 module: UI
@@ -440,10 +436,10 @@ IconService
 - **Root README**: [UI Module](./README.md)
 - **Framework Base**: [Xot Architecture Patterns](../../Xot/docs/architecture-patterns.md)
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
-- **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
-- **Index**: [INDEX.md](./INDEX.md)
-- **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
-- **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
+- **Architecture Overview**: [architecture.md](./architecture.md)
+- **Index**: [index.md](./index.md)
+- **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./design-comuni-implementation.md)
+- **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./brands-icons-integration.md)
 
 ---
 

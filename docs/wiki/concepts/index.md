@@ -1,7 +1,4 @@
 ---
-qmd: "index"
-issues: []
-discussions: []
 title: "concepts index — UI"
 type: index
 tags: [concepts, UI]

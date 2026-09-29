@@ -1,30 +1,12 @@
----
-title: "phpstan errors roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan errors roadmap"
-issues: []
-discussions: []
----
-
 # PHPStan Level 10 Errors Roadmap - UI Module
 
+**Data**: 2026-01-09  
 **Modulo**: UI  
 **Livello PHPStan**: 10  
 **Status**: 🧘 **IN ANALISI**
 
 ---
 
-title: "phpstan errors roadmap"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan errors roadmap"
-issues: []
-discussions: []
 ## 📊 Errori Identificati
 
 ### Totale Errori: 3
@@ -131,4 +113,4 @@ discussions: []
 
 **Status**: 🧘 **IN ANALISI**
 
-**Ultimo aggiornamento**: [DATE]
+**Ultimo aggiornamento**: 2026-01-09

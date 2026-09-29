@@ -1,7 +1,4 @@
 ---
-qmd: "navbar"
-issues: []
-discussions: []
 title: 'Navbar — risorse esterne'
 module: UI
 type: reference

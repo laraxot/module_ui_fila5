@@ -1,8 +1,4 @@
 ---
-created: 2026-09-26
-qmd: "patterns"
-issues: []
-discussions: []
 title: UI Module — Architettura e Patterns
 module: UI
 type: patterns

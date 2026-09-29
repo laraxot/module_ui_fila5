@@ -1,12 +1,14 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "enum select best practices"
-issues: []
-discussions: []
 title: EnumSelect Best Practices
+related:
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+  - "./enum-select-usage.md"
 ---
 
 ## Overview

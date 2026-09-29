@@ -1,14 +1,3 @@
----
-title: "phpstan fixes"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan fixes"
-issues: []
-discussions: []
----
-
 # Correzioni e Audit Qualità - Modulo UI (PHPStan Level 10)
 
 Questo documento traccia l'audit di qualità e le correzioni basate sulla "PHPStan Code Quality Guide - Laraxot".
@@ -21,14 +10,6 @@ Questo documento traccia l'audit di qualità e le correzioni basate sulla "PHPSt
 
 ---
 
-title: "phpstan fixes"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan fixes"
-issues: []
-discussions: []
 ## 🏗️ Regole Architetturali Applicate
 
 ### 1. Rimozione Metodi UI Proibiti
@@ -73,34 +54,17 @@ if (isset($record->attribute)) {
 ---
 
 ## ✅ Checklist di Verifica
-- [x] PHPStan Level 10 (0 errori)
-- [x] PHPMD (Complexity < 10)
-- [x] PHP Insights (Quality > 94%)
-- [x] Pint formatting (OK)
-- [x] Zero TODO/Codice commentato
+- [x] PHPStan Level 10 (Analisi Modulo: OK)
+- [ ] PHPMD (Complexity < 10)
+- [ ] PHP Insights (Quality > 80%)
+- [ ] Pint formatting (`--dirty`)
+- [ ] Zero TODO/Codice commentato
 # PHPStan Status: Modules/UI
 
-## Analysis 2026-06-18
+## Analysis
+- **Date**: 2025-12-24
 - **Total Errors**: 0
 - **Status**: Passed
 
-## Correzioni Effettuate
-
-### 1. Cancellazione Test Obsoleti
-- Cancellati `MockCalendarWidget.php` e fixture (riferivano a classi inesistenti)
-
-### 2. Rimozione Trait Duplicato
-- Cancellato `Modules/UI/app/Traits/TableLayoutTrait.php` (duplicato di `Filament/Actions/Table/TableLayoutTrait`)
-
-### 3. Fix HasTableLayoutPage.php
-- Rinominato `setLayoutView()` → `applyLayoutView()` (naming comportamentale)
-- Corretti commenti `@phpstan-var` per evitare "inline doc comment"
-- Spezzate linee >80 caratteri
-- Rimossa variabile inutile `$layout` in `readLayoutFrom()`
-
-## PHPInsights Results
-- **HasTableLayoutPage.php**: CODE 100pts, COMPLEXITY 100pts, ARCHITECTURE 94.1pts, MISC 100pts
-
 ## Verification
 - UI module is compliant with current PHPStan configuration.
-- PHPInsights quality >94% across all metrics.

@@ -1,7 +1,4 @@
 ---
-qmd: "effetcts"
-issues: []
-discussions: []
 title: 'Effetcts — risorse esterne'
 module: UI
 type: reference

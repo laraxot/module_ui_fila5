@@ -1,7 +1,4 @@
 ---
-qmd: "api"
-issues: []
-discussions: []
 title: 'Api'
 module: UI
 type: reference

@@ -1,14 +1,3 @@
----
-title: "models factory seeder analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "models factory seeder analysis"
-issues: []
-discussions: []
----
-
 # Analisi Modelli, Factory e Seeder - Modulo UI
 
 ## Riepilogo Modelli
@@ -38,11 +27,4 @@ discussions: []
 Il modulo UI non dovrebbe avere modelli - è dedicato a componenti di interfaccia.
 
 ---
-title: "models factory seeder analysis"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "models factory seeder analysis"
-issues: []
-discussions: []
+*Ultimo aggiornamento: 2025-01-06*

@@ -1,14 +1,3 @@
----
-title: "naming rules 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "naming rules 1"
-issues: []
-discussions: []
----
-
 # Regole di Naming nei Moduli
 
 ## Regola: No Nomi Specifici dell'Applicazione

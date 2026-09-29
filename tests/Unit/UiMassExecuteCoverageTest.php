@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
+use Mockery;
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleExecuteCoverage;
 use PHPUnit\Framework\Assert;
@@ -11,7 +12,7 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 afterEach(function (): void {
-    \Mockery::close();
+    Mockery::close();
 });
 
 describe('UI ModuleExecuteCoverage floor sweep', function (): void {

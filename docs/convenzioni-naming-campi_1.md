@@ -1,14 +1,3 @@
----
-title: "convenzioni naming campi 1"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "convenzioni naming campi 1"
-issues: []
-discussions: []
----
-
 # Convenzioni di Naming dei Campi
 
 ## Collegamenti Bidirezionali

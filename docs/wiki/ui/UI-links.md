@@ -1,7 +1,4 @@
 ---
-qmd: "UI links"
-issues: []
-discussions: []
 title: "UI links"
 type: reference
 tags: [wiki, ui, link-dump]

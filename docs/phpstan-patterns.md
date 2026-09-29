@@ -1,14 +1,3 @@
----
-title: "phpstan patterns"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan patterns"
-issues: []
-discussions: []
----
-
 # PHPStan Level 10 - Pattern Riutilizzabili
 
 > **Modulo**: UI
@@ -17,14 +6,6 @@ discussions: []
 
 ---
 
-title: "phpstan patterns"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan patterns"
-issues: []
-discussions: []
 ## 🎯 Perché Questi Pattern
 
 ### Business Logic

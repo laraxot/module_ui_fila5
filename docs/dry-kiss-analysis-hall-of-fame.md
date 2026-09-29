@@ -1,12 +1,4 @@
 ---
-title: "dry kiss analysis hall of fame"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "dry kiss analysis hall of fame"
-issues: []
-discussions: []
 created_at: '2025-10-15'
 ---
 

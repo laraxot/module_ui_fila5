@@ -1,12 +1,15 @@
 ---
-title: "architecture"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "architecture"
-issues: []
-discussions: []
+title: "Architettura Modulo UI"
+type: concept
+tags: [architecture]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "architecture architettura modulo ui"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
 ---
 
 # Architettura Modulo UI
@@ -232,12 +235,4 @@ public function boot(): void
 
 ---
 
-title: "architecture"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "architecture"
-issues: []
-discussions: []
 **Versione:** 2.0 - Consolidata DRY + KISS

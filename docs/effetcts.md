@@ -1,14 +1,3 @@
----
-title: "effetcts"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "effetcts"
-issues: []
-discussions: []
----
-
 https://mridul2820.github.io/css-js/
 
 https://github.com/Mridul2820/css-js

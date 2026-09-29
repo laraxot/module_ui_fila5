@@ -1,11 +1,4 @@
 ---
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "algolia docsearch 1"
-issues: []
-discussions: []
 title: Algolia DocSearch
 description: Configure Algolia DocSearch with the Jigsaw docs starter template
 extends: _layouts.documentation
@@ -84,6 +77,12 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 * [algolia-docsearch.md](../../../Xot/docs/algolia-docsearch.md)
 * [algolia-docsearch.md](../../../UI/docs/algolia-docsearch.md)
 * [algolia-docsearch.md](../../../Cms/docs/algolia-docsearch.md)
+
+
+### Versione Incoming
+
+
+---
 
 ### Versione Incoming
 

@@ -1,7 +1,4 @@
 ---
-qmd: "UI widgets"
-issues: []
-discussions: []
 title: "UI widgets"
 type: reference
 tags: [ui]

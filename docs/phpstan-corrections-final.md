@@ -1,14 +1,3 @@
----
-title: "phpstan corrections final"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan corrections final"
-issues: []
-discussions: []
----
-
 # Correzioni PHPStan Completate - Gennaio 2025
 
 ## Riepilogo Finale
@@ -118,14 +107,7 @@ discussions: []
 
 ---
 
-title: "phpstan corrections final"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan corrections final"
-issues: []
-discussions: []
+**Data**: 2025-01-06
 **Status**: ✅ Tutte le correzioni completate
 **PHPStan Level**: 10 ✅
 **Errori totali**: 0 ✅

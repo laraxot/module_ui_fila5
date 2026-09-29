@@ -1,7 +1,4 @@
 ---
-qmd: "tech spec"
-issues: []
-discussions: []
 title: "Technical Specification - UI Module"
 type: technical_spec
 tags: [tech spec, ui]
@@ -26,6 +23,7 @@ Technical implementation details for the UI module.
 - PHPMD: 0 violations
 
 ## Dependencies
+- Laravel 12.x
 - Laravel 13.x
 - Filament 5.x
 - Xot Module
