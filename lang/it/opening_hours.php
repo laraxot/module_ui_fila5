@@ -47,9 +47,6 @@ return [
         'edit' => ['label' => 'Modifica Opening Hours'],
         'delete' => ['label' => 'Elimina Opening Hours'],
     ],
-<<<<<<< .merge_file_MmKl6m
     'test' => 'Orari di apertura',
-=======
-    'test' => 'opening hours',
->>>>>>> .merge_file_07VIdO
 ];
+
