@@ -1,3 +1,14 @@
+---
+title: "DESIGN COMUNI IMPLEMENTATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI IMPLEMENTATION"
+issues: []
+discussions: []
+---
+
 # 🎨 Design Comuni Implementation Guide
 
 **Module**: UI (User Interface)  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "DESIGN COMUNI IMPLEMENTATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "DESIGN COMUNI IMPLEMENTATION"
+issues: []
+discussions: []
 ## 📋 Overview
 
 This module implements Design Comuni (Italian Municipalities Design System) components using Tailwind CSS with @apply directive.
@@ -127,9 +146,6 @@ All Bootstrap Italia classes are mapped to Tailwind via @apply:
 Pages are configured via JSON files:
 
 **Location**: `config/local/fixcity/database/content/pages/`
-
-**Location**: `config/local/<nome progetto>/database/content/pages/`
-**Location**: `config/local/current/database/content/pages/`
 
 **Example**: `tests.homepage.json`
 

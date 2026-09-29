@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "corpi metodo duplicati — UI"
 type: analysis
 module: UI

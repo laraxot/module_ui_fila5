@@ -8,12 +8,19 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 
+// use Modules\Xot\View\Components\XotBaseComponent;
+
 /**
- * Navbar component.
+ * .
  */
 final class Navbar extends Component
 {
-    public function __construct() {}
+    /**
+     * Create a new component instance.
+     */
+    public function __construct()
+    {
+    }
 
     public function render(): Renderable
     {
@@ -21,8 +28,9 @@ final class Navbar extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute();
-        $viewParams = [];
+        dddx($view);
+        $view_params = [];
 
-        return view($view, $viewParams);
+        return view($view, $view_params);
     }
 }

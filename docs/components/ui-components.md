@@ -1,23 +1,12 @@
 ---
-title: "Componenti UI - Modulo UI"
-type: concept
-tags: [components]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "ui-components componenti ui - modulo ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./address-field-1.md"
-  - "./address-field.md"
-  - "./blade-component-registration.md"
-  - "./filament-usage.md"
-  - "./filament.md"
-  - "./file-upload.md"
-  - "./footer.md"
-  - "./full-calendar-1.md"
+title: "ui components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ui components"
+issues: []
+discussions: []
 ---
 
 # Componenti UI - Modulo UI
@@ -198,10 +187,18 @@ return [
 
 ## 🔗 Collegamenti
 
-- [**README Modulo UI**](../README.md)
+- [**README Modulo UI**](../readme.md)
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
 - [**Personalizzazioni Filament**](../filament/filament-customizations.md)
 
 ---
 
+title: "ui components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ui components"
+issues: []
+discussions: []

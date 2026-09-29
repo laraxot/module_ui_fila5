@@ -15,7 +15,7 @@ final class Post extends XotBaseBlock
     /**
      * @return array<int, Component>
      */
-    public static function getFormSchema(): array
+    public function getFormSchema(): array
     {
         return [
             TextInput::make('title')

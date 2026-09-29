@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 {{--
     Services Grid Component - Griglia di servizi comunali/aziendali

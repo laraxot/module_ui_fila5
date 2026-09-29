@@ -1,4 +1,7 @@
 ---
+qmd: "global search"
+issues: []
+discussions: []
 title: 'Global search — risorse esterne'
 module: UI
 type: reference

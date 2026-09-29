@@ -1,4 +1,7 @@
 ---
+qmd: "UI ci"
+issues: []
+discussions: []
 title: "UI ci"
 type: reference
 tags: [wiki, ui, link-dump]

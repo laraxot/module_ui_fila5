@@ -1,3 +1,14 @@
+---
+title: "filament components location studio 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament components location studio 1"
+issues: []
+discussions: []
+---
+
 # Componenti Filament per Location e Studio Selection
 
 ## Overview
@@ -240,6 +251,14 @@ class FindDoctorWidgetStep2Test extends TestCase
 
 ---
 
+title: "filament components location studio 1"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament components location studio 1"
+issues: []
+discussions: []
 **Creato**: 26 Giugno 2025  
 **Versione**: 2.0 - Semplificato  
 **Stato**: Implementation Ready  

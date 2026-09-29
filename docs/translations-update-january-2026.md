@@ -1,3 +1,14 @@
+---
+title: "translations update january 2026"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "translations update january 2026"
+issues: []
+discussions: []
+---
+
 # Aggiornamento Traduzioni Modulo UI - Gennaio 2026
 
 ## Data Intervento

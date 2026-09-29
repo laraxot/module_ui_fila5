@@ -1,4 +1,7 @@
 ---
+qmd: "theme"
+issues: []
+discussions: []
 title: 'Theme — risorse esterne'
 module: UI
 type: reference

@@ -1,3 +1,14 @@
+---
+title: "no svg hardcoded in blade"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "no svg hardcoded in blade"
+issues: []
+discussions: []
+---
+
 # Regola: No SVG Hardcoded nelle Blade
 
 ## Scopo

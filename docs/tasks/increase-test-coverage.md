@@ -1,24 +1,12 @@
 ---
-title: "Task: Incremento Test Coverage (Pest) - UI"
-type: concept
-tags: [increase, test, coverage]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "increase-test-coverage task: incremento test coverage (pest) - ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./001-design-system-components.md"
-  - "./cleanup-redundant-files.md"
-  - "./filament-v5-alignment.md"
-  - "./refactor-complex-components.md"
-  - "./tasks-index.md"
-  - "./ui-cleanup-docs.md"
-  - "./ui-filament-v5.md"
+title: "increase test coverage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "increase test coverage"
+issues: []
+discussions: []
 ---
 
 # Task: Incremento Test Coverage (Pest) - UI

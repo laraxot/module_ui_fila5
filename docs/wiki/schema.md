@@ -1,4 +1,9 @@
 ---
+type: note
+updated: 2026-09-26
+qmd: "schema"
+issues: []
+discussions: []
 title: Wiki Schema
 description: Schema e convenzioni per la manutenzione della wiki
 tags:
@@ -19,20 +24,19 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
-<<<<<<< HEAD
+---
+---
+│   ├── schema.md          # Questo file
+---
+---
 │   ├── SCHEMA.md          # Questo file
 │   ├── schema.md          # Questo file
-=======
-<<<<<<< HEAD
-│   ├── SCHEMA.md          # Questo file
-<<<<<<< HEAD
+---
+---
 │   ├── schema.md          # Questo file
-=======
-=======
-│   ├── schema.md          # Questo file
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+---
+---
+---
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

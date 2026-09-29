@@ -1,4 +1,7 @@
 ---
+qmd: "UI flip cards"
+issues: []
+discussions: []
 title: "UI flip cards"
 type: reference
 tags: [ui]

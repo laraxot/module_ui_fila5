@@ -1,4 +1,7 @@
 ---
+qmd: "ui chunk"
+issues: []
+discussions: []
 title: "UI chunk"
 type: reference
 tags: [ui]

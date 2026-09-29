@@ -1,3 +1,14 @@
+---
+title: "svg icons automatic registration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg icons automatic registration"
+issues: []
+discussions: []
+---
+
 # ✅ SVG Icons - Automatic Registration
 
 **Data**: 2026-03-30  
@@ -91,26 +102,33 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
+---
+title: "svg icons automatic registration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "svg icons automatic registration"
+issues: []
+discussions: []
+---
+# http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
-=======
-<<<<<<< HEAD
+---
+---
 # http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
-=======
-<<<<<<< HEAD
+---
 # http://fixcity.local/it/tests/homepage
-=======
-<<<<<<< HEAD
+---
 # http://app.local/it/tests/homepage
-=======
+---
 # http://<nome progetto>.local/it/tests/homepage
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+---
+---
+---
 ```
 
 ## 📊 Icon Inventory
@@ -145,6 +163,14 @@ php artisan view:clear
 - [Component Libraries](https://laravel.com/docs/blade#managing-component-libraries)
 
 ### Project Documentation
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+---
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+---
+- [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
+---
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+---
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 

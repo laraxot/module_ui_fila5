@@ -1,4 +1,7 @@
 ---
+qmd: "carousel slider"
+issues: []
+discussions: []
 title: 'Carousel slider — risorse esterne'
 module: UI
 type: reference

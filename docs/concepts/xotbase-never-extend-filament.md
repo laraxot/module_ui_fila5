@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "UI — mai Filament\*, sempre XotBase*"
 type: concept
 module: UI

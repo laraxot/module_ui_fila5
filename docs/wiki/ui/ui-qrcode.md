@@ -1,4 +1,7 @@
 ---
+qmd: "ui qrcode"
+issues: []
+discussions: []
 title: "UI qrcode"
 type: reference
 tags: [ui]

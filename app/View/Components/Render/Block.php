@@ -10,69 +10,73 @@ use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
-use UnexpectedValueException;
-use Webmozart\Assert\Assert;
 
 /**
- * .
+ * Blade component that renders a CMS block.
  */
 class Block extends Component
 {
+    /** @var view-string|null */
     public ?string $view = null;
 
     /**
-     * @param  array<string, mixed>  $block
+     * @param array<string, mixed> $block
      */
     public function __construct(
         public array $block,
         public ?Model $model = null,
         public string $tpl = '',
     ) {
-        $view = Arr::get($this->block, 'data.view', null);
-        if ($view === null) {
+        $view = Arr::get($this->block, 'data.view');
+        if (! is_string($view) || ! view()->exists($view)) {
             $view = 'ui::empty';
         }
-        Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+
+        /** @var view-string $view */
         $this->view = $view;
     }
 
     public function render(): ViewFactory|View
     {
         if (! isset($this->block['type'])) {
-            return view('ui::empty');
+            /** @var view-string $viewName */
+            $viewName = 'ui::empty';
+
+            return view($viewName);
         }
 
-        $view = $this->view;
-        if (! view()->exists(is_string($view) ? $view : ((string) $view))) {
-            $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
-            $viewParams = [
+        $viewPath = $this->view ?? 'ui::empty';
+        if (! view()->exists($viewPath)) {
+            $message = 'view not exists ['.$viewPath.'] ! <pre>'.print_r($this->block, true).'</pre>';
+            $view_params = [
                 'title' => 'deprecated',
                 'message' => $message,
             ];
+            /** @var view-string $viewAlert */
+            $viewAlert = 'ui::alert';
 
-            return view('ui::alert', $viewParams);
+            return view($viewAlert, $view_params);
         }
-        $rawData = $this->block['data'] ?? [];
-        $viewParams = \is_array($rawData) ? $this->normalizeViewData($rawData) : [];
-        $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
-        $viewParams = $this->normalizeViewData($viewParams);
-        Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-
-        /** @var view-string $view */
-        return view($view, $viewParams);
+        $view_params = $this->normalizeViewData($this->block['data'] ?? []);
+        $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
+        $view_params = $this->normalizeViewData($view_params);
+        return view($viewPath, $view_params);
     }
 
     /**
-     * @param  array<array-key, mixed>  $data
      * @return array<string, mixed>
      */
-    private function normalizeViewData(array $data): array
+    private function normalizeViewData(mixed $data): array
     {
+        if (! is_array($data)) {
+            return [];
+        }
+
         $viewData = [];
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
-                throw new UnexpectedValueException('Block view data must have string keys.');
+                throw new \UnexpectedValueException('Block view data must have string keys.');
             }
 
             $viewData[$key] = $value;

@@ -1,21 +1,12 @@
 ---
-title: "Standard di Accessibilità"
-type: concept
-tags: [accessibility]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "accessibility standard di accessibilità"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./auth-form-standards-1.md"
-  - "./auth-form-standards.md"
-  - "./form-standards-1.md"
-  - "./form-standards.md"
-  - "./performance.md"
-  - "./ui-standards.md"
+title: "accessibility"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "accessibility"
+issues: []
+discussions: []
 ---
 
 # Standard di Accessibilità

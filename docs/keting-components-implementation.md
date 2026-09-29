@@ -1,3 +1,14 @@
+---
+title: "keting components implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "keting components implementation"
+issues: []
+discussions: []
+---
+
 # Marketing Components Implementation - UI Module
 
 **Date**: February 6, 2026
@@ -6,6 +17,14 @@
 
 ---
 
+title: "keting components implementation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "keting components implementation"
+issues: []
+discussions: []
 ## Overview
 
 This document outlines the marketing components that need to be implemented in the UI Module to support SEO, lead generation, and monetization features.

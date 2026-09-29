@@ -1,6 +1,17 @@
+---
+title: "test fix philosophy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "test fix philosophy"
+issues: []
+discussions: []
+---
+
 # Test Fix Philosophy: Fix Tests, Not Production Code
 
-**Date**: 2025-12-15
+**Date**: [DATE]
 **Context**: Understanding the correct approach to fixing test failures
 
 ## 🎯 Core Principle
@@ -175,4 +186,12 @@ it('extends UserCalendarWidget', function () {
 
 ---
 
+title: "test fix philosophy"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "test fix philosophy"
+issues: []
+discussions: []
 **Remember**: The site works. Tests fail. Therefore, tests are wrong. Fix the tests, not the working code.
