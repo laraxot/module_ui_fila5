@@ -44,8 +44,6 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 | Documentazione di supporto aggiornata | 100% |
 
 ## Rischi
-<<<<<<< HEAD
-=======
 # UI Module - Product Launch Plan
 
 **Module:** UI  
@@ -129,7 +127,6 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 ---
 
 *Last Updated: March 12, 2026*
->>>>>>> laraxot/dev
 
 - lancio di superfici non ancora supportate dal backend
 - documentazione non aderente al codice reale

@@ -1,12 +1,3 @@
-<<<<<<< HEAD
----
-module: theme
-topic: filament-blade-components-usage
-canonical: ../../../Themes/docs/shared-components/filament-blade-components-usage.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/filament-blade-components-usage.md
-=======
 # Utilizzo dei Componenti Blade di Filament
 
 ## Indice
@@ -393,4 +384,3 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 - [Componenti Blade di Filament](https://filamentphp.com/docs/3.x/support/blade-components)
 - [Icone in Filament](https://filamentphp.com/docs/3.x/support/icons)
 ## Conclusione
->>>>>>> laraxot/dev

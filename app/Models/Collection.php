@@ -5,30 +5,12 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-<<<<<<< HEAD
-use Modules\UI\Database\Factories\CollectionFactory;
-=======
 use Illuminate\Support\Carbon;
->>>>>>> laraxot/dev
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 
 /**
  * Collection model for UI module.
-<<<<<<< HEAD
- * FormBuilder module not available - extending from XotBaseModel instead.
- */
-/**
- * @property string|null                     $name
- * @property string|null                     $description
- * @property string|null                     $type
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property ProfileContract|null            $creator
- * @property ProfileContract|null            $updater
- *
- * @method static CollectionFactory          factory($count = null, $state = [])
-=======
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
@@ -41,14 +23,10 @@ use Modules\Xot\Models\BaseModel;
  * @property int|null $order
  *
  * @method static \Modules\UI\Database\Factories\CollectionFactory factory($count = null, $state = [])
->>>>>>> laraxot/dev
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
  *
-<<<<<<< HEAD
- * @property ProfileContract|null $deleter
-=======
  * @property string|null $created_by
  * @property string|null $updated_by
  * @property Carbon|null $deleted_at
@@ -72,7 +50,6 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Collection whereType($value)
  * @method static Builder<static>|Collection whereUpdatedAt($value)
  * @method static Builder<static>|Collection whereUpdatedBy($value)
->>>>>>> laraxot/dev
  *
  * @mixin \Eloquent
  */

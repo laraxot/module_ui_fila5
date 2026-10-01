@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "links"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
->>>>>>> laraxot/dev
 # links
 
 <!-- Contenuto migrato da _docs/links.txt -->

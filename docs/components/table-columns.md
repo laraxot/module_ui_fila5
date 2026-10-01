@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Table Columns Components"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
->>>>>>> laraxot/dev
 # Table Columns Components
 
 ## Overview
@@ -189,11 +186,7 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 ## Related Documentation
 - [State Management](../state-transitions.md)
 - [Filament Components](../filament-components.md)
-<<<<<<< HEAD
-- [UI Architecture](../architecture_rules.md)
-=======
 - [UI Architecture](../architecture-rules-1.md)
->>>>>>> laraxot/dev
 - [Accessibility Guidelines](../accessibility.md)
 ---
 
@@ -205,8 +198,5 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 4.x, Laravel 11.x
 **Compatibility**: Filament 3.x, Laravel 10.x
-<<<<<<< HEAD
-=======
 
 ```
->>>>>>> laraxot/dev

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Ci 1"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./changelog-2.md"
 ---
 
->>>>>>> laraxot/dev
 ---------------------------------------------------------------------------------------------------
 Automatic Code formatting for Apps with Laravel Code Style
 https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style

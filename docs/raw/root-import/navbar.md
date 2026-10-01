@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Navbar"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./changelog-2.md"
 ---
 
->>>>>>> laraxot/dev
 https://tw-elements.com/docs/standard/navigation/navbar/
 
 https://flowbite.com/docs/components/navbar/

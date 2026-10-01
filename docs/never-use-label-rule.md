@@ -154,15 +154,9 @@ rules:
 
 ## Collegamenti
 
-<<<<<<< HEAD
-- [Translation Standards](../../../../docs/translation-standards.md)
-- [Filament Best Practices](../../../../docs/filament-best-practices.md)
-- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
-=======
 - [Translation Standards](../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
->>>>>>> laraxot/dev
 
 ## Memoria Permanente
 
@@ -174,11 +168,7 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 # REGOLA CRITICA: MAI usare ->label()
 
-<<<<<<< HEAD
-## Data: [DATE]
-=======
 ## Data: 2025-01-06
->>>>>>> laraxot/dev
 
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
@@ -290,11 +280,8 @@ TextColumn::make('status')
 
 ## Checklist Pre-Implementazione
 
-<<<<<<< HEAD
-=======
 ### Prima di usare qualsiasi componente Filament:
 ### Prima di usare qualsiasi componente Filament:
->>>>>>> laraxot/dev
 ### Prima di usare un componente Filament:
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
@@ -306,12 +293,9 @@ TextColumn::make('status')
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
-<<<<<<< HEAD
-=======
 Prima di usare qualsiasi componente Filament:
 
 
->>>>>>> laraxot/dev
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
 - [ ] Implementare traduzioni in `lang/de/fields.php`
@@ -354,15 +338,9 @@ rules:
 
 ## Collegamenti
 
-<<<<<<< HEAD
-- [Translation Standards](../../../../docs/translation-standards.md)
-- [Filament Best Practices](../../../../docs/filament-best-practices.md)
-- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
-=======
 - [Translation Standards](../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
->>>>>>> laraxot/dev
 
 ## Memoria Permanente
 
@@ -378,8 +356,6 @@ rules:
 
 - SEMPRE testare le traduzioni prima del commit
 
-<<<<<<< HEAD
-=======
 *Ultimo aggiornamento: 2025-01-06*
 **RICORDA SEMPRE**: 
 **RICORDA SEMPRE**:
@@ -399,4 +375,3 @@ rules:
 - SEMPRE struttura espansa (label, placeholder, tooltip, helper_text)
 - SEMPRE sincronizzare IT/EN/DE
 - SEMPRE testare le traduzioni prima del commit
->>>>>>> laraxot/dev
