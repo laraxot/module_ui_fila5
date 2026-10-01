@@ -230,6 +230,7 @@ php artisan view:clear
 # Test in browser
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_BXK8lb
 =======
 <<<<<<< .merge_file_OnLVK3
@@ -267,6 +268,10 @@ php artisan view:clear
 >>>>>>> .merge_file_6pWJPA
 =======
 >>>>>>> 804451c (Lint)
+=======
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
+>>>>>>> laraxot/dev
 ```
 
 ### Verify SVG Files

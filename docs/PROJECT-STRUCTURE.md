@@ -1,4 +1,7 @@
 ---
+qmd: "PROJECT STRUCTURE"
+issues: []
+discussions: []
 title: "Project Structure — Module UI"
 type: documentation
 created: 2026-05-11

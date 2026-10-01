@@ -21,6 +21,7 @@ docs/
 │   ├── log.md             # Registro
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_y6hco3
 =======
 <<<<<<< .merge_file_hFkCy0
@@ -50,6 +51,9 @@ docs/
 >>>>>>> .merge_file_NqlCHx
 =======
 >>>>>>> 804451c (Lint)
+=======
+│   ├── schema.md          # Questo file
+>>>>>>> laraxot/dev
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

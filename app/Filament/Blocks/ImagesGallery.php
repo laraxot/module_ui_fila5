@@ -46,7 +46,11 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
+<<<<<<< HEAD
                 //     ->enableReordering()
+=======
+                //     ->reorderable()
+>>>>>>> laraxot/dev
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()

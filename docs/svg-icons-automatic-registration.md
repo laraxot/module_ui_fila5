@@ -93,6 +93,7 @@ php artisan view:clear
 # Test in browser
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Sph6pu
 =======
 <<<<<<< .merge_file_74WnlE
@@ -130,6 +131,10 @@ php artisan view:clear
 >>>>>>> .merge_file_IhMt22
 =======
 >>>>>>> 804451c (Lint)
+=======
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
+>>>>>>> laraxot/dev
 ```
 
 ## 📊 Icon Inventory
@@ -165,6 +170,7 @@ php artisan view:clear
 
 ### Project Documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Sph6pu
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 =======
@@ -181,6 +187,9 @@ php artisan view:clear
 =======
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 >>>>>>> 804451c (Lint)
+=======
+- [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
+>>>>>>> laraxot/dev
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 
 ---

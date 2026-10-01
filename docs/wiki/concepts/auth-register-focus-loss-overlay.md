@@ -4,6 +4,18 @@ type: concept
 tags: [ui, auth, register, focus, overlay, alpine]
 created: 2026-05-21
 updated: 2026-05-21
+<<<<<<< HEAD
+=======
+related:
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+  - "./enum-select-usage.md"
+>>>>>>> laraxot/dev
 ---
 
 # Problema

@@ -15,6 +15,7 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 
     public bool $darkMode = false;
 
+<<<<<<< HEAD
     /** @var view-string */
     protected string $view;
 
@@ -26,6 +27,9 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 
         parent::__construct();
     }
+=======
+    protected string $view = 'ui::filament.widgets.dark-mode-switcher';
+>>>>>>> laraxot/dev
 
     public function mount(): void
     {
@@ -53,6 +57,17 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * Disabilitabile via config per temi/test (default: visibile).
+     */
+    public static function canView(): bool
+    {
+        return (bool) config('ui.dark_mode_switcher.enabled', true);
+    }
+
+>>>>>>> laraxot/dev
     public function render(): View
     {
         return view($this->view, [

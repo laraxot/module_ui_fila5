@@ -245,16 +245,20 @@ Modules/UI/
 │   └── Unit/
 ├── README.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QZdJ5M
 =======
 <<<<<<< .merge_file_PxAbOR
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 └── CHANGELOG.md
 ```
 
 (`ARCHITECTURE.md`, `TESTING.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
 
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_jEotks
 >>>>>>> .merge_file_hBcCiW
@@ -274,6 +278,8 @@ Modules/UI/
 >>>>>>> .merge_file_hBcCiW
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> laraxot/dev
 ---
 
 ### Blade Component Naming
@@ -1298,6 +1304,7 @@ Core functionality tests pass:
 
 - [README.md](./README.md) — Module overview
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QZdJ5M
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 =======
@@ -1314,6 +1321,9 @@ Core functionality tests pass:
 =======
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 >>>>>>> 804451c (Lint)
+=======
+- [architecture.md](./architecture.md) — System architecture
+>>>>>>> laraxot/dev
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](./icon-system.md) — Icon system details
 

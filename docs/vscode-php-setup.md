@@ -107,6 +107,10 @@
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
             "    public static function getFormSchema(): array",
+<<<<<<< HEAD
+=======
+            "    public function getFormSchema(): array",
+>>>>>>> laraxot/dev
             "    {",
             "        return [",
             "            $0",
@@ -133,6 +137,21 @@
             "port": 9003,
             "pathMappings": {
                 "/ tasks.json
+<<<<<<< HEAD
+=======
+                "/var/www/html/base_<nome progetto>": "${workspaceFolder}"
+            }
+        }
+    ]
+}
+```
+
+## Tasks Personalizzati
+
+```json
+// tasks.json
+                "/ tasks.json
+>>>>>>> laraxot/dev
 {
     "version": "2.0.0",
     "tasks": [
@@ -153,6 +172,12 @@
 }
 ```
 
+<<<<<<< HEAD
+=======
+## Tasks Personalizzati
+```json
+// tasks.json
+>>>>>>> laraxot/dev
 ## Best Practices
 
 ### 1. Organizzazione Workspace
@@ -227,9 +252,13 @@
 - [PHP Intelephense](https://intelephense.com)
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
+<<<<<<< HEAD
 
 ## Estensioni Essenziali
 
+=======
+## Estensioni Essenziali
+>>>>>>> laraxot/dev
 ### 1. PHP
 - PHP Intelephense
 - PHP Debug
@@ -237,22 +266,32 @@
 - PHP Namespace Resolver
 - PHP Constructor
 - Better PHPUnit
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 ### 2. Filament
 - Filament PHP
 - Laravel Blade Formatter
 - Laravel Blade Snippets
 - Laravel Extra Intellisense
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 ### 3. Utilità
 - Git Lens
 - Git History
 - EditorConfig
 - DotENV
 - Error Lens
+<<<<<<< HEAD
 
 ## Configurazione PHP
 
+=======
+## Configurazione PHP
+>>>>>>> laraxot/dev
 ```json
 // settings.json
 {
@@ -269,7 +308,10 @@
     "intelephense.diagnostics.undefinedMethods": false,
     "intelephense.diagnostics.undefinedProperties": false,
     "intelephense.diagnostics.undefinedVariables": false,
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     // PHP DocBlocker
     "php-docblocker.useShortNames": true,
     "php-docblocker.qualifyClassNames": true,
@@ -277,7 +319,10 @@
         "name": "il progetto Team",
         "email": "dev@<nome progetto>.com"
     },
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     // PHP Format
     "php.suggest.basic": false,
     "php.validate.enable": false,
@@ -291,23 +336,31 @@
     }
 }
 ```
+<<<<<<< HEAD
 
 ## Configurazione Filament
 
 ```json
 // settings.json
 {
+=======
+## Configurazione Filament
+>>>>>>> laraxot/dev
     // Filament Plugin
     "filamentphp.snippets.enabled": true,
     "filamentphp.validation.enabled": true,
     "filamentphp.intelephense.enabled": true,
     "filamentphp.format.enabled": true,
     "editor.snippetSuggestions": "top",
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     // Blade
     "[blade]": {
         "editor.defaultFormatter": "shufo.vscode-blade-formatter",
         "editor.formatOnSave": true
+<<<<<<< HEAD
     },
     "bladeFormatter.format.sortTailwindcssClasses": true,
     "bladeFormatter.format.sortHtmlAttributes": "alphabetical"
@@ -319,12 +372,19 @@
 ```json
 // filament.code-snippets
 {
+=======
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "bladeFormatter.format.sortHtmlAttributes": "alphabetical"
+## Snippets Personalizzati
+// filament.code-snippets
+>>>>>>> laraxot/dev
     "Filament Resource": {
         "prefix": "fil-resource",
         "body": [
             "<?php",
             "",
             "namespace ${1:Namespace};",
+<<<<<<< HEAD
             "",
             "use Modules\\\\Xot\\\\Filament\\\\Resources\\\\XotBaseResource;",
             "use Filament\\\\Forms;",
@@ -335,6 +395,16 @@
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
             "    public static function getFormSchema(): array",
+=======
+            "use Modules\\\\Xot\\\\Filament\\\\Resources\\\\XotBaseResource;",
+            "use Filament\\\\Forms;",
+            "use Filament\\\\Tables;",
+            "class ${2:Name}Resource extends XotBaseResource",
+            "{",
+            "    protected static ?string \\$model = ${2:Name}::class;",
+            "    public static function getFormSchema(): array",
+            "    public function getFormSchema(): array",
+>>>>>>> laraxot/dev
             "    {",
             "        return [",
             "            $0",
@@ -343,6 +413,7 @@
             "}",
             ""
         ]
+<<<<<<< HEAD
     }
 }
 ```
@@ -352,6 +423,10 @@
 ```json
 // launch.json
 {
+=======
+## Debug Configuration
+// launch.json
+>>>>>>> laraxot/dev
     "version": "0.2.0",
     "configurations": [
         {
@@ -361,10 +436,15 @@
             "port": 9003,
             "pathMappings": {
                 "/ tasks.json
+<<<<<<< HEAD
 {
     "version": "2.0.0",
     "tasks": [
         {
+=======
+    "version": "2.0.0",
+    "tasks": [
+>>>>>>> laraxot/dev
             "label": "Run PHPUnit Test",
             "type": "shell",
             "command": "./vendor/bin/phpunit ${file}",
@@ -376,6 +456,7 @@
                 "reveal": "always",
                 "panel": "new"
             }
+<<<<<<< HEAD
         }
     ]
 }
@@ -383,6 +464,10 @@
 
 ## Best Practices
 
+=======
+    ]
+## Best Practices
+>>>>>>> laraxot/dev
 ### 1. Organizzazione Workspace
 ```plaintext
 .vscode/
@@ -392,16 +477,21 @@
 └── snippets/
     ├── php.code-snippets
     └── filament.code-snippets
+<<<<<<< HEAD
 ```
 
 ### 2. Keybindings Consigliati
 ```json
+=======
+### 2. Keybindings Consigliati
+>>>>>>> laraxot/dev
 // keybindings.json
 [
     {
         "key": "ctrl+shift+i",
         "command": "namespaceResolver.import",
         "when": "editorTextFocus"
+<<<<<<< HEAD
     },
     {
         "key": "ctrl+shift+s",
@@ -415,11 +505,18 @@
 ```json
 // settings.json
 {
+=======
+        "key": "ctrl+shift+s",
+        "command": "namespaceResolver.sort",
+]
+### 3. Workspace Esclusioni
+>>>>>>> laraxot/dev
     "files.exclude": {
         "vendor/": true,
         "node_modules/": true,
         ".phpunit.cache/": true,
         "bootstrap/cache/": true
+<<<<<<< HEAD
     },
     "search.exclude": {
         "vendor/": true,
@@ -430,27 +527,208 @@
 
 ## Troubleshooting
 
+=======
+    "search.exclude": {
+        "node_modules/": true
+## Troubleshooting
+>>>>>>> laraxot/dev
 ### 1. Performance
 - Disabilita estensioni non necessarie
 - Aumenta memoria disponibile per VSCode
 - Usa workspace esclusioni
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 ### 2. Debug
 - Verifica configurazione Xdebug
 - Controlla mappatura path
 - Usa Error Lens per debug visuale
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 ### 3. Intellisense
 - Rigenera index Intelephense
 - Verifica configurazione namespace
 - Controlla file composer.json
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 ## Collegamenti
 - [VSCode Filament Plugin](vscode-filament-plugin.md)
 - [Development Tools](development-tools.md)
 - [Coding Standards](coding-standards.md)
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
+=======
+# Configurazione VSCode per PHP e Filament
+## Estensioni Essenziali
+### 1. PHP
+- PHP Intelephense
+- PHP Debug
+- PHP DocBlocker
+- PHP Namespace Resolver
+- PHP Constructor
+- Better PHPUnit
+### 2. Filament
+- Filament PHP
+- Laravel Blade Formatter
+- Laravel Blade Snippets
+- Laravel Extra Intellisense
+### 3. Utilità
+- Git Lens
+- Git History
+- EditorConfig
+- DotENV
+- Error Lens
+## Configurazione PHP
+```json
+// settings.json
+{
+    // PHP Intelephense
+    "intelephense.files.maxSize": 5000000,
+    "intelephense.environment.phpVersion": "8.2",
+    "intelephense.completion.insertUseDeclaration": true,
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": false,
+    "intelephense.trace.server": "messages",
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.diagnostics.undefinedConstants": false,
+    "intelephense.diagnostics.undefinedClassConstants": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedProperties": false,
+    "intelephense.diagnostics.undefinedVariables": false,
+    // PHP DocBlocker
+    "php-docblocker.useShortNames": true,
+    "php-docblocker.qualifyClassNames": true,
+    "php-docblocker.author": {
+        "name": "il progetto Team",
+        "email": "dev@<nome progetto>.com"
+    },
+    // PHP Format
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.php": true
+        }
+```
+## Configurazione Filament
+    // Filament Plugin
+    "filamentphp.snippets.enabled": true,
+    "filamentphp.validation.enabled": true,
+    "filamentphp.intelephense.enabled": true,
+    "filamentphp.format.enabled": true,
+    "editor.snippetSuggestions": "top",
+    // Blade
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+        "editor.formatOnSave": true
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "bladeFormatter.format.sortHtmlAttributes": "alphabetical"
+## Snippets Personalizzati
+// filament.code-snippets
+    "Filament Resource": {
+        "prefix": "fil-resource",
+        "body": [
+            "<?php",
+            "",
+            "namespace ${1:Namespace};",
+            "use Modules\\\\Xot\\\\Filament\\\\Resources\\\\XotBaseResource;",
+            "use Filament\\\\Forms;",
+            "use Filament\\\\Tables;",
+            "class ${2:Name}Resource extends XotBaseResource",
+            "{",
+            "    protected static ?string \\$model = ${2:Name}::class;",
+            "    public static function getFormSchema(): array",
+            "    public function getFormSchema(): array",
+            "    {",
+            "        return [",
+            "            $0",
+            "        ];",
+            "    }",
+            "}",
+            ""
+        ]
+## Debug Configuration
+// launch.json
+    "version": "0.2.0",
+    "configurations": [
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003,
+            "pathMappings": {
+                "/ tasks.json
+    "version": "2.0.0",
+    "tasks": [
+            "label": "Run PHPUnit Test",
+            "type": "shell",
+            "command": "./vendor/bin/phpunit ${file}",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+## Best Practices
+### 1. Organizzazione Workspace
+```plaintext
+.vscode/
+├── settings.json
+├── launch.json
+├── tasks.json
+└── snippets/
+    ├── php.code-snippets
+    └── filament.code-snippets
+### 2. Keybindings Consigliati
+// keybindings.json
+[
+        "key": "ctrl+shift+i",
+        "command": "namespaceResolver.import",
+        "when": "editorTextFocus"
+        "key": "ctrl+shift+s",
+        "command": "namespaceResolver.sort",
+### 3. Workspace Esclusioni
+    "files.exclude": {
+        "vendor/": true,
+        "node_modules/": true,
+        ".phpunit.cache/": true,
+        "bootstrap/cache/": true
+    "search.exclude": {
+        "node_modules/": true
+## Troubleshooting
+### 1. Performance
+- Disabilita estensioni non necessarie
+- Aumenta memoria disponibile per VSCode
+- Usa workspace esclusioni
+### 2. Debug
+- Verifica configurazione Xdebug
+- Controlla mappatura path
+- Usa Error Lens per debug visuale
+### 3. Intellisense
+- Rigenera index Intelephense
+- Verifica configurazione namespace
+- Controlla file composer.json
+## Collegamenti
+- [VSCode Filament Plugin](vscode-filament-plugin.md)
+- [Development Tools](development-tools.md)
+- [Coding Standards](coding-standards.md)
+## Vedi Anche
+- [VSCode Documentation](https://code.visualstudio.com/docs)
+- [PHP Intelephense](https://intelephense.com)
+
+```
+>>>>>>> laraxot/dev

@@ -94,6 +94,7 @@ php artisan config:clear
 
 - [Sistema Icone UI](../icon-system.md)
 - [Blade Icons Documentation](../blade-icons.md)
+<<<<<<< HEAD
 - [XotBaseServiceProvider](../xotbaseserviceprovider.md)
 
 ---
@@ -101,4 +102,14 @@ php artisan config:clear
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
+=======
+- [XotBaseServiceProvider](../XotBaseServiceProvider.md)
+
+---
+
+**Data**: 27 Gennaio 2025  
+**Modulo**: UI  
+**Tipo**: Bug Fix  
+**Priorità**: Alta  
+>>>>>>> laraxot/dev
 **Stato**: ✅ Risolto
