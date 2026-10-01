@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Standard di Accessibilità"
 type: concept
@@ -20,7 +18,6 @@ related:
   - "./ui-standards.md"
 ---
 
->>>>>>> laraxot/dev
 # Standard di Accessibilità
 
 ## 🎯 WCAG 2.1

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Master Layout Documentation"
 type: concept
@@ -14,7 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
->>>>>>> laraxot/dev
 # Master Layout Documentation
 
 ## Overview

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Architettura Modulo UI"
 type: concept
@@ -14,7 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
->>>>>>> laraxot/dev
 # Architettura Modulo UI
 
 ## 🏗️ Panoramica Architetturale

@@ -24,11 +24,7 @@ return [
         ],
         'label' => 'Notifications',
         'sort' => 1,
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
         'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

@@ -5,49 +5,10 @@ tags: [milestones]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "04-milestones milestones - ui"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-<<<<<<< .merge_file_nv1ky1
-=======
-<<<<<<< .merge_file_Qlz3CR
-=======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> .merge_file_IAcLMs
->>>>>>> .merge_file_LWQfxZ
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< .merge_file_nv1ky1
-=======
-<<<<<<< .merge_file_Qlz3CR
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_IAcLMs
->>>>>>> .merge_file_LWQfxZ
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index.md"

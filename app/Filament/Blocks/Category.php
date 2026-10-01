@@ -14,7 +14,7 @@ final class Category extends XotBaseBlock
     /**
      * @return array<int, Component>
      */
-    public function getFormSchema(): array
+    public static function getFormSchema(): array
     {
         return [
             TextInput::make('name')

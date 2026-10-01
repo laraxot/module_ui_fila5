@@ -1,12 +1,3 @@
-<<<<<<< HEAD
----
-module: theme
-topic: components
-canonical: ../../../Themes/docs/shared-components/components-guide.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
-=======
 # Componenti UI
 
 ## Componenti Form Avanzati
@@ -390,4 +381,3 @@ Tutti i componenti UI condivisi devono essere posizionati in `Modules/UI/resourc
 - [UI Components Architecture](../README.md)
 
 *Documentazione aggiornata: Dicembre 2024*
->>>>>>> laraxot/dev

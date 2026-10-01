@@ -53,20 +53,12 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
     public function isGridLayout(): bool
     {
-<<<<<<< HEAD
-        return self::GRID === $this;
-=======
         return $this === self::GRID;
->>>>>>> laraxot/dev
     }
 
     public function isListLayout(): bool
     {
-<<<<<<< HEAD
-        return self::LIST === $this;
-=======
         return $this === self::LIST;
->>>>>>> laraxot/dev
     }
 
     /**
@@ -96,14 +88,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      * This method replaces the old debug_backtrace approach with explicit
      * parameter passing for better type safety and testability.
      *
-<<<<<<< HEAD
-     * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
-     * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
-     *
-=======
      * @param  array<Column|ColumnGroup|Component>  $listColumns  Columns for list layout
      * @param  array<Column|ColumnGroup|Component>  $gridColumns  Columns for grid layout
->>>>>>> laraxot/dev
      * @return array<Column|ColumnGroup|Component>
      */
     public function getTableColumns(array $listColumns, array $gridColumns): array

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Supporto per Icone nei Componenti Filament"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./file-upload-component.md"
 ---
 
->>>>>>> laraxot/dev
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità
