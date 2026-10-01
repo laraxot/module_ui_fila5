@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "ratings"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
->>>>>>> laraxot/dev
 # ratings
 
 <!-- Contenuto migrato da _docs/ratings.txt -->

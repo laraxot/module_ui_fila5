@@ -155,13 +155,10 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
     
-<<<<<<< HEAD
-=======
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
->>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
     {
@@ -342,20 +339,13 @@ class SystemTestWidget extends UIBaseTestWidget
 
 ## 🔗 Collegamenti Correlati
 
-<<<<<<< HEAD
-- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
-=======
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
->>>>>>> laraxot/dev
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
 - [Testing Strategy](testing-strategy.md)
 
 ---
 
-<<<<<<< HEAD
-*Autore: Analisi Automatica del Progetto*
-=======
 *Ultimo aggiornamento: Giugno 2025*
 *Autore: Analisi Automatica del Progetto*
 # Ottimizzazioni Widget - Modulo UI
@@ -522,4 +512,3 @@ class SystemTestWidget extends UIBaseTestWidget
 - [Testing Strategy](testing-strategy.md)
 ---
 *Ultimo aggiornamento: Giugno 2025*
->>>>>>> laraxot/dev

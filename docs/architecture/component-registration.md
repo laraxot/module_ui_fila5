@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Registrazione dei Componenti nei Moduli"
 type: concept
@@ -17,7 +15,6 @@ related:
   - "./structure.md"
 ---
 
->>>>>>> laraxot/dev
 # Registrazione dei Componenti nei Moduli
 
 ## Regola Fondamentale

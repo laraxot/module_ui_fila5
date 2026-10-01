@@ -16,11 +16,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Video Spatie',
         'sort' => 1,
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
         'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => ['label' => 'Crea Video Spatie'],

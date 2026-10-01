@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Themes - Ottimizzazioni e Correzioni"
 type: concept
@@ -19,7 +17,6 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
->>>>>>> laraxot/dev
 # Themes - Ottimizzazioni e Correzioni
 
 ## 🎯 Overview

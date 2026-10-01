@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "RadioCollection: Debugging & Risoluzione Problemi di Selezione"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
->>>>>>> laraxot/dev
 # RadioCollection: Debugging & Risoluzione Problemi di Selezione
 
 ## 🔍 Diagnosi del Problema

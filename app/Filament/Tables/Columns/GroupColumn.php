@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
-<<<<<<< HEAD
-
-class GroupColumn extends Column
-=======
 use Filament\Tables\Table;
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 
@@ -20,7 +16,6 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
  * "The column [x] is not mounted to a table".
  */
 class GroupColumn extends XotBaseColumn
->>>>>>> laraxot/dev
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -33,19 +28,6 @@ class GroupColumn extends XotBaseColumn
     protected string $view = 'ui::filament.tables.columns.group';
 
     /**
-<<<<<<< HEAD
-     * Initialize the component.
-     */
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        // Component initialization logic
-    }
-
-    /**
-=======
->>>>>>> laraxot/dev
      * @return array<Column>
      */
     public function getFields(): array
@@ -54,20 +36,11 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
-<<<<<<< HEAD
-     * @param array<int|string, mixed> $form
-     */
-    public function schema(array $form): static
-    {
-        // Type-check to ensure all elements are Column instances
-        $filtered = array_filter($form, function (mixed $item): bool {
-=======
      * @param  array<int|string, mixed>  $form
      */
     public function schema(array $form): static
     {
         $filtered = array_filter($form, static function (mixed $item): bool {
->>>>>>> laraxot/dev
             return $item instanceof Column;
         });
 
@@ -75,10 +48,6 @@ class GroupColumn extends XotBaseColumn
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
-<<<<<<< HEAD
-        return $this;
-    }
-=======
         $this->mountChildrenToTable($this->table);
 
         return $this;
@@ -102,5 +71,4 @@ class GroupColumn extends XotBaseColumn
             $child->table($table);
         }
     }
->>>>>>> laraxot/dev
 }

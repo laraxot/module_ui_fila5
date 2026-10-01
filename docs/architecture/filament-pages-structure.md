@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Struttura Pagine Filament - Modulo UI"
 type: concept
@@ -17,7 +15,6 @@ related:
   - "./structure.md"
 ---
 
->>>>>>> laraxot/dev
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica

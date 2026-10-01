@@ -1,18 +1,6 @@
 # Componenti SVG Bandiere nel Modulo UI
 
 ## Collegamenti correlati
-<<<<<<< HEAD
-- [Documentazione centrale](/docs/readme.md)
-- [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
-- [Documentazione UI](/laravel/modules/ui/docs/readme.md)
-- [Documentazione sezioni](/docs/sections.md)
-- [Header: Lingua e Utente](/laravel/themes/one/docs/sections/header_language_user_dropdown.md)
-- [Implementazione CMS](/laravel/modules/cms/docs/sections/header_language_user_dropdown.md)
-
-## Panoramica
-
-Il modulo UI di Quaeris include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
-=======
 - [Documentazione centrale](/docs/README.md)
 - [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
 - [Documentazione UI](/laravel/Modules/UI/docs/README.md)
@@ -23,17 +11,12 @@ Il modulo UI di Quaeris include una vasta collezione di SVG di bandiere nazional
 ## Panoramica
 
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
->>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
-<<<<<<< HEAD
-/var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
-=======
 Modules/UI/resources/svg/flags/
->>>>>>> laraxot/dev
 ```
 
 Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
@@ -83,8 +66,6 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 ### Esempio con Attributi
 
 ```blade
-<<<<<<< HEAD
-=======
 <x-ui-flags.it
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
@@ -92,7 +73,6 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
->>>>>>> laraxot/dev
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
@@ -162,9 +142,6 @@ Le bandiere devono essere utilizzate come icone Filament:
 2. **Personalizzazione**: Facile da personalizzare con classi CSS
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
-<<<<<<< HEAD
-5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
-=======
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
 5. **Coerenza**: Utilizzo di componenti nativi di
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
@@ -358,7 +335,6 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
->>>>>>> laraxot/dev
 
 ## Bandiere Disponibili
 

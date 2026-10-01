@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Global Search"
 type: concept
@@ -22,6 +20,5 @@ related:
   - "./changelog-2.md"
 ---
 
->>>>>>> laraxot/dev
 https://github.com/spatie/laravel-searchable
 

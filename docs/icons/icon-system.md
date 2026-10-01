@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "UI Module Icon System"
 type: concept
@@ -14,7 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
->>>>>>> laraxot/dev
 # UI Module Icon System
 
 ## How It Works
@@ -100,10 +97,7 @@ Tables\Columns\IconColumn::make('status')
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
-<<<<<<< HEAD
-=======
 - `resources/svg/` → `{name}`
->>>>>>> laraxot/dev
 - etc.
 
 The `ui-` prefix is special: contains the global design system icons shared across all modules.
