@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+=======
+---
+title: "RadioCollection Component - A Deep Dive"
+type: concept
+tags: [radio, collection, philosophy]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "radio-collection-philosophy radiocollection component - a deep dive"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./address-field-1.md"
+  - "./address-field.md"
+  - "./blade-component-registration.md"
+  - "./filament-usage.md"
+  - "./filament.md"
+  - "./file-upload.md"
+  - "./footer.md"
+  - "./full-calendar-1.md"
+---
+
+>>>>>>> laraxot/dev
 # RadioCollection Component - A Deep Dive
 
 ## Philosophical Foundation

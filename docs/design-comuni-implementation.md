@@ -128,6 +128,7 @@ Pages are configured via JSON files:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FZ9rvK
 =======
 <<<<<<< .merge_file_eJoKTt
@@ -139,10 +140,13 @@ Pages are configured via JSON files:
 >>>>>>> .merge_file_ifgoSr
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> laraxot/dev
 **Location**: `config/local/fixcity/database/content/pages/`
 
 **Location**: `config/local/<nome progetto>/database/content/pages/`
 **Location**: `config/local/current/database/content/pages/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FZ9rvK
 =======
@@ -175,6 +179,8 @@ Pages are configured via JSON files:
 >>>>>>> .merge_file_ifgoSr
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> laraxot/dev
 
 **Example**: `tests.homepage.json`
 

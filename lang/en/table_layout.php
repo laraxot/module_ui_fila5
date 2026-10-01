@@ -3,6 +3,23 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+    'values' => [
+        'list' => [
+            'label' => 'List',
+            'icon' => 'heroicon-o-list-bullet',
+            'color' => 'primary',
+            'description' => 'List',
+        ],
+        'grid' => [
+            'label' => 'Grid',
+            'icon' => 'heroicon-o-squares-2x2',
+            'color' => 'secondary',
+            'description' => 'Grid',
+        ],
+    ],
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',

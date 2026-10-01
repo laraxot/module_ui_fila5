@@ -23,6 +23,12 @@ function renderCategoryTabsHtml(array $data = []): ?string
     }
 
     try {
+<<<<<<< HEAD
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+
+>>>>>>> laraxot/dev
         return View::make($viewName, $data)->render();
     } catch (\Throwable) {
         return null;

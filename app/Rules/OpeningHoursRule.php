@@ -1,7 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 // app/Rules/OpeningHoursRule.php
 
 namespace Modules\UI\Rules;
@@ -62,7 +65,11 @@ class OpeningHoursRule implements ValidationRule
      * Valida la coerenza tra le sessioni dello stesso giorno.
      */
     /**
+<<<<<<< HEAD
      * @param array<string, mixed> $dayHours
+=======
+     * @param  array<string, mixed>  $dayHours
+>>>>>>> laraxot/dev
      */
     private function validateDayLogic(array $dayHours, string $dayLabel, \Closure $fail): void
     {
@@ -70,7 +77,11 @@ class OpeningHoursRule implements ValidationRule
         $afternoonFrom = $this->cleanTimeValue($dayHours['afternoon_from'] ?? null);
 
         // Se ci sono entrambe le sessioni, la chiusura mattina deve essere prima dell'apertura pomeriggio
+<<<<<<< HEAD
         if (null !== $morningTo && null !== $afternoonFrom) {
+=======
+        if ($morningTo !== null && $afternoonFrom !== null) {
+>>>>>>> laraxot/dev
             if ($morningTo >= $afternoonFrom) {
                 $fail(static::trans('validation.morning_before_afternoon', params: ['day' => $dayLabel]));
             }
@@ -81,13 +92,21 @@ class OpeningHoursRule implements ValidationRule
      * Valida una sessione specifica (mattina o pomeriggio).
      */
     /**
+<<<<<<< HEAD
      * @param array<string, mixed> $dayHours
+=======
+     * @param  array<string, mixed>  $dayHours
+>>>>>>> laraxot/dev
      */
     private function validateSession(array $dayHours, string $session, string $dayLabel, \Closure $fail): void
     {
         $fromKey = "{$session}_from";
         $toKey = "{$session}_to";
+<<<<<<< HEAD
         $sessionLabel = 'morning' === $session
+=======
+        $sessionLabel = $session === 'morning'
+>>>>>>> laraxot/dev
             ? static::trans('validation.opening_hours.morning')
             : static::trans('validation.opening_hours.afternoon');
 
@@ -106,7 +125,11 @@ class OpeningHoursRule implements ValidationRule
          * }
          */
         // Validazione completezza: se uno è specificato, anche l'altro deve esserlo
+<<<<<<< HEAD
         if (null !== $fromTime && null === $toTime) {
+=======
+        if ($fromTime !== null && $toTime === null) {
+>>>>>>> laraxot/dev
             $fail(static::trans('validation.opening_hours.missing_closing_time', params: [
                 'session' => $sessionLabel,
                 'day' => $dayLabel,
@@ -115,7 +138,11 @@ class OpeningHoursRule implements ValidationRule
             return;
         }
 
+<<<<<<< HEAD
         if (null !== $toTime && null === $fromTime) {
+=======
+        if ($toTime !== null && $fromTime === null) {
+>>>>>>> laraxot/dev
             $fail(static::trans('validation.opening_hours.missing_opening_time', params: [
                 'session' => $sessionLabel,
                 'day' => $dayLabel,
@@ -125,7 +152,11 @@ class OpeningHoursRule implements ValidationRule
         }
 
         // Validazione logica: apertura deve essere prima della chiusura
+<<<<<<< HEAD
         if (null !== $fromTime && null !== $toTime) {
+=======
+        if ($fromTime !== null && $toTime !== null) {
+>>>>>>> laraxot/dev
             if ($fromTime >= $toTime) {
                 $fail(static::trans('validation.opening_hours.opening_before_closing', params: [
                     'session' => $sessionLabel,
@@ -142,14 +173,22 @@ class OpeningHoursRule implements ValidationRule
      */
     private function cleanTimeValue(mixed $value): ?string
     {
+<<<<<<< HEAD
         if (null === $value || '' === $value || '--:--' === $value) {
+=======
+        if ($value === null || $value === '' || $value === '--:--') {
+>>>>>>> laraxot/dev
             return null;
         }
 
         if (\is_string($value)) {
             $cleaned = trim($value);
 
+<<<<<<< HEAD
             return '' === $cleaned ? null : $cleaned;
+=======
+            return $cleaned === '' ? null : $cleaned;
+>>>>>>> laraxot/dev
         }
 
         return null;
