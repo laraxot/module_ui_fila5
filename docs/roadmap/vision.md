@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Visione - UI Module"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./03-later.md"
 ---
 
->>>>>>> laraxot/dev
 # Visione - UI Module
 
 Creare un ecosistema UI Headless-first:

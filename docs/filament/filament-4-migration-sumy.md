@@ -2,8 +2,6 @@
 module: theme
 topic: filament-4-migration-sumy
 canonical: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md
-<<<<<<< HEAD
-=======
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -13,7 +11,6 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./file-upload-component.md"
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md

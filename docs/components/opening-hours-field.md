@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "OpeningHoursField Component"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
->>>>>>> laraxot/dev
 # OpeningHoursField Component
 
 ## Introduzione

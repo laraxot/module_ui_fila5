@@ -7,16 +7,6 @@ created: 2026-04-15
 updated: 2026-06-05
 qmd: "ui module wiki index filament second brain"
 issues:
-<<<<<<< HEAD
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
-discussions:
-  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
-related:
-  - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
-  - ../../../../docs/wiki/bmad/architecture.md
-  - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
-  - ../../docs/wiki/concepts/ai-harness-module-discipline.md
-=======
 discussions:
 related:
   - "./agents.md"
@@ -24,17 +14,13 @@ related:
   - "./context-compression.md"
   - "./log.md"
   - "./overview.md"
->>>>>>> laraxot/dev
 ---
 
 # Wiki Locale Index
 
 ## AI / second brain
 
-<<<<<<< HEAD
-=======
 - [hackernoon-ai-coding-tips-ptv-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-ptv-map.md)
->>>>>>> laraxot/dev
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
@@ -55,11 +41,8 @@ related:
 - [comparisons/](./comparisons/): Alternative implementations.
 - [decisions/](./decisions/): ADL (Architectural Decision Log).
 - [troubleshooting/](./troubleshooting/): Known issues and solutions.
-<<<<<<< HEAD
-=======
   - [git-push-lfs-missing-objects](./troubleshooting/git-push-lfs-missing-objects.md): push rifiutato per LFS mancanti
   - [module-theme-root-hygiene](./troubleshooting/module-theme-root-hygiene.md): zero `.txt`, max 4 `.md` in root moduli/temi
->>>>>>> laraxot/dev
 - [_archive/](./_archive/): Legacy documentation.
 - [_templates/](./_templates/): Standard templates.
 
@@ -74,8 +57,6 @@ related:
 | [enumselect-filament-api-collisions](./concepts/enumselect-filament-api-collisions.md) | Concept | runtime fatals (make/enum/getLabel) | 2026-04-23 |
 | [model-states-module-ownership](./concepts/model-states-module-ownership.md) | Concept | ownership modulare e vincoli runtime | 2026-04-28 |
 | [phpstan-dynamic-array-normalization](./concepts/phpstan-dynamic-array-normalization.md) | Concept | Normalizzazione array dinamici UI per PHPStan senza inline @var/ignore | 2026-05-06 |
-<<<<<<< HEAD
-=======
 
 ---
 
@@ -170,4 +151,3 @@ related:
 | [enumselect-filament-api-collisions](./concepts/enumselect-filament-api-collisions.md) | Concept | runtime fatals (make/enum/getLabel) | 2026-04-23 |
 | [model-states-module-ownership](./concepts/model-states-module-ownership.md) | Concept | ownership modulare e vincoli runtime | 2026-04-28 |
 | [phpstan-dynamic-array-normalization](./concepts/phpstan-dynamic-array-normalization.md) | Concept | Normalizzazione array dinamici UI per PHPStan senza inline @var/ignore | 2026-05-06 |
->>>>>>> laraxot/dev

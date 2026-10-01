@@ -184,8 +184,6 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 
 ---
 
-<<<<<<< HEAD
-=======
 title: "bugfix table layout action "
 type: note
 tags: [documentation]
@@ -194,7 +192,6 @@ updated: 2026-09-26
 qmd: "bugfix table layout action "
 issues: []
 discussions: []
->>>>>>> laraxot/dev
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Theme 1"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./changelog-2.md"
 ---
 
->>>>>>> laraxot/dev
 https://dev.to/themesberg/how-to-build-a-blog-template-with-tailwind-css-and-flowbite-5e4n
 
 

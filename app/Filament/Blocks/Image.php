@@ -9,10 +9,7 @@ use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
-<<<<<<< HEAD
-=======
 use Filament\Schemas\Components\Utilities\Set;
->>>>>>> laraxot/dev
 
 class Image
 {
@@ -24,13 +21,8 @@ class Image
                 TextInput::make('url'),
                 Select::make('ratio')
                     ->options(static::getRatios())
-<<<<<<< HEAD
-                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
-                        if (! $state && is_callable($set)) {
-=======
                     ->afterStateHydrated(static function (?string $state, Set $set): void {
                         if (! $state) {
->>>>>>> laraxot/dev
                             $set('ratio', '4-3');
                         }
                     }),
@@ -43,12 +35,6 @@ class Image
     /**
      * @return array<string, string>
      */
-<<<<<<< HEAD
-    /**
-     * @return array<string, string>
-     */
-=======
->>>>>>> laraxot/dev
     public static function getRatios(): array
     {
         return [
@@ -70,7 +56,7 @@ class Image
     /**
      * @return array<int, Component>
      */
-    public function getFormSchema(): array
+    public static function getFormSchema(): array
     {
         return [
             FileUpload::make('image')

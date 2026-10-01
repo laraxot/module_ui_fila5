@@ -15,11 +15,7 @@ return [
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
     ],
     'sections' => [
-<<<<<<< HEAD
-        'empty' => ['heading' => 'empty'],
-=======
         'empty' => ['heading' => ''],
->>>>>>> laraxot/dev
     ],
     'label' => 'Hero',
     'plural_label' => 'Hero (Plurale)',
@@ -29,11 +25,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Hero',
         'sort' => 1,
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
         'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => ['label' => 'Crea Hero'],

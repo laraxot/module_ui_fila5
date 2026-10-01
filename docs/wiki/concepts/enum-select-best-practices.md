@@ -1,7 +1,5 @@
 ---
 title: EnumSelect Best Practices
-<<<<<<< HEAD
-=======
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -11,7 +9,6 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
->>>>>>> laraxot/dev
 ---
 
 ## Overview
