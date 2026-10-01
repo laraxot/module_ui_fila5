@@ -18,6 +18,21 @@ use Modules\UI\Tests\Fixtures\UiGroupColumnTypeEnum;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
+// Local test enum for testing BackedEnum with HasLabel
+enum TestWorkerType: string
+{
+    case Dip = 'dip';
+    case Fun = 'fun';
+
+    public function getLabel(): string
+    {
+        return match ($this) {
+            self::Dip => 'Dipendente',
+            self::Fun => 'Funzionario',
+        };
+    }
+}
+
 /**
  * @return array{getTable: \Closure(): Table}
  */
@@ -333,14 +348,22 @@ describe('GroupColumn view rendering', function (): void {
     });
 
     it('renders BackedEnum with HasLabel using translated label not raw value', function (): void {
+<<<<<<< .merge_file_QklYKQ
         $record = ['type' => UiGroupColumnTypeEnum::Dip];
+=======
+        $record = ['type' => TestWorkerType::Dip];
+>>>>>>> .merge_file_4oxYeU
         $fields = [
             TextColumn::make('type'),
         ];
 
         if (! app()->bound('view')) {
             $value = data_get($record, 'type');
+<<<<<<< .merge_file_QklYKQ
             Assert::assertInstanceOf(UiGroupColumnTypeEnum::class, $value);
+=======
+            Assert::assertInstanceOf(TestWorkerType::class, $value);
+>>>>>>> .merge_file_4oxYeU
             Assert::assertSame('Dipendente', $value->getLabel());
 
             return;
