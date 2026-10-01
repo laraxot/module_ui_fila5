@@ -36,6 +36,7 @@ tags: [structure, architecture, module]
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CF4qaa
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 =======
@@ -52,6 +53,9 @@ tags: [structure, architecture, module]
 =======
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 >>>>>>> 804451c (Lint)
+=======
+├── architecture.md                # (opzionale) Architettura modulo
+>>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 

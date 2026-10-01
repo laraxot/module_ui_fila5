@@ -9,6 +9,7 @@ use Spatie\LaravelData\DataCollection;
 
 final class SliderDataCollection extends Data
 {
+<<<<<<< HEAD
     /**
      * @var DataCollection<int, SliderData>
      */
@@ -17,4 +18,10 @@ final class SliderDataCollection extends Data
     public function __construct()
     {
     }
+=======
+    /** @var DataCollection<int, SliderData> */
+    public DataCollection $slider_data;
+
+    public function __construct() {}
+>>>>>>> laraxot/dev
 }

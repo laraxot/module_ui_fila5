@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TableLayoutEnum Usage Guide
 
 ## Nuovo Approccio (Corretto)
@@ -14,12 +15,31 @@ The `TableLayoutEnum` provides standardized layout options for Filament tables a
 
 ## Features
 
+=======
+---
+module: theme
+topic: table_layout_enum_usage
+canonical: ../../../Themes/docs/shared-components/table-layout-enum-usage_1.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/table-layout-enum-usage_1.md
+# TableLayoutEnum Usage Guide
+## Nuovo Approccio (Corretto)
+Dopo la correzione del problema di visibilità, il metodo `getTableColumns()` ora richiede parametri espliciti invece di usare debug_backtrace.
+### Esempio di uso nelle classi ListRecords:
+```php
+use Modules\UI\Enums\TableLayoutEnum;
+## Overview
+The `TableLayoutEnum` provides standardized layout options for Filament tables and data grids, allowing users to toggle between list and grid views with appropriate styling and column configurations.
+## Features
+>>>>>>> laraxot/dev
 - **Type Safety**: Complete PHPDoc documentation and explicit parameter types
 - **Translation Support**: Multilingual labels via TransTrait and transClass()
 - **Responsive Design**: Enhanced grid configuration with multiple breakpoints
 - **Clean API**: No more debug_backtrace, explicit parameter passing
 - **Framework Compliance**: Uses TransTrait for all translation methods
 - **Extensible**: Additional utility methods for layout management
+<<<<<<< HEAD
 
 ## CRITICAL RULE: TransTrait Usage
 
@@ -37,10 +57,22 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     case LIST = 'list';
     case GRID = 'grid';
 
+=======
+## CRITICAL RULE: TransTrait Usage
+**ALWAYS use TransTrait and transClass() for enum translations, NEVER implement match() manually**
+### Correct Implementation
+use Modules\Xot\Filament\Traits\TransTrait;
+enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
+{
+    use TransTrait;
+    case LIST = 'list';
+    case GRID = 'grid';
+>>>>>>> laraxot/dev
     public function getLabel(): string
     {
         return $this->transClass(self::class, $this->value.'.label');
     }
+<<<<<<< HEAD
 
     public function getColor(): string
     {
@@ -56,11 +88,21 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
 ### Why TransTrait is Required
 
+=======
+    public function getColor(): string
+        return $this->transClass(self::class, $this->value.'.color');
+    public function getIcon(): string
+        return $this->transClass(self::class, $this->value.'.icon');
+}
+```
+### Why TransTrait is Required
+>>>>>>> laraxot/dev
 1. **DRY Principle**: Eliminates code duplication
 2. **Framework Consistency**: Uniform approach across all enums
 3. **Automatic Fallbacks**: Built-in translation fallback mechanisms
 4. **Performance**: Optimized translation caching
 5. **Maintainability**: Centralized translation logic
+<<<<<<< HEAD
 
 ## New Approach (Implemented)
 
@@ -70,10 +112,16 @@ After resolving Git conflicts and removing the deprecated debug_backtrace approa
 
 ```php
 use Modules\UI\Enums\TableLayoutEnum;
+=======
+## New Approach (Implemented)
+After resolving Git conflicts and removing the deprecated debug_backtrace approach, the `getTableColumns()` method now requires explicit parameters for better type safety and testability.
+### Example Usage in ListRecords Classes
+>>>>>>> laraxot/dev
 use Filament\Tables\Table;
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Support\Enums\FontWeight;
+<<<<<<< HEAD
 
 class ListUsers extends ListRecords
 {
@@ -91,12 +139,23 @@ class ListUsers extends ListRecords
             ->contentGrid($this->layout->getTableContentGrid());
     }
 
+=======
+class ListUsers extends ListRecords
+    protected TableLayoutEnum $layout;
+    public function mount(): void
+        $this->layout = TableLayoutEnum::LIST;
+    public function table(Table $table): Table
+        return $table
+            ->columns($this->getColumnsForLayout())
+            ->contentGrid($this->layout->getTableContentGrid());
+>>>>>>> laraxot/dev
     /**
      * Restituisce le colonne appropriate per il layout corrente
             ->contentGrid($this->layout->getTableContentGrid())
             ->extraAttributes([
                 'class' => $this->layout->getContainerClasses(),
             ]);
+<<<<<<< HEAD
     }
 
     /**
@@ -104,12 +163,20 @@ class ListUsers extends ListRecords
      */
     protected function getColumnsForLayout(): array
     {
+=======
+     * Get appropriate columns for current layout.
+     */
+    protected function getColumnsForLayout(): array
+>>>>>>> laraxot/dev
         $listColumns = [
             Tables\Columns\TextColumn::make('name'),
             Tables\Columns\TextColumn::make('email'),
             Tables\Columns\TextColumn::make('created_at'),
         ];
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
         $gridColumns = [
             Tables\Columns\Layout\Stack::make([
                 Tables\Columns\TextColumn::make('name')
@@ -123,12 +190,16 @@ class ListUsers extends ListRecords
                 ->searchable(),
             Tables\Columns\TextColumn::make('created_at')
                 ->dateTime()
+<<<<<<< HEAD
                 ->sortable(),
         ];
 
         $gridColumns = [
             Stack::make([
                 Tables\Columns\TextColumn::make('name')
+=======
+            Stack::make([
+>>>>>>> laraxot/dev
                     ->weight(FontWeight::Bold)
                     ->size('lg'),
                 Tables\Columns\TextColumn::make('email')
@@ -137,6 +208,7 @@ class ListUsers extends ListRecords
                     ->dateTime()
                     ->size('sm'),
             ])->space(2),
+<<<<<<< HEAD
         ];
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
@@ -147,12 +219,18 @@ class ListUsers extends ListRecords
      */
     protected function getHeaderActions(): array
     {
+=======
+        return $this->layout->getTableColumns($listColumns, $gridColumns);
+     * Layout toggle action.
+    protected function getHeaderActions(): array
+>>>>>>> laraxot/dev
         return [
             Action::make('toggleLayout')
                 ->action(function () {
                     $this->layout = $this->layout->toggle();
                     $this->resetTable();
                 }),
+<<<<<<< HEAD
         ];
     }
 }
@@ -160,24 +238,35 @@ class ListUsers extends ListRecords
 
 ### Vantaggi del nuovo approccio:
 
+=======
+### Vantaggi del nuovo approccio:
+>>>>>>> laraxot/dev
 1. **Type Safety**: Non usa più reflection o debug_backtrace
 2. **Chiarezza**: Esplicito su quali colonne usare per ogni layout
 3. **Testabilità**: Più facile da testare senza dipendenze nascoste
 4. **Performance**: Nessun overhead di debug_backtrace
+<<<<<<< HEAD
 
 ### Breaking Change:
 
+=======
+### Breaking Change:
+>>>>>>> laraxot/dev
 Il metodo `getTableColumns()` ora richiede due parametri:
 - `$listColumns`: Array delle colonne per layout lista
 - `$gridColumns`: Array delle colonne per layout griglia
 ### Advantages of the New Approach
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 1. **Type Safety**: No longer uses reflection or debug_backtrace
 2. **Clarity**: Explicit about which columns to use for each layout
 3. **Testability**: Easier to test without hidden dependencies
 4. **Performance**: No debug_backtrace overhead
 5. **Documentation**: Complete PHPDoc and translations
 6. **Maintainability**: Clean, well-structured code
+<<<<<<< HEAD
 
 ### Breaking Change
 
@@ -188,11 +277,19 @@ The `getTableColumns()` method now requires two parameters:
 
 ### New Features Added
 
+=======
+### Breaking Change
+The `getTableColumns()` method now requires two parameters:
+- `$listColumns`: Array of columns for list layout
+- `$gridColumns`: Array of columns for grid layout
+### New Features Added
+>>>>>>> laraxot/dev
 1. **Complete PHPDoc**: All methods now have comprehensive documentation
 2. **Translation Support**: Labels are now translatable via `ui::table-layout.*`
 3. **Additional Methods**: `isListLayout()`, `getOptions()`, `getContainerClasses()`
 4. **Improved Grid Configuration**: Enhanced responsive breakpoints
 5. **Better Color Scheme**: Distinct colors for list (primary) and grid (secondary)
+<<<<<<< HEAD
 
 ## Translation Files
 
@@ -205,6 +302,14 @@ The enum now supports multilingual labels through translation files:
 ### Translation Structure
 
 ```php
+=======
+## Translation Files
+The enum now supports multilingual labels through translation files:
+- `Modules/UI/lang/it/table-layout.php` (Italian)
+- `Modules/UI/lang/en/table-layout.php` (English)
+- `Modules/UI/lang/de/table-layout.php` (German)
+### Translation Structure
+>>>>>>> laraxot/dev
 return [
     'list' => [
         'label' => 'List',
@@ -215,6 +320,7 @@ return [
         'label' => 'Grid',
         'description' => 'Responsive grid card display',
         'tooltip' => 'Show data in grid format with cards',
+<<<<<<< HEAD
     ],
     'toggle' => [
         'label' => 'Toggle Layout',
@@ -227,6 +333,14 @@ return [
 
 ### Methods
 
+=======
+    'toggle' => [
+        'label' => 'Toggle Layout',
+        'tooltip' => 'Switch between list and grid view',
+];
+## API Reference
+### Methods
+>>>>>>> laraxot/dev
 - `init()`: Returns the default layout (LIST)
 - `getLabel()`: Returns translated label for the layout
 - `getColor()`: Returns color identifier (primary/secondary)
@@ -238,12 +352,17 @@ return [
 - `getTableColumns()`: Returns appropriate columns for layout
 - `getOptions()`: Returns all layout options as array
 - `getContainerClasses()`: Returns CSS classes for styling
+<<<<<<< HEAD
 
 ### Grid Configuration
 
 The responsive grid configuration includes:
 
 ```php
+=======
+### Grid Configuration
+The responsive grid configuration includes:
+>>>>>>> laraxot/dev
 [
     'sm' => 1,   // 1 column on small screens
     'md' => 2,   // 2 columns on medium screens
@@ -251,6 +370,7 @@ The responsive grid configuration includes:
     'xl' => 4,   // 4 columns on extra large screens
     '2xl' => 5,  // 5 columns on 2xl screens
 ]
+<<<<<<< HEAD
 ```
 
 ## Migration Guide
@@ -267,17 +387,31 @@ $columns = $this->layout->getTableColumns($listColumns, $gridColumns);
 
 ### Update Your ListRecords Classes
 
+=======
+## Migration Guide
+### From Old Approach
+// OLD (deprecated)
+$columns = $this->layout->getTableColumns();
+// NEW (required)
+$columns = $this->layout->getTableColumns($listColumns, $gridColumns);
+### Update Your ListRecords Classes
+>>>>>>> laraxot/dev
 1. Define separate column arrays for list and grid layouts
 2. Pass both arrays to `getTableColumns()`
 3. Use `getContainerClasses()` for styling
 4. Implement proper toggle actions with new methods
+<<<<<<< HEAD
 
 ## Related Documentation
 
+=======
+## Related Documentation
+>>>>>>> laraxot/dev
 - [UI Module Architecture](architecture_rules.md)
 - [Filament Components Guide](components.md)
 - [Translation Standards](translations.md)
 - [Table Components](table-components.md)
+<<<<<<< HEAD
 - [HasXotTable Trait](../../xot/docs/has-xot-table.md)
 - [Root Documentation: UI Components](../../../../docs/components/ui-components.md)
 # TableLayoutEnum Usage Guide
@@ -357,3 +491,9 @@ class ListUsers extends ListRecords
 Il metodo `getTableColumns()` ora richiede due parametri:
 - `$listColumns`: Array delle colonne per layout lista
 - `$gridColumns`: Array delle colonne per layout griglia
+=======
+- [HasXotTable Trait](../../Xot/docs/has-xot-table.md)
+- [Root Documentation: UI Components](../../../docs/components/ui-components.md)
+     * Toggle del layout tramite action
+                ->icon($this->layout->getIcon())
+>>>>>>> laraxot/dev

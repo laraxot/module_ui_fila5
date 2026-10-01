@@ -7,6 +7,9 @@ updated: 2026-07-21
 qmd: "gitmodules sync session module theme note story-003"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   - "https://github.com/provtv/<nome repository>/issues/201"
 <<<<<<< HEAD
 <<<<<<< .merge_file_ffeCn5
@@ -14,6 +17,7 @@ issues:
 <<<<<<< .merge_file_EB0Auk
 =======
   - "https://github.com/provtv/base_ptv_fila5/issues/201"
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   - "https://github.com/provtv/<nome repository>/issues/201"
@@ -38,6 +42,8 @@ issues:
 >>>>>>> .merge_file_hpiovx
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> laraxot/dev
 discussions: []
 related:
   - "../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md"
@@ -59,6 +65,9 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 - Story: [../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md](../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md)
 - Report: [../../../../../../docs/chat/gitmodules-sync.md](../../../../../../docs/chat/gitmodules-sync.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
 <<<<<<< HEAD
 <<<<<<< .merge_file_ffeCn5
@@ -66,6 +75,7 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 <<<<<<< .merge_file_EB0Auk
 =======
 - Issue base: https://github.com/provtv/<nome repository>/issues/201
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
@@ -90,3 +100,5 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 >>>>>>> .merge_file_hpiovx
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> laraxot/dev

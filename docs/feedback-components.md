@@ -109,6 +109,14 @@
 
 ### Tooltip
 ```html
+<<<<<<< HEAD
+=======
+<button 
+  type="button" 
+  class="btn btn-secondary" 
+  data-bs-toggle="tooltip" 
+  data-bs-placement="top" 
+>>>>>>> laraxot/dev
 <button
   type="button"
   class="btn btn-secondary"
@@ -122,6 +130,14 @@
 
 ### Popover
 ```html
+<<<<<<< HEAD
+=======
+<button 
+  type="button" 
+  class="btn btn-secondary" 
+  data-bs-toggle="popover" 
+  data-bs-placement="right" 
+>>>>>>> laraxot/dev
 <button
   type="button"
   class="btn btn-secondary"
@@ -139,6 +155,15 @@
 ### Progress Bar
 ```html
 <div class="progress">
+<<<<<<< HEAD
+=======
+  <div 
+    class="progress-bar progress-bar-striped progress-bar-animated" 
+    role="progressbar" 
+    style="width: 75%" 
+    aria-valuenow="75" 
+    aria-valuemin="0" 
+>>>>>>> laraxot/dev
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
     role="progressbar"
@@ -208,9 +233,13 @@ $zindex-tooltip: 1070;
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
 # Componenti Feedback e Notifiche
+<<<<<<< HEAD
 
 ## 🚨 Alert e Notifiche
 
+=======
+## 🚨 Alert e Notifiche
+>>>>>>> laraxot/dev
 ### Alert Base
 ```html
 <!-- Successo -->
@@ -218,23 +247,33 @@ $zindex-tooltip: 1070;
   <i class="fas fa-check-circle"></i>
   Operazione completata con successo
 </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 <!-- Errore -->
 <div class="alert alert-danger" role="alert">
   <i class="fas fa-exclamation-circle"></i>
   Si è verificato un errore
+<<<<<<< HEAD
 </div>
 
+=======
+>>>>>>> laraxot/dev
 <!-- Info -->
 <div class="alert alert-info" role="alert">
   <i class="fas fa-info-circle"></i>
   Informazione importante
+<<<<<<< HEAD
 </div>
 
+=======
+>>>>>>> laraxot/dev
 <!-- Warning -->
 <div class="alert alert-warning" role="alert">
   <i class="fas fa-exclamation-triangle"></i>
   Attenzione: azione richiesta
+<<<<<<< HEAD
 </div>
 ```
 
@@ -250,6 +289,15 @@ $zindex-tooltip: 1070;
 
 ### Toast
 ```html
+=======
+```
+### Alert Dismissible
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Attenzione!</strong> Questa azione non può essere annullata.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Chiudi"></button>
+## 📢 Toast e Snackbar
+### Toast
+>>>>>>> laraxot/dev
 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-header">
     <strong class="me-auto">Notifica</strong>
@@ -258,16 +306,21 @@ $zindex-tooltip: 1070;
   </div>
   <div class="toast-body">
     Operazione completata con successo
+<<<<<<< HEAD
   </div>
 </div>
 ```
 
 ### Snackbar
 ```html
+=======
+### Snackbar
+>>>>>>> laraxot/dev
 <div class="snackbar" role="alert" aria-live="polite">
   <div class="snackbar-content">
     <span class="snackbar-message">Modifiche salvate</span>
     <button class="snackbar-action">Annulla</button>
+<<<<<<< HEAD
   </div>
 </div>
 ```
@@ -276,6 +329,10 @@ $zindex-tooltip: 1070;
 
 ### Modal Base
 ```html
+=======
+## 🗨️ Modali e Dialoghi
+### Modal Base
+>>>>>>> laraxot/dev
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -285,6 +342,7 @@ $zindex-tooltip: 1070;
       </div>
       <div class="modal-body">
         <p>Contenuto del modale</p>
+<<<<<<< HEAD
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
@@ -300,10 +358,19 @@ $zindex-tooltip: 1070;
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
+=======
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+        <button type="button" class="btn btn-primary">Conferma</button>
+    </div>
+### Dialogo di Conferma
+  <div class="modal-dialog modal-dialog-centered" role="document">
+>>>>>>> laraxot/dev
       <div class="modal-body text-center">
         <i class="fas fa-question-circle fa-3x mb-3"></i>
         <h5 class="modal-title">Sei sicuro?</h5>
         <p>Questa azione non può essere annullata</p>
+<<<<<<< HEAD
       </div>
       <div class="modal-footer justify-content-center">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
@@ -318,6 +385,12 @@ $zindex-tooltip: 1070;
 
 ### Tooltip
 ```html
+=======
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-danger">Elimina</button>
+## 💡 Tooltip e Popover
+### Tooltip
+>>>>>>> laraxot/dev
 <button
   type="button"
   class="btn btn-secondary"
@@ -327,6 +400,7 @@ $zindex-tooltip: 1070;
 >
   Tooltip
 </button>
+<<<<<<< HEAD
 ```
 
 ### Popover
@@ -334,10 +408,14 @@ $zindex-tooltip: 1070;
 <button
   type="button"
   class="btn btn-secondary"
+=======
+### Popover
+>>>>>>> laraxot/dev
   data-bs-toggle="popover"
   data-bs-placement="right"
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
+<<<<<<< HEAD
 >
   Popover
 </button>
@@ -347,6 +425,11 @@ $zindex-tooltip: 1070;
 
 ### Progress Bar
 ```html
+=======
+  Popover
+## ⏳ Progress e Loading States
+### Progress Bar
+>>>>>>> laraxot/dev
 <div class="progress">
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
@@ -357,16 +440,21 @@ $zindex-tooltip: 1070;
     aria-valuemax="100"
   >
     75%
+<<<<<<< HEAD
   </div>
 </div>
 ```
 
 ### Skeleton Loading
 ```html
+=======
+### Skeleton Loading
+>>>>>>> laraxot/dev
 <div class="skeleton">
   <div class="skeleton-header"></div>
   <div class="skeleton-body">
     <div class="skeleton-line"></div>
+<<<<<<< HEAD
     <div class="skeleton-line"></div>
     <div class="skeleton-line"></div>
   </div>
@@ -375,6 +463,9 @@ $zindex-tooltip: 1070;
 
 ## 🎨 Stili e Comportamenti
 
+=======
+## 🎨 Stili e Comportamenti
+>>>>>>> laraxot/dev
 ### Animazioni
 ```scss
 // Fade in/out
@@ -382,16 +473,23 @@ $zindex-tooltip: 1070;
   from { opacity: 0; }
   to { opacity: 1; }
 }
+<<<<<<< HEAD
 
 @keyframes fadeOut {
   from { opacity: 1; }
   to { opacity: 0; }
 }
 
+=======
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+>>>>>>> laraxot/dev
 // Slide in/out
 @keyframes slideIn {
   from { transform: translateY(100%); }
   to { transform: translateY(0); }
+<<<<<<< HEAD
 }
 
 @keyframes slideOut {
@@ -402,6 +500,12 @@ $zindex-tooltip: 1070;
 
 ### Z-index
 ```scss
+=======
+@keyframes slideOut {
+  from { transform: translateY(0); }
+  to { transform: translateY(100%); }
+### Z-index
+>>>>>>> laraxot/dev
 $zindex-dropdown: 1000;
 $zindex-sticky: 1020;
 $zindex-fixed: 1030;
@@ -409,10 +513,18 @@ $zindex-modal-backdrop: 1040;
 $zindex-modal: 1050;
 $zindex-popover: 1060;
 $zindex-tooltip: 1070;
+<<<<<<< HEAD
 ```
 
+=======
+>>>>>>> laraxot/dev
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 - [Performance](./standards/performance.md)
+=======
+
+```
+>>>>>>> laraxot/dev

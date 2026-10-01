@@ -3,6 +3,23 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+    'values' => [
+        'list' => [
+            'label' => 'Liste',
+            'icon' => 'heroicon-o-list-bullet',
+            'color' => 'primary',
+            'description' => 'Liste',
+        ],
+        'grid' => [
+            'label' => 'Grille',
+            'icon' => 'heroicon-o-squares-2x2',
+            'color' => 'secondary',
+            'description' => 'Grille',
+        ],
+    ],
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',

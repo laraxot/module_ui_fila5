@@ -25,8 +25,15 @@ final class StatWithIconWidget extends XotBaseSchemaWidget
      */
     protected function getData(): array
     {
+<<<<<<< HEAD
         dddx($this->label);
 
         return [];
+=======
+        return [
+            'label' => $this->label,
+            'value' => $this->value,
+        ];
+>>>>>>> laraxot/dev
     }
 }

@@ -11,7 +11,10 @@ use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
+<<<<<<< HEAD
 use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
+=======
+>>>>>>> laraxot/dev
 use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
@@ -27,7 +30,10 @@ use function Safe\file_get_contents;
 abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
+<<<<<<< HEAD
     use EnsuresUiDatabaseSchema;
+=======
+>>>>>>> laraxot/dev
 
     /**
      * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.

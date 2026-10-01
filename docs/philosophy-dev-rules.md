@@ -115,6 +115,7 @@ If you think a rule is wrong:
 ## See Also
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8r59FB
 - `ARCHITECTURE.md` — component organization and Filament patterns
 - `TESTING.md` — component testing strategies
@@ -136,6 +137,10 @@ If you think a rule is wrong:
 - `ARCHITECTURE.md` — component organization and Filament patterns
 - `TESTING.md` — component testing strategies
 >>>>>>> 804451c (Lint)
+=======
+- `architecture.md` — component organization and Filament patterns
+- `testing.md` — component testing strategies
+>>>>>>> laraxot/dev
 - `docs/filament-patterns.md` — Filament resource best practices
 - `docs/folio-volt-integration.md` — Folio+Volt workflow
 - `docs/theme-system.md` — multi-tenant theming

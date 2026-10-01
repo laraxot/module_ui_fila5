@@ -9,6 +9,9 @@ issues:
   - "https://github.com/laraxot/module_ui_fila5/issues/27"
 discussions:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   - "https://github.com/laraxot/<nome repository>/discussions/12"
 <<<<<<< HEAD
 <<<<<<< .merge_file_LTqm3n
@@ -16,6 +19,7 @@ discussions:
 <<<<<<< .merge_file_o5AmDa
 =======
   - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   - "https://github.com/laraxot/<nome repository>/discussions/12"
@@ -54,6 +58,8 @@ discussions:
 >>>>>>> .merge_file_VC6wYo
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> laraxot/dev
 related:
   - "../../../../Xot/docs/wiki/concepts/xotbase-filament-widget-hierarchy.md"
 ---

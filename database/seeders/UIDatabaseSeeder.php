@@ -13,7 +13,11 @@ class UIDatabaseSeeder extends Seeder
 {
     public function run(): void
     {
+<<<<<<< HEAD
         if (null !== $this->command) {
+=======
+        if ($this->command !== null) {
+>>>>>>> laraxot/dev
             $this->command->info('UIDatabaseSeeder: entity seeders…');
         }
 
@@ -23,7 +27,11 @@ class UIDatabaseSeeder extends Seeder
             FieldOptionSeeder::class,
         ]);
 
+<<<<<<< HEAD
         if (null !== $this->command) {
+=======
+        if ($this->command !== null) {
+>>>>>>> laraxot/dev
             $this->command->info('UIDatabaseSeeder: completato.');
         }
     }

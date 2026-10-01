@@ -8,6 +8,7 @@ use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 final class RadioIcon extends XotBaseRadio
 {
+<<<<<<< HEAD
     protected function setUp(): void
     {
         parent::setUp();
@@ -16,4 +17,10 @@ final class RadioIcon extends XotBaseRadio
         $view = 'ui::filament.forms.components.radio-icon';
         $this->view($view);
     }
+=======
+    /**
+     * @var view-string
+     */
+    protected string $view = 'ui::filament.forms.components.radio-icon';
+>>>>>>> laraxot/dev
 }

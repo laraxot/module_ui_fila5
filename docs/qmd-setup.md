@@ -66,6 +66,7 @@ qmd search "form" -c ui  # Solo questo modulo
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [On-Demand Pattern](./on-demand-pattern.md)
 =======
 <<<<<<< HEAD
@@ -81,6 +82,9 @@ qmd search "form" -c ui  # Solo questo modulo
 >>>>>>> .merge_file_suyRqm
 =======
 >>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
+=======
+- [On-Demand Pattern](./on-demand-pattern.md)
 >>>>>>> laraxot/dev
 
 ---

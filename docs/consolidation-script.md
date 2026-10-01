@@ -83,8 +83,13 @@ rm -f cms_themes_link.md
 mkdir -p archive
 
 # Spostare file con date
+<<<<<<< HEAD
 mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
+=======
+mv dry-kiss-analysis-2025-10-15.md archive/dry-kiss-analysis.md 2>/dev/null
+mv phpstan-level-10-cleanup-2025-11-06.md archive/phpstan-level-10-cleanup.md 2>/dev/null
+>>>>>>> laraxot/dev
 
 # Consolidare file PHPStan con date
 # phpstan-fixes-gennaio-2025.md → consolidare in phpstan-compliance.md
@@ -93,6 +98,7 @@ mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev
 ## File con Maiuscole da Rinominare
 
 ```bash
+<<<<<<< HEAD
 # Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
 if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
@@ -103,6 +109,19 @@ if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
         mv METODI_DUPLICATI_ANALISI.md metodi-duplicati-analisi-uppercase.md
     fi
 fi
+=======
+# Verificare duplicati con maiuscole rispetto ai nomi in minuscolo
+for file in *.md; do
+    lowercase="$(echo "$file" | tr '[:upper:]' '[:lower:]')"
+    if [ "$file" != "$lowercase" ] && [ -f "$lowercase" ]; then
+        if cmp -s "$file" "$lowercase" 2>/dev/null; then
+            rm -f "$file"
+        else
+            mv "$file" "${lowercase%.md}-uppercase.md"
+        fi
+    fi
+done
+>>>>>>> laraxot/dev
 ```
 
 ## Verifica Finale
