@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "IconStateSplitColumn - Comprehensive Improvements Summary"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
->>>>>>> laraxot/dev
 # IconStateSplitColumn - Comprehensive Improvements Summary
 
 ## 🎯 **Problem Analysis**

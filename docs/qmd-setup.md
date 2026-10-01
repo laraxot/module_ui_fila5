@@ -65,27 +65,7 @@ qmd search "form" -c ui  # Solo questo modulo
 - [Global QMD Config](../qmd.md) (root docs)
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [On-Demand Pattern](./on-demand-pattern.md)
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_jV5rLp
-=======
-<<<<<<< .merge_file_2qPibG
-=======
-<<<<<<< HEAD
-- [On-Demand Pattern](./on-demand-pattern.md)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_DXJqBQ
->>>>>>> .merge_file_suyRqm
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-- [On-Demand Pattern](./on-demand-pattern.md)
->>>>>>> laraxot/dev
 
 ---
 *Cache: ~/.cache/qmd-cache/ | Index: ~/.cache/qmd-cache/index*

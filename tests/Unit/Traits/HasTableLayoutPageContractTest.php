@@ -12,14 +12,6 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 test('exposes table layout page trait for cross-module consumers', function (): void {
-<<<<<<< HEAD
-    $page = new class {
-        use HasTableLayoutPage;
-
-        public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
-    };
-
-=======
     $page = new class
     {
         use HasTableLayoutPage;
@@ -27,7 +19,6 @@ test('exposes table layout page trait for cross-module consumers', function (): 
 
     $page->applyLayoutView(TableLayoutEnum::GRID);
 
->>>>>>> laraxot/dev
     Assert::assertTrue(HasTableLayoutPage::isLayoutCapable($page));
     Assert::assertSame(TableLayoutEnum::GRID, HasTableLayoutPage::readLayoutFrom($page));
 

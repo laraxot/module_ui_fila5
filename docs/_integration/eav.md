@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "eav"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
->>>>>>> laraxot/dev
 # eav
 
 <!-- Contenuto migrato da _docs/eav.txt -->

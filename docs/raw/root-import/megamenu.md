@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Megamenu"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./changelog-2.md"
 ---
 
->>>>>>> laraxot/dev
 https://www.tailwindtoolbox.com/components/megamenu
 
 

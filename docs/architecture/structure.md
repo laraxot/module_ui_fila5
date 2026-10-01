@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Modulo UI"
 type: concept
@@ -17,7 +15,6 @@ related:
   - "./filament-resources-structure.md"
 ---
 
->>>>>>> laraxot/dev
 # Modulo UI
 
 Data: 2025-04-23 19:09:56

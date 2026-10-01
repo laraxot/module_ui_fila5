@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "RadioCollection Component: Analisi Ontologica e Fenomenologica"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
->>>>>>> laraxot/dev
 # RadioCollection Component: Analisi Ontologica e Fenomenologica
 
 ## 🎭 Filosofia & Epistemologia del Componente

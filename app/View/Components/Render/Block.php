@@ -9,12 +9,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
-<<<<<<< HEAD
-use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
-=======
 use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
 use UnexpectedValueException;
->>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 /**
@@ -22,7 +18,6 @@ use Webmozart\Assert\Assert;
  */
 class Block extends Component
 {
-    /** @var view-string|null */
     public ?string $view = null;
 
     /**
@@ -35,62 +30,21 @@ class Block extends Component
     ) {
         $view = Arr::get($this->block, 'data.view', null);
         if ($view === null) {
-<<<<<<< HEAD
-            /** @var view-string $view */
-=======
->>>>>>> laraxot/dev
             $view = 'ui::empty';
         }
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-        /** @var view-string $view */
         $this->view = $view;
     }
 
     public function render(): ViewFactory|View
     {
         if (! isset($this->block['type'])) {
-<<<<<<< HEAD
-            /** @var view-string $viewName */
-            $viewName = 'ui::empty';
-
-            return view($viewName);
-=======
             return view('ui::empty');
->>>>>>> laraxot/dev
         }
 
-        $view = $this->view ?? 'ui::empty';
-        /** @var view-string $view */
-        $viewPath = (string) $view;
-        if (! view()->exists($viewPath)) {
+        $view = $this->view;
+        if (! view()->exists(is_string($view) ? $view : ((string) $view))) {
             $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
-<<<<<<< HEAD
-            $view_params = [
-                'title' => 'deprecated',
-                'message' => $message,
-            ];
-            /** @var view-string $viewAlert */
-            $viewAlert = 'ui::alert';
-
-            return view($viewAlert, $view_params);
-        }
-        $view_params = $this->normalizeViewData($this->block['data'] ?? []);
-        $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
-        $view_params = $this->normalizeViewData($view_params);
-
-        return view($view, $view_params);
-    }
-
-    /**
-     * @return array<string, mixed>
-     */
-    private function normalizeViewData(mixed $data): array
-    {
-        if (! is_array($data)) {
-            return [];
-        }
-
-=======
             $viewParams = [
                 'title' => 'deprecated',
                 'message' => $message,
@@ -114,16 +68,11 @@ class Block extends Component
      */
     private function normalizeViewData(array $data): array
     {
->>>>>>> laraxot/dev
         $viewData = [];
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
-<<<<<<< HEAD
-                throw new \UnexpectedValueException('Block view data must have string keys.');
-=======
                 throw new UnexpectedValueException('Block view data must have string keys.');
->>>>>>> laraxot/dev
             }
 
             $viewData[$key] = $value;

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Componente FileUpload in Filament"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
->>>>>>> laraxot/dev
 # Componente FileUpload in Filament
 
 ## Limitazioni e Metodi Disponibili

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Analisi Qualità - Modulo UI"
 type: concept
@@ -14,7 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
->>>>>>> laraxot/dev
 # Analisi Qualità - Modulo UI
 
 **Data Analisi**: 2025-01-22
@@ -89,11 +86,7 @@ related:
 ## 🔗 Collegamenti
 
 - [PHPStan Compliance](./phpstan-compliance.md)
-<<<<<<< HEAD
-- [Optimization Recommendations](./optimization_recommendations.md)
-=======
 - [Optimization Recommendations](./optimization-recommendations-1.md)
->>>>>>> laraxot/dev
 - [Modularity Optimizations](./modularity-optimizations.md)
 - [Xot Quality Analysis](../xot/docs/quality-analysis/current-status.md)
 

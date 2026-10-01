@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Test"
 type: concept
@@ -22,4 +20,3 @@ related:
   - "./changelog-2.md"
 ---
 
->>>>>>> laraxot/dev
