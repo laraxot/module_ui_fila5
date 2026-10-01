@@ -13,6 +13,13 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 @endphp
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
+<<<<<<< HEAD
+=======
+    <x-filament::icon-button 
+        icon="heroicon-m-plus" 
+        wire:click="prova({{ $record->id }})" 
+        label="Test Azione" 
+>>>>>>> laraxot/dev
     <x-filament::icon-button
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
@@ -75,6 +82,13 @@ public function prova($recordId): void
 
 ### Nel Template
 ```blade
+<<<<<<< HEAD
+=======
+<x-filament::icon-button 
+    icon="heroicon-m-plus" 
+    wire:click="prova({{ $record->id }})" 
+    label="Test Azione" 
+>>>>>>> laraxot/dev
 <x-filament::icon-button
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
@@ -113,7 +127,10 @@ public function transitionState($recordId, $stateClass): void
     // Logica per la transizione di stato
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
         ->success()
@@ -123,6 +140,13 @@ public function transitionState($recordId, $stateClass): void
 
 ### 2. Aggiungere il pulsante nel template
 ```blade
+<<<<<<< HEAD
+=======
+<x-filament::icon-button 
+    icon="heroicon-o-arrow-right" 
+    wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')" 
+    label="Cambia Stato" 
+>>>>>>> laraxot/dev
 <x-filament::icon-button
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
@@ -140,6 +164,7 @@ La soluzione semplice è la migliore perché:
 
 ---
 
+<<<<<<< HEAD
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Actions Implementation - Soluzione Semplice
@@ -288,3 +313,8 @@ La soluzione semplice è la migliore perché:
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+=======
+**Last Updated**: June 2025
+**Version**: 2.3
+**Compatibility**: Filament 4.x, Laravel 10.x 
+>>>>>>> laraxot/dev

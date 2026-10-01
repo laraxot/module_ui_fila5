@@ -1,6 +1,7 @@
 # IconStateSplitColumn Implementation
 
 ## Overview
+<<<<<<< HEAD
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 ## Key Features
 # IconStateSplitColumn Implementation
@@ -506,6 +507,8 @@ document.addEventListener('state-transition', function(event) {
 # IconStateSplitColumn Implementation
 
 ## Overview
+=======
+>>>>>>> laraxot/dev
 
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 
@@ -832,7 +835,13 @@ document.addEventListener('state-transition', function(event) {
 
 ---
 
+<<<<<<< HEAD
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+=======
+**Last Updated**: June 2025
+**Version**: 2.1
+**Compatibility**: Filament 4.x, Laravel 10.x
+>>>>>>> laraxot/dev

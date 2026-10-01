@@ -4,13 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Tables\Columns\Column;
+=======
+use Exception;
+use Filament\Actions\Action;
+use Filament\Notifications\Notification;
+>>>>>>> laraxot/dev
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Attributes\On;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+>>>>>>> laraxot/dev
 
 /**
  * IconStateSplitColumn - Enhanced state transition column with compact grid layout.
@@ -22,7 +32,11 @@ use Modules\Xot\Contracts\StateContract;
  * - Proper error handling and notifications
  * - Mobile-friendly design
  */
+<<<<<<< HEAD
 final class IconStateSplitColumn extends Column
+=======
+final class IconStateSplitColumn extends XotBaseColumn
+>>>>>>> laraxot/dev
 {
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
 
@@ -33,10 +47,15 @@ final class IconStateSplitColumn extends Column
     /**
      * Configure the state class and model class for this column.
      *
+<<<<<<< HEAD
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
+=======
+     * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
+     * @param  string  $modelClass  The model class (e.g., Appointment::class)
+>>>>>>> laraxot/dev
      */
     public function stateClass(string $stateClass, string $modelClass): static
     {
@@ -86,7 +105,11 @@ final class IconStateSplitColumn extends Column
             return \is_object($recordState) && method_exists($recordState, 'canTransitionTo')
                 ? (bool) $recordState->canTransitionTo($stateClass)
                 : false;
+<<<<<<< HEAD
         } catch (\Exception) {
+=======
+        } catch (Exception) {
+>>>>>>> laraxot/dev
             return false;
         }
     }
@@ -131,7 +154,11 @@ final class IconStateSplitColumn extends Column
     #[On('table-action')]
     public function handleTableAction(string $action, int|string $recordId): void
     {
+<<<<<<< HEAD
         if ('prova' === $action) {
+=======
+        if ($action === 'prova') {
+>>>>>>> laraxot/dev
             $this->prova($recordId);
         }
     }
@@ -145,12 +172,20 @@ final class IconStateSplitColumn extends Column
             $record = $this->getRecordForTransition($recordId);
             $state = $record->getAttribute('state');
             if (! \is_object($state) || ! method_exists($state, 'transitionTo')) {
+<<<<<<< HEAD
                 throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
+=======
+                throw new Exception(__('ui::icon_state.messages.invalid_state_instance'));
+>>>>>>> laraxot/dev
             }
             $state->transitionTo($stateClass);
 
             $this->notifyTransitionSuccess();
+<<<<<<< HEAD
         } catch (\Exception $e) {
+=======
+        } catch (Exception $e) {
+>>>>>>> laraxot/dev
             $this->notifyTransitionError($e->getMessage());
         }
     }
@@ -176,10 +211,20 @@ final class IconStateSplitColumn extends Column
         return [];
     }
 
+<<<<<<< HEAD
     private function getStateInstance(mixed $stateClassItem, mixed $record): ?StateContract
     {
         try {
             if (! \is_string($stateClassItem) || ! class_exists($stateClassItem)) {
+=======
+    /**
+     * @param  array<array-key, mixed>|Model|null  $record
+     */
+    private function getStateInstance(string $stateClassItem, Model|array|null $record): ?StateContract
+    {
+        try {
+            if (! class_exists($stateClassItem)) {
+>>>>>>> laraxot/dev
                 return null;
             }
 
@@ -189,7 +234,11 @@ final class IconStateSplitColumn extends Column
             }
 
             return $stateInstance;
+<<<<<<< HEAD
         } catch (\Exception) {
+=======
+        } catch (Exception) {
+>>>>>>> laraxot/dev
             return null;
         }
     }
@@ -223,15 +272,23 @@ final class IconStateSplitColumn extends Column
     }
 
     /**
+<<<<<<< HEAD
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
+=======
+     * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
+>>>>>>> laraxot/dev
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action
     {
         $record = $this->getRecord();
         $recordIdRaw = \is_object($record) && isset($record->id) ? $record->id : null;
 
+<<<<<<< HEAD
         if (null === $recordIdRaw || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
+=======
+        if ($recordIdRaw === null || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
+>>>>>>> laraxot/dev
             return null;
         }
 
@@ -254,18 +311,30 @@ final class IconStateSplitColumn extends Column
     private function getRecordForTransition(int|string $recordId): Model
     {
         if (! class_exists($this->modelClass) || ! method_exists($this->modelClass, 'find')) {
+<<<<<<< HEAD
             throw new \Exception('Model class not found or invalid');
+=======
+            throw new Exception('Model class not found or invalid');
+>>>>>>> laraxot/dev
         }
 
         $recordRaw = $this->modelClass::find($recordId);
 
         if (! \is_object($recordRaw) || ! ($recordRaw instanceof Model)) {
+<<<<<<< HEAD
             throw new \Exception(__('ui::icon_state.messages.record_not_found'));
+=======
+            throw new Exception(__('ui::icon_state.messages.record_not_found'));
+>>>>>>> laraxot/dev
         }
 
         $recordState = $recordRaw->getAttribute('state');
         if (! \is_object($recordState) || ! method_exists($recordState, 'transitionTo')) {
+<<<<<<< HEAD
             throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
+=======
+            throw new Exception(__('ui::icon_state.messages.invalid_state_instance'));
+>>>>>>> laraxot/dev
         }
 
         return $recordRaw;

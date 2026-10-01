@@ -21,6 +21,7 @@ related:
 ## AI / second brain
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
 =======
 <<<<<<< HEAD
@@ -55,6 +56,9 @@ related:
 >>>>>>> .merge_file_9qVbN2
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
+>>>>>>> laraxot/dev
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)

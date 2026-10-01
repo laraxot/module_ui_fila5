@@ -1,3 +1,14 @@
+---
+title: "bugfix address field hydration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix address field hydration"
+issues: []
+discussions: []
+---
+
 # Bug Fix: AddressField non idratava lo stato + cleanup phpmd
 
 ## Problema

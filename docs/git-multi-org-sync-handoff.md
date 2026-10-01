@@ -9,6 +9,9 @@ issues:
   - "https://github.com/provtv/module_ui_fila5/issues/20"
 discussions:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   - "https://github.com/provtv/<nome repository>/discussions/204"
 <<<<<<< HEAD
 <<<<<<< .merge_file_txVa9n
@@ -16,6 +19,7 @@ discussions:
 <<<<<<< .merge_file_PEDcxB
 =======
   - "https://github.com/provtv/base_ptv_fila5/discussions/204"
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   - "https://github.com/provtv/<nome repository>/discussions/204"
@@ -40,6 +44,8 @@ discussions:
 >>>>>>> .merge_file_OFzU4s
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Handoff — multi-org sync (STORY-003)
@@ -58,6 +64,9 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 |------|-----|
 | Issue owner | https://github.com/provtv/module_ui_fila5/issues/20 |
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 | Discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
 | Hub base issue | https://github.com/provtv/base_ptv_fila5/issues/203 |
 | Hub base discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
@@ -69,6 +78,7 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 | Discussion | https://github.com/provtv/<nome repository>/discussions/204 |
 | Hub base issue | https://github.com/provtv/<nome repository>/issues/203 |
 | Hub base discussion | https://github.com/provtv/<nome repository>/discussions/204 |
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 | Discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
@@ -99,6 +109,8 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 >>>>>>> .merge_file_OFzU4s
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> laraxot/dev
 | Story monorepo | `docs/stories/STORY-003-multi-org-sync-geo-boundary-bashscripts.md` |
 
 ## Regole rapide
@@ -109,6 +121,7 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 4. UI: non reintrodurre `InteractiveMap` (dominio Geo)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_txVa9n
 =======
 <<<<<<< .merge_file_PEDcxB
@@ -153,6 +166,9 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 >>>>>>> .merge_file_OFzU4s
 =======
 >>>>>>> 804451c (Lint)
+=======
+5. Push: se unpack fallisce → `--no-thin`; se GH008 LFS → `lfs fetch --all` dal remote sano, poi `lfs push --all` sul target ([playbook](./wiki/troubleshooting/git-push-lfs-missing-objects.md))
+>>>>>>> laraxot/dev
 
 ## Note owner
 
@@ -162,6 +178,7 @@ InteractiveMap rimosso; vedi `geo-boundary.md` e `geo-dependency-violation-inter
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_txVa9n
 =======
 <<<<<<< .merge_file_PEDcxB
@@ -206,6 +223,9 @@ InteractiveMap rimosso; vedi `geo-boundary.md` e `geo-dependency-violation-inter
 >>>>>>> .merge_file_OFzU4s
 =======
 >>>>>>> 804451c (Lint)
+=======
+`dev` allineato FF su `laraxot` e `provtv` a `b874935` con `--no-thin` + LFS da `laraxot` verso `provtv`. Dettaglio: [git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) · [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+>>>>>>> laraxot/dev
 
 ### Caso User 2026-07-23 (unrelated)
 
