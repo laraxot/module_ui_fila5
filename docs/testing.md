@@ -175,11 +175,7 @@ protected function createApplication()
     $app = parent::createApplication();
     
     $app['config']->set([
-<<<<<<< HEAD
-'database.connections.ui.database' => 'Quaeris_data_test',
-=======
         'database.connections.ui.database' => '<nome progetto>_data_test',
->>>>>>> laraxot/dev
     ]);
     
     return $app;
@@ -260,24 +256,15 @@ protected function createApplication()
 ### External Resources
 
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
-<<<<<<< HEAD
-=======
 - [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
->>>>>>> laraxot/dev
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 
 ### Internal Resources
 
-<<<<<<< HEAD
-- [Testing Setup Guide](../../../docs/testing-setup.md)
-- [Testing Best Practices](../../../docs/testing-best-practices.md)
-- [Troubleshooting Guide](../../../docs/troubleshooting.md)
-=======
 - [Testing Setup Guide](../../docs/testing-setup.md)
 - [Testing Best Practices](../../docs/testing-best-practices.md)
 - [Troubleshooting Guide](../../docs/troubleshooting.md)
->>>>>>> laraxot/dev
 
 ## Testing Examples
 
@@ -373,9 +360,6 @@ Remember: Good tests are the foundation of reliable software development.
 
 ---
 
-<<<<<<< HEAD
-*
-=======
 *Last updated: January 2025*
 
 ## Story 5.26 — progress verso 100% (2026-08-20)
@@ -430,4 +414,3 @@ Prossimo step: coprire rami residui IconStateColumn (fillForm/textarea required)
 ```bash
 ./vendor/bin/pest Modules/UI/tests
 ```
->>>>>>> laraxot/dev

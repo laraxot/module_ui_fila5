@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "FullCalendar Component"
 type: concept
@@ -14,7 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
->>>>>>> laraxot/dev
 # FullCalendar Component
 
 ## Introduction

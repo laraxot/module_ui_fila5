@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Chunk"
 type: concept
@@ -22,5 +20,4 @@ related:
   - "./changelog-2.md"
 ---
 
->>>>>>> laraxot/dev
 https://github.com/owainjones74/filament-chunked-file-uploads/tree/main

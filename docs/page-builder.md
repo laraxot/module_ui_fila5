@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
-=======
 ---
 title: 'Page builder — risorse esterne'
 module: UI
@@ -33,4 +30,3 @@ canonical: ../../../Themes/docs/shared-components/page-builder.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/page-builder.md
->>>>>>> laraxot/dev

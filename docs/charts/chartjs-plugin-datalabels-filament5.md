@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)"
 type: concept
@@ -19,7 +17,6 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
->>>>>>> laraxot/dev
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Goal

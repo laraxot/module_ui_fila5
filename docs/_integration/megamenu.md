@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "megamenu"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
->>>>>>> laraxot/dev
 # megamenu
 
 <!-- Contenuto migrato da _docs/megamenu.txt -->

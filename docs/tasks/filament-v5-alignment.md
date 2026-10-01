@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Task: Filament v5 Alignment (UI Module)"
 type: concept
@@ -23,7 +21,6 @@ related:
   - "./ui-filament-v5.md"
 ---
 
->>>>>>> laraxot/dev
 # Task: Filament v5 Alignment (UI Module)
 
 ## 📋 Obiettivo

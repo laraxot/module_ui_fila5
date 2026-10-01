@@ -5,37 +5,20 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-<<<<<<< HEAD
-use Modules\UI\Database\Factories\FieldOptionFactory;
-=======
 use Illuminate\Support\Carbon;
->>>>>>> laraxot/dev
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 
 /**
  * FieldOption model for UI module.
-<<<<<<< HEAD
- * FormBuilder module not available - extending from XotBaseModel instead.
- */
-/**
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
- *
- * @method static FieldOptionFactory          factory($count = null, $state = [])
-=======
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
  * @method static \Modules\UI\Database\Factories\FieldOptionFactory factory($count = null, $state = [])
->>>>>>> laraxot/dev
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
  *
-<<<<<<< HEAD
- * @property ProfileContract|null $deleter
-=======
  * @property int $id
  * @property string|null $field_id
  * @property string|null $label
@@ -62,7 +45,6 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|FieldOption whereUpdatedAt($value)
  * @method static Builder<static>|FieldOption whereUpdatedBy($value)
  * @method static Builder<static>|FieldOption whereValue($value)
->>>>>>> laraxot/dev
  *
  * @mixin \Eloquent
  */

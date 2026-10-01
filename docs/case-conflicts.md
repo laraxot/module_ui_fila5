@@ -1,15 +1,5 @@
 # Case-Insensitive File Conflicts
 
-<<<<<<< HEAD
-File duplicati rilevati nel modulo `UI`:
-
-- `Modules/UI/.github`: `CONTRIBUTING.md`, `contributing.md`
-- `Modules/UI/.github`: `SECURITY.md`, `security.md`
-- `Modules/UI/docs`: `README.md`, `readme.md`
-- `Modules/UI/docs/filament`: `ListRecords.md`, `listrecords.md`
-
-Uniformare ciascuna coppia scegliendo un'unica versione (in genere `README.md`, `CONTRIBUTING.md`, ecc.) e rimuovere i duplicati.
-=======
 Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una sola variante per coppia.
 
 File duplicati rilevati nel modulo `UI`:
@@ -32,4 +22,3 @@ Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una 
 ## Ancora aperti
 
 Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest Filament del modulo User possono contendere il database di testing con altri suite in parallelo.
->>>>>>> laraxot/dev

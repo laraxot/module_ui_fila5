@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Datas;
 
-<<<<<<< HEAD
-=======
 use Modules\UI\Data\UserData as DataUserData;
->>>>>>> laraxot/dev
 use Modules\UI\Datas\SliderData;
 use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
@@ -72,21 +69,13 @@ it('SliderData can be instantiated with nulls', function (): void {
 });
 
 it('SliderDataCollection can be instantiated', function (): void {
-<<<<<<< HEAD
-    $collection = new SliderDataCollection();
-=======
     $collection = new SliderDataCollection;
->>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(SliderDataCollection::class, $collection);
 });
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
-<<<<<<< HEAD
-    $collection = new SliderDataCollection();
-=======
     $collection = new SliderDataCollection;
->>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(Data::class, $collection);
 });
@@ -118,8 +107,6 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
     Assert::assertInstanceOf(Data::class, $data);
 });
 
-<<<<<<< HEAD
-=======
 it('UI Data UserData can be instantiated', function (): void {
     $data = new DataUserData(
         id: 42,
@@ -143,4 +130,3 @@ it('UI Data UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
->>>>>>> laraxot/dev

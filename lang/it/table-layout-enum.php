@@ -3,23 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
-    'list' => [
-        'label' => 'Lista',
-        'color' => 'primary',
-        'icon' => 'heroicon-o-list-bullet',
-        'description' => 'Layout a lista tradizionale con righe di tabella',
-        'tooltip' => 'Visualizza i dati in formato tabella strutturata',
-        'helper_text' => 'Ideale per visualizzare molti dati in modo organizzato',
-    ],
-    'grid' => [
-        'label' => 'Griglia',
-        'color' => 'secondary',
-        'icon' => 'heroicon-o-squares-2x2',
-        'description' => 'Layout a griglia responsive con card',
-        'tooltip' => 'Visualizza i dati in formato card responsive',
-        'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
-=======
     'values' => [
         'list' => [
             'label' => 'Lista',
@@ -37,7 +20,6 @@ return [
             'tooltip' => 'Visualizza i dati in formato card responsive',
             'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
         ],
->>>>>>> laraxot/dev
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -50,11 +32,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
         'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

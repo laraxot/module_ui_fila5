@@ -1,12 +1,3 @@
-<<<<<<< HEAD
----
-module: theme
-topic: mcp_server_recommended
-canonical: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules.md
-=======
 # MCP Server Consigliati per il Modulo UI
 
 ## Scopo del Modulo
@@ -30,4 +21,3 @@ Gestione interfaccia utente, componenti, asset e frontend.
 
 ## Note
 - Personalizza la configurazione per esigenze di frontend avanzato.
->>>>>>> laraxot/dev

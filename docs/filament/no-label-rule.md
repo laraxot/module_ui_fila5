@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "REGOLA CRITICA: MAI ->label() nei Componenti Filament UI"
 type: rule
@@ -22,7 +20,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
->>>>>>> laraxot/dev
 # REGOLA CRITICA: MAI ->label() nei Componenti Filament UI
 
 ## Principio Fondamentale per il Modulo UI

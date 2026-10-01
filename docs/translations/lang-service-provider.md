@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Gestione delle Traduzioni con LangServiceProvider"
 type: concept
@@ -14,7 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
->>>>>>> laraxot/dev
 # Gestione delle Traduzioni con LangServiceProvider
 
 ## Collegamenti Bidirezionali
@@ -142,10 +139,7 @@ return [
 
 // Modules/Patient/Filament/Resources/DoctorResource.php
 public static function getFormSchema(): array
-<<<<<<< HEAD
-=======
 public function getFormSchema(): array
->>>>>>> laraxot/dev
 {
     return [
         Forms\Components\TextInput::make('first_name'),  // La label viene gestita automaticamente

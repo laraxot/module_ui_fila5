@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Filament 4 Migration Guide"
 type: guide
@@ -22,7 +20,6 @@ related:
   - "./file-upload-component.md"
 ---
 
->>>>>>> laraxot/dev
 # Filament 4 Migration Guide
 
 ## Overview

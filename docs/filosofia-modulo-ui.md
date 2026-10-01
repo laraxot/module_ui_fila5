@@ -1,10 +1,6 @@
 # Analisi Approfondita del Modulo UI
 
-<<<<<<< HEAD
-> **Generato**: [DATE]
-=======
 > **Generato**: 2025-12-24
->>>>>>> laraxot/dev
 > **Scopo**: Documentare la filosofia, logica, business logic e architettura del modulo UI
 
 ---
@@ -85,13 +81,8 @@ Questo è intenzionale: UI è un **consumer** di Xot, non un base layer.
 Ogni componente è progettato per essere riutilizzato in più moduli senza duplicazione:
 
 ```php
-<<<<<<< HEAD
-// InlineDatePicker - Usato in TechPlanner, Employee, Cms
-// LocationSelector - Usato in TechPlanner, Employee, Geo
-=======
 // InlineDatePicker - Usato in modulo operativo, Employee, Cms
 // LocationSelector - Usato in modulo operativo, Employee, Geo
->>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -402,11 +393,7 @@ namespace Modules\UI\...;
 Altri moduli consumano componenti UI:
 
 ```php
-<<<<<<< HEAD
-// In TechPlanner/Filament/Resources/DeviceResource.php
-=======
 // In modulo operativo/Filament/Resources/DeviceResource.php
->>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 
@@ -680,10 +667,7 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Modulo**: UI
 **Versione**: 4.1.0
 **Framework**: Laravel 12 + Filament 4
-<<<<<<< HEAD
-=======
 **Framework**: Laravel 13 + Filament 4
->>>>>>> laraxot/dev
 **PHPStan**: Level 10 ✅
 **Filosofia**: Estendere, Riutilizzare, Tradurre, Adattare
 **Zen**: I componenti si scoprono da soli 禅

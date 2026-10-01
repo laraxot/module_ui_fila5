@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Integrazione dei Componenti Filament nei Blocchi"
 type: concept
@@ -18,7 +16,6 @@ related:
   - "./user-dropdown.md"
 ---
 
->>>>>>> laraxot/dev
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione
