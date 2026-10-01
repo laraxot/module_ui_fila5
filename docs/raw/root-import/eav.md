@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Eav"
 type: concept
@@ -22,6 +20,5 @@ related:
   - "./changelog-2.md"
 ---
 
->>>>>>> laraxot/dev
 https://github.com/yemenpoint/filament-custom-fields
 

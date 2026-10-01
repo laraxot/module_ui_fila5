@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Colli di Bottiglia - Modulo UI"
 type: concept
@@ -18,7 +16,6 @@ related:
   - "./theme-system.md"
 ---
 
->>>>>>> laraxot/dev
 # Colli di Bottiglia - Modulo UI
 
 ## 1. Performance Componenti [85%]

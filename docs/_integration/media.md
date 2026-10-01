@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "media"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
->>>>>>> laraxot/dev
 # media
 
 <!-- Contenuto migrato da _docs/media.txt -->

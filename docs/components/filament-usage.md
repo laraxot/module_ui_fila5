@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Utilizzo dei Componenti Filament nel Progetto"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./full-calendar.md"
 ---
 
->>>>>>> laraxot/dev
 # Utilizzo dei Componenti Filament nel Progetto
 
 Questo documento serve come punto di riferimento centrale per l'utilizzo dei componenti Filament in tutto il progetto.

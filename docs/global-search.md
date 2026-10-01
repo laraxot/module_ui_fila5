@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-https://github.com/spatie/laravel-searchable
-
-=======
 ---
 title: 'Global search — risorse esterne'
 module: UI
@@ -35,4 +31,3 @@ canonical: ../../../Themes/docs/shared-components/global-search.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/global-search.md
->>>>>>> laraxot/dev

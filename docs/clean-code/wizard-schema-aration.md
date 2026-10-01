@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Separazione dello Schema dagli Step nei Wizard Filament"
 type: concept
@@ -18,7 +16,6 @@ related:
   - "./wizard-steps.md"
 ---
 
->>>>>>> laraxot/dev
 # Separazione dello Schema dagli Step nei Wizard Filament
 
 ## Regola Fondamentale

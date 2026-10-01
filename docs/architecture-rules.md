@@ -1,16 +1,3 @@
-<<<<<<< HEAD
----
-title: "architecture-rules — puntatore"
-type: reference
-updated: 2026-05-21
----
-
-# Policy globale (puntatore)
-
-Contenuto in wiki di progetto — non duplicare nei moduli ([#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)).
-
-→ [docs/wiki/rules/00-TRIGGER_MAP.md](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
-=======
 # Regole Architetturali
 
 ## Principi Fondamentali
@@ -806,4 +793,3 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
->>>>>>> laraxot/dev

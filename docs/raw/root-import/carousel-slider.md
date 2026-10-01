@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Carousel Slider"
 type: concept
@@ -22,7 +20,6 @@ related:
   - "./changelog.md"
 ---
 
->>>>>>> laraxot/dev
 https://www.embla-carousel.com/examples/predefined/
 
 

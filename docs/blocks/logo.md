@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Logo Component"
 type: concept
@@ -18,7 +16,6 @@ related:
   - "./user-dropdown.md"
 ---
 
->>>>>>> laraxot/dev
 # Logo Component
 
 This document describes the Logo component used in section headers and its proper implementation.

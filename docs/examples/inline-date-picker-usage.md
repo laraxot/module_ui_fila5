@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Esempi di Utilizzo di InlineDatePicker"
 type: concept
@@ -15,7 +13,6 @@ related:
   - "./table-layout-implementation-example.md"
 ---
 
->>>>>>> laraxot/dev
 # Esempi di Utilizzo di InlineDatePicker
 
 ## Esempio 1: Prenotazione Appuntamenti Medici
