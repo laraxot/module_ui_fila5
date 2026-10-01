@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Form Component"
 type: concept
@@ -18,7 +16,6 @@ related:
   - "./theme-system.md"
 ---
 
->>>>>>> laraxot/dev
 # Form Component
 
 ## 📊 Stato Implementazione

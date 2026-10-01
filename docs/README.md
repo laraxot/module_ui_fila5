@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Documentation
 
 This directory contains documentation for the module.
@@ -16,7 +14,6 @@ Documentation should be:
 - Example-driven
 - Updated with code changes
 - Use Markdown format (.md)
->>>>>>> laraxot/dev
 ---
 title: "UI Module Documentation"
 type: documentation
@@ -32,8 +29,6 @@ updated: 2026-06-05
 Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi per tutti i moduli e temi.
 
 ## Struttura Componenti
-<<<<<<< HEAD
-=======
 This directory contains documentation for the module.
 
 ## Structure
@@ -42,7 +37,6 @@ This directory contains documentation for the module.
 - **README.md** - This file
 
 ## Guidelines
->>>>>>> laraxot/dev
 
 ```
 resources/views/components/ui/
@@ -96,10 +90,6 @@ resources/views/components/ui/
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
-<<<<<<< HEAD
-||||||| parent of 9a84589 (.)
-=======
->>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -140,10 +130,6 @@ Workflow: `.github/workflows/semantic-versioning.yml`
 ## 📄 License
 MIT
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 ## Standard Rules & Workflow
 
 - [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
@@ -152,12 +138,6 @@ MIT
 
 ## Documentation
 
-<<<<<<< HEAD
-- [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
-- [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
-- [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
-- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
-=======
 - [On-Demand Pattern](./on-demand-pattern.md) — Pattern per caricamento efficiente
 - [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
 - [Performance](./performance-optimization.md) — Metriche e best practice
@@ -1194,4 +1174,3 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 ---
 
 *Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
->>>>>>> laraxot/dev
