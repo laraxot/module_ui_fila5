@@ -348,14 +348,22 @@ describe('GroupColumn view rendering', function (): void {
     });
 
     it('renders BackedEnum with HasLabel using translated label not raw value', function (): void {
+<<<<<<< HEAD
         $record = ['type' => UiGroupColumnTypeEnum::Dip];
+=======
+        $record = ['type' => TestWorkerType::Dip];
+>>>>>>> 1df457747 (Refactor GroupColumnTest to use TestWorkerType instead of UiGroupColumnTypeEnum for BackedEnum validation, ensuring correct label translation.)
         $fields = [
             TextColumn::make('type'),
         ];
 
         if (! app()->bound('view')) {
             $value = data_get($record, 'type');
+<<<<<<< HEAD
             Assert::assertInstanceOf(UiGroupColumnTypeEnum::class, $value);
+=======
+            Assert::assertInstanceOf(TestWorkerType::class, $value);
+>>>>>>> 1df457747 (Refactor GroupColumnTest to use TestWorkerType instead of UiGroupColumnTypeEnum for BackedEnum validation, ensuring correct label translation.)
             Assert::assertSame('Dipendente', $value->getLabel());
 
             return;
