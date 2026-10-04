@@ -1,12 +1,5 @@
 ---
-<<<<<<< .merge_file_yRgMPr
-<<<<<<< .merge_file_w2LaOD
-title: "UI — Architettura"
-=======
-=======
->>>>>>> .merge_file_xiYCt4
 title: "UI — Architettura BMAD"
->>>>>>> .merge_file_sLwtF8
 type: architecture
 tags: [bmad, ui, architecture, design-system]
 created: 2026-09-26
