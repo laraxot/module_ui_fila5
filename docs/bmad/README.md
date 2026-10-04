@@ -1,23 +1,4 @@
 ---
-<<<<<<< .merge_file_YDuj6D
-<<<<<<< .merge_file_hwkA1b
-title: "UI — BMAD Documentation Index"
-type: note
-tags: [bmad, ui, design-system, index]
-created: 2026-09-26
-updated: 2026-09-28
-qmd: "UI bmad indice documentazione design system componenti Filament"
-module: UI
-related:
-  - ./architecture.md
-  - ./brainstorming.md
-  - ./epics/module-roadmap.md
-  - ./quick-reference.md
-  - ./setup-guide.md
-  - ../../../Xot/docs/bmad-method.md
-=======
-=======
->>>>>>> .merge_file_KmC9PY
 title: "UI — BMAD Method Integration"
 description: "BMAD workflow documentation per il modulo UI"
 module: "UI"
@@ -25,7 +6,6 @@ alias: "ui"
 documentation_date: "2026-05-27"
 bmad_version: "6.2.0"
 bmad_track: "design-system"
->>>>>>> .merge_file_OqVqDZ
 ---
 
 # UI — BMAD Method Integration
@@ -76,6 +56,15 @@ bmad_track: "design-system"
 - [stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md](stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md)
 
 ## Inventario verificato
+
+### Schema.org
+
+- `OrganizationSection` / `OrganizationColumn`: editor and table projection
+  for `schema.org/Organization`.
+- `EventSection` / `EventColumn`: editor and table projection for the common
+  `schema.org/Event` properties, with configurable field subsets.
+- `PersonSection` / `PersonColumn`: existing person projection.
+- `AddressField` / `AddressColumn`: existing postal-address projection.
 
 | Area | Path | Contenuto |
 |------|------|-----------|
