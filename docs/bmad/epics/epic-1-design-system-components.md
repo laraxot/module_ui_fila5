@@ -28,6 +28,20 @@ Le duplicazioni rilevate in [../brainstorming.md](../brainstorming.md) sono tutt
 
 ## Scope
 
+<<<<<<< .merge_file_YSCRFA
+=======
+### Schema.org semantic primitives
+
+UI now provides `OrganizationSection` and `OrganizationColumn` as a paired
+Form/Table primitive for the common `schema.org/Organization` properties.
+The pair follows the existing `PersonSection`/`PersonColumn` convention:
+custom fields remain supported and no domain model is introduced.
+
+`EventSection` and `EventColumn` extend the same minimal Form/Table pattern to
+the common `schema.org/Event` fields. Event location, organizer and performer
+are intentionally scalar fields: UI does not impose domain relationships.
+
+>>>>>>> .merge_file_tpDNg5
 **In scope**
 
 - `app/Traits/TableLayoutTrait.php` (e `.bak`), `app/Filament/Actions/Table/TableLayoutTrait.php`, `app/Filament/Actions/Table/HasTableLayout.php`, `app/Contracts/HasTableLayout.php`.
