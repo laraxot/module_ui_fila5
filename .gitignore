@@ -253,3 +253,7 @@ docs/chat
 
 # Laraxot — app/Application forbidden (belongs to laravel/app/, not module app/)
 app/Application
+<<<<<<< .merge_file_uJrhlf
+=======
+/.docs-archive/
+>>>>>>> .merge_file_5DB8BS

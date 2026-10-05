@@ -51,6 +51,7 @@ bmad_track: "design-system"
 
 - [architecture/module-boundary.md](architecture/module-boundary.md) — confini, inventario, gate
 - [brainstorming/module-opportunities.md](brainstorming/module-opportunities.md) — domande ad alto valore e rischi
+<<<<<<< .merge_file_TDG0SS
 
 ### Conversione widget Livewire → Filament
 
@@ -98,6 +99,64 @@ bmad_track: "design-system"
 | Database | `database/` | `factories/`, `migrations/`, `seeders/` |
 | Test | `tests/` | 18 file in `Feature/`, il resto in `Unit/` (widgets, componenti, enums, coverage) |
 
+=======
+
+### Conversione widget Livewire → Filament
+
+- [livewire-widget-product-brief.md](livewire-widget-product-brief.md)
+- [livewire-widget-project-context.md](livewire-widget-project-context.md)
+- [livewire-widget-prd.md](livewire-widget-prd.md)
+- [livewire-widget-ux.md](livewire-widget-ux.md)
+- [livewire-widget-architecture.md](livewire-widget-architecture.md)
+- [livewire-widget-conversion.md](livewire-widget-conversion.md)
+- [livewire-widget-decision-log.md](livewire-widget-decision-log.md)
+- [livewire-widget-epics.md](livewire-widget-epics.md)
+- [livewire-widget-tech-spec.md](livewire-widget-tech-spec.md)
+- [livewire-widget-brainstorming.md](livewire-widget-brainstorming.md)
+- [livewire-inventory.md](livewire-inventory.md)
+
+### Stories
+
+- [stories/module-bmad-audit-20260928.story.md](stories/module-bmad-audit-20260928.story.md)
+- [stories/root-hygiene-conflict-markers.story.md](stories/root-hygiene-conflict-markers.story.md)
+- [stories/ensures-ui-database-schema-trait-unused.story.md](stories/ensures-ui-database-schema-trait-unused.story.md)
+- [stories/git-status-fleet-merge-markers-ui.story.md](stories/git-status-fleet-merge-markers-ui.story.md)
+- [stories/continuazione-domani.story.md](stories/continuazione-domani.story.md)
+- [stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md](stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md)
+
+## Inventario verificato
+
+### Schema.org
+
+- `OrganizationSection` / `OrganizationColumn`: editor and table projection
+  for `schema.org/Organization`.
+- `EventSection` / `EventColumn`: editor and table projection for the common
+  `schema.org/Event` properties, with configurable field subsets.
+- `PersonSection` / `PersonColumn`: existing person projection.
+- `AddressField` / `AddressColumn`: existing postal-address projection.
+
+| Area | Path | Contenuto |
+|------|------|-----------|
+| Provider | `app/Providers/` | `UIServiceProvider.php`, `RouteServiceProvider.php`, `EventServiceProvider.php`, `Filament/AdminPanelProvider.php` |
+| Modelli | `app/Models/` | `BaseModel.php`, `Category.php`, `Collection.php`, `FieldOption.php`, `Policies/UiBasePolicy.php` |
+| Colonne Tabella | `app/Filament/Tables/Columns/` | 15 colonne (Address, Group, Icon, IconState, SortableId, Timestamp, Tree, …) |
+| Campi Form | `app/Filament/Forms/Components/` | Address, Children, EnumSelect, IconPicker, InlineDatePicker, OpeningHours, OrderColumn, ParentSelect, PersonSection, Radio*, SelectState, TreeField, YearSelect, `Field/QrReader.php` |
+| Blocchi | `app/Filament/Blocks/` | Category, Contact, Heading, Hero, Image(sGallery), Navigation, Page, Paragraph, Post, Slider, Title, VideoSpatie |
+| Widget Filament | `app/Filament/Widgets/` | DarkModeSwitcher, Group, Hero, Overlook, Redirect, Row, StatWithIcon, StatsOverview, TestChart, Test, UserCalendar |
+| Action | `app/Actions/` | `GetAllBlocksAction`, `ResolveLocalizedBlockDataAction`, `GetDaysMappingAction`, `GetUserDataAction`, `GetAllIconsAction`, `Panel/ApplyCalendarToPanelAction` |
+| Contratti | `app/Contracts/` | `HasTableLayout.php`, `MapServiceContract.php`, `GeocodingServiceContract.php` |
+| Enum | `app/Enums/` | `CornerPositionEnum`, `FieldTypeEnum`, `TableLayout`, `TableLayoutEnum` |
+| Dati | `app/Datas/`, `app/Data/` | `SliderData`, `SliderDataCollection`, `ThemeMetadataData`, `UserData` |
+| Servizi | `app/Services/` | `UIService`, `ComponentService`, `ThemeService`, `Map/NullMapService`, `Map/NullGeocodingService` |
+| Adattatori | `app/Adapters/Map/` | `NullMapServiceAdapter`, `NullGeocodingServiceAdapter` |
+| Regole | `app/Rules/` | `OpeningHoursRule.php` |
+| View component | `app/View/Components/` | BreadLink, DarkModeSwitcher, Logo, Navbar, Sidebar, Std, Svg, `Page/WithSidebar`, `Render/Block`, `Render/Blocks`, `Blocks/Hero/Simple` |
+| Config | `config/` | `config.php`, `laravel-localization.php`, `laravellocalization.php` |
+| Traduzioni | `resources/lang/{it,en}/` | `auth.php`, `blocks.php`, `datepicker.php`, `ui.php` |
+| Database | `database/` | `factories/`, `migrations/`, `seeders/` |
+| Test | `tests/` | 18 file in `Feature/`, il resto in `Unit/` (widgets, componenti, enums, coverage) |
+
+>>>>>>> .merge_file_H0DnXd
 ## Workflow BMAD (fasi)
 
 1. **Analysis** — `architecture/module-boundary.md` + `brainstorming/module-opportunities.md`.
