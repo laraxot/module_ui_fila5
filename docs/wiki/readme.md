@@ -1,3 +1,9 @@
+---
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
+---
+
 # LLM Wiki (module)
 
 Questa cartella contiene la wiki curata del modulo per uso LLM.

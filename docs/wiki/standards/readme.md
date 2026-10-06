@@ -1,3 +1,9 @@
+---
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
+---
+
 # Standard UI
 
 Questo documento contiene gli standard specifici per il modulo UI.
