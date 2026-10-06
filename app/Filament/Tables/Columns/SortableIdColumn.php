@@ -30,7 +30,7 @@ use Filament\Tables\Columns\TextColumn;
  */
 class SortableIdColumn extends TextColumn
 {
-    protected const string DEFAULT_NAME = 'id';
+    protected const DEFAULT_NAME = 'id';
 
     public static function make(?string $name = null): static
     {

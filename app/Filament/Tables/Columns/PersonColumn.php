@@ -36,7 +36,7 @@ use Modules\UI\Filament\Forms\Components\PersonSection;
  */
 class PersonColumn extends GroupColumn
 {
-    protected const string DEFAULT_NAME = 'person';
+    protected const DEFAULT_NAME = 'person';
 
     /**
      * @var list<string>

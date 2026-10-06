@@ -1,3 +1,9 @@
+---
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
+---
+
 BMAD STATUS — UI
 - Inventario docs: docs/, docs/wiki/, docs/prd.json, docs/Config.bak/
 - PHPStan: 0 errori (OK)
