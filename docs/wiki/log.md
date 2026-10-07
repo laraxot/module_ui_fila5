@@ -1,0 +1,95 @@
+---
+title: "UI Wiki Log"
+type: log
+tags: [ui, wiki, log, documentation]
+created: 2026-04-15
+updated: 2026-10-07
+qmd: "log"
+issues: []
+discussions: []
+---
+
+# UI Wiki Log
+
+## [2026-10-07] docs | Risoluzione marker di merge nei docs
+- Risolti i marker residui del merge `HEAD` vs `laraxot/dev` in 7 documenti del modulo (`README.md`, `docs/README.md`, questo log, `docs/archive/bugfix-icons-missing.md`, `docs/archive/mcp_integration.md`, `docs/bmad/brainstorming.md`, `docs/bmad/epics/epic-1-design-system-components.md`), conservando l'informazione unica di entrambi i lati; puliti anche 6 file con residui diff3 (`|||||||`) e riscritti `docs/00-INDEX.md` e `docs/roadmap.md`.
+- Story: [19.UI-merge-conflict-resolution](../stories/19.UI-merge-conflict-resolution.story.md).
+
+## [2026-10-06] init | Struttura wiki
+- Initial wiki structure setup.
+
+## [2026-09-27] translations | TableLayoutEnum Italian values
+
+Restored the `values` namespace in `lang/it/table_layout_enum.php`, matching
+`EnumTrait` and the English catalog. Before the correction, Filament received the
+literal translation key as an SVG name and rendered `SvgNotFound` on ticket resources.
+The enum regression asserts Italian labels and icon names; the Fixcity Filament suite
+now passes 66 tests / 277 assertions. BMAD: `docs/bmad/stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md`.
+
+## [2026-09-25] phpstan | OpeningHoursField deprecated Placeholder fix
+- `app/Filament/Forms/Components/OpeningHoursField.php`: replaced deprecated `Placeholder::make()` with `TextEntry::make()->state()` (Filament v5 migration).
+- PHPStan `method.deprecatedClass` / `staticMethod.deprecatedClass` cleared.
+
+## [2026-09-25] phpstan | lang/it array_merge mixed type fix
+- `lang/it/icon_state_group.php` + `lang/it/opening_hours_field.php`: added `@var array<string, mixed>` annotations before each `require` so PHPStan sees array-typed values for `array_merge(...)` variadic.
+- Cleared 15 `argument.type` errors (mixed → array).
+
+## [2026-09-25] git | UI module interactive rebase resolved
+- Rebase of `dev` onto `a8ef7c56` with 29 conflicted files completed.
+- Conflicts in `.gitattributes`, `.gitignore`, `app/Actions/Icon/GetAllIconsAction.php`, `app/Filament/Components/SpatieDocumentUpload.php`, blade templates, docs, lang files, tests resolved by merging both sides (forward-only, no revert).
+- Final state: `dev` branch, clean except `app/View/Components/Render/Block.php` (pending PHPStan fix).
+
+## [2026-09-25] phpstan | UI/Render/Block view property type
+- `app/View/Components/Render/Block.php`: removed inline `@var view-string` inside `if (null === $view)` block that confused PHPStan's assign.propertyType; moved assertion after `Assert::string()`.
+- Cleared `assign.propertyType` error.
+
+## [2026-09-25] phpstan | UI/Render/Block merge markers cleanup
+- `app/View/Components/Render/Block.php`: resolved `<<<<<<<` / `=======` / `>>>>>>>` merge conflict markers left from previous merge.
+- Final state uses `GetCmsViewAction::class->execute($view)` consistently in both `__construct()` and `render()`.
+- Cleared 3 `phpstan.parse` syntax errors.
+
+## [2026-06-05] docs | HackerNoon harness, tips 001-022 in wiki locale
+
+- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), `llm-wiki.txt` (prompt non piu' presente nel repo al 2026-10-07)
+- GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+
+## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
+- Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
+- Root cause identificata in `x-ui.marketing.header`: container mobile fullscreen `fixed` che intercettava i click anche a menu chiuso.
+- Fix: `x-show="mobileMenuOpen"` + `style="display:none"` + `pointer-events-none` da chiuso / `pointer-events-auto` da aperto.
+- Verifica manuale: su `/it/auth/register` focus input stabile e digitazione ripristinata.
+
+## [2026-05-06] phpstan | Dynamic array normalization
+- Nuova pagina: `concepts/phpstan-dynamic-array-normalization.md`.
+- Documentato pattern per convertire output dinamici action/Livewire in array tipizzati senza `@var` inline, ignore o baseline.
+- Applicato a `UserCalendarWidget`, `InteractiveMap` e `LocationSelector`.
+
+## [2026-04-28] governance | Model States ownership e compatibilita' Laravel 13
+- Nuova pagina: `concepts/model-states-module-ownership.md`.
+- Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
+- Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
+
+## [2026-04-23] governance | EnumSelect API collisions (Filament v5)
+- Nuova pagina: `concepts/enumselect-filament-api-collisions.md`.
+- Documentati i fatal tipici: collisione firme `make()/enum()` e collisione visibilita' `getLabel()` quando si estende `Select`.
+
+## [2026-04-23] hardening | EnumSelect phpstan/runtime guardrails
+- Aggiornata `concepts/enum-select-contract-and-false-friends.md` con regole aggiuntive emerse dal fix runtime e dal check PHPStan.
+- Inserite best practices su firma `enum(string|Closure|null)` e narrowing `int|string` prima di `tryFrom()`.
+- Esplicitato false friend: `Class ... not found` puo' essere sintomo secondario di fatal in fase di caricamento della classe.
+
+## [2026-04-23] governance | Filament component autoload nel modulo UI
+- documentata la regola `module-filament-component-autoload-rule`
+- componenti PHP del modulo UI sotto `app/`; fatal recente `EnumSelect` ricondotto a path autoload errato, non al widget consumer
+
+## [2026-04-23] governance | EnumSelect contract, best practices, bad practices, false friends
+- Documentato il contratto minimo di `Modules\UI\Filament\Forms\Components\EnumSelect`.
+- Fissate le regole su firma compatibile di `make(?string $name = null)`, validazione backed enum, fallback label/icon e rischi di autoload/visibilita'.
+- Nuova pagina: `concepts/enum-select-contract-and-false-friends.md`.
+
+## [2026-04-15] init | wiki bootstrap
+- Struttura wiki/log.md inizializzata.
+- Layer raw: tutti i file in `docs/` (eccetto `wiki/`).
+- Layer wiki: `docs/wiki/` (LLM-maintained, sintesi ad alto riuso).
+- Schema (root repo): `docs/.schema/WIKI_SCHEMA.md`
+- Adozione moduli (root repo): `docs/project/llm-wiki-module-adoption.md`
