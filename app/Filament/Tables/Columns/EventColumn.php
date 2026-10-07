@@ -10,7 +10,7 @@ use Filament\Tables\Columns\TextColumn;
 /** Reusable table representation of schema.org/Event properties. */
 final class EventColumn extends GroupColumn
 {
-    protected const DEFAULT_NAME = 'event';
+    protected const string DEFAULT_NAME = 'event';
 
     /** @var list<string> */
     protected array $fields = [

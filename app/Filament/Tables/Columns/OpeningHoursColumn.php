@@ -27,7 +27,7 @@ use Modules\UI\Filament\Forms\Components\OpeningHoursField;
  */
 class OpeningHoursColumn extends TextColumn
 {
-    protected const DEFAULT_NAME = 'opening_hours';
+    protected const string DEFAULT_NAME = 'opening_hours';
 
     public static function make(?string $name = null): static
     {
