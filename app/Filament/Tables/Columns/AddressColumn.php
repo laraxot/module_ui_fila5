@@ -26,7 +26,7 @@ use Modules\UI\Filament\Forms\Components\AddressField;
  */
 class AddressColumn extends GroupColumn
 {
-    protected const DEFAULT_NAME = 'address';
+    protected const string DEFAULT_NAME = 'address';
 
     /**
      * Stesso ordine di {@see AddressField::getDefaultChildComponents()}.

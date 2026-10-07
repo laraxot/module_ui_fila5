@@ -10,7 +10,7 @@ use Filament\Tables\Columns\TextColumn;
 /** Reusable table representation of schema.org/Organization properties. */
 final class OrganizationColumn extends GroupColumn
 {
-    protected const DEFAULT_NAME = 'organization';
+    protected const string DEFAULT_NAME = 'organization';
 
     /** @var list<string> */
     protected array $fields = [
