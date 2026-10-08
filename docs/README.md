@@ -83,6 +83,7 @@ I widget estendono le basi Xot (`XotBaseWidget`, `XotBaseSchemaWidget`), mai Fil
 ## Stories
 
 - [2026-10-06 PHPStan cleanup UI](./stories/2026-10-06-phpstan-cleanup-ui.story.md) · [dev](./stories/2026-10-06-phpstan-cleanup-ui.dev.md)
+- [2026-10-08 PHPStan SetLocale: guardia duplicata](./stories/2026-10-08-phpstan-ui-setlocale-duplicate-guard.story.md)
 - [19.UI Risoluzione marker di merge `HEAD` vs `laraxot/dev`](./stories/19.UI-merge-conflict-resolution.story.md)
 - Elenco completo: [`00-INDEX.md`](./00-INDEX.md)
 

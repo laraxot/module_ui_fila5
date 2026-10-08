@@ -27,9 +27,6 @@ final class SetLocale
         if (! is_string($locale)) {
             $locale = Config::string('app.locale');
         }
-        if (! is_string($locale)) {
-            $locale = Config::string('app.locale');
-        }
         // Imposta la lingua e salva in sessione
         App::setLocale($locale);
         Session::put('locale', $locale);

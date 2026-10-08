@@ -19,6 +19,7 @@ discussions: []
 - [19.UI-merge-conflict-resolution](./stories/19.UI-merge-conflict-resolution.story.md): risoluzione dei marker del merge `HEAD` vs `laraxot/dev` (commit `e7e667b11`), con 23 followups ordinati per priorita' (sicurezza output Blade, coerenza story 12.1 e trait `EnsuresUiDatabaseSchema`, chiavi lang mancanti, pulizia codice).
 - Story precedenti sullo stesso problema: [5.8](./stories/5.8.merge-conflict-markers-cleanup.story.md), [5.12](./stories/5.12.merge-markers-regressione-c89696dc.story.md).
 - Altre story del modulo: [stories/](./stories/) e [bmad/stories/](./bmad/stories/).
+- [2026-10-08 Services -> Actions (residui riapparsi)](./stories/2026-10-08-services-to-actions-ui.story.md)
 - Decisioni aperte di consolidamento: [bmad/brainstorming.md](./bmad/brainstorming.md) (D1-D6) e [bmad/epics/epic-1-design-system-components.md](./bmad/epics/epic-1-design-system-components.md).
 - Log del wiki: [wiki/log.md](./wiki/log.md).
 
