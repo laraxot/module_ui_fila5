@@ -91,7 +91,7 @@ OpeningHoursField::make('hours')
 #### Other Form Components
 
 - **InlineDatePicker** - Calendar date selection
-- **LocationSelector** - Geolocation field with map integration
+- **LocationSelector** - hierarchical region/province/postal code selector, lives in `Modules\Geo` (UI never imports Geo)
 - **RadioIcon/RadioImage/RadioBadge** - Rich selection variants
 - **AddressField** - Structured address input with validation
 
@@ -298,7 +298,7 @@ UI Module
 ```php
 use Modules\UI\Filament\Forms\Components\IconPicker;
 use Modules\UI\Filament\Forms\Components\OpeningHoursField;
-use Modules\UI\Filament\Forms\Components\LocationSelector;
+use Modules\Geo\Filament\Forms\Components\LocationSelector;
 
 public static function form(Form $form): Form
 {

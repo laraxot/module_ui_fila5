@@ -58,7 +58,6 @@ I componenti che richiedono funzionalità geografiche **appartengono al modulo G
 | File                                                                        | Motivo                                          | Dove va            |
 |-----------------------------------------------------------------------------|-------------------------------------------------|--------------------|
 | `app/Livewire/Components/Map/InteractiveMap.php.old`                        | Dipende da dati geografici (Geo module)         | `Modules/Geo/`     |
-| `app/Filament/Forms/Components/LocationSelector.php.old`                    | Usa `Modules\Geo\Models\Comune` direttamente    | `Modules/Geo/`     |
 | `resources/views/livewire/components/map/interactive-map.blade.php.old`     | View del componente Geo disabilitato            | `Modules/Geo/`     |
 
 ### Contratti e Null Services (accettabili in UI)
@@ -80,10 +79,10 @@ I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacc
 
 ---
 
-## LocationSelector: già disabilitato
+## LocationSelector: spostato in Geo
 
-`LocationSelector` importava direttamente `Modules\Geo\Models\Comune` — violazione della regola.
-È stato rinominato `LocationSelector.php.old` in data 2026-07-06.
+`LocationSelector` importava direttamente `Modules\Geo\Models\Comune`, violazione della regola.
+Ora vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (Geo dipende da UI, non il contrario). In UI non resta ne' il file ne' uno stub.
 
 Se in futuro si vuole un selettore regione/provincia/CAP nel modulo UI, deve usare **solo contratti astratti** (es. `GeocodingServiceContract`) e ricevere i dati via dependency injection, senza importare classi concrete di Geo.
 

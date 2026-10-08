@@ -28,7 +28,7 @@ Il pattern “contract + null-adapter in UI” era un compromesso sbagliato: spo
 
 - `app/Adapters/Location/`, `app/Adapters/Map/`
 - `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract`
-- `LocationSelector`, `InteractiveMap`
+- `LocationSelector` (ora in `Modules\Geo\Filament\Forms\Components\LocationSelector`), `InteractiveMap`
 - `bindIf` Geo in `UIServiceProvider`
 
 ### Come corretto
