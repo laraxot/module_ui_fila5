@@ -1,4 +1,7 @@
 ---
+qmd: "qrcode"
+issues: []
+discussions: []
 title: 'Qrcode — risorse esterne'
 module: UI
 type: reference

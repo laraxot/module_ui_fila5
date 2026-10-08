@@ -47,5 +47,5 @@ return [
         'edit' => ['label' => 'Modifica Opening Hours'],
         'delete' => ['label' => 'Elimina Opening Hours'],
     ],
-    'test' => 'opening hours',
+    'test' => 'Orari di apertura',
 ];

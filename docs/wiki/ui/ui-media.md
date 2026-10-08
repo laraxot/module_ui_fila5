@@ -1,4 +1,7 @@
 ---
+qmd: "ui media"
+issues: []
+discussions: []
 title: "UI media"
 type: reference
 tags: [ui]

@@ -1,5 +1,15 @@
+---
+title: "filament v4 theme upgrade"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament v4 theme upgrade"
+issues: []
+discussions: []
+---
+
 # Filament v4 Theme Upgrade Guide - Modulo UI
-**Data**: 10 Dicembre 2025
 **Modulo**: UI (Theme Components)
 **Versione**: 4.0
 **Stato**: Ready for Implementation
@@ -334,6 +344,14 @@ npm run build
 
 ---
 
+title: "filament v4 theme upgrade"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament v4 theme upgrade"
+issues: []
+discussions: []
 ## 🎯 NEXT STEPS
 
 1. **Week 1**: Migrare tema base e componenti core

@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "Parita' Forms/Components <-> Tables/Columns in UI"
 type: rule
 tags: [filament, forms, columns, parity, ui]

@@ -1,3 +1,14 @@
+---
+title: "vscode filament plugin"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "vscode filament plugin"
+issues: []
+discussions: []
+---
+
 # Plugin VSCode per Filament
 
 ## Overview

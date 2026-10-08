@@ -1,8 +1,19 @@
+---
+title: "mcp integration"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp integration"
+issues: []
+discussions: []
+---
+
 # Integrazione dei Server MCP con il Modulo UI
 
 ## Panoramica
 
-Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_ptvx_fila5.
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
 
 ## Server MCP Consigliati
 
@@ -150,10 +161,6 @@ class ThemeFileService
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
             
-
-        try {
-            $content = $this->mcpService->filesystem()->readFile($fullPath);
-
             return $content ?: null;
         } catch (\Exception $e) {
             Log::error("Failed to read theme file", [
@@ -214,11 +221,6 @@ class ThemeFileService
             $fullPath .= '/' . $directory;
         }
         
-
-        if ($directory) {
-            $fullPath .= '/' . $directory;
-        }
-
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
         } catch (\Exception $e) {
@@ -329,14 +331,6 @@ class UICacheService
                 return $cached['html'];
             }
             
-
-        try {
-            $cached = $this->mcpService->redis()->get($cacheKey);
-            
-            if ($cached && isset($cached['html'])) {
-                return $cached['html'];
-            }
-
             return null;
         } catch (\Exception $e) {
             Log::error("Failed to get cached UI component", [
@@ -369,14 +363,6 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
                 
-
-            try {
-                $keys = $this->mcpService->redis()->keys($pattern);
-                
-                foreach ($keys as $key) {
-                    $this->mcpService->redis()->delete($key);
-                }
-
                 return true;
             } catch (\Exception $e) {
                 Log::error("Failed to invalidate UI component cache", [
@@ -487,11 +473,6 @@ class AnalyzeUIAccessibilityAction
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
             
-
-            $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
-            $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
-            $suggestions = $analysis['accessibility']['suggestions'] ?? [];
-
             return new UIAnalysisData(
                 score: $accessibilityScore,
                 issues: $accessibilityIssues,
@@ -604,24 +585,6 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
         
-
-        /** @var UICacheService $uiCacheService */
-        $uiCacheService = app(UICacheService::class);
-        
-        $html = null;
-        
-        if (!$this->forceRefresh) {
-            $html = $uiCacheService->getCachedComponent($this->componentName, $this->componentProps);
-        }
-        
-        if ($html === null) {
-            // Renderizza il componente
-            $html = view("ui::components.{$this->componentName}", $this->componentProps)->render();
-            
-            // Memorizza in cache
-            $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
-        }
-
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
         ]);
@@ -655,11 +618,6 @@ $analyze = function () {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
         
-
-    try {
-        /** @var AnalyzeUIAccessibilityAction $analyzeAction */
-        $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
-
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
         $this->addError('analysis', $e->getMessage());
@@ -753,4 +711,4 @@ $analyze = function () {
 
 ## Conclusione
 
-L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_ptvx_fila5.
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.

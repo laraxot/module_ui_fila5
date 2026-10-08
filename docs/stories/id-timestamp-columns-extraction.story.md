@@ -1,4 +1,8 @@
 ---
+tags: [documentation]
+qmd: "id timestamp columns extraction.story"
+issues: []
+discussions: []
 title: "UI: SortableIdColumn/TimestampColumn — estratto il trio id/created_at/updated_at ripetuto in 30+ Tables/*.php"
 type: story
 module: UI

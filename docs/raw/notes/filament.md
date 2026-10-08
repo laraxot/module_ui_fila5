@@ -1,4 +1,7 @@
 ---
+qmd: "filament"
+issues: []
+discussions: []
 title: 'Filament — risorse esterne'
 module: UI
 type: reference

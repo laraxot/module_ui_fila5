@@ -1,4 +1,7 @@
 ---
+qmd: "performance optimization"
+issues: []
+discussions: []
 title: "Performance Optimization — Module UI"
 type: documentation
 created: 2026-05-11
@@ -118,6 +121,13 @@ context-mode ctx-stats
 - [QMD Setup](./QMD-SETUP.md)
 - [On-Demand Pattern](./on-demand-pattern.md)
 - [QMD Setup](./qmd-setup.md)
+---
+---
+---
+- [On-Demand Pattern](./on-demand-pattern.md)
+- [QMD Setup](./qmd-setup.md)
+---
+---
 
 ---
 *Status: Ottimizzato | Token risparmiati: ~48K per session*

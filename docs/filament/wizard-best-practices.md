@@ -1,23 +1,12 @@
 ---
-title: "Best Practices per i Wizard in Filament"
-type: concept
-tags: [wizard, best, practices]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "wizard-best-practices best practices per i wizard in filament"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./automatic-translations.md"
-  - "./best-practices.md"
-  - "./component-icon-support.md"
-  - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-guide.md"
-  - "./filament-4-migration-summary.md"
-  - "./filament-4-migration-sumy.md"
+title: "wizard best practices"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "wizard best practices"
+issues: []
+discussions: []
 ---
 
 # Best Practices per i Wizard in Filament
@@ -31,7 +20,6 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 ```php
 // ✅ CORRETTO
 public static function getFormSchemaWidget(): array
-public function getFormSchemaWidget(): array
 {
     return [
         Forms\Components\Wizard::make([
@@ -59,7 +47,6 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 ```php
 // ❌ ERRATO
 public static function getFormSchemaWidget(): array
-public function getFormSchemaWidget(): array
 {
     return [
         Forms\Components\Wizard::make([
@@ -122,7 +109,6 @@ Ogni step di un wizard rappresenta una fase logica distinta del processo. Estrar
 class PatientResource extends XotBaseResource
 {
     public static function getFormSchemaWidget(): array
-    public function getFormSchemaWidget(): array
     {
         return [
             Forms\Components\Wizard::make([
@@ -162,7 +148,6 @@ L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 
 ```php
 public static function getFormSchemaWidget(): array
-public function getFormSchemaWidget(): array
 {
     $steps = [
         self::getPersonalDataStep(),

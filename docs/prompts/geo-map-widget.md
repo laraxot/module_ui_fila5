@@ -1,4 +1,7 @@
 ---
+qmd: "geo map widget"
+issues: []
+discussions: []
 title: 'Geo map widget'
 module: UI
 type: reference

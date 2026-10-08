@@ -32,13 +32,12 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
-    /** @var MockInterface&SaveTransAction $mock */
-    $mock = \Mockery::mock(SaveTransAction::class);
-    /** @var ExpectationInterface $expectation */
-    $expectation = $mock->shouldReceive('execute');
-    $expectation->andReturn(null);
-
-    app()->instance(SaveTransAction::class, $mock);
+    /* @var \Modules\UI\Tests\TestCase $this */
+    $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
+        /** @var ExpectationInterface $expectation */
+        $expectation = $mock->shouldReceive('execute');
+        $expectation->andReturn(null);
+    });
 });
 
 describe('Base Calendar Widget', function (): void {

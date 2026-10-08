@@ -1,23 +1,12 @@
 ---
-title: "RadioCollection Component: Analisi Ontologica e Fenomenologica"
-type: concept
-tags: [radio, collection, component]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "radio-collection-component radiocollection component: analisi ontologica e fenomenologica"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./address-field-1.md"
-  - "./address-field.md"
-  - "./blade-component-registration.md"
-  - "./filament-usage.md"
-  - "./filament.md"
-  - "./file-upload.md"
-  - "./footer.md"
-  - "./full-calendar-1.md"
+title: "radio collection component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection component"
+issues: []
+discussions: []
 ---
 
 # RadioCollection Component: Analisi Ontologica e Fenomenologica
@@ -286,6 +275,14 @@ wire:model.live="{{ $getStatePath() }}"
 - [Design Pattern Zen](./design-pattern-zen.md)
 - [JavaScript Phenomenology](./javascript-phenomenology.md)
 ---
+title: "radio collection component"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "radio collection component"
+issues: []
+discussions: []
 *"In ogni scelta si cela l'universo intero, e in ogni click si manifesta la volontà dell'essere digitale."*
 **Ultimo aggiornamento ontologico**: Dicembre 2024
 **Versione dell'esistenza**: 1.0.0

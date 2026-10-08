@@ -1,3 +1,14 @@
+---
+title: "bugfix icons missing "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix icons missing "
+issues: []
+discussions: []
+---
+
 # Bug Fix: Icone Mancanti - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -94,12 +105,19 @@ php artisan config:clear
 
 - [Sistema Icone UI](../icon-system.md)
 - [Blade Icons Documentation](../blade-icons.md)
-- [XotBaseServiceProvider](../XotBaseServiceProvider.md)
+- [XotBaseServiceProvider](../xotbaseserviceprovider.md)
 
 ---
 
-**Data**: 27 Gennaio 2025  
-**Modulo**: UI  
-**Tipo**: Bug Fix  
-**Priorità**: Alta  
+title: "bugfix icons missing "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bugfix icons missing "
+issues: []
+discussions: []
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
 **Stato**: ✅ Risolto

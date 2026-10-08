@@ -1,3 +1,14 @@
+---
+title: "ubuntu"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ubuntu"
+issues: []
+discussions: []
+---
+
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
 sudo apt-get install pngquant // For PNG Image

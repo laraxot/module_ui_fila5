@@ -1,4 +1,7 @@
 ---
+qmd: "ui effetcts"
+issues: []
+discussions: []
 title: "UI effetcts"
 type: reference
 tags: [ui]

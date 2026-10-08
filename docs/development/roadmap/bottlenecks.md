@@ -1,19 +1,12 @@
 ---
-title: "Colli di Bottiglia - Modulo UI"
-type: concept
-tags: [bottlenecks]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "bottlenecks colli di bottiglia - modulo ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./component-system.md"
-  - "./form-component.md"
-  - "./form-components.md"
-  - "./theme-system.md"
+title: "bottlenecks"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "bottlenecks"
+issues: []
+discussions: []
 ---
 
 # Colli di Bottiglia - Modulo UI

@@ -1,3 +1,14 @@
+---
+title: "dry kiss analysis conflict"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry kiss analysis conflict"
+issues: []
+discussions: []
+---
+
 # DRY & KISS Analysis - Modulo UI
 
 **Data:** 15 Ottobre 2025
@@ -29,8 +40,16 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 - ✅ Connection automatica da XotBaseModel
 
 ## 🔗 Collegamenti
-[DRY/KISS Global](../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)
+[DRY/KISS Global](../../../docs/dry_kiss_analysis_[date].md)
 
 ---
 
+title: "dry kiss analysis conflict"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "dry kiss analysis conflict"
+issues: []
+discussions: []
 **Conclusione:** 🏆 **GOLD STANDARD** per BaseModel minimali!
