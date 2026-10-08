@@ -1,12 +1,30 @@
+---
+title: "task ridurre phpstan suppressioni"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task ridurre phpstan suppressioni"
+issues: []
+discussions: []
+---
+
 # Task: Ridurre Suppressioni PHPStan Inline - UI
 
 **Modulo**: UI
 **Priorita'**: Alta
 **Completamento**: 0%
-**Data**: 2026-01-30
 
 ---
 
+title: "task ridurre phpstan suppressioni"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task ridurre phpstan suppressioni"
+issues: []
+discussions: []
 ## File Coinvolti (28 suppressioni)
 
 | File | Suppressioni |

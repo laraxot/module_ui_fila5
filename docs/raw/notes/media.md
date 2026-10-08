@@ -1,4 +1,7 @@
 ---
+qmd: "media"
+issues: []
+discussions: []
 title: 'Media — risorse esterne'
 module: UI
 type: reference

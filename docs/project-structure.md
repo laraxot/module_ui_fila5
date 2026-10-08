@@ -1,4 +1,7 @@
 ---
+qmd: "project structure"
+issues: []
+discussions: []
 title: "Project Structure — Module UI"
 type: documentation
 created: 2026-05-11
@@ -35,7 +38,15 @@ tags: [structure, architecture, module]
 ├── ON-DEMAND-PATTERN.md          # 🌟 QUESTO FILE — Pattern on-demand
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+---
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+---
 ├── architecture.md                # (opzionale) Architettura modulo
+---
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+---
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 

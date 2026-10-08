@@ -1,33 +1,57 @@
 ---
 title: "UI Wiki Log"
-type: concept
-tags: [log]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "log ui wiki log"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./agents.md"
-  - "./bmad-method.md"
-  - "./context-compression.md"
-  - "./index.md"
-  - "./overview.md"
+type: log
+tags: [ui, wiki, log, documentation]
+created: 2026-04-15
+updated: 2026-10-07
+qmd: "log"
+issues: []
+discussions: []
 ---
 
-## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
-
-- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
-- GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
-- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
-- GitHub: [#272](https://github.com/laraxot/<nome repitory>/issues/272) / [D#273](https://github.com/laraxot/<nome repitory>/discussions/273)
-- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
-- GitHub: [#272](https://github.com/laraxot/platform/issues/272) / [D#273](https://github.com/laraxot/platform/discussions/273)
-- GitHub: [#272](https://github.com/laraxot/<nome repitory>/issues/272) / [D#273](https://github.com/laraxot/<nome repitory>/discussions/273)
-
 # UI Wiki Log
+
+## [2026-10-07] docs | Risoluzione marker di merge nei docs
+- Risolti i marker residui del merge `HEAD` vs `laraxot/dev` in 7 documenti del modulo (`README.md`, `docs/README.md`, questo log, `docs/archive/bugfix-icons-missing.md`, `docs/archive/mcp_integration.md`, `docs/bmad/brainstorming.md`, `docs/bmad/epics/epic-1-design-system-components.md`), conservando l'informazione unica di entrambi i lati; puliti anche 6 file con residui diff3 (`|||||||`) e riscritti `docs/00-INDEX.md` e `docs/roadmap.md`.
+- Story: [19.UI-merge-conflict-resolution](../stories/19.UI-merge-conflict-resolution.story.md).
+
+## [2026-10-06] init | Struttura wiki
+- Initial wiki structure setup.
+
+## [2026-09-27] translations | TableLayoutEnum Italian values
+
+Restored the `values` namespace in `lang/it/table_layout_enum.php`, matching
+`EnumTrait` and the English catalog. Before the correction, Filament received the
+literal translation key as an SVG name and rendered `SvgNotFound` on ticket resources.
+The enum regression asserts Italian labels and icon names; the Fixcity Filament suite
+now passes 66 tests / 277 assertions. BMAD: `docs/bmad/stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md`.
+
+## [2026-09-25] phpstan | OpeningHoursField deprecated Placeholder fix
+- `app/Filament/Forms/Components/OpeningHoursField.php`: replaced deprecated `Placeholder::make()` with `TextEntry::make()->state()` (Filament v5 migration).
+- PHPStan `method.deprecatedClass` / `staticMethod.deprecatedClass` cleared.
+
+## [2026-09-25] phpstan | lang/it array_merge mixed type fix
+- `lang/it/icon_state_group.php` + `lang/it/opening_hours_field.php`: added `@var array<string, mixed>` annotations before each `require` so PHPStan sees array-typed values for `array_merge(...)` variadic.
+- Cleared 15 `argument.type` errors (mixed → array).
+
+## [2026-09-25] git | UI module interactive rebase resolved
+- Rebase of `dev` onto `a8ef7c56` with 29 conflicted files completed.
+- Conflicts in `.gitattributes`, `.gitignore`, `app/Actions/Icon/GetAllIconsAction.php`, `app/Filament/Components/SpatieDocumentUpload.php`, blade templates, docs, lang files, tests resolved by merging both sides (forward-only, no revert).
+- Final state: `dev` branch, clean except `app/View/Components/Render/Block.php` (pending PHPStan fix).
+
+## [2026-09-25] phpstan | UI/Render/Block view property type
+- `app/View/Components/Render/Block.php`: removed inline `@var view-string` inside `if (null === $view)` block that confused PHPStan's assign.propertyType; moved assertion after `Assert::string()`.
+- Cleared `assign.propertyType` error.
+
+## [2026-09-25] phpstan | UI/Render/Block merge markers cleanup
+- `app/View/Components/Render/Block.php`: resolved `<<<<<<<` / `=======` / `>>>>>>>` merge conflict markers left from previous merge.
+- Final state uses `GetCmsViewAction::class->execute($view)` consistently in both `__construct()` and `render()`.
+- Cleared 3 `phpstan.parse` syntax errors.
+
+## [2026-06-05] docs | HackerNoon harness, tips 001-022 in wiki locale
+
+- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), `llm-wiki.txt` (prompt non piu' presente nel repo al 2026-10-07)
+- GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
 
 ## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
 - Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
@@ -44,7 +68,6 @@ related:
 - Nuova pagina: `concepts/model-states-module-ownership.md`.
 - Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
-- Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 13`.
 
 ## [2026-04-23] governance | EnumSelect API collisions (Filament v5)
 - Nuova pagina: `concepts/enumselect-filament-api-collisions.md`.
@@ -67,20 +90,6 @@ related:
 ## [2026-04-15] init | wiki bootstrap
 - Struttura wiki/log.md inizializzata.
 - Layer raw: tutti i file in `docs/` (eccetto `wiki/`).
-- Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
-- Schema: `docs/.schema/WIKI_SCHEMA.md`
-- Schema: `docs/.schema/wiki-schema.md`
-- Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
-
-## 2026-07-22 — PHPStan Modules 0 + geo-boundary
-
-- Conflitti PHP UI risolti (0 marker di conflitto in *.php).
-- Dominio Geo fuori da UI: rimossi Adaptive Map/Location, contratti, `LocationSelector` attivo (storico in **git**, non in `docs/archive/`).
-- Evidence: `laravel/storage/app/ai/phpstan-modules-20260722-213406.json` (0 errori).
-- Canon: [geo-boundary.md](../geo-boundary.md) · coordinamento: `docs/chat/phpstan-modules-status.md`.
-
-- Tip `b874935` su `laraxot/dev` e `provtv/dev`.
-## 2026-07-22 — Push dual-remote + LFS
-- Fix: deepen/shallow + `git push --no-thin` + `git lfs fetch laraxot --all` → `git lfs push provtv --all`.
-- Playbook: [troubleshooting/git-push-lfs-missing-objects.md](./troubleshooting/git-push-lfs-missing-objects.md).
-- Tip `b874935` su `laraxot/dev` e `provtv/dev`.
+- Layer wiki: `docs/wiki/` (LLM-maintained, sintesi ad alto riuso).
+- Schema (root repo): `docs/.schema/WIKI_SCHEMA.md`
+- Adozione moduli (root repo): `docs/project/llm-wiki-module-adoption.md`

@@ -1,3 +1,14 @@
+---
+title: "BRANDS ICONS"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "BRANDS ICONS"
+issues: []
+discussions: []
+---
+
 # UI Brands Icons - Documentazione
 
 ## Panoramica

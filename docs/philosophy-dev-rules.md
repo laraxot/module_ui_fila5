@@ -1,3 +1,14 @@
+---
+title: "philosophy dev rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "philosophy dev rules"
+issues: []
+discussions: []
+---
+
 # UI Module Philosophy
 
 Reusable components, design system, and patterns for Filament, Folio, and Volt across all 47 modules.
@@ -114,8 +125,28 @@ If you think a rule is wrong:
 
 ## See Also
 
+- `ARCHITECTURE.md` — component organization and Filament patterns
+- `TESTING.md` — component testing strategies
+---
+title: "philosophy dev rules"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "philosophy dev rules"
+issues: []
+discussions: []
+- `ARCHITECTURE.md` — component organization and Filament patterns
+- `TESTING.md` — component testing strategies
+---
 - `architecture.md` — component organization and Filament patterns
 - `testing.md` — component testing strategies
+---
+- `ARCHITECTURE.md` — component organization and Filament patterns
+- `TESTING.md` — component testing strategies
+---
+- `ARCHITECTURE.md` — component organization and Filament patterns
+- `TESTING.md` — component testing strategies
 - `docs/filament-patterns.md` — Filament resource best practices
 - `docs/folio-volt-integration.md` — Folio+Volt workflow
 - `docs/theme-system.md` — multi-tenant theming

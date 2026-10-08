@@ -1,3 +1,14 @@
+---
+title: "SVG ICONS AUTOMATIC REGISTRATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SVG ICONS AUTOMATIC REGISTRATION"
+issues: []
+discussions: []
+---
+
 # ✅ SVG Icons - Automatic Registration
 
 **Data**: 2026-03-30  
@@ -91,54 +102,7 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # http://fixcity.local/it/tests/homepage
-
-# http://<nome progetto>.local/it/tests/homepage
-# http://app.local/it/tests/homepage
-<<<<<<< HEAD
-# http://<nome progetto>.local/it/tests/homepage
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-# http://fixcity.local/it/tests/homepage
-<<<<<<< HEAD
-
-# http://<nome progetto>.local/it/tests/homepage
-# http://app.local/it/tests/homepage
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-# http://<nome progetto>.local/it/tests/homepage
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-# http://app.local/it/tests/homepage
-=======
-# http://<nome progetto>.local/it/tests/homepage
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ## 📊 Icon Inventory
@@ -178,6 +142,14 @@ php artisan view:clear
 
 ---
 
+title: "SVG ICONS AUTOMATIC REGISTRATION"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SVG ICONS AUTOMATIC REGISTRATION"
+issues: []
+discussions: []
 **Stato**: ✅ **CORRETTO - AUTOMATICO**  
 **Usage**: `<x-svg name="brands.facebook" />`  
 **Config**: ❌ **NON SERVONO CONFIGURAZIONI**

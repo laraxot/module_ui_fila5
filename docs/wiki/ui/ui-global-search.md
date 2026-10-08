@@ -1,4 +1,7 @@
 ---
+qmd: "ui global search"
+issues: []
+discussions: []
 title: "UI global search"
 type: reference
 tags: [ui]

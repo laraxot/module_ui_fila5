@@ -1,4 +1,7 @@
 ---
+qmd: "custom firm fields"
+issues: []
+discussions: []
 title: 'Custom firm fields — risorse esterne'
 module: UI
 type: reference

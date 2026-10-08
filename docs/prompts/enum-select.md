@@ -1,4 +1,7 @@
 ---
+qmd: "enum select"
+issues: []
+discussions: []
 title: 'Enum select'
 module: UI
 type: reference

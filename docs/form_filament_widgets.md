@@ -1,3 +1,14 @@
+---
+title: "form filament widgets"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "form filament widgets"
+issues: []
+discussions: []
+---
+
 # Utilizzo dei Widget Filament per i Form in il progetto
 
 ## Indice
@@ -67,15 +78,7 @@ Il sistema è stato esteso con componenti personalizzati specifici per il proget
 In il progetto, i form Filament sono implementati attraverso la classe base `XotBaseResource` che tutti i Resource estendono. Ecco un esempio semplificato di come viene definito un form per la gestione delle pagine:
 
 ```php
-<<<<<<< HEAD
 public static function getFormSchema(): array
-=======
-<<<<<<< HEAD
-=======
-public static function getFormSchema(): array
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-public function getFormSchema(): array
 {
     return [
         Forms\Components\Grid::make()->columns(2)->schema([

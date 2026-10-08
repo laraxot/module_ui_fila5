@@ -1,4 +1,7 @@
 ---
+qmd: "ui theme"
+issues: []
+discussions: []
 title: "UI theme"
 type: reference
 tags: [ui]

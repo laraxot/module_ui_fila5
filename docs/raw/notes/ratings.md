@@ -1,4 +1,7 @@
 ---
+qmd: "ratings"
+issues: []
+discussions: []
 title: 'Ratings'
 module: UI
 type: reference

@@ -1,3 +1,14 @@
+---
+title: "conflitti merge risolti"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "conflitti merge risolti"
+issues: []
+discussions: []
+---
+
 # Conflitti di Merge Risolti nel Modulo UI
 
 ## Conflitti Risolti (2025-05-13)
@@ -10,7 +21,7 @@
 
 **Motivazione:** La documentazione nel codice è fondamentale per la manutenibilità e la comprensione del sistema, specialmente per quanto riguarda la gestione dei componenti UI che è un aspetto critico dell'architettura modulare.
 
-### 2. paths-and-assets.md
+### 2. PATHS_AND_ASSETS.md
 
 **Problema:** Conflitto tra la versione HEAD che conteneva un avviso importante sulla posizione corretta dei componenti UI condivisi e una sezione dettagliata sulle regole per i componenti Blade UI, e la versione del branch che li aveva rimossi.
 

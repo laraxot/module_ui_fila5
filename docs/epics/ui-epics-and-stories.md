@@ -1,4 +1,7 @@
 ---
+qmd: "ui epics and stories"
+issues: []
+discussions: []
 title: "UI Epics and User Stories"
 type: user_stories
 tags: [user stories, epics, ui]

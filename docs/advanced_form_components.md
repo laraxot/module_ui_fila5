@@ -1,3 +1,14 @@
+---
+title: "advanced form components"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "advanced form components"
+issues: []
+discussions: []
+---
+
 # Componenti Form Avanzati
 
 ## 📝 Input Avanzati
