@@ -34,7 +34,7 @@ Il modulo UI è **il layer di estensione e personalizzazione di Filament v4**, s
 ```
 app/Filament/
 ├── Tables/Columns/        # 8 colonne custom (IconStateColumn, GroupColumn, etc.)
-├── Forms/Components/      # 15 form fields custom (InlineDatePicker, RadioBadge, LocationSelector)
+├── Forms/Components/      # 15 form fields custom (InlineDatePicker, RadioBadge)
 ├── Widgets/              # 11 widgets (StatsOverviewWidget, UserCalendarWidget, DarkModeSwitcherWidget)
 ├── Blocks/               # 14 blocchi CMS (Hero, Heading, Paragraph, Image, Video, etc.)
 └── Actions/              # 2 azioni (TableLayoutToggleHeaderAction, TableLayoutToggleTableAction)
@@ -101,7 +101,6 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 
 ```php
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
-// LocationSelector - Usato in TechPlanner, Employee, Geo
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -187,7 +186,6 @@ class UIServiceProvider extends XotBaseServiceProvider
 | `RadioCollection` | Radio con item custom (template personalizzabile) | Selezione studi medici, sedi, prodotti |
 | `RadioIcon` | Radio con icone | Scelta icona, tipo attività |
 | `RadioImage` | Radio con immagini | Selezione tema, layout, prodotto |
-| `LocationSelector` | Geolocation (Regione → Provincia → CAP) | Indirizzi, sedi, clienti |
 | `OpeningHoursField` | Orari apertura business (mattina/pomeriggio) | Studi, negozi, uffici |
 | `IconPicker` | Selezione icona da pack | Personalizzazione UI |
 | `AddressField` | Indirizzo completo strutturato | Indirizzi clienti, sedi |
