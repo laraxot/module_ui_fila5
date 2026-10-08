@@ -1,4 +1,11 @@
 ---
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "quality gate 2026 09 04 ui.story"
+issues: []
+discussions: []
 title: Quality gate closure — Modules/UI (phpmd MissingImport cleanup)
 slug: quality-gate-2026-09-04-ui
 status: done

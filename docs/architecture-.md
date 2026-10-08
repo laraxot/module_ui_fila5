@@ -1,3 +1,14 @@
+---
+title: "architecture "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture "
+issues: []
+discussions: []
+---
+
 # UI Module - Architecture Guide (2025)
 
 > **Last Updated:** 2025-11-19
@@ -14,6 +25,14 @@
 
 ---
 
+title: "architecture "
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "architecture "
+issues: []
+discussions: []
 ## Module Overview
 
 ### Primary Purpose

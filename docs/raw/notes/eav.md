@@ -1,4 +1,7 @@
 ---
+qmd: "eav"
+issues: []
+discussions: []
 title: 'Eav — risorse esterne'
 module: UI
 type: reference

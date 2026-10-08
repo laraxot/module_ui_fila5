@@ -1,3 +1,14 @@
+---
+title: "inlineate picker"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "inlineate picker"
+issues: []
+discussions: []
+---
+
 # InlineDatePicker Component
 
 A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.

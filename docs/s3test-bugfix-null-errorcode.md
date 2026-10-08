@@ -1,3 +1,14 @@
+---
+title: "s3test bugfix null errorcode"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "s3test bugfix null errorcode"
+issues: []
+discussions: []
+---
+
 # S3Test Bugfix: Null ErrorCode Handling
 
 ## Problema Risolto
@@ -121,7 +132,7 @@ try {
 - [Best Practices](../best-practices.md)
 
 ## Data Correzione
-2025-01-06
+[DATE]
 
 ## Autore
 AI Assistant

@@ -1,13 +1,13 @@
 ---
 id: module-ui-readme
-title: "UI — Componenti Visuali Condivisi"
+title: "UI - componenti visuali condivisi"
 type: module-readme
 category: module-documentation
 module: UI
 status: active
-tags: [ui, blade, livewire, filament, accessibility]
+tags: [ui, components, filament, module, blade, livewire, accessibility]
 created: 2026-09-14
-updated: 2026-09-22
+updated: 2026-10-07
 qmd: "ui blade livewire filament components accessibility module documentation"
 issues:
   - "https://github.com/laraxot/module_ui_fila5/issues/33"
@@ -18,8 +18,9 @@ related:
 sources: []
 ---
 
-# 🎨 UI
+# UI
 
+[![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
 [![Stars](https://img.shields.io/github/stars/laraxot/module_ui_fila5?style=plastic&color=yellow)]()
 [![Forks](https://img.shields.io/github/forks/laraxot/module_ui_fila5?style=plastic&color=green)]()
 [![Issues](https://img.shields.io/github/issues/laraxot/module_ui_fila5?style=plastic&color=red)]()
@@ -37,11 +38,11 @@ sources: []
 > **Componenti UI riutilizzabili e design system**
 > Componenti UI, layout, temi e pattern di design per Filament v5, senza logica di dominio.
 
-## 🎯 La Visione
+## La visione
 
 Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modulo è stato pensato per risolvere problemi reali con soluzioni eleganti.
 
-## Perché esiste questo modulo?
+## Perché esiste questo modulo
 
 **Componenti UI, layout, temi e pattern di design per Filament v5.**
 
@@ -49,16 +50,16 @@ In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Qu
 
 ## Cosa offre
 
-- **Blade/Livewire** — componenti riusabili
-- **Filament XotBase** — base per admin
-- **Accessibilità** — a11y conforme
-- **Tailwind/DaisyUI** — design system
+- **Blade/Livewire**: componenti riusabili
+- **Filament XotBase**: base per admin
+- **Accessibilità**: a11y conforme
+- **Tailwind/DaisyUI**: design system
 
 ## Confini architetturali
 
 Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `Actions`; la UI admin segue Laraxot/XotBase. Nessuna logica di dominio: quella resta nei moduli che la possiedono (vedi [docs/purpose.md](./docs/purpose.md)).
 
-## 🧘 I Principi Zen (e la nostra filosofia)
+## I principi zen e la nostra filosofia
 
 1. **Semplicità vince sulla complessità** - Il codice chiaro è più potente di mille righe di commenti.
 2. **Modulare è dare vita** - Ogni pezzo può vivere da solo, ma insieme diventa un universo.
@@ -66,7 +67,7 @@ Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `
 4. **Testare è fidarsi** - Non fidarsi del proprio codice è fidarsi del caos.
 5. **Rifattorizzare è crescere** - Lentamente, incrementalmente, diventiamo migliori.
 
-## 💎 Le sue Superpoteri
+## Superpoteri
 
 - **Architettura modulare** - Separazione netta tra logica di business e presentazione
 - **PHPStan Level 10** - Massima sicurezza tipizzazione
@@ -74,7 +75,7 @@ Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `
 - **Filament 5** - Admin panel d'eccellenza
 - **XotBase** - Pattern consolidati che funzionano
 
-## 🚀 Quick Start
+## Quick start
 
 ```bash
 # Installazione modulo
@@ -91,14 +92,9 @@ composer dev
 
 Configuration is in `config/config.php`. Adjust as needed.
 
-## 🤝 Contributing
+## Contributing
 
-```bash
-cd laravel
-composer dev
-./vendor/bin/pest Modules/UI/tests
-./vendor/bin/phpstan analyse Modules/UI --memory-limit=-1
-```
+Esegui i comandi di sviluppo locale del Quick start, poi:
 
 **Before submitting:**
 - [ ] Tests pass
@@ -108,24 +104,24 @@ composer dev
 
 See [docs/architecture.md](./docs/architecture.md) for design decisions.
 
-## 📖 Documentazione
+## Documentazione
 
 | Tipo | Link |
 |--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/](./docs/) |
-| 🗺️ Mappa tecnica docs | [docs/README.md](./docs/README.md) |
-| 🎯 Esempi | [docs/examples/](./docs/examples/) |
-| 📋 Story BMAD | [docs/stories/](./docs/stories/) |
-| 🏗️ Architettura | [docs/architecture.md](./docs/architecture.md) |
-| 🧪 Testing | [docs/testing.md](./docs/testing.md) |
-| 🧭 Filosofia | [docs/philosophy.md](./docs/philosophy.md) |
-| 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
-| 📐 Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
-| 🏠 README del progetto | [../../../README.md](../../../README.md) |
+| Presentazione (IT) | Questo file (`README.md`) |
+| Business card (EN) | [docs/readme-en.md](./docs/readme-en.md) |
+| Wiki tecnica | [./docs/](./docs/) |
+| Mappa tecnica docs | [docs/README.md](./docs/README.md) |
+| Esempi | [docs/examples/](./docs/examples/) |
+| Story BMAD | [docs/stories/](./docs/stories/) |
+| Architettura | [docs/architecture.md](./docs/architecture.md) |
+| Testing | [docs/testing.md](./docs/testing.md) |
+| Filosofia | [docs/philosophy.md](./docs/philosophy.md) |
+| Changelog | [CHANGELOG.md](./CHANGELOG.md) |
+| Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
+| README del progetto | [../../../README.md](../../../README.md) |
 
-## 🔧 Tecnologie chiave
+## Tecnologie chiave
 
 **Stack principale:** Laravel 13, Filament 5, XotBase
 
@@ -138,3 +134,28 @@ Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan
 ---
 
 **Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
+
+## Scheda tecnica verificata (2026-10-07)
+
+| Voce | Valore |
+|---|---|
+| Nome dichiarato | `UI` |
+| Namespace | `Modules\UI\` |
+| File PHP (escluso vendor) | 747 |
+| File PHP di test | 81 |
+| Aree `app/` rilevate | Actions, Adapters, Console, Contracts, Data, Datas, Enums, Filament, Forms, Http, Livewire, Models, Providers, Rules, Services, Traits, View |
+| Migrazioni PHP | 3 |
+| SSoT locale | [`docs/`](docs/) e [`docs/bmad/`](docs/bmad/) |
+
+Questa scheda è un inventario statico, non una dichiarazione di qualità. Per ogni
+modifica eseguire i gate dal progetto Laravel:
+
+```bash
+cd laravel
+php -d memory_limit=2G ./vendor/bin/phpstan analyse Modules/UI
+./vendor/bin/pest Modules/UI
+```
+
+La responsabilità del modulo, le decisioni architetturali e le opportunità sono
+documentate negli artefatti BMAD sotto [`docs/bmad/`](docs/bmad/). I numeri vanno
+rigenerati quando il modulo cambia; non copiarli in badge non verificati.

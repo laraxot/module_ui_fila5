@@ -1,4 +1,7 @@
 ---
+qmd: "page builder"
+issues: []
+discussions: []
 title: 'Page builder — risorse esterne'
 module: UI
 type: reference

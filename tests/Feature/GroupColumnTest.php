@@ -14,6 +14,7 @@ use Illuminate\View\ComponentAttributeBag;
 use Mockery\Expectation;
 use Mockery\MockInterface;
 use Modules\UI\Filament\Tables\Columns\GroupColumn;
+use Modules\UI\Tests\Fixtures\UiGroupColumnTypeEnum;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
@@ -121,10 +122,13 @@ describe('GroupColumn view rendering', function (): void {
             TextColumn::make('cognome'),
         ];
 
-        $value = data_get($record, 'matr');
-        Assert::assertSame('12345', $value);
-        $value = data_get($record, 'cognome');
-        Assert::assertSame('Rossi', $value);
+        // Ogni campo del gruppo risolve il proprio valore dal record tramite il nome della colonna.
+        $values = [];
+        foreach ($fields as $field) {
+            $values[$field->getName()] = data_get($record, $field->getName());
+        }
+
+        Assert::assertSame(['matr' => '12345', 'cognome' => 'Rossi'], $values);
     });
 
     it('renders nested relation values with dot notation', function (): void {
@@ -329,5 +333,33 @@ describe('GroupColumn view rendering', function (): void {
             str_contains($html, 'select') || str_contains($html, 'fi-ta-select'),
             'Expected SelectColumn embedded HTML, got: '.$html
         );
+    });
+
+    it('renders BackedEnum with HasLabel using translated label not raw value', function (): void {
+        $record = ['type' => UiGroupColumnTypeEnum::Dip];
+        $fields = [
+            TextColumn::make('type'),
+        ];
+
+        if (! app()->bound('view')) {
+            $value = data_get($record, 'type');
+            Assert::assertInstanceOf(UiGroupColumnTypeEnum::class, $value);
+            Assert::assertSame('Dipendente', $value->getLabel());
+
+            return;
+        }
+
+        $html = view('ui::filament.tables.columns.group', [
+            'getFields' => fn () => $fields,
+            'getRecord' => fn () => $record,
+            'attributes' => new ComponentAttributeBag,
+            'getExtraAttributes' => fn () => [],
+            'isInline' => fn () => false,
+            ...groupColumnViewTableBag(),
+        ])->render();
+
+        $html = (string) $html;
+        Assert::assertStringContainsString('Dipendente', $html);
+        Assert::assertStringNotContainsString('class="fi-ta-group-value"> dip', $html);
     });
 });

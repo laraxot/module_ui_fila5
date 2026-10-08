@@ -1,19 +1,12 @@
 ---
-title: "Navigation Component"
-type: concept
-tags: [navigation]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "navigation navigation component"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./correct-filament-components.md"
-  - "./filament-component-integration.md"
-  - "./logo.md"
-  - "./user-dropdown.md"
+title: "navigation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "navigation"
+issues: []
+discussions: []
 ---
 
 # Navigation Component

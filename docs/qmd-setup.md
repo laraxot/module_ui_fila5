@@ -1,4 +1,7 @@
 ---
+qmd: "qmd setup"
+issues: []
+discussions: []
 title: "QMD Setup — Module UI"
 type: documentation
 created: 2026-05-11
@@ -66,6 +69,12 @@ qmd search "form" -c ui  # Solo questo modulo
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 - [On-Demand Pattern](./on-demand-pattern.md)
+---
+---
+---
+- [On-Demand Pattern](./on-demand-pattern.md)
+---
+---
 
 ---
 *Cache: ~/.cache/qmd-cache/ | Index: ~/.cache/qmd-cache/index*

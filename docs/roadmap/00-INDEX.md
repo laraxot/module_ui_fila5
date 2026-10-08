@@ -1,3 +1,14 @@
+---
+title: "00 INDEX"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 INDEX"
+issues: []
+discussions: []
+---
+
 # UI Module - Roadmap
 
 > Ecosistema UI Headless-first: Tailwind v4, Flux, Design Tokens.

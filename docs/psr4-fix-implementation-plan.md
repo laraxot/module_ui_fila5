@@ -1,11 +1,29 @@
+---
+title: "psr4 fix implementation plan"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "psr4 fix implementation plan"
+issues: []
+discussions: []
+---
+
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
-**Data**: Dicembre 15, 2025
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 
 ---
 
+title: "psr4 fix implementation plan"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "psr4 fix implementation plan"
+issues: []
+discussions: []
 ## 📊 Analisi Completa File Affetti
 
 ### File UI con Namespace Errato (11 totali)
@@ -29,7 +47,6 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 ### Import Statements da Verificare
 
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
-**modulo operativo/app/Filament/Resources/ClientResource.php**:
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
 ```

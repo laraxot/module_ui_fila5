@@ -1,6 +1,16 @@
+---
+title: "mcp ui ux"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp ui ux"
+issues: []
+discussions: []
+---
+
 # MCP Servers per UI/UX - Modulo UI
 
-> Ultimo aggiornamento: Febbraio 2026
 
 ## Scopo
 
@@ -35,7 +45,7 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 
 ## Collegamenti
 
-- [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
-- [Status MCP Progetto](../../../docs/mcp-servers-status.md)
+- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
+- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
 - [Skill MCP UI/UX](../../../.windsurf/skills/mcp-ui-ux/skill.md)
 - [Workflow MCP UI/UX](../../../.windsurf/workflows/mcp-ui-ux.md)
