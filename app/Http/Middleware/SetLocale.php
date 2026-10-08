@@ -20,7 +20,9 @@ final class SetLocale
     {
         // Recupera la lingua dalla sessione/URL o usa quella predefinita
         $locale = $request->route('lang') ?? $request->segment(1);
-        if ($request->segment(1) === 'en') $locale = 'en';
+        if ($request->segment(1) === 'en') {
+            $locale = 'en';
+        }
         if (! is_string($locale) || ! in_array($locale, ['it', 'en'], true)) {
             $locale = Session::get('locale', config('app.locale'));
         }
