@@ -1,4 +1,8 @@
 ---
+tags: [documentation]
+qmd: "custom theme"
+issues: []
+discussions: []
 title: "Custom theme"
 type: reference
 status: active

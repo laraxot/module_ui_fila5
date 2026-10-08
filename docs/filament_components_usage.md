@@ -1,3 +1,14 @@
+---
+title: "filament components usage"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "filament components usage"
+issues: []
+discussions: []
+---
+
 # Utilizzo dei Componenti Filament 
 
 ## Collegamenti correlati
@@ -154,8 +165,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 ## Errori Comuni
 
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
-2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
-2. **Percorso errato del provider**: Utilizzare `[project-root]/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `[project-root]/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/<nome progetto>/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/<nome progetto>/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato
 

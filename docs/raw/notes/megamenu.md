@@ -1,4 +1,7 @@
 ---
+qmd: "megamenu"
+issues: []
+discussions: []
 title: 'Megamenu — risorse esterne'
 module: UI
 type: reference

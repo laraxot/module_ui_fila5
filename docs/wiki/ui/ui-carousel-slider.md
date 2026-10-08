@@ -1,4 +1,7 @@
 ---
+qmd: "ui carousel slider"
+issues: []
+discussions: []
 title: "UI carousel slider"
 type: reference
 tags: [ui]

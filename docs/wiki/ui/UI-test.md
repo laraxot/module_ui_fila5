@@ -1,4 +1,7 @@
 ---
+qmd: "UI test"
+issues: []
+discussions: []
 title: "UI test"
 type: reference
 tags: [ui]
