@@ -83,6 +83,7 @@ unico entrypoint `execute()`). Azioni presenti, raggruppate per sotto-cartella:
   `Panel` senza modifiche. C'è un file gemello `.disabled` nella stessa cartella da rimuovere
   quando il pacchetto sarà aggiornato.
 
+<<<<<<< .merge_file_dICPEf
 ## Violazione regola di dipendenza — SOLO SEGNALAZIONE
 `app/Filament/Forms/Components/LocationSelector.php` importa `Modules\Geo\Models\Comune`
 (riga 11). La regola del progetto è che `Modules/UI` non deve mai dipendere da `Modules/Geo`
@@ -93,6 +94,11 @@ solo documentazione) — richiede intervento separato per spostare/rifattorizzar
 ## Violazione regola di dipendenza — chiusa
 
 `LocationSelector` importava `Modules\Geo\Models\Comune`: era una classe **Geo** messa in UI. In questo monorepo Geo è spento: il file attivo **non c’è** più (`test ! -f app/Filament/Forms/Components/LocationSelector.php`). Non ricrearlo, né come null-adapter, né con suffisso `.to_geo`.
+=======
+## Violazione regola di dipendenza — chiusa
+
+`LocationSelector` importava `Modules\Geo\Models\Comune`: era una classe **Geo** messa in UI. Ora vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (chiavi lingua `geo::location_selector.validation.*`); in UI il file non c'e' piu' (`test ! -f app/Filament/Forms/Components/LocationSelector.php`). Non ricrearlo in UI, ne' come stub che estende la classe Geo, ne' come null-adapter, ne' con suffisso `.to_geo`.
+>>>>>>> .merge_file_Fhh7W6
 
 Le Action di questo modulo restano quelle elencate sopra (icone, datetime, blocchi, user header). Niente Action di geocoding/mappe qui: quelle, se un giorno serviranno, sono `QueueableAction` in `Modules/Geo`.
 
