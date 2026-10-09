@@ -1,12 +1,8 @@
-<<<<<<< .merge_file_SURbYa
-=======
 ---
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
 ---
-
->>>>>>> .merge_file_VfYtBk
 # 🧩 UI Components - Documentation Index
 
 **Path**: `Modules/UI/docs/`  
