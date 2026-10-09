@@ -1,3 +1,12 @@
+<<<<<<< .merge_file_7gCwU7
+=======
+---
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
+---
+
+>>>>>>> .merge_file_Qg6CFr
 # Epics e User Stories - Modulo UI
 
 ## Epics

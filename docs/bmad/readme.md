@@ -1,3 +1,12 @@
+<<<<<<< .merge_file_UoCxUb
+=======
+---
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
+---
+
+>>>>>>> .merge_file_Mj6SL9
 # Documentation
 
 This directory contains documentation for the module.
