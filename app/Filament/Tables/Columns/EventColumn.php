@@ -29,7 +29,11 @@ final class EventColumn extends GroupColumn
 
     public static function make(?string $name = null): static
     {
+<<<<<<< .merge_file_3auufq
         $column = parent::make($name ?? static::DEFAULT_NAME);
+=======
+        $column = parent::make($name ?? self::DEFAULT_NAME);
+>>>>>>> .merge_file_PhqvJz
 
         return $column->schema($column->getSchema());
     }

@@ -1,3 +1,12 @@
+<<<<<<< .merge_file_aNU50c
+=======
+---
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
+---
+
+>>>>>>> .merge_file_VETiLq
 # Decision Log - Modulo UI
 
 ## Formato
