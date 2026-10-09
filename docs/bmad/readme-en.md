@@ -1,12 +1,9 @@
-<<<<<<< .merge_file_PkNq5o
-=======
 ---
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
 ---
 
->>>>>>> .merge_file_yytz2V
 # 🎨 UI — English presentation
 
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
