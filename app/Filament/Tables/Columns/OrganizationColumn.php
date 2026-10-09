@@ -24,11 +24,7 @@ final class OrganizationColumn extends GroupColumn
 
     public static function make(?string $name = null): static
     {
-<<<<<<< .merge_file_K3g0a8
-        $column = parent::make($name ?? static::DEFAULT_NAME);
-=======
         $column = parent::make($name ?? self::DEFAULT_NAME);
->>>>>>> .merge_file_BmGblp
 
         return $column->schema($column->getSchema());
     }
