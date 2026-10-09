@@ -1,12 +1,9 @@
-<<<<<<< .merge_file_NxvEwY
-=======
 ---
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
 ---
 
->>>>>>> .merge_file_9uZcYl
 # Componenti Form Avanzati
 
 ## 📝 Input Avanzati
