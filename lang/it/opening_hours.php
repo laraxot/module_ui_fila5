@@ -49,3 +49,4 @@ return [
     ],
     'test' => 'Orari di apertura',
 ];
+
