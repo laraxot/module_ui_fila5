@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE"
 issues: []
 discussions: []
+status: draft
 ---
 
 # $MOD Architecture
@@ -25,14 +26,6 @@ Core components and design decisions.
 
 See README.md for overview. See CONTRIBUTING.md for development workflow.
 ---
-title: "ARCHITECTURE"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "ARCHITECTURE"
-issues: []
-discussions: []
 # UI Module Architecture
 
 ## Overview

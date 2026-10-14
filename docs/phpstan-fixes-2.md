@@ -1,3 +1,11 @@
+---
+title: "Correzioni PHPStan - Modulo UI"
+type: note
+status: draft
+updated: 2026-10-07
+tags: [docs, ui]
+qmd: "correzioni phpstan - modulo ui ui"
+---
 # Correzioni PHPStan - Modulo UI
 
 Questo documento traccia gli errori PHPStan identificati nel modulo UI e le relative soluzioni implementate.
