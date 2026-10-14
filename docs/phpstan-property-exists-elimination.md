@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan property exists elimination"
 issues: []
 discussions: []
+status: draft
 ---
 
 # PHPStan Property Exists Elimination - UI Module

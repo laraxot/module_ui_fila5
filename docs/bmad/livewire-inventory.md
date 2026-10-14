@@ -12,7 +12,7 @@ related:
   - ./livewire-widget-product-brief.md
   - ./livewire-widget-conversion.md
   - ../../Xot/docs/bmad/livewire-widget-project-context.md
-  - ../../User/docs/bmad/livewire-inventory.md
+  - ../../../User/docs/bmad/livewire-inventory.md
   - ../stories/12.1.retire-ui-http-livewire.story.md
 ---
 
