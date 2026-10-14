@@ -5,7 +5,7 @@ module: UI
 epic: quality
 status: done
 related:
-  - ../../../Xot/docs/bmad/stories/merge-marker-fleet-residue.story.md
+  - ../../../../Xot/docs/bmad/stories/merge-marker-fleet-residue.story.md
 ---
 
 # git-status-fleet-merge-markers-ui
