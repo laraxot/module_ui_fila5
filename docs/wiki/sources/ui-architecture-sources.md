@@ -18,7 +18,7 @@ qmd: "ui architecture sources ui"
 
 - `README.md`
 - `architecture-1.md`
-- `product-strategy-1.md`
+- `product-strategy-documentation-themes.md`
 - `architecture/structure.md`
 
 ## Main Signals
