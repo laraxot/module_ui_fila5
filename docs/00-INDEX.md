@@ -32,7 +32,7 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 | Directory | Classe | File `.md` | Nota |
 |---|---|---|---|
 | `wiki/` | canonica | 64 (15 nella radice) | [concepts/](wiki/concepts/) (2 regole + indici), [standards/](wiki/standards/), [AGENTS.md](wiki/AGENTS.md); `schema/`, `decisions/`, `index/` contengono solo `.gitkeep` |
-| `stories/` | canonica | 7 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/2026-10-08-services-to-actions-ui.story.md), [PHPStan cleanup](stories/2026-10-06-phpstan-cleanup-ui.story.md) |
+| `stories/` | canonica | 7 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/services-to-actions-ui.story.md), [PHPStan cleanup](stories/phpstan-cleanup-ui.story.md) |
 | `bmad/` | canonica solo per `architecture.md` e `architecture/` | 51 | il resto e' misto: epic ([epics/](bmad/epics/)), brainstorming, 13 story in `bmad/stories/`, copie di documenti del wiki |
 | `investigation/` | evidence | 1 | [ui-investigation.md](investigation/ui-investigation.md) |
 | `phpstan*.md` (radice) | evidence | 8 | rapporti di correzione PHPStan (5 con corpo, es. [phpstan-patterns.md](phpstan-patterns.md)); 3 sono stub da 16 righe (`phpstan.md`, `phpstan-fixes-sumy.md`, `phpstan-corrections-sumy.md`) con `canonical:` verso `Themes/docs/shared-components/`, cartella che non esiste |
@@ -56,4 +56,4 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 - `pest Modules/UI/tests` con sqlite in memoria: 218 passati, 16 falliti, 1 risky, 109 saltati.
 - Link non risolti in `docs/`: 1522 eventi in 159 file; per causa: 1255 file del modulo che non esistono, 122 verso docs di altri
   moduli o temi, 84 verso `docs/` della radice del repo, 47 fuori dal modulo, 14 verso directory inesistenti.
-- Story del giorno: [2026-10-14-docs-ui-studio-e-ingressi](stories/2026-10-14-docs-ui-studio-e-ingressi.story.md).
+- Story del giorno: [2026-10-14-docs-ui-studio-e-ingressi](stories/docs-ui-studio-e-ingressi.story.md).

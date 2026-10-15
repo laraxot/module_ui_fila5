@@ -7,7 +7,7 @@ links:
   module: UI
   related_stories:
     - ui-module-bmad-setup.story.md
-    - 2026-10-06-phpstan-cleanup-ui.story.md
+    - phpstan-cleanup-ui.story.md
 created: 2026-10-14T13:36:00Z
 updated: 2026-10-14T13:36:00Z
 ---
