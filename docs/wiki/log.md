@@ -16,7 +16,7 @@ senza il file. Le decisioni stanno in [decision-log](../decision-log.md).
 
 ## 2026-10-14
 
-Studio del modulo contro i docs (story [2026-10-14-docs-ui-studio-e-ingressi](../stories/2026-10-14-docs-ui-studio-e-ingressi.story.md)).
+Studio del modulo contro i docs (story [2026-10-14-docs-ui-studio-e-ingressi](../stories/docs-ui-studio-e-ingressi.story.md)).
 
 - `README.md` e `00-INDEX.md` riscritti con percorsi e conteggi verificati sul codice; il link a `schema/` (cartella inesistente alla
   radice di `docs/`) e' stato tolto.
