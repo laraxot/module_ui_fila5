@@ -32,10 +32,17 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 | Directory | Classe | File `.md` | Nota |
 |---|---|---|---|
 | `wiki/` | canonica | 64 (15 nella radice) | [concepts/](wiki/concepts/) (2 regole + indici), [standards/](wiki/standards/), [AGENTS.md](wiki/AGENTS.md); `schema/`, `decisions/`, `index/` contengono solo `.gitkeep` |
+<<<<<<< .merge_file_ANYbxW
 | `stories/` | canonica | 7 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/services-to-actions-ui.story.md), [PHPStan cleanup](stories/phpstan-cleanup-ui.story.md) (placeholder creato 2026-10-15: era l'unico modulo senza story phpstan, link ora risolto) |
 | `bmad/` | canonica solo per `architecture.md` e `architecture/` | 51 | il resto e' misto: epic ([epics/](bmad/epics/)), brainstorming, 13 story in `bmad/stories/`, copie di documenti del wiki |
 | `investigation/` | evidence | 1 | [ui-investigation.md](investigation/ui-investigation.md) |
 | `phpstan*.md` (radice) | evidence | 8 | rapporti di correzione PHPStan (5 con corpo, es. [phpstan-patterns.md](phpstan-patterns.md)); 3 stub (`phpstan.md`, `phpstan-fixes-sumy.md`, `phpstan-corrections-sumy.md`) ripuntati il 2026-10-15 al path reale `Themes/Barthelemy/docs/shared-components/` (target verificati esistenti) |
+=======
+| `stories/` | canonica | 7 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/services-to-actions-ui.story.md), [PHPStan cleanup](stories/phpstan-cleanup-ui.story.md) |
+| `bmad/` | canonica solo per `architecture.md` e `architecture/` | 51 | il resto e' misto: epic ([epics/](bmad/epics/)), brainstorming, 13 story in `bmad/stories/`, copie di documenti del wiki |
+| `investigation/` | evidence | 1 | [ui-investigation.md](investigation/ui-investigation.md) |
+| `phpstan*.md` (radice) | evidence | 8 | rapporti di correzione PHPStan (5 con corpo, es. [phpstan-patterns.md](phpstan-patterns.md)); 3 sono stub da 16 righe (`phpstan.md`, `phpstan-fixes-sumy.md`, `phpstan-corrections-sumy.md`) con `canonical:` verso `Themes/docs/shared-components/`, cartella che non esiste |
+>>>>>>> .merge_file_u2xBpF
 | `prd.json`, `Config.bak/` | evidence | 4 file in `Config.bak/` | non usare come fonte |
 | `_archive/` | legacy | 148 | include un `INDEX.md` generato con 891 link non risolti |
 | `archive/`, `legacy/`, `root-md-files/` | legacy | 3, 8, 1 | non usare come fonte |
