@@ -1,3 +1,15 @@
+---
+title: "phpstan patterns"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "phpstan patterns"
+issues: []
+discussions: []
+status: draft
+---
+
 # PHPStan Level 10 - Pattern Riutilizzabili
 
 > **Modulo**: UI
@@ -5,7 +17,6 @@
 > **Filosofia**: DRY + KISS - Pattern semplici, riutilizzabili, focalizzati sul PERCHÉ
 
 ---
-
 ## 🎯 Perché Questi Pattern
 
 ### Business Logic

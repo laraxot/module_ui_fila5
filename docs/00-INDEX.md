@@ -1,110 +1,59 @@
-# 📚 **Indice Documentazione Modulo UI**
-
-**Status**: ✅ PHPStan Level 10 Compliant
-**Module Version**: 2.3.0
-
-## 🪮 Ponytail audit
-
-- [ponytail-audit-over-engineering.md](./ponytail-audit-over-engineering.md)
-- [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
-
-## 🎯 **Lettura Essenziale**
-1. [README.md](./readme.md) - Design System e overview componenti.
-2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
-3. [philosophy.md](./philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
-
-## 🏗️ **Core Design System**
-- 🎨 **[Layouts & Themes](./layouts-and-themes.md)** - Gestione dei temi per tenant e dark mode.
-- 📐 **[Architecture Rules](./architecture.md)** - Regole per la creazione di nuovi componenti UI.
-- 🖋️ **[Icon System](./icon-system.md)** - Integrazione di Blade Icons e set personalizzati.
-
-## 🧱 **Componenti & Widget**
-- 🧩 **[Blade Components](./blade-components.md)** - Libreria di componenti atomici riutilizzabili.
-- ⚡ **[Filament Components](./filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
-- 📍 **[Location Selector](./filament-components-location-studio.md)** - Componente avanzato per la selezione geografica.
-- 🏛️ **[Design Comuni FAQ Components](./design-comuni-faq-components.md)** - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search) ✅ 90%
-
-## 🏛️ **Design Comuni Italia - Replication**
-
-### Documentazione UI
-- [FAQ Components](./design-comuni-faq-components.md) - Componenti UI per pagina FAQ
-- [Blocks System](./blocks-system.md) - Sistema blocchi universali
-- [Design System](./design-system.md) - Design tokens e pattern
-
-### Link Bidirezionali - Tema Sixteen
-- [All Pages Analysis](../../Themes/Sixteen/docs/design-comuni/ALL_PAGES_ANALYSIS.md) - Analisi 54 pagine
-- [Progress Report](../../Themes/Sixteen/docs/design-comuni/PROGRESS_REPORT.md) - Report progresso
-- [Argomenti Analisi](../../Themes/Sixteen/docs/design-comuni/ARGOMENTI_ANALISI.md) - Analisi argomenti
-- [Risultati Ricerca](../../Themes/Sixteen/docs/design-comuni/RISULTATI_RICERCA_ANALISI.md) - Analisi ricerca
-- [FAQ HTML Analysis](../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_HTML_ANALYSIS.md) - Analisi HTML FAQ
-- [Master Index Tema](../../Themes/Sixteen/docs/design-comuni/00-index.md) - Index tema Sixteen
-
-### Link Bidirezionali - Modulo Cms
-- [Cms Design Comuni Index](../Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
-- [Cms FAQ](../Cms/docs/design-comuni-faq.md) - Architettura pagina FAQ
-- [Cms Homepage](../Cms/docs/design-comuni-homepage.md) - Analisi homepage
-
-### Link Bidirezionali - Master Index
-- [Master Index Globale](../../../docs/design-comuni/MASTER_INDEX.md) - Index globale progetto
-
-### Stato Implementazione
-| Componente | HTML | CSS | JS | Totale |
-|-----------|------|-----|----|--------|
-| Accordion | ✅ 95% | ✅ 90% | ✅ 90% | ✅ 92% |
-| Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
-| Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
-| Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
-
-## 🛠️ **Integrazioni Tecniche**
-- 🏗️ **[Tailwind v4 Upgrade](./filament-v4-theme-upgrade.md)** - Guida alla migrazione verso l'ultima versione di Tailwind.
-- 🛣️ **[Folio & Volt Themes](./struttura-themes-folio.md)** - Gestione dei temi nelle pagine Folio.
-- 🧪 **[Table Layout Enum](./table-layout-enum-complete-guide.md)** - Standardizzazione dei layout tabelle.
-
-## 🧪 **Qualità e Sviluppo**
-- ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
-- 🔬 **[Testing UI](./testing.md)** - Test di regressione visuale e componenti.
-
-## 🧹 **Manutenzione**
-- 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
-
-## 📦 **Pacchetti Composer**
-- [Riferimento completo](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md)
-- `owenvoke/blade-fontawesome` - Icone FontAwesome
-
-## 🔗 **Moduli Correlati**
-- [Xot](../../xot/docs/readme.md) - Base framework per i widget.
-- [Cms](../../cms/docs/readme.md) - Layout dei contenuti e blocchi.
-
+---
+title: "UI module documentation index"
+type: index
+status: active
+updated: 2026-10-14
+module: UI
+tags: [ui, module, documentation]
+qmd: "UI module documentation index"
 ---
 
-## 🏛️ **Design Comuni Italia - Replication**
+# UI - indice canonico
 
-### Documentazione FAQ
-- [FAQ Components](./design-comuni-faq-components.md) - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search)
-- [Blocks System](./blocks-system.md) - Sistema blocchi universali
-- [Design System](./design-system.md) - Design tokens e pattern
+Ingresso unico del `docs/` di `laravel/Modules/UI`, secondo il
+[contratto docs](../../../../bmad-output/docs-architecture/module-theme-docs-contract.md).
+Identita', cosa contiene il codice, quick start e limiti: [README](README.md). Non esiste `index.md` alla radice di `docs/`
+e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e sono elencati sotto come legacy.
 
-### Link Bidirezionali
-- **Modulo Cms**: [FAQ Page Architecture](../../Cms/docs/design-comuni-faq.md)
-- **Tema Sixteen**:
-  - [Analisi HTML](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_HTML_ANALYSIS.md)
-  - [Implementazione](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_IMPLEMENTAZIONE.md)
-  - [Analisi Visiva](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_ANALISI_VISIVA.md)
-  - [Report Finale](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_REPORT_FINALE.md)
-  - [Design Comuni Index](../../../Themes/Sixteen/docs/design-comuni/00-index.md)
-- **Scripts**: [Screenshot Script](../../../bashscripts/design-comuni/capture-faq-screenshots.js)
+## Leggere per primi
 
-### Stato Implementazione
-| Componente | HTML | CSS | JS | Totale |
-|-----------|------|-----|----|--------|
-| Accordion | ✅ 95% | ✅ 90% | ⏳ 0% | ⏳ 62% |
-| Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
-| Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
-| Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
+| Documento | Perche' |
+|---|---|
+| [README](README.md) | ownership, conteggi del codice, quick start, limiti (verificati 2026-10-14) |
+| [wiki/purpose.md](wiki/purpose.md) | scopo del modulo e confini; in coda una verifica datata dei numeri |
+| [wiki/scope.md](wiki/scope.md) | scopo in una riga |
+| [bmad/architecture.md](bmad/architecture.md) | mappa del codice per area; in coda le correzioni del 2026-10-14 |
+| [bmad/architecture/module-boundary.md](bmad/architecture/module-boundary.md) | confini e inventario |
+| [decision-log](decision-log.md) | decisioni indipendenti del modulo |
+| [wiki/log](wiki/log.md) | registro cronologico |
 
----
-*Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
+## Directory
 
-## Dependency Intelligence
+| Directory | Classe | File `.md` | Nota |
+|---|---|---|---|
+| `wiki/` | canonica | 64 (15 nella radice) | [concepts/](wiki/concepts/) (2 regole + indici), [standards/](wiki/standards/), [AGENTS.md](wiki/AGENTS.md); `schema/`, `decisions/`, `index/` contengono solo `.gitkeep` |
+| `stories/` | canonica | 7 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/services-to-actions-ui.story.md), [PHPStan cleanup](stories/phpstan-cleanup-ui.story.md) (placeholder creato 2026-10-15: era l'unico modulo senza story phpstan, link ora risolto) |
+| `bmad/` | canonica solo per `architecture.md` e `architecture/` | 51 | il resto e' misto: epic ([epics/](bmad/epics/)), brainstorming, 13 story in `bmad/stories/`, copie di documenti del wiki |
+| `investigation/` | evidence | 1 | [ui-investigation.md](investigation/ui-investigation.md) |
+| `phpstan*.md` (radice) | evidence | 8 | rapporti di correzione PHPStan (5 con corpo, es. [phpstan-patterns.md](phpstan-patterns.md)); 3 stub (`phpstan.md`, `phpstan-fixes-sumy.md`, `phpstan-corrections-sumy.md`) ripuntati il 2026-10-15 al path reale `Themes/Barthelemy/docs/shared-components/` (target verificati esistenti) |
+| `prd.json`, `Config.bak/` | evidence | 4 file in `Config.bak/` | non usare come fonte |
+| `_archive/` | legacy | 148 | include un `INDEX.md` generato con 891 link non risolti |
+| `archive/`, `legacy/`, `root-md-files/` | legacy | 3, 8, 1 | non usare come fonte |
 
-- [Dependency intelligence](dependency-intelligence.md)
+## Ingressi duplicati o non canonici
+
+- `wiki/00-INDEX.md`, `wiki/00-index.md`, `wiki/INDEX.md`, `wiki/index.md`, `wiki/readme.md` e `bmad/00-INDEX.md`, `bmad/00-index.md`,
+  `bmad/README.md`, `bmad/readme.md`: indici precedenti, non canonici. `wiki/00-index.md` dichiara "PHPStan Level 10 Compliant" e
+  "Module Version 2.3.0": una versione non e' dichiarata da `module.json` ne' da `composer.json`. `wiki/index.md` ha un titolo che
+  descrive una sessione di lavoro, non la cartella.
+- `bmad/purpose.md` e `wiki/purpose.md` hanno lo stesso corpo (verificato con `diff`): vale quello in `wiki/`.
+- `README.md`, `ARCHITECTURE.md`, `GETTING_STARTED.md` nella radice del modulo (fuori da `docs/`): il primo ha marker di merge non
+  risolti, gli altri segnaposto `$MOD`; non sono riferimenti.
+
+## Stato misurato (2026-10-14)
+
+- `phpstan analyse Modules/UI`: exit 0.
+- `pest Modules/UI/tests` con sqlite in memoria: 218 passati, 16 falliti, 1 risky, 109 saltati.
+- Link non risolti in `docs/`: 1522 eventi in 159 file; per causa: 1255 file del modulo che non esistono, 122 verso docs di altri
+  moduli o temi, 84 verso `docs/` della radice del repo, 47 fuori dal modulo, 14 verso directory inesistenti.
+- Story del giorno: [2026-10-14-docs-ui-studio-e-ingressi](stories/docs-ui-studio-e-ingressi.story.md).
