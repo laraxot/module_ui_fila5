@@ -10,7 +10,7 @@ qmd: "ui modulo componenti blade filament colonne campi blocchi widget readme qu
 # UI - documentazione
 
 Identita', ownership, quick start e limiti del modulo `Modules\UI`. L'indice operativo canonico del `docs/` e'
-[00-INDEX.md](00-INDEX.md); l'indice generale del repo e' [docs/README.md](../../../../docs/README.md).
+[00-INDEX.md](00-index.md); l'indice generale del repo e' [docs/README.md](../../../../docs/README.md).
 
 ## Identita' e ownership (verificato 2026-10-14)
 
