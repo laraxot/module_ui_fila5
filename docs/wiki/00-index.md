@@ -190,7 +190,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
 ---
-## Contenuto assorbito da `00-INDEX.md`
+## Contenuto assorbito da `00-index.md`
 # 🧩 UI Components - Documentation Index
 **Path**: `Modules/UI/docs/`  
 **Modulo**: @Modules/UI  
