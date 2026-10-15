@@ -44,7 +44,7 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 | `phpstan*.md` (radice) | evidence | 8 | rapporti di correzione PHPStan (5 con corpo, es. [phpstan-patterns.md](phpstan-patterns.md)); 3 sono stub da 16 righe (`phpstan.md`, `phpstan-fixes-sumy.md`, `phpstan-corrections-sumy.md`) con `canonical:` verso `Themes/docs/shared-components/`, cartella che non esiste |
 >>>>>>> .merge_file_u2xBpF
 | `prd.json`, `Config.bak/` | evidence | 4 file in `Config.bak/` | non usare come fonte |
-| `_archive/` | legacy | 148 | include un `INDEX.md` generato con 891 link non risolti |
+| `_archive/` | legacy | 148 | include un `index.md` generato con 891 link non risolti |
 | `archive/`, `legacy/`, `root-md-files/` | legacy | 3, 8, 1 | non usare come fonte |
 
 ## Ingressi duplicati o non canonici
