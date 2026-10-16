@@ -2,7 +2,7 @@
 title: "UI - documentazione del modulo"
 type: readme
 status: active
-updated: 2026-10-15
+updated: 2026-10-14
 module: UI
 tags: [docs, ui, readme]
 qmd: "ui modulo componenti blade filament colonne campi blocchi widget readme quick start"
@@ -10,7 +10,7 @@ qmd: "ui modulo componenti blade filament colonne campi blocchi widget readme qu
 # UI - documentazione
 
 Identita', ownership, quick start e limiti del modulo `Modules\UI`. L'indice operativo canonico del `docs/` e'
-[00-index.md](00-index.md); l'indice generale del repo e' [docs/README.md](../../../../docs/README.md).
+[00-INDEX.md](00-INDEX.md); l'indice generale del repo e' [docs/README.md](../../../../docs/README.md).
 
 ## Identita' e ownership (verificato 2026-10-14)
 
@@ -63,14 +63,3 @@ Per i test usare sempre un database di scratch: con la config cache i test colpi
 - Il `docs/` e' sproporzionato rispetto al codice: 294 file `.md`, di cui 148 in `_archive/`. Il piano di riordino e'
   `bmad-output/stories/docs-organization/` (DOC-004 e DOC-006 richiedono una migration map approvata).
 - Due file di configurazione quasi omonimi (`config/laravel-localization.php` e `config/laravellocalization.php`).
-
-## Standing order (qualita' + docs)
-
-- **PHPStan a zero** sul codice del modulo: non ignorare errori, non abbassare il livello, non modificare `phpstan.neon` del progetto. Qualita' + docs + BMAD sono standing order, non opzionali.
-- **Cartella test**: solo `tests/` (minuscolo). `Tests/` e' vietato (case-collision su macOS/Windows e confusione PSR-4).
-- **Nomi `.md`**: kebab-case minuscolo, niente date/timestamp nel nome, unica eccezione `README.md`. Se esistono `readme.md` e `README.md`, resta solo `README.md`.
-- **Docs**: solo dentro `docs/` gia' esistente; consolida invece di moltiplicare file; link relativi; focus su scopo/perche'/business logic (DRY + KISS).
-- **Git**: forward-only (patch in avanti); no reset/revert/checkout come scorciatoia.
-- **BMAD + second brain**: indici e decisioni vivono in `docs/` del modulo; aggiornali quando cambia il perche', non solo il come.
-
-Vedi anche: [00-index.md](./00-index.md) · [index.md](./index.md)
