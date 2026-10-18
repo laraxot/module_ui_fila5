@@ -2,85 +2,93 @@
 
 declare(strict_types=1);
 
-namespace Modules\UI\Tests\Feature\Filament\Widgets;
-
-use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
+use Tests\TestCase;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Modules\UI\Filament\Widgets\StatsOverviewWidget;
-use Modules\UI\Tests\TestCase;
-use PHPUnit\Framework\Assert;
-
-use function Safe\file_get_contents;
 
 uses(TestCase::class);
 
+beforeEach(function (): void {
+    $this->widget = new StatsOverviewWidget();
+});
+
 test('stats overview widget extends correct base class', function (): void {
-    $widget = new StatsOverviewWidget;
-    Assert::assertInstanceOf(FilamentStatsOverviewWidget::class, $widget);
+    expect($this->widget)->toBeInstanceOf(\Filament\Widgets\StatsOverviewWidget::class);
 });
 
 test('stats overview widget has correct namespace', function (): void {
-    Assert::assertStringContainsString('Modules\\UI\\Filament\\Widgets', StatsOverviewWidget::class);
+    expect(StatsOverviewWidget::class)->toContain('Modules\UI\Filament\Widgets');
 });
 
 test('stats overview widget has getStats method', function (): void {
-    $widget = new StatsOverviewWidget;
-    $reflection = new \ReflectionClass($widget);
-    Assert::assertTrue($reflection->hasMethod('getStats'));
+    expect($this->widget)->toHaveMethod('getStats');
 });
 
 test('stats overview widget returns correct stats', function (): void {
-    $widget = new StatsOverviewWidget;
-    $reflection = new \ReflectionClass($widget);
-    $method = $reflection->getMethod('getStats');
-    Assert::assertTrue($method->isProtected());
+    $stats = $this->widget->getStats();
 
-    $method->setAccessible(true);
-    $stats = $method->invoke($widget);
+    expect($stats)->toBeArray();
+    expect($stats)->toHaveCount(3);
 
-    Assert::assertIsArray($stats);
+    // Check first stat
+    expect($stats[0])->toBeInstanceOf(Stat::class);
+    expect($stats[0]->getLabel())->toBe('Unique views');
+    expect($stats[0]->getValue())->toBe('192.1k');
+
+    // Check second stat
+    expect($stats[1])->toBeInstanceOf(Stat::class);
+    expect($stats[1]->getLabel())->toBe('Bounce rate');
+    expect($stats[1]->getValue())->toBe('21%');
+
+    // Check third stat
+    expect($stats[2])->toBeInstanceOf(Stat::class);
+    expect($stats[2]->getLabel())->toBe('Average time on page');
+    expect($stats[2]->getValue())->toBe('3:12');
+});
+
+test('stats overview widget stats are instances of Stat class', function (): void {
+    $stats = $this->widget->getStats();
+
     foreach ($stats as $stat) {
-        Assert::assertInstanceOf(Stat::class, $stat);
+        expect($stat)->toBeInstanceOf(Stat::class);
     }
 });
 
 test('stats overview widget can be instantiated', function (): void {
-    $widget = new StatsOverviewWidget;
-    Assert::assertInstanceOf(StatsOverviewWidget::class, $widget);
+    expect($this->widget)->toBeInstanceOf(StatsOverviewWidget::class);
 });
 
 test('stats overview widget has correct strict types declaration', function (): void {
-    $reflection = new \ReflectionClass(StatsOverviewWidget::class);
+    $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
-    if ($filename !== false) {
+    if ($filename) {
         $content = file_get_contents($filename);
-        Assert::assertStringContainsString('declare(strict_types=1)', $content);
+        expect($content)->toContain('declare(strict_types=1);');
     }
 });
 
 test('stats overview widget getStats method is protected', function (): void {
-    $reflection = new \ReflectionClass(StatsOverviewWidget::class);
+    $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $getStatsMethod = $reflection->getMethod('getStats');
-    Assert::assertTrue($getStatsMethod->isProtected());
+
+    expect($getStatsMethod->isProtected())->toBeTrue();
 });
 
 test('stats overview widget getStats method has correct return type', function (): void {
-    $reflection = new \ReflectionClass(StatsOverviewWidget::class);
+    $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $getStatsMethod = $reflection->getMethod('getStats');
-    $returnType = $getStatsMethod->getReturnType();
 
-    Assert::assertNotNull($returnType);
-    Assert::assertInstanceOf(\ReflectionNamedType::class, $returnType);
-    Assert::assertSame('array', $returnType->getName());
+    expect($getStatsMethod->getReturnType()->getName())->toBe('array');
 });
 
 test('stats overview widget has correct use statements', function (): void {
-    $reflection = new \ReflectionClass(StatsOverviewWidget::class);
+    $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
-    if ($filename !== false) {
+    if ($filename) {
         $content = file_get_contents($filename);
-        Assert::assertStringContainsString('use Modules\\Xot\\Filament\\Widgets\\XotBaseStatsOverviewWidget;', $content);
+        expect($content)->toContain('use Filament\Widgets\StatsOverviewWidget as BaseWidget;');
+        expect($content)->toContain('use Filament\Widgets\StatsOverviewWidget\Stat;');
     }
 });
