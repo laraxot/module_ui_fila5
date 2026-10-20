@@ -14,6 +14,7 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./table-layout-toggle.md"
   - "../geo-boundary.md"
+status: draft
 ---
 
 # Generic UI Building Blocks: Category, Collection, FieldOption
