@@ -72,3 +72,14 @@ File cancellati, recuperabili da `HEAD` del repo `Modules/UI`: `git show HEAD:ap
 
 - I due Contract `UI\Contracts\*ServiceContract` e le implementazioni null non hanno consumatori (Geo ha i propri
   `Geo\Contracts\GeocodingServiceContract`). Valutare se eliminarli insieme (cluster Geo, onda 4).
+
+## Nota di verifica 2026-10-20
+
+Epic: [epic-services-to-queueable-actions](../../../../../bmad-output/epic-services-to-queueable-actions.md). Misura delle 13:00 UTC circa, righe volatili.
+
+- Su disco `UI/app/Services/` non esiste e `UIService.php` e' cancellato (commit `588b3817`, 12:19 UTC). `git -C Modules/UI ls-tree -r --name-only laraxot/dev -- app/Services | wc -l` restituisce 0.
+- Era un passthrough di `asset()` verso Xot `Actions/File/AssetAction` (15 righe, nessuna logica). Chiamanti del Service: zero. `AssetAction` ha 5 file di produzione, tutti di altri moduli.
+- Parita' da verificare: nulla oltre al passthrough; non serve una Action UI che incarti `AssetAction`, come gia' deciso sopra.
+- Restano classi nominate `*Service` che non sono Service: `Contracts/{Map,Geocoding}ServiceContract` e `Adapters/Map/Null*Adapter`, con zero consumatori. Restano in "Aperto".
+- Due copie di `LocationSelector`: `UI/app/Filament/Forms/Components/LocationSelector.php` (420 righe, cita 4 volte `\Modules\Geo\Models\Comune`, piu' un residuo `.php.to_geo`) e quella di Geo (406 righe). Decide la lane Geo quale resta; non indagato qui.
+- Nessuna Action nuova in W0; le decisioni sono in W2 e W3 dell'epic.

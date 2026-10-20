@@ -1,3 +1,13 @@
+---
+title: "Implementazione di stricttypes nel Modulo UI"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-18
+module: UI
+tags: [docs, ui]
+---
+
 # Implementazione di strict_types nel Modulo UI
 
 ## Importanza di declare(strict_types=1)

@@ -1,3 +1,13 @@
+---
+title: "Guida ai Componenti UI"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-18
+module: UI
+tags: [docs, ui]
+---
+
 # Guida ai Componenti UI
 
 ## Layout
