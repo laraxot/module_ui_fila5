@@ -100,3 +100,24 @@ Una seconda sessione con lo stesso brief ha trovato il lavoro sopra gia' fatto e
 - Decisione utente: cancellare `LocationSelector.php`, `LocationSelector.php.to_geo` e `lang/*/location_selector.php` da UI (tornano a ogni pull finche'
   upstream `laraxot/dev` li contiene).
 - Decisione upstream sugli scaffold di test (sezione sopra): senza, il prossimo pull riespande i test e il conteggio risale.
+
+## Wave swarm Media/Gdpr/UI (lane UI)
+
+TSV: `.cursor-scratch/phpstan-wave/UI.tsv` — **20** errori iniziali (`variable.unused`, `foreach.unusedValue`, `pest.test.emptyClosure`, `method.notFound` su `View::name()` con unione `ViewFactory|View`).
+
+### Scopo (1 frase)
+
+I test UI devono esercitare il contratto dei widget Filament (ereditarietà `Widget`, form schema) e il render dei Block verso una `Illuminate\View\View` concreta, non variabili morte o closure vuote.
+
+### Causa → fix
+
+| Famiglia | Causa | Fix |
+|---|---|---|
+| `variable.unused` / foreach | Istanza creata e non letta | Assert su comportamento (`getFormSchema`, `::class`, count) |
+| `method.notFound` `name()` | `Block::render(): ViewFactory\|View` | `assertTrue($view instanceof View)` poi `name()` |
+| `pest.test.emptyClosure` | Contratto enum/calendar senza assert | Assert su `getLabel`/`getColor`/`getIcon` o `::class` |
+| `is_subclass_of` always true | Tipo widget gia' ristretto | `Safe\class_parents` + `assertArrayHasKey(Widget::class, …)` |
+
+### Misura finale lane
+
+Path TSV UI (verifica flock con Media+Gdpr): **0** `file_errors`, exit **0**. Nessun ignore/baseline/neon.
