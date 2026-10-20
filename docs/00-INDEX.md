@@ -2,7 +2,7 @@
 title: "UI module documentation index"
 type: index
 status: active
-updated: 2026-10-14
+updated: 2026-10-20
 module: UI
 tags: [ui, module, documentation]
 qmd: "UI module documentation index"
@@ -22,6 +22,7 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 | [README](README.md) | ownership, conteggi del codice, quick start, limiti (verificati 2026-10-14) |
 | [wiki/purpose.md](wiki/purpose.md) | scopo del modulo e confini; in coda una verifica datata dei numeri |
 | [wiki/scope.md](wiki/scope.md) | scopo in una riga |
+| [stories/phpstan-wave-coord.story.md](stories/phpstan-wave-coord.story.md) | wave PHPStan: TSV `.cursor-scratch/phpstan-wave/UI.tsv` (no `analyse Modules` dalla lane) |
 | [bmad/architecture.md](bmad/architecture.md) | mappa del codice per area; in coda le correzioni del 2026-10-14 |
 | [bmad/architecture/module-boundary.md](bmad/architecture/module-boundary.md) | confini e inventario |
 | [decision-log](decision-log.md) | decisioni indipendenti del modulo |
@@ -32,7 +33,7 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 | Directory | Classe | File `.md` | Nota |
 |---|---|---|---|
 | `wiki/` | canonica | 64 (15 nella radice) | [concepts/](wiki/concepts/) (2 regole + indici), [standards/](wiki/standards/), [AGENTS.md](wiki/AGENTS.md); `schema/`, `decisions/`, `index/` contengono solo `.gitkeep` |
-| `stories/` | canonica | 7 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/services-to-actions-ui.story.md), [PHPStan cleanup](stories/phpstan-cleanup-ui.story.md) |
+| `stories/` | canonica | 8 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/services-to-actions-ui.story.md), [PHPStan test wave](stories/phpstan-test-wave-ui.story.md) (il link precedente a `phpstan-cleanup-ui.story.md` era rotto: il file non esiste) |
 | `bmad/` | canonica solo per `architecture.md` e `architecture/` | 51 | il resto e' misto: epic ([epics/](bmad/epics/)), brainstorming, 13 story in `bmad/stories/`, copie di documenti del wiki |
 | `investigation/` | evidence | 1 | [ui-investigation.md](investigation/ui-investigation.md) |
 | `phpstan*.md` (radice) | evidence | 8 | rapporti di correzione PHPStan (5 con corpo, es. [phpstan-patterns.md](phpstan-patterns.md)); 3 sono stub da 16 righe (`phpstan.md`, `phpstan-fixes-sumy.md`, `phpstan-corrections-sumy.md`) con `canonical:` verso `Themes/docs/shared-components/`, cartella che non esiste |
@@ -49,6 +50,12 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 - `bmad/purpose.md` e `wiki/purpose.md` hanno lo stesso corpo (verificato con `diff`): vale quello in `wiki/`.
 - `README.md`, `ARCHITECTURE.md`, `GETTING_STARTED.md` nella radice del modulo (fuori da `docs/`): il primo ha marker di merge non
   risolti, gli altri segnaposto `$MOD`; non sono riferimenti.
+
+## Stato misurato (2026-10-20)
+
+- Dopo il pull del 2026-10-20 i test del modulo erano tornati alla forma scaffold di upstream (720 errori PHPStan in 40 file).
+  Ripristinati i blob pre-pull e corretto `LocationSelector`: i 40 file misurano 0 errori. Dettagli, file ripristinati e decisioni
+  aperte (`LocationSelector` riapparso dal pull) in [phpstan-test-wave-ui](stories/phpstan-test-wave-ui.story.md).
 
 ## Stato misurato (2026-10-14)
 

@@ -19,7 +19,6 @@ use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\ToastWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Forms\Components\RadioCardSelector;
-use Modules\Ui\Http\Livewire\DarkModeSwitcher;
 use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -34,16 +33,8 @@ use ReflectionClass;
 uses(TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
-    test('DarkModeSwitcher mount toggle and render', function (): void {
-        $component = new DarkModeSwitcher;
-        $component->mount();
-        Assert::assertFalse($component->darkMode);
-        $component->toggleDarkMode();
-        Assert::assertTrue($component->darkMode);
-        Assert::assertInstanceOf(ViewContract::class, $component->render());
-    });
-
-    test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
+    // W0 REUSE: Http\Livewire\DarkModeSwitcher ritirato; SSoT = DarkModeSwitcherWidget.
+    test('DarkModeSwitcherWidget mount toggle and render (SSoT panel)', function (): void {
         $widget = new DarkModeSwitcherWidget;
         $widget->mount();
         Assert::assertFalse($widget->darkMode);

@@ -7,173 +7,102 @@ namespace Modules\UI\Tests\Unit\Enums;
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Enums\TableLayoutEnum;
-use Tests\TestCase;
+use Modules\UI\Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
-class TableLayoutEnumTest extends TestCase
-{
-    /**
-     * Test enum values.
-     */
-    public function test_enum_values(): void
-    {
-        static::assertSame('list', TableLayoutEnum::LIST->value);
-        static::assertSame('grid', TableLayoutEnum::GRID->value);
-    }
+uses(TestCase::class);
 
-    /**
-     * Test default layout.
-     */
-    public function test_default_layout(): void
-    {
-        $default = TableLayoutEnum::init();
-        static::assertSame(TableLayoutEnum::LIST, $default);
-    }
+it('has enum values', function (): void {
+    Assert::assertSame('list', TableLayoutEnum::LIST->value);
+    Assert::assertSame('grid', TableLayoutEnum::GRID->value);
+});
 
-    /**
-     * Test toggle functionality.
-     */
-    public function test_toggle_functionality(): void
-    {
-        $list = TableLayoutEnum::LIST;
-        $grid = TableLayoutEnum::GRID;
+it('resolves localized layout icon names from the enum value translation group', function (): void {
+    app()->setLocale('it');
 
-        static::assertSame($grid, $list->toggle());
-        static::assertSame($list, $grid->toggle());
-    }
+    Assert::assertSame('Lista', TableLayoutEnum::LIST->getLabel());
+    Assert::assertSame('Griglia', TableLayoutEnum::GRID->getLabel());
+    Assert::assertSame('heroicon-o-list-bullet', TableLayoutEnum::LIST->getIcon());
+    Assert::assertSame('heroicon-o-squares-2x2', TableLayoutEnum::GRID->getIcon());
+});
 
-    /**
-     * Test layout type checks.
-     */
-    public function test_layout_type_checks(): void
-    {
-        $list = TableLayoutEnum::LIST;
-        $grid = TableLayoutEnum::GRID;
+it('has default layout', function (): void {
+    $default = TableLayoutEnum::init();
+    Assert::assertSame(TableLayoutEnum::LIST, $default);
+});
 
-        static::assertTrue($list->isListLayout());
-        static::assertFalse($list->isGridLayout());
+it('toggles between layouts', function (): void {
+    $list = TableLayoutEnum::LIST;
+    $grid = TableLayoutEnum::GRID;
 
-        static::assertTrue($grid->isGridLayout());
-        static::assertFalse($grid->isListLayout());
-    }
+    Assert::assertSame($grid, $list->toggle());
+    Assert::assertSame($list, $grid->toggle());
+});
 
-    /**
-     * Test grid configuration.
-     */
-    public function test_grid_configuration(): void
-    {
-        $grid = TableLayoutEnum::GRID;
-        $config = $grid->getTableContentGrid();
+it('checks layout types correctly', function (): void {
+    $list = TableLayoutEnum::LIST;
+    $grid = TableLayoutEnum::GRID;
 
-        static::assertIsArray($config);
-        static::assertArrayHasKey('sm', $config);
-        static::assertArrayHasKey('md', $config);
-        static::assertArrayHasKey('lg', $config);
-        static::assertArrayHasKey('xl', $config);
-        static::assertArrayHasKey('2xl', $config);
-    }
+    Assert::assertTrue($list->isListLayout());
+    Assert::assertFalse($list->isGridLayout());
+    Assert::assertTrue($grid->isGridLayout());
+    Assert::assertFalse($grid->isListLayout());
+});
 
-    /**
-     * Test table columns method.
-     */
-    public function test_table_columns_method(): void
-    {
-        $list = TableLayoutEnum::LIST;
-        $grid = TableLayoutEnum::GRID;
+it('has grid configuration', function (): void {
+    $grid = TableLayoutEnum::GRID;
+    $config = $grid->getTableContentGrid();
 
-        $listColumns = [
+    Assert::assertIsArray($config);
+    Assert::assertArrayHasKey('sm', $config);
+    Assert::assertArrayHasKey('md', $config);
+    Assert::assertArrayHasKey('lg', $config);
+    Assert::assertArrayHasKey('xl', $config);
+    Assert::assertArrayHasKey('2xl', $config);
+});
+
+it('returns correct table columns based on layout', function (): void {
+    $list = TableLayoutEnum::LIST;
+    $grid = TableLayoutEnum::GRID;
+
+    $listColumns = [
+        TextColumn::make('name'),
+        TextColumn::make('email'),
+    ];
+
+    $gridColumns = [
+        Stack::make([
             TextColumn::make('name'),
             TextColumn::make('email'),
-        ];
+        ]),
+    ];
 
-        $gridColumns = [
-            Stack::make([
-                TextColumn::make('name'),
-                TextColumn::make('email'),
-            ]),
-        ];
+    // Test list layout
+    $result = $list->getTableColumns($listColumns, $gridColumns);
+    Assert::assertSame($listColumns, $result);
+    // Test grid layout
+    $result = $grid->getTableColumns($listColumns, $gridColumns);
+    Assert::assertSame($gridColumns, $result);
+});
 
-        // Test list layout
-        $result = $list->getTableColumns($listColumns, $gridColumns);
-        static::assertSame($listColumns, $result);
+it('has options', function (): void {
+    $options = TableLayoutEnum::getOptions();
 
-        // Test grid layout
-        $result = $grid->getTableColumns($listColumns, $gridColumns);
-        static::assertSame($gridColumns, $result);
-    }
+    Assert::assertArrayHasKey('list', $options);
+    Assert::assertArrayHasKey('grid', $options);
+    Assert::assertIsString($options['list']);
+    Assert::assertIsString($options['grid']);
+    Assert::assertNotEmpty($options['list']);
+    Assert::assertNotEmpty($options['grid']);
+});
 
-    /**
-     * Test options method.
-     */
-    public function test_options_method(): void
-    {
-        $options = TableLayoutEnum::getOptions();
+it('has container classes', function (): void {
+    $list = TableLayoutEnum::LIST;
+    $grid = TableLayoutEnum::GRID;
 
-        static::assertIsArray($options);
-        static::assertArrayHasKey('list', $options);
-        static::assertArrayHasKey('grid', $options);
-        static::assertSame(TableLayoutEnum::LIST, $options['list']);
-        static::assertSame(TableLayoutEnum::GRID, $options['grid']);
-    }
+    $listClasses = $list->getContainerClasses();
+    $gridClasses = $grid->getContainerClasses();
 
-    /**
-     * Test container classes.
-     */
-    public function test_container_classes(): void
-    {
-        $list = TableLayoutEnum::LIST;
-        $grid = TableLayoutEnum::GRID;
-
-        $listClasses = $list->getContainerClasses();
-        $gridClasses = $grid->getContainerClasses();
-
-        static::assertIsString($listClasses);
-        static::assertIsString($gridClasses);
-        static::assertNotEmpty($listClasses);
-        static::assertNotEmpty($gridClasses);
-    }
-
-    /**
-     * Test translation support.
-     */
-    public function test_translation_support(): void
-    {
-        $list = TableLayoutEnum::LIST;
-        $grid = TableLayoutEnum::GRID;
-
-        // Test that labels are translatable
-        $listLabel = $list->getLabel();
-        $gridLabel = $grid->getLabel();
-
-        static::assertIsString($listLabel);
-        static::assertIsString($gridLabel);
-        static::assertNotEmpty($listLabel);
-        static::assertNotEmpty($gridLabel);
-    }
-
-    /**
-     * Test color and icon methods.
-     */
-    public function test_color_and_icon_methods(): void
-    {
-        $list = TableLayoutEnum::LIST;
-        $grid = TableLayoutEnum::GRID;
-
-        // Test colors
-        $listColor = $list->getColor();
-        $gridColor = $grid->getColor();
-
-        static::assertIsString($listColor);
-        static::assertIsString($gridColor);
-        static::assertNotEmpty($listColor);
-        static::assertNotEmpty($gridColor);
-
-        // Test icons
-        $listIcon = $list->getIcon();
-        $gridIcon = $grid->getIcon();
-
-        static::assertIsString($listIcon);
-        static::assertIsString($gridIcon);
-        static::assertNotEmpty($listIcon);
-        static::assertNotEmpty($gridIcon);
-    }
-}
+    Assert::assertGreaterThan(0, strlen($listClasses));
+    Assert::assertGreaterThan(0, strlen($gridClasses));
+});
