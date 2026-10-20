@@ -20,7 +20,7 @@ related:
 
 ## Shard di architettura
 
-- [architecture/module-boundary.md](module-boundary.md) — confini, conteggi, decisioni da confermare, gate
+- [architecture/module-boundary.md](architecture/module-boundary.md) — confini, conteggi, decisioni da confermare, gate
 
 ## Namespace e composizione
 
@@ -129,3 +129,19 @@ Relazioni autoreferenziate: il modello non dichiara metodi `children`/`parent`; 
 - PHPStan: da verificare con `./vendor/bin/phpstan analyse Modules/UI` (non eseguito in questa campagna).
 - Pest: da eseguire in ambiente non produzione (host `10.100.200.15` escluso).
 - Marker di merge e lock: monitorati dalle story `stories/root-hygiene-conflict-markers.story.md` e `stories/git-status-fleet-merge-markers-ui.story.md`.
+
+## Verifica del 2026-10-14
+
+Confronto di questa mappa con `laravel/Modules/UI`; il testo sopra non e' stato riscritto. Dove diverge, vale questa sezione.
+
+| Affermazione sopra | Stato reale |
+|---|---|
+| `app/Services/UIService.php`, `ComponentService.php`, `ThemeService.php`, `app/Services/Map/Null*` | la cartella `app/Services` non esiste piu' (spostata in Actions, story `2026-10-08-services-to-actions-ui`); restano gli adapter in `app/Adapters/Map/` |
+| `resources/lang/it` e `resources/lang/en` | `resources/lang` non esiste; le traduzioni sono in `lang/` con 11 lingue e `it.json` |
+| 15 colonne tabella, 11 widget | 17 colonne (all'elenco mancano `EventColumn` e `OrganizationColumn`), 12 widget (manca `ToastWidget`) |
+| 121 file PHP in `app/`, 77 in `tests/` | 123 in `app/`, 81 in `tests/` |
+| `LocationSelector.php.old` e `.to_geo` in `Forms/Components` | non ci sono; i file parcheggiati sono `ApplyCalendarToPanelAction.php.disabled`, tre varianti di `UserCalendarWidget.php`, `Http/Kernel.php.no`, `Livewire/Components/Map/InteractiveMap.php.old`, `Traits/TableLayoutTrait.php.bak` |
+| PHPStan "non eseguito in questa campagna" | `phpstan analyse Modules/UI` exit 0 il 2026-10-14 |
+| Pest "da eseguire in ambiente non produzione" | eseguito con sqlite in memoria: 218 passati, 16 falliti, 1 risky, 109 saltati |
+
+Il frontmatter di questo file ha la chiave `title` ripetuta due volte.
