@@ -71,6 +71,32 @@ Scopo dei file prima del pull, per cluster:
 
 ## Nota su git
 
-`docs/.gitignore` riga 214 (`phpstan*`) ignora questa story (`git check-ignore` la conferma): senza una riga `!stories/phpstan-test-wave-ui.story.md`
-o un `git add -f` non entrera' nel repo del modulo. Il `.gitignore` non e' stato modificato (fuori dal perimetro della lane). Il link da
-`docs/00-INDEX.md` punta quindi a un file locale finche' la regola non cambia.
+`docs/.gitignore` riga 214 (`phpstan*`, regola copiata dal template dei tool di root) ignorava le story con `phpstan` nel nome. Risolto nella
+seconda passata: riga 216 `!stories/phpstan-*.story.md` (vale anche per le story di lane future). `git check-ignore` non la ignora piu' e la story
+e' tracciata nel repo del modulo.
+
+## Seconda passata della lane (verifica indipendente)
+
+Una seconda sessione con lo stesso brief ha trovato il lavoro sopra gia' fatto e ha verificato invece di rifarlo.
+
+- **Scopo di `LocationSelector` ricostruito**: select a cascata regione, provincia, CAP sui dati `Modules\Geo\Models\Comune` (colonne JSON
+  `regione`, `provincia`, `cap`), con `getGeographicData()` per risalire al comune. E' un componente Geo ospitato in UI (regola: UI non dipende da Geo,
+  Geo canonico in `Modules/Geo/app/Filament/Forms/Components/LocationSelector.php`). Il codice interroga `Comune` per stringa dietro `class_exists`,
+  quindi non crea una dipendenza dura, ma resta fuori posto. I 17 errori del baseline erano un solo difetto di tipi: proprieta' `array` senza shape
+  (mixed passato a `label()` e `placeholder()`), cast di `mixed` ripetuti, `@phpstan-ignore` tornati dal pull. Il fix della prima passata e' corretto
+  alla sorgente (nessun ignore, nessun `@var`, un solo helper tipizzato).
+- **Doc resa falsa corretta**: `docs/wiki/actions/generic-ui-building-blocks.md` aveva tre sezioni sovrapposte sul `LocationSelector` (residuo di merge), due
+  delle quali affermavano che il file in UI non esiste. Ora c'e' una sola sezione che dice lo stato reale e rimanda a questa story.
+- **Nota su git** sopra corretta (riga `!stories/phpstan-*.story.md` aggiunta a `docs/.gitignore`).
+- **Misura**: `phpstan analyse Modules/UI --memory-limit=2G --no-progress --error-format=raw` dalla cartella `laravel/`, exit **0**, nessun errore
+  (output di sola nota di configurazione), eseguito dopo il merge `10805108` che ha portato `tests/Unit/UiGapCloser100Test.php`. `php -l` pulito su
+  `LocationSelector.php`. Un primo run mirato aveva fallito per cache dei risultati che puntava a `Modules/Job/app/Services/ScheduleService.php`, cancellato
+  da un'altra lane: errore transitorio del gate condiviso, non del codice UI.
+- **`UIService`**: rimosso da `1047aa32` (zero chiamanti, verificato con `rg` su moduli e temi). Non c'e' niente da convertire in Action. Alla conversione
+  dei `*Service` (epic del coordinatore) `Modules/UI` non ha lavoro residuo; restano i componenti Livewire elencati in `docs/bmad/livewire-inventory.md`.
+
+## Cosa resta
+
+- Decisione utente: cancellare `LocationSelector.php`, `LocationSelector.php.to_geo` e `lang/*/location_selector.php` da UI (tornano a ogni pull finche'
+  upstream `laraxot/dev` li contiene).
+- Decisione upstream sugli scaffold di test (sezione sopra): senza, il prossimo pull riespande i test e il conteggio risale.
