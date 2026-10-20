@@ -13,6 +13,9 @@ swarm:
     - Lang
     - UI
   story: laravel/Modules/Xot/docs/bmad/stories/phpstan-modules-swarm-random-20261006.story.md
+updated: 2026-10-07
+tags: [docs, ui, bmad]
+qmd: "ui   swarm cluster3 phpstan 2026-10-06 ui"
 ---
 
 # UI — swarm cluster3 PHPStan 2026-10-06
