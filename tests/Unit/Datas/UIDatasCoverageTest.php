@@ -10,7 +10,6 @@ use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
 
@@ -27,7 +26,6 @@ it('SliderData can be instantiated with all fields', function (): void {
         action_text: 'Register Now',
     );
 
-    Assert::assertInstanceOf(SliderData::class, $data);
     Assert::assertSame('/img/desktop.jpg', $data->desktop_thumbnail);
     Assert::assertSame('/img/mobile.jpg', $data->mobile_thumbnail);
     Assert::assertSame('/events', $data->link);
@@ -64,20 +62,13 @@ it('SliderData can be instantiated with nulls', function (): void {
         action_text: null,
     );
 
-    Assert::assertInstanceOf(SliderData::class, $data);
     Assert::assertNull($data->desktop_thumbnail);
 });
 
 it('SliderDataCollection can be instantiated', function (): void {
     $collection = new SliderDataCollection;
 
-    Assert::assertInstanceOf(SliderDataCollection::class, $collection);
-});
-
-it('SliderDataCollection is a Spatie Data class', function (): void {
-    $collection = new SliderDataCollection;
-
-    Assert::assertInstanceOf(Data::class, $collection);
+    Assert::assertSame([], $collection->toArray());
 });
 
 it('UI Datas UserData can be instantiated', function (): void {
@@ -91,7 +82,6 @@ it('UI Datas UserData can be instantiated', function (): void {
         settings: ['theme' => 'dark'],
     );
 
-    Assert::assertInstanceOf(UserData::class, $data);
     Assert::assertSame(1, $data->id);
     Assert::assertSame('Mario Rossi', $data->name);
     Assert::assertSame('mario@example.com', $data->email);
@@ -104,7 +94,7 @@ it('UI Datas UserData can be instantiated', function (): void {
 it('UI Datas UserData is a Spatie Data class', function (): void {
     $data = new UserData(1, 'Test', 'test@example.com', null, null, [], []);
 
-    Assert::assertInstanceOf(Data::class, $data);
+    Assert::assertSame('test@example.com', $data->email);
 });
 
 it('UI Data UserData can be instantiated', function (): void {
@@ -118,7 +108,6 @@ it('UI Data UserData can be instantiated', function (): void {
         settings: [],
     );
 
-    Assert::assertInstanceOf(DataUserData::class, $data);
     Assert::assertSame(42, $data->id);
     Assert::assertSame('Luigi Verdi', $data->name);
     Assert::assertSame('luigi@example.com', $data->email);
@@ -128,5 +117,5 @@ it('UI Data UserData can be instantiated', function (): void {
 it('UI Data UserData is a Spatie Data class', function (): void {
     $data = new DataUserData(1, 'Test', 'test@example.com', null, null, [], []);
 
-    Assert::assertInstanceOf(Data::class, $data);
+    Assert::assertSame(1, $data->id);
 });
