@@ -1,3 +1,13 @@
+---
+title: "MCP Server Consigliati per il Modulo UI"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-18
+module: UI
+tags: [docs, ui]
+---
+
 # MCP Server Consigliati per il Modulo UI
 
 ## Scopo del Modulo

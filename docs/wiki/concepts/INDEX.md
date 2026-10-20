@@ -4,8 +4,9 @@ type: index
 tags: [concepts, UI]
 created: 2026-05-11
 updated: 2026-05-11
-status: draft
 qmd: "concepts index   ui ui"
+status: superseded
+superseded_by: index.md
 ---
 
 # concepts Index — UI

@@ -1,3 +1,13 @@
+---
+title: "Utilizzo dei Componenti Blade di Filament"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-18
+module: UI
+tags: [docs, ui]
+---
+
 # Utilizzo dei Componenti Blade di Filament 
 
 ## Indice
