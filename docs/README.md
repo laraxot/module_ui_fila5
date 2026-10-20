@@ -37,7 +37,7 @@ Identita', ownership, quick start e limiti del modulo `Modules\UI`. L'indice ope
 | Test | `tests/` | 81 file PHP |
 
 `app/Filament/Resources/` contiene solo `Pages/BaseListRecords.php`: UI non ha Resource CRUD. `routes/web.php` e `routes/api.php` sono vuote.
-`app/Services` non esiste piu' (spostato in Actions, vedi la story 2026-10-08-services-to-actions-ui).
+`app/Services` non contiene use case: la logica applicativa vive nelle Queueable Actions, come descritto nella story [services-to-actions-ui](stories/services-to-actions-ui.story.md).
 
 ## Quick start
 

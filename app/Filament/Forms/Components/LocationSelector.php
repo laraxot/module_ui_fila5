@@ -49,11 +49,15 @@ class LocationSelector extends Group
 
     /**
      * Label personalizzate per i campi.
+     *
+     * @var array<string, string>
      */
     protected array $labels = [];
 
     /**
      * Placeholder personalizzati per i campi.
+     *
+     * @var array<string, string>
      */
     protected array $placeholders = [];
 
@@ -225,7 +229,6 @@ class LocationSelector extends Group
             if (! class_exists($model)) {
                 return [];
             }
-            /** @phpstan-ignore-next-line */
             $regions = $model::select('regione')
                 ->distinct()
                 ->orderBy('regione->nome')
@@ -233,10 +236,7 @@ class LocationSelector extends Group
                 ->pluck('regione.nome', 'regione.codice')
                 ->toArray();
 
-            return array_map(static fn ($value): string => (string) $value, array_combine(
-                array_map(static fn ($value): string => (string) $value, array_keys($regions)),
-                array_map(static fn ($value): string => (string) $value, array_values($regions))
-            )) ?: [];
+            return $this->toStringMap($regions);
         } catch (Exception $e) {
             // Log dell'errore per debug
             Log::error('LocationSelector: Errore nel caricamento regioni', [
@@ -260,7 +260,6 @@ class LocationSelector extends Group
             if (! class_exists($model)) {
                 return [];
             }
-            /** @phpstan-ignore-next-line */
             $provinces = $model::query()
                 ->where('regione->codice', $region)
                 ->select('provincia')
@@ -270,10 +269,7 @@ class LocationSelector extends Group
                 ->pluck('provincia.nome', 'provincia.codice')
                 ->toArray();
 
-            return array_map(static fn ($value): string => (string) $value, array_combine(
-                array_map(static fn ($value): string => (string) $value, array_keys($provinces)),
-                array_map(static fn ($value): string => (string) $value, array_values($provinces))
-            )) ?: [];
+            return $this->toStringMap($provinces);
         } catch (Exception $e) {
             Log::error('LocationSelector: Errore nel caricamento province', [
                 'region' => $region,
@@ -298,7 +294,6 @@ class LocationSelector extends Group
             if (! class_exists($model)) {
                 return [];
             }
-            /** @phpstan-ignore-next-line */
             $caps = $model::query()
                 ->where('regione->codice', $region)
                 ->where('provincia->codice', $province)
@@ -309,10 +304,7 @@ class LocationSelector extends Group
                 ->pluck('cap.0', 'cap.0')
                 ->toArray();
 
-            return array_map(static fn ($value): string => (string) $value, array_combine(
-                array_map(static fn ($value): string => (string) $value, array_keys($caps)),
-                array_map(static fn ($value): string => (string) $value, array_values($caps))
-            )) ?: [];
+            return $this->toStringMap($caps);
         } catch (Exception $e) {
             Log::error('LocationSelector: Errore nel caricamento CAP', [
                 'region' => $region,
@@ -325,28 +317,47 @@ class LocationSelector extends Group
     }
 
     /**
+     * Normalizza il risultato di pluck()->toArray() in una mappa codice => etichetta di stringhe.
+     *
+     * @param  array<array-key, mixed>  $items
+     * @return array<string, string>
+     */
+    private function toStringMap(array $items): array
+    {
+        $map = [];
+        foreach ($items as $key => $value) {
+            $map[(string) $key] = is_scalar($value) ? (string) $value : '';
+        }
+
+        return $map;
+    }
+
+    /**
      * Validazione custom per verificare la coerenza dei dati.
+     *
+     * @return array<int, string>
      */
     public function validate(): array
     {
         $state = $this->getState();
         $errors = [];
 
+        if (! is_array($state)) {
+            return $errors;
+        }
+
+        $capValue = $state[$this->capFieldName] ?? null;
+        $regionValue = $state[$this->regionFieldName] ?? null;
+        $provinceValue = $state[$this->provinceFieldName] ?? null;
+
         // Verifica che se è selezionata una provincia, sia selezionata anche la regione
-        /** @phpstan-ignore offsetAccess.nonOffsetAccessible, offsetAccess.nonOffsetAccessible */
-        if (! empty($state[$this->provinceFieldName]) && empty($state[$this->regionFieldName])) {
+        if (! empty($provinceValue) && empty($regionValue)) {
             $errors[] = __('ui::location_selector.validation.region_required_for_province');
         }
 
         // Verifica che se è selezionato un CAP, siano selezionate regione e provincia
-        if (is_array($state)) {
-            $capValue = $state[$this->capFieldName] ?? null;
-            $regionValue = $state[$this->regionFieldName] ?? null;
-            $provinceValue = $state[$this->provinceFieldName] ?? null;
-
-            if (! empty($capValue) && (empty($regionValue) || empty($provinceValue))) {
-                $errors[] = __('ui::location_selector.validation.region_province_required_for_cap');
-            }
+        if (! empty($capValue) && (empty($regionValue) || empty($provinceValue))) {
+            $errors[] = __('ui::location_selector.validation.region_province_required_for_cap');
         }
 
         return $errors;
@@ -360,8 +371,7 @@ class LocationSelector extends Group
     public function getGeographicData(): ?array
     {
         $state = $this->getState();
-        /** @phpstan-ignore offsetAccess.nonOffsetAccessible */
-        if (empty($state[$this->regionFieldName])) {
+        if (! is_array($state) || empty($state[$this->regionFieldName])) {
             return null;
         }
 
@@ -370,15 +380,12 @@ class LocationSelector extends Group
             if (! class_exists($model)) {
                 return null;
             }
-            /** @phpstan-ignore-next-line */
             $query = $model::query()->where('regione->codice', $state[$this->regionFieldName]);
 
-            /** @phpstan-ignore offsetAccess.nonOffsetAccessible */
             if (! empty($state[$this->provinceFieldName])) {
                 $query->where('provincia->codice', $state[$this->provinceFieldName]);
             }
 
-            /** @phpstan-ignore offsetAccess.nonOffsetAccessible */
             if (! empty($state[$this->capFieldName])) {
                 $query->where('cap->0', $state[$this->capFieldName]);
             }
@@ -398,9 +405,7 @@ class LocationSelector extends Group
                     'code' => $comune->provincia['codice'] ?? null,
                     'name' => $comune->provincia['nome'] ?? null,
                 ],
-                /** @phpstan-ignore offsetAccess.nonOffsetAccessible */
                 'cap' => $state[$this->capFieldName] ?? null,
-                /** @phpstan-ignore-next-line */
                 'city' => $comune->nome ?? null,
             ];
         } catch (Exception $e) {
