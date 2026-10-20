@@ -84,23 +84,13 @@ unico entrypoint `execute()`). Azioni presenti, raggruppate per sotto-cartella:
   `Panel` senza modifiche. C'è un file gemello `.disabled` nella stessa cartella da rimuovere
   quando il pacchetto sarà aggiornato.
 
-## Violazione regola di dipendenza — SOLO SEGNALAZIONE
-`app/Filament/Forms/Components/LocationSelector.php` importa `Modules\Geo\Models\Comune`
-(riga 11). La regola del progetto è che `Modules/UI` non deve mai dipendere da `Modules/Geo`
-(la direzione corretta è Geo → UI). Esiste anche un file gemello
-`LocationSelector.php.to_geo` con lo stesso import, che sembra un'indicazione che il file va
-spostato nel modulo Geo ma non è stato ancora fatto. Non corretto in questo task (fuori scope,
-solo documentazione) — richiede intervento separato per spostare/rifattorizzare il componente.
-## Violazione regola di dipendenza — chiusa
+## Violazione regola di dipendenza (LocationSelector)
 
-`LocationSelector` importava `Modules\Geo\Models\Comune`: era una classe **Geo** messa in UI. In questo monorepo Geo è spento: il file attivo **non c’è** più (`test ! -f app/Filament/Forms/Components/LocationSelector.php`). Non ricrearlo, né come null-adapter, né con suffisso `.to_geo`.
-## Violazione regola di dipendenza — chiusa
+`LocationSelector` e' una classe **Geo** finita in UI: importa `Modules\Geo\Models\Comune` (per stringa, dietro `class_exists`). La regola del progetto e' che `Modules/UI` non dipende da `Modules/Geo` (direzione corretta: Geo verso UI). La versione canonica vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (chiavi lingua `geo::location_selector.*`).
 
-`LocationSelector` importava `Modules\Geo\Models\Comune`: era una classe **Geo** messa in UI. Ora vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (chiavi lingua `geo::location_selector.validation.*`); in UI il file non c'e' piu' (`test ! -f app/Filament/Forms/Components/LocationSelector.php`). Non ricrearlo in UI, ne' come stub che estende la classe Geo, ne' come null-adapter, ne' con suffisso `.to_geo`.
+Stato verificato il 2026-10-20: il componente era stato cancellato da UI (`616345f9`, poi `0ecaedc4` del 2026-10-08), ma il pull del 2026-10-20 lo ha riportato con `LocationSelector.php.to_geo` e `lang/*/location_selector.php` (commit `294bbc20`). `app/Filament/Forms/Components/LocationSelector.php` esiste quindi di nuovo, senza chiamanti nel repo. E' stato solo tipizzato per tenere PHPStan a zero; la cancellazione, con `.to_geo` e le lang, resta una decisione aperta: vedi [phpstan-test-wave-ui](../../stories/phpstan-test-wave-ui.story.md). Non ricrearlo come null-adapter ne' come stub che estende la classe Geo.
 
 Le Action di questo modulo restano quelle elencate sopra (icone, datetime, blocchi, user header). Niente Action di geocoding/mappe qui: quelle, se un giorno serviranno, sono `QueueableAction` in `Modules/Geo`.
-
-Canon: [../geo-boundary.md](../geo-boundary.md).
 
 ## Config path
 
