@@ -20,8 +20,8 @@ discussions:
 related:
   - ../../stories/5.8.merge-conflict-markers-cleanup.story.md
   - ../../../../Xot/app/Traits/EnumTrait.php
-  - ../../lang/it/table_layout_enum.php
-  - ../../tests/Unit/Enums/TableLayoutEnumTest.php
+  - ../../../lang/it/table_layout_enum.php
+  - ../../../tests/Unit/Enums/TableLayoutEnumTest.php
 ---
 
 # Problema
