@@ -1,3 +1,13 @@
+---
+title: "TableLayoutToggleTableAction"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-15
+module: UI
+tags: [docs, ui, wiki]
+---
+
 # TableLayoutToggleTableAction
 
 ## Panoramica

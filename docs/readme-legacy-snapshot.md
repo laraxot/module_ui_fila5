@@ -1,3 +1,12 @@
+---
+title: legacy snapshot (ex readme.md)
+status: archive
+canonical: README.md
+---
+
+> Snapshot recuperato da git dopo unificazione `readme.md` verso `README.md`.
+> Ingresso attivo: [README.md](./README.md).
+
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
