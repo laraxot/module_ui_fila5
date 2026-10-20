@@ -1,3 +1,13 @@
+---
+title: "FullCalendar Component for Filament"
+type: note
+status: draft
+created: 2026-01-27
+updated: 2026-10-18
+module: UI
+tags: [docs, ui, components]
+---
+
 # FullCalendar Component for Filament
 
 ## Introduction

@@ -13,7 +13,7 @@ qmd: "UI module documentation index"
 Ingresso unico del `docs/` di `laravel/Modules/UI`, secondo il
 [contratto docs](../../../../bmad-output/docs-architecture/module-theme-docs-contract.md).
 Identita', cosa contiene il codice, quick start e limiti: [README](README.md). Non esiste `index.md` alla radice di `docs/`
-e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e sono elencati sotto come legacy.
+e non va creato (oggi esiste un `index.md` di 2 righe, segnaposto; `INDEX.md` e' non tracciato e in lavorazione in un'altra sessione, non e' il canone). Gli altri indici con nome simile stanno in `wiki/` e `bmad/` e sono elencati sotto come legacy.
 
 ## Leggere per primi
 
@@ -32,14 +32,14 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 
 | Directory | Classe | File `.md` | Nota |
 |---|---|---|---|
-| `wiki/` | canonica | 64 (15 nella radice) | [concepts/](wiki/concepts/) (2 regole + indici), [standards/](wiki/standards/), [AGENTS.md](wiki/AGENTS.md); `schema/`, `decisions/`, `index/` contengono solo `.gitkeep` |
-| `stories/` | canonica | 8 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/services-to-actions-ui.story.md), [PHPStan test wave](stories/phpstan-test-wave-ui.story.md) (il link precedente a `phpstan-cleanup-ui.story.md` era rotto: il file non esiste) |
-| `bmad/` | canonica solo per `architecture.md` e `architecture/` | 51 | il resto e' misto: epic ([epics/](bmad/epics/)), brainstorming, 13 story in `bmad/stories/`, copie di documenti del wiki |
+| `wiki/` | canonica | 65 (16 nella radice) | [concepts/](wiki/concepts/) (2 regole + indici), [standards/](wiki/standards/), [AGENTS.md](wiki/AGENTS.md); `schema/`, `decisions/`, `index/` contengono solo `.gitkeep` |
+| `stories/` | canonica | 10 | cronologia BMAD del modulo, [ui-audit](stories/ui-audit.md), [services to actions](stories/services-to-actions-ui.story.md), [PHPStan test wave](stories/phpstan-test-wave-ui.story.md) (il link precedente a `phpstan-cleanup-ui.story.md` era rotto: il file non esiste) |
+| `bmad/` | canonica solo per `architecture.md` e `architecture/` | 53 | il resto e' misto: epic ([epics/](bmad/epics/)), brainstorming, 13 story in `bmad/stories/`, copie di documenti del wiki |
 | `investigation/` | evidence | 1 | [ui-investigation.md](investigation/ui-investigation.md) |
-| `phpstan*.md` (radice) | evidence | 8 | rapporti di correzione PHPStan (5 con corpo, es. [phpstan-patterns.md](phpstan-patterns.md)); 3 sono stub da 16 righe (`phpstan.md`, `phpstan-fixes-sumy.md`, `phpstan-corrections-sumy.md`) con `canonical:` verso `Themes/docs/shared-components/`, cartella che non esiste |
+| `phpstan*.md` (radice) | evidence | 6 | rapporti di correzione PHPStan (5 con corpo, es. [phpstan-patterns.md](phpstan-patterns.md)); 3 sono stub da 16 righe (`phpstan.md`, `phpstan-fixes-sumy.md`, `phpstan-corrections-sumy.md`) con `canonical:` verso `Themes/docs/shared-components/`, cartella che non esiste |
 | `prd.json`, `Config.bak/` | evidence | 4 file in `Config.bak/` | non usare come fonte |
-| `_archive/` | legacy | 148 | include un `INDEX.md` generato con 891 link non risolti |
-| `archive/`, `legacy/`, `root-md-files/` | legacy | 3, 8, 1 | non usare come fonte |
+| `_archive/`, `archive/`, `legacy/` | legacy | 0 | non presenti sul filesystem al 2026-10-20 (misurato; `archive/` e `legacy/` sono in `docs/.gitignore`) |
+| `root-md-files/` | legacy | 1 | non usare come fonte |
 
 ## Ingressi duplicati o non canonici
 
@@ -50,6 +50,14 @@ e non va creato: gli altri indici con nome simile stanno in `wiki/` e `bmad/` e 
 - `bmad/purpose.md` e `wiki/purpose.md` hanno lo stesso corpo (verificato con `diff`): vale quello in `wiki/`.
 - `README.md`, `ARCHITECTURE.md`, `GETTING_STARTED.md` nella radice del modulo (fuori da `docs/`): il primo ha marker di merge non
   risolti, gli altri segnaposto `$MOD`; non sono riferimenti.
+
+## Riordino della docs (2026-10-20)
+
+- **Gemelli per maiuscole.** Canonico = nome minuscolo (eccezioni `README.md`, `AGENTS.md`, `00-INDEX.md`; per `INDEX.md`/`index.md` chi ha piu' riferimenti entranti). Il gemello e' `status: superseded` con `superseded_by`. Coppie con contenuto diverso (`bmad/00-index.md`, `wiki/00-index.md`, `wiki/agents.md`, `wiki/INDEX.md`) non toccate.
+- **Frontmatter minimo** aggiunto a 38 file che ne erano privi; `index.md` escluso perche' la famiglia degli indici e' in lavorazione altrove.
+- **Story PHPStan versionate.** `docs/.gitignore` riabilita `phpstan-*.story.md` anche fuori da `stories/` (la regola per `stories/` c'era gia').
+- **Vuoti.** 305 `.md` di 0 byte non sono stati toccati: decisione dell'owner.
+- Numeri prima/dopo e decisioni aperte: [docs-organization-ui](stories/docs-organization-ui.story.md).
 
 ## Stato misurato (2026-10-20)
 

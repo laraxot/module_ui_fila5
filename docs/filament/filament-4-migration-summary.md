@@ -1,3 +1,13 @@
+---
+title: "Filament 4 Migration Summary"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-18
+module: UI
+tags: [docs, ui, filament]
+---
+
 # Filament 4 Migration Summary
 
 ## Completed Tasks ✅

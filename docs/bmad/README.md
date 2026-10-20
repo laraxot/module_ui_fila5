@@ -1,3 +1,13 @@
+---
+title: "Documentation"
+type: note
+status: draft
+created: 2026-09-06
+updated: 2026-10-15
+module: UI
+tags: [docs, ui, bmad]
+---
+
 # Documentation
 
 ## Kit BMAD owner (canonico)
