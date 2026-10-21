@@ -1,3 +1,9 @@
+---
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
+---
+
 # Decision Log - Modulo UI
 
 ## Formato
