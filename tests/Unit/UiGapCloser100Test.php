@@ -18,10 +18,6 @@ use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\ToastWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Forms\Components\RadioCardSelector;
-<<<<<<< .merge_file_h6fmyZ
-use Modules\Ui\Http\Livewire\DarkModeSwitcher;
-=======
->>>>>>> .merge_file_kg4J8B
 use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -36,21 +32,8 @@ use ReflectionClass;
 uses(TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
-<<<<<<< .merge_file_h6fmyZ
-    test('DarkModeSwitcher mount toggle and render', function (): void {
-        $component = new DarkModeSwitcher;
-        $component->mount();
-        Assert::assertFalse($component->darkMode);
-        $component->toggleDarkMode();
-        Assert::assertTrue($component->darkMode);
-        Assert::assertInstanceOf(ViewContract::class, $component->render());
-    });
-
-    test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
-=======
     // W0 REUSE: Http\Livewire\DarkModeSwitcher ritirato; SSoT = DarkModeSwitcherWidget.
     test('DarkModeSwitcherWidget mount toggle and render (SSoT panel)', function (): void {
->>>>>>> .merge_file_kg4J8B
         $widget = new DarkModeSwitcherWidget;
         $widget->mount();
         Assert::assertFalse($widget->darkMode);
@@ -60,11 +43,7 @@ describe('UI gap closer 100 — Livewire', function (): void {
 
     test('Toast render exposes view params', function (): void {
         $component = new Toast;
-<<<<<<< .merge_file_h6fmyZ
-        Assert::assertInstanceOf(ViewContract::class, $component->render());
-=======
         Assert::assertInstanceOf(View::class, $component->render());
->>>>>>> .merge_file_kg4J8B
     });
 
     test('ToastWidget render exposes view (gemello Filament)', function (): void {
