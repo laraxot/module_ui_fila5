@@ -1,8 +1,20 @@
 ---
 type: investigation
 title: "Investigation UI Component System"
+<<<<<<< .merge_file_Z8paCt
 links: {github_issue: #XXX}
 ---
+=======
+links: {github_issue: "#XXX"}
+updated: 2026-10-08
+tags: [docs, ui, investigation]
+qmd: "investigation: ui component system ui"
+status: stale
+---
+
+> Nota 2026-10-14 (docs-audit): numeri e proposte superati: dice 33 stories (stories/ ne ha 7, bmad/stories 13) e propone di rimuovere il layer Services, che non esiste piu' (app/Services assente, spostato in Actions il 2026-10-08); nei test del modulo non c'e' alcun controllo APCA ne' di prefers-reduced-motion (solo `DarkModeToggleTest` ha un test sul contrasto in dark mode). Contenuto non riscritto, verificare prima di usarlo.
+
+>>>>>>> .merge_file_Ff45XA
 # Investigation: UI Component System
 
 ## Problem Statement

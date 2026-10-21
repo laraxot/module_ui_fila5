@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "tailwind themes"
 issues: []
 discussions: []
+<<<<<<< .merge_file_MLpXGA
+=======
+status: draft
+>>>>>>> .merge_file_C3pymB
 ---
 
 # tailwind_themes

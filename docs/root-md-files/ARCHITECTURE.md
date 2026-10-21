@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE"
 issues: []
 discussions: []
+<<<<<<< .merge_file_u91Fja
+=======
+status: draft
+>>>>>>> .merge_file_KpUPFa
 ---
 
 # $MOD Architecture
@@ -25,6 +29,7 @@ Core components and design decisions.
 
 See README.md for overview. See CONTRIBUTING.md for development workflow.
 ---
+<<<<<<< .merge_file_u91Fja
 title: "ARCHITECTURE"
 type: note
 tags: [documentation]
@@ -33,6 +38,8 @@ updated: 2026-09-26
 qmd: "ARCHITECTURE"
 issues: []
 discussions: []
+=======
+>>>>>>> .merge_file_KpUPFa
 # UI Module Architecture
 
 ## Overview

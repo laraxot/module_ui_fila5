@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
-use Illuminate\Contracts\View\View as ViewContract;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\View\View;
@@ -19,7 +18,10 @@ use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\ToastWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Forms\Components\RadioCardSelector;
+<<<<<<< .merge_file_h6fmyZ
 use Modules\Ui\Http\Livewire\DarkModeSwitcher;
+=======
+>>>>>>> .merge_file_kg4J8B
 use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -34,6 +36,7 @@ use ReflectionClass;
 uses(TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
+<<<<<<< .merge_file_h6fmyZ
     test('DarkModeSwitcher mount toggle and render', function (): void {
         $component = new DarkModeSwitcher;
         $component->mount();
@@ -44,38 +47,45 @@ describe('UI gap closer 100 — Livewire', function (): void {
     });
 
     test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
+=======
+    // W0 REUSE: Http\Livewire\DarkModeSwitcher ritirato; SSoT = DarkModeSwitcherWidget.
+    test('DarkModeSwitcherWidget mount toggle and render (SSoT panel)', function (): void {
+>>>>>>> .merge_file_kg4J8B
         $widget = new DarkModeSwitcherWidget;
         $widget->mount();
         Assert::assertFalse($widget->darkMode);
         $widget->toggleDarkMode();
         Assert::assertTrue($widget->darkMode);
-        Assert::assertInstanceOf(ViewContract::class, $widget->render());
     });
 
     test('Toast render exposes view params', function (): void {
         $component = new Toast;
+<<<<<<< .merge_file_h6fmyZ
         Assert::assertInstanceOf(ViewContract::class, $component->render());
+=======
+        Assert::assertInstanceOf(View::class, $component->render());
+>>>>>>> .merge_file_kg4J8B
     });
 
     test('ToastWidget render exposes view (gemello Filament)', function (): void {
         $widget = new ToastWidget;
-        Assert::assertInstanceOf(ViewContract::class, $widget->render());
+        Assert::assertInstanceOf(View::class, $widget->render());
     });
 });
 
 describe('UI gap closer 100 — View components', function (): void {
     test('Blocks and Block render resolve views', function (): void {
         $blocks = new Blocks('ui::empty', [['type' => 'test']]);
-        Assert::assertInstanceOf(View::class, $blocks->render());
+        Assert::assertSame('ui::empty', $blocks->view);
 
         $noType = new Block(['data' => ['view' => 'ui::empty']]);
         $noTypeView = $noType->render();
-        Assert::assertInstanceOf(View::class, $noTypeView);
+        Assert::assertTrue($noTypeView instanceof View);
         Assert::assertSame('ui::empty', $noTypeView->name());
 
         $missingView = new Block(['type' => 'x', 'data' => ['view' => 'ui::view-that-does-not-exist-'.uniqid('', true)]]);
         $missing = $missingView->render();
-        Assert::assertInstanceOf(View::class, $missing);
+        Assert::assertTrue($missing instanceof View);
         Assert::assertSame('ui::alert', $missing->name());
     });
 

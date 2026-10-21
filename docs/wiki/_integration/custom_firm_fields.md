@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "custom firm fields"
 issues: []
 discussions: []
+<<<<<<< .merge_file_DM1apg
+=======
+status: draft
+>>>>>>> .merge_file_g2Q0z2
 ---
 
 # custom_firm_fields
