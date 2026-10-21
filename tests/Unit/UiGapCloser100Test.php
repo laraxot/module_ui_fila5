@@ -19,6 +19,8 @@ use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\ToastWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Forms\Components\RadioCardSelector;
+use Modules\Ui\Http\Livewire\DarkModeSwitcher;
+use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
 use Modules\UI\Tests\TestCase;
@@ -32,9 +34,13 @@ use ReflectionClass;
 uses(TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
-    test('DarkModeSwitcher HTTP ritirato: classe e vista assenti', function (): void {
-        Assert::assertFalse(class_exists('Modules\\Ui\\Http\\Livewire\\DarkModeSwitcher', false));
-        Assert::assertFileDoesNotExist(base_path('Modules/UI/app/Http/Livewire/DarkModeSwitcher.php'));
+    test('DarkModeSwitcher mount toggle and render', function (): void {
+        $component = new DarkModeSwitcher;
+        $component->mount();
+        Assert::assertFalse($component->darkMode);
+        $component->toggleDarkMode();
+        Assert::assertTrue($component->darkMode);
+        Assert::assertInstanceOf(ViewContract::class, $component->render());
     });
 
     test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
@@ -46,9 +52,9 @@ describe('UI gap closer 100 — Livewire', function (): void {
         Assert::assertInstanceOf(ViewContract::class, $widget->render());
     });
 
-    test('Toast HTTP ritirato: classe e vista assenti', function (): void {
-        Assert::assertFalse(class_exists('Modules\\UI\\Http\\Livewire\\Toast', false));
-        Assert::assertFileDoesNotExist(base_path('Modules/UI/app/Http/Livewire/Toast.php'));
+    test('Toast render exposes view params', function (): void {
+        $component = new Toast;
+        Assert::assertInstanceOf(ViewContract::class, $component->render());
     });
 
     test('ToastWidget render exposes view (gemello Filament)', function (): void {
@@ -219,6 +225,9 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
         Session::forget('table_layout');
         $withoutSession = $subject->getTableLayout();
         Assert::assertSame(TableLayoutEnum::GRID, $withoutSession);
+
+        $subject->setTableLayout(TableLayoutEnum::GRID);
+        Assert::assertSame('grid', Session::get('table_layout'));
 
         $subject->refreshTable();
         Assert::assertGreaterThan(0, $subject->dispatched);
