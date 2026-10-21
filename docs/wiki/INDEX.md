@@ -21,16 +21,16 @@ related:
 ## AI / second brain
 
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
-- [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
-- [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
+- [bmad/architecture](../../../../../docs/wiki/bmad/architecture.md)
+- [frontmatter + GitHub](../../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 
 
 ## Karpathy LLM Wiki Standard
 
-- [forbidden-folders-rule](../../../../docs/wiki/concepts/forbidden-folders.md): Strict structural constraints.
-- [llm-wiki-standard](../../../../docs/project/karpathy-llm-wiki-adoption.md): Repository mapping and knowledge lifecycle.
+- [forbidden-folders-rule](../../../../../docs/wiki/concepts/forbidden-folders.md): Strict structural constraints.
+- [llm-wiki-standard](../../../../../docs/project/karpathy-llm-wiki-adoption.md): Repository mapping and knowledge lifecycle.
 
 ## Sacred Hierarchy
 

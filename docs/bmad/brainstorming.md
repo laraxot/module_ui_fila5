@@ -4,6 +4,11 @@ type: note
 tags: [bmad, ui, brainstorming, decisioni]
 created: 2026-09-28
 updated: 2026-09-28
+<<<<<<< .merge_file_7xl06A
+=======
+status: draft
+qmd: "ui   brainstorming ui"
+>>>>>>> .merge_file_NjUFZl
 ---
 title: "UI - Brainstorming"
 type: note

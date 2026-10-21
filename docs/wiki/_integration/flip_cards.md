@@ -7,6 +7,10 @@ updated: 2026-09-26
 qmd: "flip cards"
 issues: []
 discussions: []
+<<<<<<< .merge_file_DIqRzx
+=======
+status: draft
+>>>>>>> .merge_file_esb9XL
 ---
 
 # flip_cards
