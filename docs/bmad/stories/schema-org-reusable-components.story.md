@@ -1,3 +1,12 @@
+<<<<<<< .merge_file_V9OfIX
+=======
+---
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
+---
+
+>>>>>>> .merge_file_htX5uA
 # Story: componenti riutilizzabili schema.org
 
 ## Obiettivo
