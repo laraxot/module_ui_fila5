@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Modules\UI\App\Enums;
+namespace Modules\UI\Enums;
 
 enum UiGroupColumnTypeEnum: string
 {
