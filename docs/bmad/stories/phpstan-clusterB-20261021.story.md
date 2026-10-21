@@ -8,8 +8,8 @@ story_id: "ui-phpstan-clusterB-20261021"
 track: quality/fleet
 created: 2026-10-21
 updated: 2026-10-21
-tags: [phpstan, swarm, cluster-b, location-selector, geo-boundary, dead-code, bmad]
-qmd: "phpstan cluster b ui locationselector geo boundary dead code rimosso 36 errori zero 20261021"
+tags: [phpstan, swarm, cluster-b, location-selector, geo-boundary, dead-code, bmad, phpstan-path]
+qmd: "phpstan cluster b ui locationselector geo boundary dead code rimosso 36 errori zero 20261021 phpstan.path cache"
 related:
   - ../../../../Xot/docs/bmad/stories/phpstan-modules-swarm-20261021.story.md
   - ../../stories/ui-filament-contract-and-livewire-retire.story.md
