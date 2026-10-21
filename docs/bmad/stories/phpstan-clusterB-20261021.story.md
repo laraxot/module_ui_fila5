@@ -91,6 +91,13 @@ connessioni configurate puntano a database reali (`ptv_lara`, `ptv_user`,
 `ptv_incentivi`, ...) e non a database `*_test`. Skip documentato: nessun
 codice eseguibile è stato modificato (rimozione di file morto non referenziato).
 
+## Re-verifica 2026-10-21 (php-backend-agent)
+
+Path fantasma `phpstan.path` su `LocationSelector.php` assente: **non** era in
+composer classmap / neon `paths` / autoload files. Causa: result cache stale in
+`/tmp/phpstan` dopo rimozione file. Fix operativo: `phpstan clear-result-cache`
+poi `analyse Modules/UI` → **0** errori. File non ricreato (decisione rimozione).
+
 ## Residui
 
 - `docs/wiki/actions/generic-ui-building-blocks.md` contiene ancora marker di
