@@ -1,3 +1,16 @@
+<<<<<<< .merge_file_O7gQc0
+=======
+---
+title: "Standard UI"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-15
+module: UI
+tags: [docs, ui, wiki]
+---
+
+>>>>>>> .merge_file_ehVE22
 # Standard UI
 
 Questo documento contiene gli standard specifici per il modulo UI.
@@ -155,6 +168,7 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../chart/docs/readme.md)
 * [README.md](../../../reporting/docs/readme.md)
 * [README.md](../../../gdpr/docs/phpstan/readme.md)
+<<<<<<< .merge_file_O7gQc0
 * [README.md](../../../gdpr/docs/readme.md)
 * [README.md](../../../notify/docs/phpstan/readme.md)
 * [README.md](../../../notify/docs/readme.md)
@@ -163,18 +177,36 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../xot/docs/exceptions/readme.md)
 * [README.md](../../../xot/docs/readme.md)
 * [README.md](../../../xot/docs/standards/readme.md)
+=======
+* [README.md](../../../../Gdpr/docs/readme.md)
+* [README.md](../../../notify/docs/phpstan/readme.md)
+* [README.md](../../../../Notify/docs/readme.md)
+* [README.md](../../../xot/docs/filament/readme.md)
+* [README.md](../../../xot/docs/phpstan/readme.md)
+* [README.md](../../../xot/docs/exceptions/readme.md)
+* [README.md](../../../../Xot/docs/README.md)
+* [README.md](../../../../Xot/docs/standards/readme.md)
+>>>>>>> .merge_file_ehVE22
 * [README.md](../../../xot/docs/conventions/readme.md)
 * [README.md](../../../xot/docs/development/readme.md)
 * [README.md](../../../dental/docs/readme.md)
 * [README.md](../../../user/docs/phpstan/readme.md)
+<<<<<<< .merge_file_O7gQc0
 * [README.md](../../../user/docs/readme.md)
 * [README.md](../../../user/docs/readme.md)
 * [README.md](../../../ui/docs/phpstan/readme.md)
 * [README.md](../../../ui/docs/readme.md)
+=======
+* [README.md](../../../../User/docs/readme.md)
+* [README.md](../../../../User/docs/readme.md)
+* [README.md](../../../ui/docs/phpstan/readme.md)
+* [README.md](../../README.md)
+>>>>>>> .merge_file_ehVE22
 * [README.md](../../../ui/docs/standards/readme.md)
 * [README.md](../../../ui/docs/themes/readme.md)
 * [README.md](../../../ui/docs/components/readme.md)
 * [README.md](../../../lang/docs/phpstan/readme.md)
+<<<<<<< .merge_file_O7gQc0
 * [README.md](../../../lang/docs/readme.md)
 * [README.md](../../../job/docs/phpstan/readme.md)
 * [README.md](../../../job/docs/readme.md)
@@ -193,6 +225,26 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../cms/docs/content/readme.md)
 * [README.md](../../../cms/docs/frontoffice/readme.md)
 * [README.md](../../../cms/docs/components/readme.md)
+=======
+* [README.md](../../../../Lang/docs/readme.md)
+* [README.md](../../../job/docs/phpstan/readme.md)
+* [README.md](../../../../Job/docs/readme.md)
+* [README.md](../../../media/docs/phpstan/readme.md)
+* [README.md](../../../../Media/docs/readme.md)
+* [README.md](../../../tenant/docs/phpstan/readme.md)
+* [README.md](../../../../Tenant/docs/README.md)
+* [README.md](../../../activity/docs/phpstan/readme.md)
+* [README.md](../../../../Activity/docs/readme.md)
+* [README.md](../../../patient/docs/readme.md)
+* [README.md](../../../patient/docs/standards/readme.md)
+* [README.md](../../../patient/docs/value-objects/readme.md)
+* [README.md](../../../../Cms/docs/blocks/README.md)
+* [README.md](../../../../Cms/docs/README.md)
+* [README.md](../../../../Cms/docs/standards/README.md)
+* [README.md](../../../../Cms/docs/content/README.md)
+* [README.md](../../../../Cms/docs/frontoffice/README.md)
+* [README.md](../../../../Cms/docs/components/README.md)
+>>>>>>> .merge_file_ehVE22
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
 [![Module](https://img.shields.io/badge/Module-Standard UI-8B0000.svg)]()
@@ -221,8 +273,13 @@ Core module for the FixCity Platform.
 | Lingua | Link |
 |--------|------|
 | 🇮🇹 Presentazione | Questo file (`README.md`) |
+<<<<<<< .merge_file_O7gQc0
 | 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
 | 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+=======
+| 🇬🇧 Business card | [docs/readme-en.md](../../bmad/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](../..) |
+>>>>>>> .merge_file_ehVE22
 
 ---
 

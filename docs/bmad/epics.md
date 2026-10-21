@@ -2,6 +2,14 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
+<<<<<<< .merge_file_ScKhZx
+=======
+title: "Epics e User Stories - Modulo UI"
+type: note
+status: draft
+tags: [docs, ui, bmad]
+qmd: "epics e user stories - modulo ui ui"
+>>>>>>> .merge_file_tM9qSF
 ---
 
 # Epics e User Stories - Modulo UI
