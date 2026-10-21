@@ -5,7 +5,7 @@ module: UI
 epic: quality
 status: done
 related:
-  - ../../../Xot/docs/bmad/stories/merge-marker-fleet-residue.story.md
+  - ../../../../Xot/docs/bmad/stories/merge-marker-fleet-residue.story.md
 ---
 
 # git-status-fleet-merge-markers-ui
@@ -173,7 +173,7 @@ concatenate o interleaved** (2-9 copie dello stesso doc): in quei casi tenuta un
 
 ### Altri duplicati stale eliminati (convenzione kebab, canonico presente)
 
-`blade-data-handling_1.md`, `_integration/{carousel_slider,custom_firm_fields,custom_theme,
+`blade-data-handling.md`, `_integration/{carousel_slider,custom_firm_fields,custom_theme,
 flip_cards,page_builder,tailwind_themes}.md`, `standards/{form_standards,auth_form_standards}.md`,
 `svg_icons_automatic_registration.md`, `DESIGN_COMUNI_IMPLEMENTATION.md`,
 `_archive/{svg_icons_automatic_registration,brands_icons_integration}.md`,

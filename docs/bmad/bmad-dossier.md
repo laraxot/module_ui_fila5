@@ -7,6 +7,10 @@ tags: [bmad, ui, accessibility, components]
 qmd: "UI module product brief PRD architecture UX security epics gaps release"
 issues: ["https://github.com/laraxot/base_fixcity_fila5/issues/383"]
 discussions: ["https://github.com/laraxot/base_fixcity_fila5/discussions/392"]
+<<<<<<< .merge_file_lgT7dL
+=======
+status: draft
+>>>>>>> .merge_file_8wZISy
 ---
 # UI — BMAD dossier
 ## Product brief / PRD

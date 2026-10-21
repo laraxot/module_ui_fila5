@@ -1,3 +1,16 @@
+<<<<<<< .merge_file_RiOLz0
+=======
+---
+title: "TableLayoutToggleTableAction"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-15
+module: UI
+tags: [docs, ui, wiki]
+---
+
+>>>>>>> .merge_file_ycicKL
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -50,8 +63,13 @@ class MyListRecords extends ListRecords
 4. Mantenere la persistenza dello stato
 
 ## Collegamenti alla Documentazione
+<<<<<<< .merge_file_RiOLz0
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+=======
+- [Risoluzione Conflitti UI](../../_archive/conflitti_merge_risolti.md): Documentazione dei conflitti risolti
+- [Test di Risoluzione Conflitti](../../_archive/test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+>>>>>>> .merge_file_ycicKL
 
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
 ---
@@ -121,8 +139,13 @@ class MyListRecords extends ListRecords
 3. Gestire correttamente gli eventi di refresh
 4. Mantenere la persistenza dello stato
 ## Collegamenti alla Documentazione
+<<<<<<< .merge_file_RiOLz0
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+=======
+- [Risoluzione Conflitti UI](../../_archive/conflitti_merge_risolti.md): Documentazione dei conflitti risolti
+- [Test di Risoluzione Conflitti](../../_archive/test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+>>>>>>> .merge_file_ycicKL
 - **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
 - **Non** rimuovere `TableLayoutTrait` dall’Action — è il punto che scrive sessione al click.
 - **Non** refactorare icona/tooltip in closure se non c’è bug visivo.
@@ -130,6 +153,10 @@ class MyListRecords extends ListRecords
 Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable()` + `$wire.$refresh()` dopo `setTableLayout()`.
 ## Collegamenti
 - [Bugfix doppio click](../bugfix-table-layout-toggle-not-working.md)
+<<<<<<< .merge_file_RiOLz0
 - [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
+=======
+- [Disciplina agente](../../../../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
+>>>>>>> .merge_file_ycicKL
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)

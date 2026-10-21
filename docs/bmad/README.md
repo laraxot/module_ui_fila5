@@ -1,4 +1,25 @@
+<<<<<<< .merge_file_rwL9Gs
+=======
+---
+title: "Documentation"
+type: note
+status: draft
+created: 2026-09-06
+updated: 2026-10-15
+module: UI
+tags: [docs, ui, bmad]
+---
+
+>>>>>>> .merge_file_NrHRiH
 # Documentation
+
+## Kit BMAD owner (canonico)
+
+- [BMAD Planning](../bmad-planning.md)
+- [BMAD Brainstorming](../bmad-brainstorming.md)
+- [Filament blueprint](./filament-blueprint.md)
+- [Project context](./project-context.md)
+- [Decision log](./decision-log.md)
 
 This directory contains documentation for the module.
 
@@ -85,8 +106,8 @@ resources/views/components/ui/
 
 ## Backlinks
 
-- [Xot Base](../Xot/docs/)
-- [User Module](../User/docs/)
+- [Xot Base](../../../Xot/docs)
+- [User Module](../../../User/docs)
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
@@ -244,10 +265,10 @@ php artisan ui:test-components
 - [Best Practices](best-practices.md) - Linee guida sviluppo
 
 ### 🔗 **Collegamenti Moduli**
-- **[Xot Module](../Xot/docs/README.md)** - Framework core e convenzioni
-- **[User Module](../User/docs/README.md)** - Gestione utenti e autenticazione
+- **[Xot Module](../../../Xot/docs/README.md)** - Framework core e convenzioni
+- **[User Module](../../../User/docs/README.md)** - Gestione utenti e autenticazione
 - **[Performance Module](../Performance/docs/README.md)** - Sistema valutazione
-- **[Lang Module](../Lang/docs/README.md)** - Gestione traduzioni
+- **[Lang Module](../../../Lang/docs/README.md)** - Gestione traduzioni
 - **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema progressioni
 
 ### 🧩 **Componenti**
@@ -258,7 +279,7 @@ php artisan ui:test-components
 
 ### 🎨 **Filament Integration**
 - [Filament Components](filament-components.md) - Componenti Filament
-- [Widget System](widgets.md) - Sistema widget personalizzati
+- [Widget System](../wiki/_integration/widgets.md) - Sistema widget personalizzati
 - [TableLayoutEnum](table-layout-enum-complete-guide.md) - Guida completa enum layout
 - [File Upload Components](filament-fileupload.md) - Componenti upload file
 
@@ -561,10 +582,10 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [Regole Traduzioni](translation_rules.md)
 - [Best Practices Filament](filament_best_practices.md)
 - [Componenti UI](components.md)
-- [TableLayoutEnum Analysis](table_layout_enum_analysis.md)
+- [TableLayoutEnum Analysis](../_archive/table_layout_enum_analysis.md)
 - [TableLayoutEnum Usage](table-layout-enum-usage.md)
-- **[REGOLA CRITICA: MAI usare ->label()](never_use_label_rule.md)**
-- **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**
+- **[REGOLA CRITICA: MAI usare ->label()](../_archive/never_use_label_rule.md)**
+- **[REGOLA CRITICA: SEMPRE usa transClass()](../_archive/transclass_rule.md)**
 
 *Ultimo aggiornamento: gennaio 2025*
 
@@ -806,10 +827,10 @@ php artisan ui:test-components
 ### 🏗️ **Architettura**
 
 ### 🔗 **Collegamenti Moduli**
-- **[Xot Module](../Xot/docs/README.md)** - Framework core e convenzioni
-- **[User Module](../User/docs/README.md)** - Gestione utenti e autenticazione
+- **[Xot Module](../../../Xot/docs/README.md)** - Framework core e convenzioni
+- **[User Module](../../../User/docs/README.md)** - Gestione utenti e autenticazione
 - **[Performance Module](../Performance/docs/README.md)** - Sistema valutazione
-- **[Lang Module](../Lang/docs/README.md)** - Gestione traduzioni
+- **[Lang Module](../../../Lang/docs/README.md)** - Gestione traduzioni
 - **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema progressioni
 
 ### 🧩 **Componenti**
@@ -1096,8 +1117,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 **🚀 Performance**: 97/100 score 
 ## Collegamenti
 
-- **[REGOLA CRITICA: MAI usare ->label()](never_use_label_rule.md)**
-- **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**
+- **[REGOLA CRITICA: MAI usare ->label()](../_archive/never_use_label_rule.md)**
+- **[REGOLA CRITICA: SEMPRE usa transClass()](../_archive/transclass_rule.md)**
 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
@@ -1173,4 +1194,8 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 
 ---
 
+<<<<<<< .merge_file_rwL9Gs
 *Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
+=======
+*Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
+>>>>>>> .merge_file_NrHRiH

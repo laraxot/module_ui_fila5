@@ -11,7 +11,11 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< .merge_file_WNHMo8
     ->ignoreVCS(true);
+=======
+    ->ignoreVCS(true)
+>>>>>>> .merge_file_P9lpYW
 
 $config = new PhpCsFixer\Config();
 
@@ -38,6 +42,10 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
+<<<<<<< .merge_file_WNHMo8
     ->setFinder($finder);
+=======
+    ->setFinder($finder)
+>>>>>>> .merge_file_P9lpYW
 
 return $config;

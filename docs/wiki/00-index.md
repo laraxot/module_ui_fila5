@@ -8,7 +8,11 @@ repository: https://github.com/laraxot/module_ui_fila5
 related:
   - ./00-index.md
   - ./index.md
+<<<<<<< .merge_file_NzTEs3
   - ../../../../docs/wiki/audits/docs-redundancy-audit.md
+=======
+  - ../../../../../docs/wiki/audits/docs-redundancy-audit.md
+>>>>>>> .merge_file_MPCAjC
 issues: https://github.com/laraxot/module_ui_fila5/issues
 discussions: https://github.com/laraxot/module_ui_fila5/discussions
 ---
@@ -20,9 +24,15 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 **Module Version**: 2.3.0
 
 ## 🎯 **Lettura Essenziale**
+<<<<<<< .merge_file_NzTEs3
 1. [README.md](./README.md) - Design System e overview componenti.
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
 3. [philosophy.md](./philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
+=======
+1. [README.md](./readme.md) - Design System e overview componenti.
+2. [roadmap.md](../_archive/roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
+3. [philosophy.md](../bmad/philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
+>>>>>>> .merge_file_MPCAjC
 
 ## 🏗️ **Core Design System**
 - 🎨 **[Layouts & Themes](./layouts-and-themes.md)** - Gestione dei temi per tenant e dark mode.
@@ -31,7 +41,11 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 
 ## 🧱 **Componenti & Widget**
 - 🧩 **[Blade Components](./blade-components.md)** - Libreria di componenti atomici riutilizzabili.
+<<<<<<< .merge_file_NzTEs3
 - ⚡ **[Filament Components](./filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
+=======
+- ⚡ **[Filament Components](../legacy/filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
+>>>>>>> .merge_file_MPCAjC
 - 📍 **[Location Selector](./filament-components-location-studio.md)** - Componente avanzato per la selezione geografica.
 
 ## 🛠️ **Integrazioni Tecniche**
@@ -47,12 +61,21 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
 
 ## 📦 **Pacchetti Composer**
+<<<<<<< .merge_file_NzTEs3
 - [Riferimento composer packages](../../../../bashscripts/ai/wiki/memories/composer-packages-reference.md)
 - `owenvoke/blade-fontawesome` - Icone FontAwesome
 
 ## 🔗 **Moduli Correlati**
 - [Xot](../../Xot/docs/README.md) - Base framework per i widget.
 - [Cms](../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
+=======
+- [Riferimento composer packages](../../../../../bashscripts/ai/wiki/memories/composer-packages-reference.md)
+- `owenvoke/blade-fontawesome` - Icone FontAwesome
+
+## 🔗 **Moduli Correlati**
+- [Xot](../../../Xot/docs/README.md) - Base framework per i widget.
+- [Cms](../../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
+>>>>>>> .merge_file_MPCAjC
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
@@ -168,7 +191,11 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 
 | Da | A | Tipo |
 |----|---|------|
+<<<<<<< .merge_file_NzTEs3
 | [Theme Index](../../Themes/TwentyOne/docs/00-index.md) | UI Components | Dependency |
+=======
+| [Theme Index](../../../../Themes/TwentyOne/docs/00-INDEX.md) | UI Components | Dependency |
+>>>>>>> .merge_file_MPCAjC
 | [Predict Module Index](../../Modules/<nome modulo>/docs/00-index.md) | UI Components | Reference |
 | [forecast Module Index](../../Modules/Domain/docs/00-index.md) | UI Components | Reference |
 
