@@ -11,7 +11,7 @@ updated: 2026-10-21
 tags: [phpstan, swarm, cluster-b, location-selector, geo-boundary, dead-code, bmad, phpstan-path]
 qmd: "phpstan cluster b ui locationselector geo boundary dead code rimosso 36 errori zero 20261021 phpstan.path cache"
 related:
-  - ../../../../Xot/docs/bmad/stories/phpstan-modules-swarm-20261021.story.md
+  - ../../../../Xot/docs/bmad/stories/phpstan-modules-swarm.story.md
   - ../../stories/ui-filament-contract-and-livewire-retire.story.md
   - ../../wiki/actions/generic-ui-building-blocks.md
   - ../filament-blueprint.md
