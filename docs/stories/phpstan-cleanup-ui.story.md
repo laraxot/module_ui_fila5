@@ -43,4 +43,4 @@ Ora ogni campo risolve il proprio valore dal record tramite `getName()`, che e' 
 - Issue: TODO (gh non installato su questa macchina)
 - Discussion: TODO
 
-Dev story: [2026-10-06-phpstan-cleanup-ui.dev.md](./2026-10-06-phpstan-cleanup-ui.dev.md)
+Dev story: [2026-10-06-phpstan-cleanup-ui.dev.md](./phpstan-cleanup-ui-dev.dev.md)
