@@ -1,3 +1,5 @@
+<<<<<<< .merge_file_f37REi
+=======
 ---
 title: "LLM Wiki (module)"
 type: note
@@ -8,6 +10,7 @@ module: UI
 tags: [docs, ui, wiki]
 ---
 
+>>>>>>> .merge_file_CLqYjA
 # LLM Wiki (module)
 
 Questa cartella contiene la wiki curata del modulo per uso LLM.
@@ -54,8 +57,13 @@ Core module for the FixCity Platform.
 | Lingua | Link |
 |--------|------|
 | 🇮🇹 Presentazione | Questo file (`README.md`) |
+<<<<<<< .merge_file_f37REi
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+=======
 | 🇬🇧 Business card | [docs/readme-en.md](../bmad/readme-en.md) |
 | 📚 Wiki tecnica | [./docs/wiki/](..) |
+>>>>>>> .merge_file_CLqYjA
 
 ---
 

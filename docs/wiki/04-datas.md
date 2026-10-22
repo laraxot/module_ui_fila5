@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "04 datas"
 issues: []
 discussions: []
+<<<<<<< .merge_file_pnXIi8
+=======
 status: draft
+>>>>>>> .merge_file_5ki9PQ
 ---
 
 # Datas in UI Module

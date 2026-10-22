@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "carousel slider"
 issues: []
 discussions: []
+<<<<<<< .merge_file_gIVYsJ
+=======
 status: draft
+>>>>>>> .merge_file_jpB2SM
 ---
 
 # carousel_slider

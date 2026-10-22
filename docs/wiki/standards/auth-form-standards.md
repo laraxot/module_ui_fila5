@@ -14,7 +14,10 @@ related:
   - "./form-standards.md"
   - "./performance.md"
   - "./ui-standards.md"
+<<<<<<< .merge_file_IhC2TW
+=======
 status: draft
+>>>>>>> .merge_file_wJsvjE
 ---
 # Standard Form di Autenticazione
 
