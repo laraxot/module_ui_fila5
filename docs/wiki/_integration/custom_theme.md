@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "custom theme"
 issues: []
 discussions: []
+<<<<<<< .merge_file_bu4fff
+=======
 status: draft
+>>>>>>> .merge_file_NLX5tW
 ---
 
 # custom_theme

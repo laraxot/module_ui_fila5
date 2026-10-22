@@ -1,3 +1,13 @@
+<<<<<<< .merge_file_Qq2hMA
+# UI — documentazione
+
+Ingresso canonico alla documentazione del modulo UI.
+
+- [BMAD](bmad/)
+- [Wiki](wiki/)
+- [Schema](schema/)
+- [Indice generale](../../../../docs/README.md)
+=======
 ---
 title: "UI - documentazione del modulo"
 type: readme
@@ -63,3 +73,4 @@ Per i test usare sempre un database di scratch: con la config cache i test colpi
 - Il `docs/` e' sproporzionato rispetto al codice: 294 file `.md`, di cui 148 in `_archive/`. Il piano di riordino e'
   `bmad-output/stories/docs-organization/` (DOC-004 e DOC-006 richiedono una migration map approvata).
 - Due file di configurazione quasi omonimi (`config/laravel-localization.php` e `config/laravellocalization.php`).
+>>>>>>> .merge_file_4Nr1MP

@@ -14,7 +14,10 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./table-layout-toggle.md"
   - "../geo-boundary.md"
+<<<<<<< .merge_file_nBTQ1I
+=======
 status: draft
+>>>>>>> .merge_file_txlMDn
 ---
 
 # Generic UI Building Blocks: Category, Collection, FieldOption
@@ -84,6 +87,26 @@ unico entrypoint `execute()`). Azioni presenti, raggruppate per sotto-cartella:
   `Panel` senza modifiche. C'è un file gemello `.disabled` nella stessa cartella da rimuovere
   quando il pacchetto sarà aggiornato.
 
+<<<<<<< .merge_file_nBTQ1I
+## Violazione regola di dipendenza — SOLO SEGNALAZIONE
+`app/Filament/Forms/Components/LocationSelector.php` importa `Modules\Geo\Models\Comune`
+(riga 11). La regola del progetto è che `Modules/UI` non deve mai dipendere da `Modules/Geo`
+(la direzione corretta è Geo → UI). Esiste anche un file gemello
+`LocationSelector.php.to_geo` con lo stesso import, che sembra un'indicazione che il file va
+spostato nel modulo Geo ma non è stato ancora fatto. Non corretto in questo task (fuori scope,
+solo documentazione) — richiede intervento separato per spostare/rifattorizzare il componente.
+## Violazione regola di dipendenza — chiusa
+
+`LocationSelector` importava `Modules\Geo\Models\Comune`: era una classe **Geo** messa in UI. In questo monorepo Geo è spento: il file attivo **non c’è** più (`test ! -f app/Filament/Forms/Components/LocationSelector.php`). Non ricrearlo, né come null-adapter, né con suffisso `.to_geo`.
+## Violazione regola di dipendenza — chiusa
+
+`LocationSelector` importava `Modules\Geo\Models\Comune`: era una classe **Geo** messa in UI. Ora vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (chiavi lingua `geo::location_selector.validation.*`); in UI il file non c'e' piu' (`test ! -f app/Filament/Forms/Components/LocationSelector.php`). Non ricrearlo in UI, ne' come stub che estende la classe Geo, ne' come null-adapter, ne' con suffisso `.to_geo`.
+
+Le Action di questo modulo restano quelle elencate sopra (icone, datetime, blocchi, user header). Niente Action di geocoding/mappe qui: quelle, se un giorno serviranno, sono `QueueableAction` in `Modules/Geo`.
+
+Canon: [../geo-boundary.md](../geo-boundary.md).
+
+=======
 ## Violazione regola di dipendenza (LocationSelector)
 
 `LocationSelector` e' una classe **Geo** finita in UI: importa `Modules\Geo\Models\Comune` (per stringa, dietro `class_exists`). La regola del progetto e' che `Modules/UI` non dipende da `Modules/Geo` (direzione corretta: Geo verso UI). La versione canonica vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (chiavi lingua `geo::location_selector.*`).
@@ -92,6 +115,7 @@ Stato verificato il 2026-10-20: il componente era stato cancellato da UI (`61634
 
 Le Action di questo modulo restano quelle elencate sopra (icone, datetime, blocchi, user header). Niente Action di geocoding/mappe qui: quelle, se un giorno serviranno, sono `QueueableAction` in `Modules/Geo`.
 
+>>>>>>> .merge_file_txlMDn
 ## Config path
 
 `config/config.php` (minuscolo) è il path corretto e già in uso in questo modulo — nessuna
