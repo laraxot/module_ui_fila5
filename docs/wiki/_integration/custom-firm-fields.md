@@ -16,7 +16,10 @@ related:
   - "./ci.md"
   - "./custom-firm-fields-1.md"
   - "./custom-theme-1.md"
+<<<<<<< .merge_file_fsf1ja
+=======
 status: draft
+>>>>>>> .merge_file_Gzt73W
 ---
 # custom_firm_fields
 

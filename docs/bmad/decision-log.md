@@ -2,11 +2,14 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
+<<<<<<< .merge_file_iBJSwc
+=======
 title: "Decision Log - Modulo UI"
 type: note
 status: draft
 tags: [docs, ui, bmad]
 qmd: "decision log - modulo ui ui"
+>>>>>>> .merge_file_A95QX4
 ---
 
 # Decision Log - Modulo UI

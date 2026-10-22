@@ -104,6 +104,8 @@ Come Xot, Notify e Activity: un `index.md` a una schermata, un canonico per argo
 - `laravel/Modules/Ptv/docs/form-column-parity.md` — la parita' come regola
 - `docs/wiki/rules/filament-form-components-vocabulary.md` — quando estrarre
 - `./architecture.md` — architettura tecnica del modulo (componenti, Filament, Blocks)
+<<<<<<< .merge_file_0AcYfv
+=======
 
 ## Verifica del 2026-10-14
 
@@ -119,3 +121,4 @@ Il testo sopra non e' stato riscritto; i numeri e due collegamenti sono superati
 - Dei punti "come raggiungerlo meglio" non risulta realizzato il catalogo dei componenti ne' un test automatico di contrasto sui token:
   nei test del modulo l'unico riferimento al contrasto e' un test in `DarkModeToggleTest`.
 - Una copia identica di questo file e' `bmad/purpose.md`; il canonico e' questo.
+>>>>>>> .merge_file_MDGtA1
