@@ -14,7 +14,10 @@ related:
   - "./form-standards-1.md"
   - "./performance.md"
   - "./ui-standards.md"
+<<<<<<< .merge_file_s8lRGX
+=======
 status: draft
+>>>>>>> .merge_file_C5xWTd
 ---
 # Standard Form nei Temi
 
