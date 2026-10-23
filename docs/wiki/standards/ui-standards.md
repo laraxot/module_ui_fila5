@@ -16,10 +16,7 @@ related:
   - "./form-standards-1.md"
   - "./form-standards.md"
   - "./performance.md"
-<<<<<<< .merge_file_a2mSt4
-=======
 status: draft
->>>>>>> .merge_file_GLNVKp
 ---
 
 # Standard UI

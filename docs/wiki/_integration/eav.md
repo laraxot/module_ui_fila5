@@ -18,10 +18,7 @@ related:
   - "./ci.md"
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
-<<<<<<< .merge_file_LjJjgN
-=======
 status: draft
->>>>>>> .merge_file_28dzTU
 ---
 
 # eav

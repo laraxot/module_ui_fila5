@@ -1,5 +1,3 @@
-<<<<<<< .merge_file_rwL9Gs
-=======
 ---
 title: "Documentation"
 type: note
@@ -10,7 +8,6 @@ module: UI
 tags: [docs, ui, bmad]
 ---
 
->>>>>>> .merge_file_NrHRiH
 # Documentation
 
 ## Kit BMAD owner (canonico)
@@ -1194,8 +1191,4 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 
 ---
 
-<<<<<<< .merge_file_rwL9Gs
 *Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
-=======
-*Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
->>>>>>> .merge_file_NrHRiH
