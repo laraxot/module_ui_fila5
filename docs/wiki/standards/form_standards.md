@@ -7,10 +7,7 @@ updated: 2026-09-26
 qmd: "form standards"
 issues: []
 discussions: []
-<<<<<<< .merge_file_qH6siq
-=======
 status: draft
->>>>>>> .merge_file_T8vL1e
 ---
 
 # Standard Form nei Temi

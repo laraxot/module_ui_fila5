@@ -17,7 +17,7 @@ use Modules\UI\Filament\Widgets\RowWidget;
 use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\ToastWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
-use Modules\UI\Forms\Components\RadioCardSelector;
+use Modules\UI\Filament\Forms\Components\RadioCardSelector;
 use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;

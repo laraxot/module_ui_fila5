@@ -18,10 +18,7 @@ related:
   - "./ci.md"
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
-<<<<<<< .merge_file_poDOiC
-=======
 status: draft
->>>>>>> .merge_file_1uYbuH
 ---
 
 # effetcts
