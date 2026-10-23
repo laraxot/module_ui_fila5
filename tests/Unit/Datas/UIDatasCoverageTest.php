@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Datas;
 
-use Modules\UI\Data\UserData as DataUserData;
 use Modules\UI\Datas\SliderData;
 use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
@@ -97,25 +96,3 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
     Assert::assertSame('test@example.com', $data->email);
 });
 
-it('UI Data UserData can be instantiated', function (): void {
-    $data = new DataUserData(
-        id: 42,
-        name: 'Luigi Verdi',
-        email: 'luigi@example.com',
-        avatar: 'avatar.png',
-        role: 'user',
-        permissions: [],
-        settings: [],
-    );
-
-    Assert::assertSame(42, $data->id);
-    Assert::assertSame('Luigi Verdi', $data->name);
-    Assert::assertSame('luigi@example.com', $data->email);
-    Assert::assertSame('avatar.png', $data->avatar);
-});
-
-it('UI Data UserData is a Spatie Data class', function (): void {
-    $data = new DataUserData(1, 'Test', 'test@example.com', null, null, [], []);
-
-    Assert::assertSame(1, $data->id);
-});

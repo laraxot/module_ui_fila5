@@ -16,10 +16,7 @@ related:
   - "./ci.md"
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
-<<<<<<< .merge_file_iG5DCT
-=======
 status: draft
->>>>>>> .merge_file_nUNU3w
 ---
 
 # page_builder
