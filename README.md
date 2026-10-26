@@ -20,25 +20,10 @@ sources: []
 
 # UI
 
-<<<<<<< .merge_file_AuGtaP
-<<<<<<< .merge_file_68f6VJ
-<<<<<<< .merge_file_OyTMki
-<<<<<<< .merge_file_AxADFU
-=======
->>>>>>> .merge_file_LgHnK9
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
 [![Laravel 13](https://img.shields.io/badge/Laravel-13-red.svg)](https://laravel.com/)
 [![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
 [![PHP 8.3+](https://img.shields.io/badge/PHP-8.3+-777BB4.svg)](https://php.net/)
-<<<<<<< .merge_file_AuGtaP
-=======
-=======
->>>>>>> .merge_file_0H5dxY
-=======
-[![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
->>>>>>> .merge_file_WCUUKu
-=======
->>>>>>> .merge_file_LgHnK9
 [![Stars](https://img.shields.io/github/stars/laraxot/module_ui_fila5?style=plastic&color=yellow)]()
 [![Forks](https://img.shields.io/github/forks/laraxot/module_ui_fila5?style=plastic&color=green)]()
 [![Issues](https://img.shields.io/github/issues/laraxot/module_ui_fila5?style=plastic&color=red)]()
@@ -56,16 +41,10 @@ sources: []
 > **Componenti UI riutilizzabili e design system**
 > Componenti UI, layout, temi e pattern di design per Filament v5, senza logica di dominio.
 
-<<<<<<< .merge_file_AuGtaP
-<<<<<<< .merge_file_68f6VJ
-<<<<<<< .merge_file_OyTMki
-<<<<<<< .merge_file_AxADFU
 ## Perché esiste
-=======
 ## 🎯 La Visione
 
 Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modulo è stato pensato per risolvere problemi reali con soluzioni eleganti.
->>>>>>> .merge_file_B9TIk1
 
 ## Perché esiste questo modulo?
 
@@ -86,14 +65,9 @@ Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `
 
 ## 🧘 I Principi Zen (e la nostra filosofia)
 
-=======
 ## 🎯 La Visione
-=======
 ## La visione
->>>>>>> .merge_file_WCUUKu
-=======
 ## La visione
->>>>>>> .merge_file_LgHnK9
 
 Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modulo è stato pensato per risolvere problemi reali con soluzioni eleganti.
 
@@ -163,8 +137,6 @@ See [docs/architecture.md](./docs/architecture.md) for design decisions.
 
 | Tipo | Link |
 |--------|------|
-<<<<<<< .merge_file_AuGtaP
-<<<<<<< .merge_file_68f6VJ
 | 🇮🇹 Presentazione | Questo file (`README.md`) |
 | 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
 | 📚 Wiki tecnica | [./docs/](./docs/) |
@@ -172,20 +144,12 @@ See [docs/architecture.md](./docs/architecture.md) for design decisions.
 | 🎯 Esempi | [docs/examples/](./docs/examples/) |
 | 📋 Story BMAD | [docs/stories/](./docs/stories/) |
 | 🏗️ Architettura | [docs/architecture.md](./docs/architecture.md) |
-<<<<<<< HEAD
-| 🧪 Testing | [docs/root-md-files/testing.md](./docs/root-md-files/testing.md) |
-=======
 | 🧪 Testing | [docs/testing.md](./docs/testing.md) |
-| 🧭 Filosofia | [docs/philosophy.md](./docs/philosophy.md) |
->>>>>>> laraxot/dev
 | 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
 | 📐 Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
 | 🏠 README del progetto | [../../../README.md](../../../README.md) |
 
 ## 🔧 Tecnologie chiave
-=======
-=======
->>>>>>> .merge_file_LgHnK9
 | Presentazione (IT) | Questo file (`README.md`) |
 | Business card (EN) | [docs/readme-en.md](./docs/readme-en.md) |
 | Wiki tecnica | [./docs/](./docs/) |
@@ -194,16 +158,11 @@ See [docs/architecture.md](./docs/architecture.md) for design decisions.
 | Story BMAD | [docs/stories/](./docs/stories/) |
 | Architettura | [docs/architecture.md](./docs/architecture.md) |
 | Testing | [docs/testing.md](./docs/testing.md) |
-| Filosofia | [docs/philosophy.md](./docs/philosophy.md) |
 | Changelog | [CHANGELOG.md](./CHANGELOG.md) |
 | Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
 | README del progetto | [../../../README.md](../../../README.md) |
 
 ## Tecnologie chiave
-<<<<<<< .merge_file_AuGtaP
->>>>>>> .merge_file_WCUUKu
-=======
->>>>>>> .merge_file_LgHnK9
 
 **Stack principale:** Laravel 13, Filament 5, XotBase
 
@@ -241,15 +200,8 @@ php -d memory_limit=2G ./vendor/bin/phpstan analyse Modules/UI
 La responsabilità del modulo, le decisioni architetturali e le opportunità sono
 documentate negli artefatti BMAD sotto [`docs/bmad/`](docs/bmad/). I numeri vanno
 rigenerati quando il modulo cambia; non copiarli in badge non verificati.
-<<<<<<< .merge_file_AuGtaP
-=======
 **Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
->>>>>>> .merge_file_B9TIk1
-=======
 **Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
-<<<<<<< .merge_file_68f6VJ
->>>>>>> .merge_file_0H5dxY
-=======
 
 ## Scheda tecnica verificata (2026-10-07)
 
@@ -275,6 +227,3 @@ php -d memory_limit=2G ./vendor/bin/phpstan analyse Modules/UI
 La responsabilità del modulo, le decisioni architetturali e le opportunità sono
 documentate negli artefatti BMAD sotto [`docs/bmad/`](docs/bmad/). I numeri vanno
 rigenerati quando il modulo cambia; non copiarli in badge non verificati.
->>>>>>> .merge_file_WCUUKu
-=======
->>>>>>> .merge_file_LgHnK9
