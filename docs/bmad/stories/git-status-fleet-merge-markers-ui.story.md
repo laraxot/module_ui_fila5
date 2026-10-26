@@ -6,6 +6,9 @@ epic: quality
 status: done
 related:
   - ../../../../Xot/docs/bmad/stories/merge-marker-fleet-residue.story.md
+updated: 2026-10-23
+tags: [docs, ui, bmad]
+qmd: "git-status-fleet-merge-markers-ui ui"
 ---
 
 # git-status-fleet-merge-markers-ui

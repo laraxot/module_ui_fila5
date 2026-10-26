@@ -6,6 +6,7 @@ created: 2026-01-27
 updated: 2026-10-18
 module: UI
 tags: [docs, ui, components]
+qmd: "fullcalendar component for filament ui"
 ---
 
 # FullCalendar Component for Filament

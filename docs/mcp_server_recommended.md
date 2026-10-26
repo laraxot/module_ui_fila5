@@ -1,11 +1,12 @@
 ---
 title: "MCP Server Consigliati per il Modulo UI"
 type: note
-status: draft
 created: 2026-01-20
 updated: 2026-10-18
 module: UI
 tags: [docs, ui]
+status: superseded
+superseded_by: mcp-server-recommended.md
 ---
 
 # MCP Server Consigliati per il Modulo UI

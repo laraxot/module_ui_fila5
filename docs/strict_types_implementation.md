@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-18
 module: UI
 tags: [docs, ui]
+qmd: "implementazione di strict_types nel modulo ui ui"
 ---
 
 # Implementazione di strict_types nel Modulo UI
