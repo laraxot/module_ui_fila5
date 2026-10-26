@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-18
 module: UI
 tags: [docs, ui]
+qmd: "documentazione del metodo registerbladeicons ui"
 ---
 
 # Documentazione del Metodo registerBladeIcons

@@ -8,6 +8,8 @@ updated: 2026-10-26
 tags: [bmad, ui, module, stories, remaining-work]
 related:
   - ../../docs/second-brain/project/bmad-architecture.md
+status: draft
+qmd: "ui module   bmad stories & remaining work ui"
 ---
 
 # UI Module — BMAD Stories & Remaining Work

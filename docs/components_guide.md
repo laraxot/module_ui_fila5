@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-18
 module: UI
 tags: [docs, ui]
+qmd: "guida ai componenti ui ui"
 ---
 
 # Guida ai Componenti UI
