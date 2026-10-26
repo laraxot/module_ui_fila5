@@ -2,8 +2,9 @@
 title: "UI guest header e layout pubblico"
 type: story
 module: UI
-status: done
 track: ux/guest-auth
+status: superseded
+superseded_by: ui-guest-header-ux.story.md
 ---
 
 ## Obiettivo funzionale

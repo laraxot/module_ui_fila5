@@ -11,6 +11,9 @@ related:
   - ../../../../../docs/wiki/audits/docs-redundancy-audit.md
 issues: https://github.com/laraxot/module_ui_fila5/issues
 discussions: https://github.com/laraxot/module_ui_fila5/discussions
+type: index
+updated: 2026-10-15
+qmd: "**indice documentazione modulo ui** ui"
 ---
 
 # 📚 **Indice Documentazione Modulo UI**

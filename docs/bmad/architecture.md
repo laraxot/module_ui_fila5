@@ -12,6 +12,7 @@ related:
   - ./brainstorming.md
   - ./README.md
   - ./epics/epic-1-design-system-components.md
+status: draft
 ---
 
 # UI — Architettura

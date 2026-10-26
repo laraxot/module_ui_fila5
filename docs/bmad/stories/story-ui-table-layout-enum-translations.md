@@ -22,6 +22,10 @@ related:
   - ../../../../Xot/app/Traits/EnumTrait.php
   - ../../../lang/it/table_layout_enum.php
   - ../../../tests/Unit/Enums/TableLayoutEnumTest.php
+type: note
+updated: 2026-10-23
+tags: [docs, ui, bmad]
+qmd: "problema ui"
 ---
 
 # Problema

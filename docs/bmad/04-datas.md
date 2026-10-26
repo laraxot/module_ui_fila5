@@ -7,7 +7,8 @@ updated: 2026-09-26
 qmd: "04 datas"
 issues: []
 discussions: []
-status: draft
+status: superseded
+superseded_by: ../wiki/04-datas.md
 ---
 
 # Datas in UI Module
