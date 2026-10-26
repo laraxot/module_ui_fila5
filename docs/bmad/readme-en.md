@@ -2,6 +2,11 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
+title: "UI — English presentation"
+type: note
+status: draft
+tags: [docs, ui, bmad]
+qmd: "ui   english presentation ui"
 ---
 
 # 🎨 UI — English presentation

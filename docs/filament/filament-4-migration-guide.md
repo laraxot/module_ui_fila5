@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-18
 module: UI
 tags: [docs, ui, filament]
+qmd: "filament 4 migration guide ui"
 ---
 
 # Filament 4 Migration Guide

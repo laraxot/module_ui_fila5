@@ -6,6 +6,7 @@ created: 2026-09-06
 updated: 2026-10-15
 module: UI
 tags: [docs, ui, bmad]
+qmd: "documentation ui"
 ---
 
 # Documentation
@@ -1121,7 +1122,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 ---
-title: "UI — Il Design System Sacro"
 description: "Sistema di componenti UI riutilizzabili e design system per interfacce utente coerenti"
 module: "UI"
 alias: "ui"

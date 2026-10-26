@@ -1,3 +1,11 @@
+---
+title: "pulse"
+type: note
+status: draft
+updated: 2026-10-23
+tags: [docs, ui, prompts]
+qmd: "pulse ui"
+---
 studia a fondo
 https://github.com/KTanAug21/example-custom-pulse-card
 https://filamentexamples.com/project/branded-filament-panel-with-sidebar-profile-card

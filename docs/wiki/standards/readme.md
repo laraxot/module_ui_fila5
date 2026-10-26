@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-15
 module: UI
 tags: [docs, ui, wiki]
+qmd: "standard ui ui"
 ---
 
 # Standard UI

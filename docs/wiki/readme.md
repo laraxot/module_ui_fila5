@@ -6,6 +6,7 @@ created: 2026-04-21
 updated: 2026-10-15
 module: UI
 tags: [docs, ui, wiki]
+qmd: "llm wiki (module) ui"
 ---
 
 # LLM Wiki (module)

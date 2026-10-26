@@ -1,3 +1,11 @@
+---
+title: "Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025"
+type: note
+status: draft
+updated: 2026-10-22
+tags: [docs, ui]
+qmd: "bug fix: tablelayouttoggletableaction access level error - 27 gennaio 2025 ui"
+---
 # Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025
 
 ## Problema Identificato

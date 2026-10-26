@@ -177,4 +177,4 @@ $spacers: (
 ## 🔗 Collegamenti
 - [Performance](./performance.md)
 - [Accessibilità](./accessibility.md)
-- [Componenti Base](../base-components.md)
+- [Componenti Base](../../base-components.md)
