@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Widgets;
+namespace Modules\UI\Tests\Unit\Widgets;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
@@ -10,7 +10,7 @@ use Mockery\ExpectationInterface;
 use Mockery\MockInterface;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
@@ -23,7 +23,7 @@ function createTestCalendarWidget(): UserCalendarWidget
         {
             unset($function);
 
-            return 'Tests\\Modules\\UI\\Unit\\Widgets\\NonExistingAction';
+            return 'Modules\\UI\\Tests\\Unit\\Widgets\\NonExistingAction';
         }
     };
     $widget->type = 'test';
@@ -32,7 +32,7 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
-    /* @var \Tests\Modules\UI\TestCase $this */
+    /* @var \Modules\UI\Tests\TestCase $this */
     $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
         /** @var ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
@@ -42,8 +42,8 @@ beforeEach(function (): void {
 
 describe('Base Calendar Widget', function (): void {
     test('is auser calendar widget', function (): void {
-        /* @var \Tests\Modules\UI\TestCase $this */
-        Assert::assertInstanceOf(UserCalendarWidget::class, createTestCalendarWidget());
+        $widget = new UserCalendarWidget;
+        Assert::assertSame(UserCalendarWidget::class, $widget::class);
     });
 
     test('returns empty events if action class does not exist', function (): void {

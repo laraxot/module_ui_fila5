@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Fixtures;
+namespace Modules\UI\Tests\Fixtures;
 
 use Modules\UI\Models\Policies\UiBasePolicy;
 

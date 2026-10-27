@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Components;
+namespace Modules\UI\Tests\Unit\Components;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
@@ -21,7 +21,7 @@ describe('Component', function (): void {
             }
         };
 
-        Assert::assertInstanceOf(Component::class, $component);
+        Assert::assertStringContainsString('button', (string) $component->render()->render());
     });
 
     test('ui button component has correct attributes', function (): void {

@@ -2,22 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature\Filament\Widgets;
+namespace Modules\UI\Tests\Feature\Filament\Widgets;
 
-use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Modules\UI\Filament\Widgets\StatsOverviewWidget;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
-
-test('stats overview widget extends correct base class', function (): void {
-    $widget = new StatsOverviewWidget;
-    Assert::assertInstanceOf(FilamentStatsOverviewWidget::class, $widget);
-});
 
 test('stats overview widget has correct namespace', function (): void {
     Assert::assertStringContainsString('Modules\\UI\\Filament\\Widgets', StatsOverviewWidget::class);
@@ -42,11 +36,6 @@ test('stats overview widget returns correct stats', function (): void {
     foreach ($stats as $stat) {
         Assert::assertInstanceOf(Stat::class, $stat);
     }
-});
-
-test('stats overview widget can be instantiated', function (): void {
-    $widget = new StatsOverviewWidget;
-    Assert::assertInstanceOf(StatsOverviewWidget::class, $widget);
 });
 
 test('stats overview widget has correct strict types declaration', function (): void {

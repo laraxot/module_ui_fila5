@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Stubs;
+namespace Modules\UI\Tests\Unit\Stubs;
 
 use Filament\Resources\Pages\ListRecords;
 use Modules\UI\Enums\TableLayoutEnum;

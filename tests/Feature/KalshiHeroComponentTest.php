@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature;
+namespace Modules\UI\Tests\Feature;
 
 use Illuminate\Support\Facades\View;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
@@ -20,7 +20,7 @@ function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
 }
 
 beforeEach(function () {
-    /* @var \Tests\Modules\UI\TestCase $this */
+    /* @var \Modules\UI\Tests\TestCase $this */
     if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
         Assert::markTestSkipped('pub_theme kalshi hero view is not available in this install.');
     }

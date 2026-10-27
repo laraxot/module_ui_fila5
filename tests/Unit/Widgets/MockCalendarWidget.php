@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Widgets;
+namespace Modules\UI\Tests\Unit\Widgets;
 
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
-use Tests\Modules\UI\Unit\Widgets\Fixtures\BaseCalendarWidgetStub;
+use Modules\UI\Tests\Unit\Widgets\Fixtures\BaseCalendarWidgetStub;
 
 /**
  * Widget di supporto per i test del BaseCalendarWidget.

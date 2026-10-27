@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Widgets;
+namespace Modules\UI\Tests\Unit\Widgets;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature;
+namespace Modules\UI\Tests\Feature;
 
 use Modules\UI\Filament\Tables\Columns\OrderColumn;
 use PHPUnit\Framework\Assert;
@@ -10,7 +10,6 @@ use PHPUnit\Framework\Assert;
 describe('OrderColumn (Table) — order_column badge display', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = OrderColumn::make();
-        Assert::assertInstanceOf(OrderColumn::class, $column);
         Assert::assertSame('order_column', $column->getName());
     });
 

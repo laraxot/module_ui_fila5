@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature;
+namespace Modules\UI\Tests\Feature;
 
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
@@ -12,7 +12,6 @@ use PHPUnit\Framework\Assert;
 describe('PersonColumn — controparte di PersonSection', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = PersonColumn::make();
-        Assert::assertInstanceOf(PersonColumn::class, $column);
         Assert::assertSame('person', $column->getName());
     });
 
