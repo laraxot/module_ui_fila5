@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Auth\GenericUser;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Actions\GetUserDataAction;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;

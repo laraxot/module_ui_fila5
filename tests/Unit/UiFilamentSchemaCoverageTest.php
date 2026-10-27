@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
-use Tests\Modules\UI\TestCase;
-use Tests\Modules\Xot\FilamentSchemaCoverage;
+use Modules\UI\Tests\TestCase;
+use Modules\Xot\Tests\FilamentSchemaCoverage;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);

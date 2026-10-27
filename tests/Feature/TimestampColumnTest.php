@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature;
+namespace Modules\UI\Tests\Feature;
 
 use Modules\UI\Filament\Tables\Columns\TimestampColumn;
 use PHPUnit\Framework\Assert;

@@ -41,6 +41,32 @@ sources: []
 > **Componenti UI riutilizzabili e design system**
 > Componenti UI, layout, temi e pattern di design per Filament v5, senza logica di dominio.
 
+## Perché esiste
+## 🎯 La Visione
+
+Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modulo è stato pensato per risolvere problemi reali con soluzioni eleganti.
+
+## Perché esiste questo modulo?
+
+**Componenti UI, layout, temi e pattern di design per Filament v5.**
+
+In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Questo modulo non è solo una libreria: è una **promessa di qualità** mantenuta.
+
+## Cosa offre
+
+- **Blade/Livewire** — componenti riusabili
+- **Filament XotBase** — base per admin
+- **Accessibilità** — a11y conforme
+- **Tailwind/DaisyUI** — design system
+
+## Confini architetturali
+
+Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `Actions`; la UI admin segue Laraxot/XotBase. Nessuna logica di dominio: quella resta nei moduli che la possiedono (vedi [docs/purpose.md](./docs/purpose.md)).
+
+## 🧘 I Principi Zen (e la nostra filosofia)
+
+## 🎯 La Visione
+## La visione
 ## La visione
 
 Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modulo è stato pensato per risolvere problemi reali con soluzioni eleganti.
@@ -111,6 +137,19 @@ See [docs/architecture.md](./docs/architecture.md) for design decisions.
 
 | Tipo | Link |
 |--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/](./docs/) |
+| 🗺️ Mappa tecnica docs | [docs/README.md](./docs/README.md) |
+| 🎯 Esempi | [docs/examples/](./docs/examples/) |
+| 📋 Story BMAD | [docs/stories/](./docs/stories/) |
+| 🏗️ Architettura | [docs/architecture.md](./docs/architecture.md) |
+| 🧪 Testing | [docs/testing.md](./docs/testing.md) |
+| 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
+| 📐 Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
+| 🏠 README del progetto | [../../../README.md](../../../README.md) |
+
+## 🔧 Tecnologie chiave
 | Presentazione (IT) | Questo file (`README.md`) |
 | Business card (EN) | [docs/readme-en.md](./docs/readme-en.md) |
 | Wiki tecnica | [./docs/](./docs/) |
@@ -119,7 +158,6 @@ See [docs/architecture.md](./docs/architecture.md) for design decisions.
 | Story BMAD | [docs/stories/](./docs/stories/) |
 | Architettura | [docs/architecture.md](./docs/architecture.md) |
 | Testing | [docs/testing.md](./docs/testing.md) |
-| Filosofia | [docs/philosophy.md](./docs/philosophy.md) |
 | Changelog | [CHANGELOG.md](./CHANGELOG.md) |
 | Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
 | README del progetto | [../../../README.md](../../../README.md) |
@@ -136,6 +174,33 @@ Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan
 
 ---
 
+**Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
+
+## Scheda tecnica verificata (2026-10-07)
+
+| Voce | Valore |
+|---|---|
+| Nome dichiarato | `UI` |
+| Namespace | `Modules\UI\` |
+| File PHP (escluso vendor) | 747 |
+| File PHP di test | 81 |
+| Aree `app/` rilevate | Actions, Adapters, Console, Contracts, Data, Datas, Enums, Filament, Forms, Http, Livewire, Models, Providers, Rules, Services, Traits, View |
+| Migrazioni PHP | 3 |
+| SSoT locale | [`docs/`](docs/) e [`docs/bmad/`](docs/bmad/) |
+
+Questa scheda è un inventario statico, non una dichiarazione di qualità. Per ogni
+modifica eseguire i gate dal progetto Laravel:
+
+```bash
+cd laravel
+php -d memory_limit=2G ./vendor/bin/phpstan analyse Modules/UI
+./vendor/bin/pest Modules/UI
+```
+
+La responsabilità del modulo, le decisioni architetturali e le opportunità sono
+documentate negli artefatti BMAD sotto [`docs/bmad/`](docs/bmad/). I numeri vanno
+rigenerati quando il modulo cambia; non copiarli in badge non verificati.
+**Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
 **Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
 
 ## Scheda tecnica verificata (2026-10-07)

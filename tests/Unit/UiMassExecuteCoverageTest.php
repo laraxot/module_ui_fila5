@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use Mockery;
-use Tests\Modules\UI\TestCase;
-use Tests\Modules\Xot\ModuleExecuteCoverage;
+use Modules\UI\Tests\TestCase;
+use Modules\Xot\Tests\ModuleExecuteCoverage;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);

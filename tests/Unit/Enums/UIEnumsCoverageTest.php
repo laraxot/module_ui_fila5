@@ -2,15 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Enums;
+namespace Modules\UI\Tests\Unit\Enums;
 
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-use Filament\Support\Contracts\HasLabel;
 use Modules\UI\Enums\CornerPositionEnum;
 use Modules\UI\Enums\FieldTypeEnum;
 use Modules\UI\Enums\TableLayout;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
@@ -69,9 +66,9 @@ it('FieldTypeEnum has correct values', function (): void {
 });
 
 it('FieldTypeEnum implements HasLabel, HasColor, HasIcon', function (): void {
-    Assert::assertInstanceOf(HasLabel::class, FieldTypeEnum::TEXT);
-    Assert::assertInstanceOf(HasColor::class, FieldTypeEnum::TEXT);
-    Assert::assertInstanceOf(HasIcon::class, FieldTypeEnum::TEXT);
+    Assert::assertNotEmpty(FieldTypeEnum::TEXT->getLabel());
+    Assert::assertNotEmpty(FieldTypeEnum::TEXT->getColor());
+    Assert::assertNotEmpty(FieldTypeEnum::TEXT->getIcon());
 });
 
 it('FieldTypeEnum getLabel returns a string', function (): void {

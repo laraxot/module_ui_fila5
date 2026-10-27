@@ -12,6 +12,7 @@ related:
   - ./brainstorming.md
   - ./README.md
   - ./epics/epic-1-design-system-components.md
+status: draft
 ---
 
 # UI — Architettura
@@ -94,8 +95,8 @@ Relazioni autoreferenziate: il modello non dichiara metodi `children`/`parent`; 
 
 ## Servizi e dipendenze
 
-- `app/Services/UIService.php`, `ComponentService.php`, `ThemeService.php`.
-- Fallback Map/Geocoding: `app/Services/Map/NullMapService.php`, `NullGeocodingService.php` e `app/Adapters/Map/NullMapServiceAdapter.php`, `NullGeocodingServiceAdapter.php`. I docblock li descrivono come *"Fallback quando il modulo Geo non è installato"*.
+- Nessuna classe applicativa in `app/Services`: gli use case vivono in `app/Actions/`.
+- Fallback Map/Geocoding: `app/Adapters/Map/NullMapServiceAdapter.php`, `NullGeocodingServiceAdapter.php`. I docblock li descrivono come *"Fallback quando il modulo Geo non è installato"*.
 - Dipendenza da Xot: `XotBaseServiceProvider`, `XotBaseRouteServiceProvider`, `XotBasePanelProvider`, `Xot\Models\BaseModel`, `Xot\Traits\EnumTrait`, `GetModulePathByGeneratorAction` (registrazione Blade component).
 
 ## Config, traduzioni, database
@@ -136,7 +137,7 @@ Confronto di questa mappa con `laravel/Modules/UI`; il testo sopra non e' stato 
 
 | Affermazione sopra | Stato reale |
 |---|---|
-| `app/Services/UIService.php`, `ComponentService.php`, `ThemeService.php`, `app/Services/Map/Null*` | la cartella `app/Services` non esiste piu' (spostata in Actions, story `2026-10-08-services-to-actions-ui`); restano gli adapter in `app/Adapters/Map/` |
+| `app/Services/UIService.php`, `ComponentService.php`, `ThemeService.php`, `app/Services/Map/Null*` | residui rimossi; gli use case vivono in Actions e restano gli adapter in `app/Adapters/Map/` |
 | `resources/lang/it` e `resources/lang/en` | `resources/lang` non esiste; le traduzioni sono in `lang/` con 11 lingue e `it.json` |
 | 15 colonne tabella, 11 widget | 17 colonne (all'elenco mancano `EventColumn` e `OrganizationColumn`), 12 widget (manca `ToastWidget`) |
 | 121 file PHP in `app/`, 77 in `tests/` | 123 in `app/`, 81 in `tests/` |

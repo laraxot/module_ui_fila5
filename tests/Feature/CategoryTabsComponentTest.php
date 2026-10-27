@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature;
+namespace Modules\UI\Tests\Feature;
 
 use Illuminate\Support\Facades\View;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
@@ -43,7 +43,7 @@ function requireCategoryTabsHtml(array $data = []): string
 }
 
 beforeEach(function (): void {
-    /* @var \Tests\Modules\UI\TestCase $this */
+    /* @var \Modules\UI\Tests\TestCase $this */
     if (function_exists('config')) {
         config(['app.locale' => 'en']);
     }

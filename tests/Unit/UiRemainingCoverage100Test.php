@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -16,10 +16,10 @@ use Modules\UI\Filament\Forms\Components\AddressField;
 use Modules\UI\Filament\Forms\Components\EnumSelect;
 use Modules\UI\Filament\Forms\Components\RadioBadge;
 use Modules\UI\Filament\Forms\Components\SelectState;
-use Tests\Modules\UI\TestCase;
-use Tests\Modules\UI\Unit\Stubs\UiCoverageAuthUser;
-use Tests\Modules\UI\Unit\Stubs\UiCoverageBadgeEnum;
-use Tests\Modules\UI\Unit\Stubs\UiCoverageRecord;
+use Modules\UI\Tests\TestCase;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageAuthUser;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageBadgeEnum;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageRecord;
 use Modules\UI\View\Components\Navbar;
 use Modules\UI\View\Components\Page\WithSidebar;
 use Modules\UI\View\Components\Std;

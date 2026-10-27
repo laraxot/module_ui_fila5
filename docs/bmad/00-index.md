@@ -11,6 +11,9 @@ related:
   - ../../../../../docs/wiki/audits/docs-redundancy-audit.md
 issues: https://github.com/laraxot/module_ui_fila5/issues
 discussions: https://github.com/laraxot/module_ui_fila5/discussions
+type: index
+updated: 2026-10-15
+qmd: "**indice documentazione modulo ui** ui"
 ---
 
 # 📚 **Indice Documentazione Modulo UI**
@@ -190,7 +193,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
 ---
-## Contenuto assorbito da `00-index.md`
+## Contenuto assorbito da `00-INDEX.md`
 # 🧩 UI Components - Documentation Index
 **Path**: `Modules/UI/docs/`  
 **Modulo**: @Modules/UI  

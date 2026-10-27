@@ -1,3 +1,14 @@
+---
+title: "TableLayoutToggleTableAction"
+type: note
+status: draft
+created: 2026-01-20
+updated: 2026-10-15
+module: UI
+tags: [docs, ui, wiki]
+qmd: "tablelayouttoggletableaction ui"
+---
+
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -50,8 +61,8 @@ class MyListRecords extends ListRecords
 4. Mantenere la persistenza dello stato
 
 ## Collegamenti alla Documentazione
-- [Risoluzione Conflitti UI](../../_archive/conflitti_merge_risolti.md): Documentazione dei conflitti risolti
-- [Test di Risoluzione Conflitti](../../_archive/test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+- [Risoluzione Conflitti UI](../../conflitti-merge-risolti.md): Documentazione dei conflitti risolti
+- [Test di Risoluzione Conflitti](../../test-conflicts-resolution.md): Test automatici che verificano la corretta risoluzione
 
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
 ---
@@ -121,8 +132,8 @@ class MyListRecords extends ListRecords
 3. Gestire correttamente gli eventi di refresh
 4. Mantenere la persistenza dello stato
 ## Collegamenti alla Documentazione
-- [Risoluzione Conflitti UI](../../_archive/conflitti_merge_risolti.md): Documentazione dei conflitti risolti
-- [Test di Risoluzione Conflitti](../../_archive/test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+- [Risoluzione Conflitti UI](../../conflitti-merge-risolti.md): Documentazione dei conflitti risolti
+- [Test di Risoluzione Conflitti](../../test-conflicts-resolution.md): Test automatici che verificano la corretta risoluzione
 - **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
 - **Non** rimuovere `TableLayoutTrait` dall’Action — è il punto che scrive sessione al click.
 - **Non** refactorare icona/tooltip in closure se non c’è bug visivo.

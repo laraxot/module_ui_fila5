@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature;
+namespace Modules\UI\Tests\Feature;
 
 use Modules\UI\Database\Factories\CategoryFactory;
 use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\UI\Models\Collection;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);

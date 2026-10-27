@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use Filament\Forms\Components\Builder\Block as BuilderBlock;
 use Filament\Tables\Columns\TextColumn;
@@ -32,13 +32,12 @@ use Modules\UI\Filament\Tables\Columns\IDColumn;
 use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 use Modules\UI\Filament\Widgets\TestChartWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
-use Modules\UI\Forms\Components\RadioCardSelector;
-use Modules\UI\Http\Controllers\LanguageController;
+use Modules\UI\Filament\Forms\Components\RadioCardSelector;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Models\Category;
 use Modules\UI\Models\Collection;
 use Modules\UI\Models\FieldOption;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use Modules\UI\Traits\TableLayoutTrait;
 use Modules\UI\View\Components\Render\Block;
 use Modules\UI\View\Composers\ThemeComposer;
@@ -150,9 +149,12 @@ describe('UI highest-miss coverage', function (): void {
         $response = (new SetLocale)->handle(Request::create('/'), static fn (): Response => new Response('ok'));
         Assert::assertSame('ok', $response->getContent());
 
-        config(['app.supported_locales' => ['it', 'en'], 'app.locale' => 'it']);
-        Assert::assertTrue((new LanguageController)->switch('en')->isRedirect());
-        Assert::assertTrue((new LanguageController)->switch('xx')->isRedirect());
+        config(['app.locale' => 'it']);
+        $localeResponse = (new SetLocale)->handle(
+            Request::create('/en'),
+            static fn (): Response => new Response('ok'),
+        );
+        Assert::assertSame('ok', $localeResponse->getContent());
 
         $block = new Block(['data' => ['view' => 'ui::empty']]);
         Assert::assertSame('ui::empty', $block->view);

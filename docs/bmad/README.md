@@ -1,4 +1,23 @@
+---
+title: "Documentation"
+type: note
+status: draft
+created: 2026-09-06
+updated: 2026-10-15
+module: UI
+tags: [docs, ui, bmad]
+qmd: "documentation ui"
+---
+
 # Documentation
+
+## Kit BMAD owner (canonico)
+
+- [BMAD Planning](../bmad-planning.md)
+- [BMAD Brainstorming](../bmad-brainstorming.md)
+- [Filament blueprint](./filament-blueprint.md)
+- [Project context](./project-context.md)
+- [Decision log](./decision-log.md)
 
 This directory contains documentation for the module.
 
@@ -1103,7 +1122,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 ---
-title: "UI — Il Design System Sacro"
 description: "Sistema di componenti UI riutilizzabili e design system per interfacce utente coerenti"
 module: "UI"
 alias: "ui"
