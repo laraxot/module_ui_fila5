@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Translation\PotentiallyTranslatedString;
 use Mockery;
@@ -14,9 +14,9 @@ use Modules\UI\Models\Category;
 use Modules\UI\Models\Policies\UiBasePolicy;
 use Modules\UI\Providers\UIServiceProvider;
 use Modules\UI\Rules\OpeningHoursRule;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use Modules\Xot\Contracts\UserContract;
-use Tests\Modules\Xot\FilamentSchemaCoverage;
+use Modules\Xot\Tests\FilamentSchemaCoverage;
 use PHPUnit\Framework\Assert;
 use SplFileInfo;
 

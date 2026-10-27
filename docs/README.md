@@ -2,15 +2,16 @@
 title: "UI - documentazione del modulo"
 type: readme
 status: active
-updated: 2026-10-15
+updated: 2026-10-14
 module: UI
 tags: [docs, ui, readme]
 qmd: "ui modulo componenti blade filament colonne campi blocchi widget readme quick start"
 ---
 # UI - documentazione
 
-Identita', ownership, quick start e limiti del modulo `Modules\UI`. L'indice operativo canonico del `docs/` e'
-[00-index.md](00-index.md); l'indice generale del repo e' [docs/README.md](../../../../docs/README.md).
+Identita', ownership, quick start e limiti del modulo `Modules\UI`. L'indice operativo `00-INDEX.md` e' stato rimosso il
+2026-10-21 (commit `83cc85a8`): per navigare usare [wiki/00-index.md](wiki/00-index.md), [bmad/](bmad/) e [wiki/](wiki/); l'indice
+generale del repo e' [docs/README.md](../../../../docs/README.md).
 
 ## Identita' e ownership (verificato 2026-10-14)
 
@@ -37,7 +38,7 @@ Identita', ownership, quick start e limiti del modulo `Modules\UI`. L'indice ope
 | Test | `tests/` | 81 file PHP |
 
 `app/Filament/Resources/` contiene solo `Pages/BaseListRecords.php`: UI non ha Resource CRUD. `routes/web.php` e `routes/api.php` sono vuote.
-`app/Services` non esiste piu' (spostato in Actions, vedi la story 2026-10-08-services-to-actions-ui).
+`app/Services` non contiene use case: la logica applicativa vive nelle Queueable Actions, come descritto nella story [services-to-actions-ui](stories/services-to-actions-ui.story.md).
 
 ## Quick start
 
@@ -60,17 +61,7 @@ Per i test usare sempre un database di scratch: con la config cache i test colpi
   falliti non sono state indagate: non si sa se siano regressioni del codice o limiti dell'ambiente.
 - Il `README.md`, `ARCHITECTURE.md` e `GETTING_STARTED.md` nella radice del modulo (fuori da `docs/`) non sono affidabili:
   il primo contiene marker di merge non risolti, gli altri hanno segnaposto `$MOD`.
-- Il `docs/` e' sproporzionato rispetto al codice: 294 file `.md`, di cui 148 in `_archive/`. Il piano di riordino e'
-  `bmad-output/stories/docs-organization/` (DOC-004 e DOC-006 richiedono una migration map approvata).
+- Il `docs/` e' sproporzionato rispetto al codice: 454 file `.md` al 2026-10-23 (294 al 2026-10-14; `_archive/` non esiste
+  piu'). Il riordino e' tracciato in [stories/docs-organization-ui.story.md](stories/docs-organization-ui.story.md): spostare file
+  solo con una migration map approvata.
 - Due file di configurazione quasi omonimi (`config/laravel-localization.php` e `config/laravellocalization.php`).
-
-## Standing order (qualita' + docs)
-
-- **PHPStan a zero** sul codice del modulo: non ignorare errori, non abbassare il livello, non modificare `phpstan.neon` del progetto. Qualita' + docs + BMAD sono standing order, non opzionali.
-- **Cartella test**: solo `tests/` (minuscolo). `Tests/` e' vietato (case-collision su macOS/Windows e confusione PSR-4).
-- **Nomi `.md`**: kebab-case minuscolo, niente date/timestamp nel nome, unica eccezione `README.md`. Se esistono `readme.md` e `README.md`, resta solo `README.md`.
-- **Docs**: solo dentro `docs/` gia' esistente; consolida invece di moltiplicare file; link relativi; focus su scopo/perche'/business logic (DRY + KISS).
-- **Git**: forward-only (patch in avanti); no reset/revert/checkout come scorciatoia.
-- **BMAD + second brain**: indici e decisioni vivono in `docs/` del modulo; aggiornali quando cambia il perche', non solo il come.
-
-Vedi anche: [00-index.md](./00-index.md) · [index.md](./index.md)
