@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use BladeUI\Icons\Factory as IconFactory;
 use Filament\Actions\Action;
@@ -19,12 +19,12 @@ use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 use Modules\UI\Filament\Tables\Columns\IconStateGroupColumn;
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
-use Tests\Modules\UI\TestCase;
-use Tests\Modules\UI\Unit\Stubs\UiCoverageDoneState;
-use Tests\Modules\UI\Unit\Stubs\UiCoverageRecord;
-use Tests\Modules\UI\Unit\Stubs\UiCoverageRecordWithThrowingState;
-use Tests\Modules\UI\Unit\Stubs\UiCoverageStateContract;
-use Tests\Modules\UI\Unit\Stubs\UiCoverageThrowingTransitionState;
+use Modules\UI\Tests\TestCase;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageDoneState;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageRecord;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageRecordWithThrowingState;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageStateContract;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageThrowingTransitionState;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 

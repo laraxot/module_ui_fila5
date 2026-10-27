@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Widgets\Fixtures;
+namespace Modules\UI\Tests\Unit\Widgets\Fixtures;
 
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\TextInput;

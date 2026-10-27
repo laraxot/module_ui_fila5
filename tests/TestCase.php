@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI;
+namespace Modules\UI\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
@@ -13,7 +13,7 @@ use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
 use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
-use Tests\Modules\Xot\XotBaseTestCase;
+use Modules\Xot\Tests\XotBaseTestCase;
 
 use function Safe\file_get_contents;
 

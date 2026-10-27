@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature;
+namespace Modules\UI\Tests\Feature;
 
 use Modules\UI\Filament\Tables\Columns\SortableIdColumn;
 use PHPUnit\Framework\Assert;
@@ -10,7 +10,6 @@ use PHPUnit\Framework\Assert;
 describe('SortableIdColumn — colonna id standard del progetto', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = SortableIdColumn::make();
-        Assert::assertInstanceOf(SortableIdColumn::class, $column);
         Assert::assertSame('id', $column->getName());
     });
 

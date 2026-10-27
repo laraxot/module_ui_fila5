@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use Mockery;
 use Mockery\MockInterface;
-use Tests\Modules\UI\Fixtures\UiBasePolicyBehaviorConcretePolicy;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\Fixtures\UiBasePolicyBehaviorConcretePolicy;
+use Modules\UI\Tests\TestCase;
 use Modules\Xot\Contracts\UserContract;
 use PHPUnit\Framework\Assert;
 

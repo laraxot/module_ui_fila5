@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Models;
+namespace Modules\UI\Tests\Unit\Models;
 
 use Modules\UI\Models\Asset;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
@@ -25,7 +25,7 @@ use function Safe\file_get_contents;
 uses(TestCase::class);
 
 beforeEach(function (): void {
-    /* @var \Tests\Modules\UI\TestCase $this */
+    /* @var \Modules\UI\Tests\TestCase $this */
     if (! class_exists('Modules\UI\Models\Asset')) {
         Assert::markTestSkipped('Asset model is not part of the UI module artifact set.');
     }

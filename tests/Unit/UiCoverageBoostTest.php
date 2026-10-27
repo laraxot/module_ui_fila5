@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Enums\FieldTypeEnum;
 use Modules\UI\Enums\TableLayout;
 use Modules\UI\Filament\Widgets\StatsOverviewWidget;
 use Modules\UI\Models\Category;
 use Modules\UI\Providers\UIServiceProvider;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);

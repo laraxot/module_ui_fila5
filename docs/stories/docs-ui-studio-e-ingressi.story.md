@@ -21,7 +21,7 @@ partenza dell'audit: 294 file `.md`, 96% dei link rotti, nessun `index.md`.
 
 ## Analisi
 
-- Il contratto vuole `00-index.md` come indice canonico: UI lo aveva, ma linkava `schema/` (cartella inesistente alla radice di
+- Il contratto vuole `00-INDEX.md` come indice canonico: UI lo aveva, ma linkava `schema/` (cartella inesistente alla radice di
   `docs/`). Il `README.md` era un elenco di tre link. Non va creato un `index.md`.
 - Il modulo e' un kit di primitive: 17 colonne, 19 campi form, 14 blocchi, 12 widget, 6 Actions, 3 modelli piu' `BaseModel`, nessuna
   Resource CRUD, rotte vuote. Consumato da Activity, Blog, Cms, Media, User, Xot.
@@ -40,7 +40,7 @@ partenza dell'audit: 294 file `.md`, 96% dei link rotti, nessun `index.md`.
 
 | File | Modifica |
 |---|---|
-| `00-index.md` | tolto `schema/`; directory classificate (canoniche, evidence, legacy); ingressi duplicati dichiarati; stato misurato |
+| `00-INDEX.md` | tolto `schema/`; directory classificate (canoniche, evidence, legacy); ingressi duplicati dichiarati; stato misurato |
 | `README.md` | da elenco di link a identita', ownership, contenuto con conteggi, quick start, limiti |
 | `decision-log.md` | voce 2026-10-14 in testa |
 | `wiki/log.md` | nuovo, con la voce del giorno |
@@ -61,14 +61,14 @@ pest Modules/UI/tests (sqlite :memory:)         Tests: 16 failed, 1 risky, 109 s
 php artisan module:list                          [Enabled] UI
 ```
 
-Link non risolti sui file toccati (dry-run, `--by-name`, `--busy-minutes 0`, eventi `unresolved`, prima -> dopo): `00-index.md` 1 -> 0 e
+Link non risolti sui file toccati (dry-run, `--by-name`, `--busy-minutes 0`, eventi `unresolved`, prima -> dopo): `00-INDEX.md` 1 -> 0 e
 `README.md` 1 -> 0 (entrambi il link a `schema/`); `decision-log.md`, `wiki/log.md`, `wiki/purpose.md`, `bmad/architecture.md`,
 `investigation/ui-investigation.md` e questa story 0 -> 0. Totale del perimetro 1522 -> 1518 (2 in meno sono i miei, gli altri 2 vengono da altre
 passate nello stesso periodo). I rimanenti 1518 sono in file che non ho toccato.
 
 ## Decisioni
 
-- Un solo ingresso: `00-index.md`; gli indici di `wiki/` e `bmad/` restano, dichiarati legacy.
+- Un solo ingresso: `00-INDEX.md`; gli indici di `wiki/` e `bmad/` restano, dichiarati legacy.
 - Le verifiche si aggiungono in coda ai documenti altrui, non si riscrivono le loro righe.
 - Nessuna annotazione in massa: serve un filtro per file nel tool prima di usare `--annotate` su 159 file.
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Feature;
+namespace Modules\UI\Tests\Feature;
 
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
@@ -12,7 +12,6 @@ use PHPUnit\Framework\Assert;
 describe('AddressColumn — controparte di AddressField', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = AddressColumn::make();
-        Assert::assertInstanceOf(AddressColumn::class, $column);
         Assert::assertSame('address', $column->getName());
     });
 

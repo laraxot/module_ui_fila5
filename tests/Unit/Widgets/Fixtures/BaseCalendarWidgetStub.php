@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Widgets\Fixtures;
+namespace Modules\UI\Tests\Unit\Widgets\Fixtures;
 
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 enum TestNoLabelEnum: string
 {

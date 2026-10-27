@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit\Models;
+namespace Modules\UI\Tests\Unit\Models;
 
 use Modules\UI\Models\Theme;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 /*
@@ -24,7 +24,7 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 beforeEach(function (): void {
-    /* @var \Tests\Modules\UI\TestCase $this */
+    /* @var \Modules\UI\Tests\TestCase $this */
     if (! class_exists('Modules\UI\Models\Theme')) {
         Assert::markTestSkipped('Theme model is not part of the UI module artifact set.');
     }

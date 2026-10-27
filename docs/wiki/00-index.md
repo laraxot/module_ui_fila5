@@ -11,6 +11,9 @@ related:
   - ../../../../../docs/wiki/audits/docs-redundancy-audit.md
 issues: https://github.com/laraxot/module_ui_fila5/issues
 discussions: https://github.com/laraxot/module_ui_fila5/discussions
+type: index
+updated: 2026-10-23
+qmd: "**indice documentazione modulo ui** ui"
 ---
 
 # 📚 **Indice Documentazione Modulo UI**
@@ -21,7 +24,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 
 ## 🎯 **Lettura Essenziale**
 1. [README.md](./readme.md) - Design System e overview componenti.
-2. [roadmap.md](../_archive/roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
+2. [roadmap.md](../roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
 3. [philosophy.md](../bmad/philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
 
 ## 🏗️ **Core Design System**
@@ -31,7 +34,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 
 ## 🧱 **Componenti & Widget**
 - 🧩 **[Blade Components](./blade-components.md)** - Libreria di componenti atomici riutilizzabili.
-- ⚡ **[Filament Components](../legacy/filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
+- ⚡ **[Filament Components](../filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
 - 📍 **[Location Selector](./filament-components-location-studio.md)** - Componente avanzato per la selezione geografica.
 
 ## 🛠️ **Integrazioni Tecniche**
@@ -190,7 +193,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
 ---
-## Contenuto assorbito da `00-index.md`
+## Contenuto assorbito da `00-INDEX.md`
 # 🧩 UI Components - Documentation Index
 **Path**: `Modules/UI/docs/`  
 **Modulo**: @Modules/UI  

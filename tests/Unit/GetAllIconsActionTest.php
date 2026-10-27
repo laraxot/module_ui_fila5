@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\UI\Unit;
+namespace Modules\UI\Tests\Unit;
 
 use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
-use Tests\Modules\UI\TestCase;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
