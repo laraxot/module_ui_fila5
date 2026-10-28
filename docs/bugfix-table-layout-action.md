@@ -8,6 +8,8 @@ qmd: "bug fix: tablelayouttoggletableaction access level error - 27 gennaio 2025
 ---
 # Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025
 
+> Documento storico. Funzionamento attuale del toggle: [table-layout-toggle.md](./table-layout-toggle.md).
+
 ## Problema Identificato
 
 **Errore**: `Symfony\Component\ErrorHandler\Error\FatalError - Internal Server Error`
