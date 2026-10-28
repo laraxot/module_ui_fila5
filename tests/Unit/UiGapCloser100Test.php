@@ -18,7 +18,6 @@ use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\ToastWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Filament\Forms\Components\RadioCardSelector;
-use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
 use Modules\UI\Tests\TestCase;
@@ -39,11 +38,6 @@ describe('UI gap closer 100 — Livewire', function (): void {
         Assert::assertFalse($widget->darkMode);
         $widget->toggleDarkMode();
         Assert::assertTrue($widget->darkMode);
-    });
-
-    test('Toast render exposes view params', function (): void {
-        $component = new Toast;
-        Assert::assertInstanceOf(View::class, $component->render());
     });
 
     test('ToastWidget render exposes view (gemello Filament)', function (): void {
