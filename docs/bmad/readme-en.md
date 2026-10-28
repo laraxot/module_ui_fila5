@@ -2,6 +2,14 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
+<<<<<<< .merge_file_8pIZzs
+=======
+title: "UI — English presentation"
+type: note
+status: draft
+tags: [docs, ui, bmad]
+qmd: "ui   english presentation ui"
+>>>>>>> .merge_file_RwI6DO
 ---
 
 # 🎨 UI — English presentation
@@ -48,7 +56,7 @@ Visual consistency and DRY across Blade/Livewire/Filament.
 
 **Consistent UI** = strong public-sector brand.
 
-Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — see [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
+Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — see [STORY-133](../../../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
 
 ---
 

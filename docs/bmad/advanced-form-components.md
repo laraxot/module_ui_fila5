@@ -2,6 +2,14 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
+<<<<<<< .merge_file_9VUOjE
+=======
+title: "Componenti Form Avanzati"
+type: note
+status: draft
+tags: [docs, ui, bmad]
+qmd: "componenti form avanzati ui"
+>>>>>>> .merge_file_vuD2zT
 ---
 
 # Componenti Form Avanzati
