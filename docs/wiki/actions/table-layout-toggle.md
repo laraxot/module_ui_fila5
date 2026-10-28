@@ -1,12 +1,4 @@
 ---
-<<<<<<< HEAD
-<<<<<<< .merge_file_hoeYCh
-bmad_status: active
-scope: ui-docs
-updated: 2026-10-06
-=======
-=======
->>>>>>> laraxot/dev
 title: "TableLayoutToggleTableAction"
 type: note
 status: draft
@@ -15,10 +7,6 @@ updated: 2026-10-15
 module: UI
 tags: [docs, ui, wiki]
 qmd: "tablelayouttoggletableaction ui"
-<<<<<<< HEAD
->>>>>>> .merge_file_VIUZgO
-=======
->>>>>>> laraxot/dev
 ---
 
 # TableLayoutToggleTableAction

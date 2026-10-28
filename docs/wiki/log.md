@@ -1,29 +1,4 @@
 ---
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZyMKx7
-title: "UI Wiki Log"
-type: log
-tags: [ui, wiki, log]
-created: 2026-10-06
-updated: 2026-10-06
-=======
-title: "UI wiki log"
-type: log
-status: active
-created: 2026-10-14
-updated: 2026-10-14
-module: UI
-tags: [ui, log, docs]
-qmd: "ui wiki log docs studio ingressi"
->>>>>>> laraxot/dev
----
-
-# UI wiki log
-
-<<<<<<< HEAD
-## 2026-10-06
-- Initial wiki structure setup
-=======
 title: "UI wiki log"
 type: log
 status: active
@@ -36,8 +11,6 @@ qmd: "ui wiki log docs studio ingressi"
 
 # UI wiki log
 
-=======
->>>>>>> laraxot/dev
 Registro cronologico inverso. Esisteva solo come riferimento (`./log.md`) da `INDEX.md`, `overview.md` e `readme.md` di questa cartella,
 senza il file. Le decisioni stanno in [decision-log](../decision-log.md).
 
@@ -54,7 +27,3 @@ Studio del modulo contro i docs (story [2026-10-14-docs-ui-studio-e-ingressi](..
 - `bmad/architecture.md` e `wiki/purpose.md`: aggiunta in coda una verifica datata (la mappa del codice conteneva numeri e percorsi superati).
 - `bmad/purpose.md` e `wiki/purpose.md` hanno lo stesso corpo (diff vuoto): il canonico e' quello in `wiki/`.
 - Segnalato fuori perimetro: `laravel/Modules/UI/README.md` contiene marker di merge non risolti.
-<<<<<<< HEAD
->>>>>>> .merge_file_WIzIyV
-=======
->>>>>>> laraxot/dev

@@ -2,20 +2,11 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
-<<<<<<< HEAD
-<<<<<<< .merge_file_yO2PW1
-=======
-=======
->>>>>>> laraxot/dev
 title: "status"
 type: note
 status: draft
 tags: [docs, ui, bmad]
 qmd: "status ui"
-<<<<<<< HEAD
->>>>>>> .merge_file_tyqfL6
-=======
->>>>>>> laraxot/dev
 ---
 
 BMAD STATUS — UI

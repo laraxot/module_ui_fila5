@@ -1,12 +1,4 @@
 ---
-<<<<<<< HEAD
-<<<<<<< .merge_file_VtsgGW
-bmad_status: active
-scope: ui-docs
-updated: 2026-10-06
-=======
-=======
->>>>>>> laraxot/dev
 title: "LLM Wiki (module)"
 type: note
 status: draft
@@ -15,10 +7,6 @@ updated: 2026-10-15
 module: UI
 tags: [docs, ui, wiki]
 qmd: "llm wiki (module) ui"
-<<<<<<< HEAD
->>>>>>> .merge_file_lmlkr8
-=======
->>>>>>> laraxot/dev
 ---
 
 # LLM Wiki (module)
