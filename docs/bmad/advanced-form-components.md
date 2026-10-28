@@ -2,14 +2,20 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
+<<<<<<< HEAD
 <<<<<<< .merge_file_9VUOjE
 =======
+=======
+>>>>>>> laraxot/dev
 title: "Componenti Form Avanzati"
 type: note
 status: draft
 tags: [docs, ui, bmad]
 qmd: "componenti form avanzati ui"
+<<<<<<< HEAD
 >>>>>>> .merge_file_vuD2zT
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Componenti Form Avanzati

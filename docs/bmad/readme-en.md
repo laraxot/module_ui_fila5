@@ -2,14 +2,20 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
+<<<<<<< HEAD
 <<<<<<< .merge_file_8pIZzs
 =======
+=======
+>>>>>>> laraxot/dev
 title: "UI — English presentation"
 type: note
 status: draft
 tags: [docs, ui, bmad]
 qmd: "ui   english presentation ui"
+<<<<<<< HEAD
 >>>>>>> .merge_file_RwI6DO
+=======
+>>>>>>> laraxot/dev
 ---
 
 # 🎨 UI — English presentation

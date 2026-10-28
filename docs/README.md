@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ns8T0A
 bmad_status: active
 scope: UI-module-docs
@@ -20,6 +21,8 @@ Stale archive moved to `docs-archive/` at module root.
 
 - [2026-10-06 PHPStan cleanup — UI](./stories/2026-10-06-phpstan-cleanup-ui.story.md) · [dev](./stories/2026-10-06-phpstan-cleanup-ui.dev.md)
 =======
+=======
+>>>>>>> laraxot/dev
 title: "UI - documentazione del modulo"
 type: readme
 status: active
@@ -86,4 +89,7 @@ Per i test usare sempre un database di scratch: con la config cache i test colpi
   piu'). Il riordino e' tracciato in [stories/docs-organization-ui.story.md](stories/docs-organization-ui.story.md): spostare file
   solo con una migration map approvata.
 - Due file di configurazione quasi omonimi (`config/laravel-localization.php` e `config/laravellocalization.php`).
+<<<<<<< HEAD
 >>>>>>> .merge_file_cXmXLl
+=======
+>>>>>>> laraxot/dev
