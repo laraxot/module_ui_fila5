@@ -2,20 +2,11 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
-<<<<<<< HEAD
-<<<<<<< .merge_file_Yh299O
-=======
-=======
->>>>>>> laraxot/dev
 title: "Decision Log - Modulo UI"
 type: note
 status: draft
 tags: [docs, ui, bmad]
 qmd: "decision log - modulo ui ui"
-<<<<<<< HEAD
->>>>>>> .merge_file_GA1wcs
-=======
->>>>>>> laraxot/dev
 ---
 
 # Decision Log - Modulo UI

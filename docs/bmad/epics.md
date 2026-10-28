@@ -2,20 +2,11 @@
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZzArz7
-=======
-=======
->>>>>>> laraxot/dev
 title: "Epics e User Stories - Modulo UI"
 type: note
 status: draft
 tags: [docs, ui, bmad]
 qmd: "epics e user stories - modulo ui ui"
-<<<<<<< HEAD
->>>>>>> .merge_file_CwrDXJ
-=======
->>>>>>> laraxot/dev
 ---
 
 # Epics e User Stories - Modulo UI

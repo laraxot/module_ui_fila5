@@ -1,12 +1,4 @@
 ---
-<<<<<<< HEAD
-<<<<<<< .merge_file_CDNuEj
-bmad_status: active
-scope: ui-docs
-updated: 2026-10-06
-=======
-=======
->>>>>>> laraxot/dev
 title: "Standard UI"
 type: note
 status: draft
@@ -15,10 +7,6 @@ updated: 2026-10-15
 module: UI
 tags: [docs, ui, wiki]
 qmd: "standard ui ui"
-<<<<<<< HEAD
->>>>>>> .merge_file_xuwghi
-=======
->>>>>>> laraxot/dev
 ---
 
 # Standard UI

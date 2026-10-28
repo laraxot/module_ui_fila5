@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_2IBHsL
----
-bmad_status: active
-scope: ui-docs
-updated: 2026-10-06
----
-
-<<<<<<< .merge_file_jnjBKD
-<<<<<<< .merge_file_80UpUp
-=======
->>>>>>> .merge_file_Yi92RZ
-=======
->>>>>>> laraxot/dev
 ---
 title: "UI — Brainstorming"
 type: note

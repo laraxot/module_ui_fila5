@@ -1,28 +1,4 @@
 ---
-<<<<<<< HEAD
-<<<<<<< .merge_file_Ns8T0A
-bmad_status: active
-scope: UI-module-docs
-updated: 2026-10-06
----
-
-# UI Module — Active Documentation
-
-Active docs for the UI module (Filament components, Livewire widgets, design system, BMAD, wiki).
-Stale archive moved to `docs-archive/` at module root.
-
-## Sections
-- `bmad/` — BMAD specs, epics, stories, architecture
-- `wiki/` — Active reference (actions, concepts, integration, standards)
-- `legacy/` — Legacy notes
-- Root .md files — PHPStan fixes, PRD, module status
-
-## Stories PHPStan
-
-- [2026-10-06 PHPStan cleanup — UI](./stories/2026-10-06-phpstan-cleanup-ui.story.md) · [dev](./stories/2026-10-06-phpstan-cleanup-ui.dev.md)
-=======
-=======
->>>>>>> laraxot/dev
 title: "UI - documentazione del modulo"
 type: readme
 status: active
@@ -89,7 +65,3 @@ Per i test usare sempre un database di scratch: con la config cache i test colpi
   piu'). Il riordino e' tracciato in [stories/docs-organization-ui.story.md](stories/docs-organization-ui.story.md): spostare file
   solo con una migration map approvata.
 - Due file di configurazione quasi omonimi (`config/laravel-localization.php` e `config/laravellocalization.php`).
-<<<<<<< HEAD
->>>>>>> .merge_file_cXmXLl
-=======
->>>>>>> laraxot/dev
