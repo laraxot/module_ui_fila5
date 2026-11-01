@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-18
 module: UI
 tags: [docs, ui]
+qmd: "integrazione dei server mcp con il modulo ui ui"
 ---
 
 # Integrazione dei Server MCP con il Modulo UI

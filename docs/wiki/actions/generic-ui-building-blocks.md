@@ -3,17 +3,12 @@ title: "Generic UI Building Blocks: Category, Collection, FieldOption"
 type: concept
 tags: [models, actions, category, collection, field-option]
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-10-23
 qmd: "generic-ui-building-blocks category collection fieldoption"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
   - "./table-layout-toggle.md"
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./table-layout-toggle.md"
-  - "../geo-boundary.md"
 status: draft
 ---
 
@@ -84,11 +79,11 @@ unico entrypoint `execute()`). Azioni presenti, raggruppate per sotto-cartella:
   `Panel` senza modifiche. C'è un file gemello `.disabled` nella stessa cartella da rimuovere
   quando il pacchetto sarà aggiornato.
 
-## Violazione regola di dipendenza (LocationSelector)
+## Violazione regola di dipendenza (LocationSelector) — chiusa
 
-`LocationSelector` e' una classe **Geo** finita in UI: importa `Modules\Geo\Models\Comune` (per stringa, dietro `class_exists`). La regola del progetto e' che `Modules/UI` non dipende da `Modules/Geo` (direzione corretta: Geo verso UI). La versione canonica vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (chiavi lingua `geo::location_selector.*`).
+`LocationSelector` e' una classe **Geo** finita in UI: importava `Modules\Geo\Models\Comune` (per stringa, dietro `class_exists`). La regola del progetto e' che `Modules/UI` non dipende da `Modules/Geo` (direzione corretta: Geo verso UI). La versione canonica vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (chiavi lingua `geo::location_selector.*`).
 
-Stato verificato il 2026-10-20: il componente era stato cancellato da UI (`616345f9`, poi `0ecaedc4` del 2026-10-08), ma il pull del 2026-10-20 lo ha riportato con `LocationSelector.php.to_geo` e `lang/*/location_selector.php` (commit `294bbc20`). `app/Filament/Forms/Components/LocationSelector.php` esiste quindi di nuovo, senza chiamanti nel repo. E' stato solo tipizzato per tenere PHPStan a zero; la cancellazione, con `.to_geo` e le lang, resta una decisione aperta: vedi [phpstan-test-wave-ui](../../stories/phpstan-test-wave-ui.story.md). Non ricrearlo come null-adapter ne' come stub che estende la classe Geo.
+Storia: cancellato da UI il 2026-10-08 (`616345f9`, poi `0ecaedc4`), riportato dal pull del 2026-10-20 (commit `294bbc20`, con `LocationSelector.php.to_geo` e `lang/*/location_selector.php`), cancellato di nuovo il 2026-10-21: `.to_geo` e le lang in `83cc85a8`, `LocationSelector.php` in `4934d4c9` (verificato 2026-10-23: `test ! -f app/Filament/Forms/Components/LocationSelector.php`). Dettagli in [phpstan-test-wave-ui](../../stories/phpstan-test-wave-ui.story.md). Non ricrearlo in UI, ne' come stub che estende la classe Geo, ne' come null-adapter, ne' con suffisso `.to_geo`.
 
 Le Action di questo modulo restano quelle elencate sopra (icone, datetime, blocchi, user header). Niente Action di geocoding/mappe qui: quelle, se un giorno serviranno, sono `QueueableAction` in `Modules/Geo`.
 

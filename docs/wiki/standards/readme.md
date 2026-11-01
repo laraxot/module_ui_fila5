@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-15
 module: UI
 tags: [docs, ui, wiki]
+qmd: "standard ui ui"
 ---
 
 # Standard UI
@@ -177,7 +178,6 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../xot/docs/development/readme.md)
 * [README.md](../../../dental/docs/readme.md)
 * [README.md](../../../user/docs/phpstan/readme.md)
-* [README.md](../../../../User/docs/readme.md)
 * [README.md](../../../../User/docs/readme.md)
 * [README.md](../../../ui/docs/phpstan/readme.md)
 * [README.md](../../README.md)

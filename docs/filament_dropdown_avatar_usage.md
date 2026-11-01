@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-18
 module: UI
 tags: [docs, ui]
+qmd: "utilizzo dei componenti filament dropdown e avatar ui"
 ---
 
 # Utilizzo dei Componenti Filament Dropdown e Avatar 

@@ -6,6 +6,7 @@ created: 2026-01-20
 updated: 2026-10-18
 module: UI
 tags: [docs, ui]
+qmd: "analisi ottimizzazioni modulo ui - dry + kiss ui"
 ---
 
 # Analisi Ottimizzazioni Modulo UI - DRY + KISS

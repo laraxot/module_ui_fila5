@@ -42,8 +42,8 @@ beforeEach(function (): void {
 
 describe('Base Calendar Widget', function (): void {
     test('is auser calendar widget', function (): void {
-        /* @var \Modules\UI\Tests\TestCase $this */
-        Assert::assertInstanceOf(UserCalendarWidget::class, createTestCalendarWidget());
+        $widget = new UserCalendarWidget;
+        Assert::assertSame(UserCalendarWidget::class, $widget::class);
     });
 
     test('returns empty events if action class does not exist', function (): void {

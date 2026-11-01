@@ -1,11 +1,7 @@
 ---
-title: "UI Components - Documentation Index"
-type: index
-status: draft
-created: 2026-01-20
-updated: 2026-10-15
-module: UI
-tags: [docs, ui, wiki]
+bmad_status: active
+scope: ui-docs
+updated: 2026-10-06
 ---
 
 # 🧩 UI Components - Documentation Index
@@ -114,7 +110,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 
 | Da | A | Tipo |
 |----|---|------|
-| [Theme Index](../../../../Themes/TwentyOne/docs/00-INDEX.md) | UI Components | Dependency |
+| [Theme Index](../../Themes/TwentyOne/docs/00-INDEX.md) | UI Components | Dependency |
 | [Predict Module Index](../../Modules/Predict/docs/00-INDEX.md) | UI Components | Reference |
 
 ---
