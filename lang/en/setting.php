@@ -12,6 +12,15 @@ return [
         'sort' => 99,
     ],
     'title' => 'Settings',
+    'fields' => [
+        'dark_mode_switcher_enabled' => [
+            'label' => 'Show the light/dark theme switcher',
+            'placeholder' => '',
+            'helper_text' => 'When off, the light/dark theme switcher is hidden from the panel and the themes.',
+            'tooltip' => '',
+            'description' => '',
+        ],
+    ],
     'actions' => [
         'save' => [
             'label' => 'Save',

@@ -12,6 +12,15 @@ return [
         'sort' => 99,
     ],
     'title' => 'Impostazioni',
+    'fields' => [
+        'dark_mode_switcher_enabled' => [
+            'label' => 'Mostra il selettore tema chiaro/scuro',
+            'placeholder' => '',
+            'helper_text' => 'Se spento, il selettore tema chiaro/scuro sparisce dal pannello e dai temi.',
+            'tooltip' => '',
+            'description' => '',
+        ],
+    ],
     'actions' => [
         'save' => [
             'label' => 'Salva',
