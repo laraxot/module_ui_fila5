@@ -6,7 +6,7 @@ story_id: "2026-10-06-app-header-guest-ux"
 status: review
 related:
   - ../../../../Xot/docs/bmad/stories/remove-typedhasrecursiverelationships.story.md
-updated: 2026-10-07
+updated: 2026-10-21
 tags: [docs, ui, bmad]
 qmd: "app header: crash per ospiti e ux di accesso ui"
 ---

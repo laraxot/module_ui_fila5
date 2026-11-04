@@ -16,6 +16,9 @@ related:
   - ../stories/12.1.retire-ui-http-livewire.story.md
   - ../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md
   - ../../Xot/docs/bmad/stories/livewire-to-filament-widgets-fleet.story.md
+updated: 2026-10-20
+tags: [docs, ui, bmad]
+qmd: "inventario ui: livewire http → filament widget ui"
 ---
 
 # Inventario UI: Livewire HTTP → Filament widget

@@ -1,5 +1,4 @@
 ---
-title: "UI — Architettura"
 title: "UI — Architettura BMAD"
 type: architecture
 tags: [bmad, ui, architecture, design-system]
@@ -12,6 +11,7 @@ related:
   - ./brainstorming.md
   - ./README.md
   - ./epics/epic-1-design-system-components.md
+status: draft
 ---
 
 # UI — Architettura
