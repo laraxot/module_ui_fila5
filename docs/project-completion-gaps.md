@@ -1,5 +1,5 @@
 ---
-title: "Lacune di completamento — UI"
+title: "Lacune di completamento: UI"
 type: audit
 status: open
 created: 2026-10-28
@@ -10,7 +10,7 @@ related:
   - "../../Xot/docs/project-completion-readiness.md"
 ---
 
-# Lacune di completamento — UI
+# Lacune di completamento: UI
 
 ## Esito
 
@@ -66,13 +66,13 @@ Lettura read-only delle 22 story locali (`*.story.md`): 13 hanno uno stato diver
 
 ### Esempi prioritari da riconciliare
 
-- `in_progress` — [`1.4-phpstan-ui-fixes.story.md`](bmad/stories/1.4-phpstan-ui-fixes.story.md)
-- `in_progress` — [`group-column-type-enum-getlabel-fix.story.md`](bmad/stories/group-column-type-enum-getlabel-fix.story.md)
-- `in-progress` — [`resolve-conflict-markers-ui.story.md`](stories/resolve-conflict-markers-ui.story.md)
-- `active` — [`schema-org-reusable-components.story.md`](bmad/stories/schema-org-reusable-components.story.md)
-- `ready-for-dev` — [`module-bmad-audit.story.md`](bmad/stories/module-bmad-audit.story.md)
-- `ready-for-dev` — [`ui-filament-contract-and-livewire-retire.story.md`](stories/ui-filament-contract-and-livewire-retire.story.md)
-- `ready-for-dev` — [`ui-module-bmad-setup.story.md`](stories/ui-module-bmad-setup.story.md)
-- `review` — [`app-header-guest-ux.story.md`](bmad/stories/app-header-guest-ux.story.md)
+- `in_progress`: [`1.4-phpstan-ui-fixes.story.md`](bmad/stories/1.4-phpstan-ui-fixes.story.md)
+- `in_progress`: [`group-column-type-enum-getlabel-fix.story.md`](bmad/stories/group-column-type-enum-getlabel-fix.story.md)
+- `in-progress`: [`resolve-conflict-markers-ui.story.md`](stories/resolve-conflict-markers-ui.story.md)
+- `active`: [`schema-org-reusable-components.story.md`](bmad/stories/schema-org-reusable-components.story.md)
+- `ready-for-dev`: [`module-bmad-audit.story.md`](bmad/stories/module-bmad-audit.story.md)
+- `ready-for-dev`: [`ui-filament-contract-and-livewire-retire.story.md`](stories/ui-filament-contract-and-livewire-retire.story.md)
+- `ready-for-dev`: [`ui-module-bmad-setup.story.md`](stories/ui-module-bmad-setup.story.md)
+- `review`: [`app-header-guest-ux.story.md`](bmad/stories/app-header-guest-ux.story.md)
 
 Prima di lavorare su questi elementi, verificare lo stato canonico nello sprint status, claim/lock e dipendenze. Una story senza `status` non va considerata automaticamente completata.

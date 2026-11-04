@@ -42,7 +42,7 @@ Problemi trasversali (valgono per tutto il progetto): vedi `project-completion-s
 | in-progress | [UI: resolve git conflict markers in the gap closer test](docs/stories/resolve-conflict-markers-ui.story.md) |
 | review | [App header: crash per ospiti e UX di accesso](docs/bmad/stories/app-header-guest-ux.story.md) |
 | review | [UI: README/contributing marker + md uppercase in root](docs/bmad/stories/root-hygiene-conflict-markers.story.md) |
-| ready-for-dev | [UI — baseline BMAD e analisi completa](docs/bmad/stories/module-bmad-audit.story.md) |
+| ready-for-dev | [UI: baseline BMAD e analisi completa](docs/bmad/stories/module-bmad-audit.story.md) |
 | ready-for-dev | [UI: contratto Filament, ritiro del Toast Livewire e copie risorte](docs/stories/ui-filament-contract-and-livewire-retire.story.md) |
 | ready-for-dev | [UI Module BMAD Setup](docs/stories/ui-module-bmad-setup.story.md) |
 | todo | [Cookiebar visual audit and accessibility compliance](docs/stories/cookiebar-visual-audit.story.md) |
