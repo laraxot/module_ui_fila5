@@ -17,13 +17,6 @@ use Modules\Xot\Filament\Pages\BaseSettingPage;
 class SettingPage extends BaseSettingPage
 {
     /**
-<<<<<<< HEAD
-     * @return array<string, object>
-     */
-    protected function getFormSchema(): array
-    {
-        return parent::getFormSchema();
-=======
      * @return array<string, Toggle>
      */
     protected function getFormSchema(): array
@@ -31,6 +24,5 @@ class SettingPage extends BaseSettingPage
         return [
             'dark_mode_switcher_enabled' => Toggle::make('dark_mode_switcher_enabled'),
         ];
->>>>>>> 5079e7c159fc7e6cd66e609d30307d9db067c45b
     }
 }
