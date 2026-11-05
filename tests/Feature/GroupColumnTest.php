@@ -18,11 +18,6 @@ use Modules\UI\Tests\Fixtures\UiGroupColumnTypeEnum;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-=======
-uses(\Modules\UI\Tests\TestCase::class);
-
->>>>>>> laraxot/dev
 /**
  * @return array{getTable: \Closure(): Table}
  */
