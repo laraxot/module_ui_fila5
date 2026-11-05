@@ -8,6 +8,7 @@ use Modules\UI\Filament\Pages\SettingPage;
 use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
 use Modules\UI\Tests\Support\FakeTenantUiConfig;
 use Modules\UI\Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
 uses(TestCase::class)->group('no-ui-db');
 
@@ -45,7 +46,7 @@ test('a tenant array overrides the dark mode switcher default', function (): voi
 
 test('a missing tenant file gives the defaults', function (): void {
     if (is_file(app(GetTenantFilePathAction::class)->execute('ui.php'))) {
-        test()->markTestSkipped('Il tenant corrente ha un file ui.php: i default non sono osservabili.');
+        Assert::markTestSkipped('Il tenant corrente ha un file ui.php: i default non sono osservabili.');
     }
 
     expect(UIConfigData::make()->toArray())->toBe(UIConfigData::from([])->toArray())
