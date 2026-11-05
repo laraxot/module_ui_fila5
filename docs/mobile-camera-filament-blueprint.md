@@ -1,4 +1,8 @@
+<<<<<<< .merge_file_tvaVw2
 # ImageSpatie / SpatieDocumentUpload — Filament Blueprint
+=======
+# ImageSpatie / SpatieDocumentUpload: Filament Blueprint
+>>>>>>> .merge_file_5eMx81
 
 ## Component Design (BMAD + Ponytail)
 - `SpatieDocumentUpload::make()` standardizes upload: `SpatieMediaLibraryFileUpload`, `disk('private')`, `preserveFilenames()`, `maxSize(10240)`, `acceptedFileTypes` includes `image/heic`, `image/webp`
