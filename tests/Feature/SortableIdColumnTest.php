@@ -8,7 +8,10 @@ use Modules\UI\Filament\Tables\Columns\SortableIdColumn;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_BFNQ0P
 uses(TestCase::class);
+=======
+>>>>>>> .merge_file_lXpp3W
 describe('SortableIdColumn — colonna id standard del progetto', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = SortableIdColumn::make();

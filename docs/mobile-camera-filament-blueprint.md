@@ -1,3 +1,7 @@
+<<<<<<< .merge_file_6YXWoZ
+=======
+# ImageSpatie / SpatieDocumentUpload — Filament Blueprint
+>>>>>>> .merge_file_vVRFV8
 # ImageSpatie / SpatieDocumentUpload: Filament Blueprint
 
 ## Component Design (BMAD + Ponytail)

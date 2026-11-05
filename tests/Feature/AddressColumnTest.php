@@ -10,7 +10,10 @@ use Modules\UI\Filament\Tables\Columns\AddressColumn;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_YgKvpy
 uses(TestCase::class);
+=======
+>>>>>>> .merge_file_ogsw4G
 describe('AddressColumn — controparte di AddressField', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = AddressColumn::make();

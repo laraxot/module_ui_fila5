@@ -8,7 +8,10 @@ use Modules\UI\Filament\Tables\Columns\OrderColumn;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_fSGMZP
 uses(TestCase::class);
+=======
+>>>>>>> .merge_file_Rr6qbK
 describe('OrderColumn (Table) — order_column badge display', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = OrderColumn::make();

@@ -8,7 +8,10 @@ use Modules\UI\Filament\Tables\Columns\OpeningHoursColumn;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_EcaDSt
 uses(TestCase::class);
+=======
+>>>>>>> .merge_file_wTXUyc
 describe('OpeningHoursColumn — controparte di OpeningHoursField', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = OpeningHoursColumn::make();

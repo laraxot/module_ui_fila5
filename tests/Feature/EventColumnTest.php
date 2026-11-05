@@ -7,7 +7,10 @@ use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Filament\Tables\Columns\EventColumn;
 use Modules\UI\Tests\TestCase;
 
+<<<<<<< .merge_file_rs4PS9
 uses(TestCase::class);
+=======
+>>>>>>> .merge_file_oeJ1rB
 it('provides the schema.org event field set', function (): void {
     $column = EventColumn::make();
 

@@ -10,7 +10,10 @@ use Modules\UI\Filament\Tables\Columns\PersonColumn;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_GY0vGB
 uses(TestCase::class);
+=======
+>>>>>>> .merge_file_E8nb2e
 describe('PersonColumn — controparte di PersonSection', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = PersonColumn::make();
