@@ -6,10 +6,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
-<<<<<<< .merge_file_w2a0KO
 uses(TestCase::class);
-=======
->>>>>>> .merge_file_E2pjNG
 it('button blade renders semantic button or anchor tags', function (): void {
     $path = dirname(__DIR__, 3).'/resources/views/components/ui/button.blade.php';
     $contents = (string) file_get_contents($path);

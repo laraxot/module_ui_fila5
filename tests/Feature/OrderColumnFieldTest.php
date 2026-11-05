@@ -8,10 +8,7 @@ use Modules\UI\Filament\Forms\Components\OrderColumn;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< .merge_file_Qk2NnP
 uses(TestCase::class);
-=======
->>>>>>> .merge_file_9ExQs8
 describe('OrderColumn (Form) — order_column badge with move up/down arrows', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $field = OrderColumn::make();

@@ -19,11 +19,8 @@ use Modules\UI\Tests\TestCase;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< .merge_file_EVj1Ff
 uses(TestCase::class);
 
-=======
->>>>>>> .merge_file_oDSuX9
 /**
  * @return array{getTable: \Closure(): Table}
  */

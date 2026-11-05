@@ -7,10 +7,7 @@ use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Filament\Tables\Columns\OrganizationColumn;
 use Modules\UI\Tests\TestCase;
 
-<<<<<<< .merge_file_XKh9Yq
 uses(TestCase::class);
-=======
->>>>>>> .merge_file_1Xvg81
 it('provides the schema.org organization field set', function (): void {
     $column = OrganizationColumn::make();
 
