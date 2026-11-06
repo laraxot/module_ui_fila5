@@ -20,7 +20,6 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
-
 /**
  * @return array{getTable: \Closure(): Table}
  */
