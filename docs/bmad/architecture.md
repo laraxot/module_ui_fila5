@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "UI — Architettura BMAD"
+=======
+title: "UI: Architettura BMAD"
+>>>>>>> laraxot/dev
 type: architecture
 tags: [bmad, ui, architecture, design-system]
 created: 2026-09-26
@@ -14,13 +18,17 @@ related:
 status: draft
 ---
 
-# UI — Architettura
+# UI: Architettura
 
 > **SUMMARY**: mappa reale del modulo UI: namespace `Modules\UI`, 4 modelli Eloquent senza Resource CRUD, 15 colonne Tabella, 18 campi Form (+1 in `app/Forms`), 14 blocchi, 11 widget Filament, 6 Action, 3 contratti, servizi con fallback `Null*` per Map/Geocoding, 4 provider. Derivata da `find app -type d` e `ls` sui file, non da supposizioni.
 
 ## Shard di architettura
 
+<<<<<<< HEAD
 - [architecture/module-boundary.md](architecture/module-boundary.md) — confini, conteggi, decisioni da confermare, gate
+=======
+- [architecture/module-boundary.md](architecture/module-boundary.md): confini, conteggi, decisioni da confermare, gate
+>>>>>>> laraxot/dev
 
 ## Namespace e composizione
 
@@ -30,7 +38,7 @@ status: draft
 
 ## Modelli
 
-`app/Models/` — tutti estendono `Modules\Xot\Models\BaseModel` (i docblock dichiarano esplicitamente l'assenza del modulo FormBuilder).
+`app/Models/`: tutti estendono `Modules\Xot\Models\BaseModel` (i docblock dichiarano esplicitamente l'assenza del modulo FormBuilder).
 
 | Modello | Ruolo | Note |
 |---------|-------|------|
@@ -56,8 +64,8 @@ Relazioni autoreferenziate: il modello non dichiara metodi `children`/`parent`; 
 ### Campi Form
 
 - `app/Filament/Forms/Components/`: `AddressField`, `Children`, `EnumSelect`, `IconPicker`, `InlineDatePicker`, `OpeningHoursField`, `OrderColumn`, `ParentSelect`, `PasswordStrengthField`, `PersonSection`, `RadioBadge`, `RadioCollection`, `RadioIcon`, `RadioImage`, `SelectState`, `TreeField`, `YearSelect`, `Field/QrReader`.
-- `app/Forms/Components/RadioCardSelector.php` — selettore a card, fuori dal namespace Filament.
-- `app/Filament/Components/SpatieDocumentUpload.php` — upload documenti con Spatie.
+- `app/Forms/Components/RadioCardSelector.php`: selettore a card, fuori dal namespace Filament.
+- `app/Filament/Components/SpatieDocumentUpload.php`: upload documenti con Spatie.
 - Versioni non attive: `LocationSelector.php.old`, `LocationSelector.php.to_geo`.
 
 ### Blocchi e View component

@@ -28,6 +28,7 @@ abstract class TestCase extends XotBaseTestCase
     use DatabaseTransactions;
 
     /**
+<<<<<<< HEAD
      * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.
      *
      * Viveva come funzione libera in tre file di test, ognuno con una guardia
@@ -45,6 +46,17 @@ abstract class TestCase extends XotBaseTestCase
         $expectation = $mock->shouldReceive($method);
 
         return $expectation;
+=======
+     * Expectation reale di un singolo metodo, con with()/andReturnUsing() tipizzati per PHPStan.
+     *
+     * Metodo e non funzione libera: una funzione con lo stesso nome in tre file di test faceva
+     * fallire l'intera suite con "Cannot redeclare". Il corpo sta in XotBaseTestCase::singleExpectation()
+     * perche' shouldReceive() ritorna un CompositeExpectation, non l'Expectation che il suo PHPDoc dichiara.
+     */
+    public static function expectMethod(LegacyMockInterface|MockInterface $mock, string $method): Expectation
+    {
+        return self::singleExpectation($mock, $method);
+>>>>>>> laraxot/dev
     }
 
     /** @var list<string> */

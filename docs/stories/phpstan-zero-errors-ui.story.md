@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "[STORY] PHPStan zero errori — modulo UI"
+=======
+title: "[STORY] PHPStan zero errori: modulo UI"
+>>>>>>> laraxot/dev
 type: story
 status: done
 priority: low
@@ -11,7 +15,11 @@ related:
   - "../../../../../docs/stories/all-modules-phpstan-zero-errors.story.md"
 ---
 
+<<<<<<< HEAD
 # Story: PHPStan zero errori — modulo UI
+=======
+# Story: PHPStan zero errori: modulo UI
+>>>>>>> laraxot/dev
 
 ## User Request
 

@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "UI Module — BMAD Stories & Remaining Work"
+=======
+title: "UI Module: BMAD Stories & Remaining Work"
+>>>>>>> laraxot/dev
 type: concept
 sources: ["../../AGENTS.md"]
 confidence: medium
@@ -12,15 +16,24 @@ status: draft
 qmd: "ui module   bmad stories & remaining work ui"
 ---
 
+<<<<<<< HEAD
 # UI Module — BMAD Stories & Remaining Work
+=======
+# UI Module: BMAD Stories & Remaining Work
+>>>>>>> laraxot/dev
 
 ## Module Overview
 The UI module provides shared UI components, design patterns, and interface utilities.
 
 ## Remaining Work
 1. PHPStan Zero Verification ✅
+<<<<<<< HEAD
 2. Component Library — Verify shared component architecture
 3. Design System Integration — Verify design-comuni alignment
+=======
+2. Component Library: Verify shared component architecture
+3. Design System Integration: Verify design-comuni alignment
+>>>>>>> laraxot/dev
 4. Module Documentation 📋
 5. BMAD Stories 📋
 

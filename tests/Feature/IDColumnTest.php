@@ -6,8 +6,15 @@ namespace Modules\UI\Tests\Feature;
 
 use Illuminate\Support\HtmlString;
 use Modules\UI\Filament\Tables\Columns\IDColumn;
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
+=======
+use Modules\UI\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+
+uses(TestCase::class);
+>>>>>>> laraxot/dev
 describe('IDColumn — identificatore e target di ritorno della riga', function (): void {
     it('rende un target HTML stabile senza anchor annidati', function (): void {
         $html = IDColumn::renderAnchor(42)->toHtml();

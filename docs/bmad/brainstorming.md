@@ -1,5 +1,5 @@
 ---
-title: "UI — Brainstorming"
+title: "UI: Brainstorming"
 type: note
 tags: [bmad, ui, brainstorming, decisioni]
 created: 2026-09-28
@@ -22,7 +22,11 @@ related:
   - ./stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md
 ---
 
+<<<<<<< HEAD
 # UI — Brainstorming
+=======
+# UI: Brainstorming
+>>>>>>> laraxot/dev
 scope: ui-docs
 updated: 2026-10-07
 ---
@@ -33,11 +37,19 @@ updated: 2026-10-07
 
 ## Shard
 
+<<<<<<< HEAD
 - [brainstorming/module-opportunities.md](brainstorming/module-opportunities.md) — domande ad alto valore, ipotesi e rischi del modulo
 
 ## Decisioni da prendere (evidenza sui file)
 
 ### D1 — Due implementazioni di `TableLayoutTrait`
+=======
+- [brainstorming/module-opportunities.md](brainstorming/module-opportunities.md): domande ad alto valore, ipotesi e rischi del modulo
+
+## Decisioni da prendere (evidenza sui file)
+
+### D1: Due implementazioni di `TableLayoutTrait`
+>>>>>>> laraxot/dev
 - [brainstorming/module-opportunities.md](brainstorming/module-opportunities.md) - domande ad alto valore, ipotesi e rischi del modulo
 
 ## Decisioni da prendere (evidenza sui file)
@@ -47,29 +59,49 @@ updated: 2026-10-07
 `app/Traits/TableLayoutTrait.php` e `app/Filament/Actions/Table/TableLayoutTrait.php` espongono entrambe `getTableLayout()`/`setTableLayout()` da sessione, e il contratto `app/Contracts/HasTableLayout.php` è soddisfatto da entrambe. Accanto al primo esiste `app/Traits/TableLayoutTrait.php.bak`.
 **Domanda**: quale dei due è il SSoT e l'altro diventa alias? Test di riferimento: `tests/Unit/Traits/HasTableLayoutPageContractTest.php`, `tests/Unit/Enums/TableLayoutEnumTest.php`.
 
+<<<<<<< HEAD
 ### D2 — Due enum per il layout
+=======
+### D2: Due enum per il layout
+>>>>>>> laraxot/dev
 ### D2 - Due enum per il layout
 
 `app/Enums/TableLayout.php` è un enum string con `EnumTrait`; `app/Enums/TableLayoutEnum.php` è un enum Filament che implementa `HasColor`, `HasIcon`, `HasLabel`. Le traduzioni delle label sono tracciate in [stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md](stories/story-ui-table-layout-enum-translations.md).
 **Domanda**: conversione in enum `HasLabel` o fusione in un unico enum?
 
+<<<<<<< HEAD
 ### D3 — Fallback Map/Geocoding duplicati
+=======
+### D3: Fallback Map/Geocoding duplicati
+>>>>>>> laraxot/dev
 ### D3 - Fallback Map/Geocoding duplicati
 
 `app/Services/Map/NullMapService.php` e `app/Adapters/Map/NullMapServiceAdapter.php` implementano entrambi `MapServiceContract` con lo stesso docblock *"Fallback quando il modulo Geo non è installato"*; stesso per `NullGeocodingService` e `NullGeocodingServiceAdapter`. Accanto, `app/Filament/Forms/Components/LocationSelector.php.old` e `.to_geo` restano come varianti congelate.
 **Domanda**: `Services/Map` resta o si cancella a favore di `Adapters/Map`?
 
+<<<<<<< HEAD
 ### D4 — `UserData` in due directory
+=======
+### D4: `UserData` in due directory
+>>>>>>> laraxot/dev
 ### D4 - `UserData` in due directory
 
 `app/Data/UserData.php` e `app/Datas/UserData.php` coesistono (la maggior parte dei data object è in `app/Datas/`: `SliderData`, `SliderDataCollection`, `ThemeMetadataData`).
 **Domanda**: directory canonica `Datas` e `app/Data` va ridotta o rimossa?
 
+<<<<<<< HEAD
 ### D5 — Config localization duplicato
 
 `config/laravel-localization.php` e `config/laravellocalization.php` differiscono solo per il nome del file. Quale dei due viene letto dal provider va verificato prima di scegliere il SSoT.
 
 ### D6 — Widget congelati
+=======
+### D5: Config localization duplicato
+
+`config/laravel-localization.php` e `config/laravellocalization.php` differiscono solo per il nome del file. Quale dei due viene letto dal provider va verificato prima di scegliere il SSoT.
+
+### D6: Widget congelati
+>>>>>>> laraxot/dev
 ### D5 - Config localization duplicato
 
 `config/laravel-localization.php` e `config/laravellocalization.php` differiscono solo per il nome del file. Quale dei due viene letto dal provider va verificato prima di scegliere il SSoT.
