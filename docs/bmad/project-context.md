@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Project context — UI"
-=======
 title: "Project context: UI"
->>>>>>> laraxot/dev
 type: constitution
 module: UI
 track: quick-flow
@@ -18,11 +14,7 @@ related:
   - ./filament-blueprint.md
 ---
 
-<<<<<<< HEAD
-# Costituzione — UI
-=======
 # Costituzione: UI
->>>>>>> laraxot/dev
 
 Fornire un vocabolario UI accessibile condiviso invece di fork per-modulo.
 

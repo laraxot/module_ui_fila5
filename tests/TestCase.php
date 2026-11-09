@@ -28,25 +28,6 @@ abstract class TestCase extends XotBaseTestCase
     use DatabaseTransactions;
 
     /**
-<<<<<<< HEAD
-     * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.
-     *
-     * Viveva come funzione libera in tre file di test, ognuno con una guardia
-     * function_exists('expectMethod') che non funzionava: la funzione stava in un
-     * namespace, e function_exists senza namespace cerca quella globale. Il secondo
-     * file caricato faceva fallire l'intera suite con un "Cannot redeclare".
-     *
-     * Con un singolo metodo shouldReceive() restituisce una Expectation
-     * (il PHPDoc Mockery lo garantisce: `$methodNames is list{} ? HigherOrderMessage : Expectation`),
-     * che espone with()/andReturnUsing() ecc. — ExpectationInterface no.
-     */
-    public static function expectMethod(LegacyMockInterface|MockInterface $mock, string $method): Expectation
-    {
-        /** @var Expectation $expectation */
-        $expectation = $mock->shouldReceive($method);
-
-        return $expectation;
-=======
      * Expectation reale di un singolo metodo, con with()/andReturnUsing() tipizzati per PHPStan.
      *
      * Metodo e non funzione libera: una funzione con lo stesso nome in tre file di test faceva
@@ -56,7 +37,6 @@ abstract class TestCase extends XotBaseTestCase
     public static function expectMethod(LegacyMockInterface|MockInterface $mock, string $method): Expectation
     {
         return self::singleExpectation($mock, $method);
->>>>>>> laraxot/dev
     }
 
     /** @var list<string> */

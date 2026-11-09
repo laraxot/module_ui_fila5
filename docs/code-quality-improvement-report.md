@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Code Quality Improvement Report — UI"
-=======
 title: "Code Quality Improvement Report: UI"
->>>>>>> laraxot/dev
 type: report
 tags: [code-quality, phpstan, pest, maintainability]
 module: "UI"
@@ -11,11 +7,7 @@ created: 2026-07-17
 updated: 2026-07-27
 qmd: "code quality baseline PHPStan Pest strict types Laraxot UI git remote"
 story: STORY-001
-<<<<<<< HEAD
-# GRAVE: issue/discussion del modulo — mai base_techplanner / base_workorder / mono.
-=======
 # GRAVE: issue/discussion del modulo: mai base_techplanner / base_workorder / mono.
->>>>>>> laraxot/dev
 # Resolve: cd laravel/Modules/UI && git remote -v → laraxot/module_ui_fila5
 issues: []
 discussions: []

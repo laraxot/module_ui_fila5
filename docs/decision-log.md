@@ -6,11 +6,7 @@ updated: 2026-10-08
 tags: [docs, ui]
 qmd: "decision log   ui ui"
 ---
-<<<<<<< HEAD
-# Decision Log — UI
-=======
 # Decision Log: UI
->>>>>>> laraxot/dev
 
 A threaded, append-only record of decisions made across BMAD planning workflows.
 Every later skill (brief, PRD, architecture, stories) appends here so the reasoning

@@ -1,20 +1,12 @@
 ---
-<<<<<<< HEAD
-title: "BMAD completion pack — UI"
-=======
 title: "BMAD completion pack: UI"
->>>>>>> laraxot/dev
 type: note
 status: draft
 updated: 2026-10-26
 tags: [docs, ui, bmad]
 qmd: "bmad completion pack   ui ui"
 ---
-<<<<<<< HEAD
-# BMAD completion pack — UI
-=======
 # BMAD completion pack: UI
->>>>>>> laraxot/dev
 
 This is the owner-local BMAD entry point. Cross-owner contracts are in plans/fixcity-completion-architecture.md; the backlog is in docs/completion-backlog.md.
 

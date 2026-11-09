@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Sostenibilità — responsabilità UI"
-=======
 title: "Sostenibilità: responsabilità UI"
->>>>>>> laraxot/dev
 type: bmad-reference
 status: decision-input
 updated: 2026-10-15

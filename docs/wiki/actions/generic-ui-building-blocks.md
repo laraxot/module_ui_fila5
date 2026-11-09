@@ -79,11 +79,7 @@ unico entrypoint `execute()`). Azioni presenti, raggruppate per sotto-cartella:
   `Panel` senza modifiche. C'è un file gemello `.disabled` nella stessa cartella da rimuovere
   quando il pacchetto sarà aggiornato.
 
-<<<<<<< HEAD
-## Violazione regola di dipendenza (LocationSelector) — chiusa
-=======
 ## Violazione regola di dipendenza (LocationSelector): chiusa
->>>>>>> laraxot/dev
 
 `LocationSelector` e' una classe **Geo** finita in UI: importava `Modules\Geo\Models\Comune` (per stringa, dietro `class_exists`). La regola del progetto e' che `Modules/UI` non dipende da `Modules/Geo` (direzione corretta: Geo verso UI). La versione canonica vive in `Modules\Geo\Filament\Forms\Components\LocationSelector` (chiavi lingua `geo::location_selector.*`).
 

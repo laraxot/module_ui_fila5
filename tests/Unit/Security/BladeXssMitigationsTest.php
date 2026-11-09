@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 use Modules\UI\Tests\TestCase;
->>>>>>> laraxot/dev
 use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;

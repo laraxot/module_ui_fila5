@@ -14,11 +14,7 @@ related:
   - ../../../Xot/docs/bmad-method.md
 ---
 
-<<<<<<< HEAD
-# Epic 1 — Consolidamento primitive Form/Table
-=======
 # Epic 1: Consolidamento primitive Form/Table
->>>>>>> laraxot/dev
   - ../../../../Xot/docs/bmad-method.md
 ---
 
@@ -28,11 +24,7 @@ related:
 
 ## Numero e nome
 
-<<<<<<< HEAD
-Epic 1 — "UI primitives: un SSoT per layout, enum, fallback e data".
-=======
 Epic 1: "UI primitives: un SSoT per layout, enum, fallback e data".
->>>>>>> laraxot/dev
 
 ## Perché ora
 
@@ -112,11 +104,7 @@ File (verificati il 2026-10-07): `app/Filament/Forms/Components/{Person,Organiza
 
 ## Tracciabilità
 
-<<<<<<< HEAD
-- Epica di roadmap: [module-roadmap.md](module-roadmap.md), sezione "Epic A — Contratto e architettura" e "Epic B — Qualità verificabile".
-=======
 - Epica di roadmap: [module-roadmap.md](module-roadmap.md), sezione "Epic A: Contratto e architettura" e "Epic B: Qualità verificabile".
->>>>>>> laraxot/dev
 - Metodo: [bmad-method.md](../../../Xot/docs/bmad-method.md).
 - Epica di roadmap: [module-roadmap.md](module-roadmap.md), sezione "Epic A - Contratto e architettura" e "Epic B - Qualità verificabile".
 - Metodo: [bmad-method.md](../../../../Xot/docs/bmad-method.md).

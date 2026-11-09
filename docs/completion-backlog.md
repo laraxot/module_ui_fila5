@@ -1,20 +1,12 @@
 ---
-<<<<<<< HEAD
-title: "UI — completion backlog"
-=======
 title: "UI: completion backlog"
->>>>>>> laraxot/dev
 type: note
 status: draft
 updated: 2026-10-26
 tags: [docs, ui]
 qmd: "ui   completion backlog ui"
 ---
-<<<<<<< HEAD
-# UI — completion backlog
-=======
 # UI: completion backlog
->>>>>>> laraxot/dev
 
 Status: partial and evidence-driven. This file is the canonical owner-local list for future work.
 

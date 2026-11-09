@@ -23,11 +23,7 @@ qmd: "inventario ui: livewire http → filament widget ui"
 
 # Inventario UI: Livewire HTTP → Filament widget
 
-<<<<<<< HEAD
-Questo file è la SSoT per il modulo UI sul tema "conversione Livewire → widget Filament". Story **12.1 implementata**: ritirato l'HTTP `DarkModeSwitcher`; `Toast` resta. Allineamento fleet **W0 ✓** (2026-10-20): [inventario Xot](../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md) · [fleet story](../../Xot/docs/bmad/stories/livewire-to-filament-widgets-fleet.story.md) — panel-first **REUSE**, niente HTTP orfani per il chrome tema. Gli altri documenti in `docs/bmad/` che trattano lo stesso argomento vanno letti come satelliti di questo, non come fonti alternative (vedi la sezione "Correzione" più sotto).
-=======
 Questo file è la SSoT per il modulo UI sul tema "conversione Livewire → widget Filament". Story **12.1 implementata**: ritirato l'HTTP `DarkModeSwitcher`; `Toast` resta. Allineamento fleet **W0 ✓** (2026-10-20): [inventario Xot](../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md) · [fleet story](../../Xot/docs/bmad/stories/livewire-to-filament-widgets-fleet.story.md): panel-first **REUSE**, niente HTTP orfani per il chrome tema. Gli altri documenti in `docs/bmad/` che trattano lo stesso argomento vanno letti come satelliti di questo, non come fonti alternative (vedi la sezione "Correzione" più sotto).
->>>>>>> laraxot/dev
 
 ## Metodo
 

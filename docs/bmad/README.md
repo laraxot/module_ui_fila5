@@ -1191,8 +1191,4 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 
 ---
 
-<<<<<<< HEAD
-*Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
-=======
 *Documento generato secondo le convenzioni del progetto: modulo `UI`: data 2026-05-27*
->>>>>>> laraxot/dev

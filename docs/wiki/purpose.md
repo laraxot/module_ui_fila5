@@ -101,15 +101,9 @@ Come Xot, Notify e Activity: un `index.md` a una schermata, un canonico per argo
 
 ## Collegamenti
 
-<<<<<<< HEAD
-- `laravel/Modules/Ptv/docs/form-column-parity.md` — la parita' come regola
-- `docs/wiki/rules/filament-form-components-vocabulary.md` — quando estrarre
-- `./architecture.md` — architettura tecnica del modulo (componenti, Filament, Blocks)
-=======
 - `laravel/Modules/Ptv/docs/form-column-parity.md`: la parita' come regola
 - `docs/wiki/rules/filament-form-components-vocabulary.md`: quando estrarre
 - `./architecture.md`: architettura tecnica del modulo (componenti, Filament, Blocks)
->>>>>>> laraxot/dev
 
 ## Verifica del 2026-10-14
 

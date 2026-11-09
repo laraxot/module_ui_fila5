@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "UI — Architettura BMAD"
-=======
 title: "UI: Architettura BMAD"
->>>>>>> laraxot/dev
 type: architecture
 tags: [bmad, ui, architecture, design-system]
 created: 2026-09-26
@@ -24,11 +20,7 @@ status: draft
 
 ## Shard di architettura
 
-<<<<<<< HEAD
-- [architecture/module-boundary.md](architecture/module-boundary.md) — confini, conteggi, decisioni da confermare, gate
-=======
 - [architecture/module-boundary.md](architecture/module-boundary.md): confini, conteggi, decisioni da confermare, gate
->>>>>>> laraxot/dev
 
 ## Namespace e composizione
 

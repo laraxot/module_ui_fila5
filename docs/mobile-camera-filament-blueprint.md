@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# ImageSpatie / SpatieDocumentUpload — Filament Blueprint
-=======
 # ImageSpatie / SpatieDocumentUpload: Filament Blueprint
->>>>>>> laraxot/dev
 
 ## Component Design (BMAD + Ponytail)
 - `SpatieDocumentUpload::make()` standardizes upload: `SpatieMediaLibraryFileUpload`, `disk('private')`, `preserveFilenames()`, `maxSize(10240)`, `acceptedFileTypes` includes `image/heic`, `image/webp`
@@ -16,8 +12,4 @@
 
 ## Verification
 - `php -m | grep imagick`: active
-<<<<<<< HEAD
 - `php artisan config:clear`: apply media-library settings
-=======
-- `php artisan config:clear`: apply media-library settings
->>>>>>> laraxot/dev
