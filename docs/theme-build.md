@@ -28,7 +28,6 @@ cd Themes/One
 npm run build
 
 # 2. Pubblicare asset nella cartella pubblica:
-npm run copy
 ```
 
 > **Requisito:** Filament 3.x supporta solo **Tailwind CSS 3.x**. Verificare in `package.json` di avere `"tailwindcss": "^3.x"` come dipendenza.
