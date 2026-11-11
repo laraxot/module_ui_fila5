@@ -27,8 +27,8 @@ cd Themes/One
 # 1. Compilare asset (Tailwind, JavaScript, CSS):
 npm run build
 
-# 2. Pubblicare asset nella cartella pubblica:
-npm run copy
+# 2. Niente copia: public_html/themes/<Tema> e' un symlink a Themes/<Tema>/public
+#    (php artisan xot:theme-link, una volta per installazione)
 ```
 
 > **Requisito:** Filament 3.x supporta solo **Tailwind CSS 3.x**. Verificare in `package.json` di avere `"tailwindcss": "^3.x"` come dipendenza.
