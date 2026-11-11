@@ -47,6 +47,13 @@ return [
         'practices' => 'My Practices',
         'notifications' => 'Notifications',
         'logout' => 'Log Out',
+        'password_requirements' => [
+            'title' => 'Password requirements',
+            'min_length' => 'At least 8 characters',
+            'uppercase' => 'At least one uppercase letter',
+            'number' => 'At least one number',
+            'special' => 'At least one special character',
+        ],
     ],
     'user_dropdown' => [
         'manage_account' => 'Account Management',
@@ -68,8 +75,4 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
-    'fields' => [
-    ],
-    'actions' => [
-    ],
 ];
