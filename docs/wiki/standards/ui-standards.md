@@ -5,8 +5,6 @@ tags: [standards]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-standards standard ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -16,6 +14,7 @@ related:
   - "./form-standards-1.md"
   - "./form-standards.md"
   - "./performance.md"
+status: draft
 ---
 
 # Standard UI
@@ -176,4 +175,4 @@ $spacers: (
 ## 🔗 Collegamenti
 - [Performance](./performance.md)
 - [Accessibilità](./accessibility.md)
-- [Componenti Base](../base-components.md)
+- [Componenti Base](../../base-components.md)

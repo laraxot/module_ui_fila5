@@ -15,9 +15,11 @@ use Mockery\Expectation;
 use Mockery\MockInterface;
 use Modules\UI\Filament\Tables\Columns\GroupColumn;
 use Modules\UI\Tests\Fixtures\UiGroupColumnTypeEnum;
+use Modules\UI\Tests\TestCase;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
+uses(TestCase::class);
 /**
  * @return array{getTable: \Closure(): Table}
  */
@@ -44,21 +46,6 @@ function groupColumnViewTableBag(): array
     return [
         'getTable' => static fn (): Table => $table,
     ];
-}
-
-// Local test enum for testing BackedEnum with HasLabel
-enum TestWorkerType: string
-{
-    case Dip = 'dip';
-    case Fun = 'fun';
-
-    public function getLabel(): string
-    {
-        return match ($this) {
-            self::Dip => 'Dipendente',
-            self::Fun => 'Funzionario',
-        };
-    }
 }
 
 // Test GroupColumn class

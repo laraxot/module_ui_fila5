@@ -3,6 +3,7 @@ bmad_status: active
 scope: ui-docs
 updated: 2026-10-06
 ---
+
 # 🧩 UI Components - Documentation Index
 
 **Path**: `Modules/UI/docs/`  

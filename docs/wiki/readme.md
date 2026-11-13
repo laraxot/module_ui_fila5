@@ -1,3 +1,14 @@
+---
+title: "LLM Wiki (module)"
+type: note
+status: draft
+created: 2026-04-21
+updated: 2026-10-15
+module: UI
+tags: [docs, ui, wiki]
+qmd: "llm wiki (module) ui"
+---
+
 # LLM Wiki (module)
 
 Questa cartella contiene la wiki curata del modulo per uso LLM.
@@ -44,8 +55,8 @@ Core module for the FixCity Platform.
 | Lingua | Link |
 |--------|------|
 | 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+| 🇬🇧 Business card | [docs/readme-en.md](../bmad/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](..) |
 
 ---
 
