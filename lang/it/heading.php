@@ -5,17 +5,9 @@ declare(strict_types=1);
 return [
     'fields' => [
         'level' => [
-            'label' => 'level',
-            'description' => 'level',
-            'helper_text' => 'level',
-            'placeholder' => 'level',
             'tooltip' => '',
         ],
         'content' => [
-            'label' => 'content',
-            'description' => 'content',
-            'helper_text' => 'content',
-            'placeholder' => 'content',
             'tooltip' => '',
         ],
     ],
@@ -30,7 +22,7 @@ return [
         ],
         'label' => 'Heading',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [

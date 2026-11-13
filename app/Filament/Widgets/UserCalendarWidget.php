@@ -17,16 +17,7 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     public string $type;
 
     /** @var view-string */
-    protected string $view;
-
-    public function __construct()
-    {
-        /** @var view-string $view */
-        $view = 'ui::filament.widgets.user-calendar';
-        $this->view = $view;
-
-        parent::__construct();
-    }
+    protected string $view = 'ui::filament.widgets.user-calendar';
 
     public function getActionName(string $function): string
     {
@@ -42,9 +33,13 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
+<<<<<<< .merge_file_jFogpb
      * @param array<string, mixed> $fetchInfo
      * @param array<string, mixed> $fetchInfo
      *
+=======
+     * @param  array<string, mixed>  $fetchInfo
+>>>>>>> .merge_file_5mrOOB
      * @return array<int, array<string, mixed>>
      */
     public function fetchEvents(array $fetchInfo): array

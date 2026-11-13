@@ -4,9 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 use Modules\UI\Filament\Forms\Components\OpeningHoursField;
+use Modules\Xot\Filament\Tables\Columns\XotBaseTextColumn;
+
+/*
+ * GateGuard: callers OpeningHoursColumnTest; unique opening-hours summary column;
+ * reads weekly hours array state; user: "migliora qualità codice , fa tutto con bmad + second brain + filament blueprint"
+ */
 
 /**
  * Controparte in lista di {@see OpeningHoursField}.
@@ -25,7 +30,7 @@ use Modules\UI\Filament\Forms\Components\OpeningHoursField;
  *
  * @see Modules/Ptv/docs/form-column-parity.md
  */
-class OpeningHoursColumn extends TextColumn
+class OpeningHoursColumn extends XotBaseTextColumn
 {
     protected const string DEFAULT_NAME = 'opening_hours';
 
@@ -56,17 +61,16 @@ class OpeningHoursColumn extends TextColumn
             $slots = is_array($day) ? self::formatSlots($day) : [];
 
             $abbrev = mb_substr($dayLabel, 0, 3);
-            $parts[] = [] === $slots
+            $parts[] = $slots === []
                 ? "{$abbrev} chiuso"
                 : $abbrev.' '.implode(', ', $slots);
         }
 
-        return [] === $parts ? '—' : implode(' · ', $parts);
+        return $parts === [] ? '—' : implode(' · ', $parts);
     }
 
     /**
-     * @param array<array-key, mixed> $day
-     *
+     * @param  array<array-key, mixed>  $day
      * @return list<string>
      */
     private static function formatSlots(array $day): array
@@ -75,7 +79,7 @@ class OpeningHoursColumn extends TextColumn
         foreach (['morning', 'afternoon'] as $period) {
             $from = $day["{$period}_from"] ?? null;
             $until = $day["{$period}_to"] ?? null;
-            if (is_string($from) && is_string($until) && '' !== $from && '' !== $until) {
+            if (is_string($from) && is_string($until) && $from !== '' && $until !== '') {
                 $slots[] = "{$from}-{$until}";
             }
         }

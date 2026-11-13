@@ -47,9 +47,7 @@ return [
     ],
     'actions' => [
         'change-state' => [
-            'label' => 'change-state',
             'icon' => 'change-state',
-            'tooltip' => 'change-state',
         ],
     ],
     'messages' => [
@@ -74,6 +72,6 @@ return [
         ],
         'label' => 'Icon State',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
 ];

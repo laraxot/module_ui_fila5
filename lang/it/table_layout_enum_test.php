@@ -5,13 +5,11 @@ declare(strict_types=1);
 return [
     'fields' => [
         'name' => [
-            'label' => 'name',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
         ],
         'email' => [
-            'label' => 'email',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -28,7 +26,7 @@ return [
         ],
         'label' => 'Table Layout Enum Test',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [

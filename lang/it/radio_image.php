@@ -5,7 +5,6 @@ declare(strict_types=1);
 return [
     'fields' => [
         'view' => [
-            'label' => 'view',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -22,7 +21,7 @@ return [
         ],
         'label' => 'Radio Image',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [

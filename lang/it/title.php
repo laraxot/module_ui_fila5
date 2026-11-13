@@ -6,29 +6,18 @@ return [
     'fields' => [
         'text' => [
             'label' => 'Testo',
-            'description' => 'text',
-            'placeholder' => 'text',
-            'helper_text' => 'text',
             'tooltip' => '',
         ],
         'level' => [
             'label' => 'Grandezza',
-            'description' => 'level',
-            'helper_text' => 'level',
-            'placeholder' => 'level',
             'tooltip' => '',
         ],
         '_tpl' => [
-            'label' => '_tpl',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
         ],
         'view' => [
-            'label' => 'view',
-            'description' => 'view',
-            'helper_text' => 'view',
-            'placeholder' => 'view',
             'tooltip' => '',
         ],
     ],
@@ -43,7 +32,7 @@ return [
         ],
         'label' => 'Title',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [

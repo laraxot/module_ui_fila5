@@ -1,4 +1,18 @@
+<<<<<<< .merge_file_PmhklA
 <<<<<<< HEAD
+=======
+---
+title: "ARCHITECTURE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ARCHITECTURE"
+issues: []
+discussions: []
+---
+
+>>>>>>> .merge_file_TRyzrL
 # $MOD Architecture
 
 Core components and design decisions.
@@ -14,7 +28,19 @@ Core components and design decisions.
 - `lang/` — Translations
 
 See README.md for overview. See CONTRIBUTING.md for development workflow.
+<<<<<<< .merge_file_PmhklA
 =======
+=======
+---
+title: "ARCHITECTURE"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ARCHITECTURE"
+issues: []
+discussions: []
+>>>>>>> .merge_file_TRyzrL
 # UI Module Architecture
 
 ## Overview
@@ -36,4 +62,7 @@ The UI module provides Filament-based admin interface components, themes, and ut
 - Wiki: `docs/wiki/ui/`
 - Components: `docs/wiki/ui/UI-*.md`
 - Filament: `docs/wiki/concepts/UI-filament-patterns.md`
+<<<<<<< .merge_file_PmhklA
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TRyzrL

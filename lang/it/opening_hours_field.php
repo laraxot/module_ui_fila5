@@ -364,6 +364,27 @@ return [
             'tooltip' => '',
             'description' => '',
         ],
+        'monday_label' => [
+            'label' => 'Lunedì',
+        ],
+        'tuesday_label' => [
+            'label' => 'Martedì',
+        ],
+        'wednesday_label' => [
+            'label' => 'Mercoledì',
+        ],
+        'thursday_label' => [
+            'label' => 'Giovedì',
+        ],
+        'friday_label' => [
+            'label' => 'Venerdì',
+        ],
+        'saturday_label' => [
+            'label' => 'Sabato',
+        ],
+        'sunday_label' => [
+            'label' => 'Domenica',
+        ],
     ],
     'sections' => [
         'week_schedule' => [
@@ -391,32 +412,6 @@ return [
         'no_availability' => 'Nessuna disponibilità configurata',
         'schedule_saved' => 'Orari salvati correttamente',
         'invalid_time_range' => 'Orario non valido: l\'ora di fine deve essere successiva all\'ora di inizio',
-    ],
-    'steps' => [
-        'Afternoon to' => [
-            'description' => 'Afternoon to',
-            'helper_text' => 'Afternoon to',
-            'placeholder' => 'Afternoon to',
-            'label' => 'Afternoon to',
-        ],
-        'Morning from' => [
-            'label' => 'Morning from',
-            'placeholder' => 'Morning from',
-            'helper_text' => 'Morning from',
-            'description' => 'Morning from',
-        ],
-        'Morning to' => [
-            'label' => 'Morning to',
-            'placeholder' => 'Morning to',
-            'helper_text' => 'Morning to',
-            'description' => 'Morning to',
-        ],
-        'Afternoon from' => [
-            'label' => 'Afternoon from',
-            'placeholder' => 'Afternoon from',
-            'helper_text' => 'Afternoon from',
-            'description' => 'Afternoon from',
-        ],
     ],
     'time_pickers' => [
         'saturday' => [
@@ -587,6 +582,6 @@ return [
         ],
         'label' => 'Opening Hours Field',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
 ];
