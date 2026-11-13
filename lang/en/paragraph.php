@@ -5,7 +5,7 @@ declare(strict_types=1);
 return [
     'fields' => [
         'title' => [
-            'label' => 'Titolo',
+            'label' => 'Title',
             'description' => 'title',
             'helper_text' => 'title',
             'placeholder' => 'title',

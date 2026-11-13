@@ -1,5 +1,6 @@
 ---
-title: "UI: Architettura BMAD"
+title: "UI — Architettura"
+title: "UI — Architettura BMAD"
 type: architecture
 tags: [bmad, ui, architecture, design-system]
 created: 2026-09-26
@@ -11,16 +12,15 @@ related:
   - ./brainstorming.md
   - ./README.md
   - ./epics/epic-1-design-system-components.md
-status: draft
 ---
 
-# UI: Architettura
+# UI — Architettura
 
 > **SUMMARY**: mappa reale del modulo UI: namespace `Modules\UI`, 4 modelli Eloquent senza Resource CRUD, 15 colonne Tabella, 18 campi Form (+1 in `app/Forms`), 14 blocchi, 11 widget Filament, 6 Action, 3 contratti, servizi con fallback `Null*` per Map/Geocoding, 4 provider. Derivata da `find app -type d` e `ls` sui file, non da supposizioni.
 
 ## Shard di architettura
 
-- [architecture/module-boundary.md](architecture/module-boundary.md): confini, conteggi, decisioni da confermare, gate
+- [architecture/module-boundary.md](module-boundary.md) — confini, conteggi, decisioni da confermare, gate
 
 ## Namespace e composizione
 
@@ -30,7 +30,7 @@ status: draft
 
 ## Modelli
 
-`app/Models/`: tutti estendono `Modules\Xot\Models\BaseModel` (i docblock dichiarano esplicitamente l'assenza del modulo FormBuilder).
+`app/Models/` — tutti estendono `Modules\Xot\Models\BaseModel` (i docblock dichiarano esplicitamente l'assenza del modulo FormBuilder).
 
 | Modello | Ruolo | Note |
 |---------|-------|------|
@@ -56,8 +56,8 @@ Relazioni autoreferenziate: il modello non dichiara metodi `children`/`parent`; 
 ### Campi Form
 
 - `app/Filament/Forms/Components/`: `AddressField`, `Children`, `EnumSelect`, `IconPicker`, `InlineDatePicker`, `OpeningHoursField`, `OrderColumn`, `ParentSelect`, `PasswordStrengthField`, `PersonSection`, `RadioBadge`, `RadioCollection`, `RadioIcon`, `RadioImage`, `SelectState`, `TreeField`, `YearSelect`, `Field/QrReader`.
-- `app/Forms/Components/RadioCardSelector.php`: selettore a card, fuori dal namespace Filament.
-- `app/Filament/Components/SpatieDocumentUpload.php`: upload documenti con Spatie.
+- `app/Forms/Components/RadioCardSelector.php` — selettore a card, fuori dal namespace Filament.
+- `app/Filament/Components/SpatieDocumentUpload.php` — upload documenti con Spatie.
 - Versioni non attive: `LocationSelector.php.old`, `LocationSelector.php.to_geo`.
 
 ### Blocchi e View component
@@ -94,8 +94,8 @@ Relazioni autoreferenziate: il modello non dichiara metodi `children`/`parent`; 
 
 ## Servizi e dipendenze
 
-- Nessuna classe applicativa in `app/Services`: gli use case vivono in `app/Actions/`.
-- Fallback Map/Geocoding: `app/Adapters/Map/NullMapServiceAdapter.php`, `NullGeocodingServiceAdapter.php`. I docblock li descrivono come *"Fallback quando il modulo Geo non è installato"*.
+- `app/Services/UIService.php`, `ComponentService.php`, `ThemeService.php`.
+- Fallback Map/Geocoding: `app/Services/Map/NullMapService.php`, `NullGeocodingService.php` e `app/Adapters/Map/NullMapServiceAdapter.php`, `NullGeocodingServiceAdapter.php`. I docblock li descrivono come *"Fallback quando il modulo Geo non è installato"*.
 - Dipendenza da Xot: `XotBaseServiceProvider`, `XotBaseRouteServiceProvider`, `XotBasePanelProvider`, `Xot\Models\BaseModel`, `Xot\Traits\EnumTrait`, `GetModulePathByGeneratorAction` (registrazione Blade component).
 
 ## Config, traduzioni, database
@@ -129,19 +129,3 @@ Relazioni autoreferenziate: il modello non dichiara metodi `children`/`parent`; 
 - PHPStan: da verificare con `./vendor/bin/phpstan analyse Modules/UI` (non eseguito in questa campagna).
 - Pest: da eseguire in ambiente non produzione (host `10.100.200.15` escluso).
 - Marker di merge e lock: monitorati dalle story `stories/root-hygiene-conflict-markers.story.md` e `stories/git-status-fleet-merge-markers-ui.story.md`.
-
-## Verifica del 2026-10-14
-
-Confronto di questa mappa con `laravel/Modules/UI`; il testo sopra non e' stato riscritto. Dove diverge, vale questa sezione.
-
-| Affermazione sopra | Stato reale |
-|---|---|
-| `app/Services/UIService.php`, `ComponentService.php`, `ThemeService.php`, `app/Services/Map/Null*` | residui rimossi; gli use case vivono in Actions e restano gli adapter in `app/Adapters/Map/` |
-| `resources/lang/it` e `resources/lang/en` | `resources/lang` non esiste; le traduzioni sono in `lang/` con 11 lingue e `it.json` |
-| 15 colonne tabella, 11 widget | 17 colonne (all'elenco mancano `EventColumn` e `OrganizationColumn`), 12 widget (manca `ToastWidget`) |
-| 121 file PHP in `app/`, 77 in `tests/` | 123 in `app/`, 81 in `tests/` |
-| `LocationSelector.php.old` e `.to_geo` in `Forms/Components` | non ci sono; i file parcheggiati sono `ApplyCalendarToPanelAction.php.disabled`, tre varianti di `UserCalendarWidget.php`, `Http/Kernel.php.no`, `Livewire/Components/Map/InteractiveMap.php.old`, `Traits/TableLayoutTrait.php.bak` |
-| PHPStan "non eseguito in questa campagna" | `phpstan analyse Modules/UI` exit 0 il 2026-10-14 |
-| Pest "da eseguire in ambiente non produzione" | eseguito con sqlite in memoria: 218 passati, 16 falliti, 1 risky, 109 saltati |
-
-Il frontmatter di questo file ha la chiave `title` ripetuta due volte.

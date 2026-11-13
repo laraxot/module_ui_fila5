@@ -10,9 +10,6 @@ related:
   - "./context-compression.md"
   - "./index.md"
   - "./log.md"
-status: draft
-tags: [docs, ui, wiki]
-qmd: "ui wiki overview ui"
 ---
 
 # UI Wiki Overview

@@ -1,18 +1,13 @@
 ---
-title: "UI: BMAD Quick Reference"
+title: "UI — BMAD Quick Reference"
 description: "Comandi rapidi BMAD per il modulo UI"
 module: "UI"
 alias: "ui"
 documentation_date: "2026-05-27"
 bmad_version: "6.2.0"
-type: note
-status: draft
-updated: 2026-10-07
-tags: [docs, ui, bmad]
-qmd: "ui   bmad quick reference ui"
 ---
 
-# UI: BMAD Quick Reference
+# UI — BMAD Quick Reference
 
 ## Comandi Rapidi
 
