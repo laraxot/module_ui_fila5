@@ -5,30 +5,26 @@ declare(strict_types=1);
 return [
     'fields' => [
         'title' => [
+<<<<<<< .merge_file_qmCcz6
             'label' => 'Title',
             'description' => 'title',
             'helper_text' => 'title',
             'placeholder' => 'title',
+=======
+            'label' => 'Titolo',
+>>>>>>> .merge_file_pEkaoP
             'tooltip' => '',
         ],
         'text' => [
             'label' => 'Testo',
-            'description' => 'text',
-            'helper_text' => 'text',
-            'placeholder' => 'text',
             'tooltip' => '',
         ],
         '_tpl' => [
-            'label' => '_tpl',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
         ],
         'view' => [
-            'label' => 'view',
-            'description' => 'view',
-            'helper_text' => 'view',
-            'placeholder' => 'view',
             'tooltip' => '',
         ],
     ],
@@ -41,6 +37,4 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
-    'actions' => [
-    ],
 ];
