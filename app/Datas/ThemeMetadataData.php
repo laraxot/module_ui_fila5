@@ -27,11 +27,15 @@ class ThemeMetadataData extends Data
     ) {}
 
     /**
+<<<<<<< .merge_file_xf6q6A
 <<<<<<< .merge_file_589eRW
      * @throws \InvalidArgumentException se la chiave non esiste
 =======
      * @throws InvalidArgumentException se la chiave non esiste
 >>>>>>> .merge_file_sbJ7OM
+=======
+     * @throws InvalidArgumentException se la chiave non esiste
+>>>>>>> .merge_file_RQp3rP
      */
     public function getSpacing(string $key): string
     {
