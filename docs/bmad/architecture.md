@@ -1,5 +1,4 @@
 ---
-<<<<<<< .merge_file_kfTAsi
 title: "UI — Architettura BMAD"
 type: architecture
 scope: UI
@@ -30,21 +29,18 @@ Componenti UI / Tema.
 1. Verificare conformità con XotBase
 2. Aggiornare `docs/bmad/stories/continuazione-domani.md` se chiuso
 3. Indicare stato concluso in `docs/sprint-status.yaml`
-=======
+
 title: "UI: Architettura BMAD"
-type: architecture
 tags: [bmad, ui, architecture, design-system]
 created: 2026-09-26
 updated: 2026-09-28
 qmd: "UI architettura mappa reale modelli colonne form azioni provider"
 module: UI
-related:
   - ./architecture/module-boundary.md
   - ./brainstorming.md
   - ./README.md
   - ./epics/epic-1-design-system-components.md
 status: draft
----
 
 # UI: Architettura
 
@@ -177,4 +173,3 @@ Confronto di questa mappa con `laravel/Modules/UI`; il testo sopra non e' stato 
 | Pest "da eseguire in ambiente non produzione" | eseguito con sqlite in memoria: 218 passati, 16 falliti, 1 risky, 109 saltati |
 
 Il frontmatter di questo file ha la chiave `title` ripetuta due volte.
->>>>>>> .merge_file_mvn1Q9

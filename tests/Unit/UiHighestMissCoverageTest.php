@@ -152,18 +152,12 @@ describe('UI highest-miss coverage', function (): void {
         $response = (new SetLocale())->handle(Request::create('/'), static fn (): Response => new Response('ok'));
         Assert::assertSame('ok', $response->getContent());
 
-<<<<<<< .merge_file_cjzPPT
-        config(['app.supported_locales' => ['it', 'en'], 'app.locale' => 'it']);
-        Assert::assertTrue((new LanguageController())->switch('en')->isRedirect());
-        Assert::assertTrue((new LanguageController())->switch('xx')->isRedirect());
-=======
         config(['app.locale' => 'it']);
         $localeResponse = (new SetLocale)->handle(
             Request::create('/en'),
             static fn (): Response => new Response('ok'),
         );
         Assert::assertSame('ok', $localeResponse->getContent());
->>>>>>> .merge_file_IKagqX
 
         $block = new Block(['data' => ['view' => 'ui::empty']]);
         Assert::assertSame('ui::empty', $block->view);
@@ -189,15 +183,9 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('XotBase blocks and document upload factories expose schema', function (): void {
-<<<<<<< .merge_file_cjzPPT
-        Assert::assertNotEmpty((new Contact())->getFormSchema());
-        Assert::assertNotEmpty((new \Modules\UI\Filament\Blocks\Category())->getFormSchema());
-        Assert::assertNotEmpty((new Post())->getFormSchema());
-=======
         Assert::assertNotEmpty(Contact::getFormSchema());
         Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Category::getFormSchema());
         Assert::assertNotEmpty(Post::getFormSchema());
->>>>>>> .merge_file_IKagqX
         Assert::assertNotSame('', Contact::getTitle());
 
         Assert::assertSame('identity_document', SpatieDocumentUpload::forIdentityDocument()->getName());

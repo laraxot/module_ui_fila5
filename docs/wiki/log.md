@@ -1,4 +1,3 @@
-<<<<<<< .merge_file_EDRNaQ
 ## [2026-09-25] phpstan | OpeningHoursField deprecated Placeholder fix
 - `app/Filament/Forms/Components/OpeningHoursField.php`: replaced deprecated `Placeholder::make()` with `TextEntry::make()->state()` (Filament v5 migration).
 - PHPStan `method.deprecatedClass` / `staticMethod.deprecatedClass` cleared.
@@ -70,8 +69,7 @@
 - `app/View/Components/Render/Block.php`: resolved `<<<<<<<` / `=======` / `>>>>>>>` merge conflict markers left from previous merge.
 - Final state uses `GetCmsViewAction::class->execute($view)` consistently in both `__construct()` and `render()`.
 - Cleared 3 `phpstan.parse` syntax errors.
-=======
----
+
 title: "UI wiki log"
 type: log
 status: active
@@ -80,7 +78,6 @@ updated: 2026-10-14
 module: UI
 tags: [ui, log, docs]
 qmd: "ui wiki log docs studio ingressi"
----
 
 # UI wiki log
 
@@ -100,4 +97,3 @@ Studio del modulo contro i docs (story [2026-10-14-docs-ui-studio-e-ingressi](..
 - `bmad/architecture.md` e `wiki/purpose.md`: aggiunta in coda una verifica datata (la mappa del codice conteneva numeri e percorsi superati).
 - `bmad/purpose.md` e `wiki/purpose.md` hanno lo stesso corpo (diff vuoto): il canonico e' quello in `wiki/`.
 - Segnalato fuori perimetro: `laravel/Modules/UI/README.md` contiene marker di merge non risolti.
->>>>>>> .merge_file_SE5hEu

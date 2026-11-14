@@ -10,17 +10,14 @@ related:
   - ../livewire-inventory.md
   - ../../architecture.md
   - ../../../../Xot/docs/bmad/stories/cleanup-all-modules.story.md
-<<<<<<< .merge_file_v63yYO
 ---
 
 # UI — marker nidificati in README + igiene root
-=======
+
 type: story
 tags: [docs, ui, bmad]
----
 
 # UI: marker nidificati in README + igiene root
->>>>>>> .merge_file_nHSQNu
 
 **Perché.** `git status` pulito, HEAD con 20 hunk `<<<<<<<` in `README.md` (anche nidificati: theirs iniziava con `<<<<<<< HEAD`) e contributing duplicato. Root teneva `ARCHITECTURE.md`/`TESTING.md`/`PHILOSOPHY.md` (SSoT è `docs/architecture.md`, kebab).
 
@@ -30,8 +27,4 @@ Innermost-first strip; tenere frontmatter HEAD; footer project-agnostic (niente 
 
 ## Gate
 
-<<<<<<< .merge_file_v63yYO
 PHPStan `Modules/UI`: 0. Commit deferred.
-=======
-PHPStan `Modules/UI`: 0. Commit deferred.
->>>>>>> .merge_file_nHSQNu
