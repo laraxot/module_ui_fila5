@@ -30,6 +30,24 @@ PHPStan/Pest proporzionati.
 | Marker di conflitto | 0 |
 | Label/tooltip letterali Filament | 14 |
 
+
+## Analisi Funzionale e Scopo di Dominio
+
+### Perché Esiste (Scopo Fondamentale)
+Libreria di componenti visivi, widget e stili dell'interfaccia utente condivisa.
+
+### Valore di Business e Utilità
+Garantisce coerenza visuale, accessibilità, responsive design mobile-first e dark mode in tutti i pannelli e pagine pubbliche.
+
+### Architettura e Pattern Laraxot
+Widget Filament modulari (XotBaseWidget); integrazione Alpine/Livewire; componenti Blade riutilizzabili; zero dipendenza da stili spuri.
+
+### Standard di Qualità e Conformità
+- **PHPStan**: Confermato a Level Max con 0 errori.
+- **Filament**: Conformità Filament 5 con estensione delle classi XotBase*.
+- **Naming**: Convenzione kebab-case rigorosa per tutti i documenti e classi PSR-4.
+- **Trans**: Traduzioni dinamiche via Lang, nessun testo hardcoded.
+
 ## Audit per dimensione
 
 ### Architettura e confini
