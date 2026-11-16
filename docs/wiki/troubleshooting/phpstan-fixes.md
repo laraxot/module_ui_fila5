@@ -1,34 +1,37 @@
 ---
-title: "PHPStan Fixes 2026-05-06"
+title: "PHPStan Fixes UI"
 type: troubleshooting
-sources: ["phpstan_modules_initial.json"]
+sources:
+  - "/tmp/phpstan_ptvx_fila5/modules/UI.json"
 confidence: verified
 created: 2026-05-06
-updated: 2026-05-06
-tags: [phpstan, ui, filament, component]
+updated: 2026-11-16
+tags: [phpstan, ui, filament, component, geo-boundary]
+qmd: "UI phpstan fixes LocationSelector AuditCoverage ThemeMetadataData GroupColumn zero"
 ---
 
-# PHPStan Fixes - 2026-05-06
+# PHPStan Fixes — UI
 
-## Issue: Modules\UI\Filament\Forms\Components\IconPicker
+## 2026-11-16 — Modules/UI → 0 (112 → 0)
 
-PHPStan reported:
-- `varTag.variableNotFound`: `Variable $packsOptions in PHPDoc tag @var does not exist`.
+Inventario: `/tmp/phpstan_ptvx_fila5/modules/UI.json`.
 
-## Root Cause
-Likely a ghost error or a mismatched file version. Grep didn't find the variable.
+Decisioni:
 
-## Issue: Modules\UI\Filament\Forms\Components\InlineDatePicker
+1. `LocationSelector` rimosso (confine Geo; vedi [geo-boundary.md](../../geo-boundary.md)).
+2. `tests/AuditCoverage/` rimosso (74 `assertTrue` senza TestCase).
+3. `ThemeMetadataData`: `@throws \InvalidArgumentException`.
+4. `GroupColumnTest`: variabile `$fields` inutilizzata rimossa.
 
-PHPStan reported:
-- `return.type`: `getViewData()` and `generateCalendarData()` return `array` instead of `array<string, mixed>`.
+Story: [phpstan-modules-zero.story.md](../../bmad/stories/phpstan-modules-zero.story.md).
 
-## Root Cause
-`array_merge` and `collect()->toArray()` often return `array<mixed, mixed>` or just `array` in PHPStan's view, which violates level 10 strictness when a more specific array type is declared in PHPDoc.
+Verifica: `phpstan analyse Modules/UI` → `[OK] No errors`.
 
-## Fix Strategy
-1. Use explicit type assertions for merged arrays.
-2. Use `Webmozart\Assert\Assert` to validate array shapes.
+## Issue storica: IconPicker
 
-## Learning
-In level 10, complex array operations like `array_merge` require explicit casting or assertions to maintain specific key/value types in PHPDoc.
+PHPStan riportava `varTag.variableNotFound` su `$packsOptions` — ghost / mismatch versione.
+
+## Issue storica: InlineDatePicker
+
+`getViewData()` / `generateCalendarData()`: `array` vs `array<string, mixed>` a level max.
+Strategia: assertion di forma array, non ignore.
