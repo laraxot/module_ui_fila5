@@ -33,13 +33,7 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-<<<<<<< .merge_file_jFogpb
-     * @param array<string, mixed> $fetchInfo
-     * @param array<string, mixed> $fetchInfo
-     *
-=======
      * @param  array<string, mixed>  $fetchInfo
->>>>>>> .merge_file_5mrOOB
      * @return array<int, array<string, mixed>>
      */
     public function fetchEvents(array $fetchInfo): array

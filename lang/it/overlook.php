@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 return [
     'actions' => [
-<<<<<<< .merge_file_UMRpgj
-        'save' => ['label' => 'save', 'icon' => 'save', 'tooltip' => 'save'],
-=======
         'save' => [
             'icon' => 'save',
+            'label' => 'save',
+            'tooltip' => 'save',
         ],
->>>>>>> .merge_file_eaPEs9
     ],
 ];

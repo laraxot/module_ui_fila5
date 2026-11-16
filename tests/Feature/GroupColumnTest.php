@@ -67,11 +67,6 @@ describe('GroupColumn view rendering', function (): void {
             'cognome' => 'Rossi',
         ];
 
-        $fields = [
-            TextColumn::make('matr'),
-            TextColumn::make('cognome'),
-        ];
-
         $value = data_get($record, 'matr');
         Assert::assertSame('12345', $value);
         $value = data_get($record, 'cognome');

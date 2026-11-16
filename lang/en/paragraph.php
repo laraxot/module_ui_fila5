@@ -5,14 +5,7 @@ declare(strict_types=1);
 return [
     'fields' => [
         'title' => [
-<<<<<<< .merge_file_qmCcz6
-            'label' => 'Title',
-            'description' => 'title',
-            'helper_text' => 'title',
-            'placeholder' => 'title',
-=======
             'label' => 'Titolo',
->>>>>>> .merge_file_pEkaoP
             'tooltip' => '',
         ],
         'text' => [

@@ -1,21 +1,3 @@
-<<<<<<< .merge_file_iQpCJ1
----
-title: "UI module documentation index"
-type: index
-status: active
-updated: 2026-10-13
-tags: [ui, module, documentation]
-qmd: "UI module documentation index"
----
-
-# UI — indice canonico
-
-- [README](README.md) — ownership e ingressi;
-- [bmad/](bmad/) — iniziative e storie;
-- [wiki/](wiki/) — conoscenza riusabile;
-- [schema/](schema/) — contratti dati;
-- [contratto docs](../../../../bmad-output/docs-architecture/module-theme-docs-contract.md).
-=======
 # 📚 **Indice Documentazione Modulo UI**
 
 **Status**: ✅ PHPStan Level 10 Compliant
@@ -126,4 +108,3 @@ qmd: "UI module documentation index"
 ## Dependency Intelligence
 
 - [Dependency intelligence](dependency-intelligence.md)
->>>>>>> .merge_file_ovFqKr

@@ -1,7 +1,4 @@
-<<<<<<< .merge_file_9raGtc
-=======
 ---
-<<<<<<< .merge_file_Vzj7LM
 title: "UI — BMAD Method Integration"
 description: "BMAD workflow documentation per il modulo UI"
 module: "UI"
@@ -60,7 +57,7 @@ bmad-code-review         # Review con focus su accessibilità
 ---
 
 *UI · BMAD Method · data 2026-05-27*
-=======
+
 title: "Documentation"
 type: note
 status: draft
@@ -69,10 +66,16 @@ updated: 2026-10-15
 module: UI
 tags: [docs, ui, bmad]
 qmd: "documentation ui"
----
 
->>>>>>> .merge_file_FuGwf3
 # Documentation
+
+## Kit BMAD owner (canonico)
+
+- [BMAD Planning](../bmad-planning.md)
+- [BMAD Brainstorming](../bmad-brainstorming.md)
+- [Filament blueprint](./filament-blueprint.md)
+- [Project context](./project-context.md)
+- [Decision log](./decision-log.md)
 
 This directory contains documentation for the module.
 
@@ -88,13 +91,11 @@ Documentation should be:
 - Example-driven
 - Updated with code changes
 - Use Markdown format (.md)
----
 title: "UI Module Documentation"
 type: documentation
 tags: [module, documentation]
 created: 2026-06-05
 updated: 2026-06-05
----
 
 # Modulo UI - Componenti Condivisi
 
@@ -112,7 +113,6 @@ This directory contains documentation for the module.
 
 ## Guidelines
 
-```
 resources/views/components/ui/
 ├── buttons/
 │   ├── primary.blade.php
@@ -126,7 +126,6 @@ resources/views/components/ui/
 └── layout/
     ├── container.blade.php
     └── divider.blade.php
-```
 
 ## Utilizzo
 
@@ -138,7 +137,6 @@ resources/views/components/ui/
 <x-ui::ui.card>
     Contenuto
 </x-ui::ui.card>
-```
 
 ## Widget Filament
 
@@ -159,8 +157,8 @@ resources/views/components/ui/
 
 ## Backlinks
 
-- [Xot Base](../Xot/docs/)
-- [User Module](../User/docs/)
+- [Xot Base](../../../Xot/docs)
+- [User Module](../../../User/docs)
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
@@ -172,7 +170,6 @@ resources/views/components/ui/
         return $this->transClass(self::class, $this->value . '.label');
     }
 }
-```
 
 ## ✅ Stato Qualità
 
@@ -193,7 +190,6 @@ resources/views/components/ui/
 - [User Module](../user/docs/readme.md) - Gestione utenti
 - [Lang Module](../lang/docs/readme.md) - Traduzioni
 
----
 
 **🔄 
 **📦 Versione**: 4.1.0
@@ -212,10 +208,10 @@ MIT
 
 ## Documentation
 
-- [On-Demand Pattern](./on-demand-pattern.md) — Pattern per caricamento efficiente
-- [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
-- [Performance](./performance-optimization.md) — Metriche e best practice
-- [Project Structure](./project-structure.md) — Directory layout
+- [On-Demand Pattern](./on-demand-pattern.md): Pattern per caricamento efficiente
+- [QMD Setup](./qmd-setup.md): Configurazione ricerca locale
+- [Performance](./performance-optimization.md): Metriche e best practice
+- [Project Structure](./project-structure.md): Directory layout
 
     public function getTableContentGrid(): array
     {
@@ -229,7 +225,6 @@ MIT
         return $this->transClass(self::class, $this->value . '.color');
     }
 }
-```
 
 ## 🎯 **Stato Qualità - Gennaio 2025**
 
@@ -261,7 +256,6 @@ MIT
 ## 🚀 **Quick Start**
 
 ### 📦 **Installazione**
-```bash
 # Abilitare il modulo
 php artisan module:enable UI
 
@@ -273,7 +267,6 @@ npm run build
 
 # Pubblicare componenti
 php artisan ui:publish-components
-```
 
 ### ⚙️ **Configurazione**
 ```php
@@ -295,10 +288,8 @@ return [
         'responsive' => true,
     ],
 ];
-```
 
 ### 🧪 **Testing**
-```bash
 # Test del modulo
 php artisan test --testsuite=UI
 
@@ -307,7 +298,6 @@ php artisan test --testsuite=UI
 
 # Test componenti
 php artisan ui:test-components
-```
 
 ## 📚 **Documentazione Completa**
 
@@ -318,10 +308,10 @@ php artisan ui:test-components
 - [Best Practices](best-practices.md) - Linee guida sviluppo
 
 ### 🔗 **Collegamenti Moduli**
-- **[Xot Module](../Xot/docs/README.md)** - Framework core e convenzioni
-- **[User Module](../User/docs/README.md)** - Gestione utenti e autenticazione
+- **[Xot Module](../../../Xot/docs/README.md)** - Framework core e convenzioni
+- **[User Module](../../../User/docs/README.md)** - Gestione utenti e autenticazione
 - **[Performance Module](../Performance/docs/README.md)** - Sistema valutazione
-- **[Lang Module](../Lang/docs/README.md)** - Gestione traduzioni
+- **[Lang Module](../../../Lang/docs/README.md)** - Gestione traduzioni
 - **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema progressioni
 
 ### 🧩 **Componenti**
@@ -332,7 +322,7 @@ php artisan ui:test-components
 
 ### 🎨 **Filament Integration**
 - [Filament Components](filament-components.md) - Componenti Filament
-- [Widget System](widgets.md) - Sistema widget personalizzati
+- [Widget System](../wiki/_integration/widgets.md) - Sistema widget personalizzati
 - [TableLayoutEnum](table-layout-enum-complete-guide.md) - Guida completa enum layout
 - [File Upload Components](filament-fileupload.md) - Componenti upload file
 
@@ -358,7 +348,6 @@ php artisan ui:test-components
     :search="true"
     :sortable="true"
 />
-```
 
 ### 📝 **Form Components**
 ```php
@@ -382,7 +371,6 @@ php artisan ui:test-components
         Salva
     </x-ui.button>
 </x-ui.form>
-```
 
 ### 🎯 **Interactive Components**
 ```php
@@ -411,7 +399,6 @@ php artisan ui:test-components
         </x-ui.button>
     </x-slot>
 </x-ui.modal>
-```
 
 ## 🔧 **Best Practices**
 
@@ -424,7 +411,6 @@ Action::make('save')      // Traduzione automatica da lang/
 // ❌ ERRATO - Mai usare ->label() direttamente
 TextColumn::make('name')->label('Nome')
 Action::make('save')->label('Salva')
-```
 
 ### 2️⃣ **Enum con TransTrait**
 ```php
@@ -441,7 +427,6 @@ enum StatusEnum: string implements HasColor, HasIcon, HasLabel
         return $this->transClass(self::class, $this->value . '.label');
     }
 }
-```
 
 ### 3️⃣ **Componenti Modulari**
 ```php
@@ -462,7 +447,6 @@ class DataTableComponent extends Component
             'layout' => $this->layout,
         ]);
 ### ❌ MAI usa match() per traduzioni negli Enum
-```
 
 ```php
 // ❌ ERRORE - Non fare mai questo
@@ -473,7 +457,6 @@ public function getLabel(): string
         self::GRID => __('ui::table-layout.grid.label'),
     };
 }
-```
 
 ### Sistema Traduzioni Automatico
 - Il LangServiceProvider gestisce automaticamente le traduzioni
@@ -528,34 +511,29 @@ class ListUsers extends ListRecords
             ->contentGrid($this->layout->getTableContentGrid());
     }
 }
-```
 
 ## 🐛 **Troubleshooting**
 
 ### **Problemi Comuni**
 
 #### 🎨 **Componenti non trovati**
-```bash
 # Verificare registrazione componenti
 php artisan ui:list-components
 
 # Pubblicare componenti
 php artisan ui:publish-components
-```
 **Soluzione**: Consulta [Components Guide](components.md)
 
 #### 🌐 **Traduzioni mancanti**
 ```php
 // Verificare file traduzioni
 // lang/it/ui.php, lang/en/ui.php, lang/de/ui.php
-```
 **Soluzione**: Consulta [Translation Fixes](theme-translation-sync.md)
 
 #### 📱 **Layout non responsive**
 ```php
 // Verificare TableLayoutEnum
 protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
-```
 **Soluzione**: Consulta [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
 ## 🤝 **Contributing**
@@ -600,7 +578,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - **📚 Docs**: [Documentazione Completa](https://docs.laraxot.com/ui)
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)
 
----
 
 ### 🏆 **Achievements**
 
@@ -621,7 +598,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - **🧪 Test Coverage**: 95%
 - **⚡ Performance Score**: 97/100
 
----
 
 **🔄 Ultimo aggiornamento**: 27 Gennaio 2025
 **📦 Versione**: 4.1.0
@@ -635,14 +611,13 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [Regole Traduzioni](translation_rules.md)
 - [Best Practices Filament](filament_best_practices.md)
 - [Componenti UI](components.md)
-- [TableLayoutEnum Analysis](table_layout_enum_analysis.md)
+- [TableLayoutEnum Analysis](../_archive/table_layout_enum_analysis.md)
 - [TableLayoutEnum Usage](table-layout-enum-usage.md)
-- **[REGOLA CRITICA: MAI usare ->label()](never_use_label_rule.md)**
-- **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**
+- **[REGOLA CRITICA: MAI usare ->label()](../_archive/never_use_label_rule.md)**
+- **[REGOLA CRITICA: SEMPRE usa transClass()](../_archive/transclass_rule.md)**
 
 *Ultimo aggiornamento: gennaio 2025*
 
----
 
 <!-- Merged from readme.md, which collided with this file on case-insensitive filesystems. -->
 
@@ -698,7 +673,6 @@ Il modulo **UI** è il cuore dell'interfaccia utente dell'applicazione, fornendo
     layout="grid"
     responsive="true"
 />
-```
 
 ### 🎨 **Filament Widgets**
 ```php
@@ -715,7 +689,6 @@ class UserCalendarWidget extends XotBaseWidget
         ];
     }
 }
-```
 
 ### 📱 **TableLayoutEnum System**
 ```php
@@ -754,7 +727,6 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 ## Regole Critiche
 
 ### ❌ MAI usare ->label()
-```
 
 ```php
 // ERRORE - Non fare mai questo
@@ -764,7 +736,6 @@ Action::make('save')->label('Salva')
 // ✅ CORRETTO - Usa il sistema di traduzioni automatico
 TextColumn::make('name')
 Action::make('save')
-```
 
 ### ✅ SEMPRE usa transClass() negli Enum
 ```php
@@ -795,7 +766,6 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return $this->transClass(self::class, $this->value . '.color');
     }
 }
-```
 
 ## 🎯 **Stato Qualità - Gennaio 2025**
 
@@ -827,7 +797,6 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 ## 🚀 **Quick Start**
 
 ### 📦 **Installazione**
-```bash
 # Abilitare il modulo
 php artisan module:enable UI
 
@@ -839,7 +808,6 @@ npm run build
 
 # Pubblicare componenti
 php artisan ui:publish-components
-```
 
 ### ⚙️ **Configurazione**
 ```php
@@ -861,10 +829,8 @@ return [
         'responsive' => true,
     ],
 ];
-```
 
 ### 🧪 **Testing**
-```bash
 # Test del modulo
 php artisan test --testsuite=UI
 
@@ -873,17 +839,16 @@ php artisan test --testsuite=UI
 
 # Test componenti
 php artisan ui:test-components
-```
 
 ## 📚 **Documentazione Completa**
 
 ### 🏗️ **Architettura**
 
 ### 🔗 **Collegamenti Moduli**
-- **[Xot Module](../Xot/docs/README.md)** - Framework core e convenzioni
-- **[User Module](../User/docs/README.md)** - Gestione utenti e autenticazione
+- **[Xot Module](../../../Xot/docs/README.md)** - Framework core e convenzioni
+- **[User Module](../../../User/docs/README.md)** - Gestione utenti e autenticazione
 - **[Performance Module](../Performance/docs/README.md)** - Sistema valutazione
-- **[Lang Module](../Lang/docs/README.md)** - Gestione traduzioni
+- **[Lang Module](../../../Lang/docs/README.md)** - Gestione traduzioni
 - **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema progressioni
 
 ### 🧩 **Componenti**
@@ -909,7 +874,6 @@ php artisan ui:test-components
     :search="true"
     :sortable="true"
 />
-```
 
 ### 📝 **Form Components**
 ```php
@@ -933,7 +897,6 @@ php artisan ui:test-components
         Salva
     </x-ui.button>
 </x-ui.form>
-```
 
 ### 🎯 **Interactive Components**
 ```php
@@ -962,7 +925,6 @@ php artisan ui:test-components
         </x-ui.button>
     </x-slot>
 </x-ui.modal>
-```
 
 ## 🔧 **Best Practices**
 
@@ -975,7 +937,6 @@ Action::make('save')      // Traduzione automatica da lang/
 // ❌ ERRATO - Mai usare ->label() direttamente
 TextColumn::make('name')->label('Nome')
 Action::make('save')->label('Salva')
-```
 
 ### 2️⃣ **Enum con TransTrait**
 ```php
@@ -992,7 +953,6 @@ enum StatusEnum: string implements HasColor, HasIcon, HasLabel
         return $this->transClass(self::class, $this->value . '.label');
     }
 }
-```
 
 ### 3️⃣ **Componenti Modulari**
 ```php
@@ -1013,7 +973,6 @@ class DataTableComponent extends Component
             'layout' => $this->layout,
         ]);
 ### ❌ MAI usa match() per traduzioni negli Enum
-```
 
 ```php
 // ❌ ERRORE - Non fare mai questo
@@ -1024,7 +983,6 @@ public function getLabel(): string
         self::GRID => __('ui::table-layout.grid.label'),
     };
 }
-```
 
 ### Sistema Traduzioni Automatico
 - Il LangServiceProvider gestisce automaticamente le traduzioni
@@ -1079,34 +1037,29 @@ class ListUsers extends ListRecords
             ->contentGrid($this->layout->getTableContentGrid());
     }
 }
-```
 
 ## 🐛 **Troubleshooting**
 
 ### **Problemi Comuni**
 
 #### 🎨 **Componenti non trovati**
-```bash
 # Verificare registrazione componenti
 php artisan ui:list-components
 
 # Pubblicare componenti
 php artisan ui:publish-components
-```
 **Soluzione**: Consulta [Components Guide](components.md)
 
 #### 🌐 **Traduzioni mancanti**
 ```php
 // Verificare file traduzioni
 // lang/it/ui.php, lang/en/ui.php, lang/de/ui.php
-```
 **Soluzione**: Consulta [Translation Fixes](theme-translation-sync.md)
 
 #### 📱 **Layout non responsive**
 ```php
 // Verificare TableLayoutEnum
 protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
-```
 **Soluzione**: Consulta [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
 ## 🤝 **Contributing**
@@ -1135,7 +1088,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - **📚 Docs**: [Documentazione Completa](https://docs.laraxot.com/ui)
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)
 
----
 
 ### 🏆 **Achievements**
 
@@ -1158,7 +1110,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - **🧪 Test Coverage**: 95%
 - **⚡ Performance Score**: 97/100
 
----
 
 **🔄 Ultimo aggiornamento**: 27 Gennaio 2025  
 **📦 Versione**: 4.1.0  
@@ -1170,17 +1121,13 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 **🚀 Performance**: 97/100 score 
 ## Collegamenti
 
-- **[REGOLA CRITICA: MAI usare ->label()](never_use_label_rule.md)**
-- **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**
+- **[REGOLA CRITICA: MAI usare ->label()](../_archive/never_use_label_rule.md)**
+- **[REGOLA CRITICA: SEMPRE usa transClass()](../_archive/transclass_rule.md)**
 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
----
-title: "UI — Il Design System Sacro"
 description: "Sistema di componenti UI riutilizzabili e design system per interfacce utente coerenti"
-module: "UI"
-alias: "ui"
 version: "1.0.0"
 priority: 0
 active: true
@@ -1192,10 +1139,8 @@ core_version: "10.0"
 dependencies: ["Xot"]
 extends: []
 extended_by: 40
-documentation_date: "2026-05-27"
----
 
-# UI — Il Design System Sacro
+# UI: Il Design System Sacro
 
 ## Scopo
 
@@ -1245,11 +1190,5 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 | Manca componenti per dashboard avanzate | Bassa | Chart widgets avanzati (grafici, mappe, heatmap) |
 | Nessun sistema di a11y testing automatizzato | Bassa | Aggiungere `pa11y` o `axe-core` nella pipeline CI |
 
----
 
-<<<<<<< .merge_file_9raGtc
-*Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
-=======
 *Documento generato secondo le convenzioni del progetto: modulo `UI`: data 2026-05-27*
->>>>>>> .merge_file_ln6sYE
->>>>>>> .merge_file_FuGwf3

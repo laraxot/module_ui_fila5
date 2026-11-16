@@ -1,73 +1,36 @@
-# PHPStan Status - UI Module
-
-## Current Status: ✅ PASSED
-- **PHPStan Level**: 10
-- **Errors**: 0
-- **Last Checked**: [DATE]
-
-## Module Overview
-The UI module provides user interface components, themes, and frontend utilities for the application.
-
-## Key Components
-
-### UI Components
-- Reusable Blade components
-- Frontend utilities
-- Theme system
-
-### View Helpers
-- Blade directives and helpers
-- View composers
-- Template utilities
-
-### Assets Management
-- CSS/JS asset organization
-- Theme asset compilation
-
-## PHPStan Compliance
-
-All files in the UI module pass PHPStan Level 10 analysis:
-
-```bash
-./vendor/bin/phpstan analyse Modules/UI/ --level=10 --no-progress
-# Result: [OK] No errors
-```
-
-## Type Safety Features
-
-1. **Component Typing**
-   - Blade components with proper data passing
-   - Type-safe view data
-
-2. **Helper Functions**
-   - All view helpers are properly typed
-   - Safe string manipulation
-
-3. **Asset Management**
-   - Proper path handling
-   - Type-safe asset operations
-
-## Frontend Integration
-
-The UI module integrates with:
-- Laravel Blade templating system
-- Frontend build processes
-- Theme management system
-
-## Best Practices Applied
-
-1. **View Data Safety** - Proper typing of view data
-2. **Component Contracts** - Consistent component interfaces
-3. **Asset Path Safety** - Type-safe asset path handling
-4. **Helper Function Typing** - All helpers properly typed
-
-## Theme System
-
-1. **Type-Safe Theme Configuration**
-2. **Component Inheritance**
-3. **Asset Organization**
-
+---
+title: "PHPStan Status — UI Module"
+type: status
+module: UI
+updated: 2026-11-16
+tags: [phpstan, ui, status]
+qmd: "UI phpstan status zero modules analyse"
 ---
 
-*Status: ✅ PHPStan Level 10 Compliant*
-*
+# PHPStan Status — UI Module
+
+## Current Status: PASSED
+
+- **Level**: max (root `laravel/phpstan.neon`)
+- **Errors**: **0**
+- **Last Checked**: 2026-11-16
+- **Story**: [bmad/stories/phpstan-modules-zero.story.md](bmad/stories/phpstan-modules-zero.story.md)
+
+## Measure
+
+```bash
+cd laravel && php -d memory_limit=2G ./vendor/bin/phpstan analyse Modules/UI
+# [OK] No errors
+```
+
+Inventario di partenza swarm: 112 `file_errors` → 0.
+
+## Perché
+
+UI è design system (componenti Filament, blocchi, theme helpers). Il gate a zero
+impedisce reimport di dipendenze Geo e stub AuditCoverage morti.
+
+## Related
+
+- [geo-boundary.md](geo-boundary.md)
+- [wiki/troubleshooting/phpstan-fixes.md](wiki/troubleshooting/phpstan-fixes.md)

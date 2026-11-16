@@ -7,15 +7,9 @@ tags: [rules, index, on-demand]
 related:
   - ../rules/00-TRIGGER_MAP.md
   - ../rules/on-demand-pattern.md
-<<<<<<< .merge_file_83LlXV
-=======
-<<<<<<< .merge_file_xwZfzc
-=======
 qmd: "rules index ui"
 status: superseded
 superseded_by: INDEX.md
->>>>>>> .merge_file_fzko8k
->>>>>>> .merge_file_8p3zCQ
 ---
 
 # Rules Index

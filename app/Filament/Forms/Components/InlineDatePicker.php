@@ -101,12 +101,7 @@ class InlineDatePicker extends XotBaseDatePicker
     /**
      * Imposta le date abilitate.
      *
-<<<<<<< .merge_file_ih9QGA
-     * @param array<string>|\Closure $dates
-     * @param array<string>|\Closure $dates
-=======
      * @param  array<string>|\Closure  $dates
->>>>>>> .merge_file_A1LbUu
      */
     public function enabledDates(array|\Closure $dates): static
     {
@@ -118,12 +113,7 @@ class InlineDatePicker extends XotBaseDatePicker
     /**
      * Imposta il mese corrente di visualizzazione.
      *
-<<<<<<< .merge_file_ih9QGA
-     * @param string $month Formato Y-m (es. '2025-06')
-     * @param string $month Formato Y-m (es. '2025-06')
-=======
      * @param  string  $month  Formato Y-m (es. '2025-06')
->>>>>>> .merge_file_A1LbUu
      */
     public function currentViewMonth(string $month): static
     {
