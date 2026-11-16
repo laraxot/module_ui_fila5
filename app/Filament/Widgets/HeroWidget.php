@@ -5,7 +5,11 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Widgets\StatsOverviewWidget\Stat;
+<<<<<<< .merge_file_1FfZg4
+use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget as BaseWidget;
+=======
 use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget;
+>>>>>>> .merge_file_ArqXWU
 
 class HeroWidget extends XotBaseStatsOverviewWidget
 {

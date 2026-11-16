@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< .merge_file_8waq2G
 
 
 ---
@@ -20,3 +21,5 @@ related:
   - "./overview.md"
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+=======
+>>>>>>> .merge_file_766gwX

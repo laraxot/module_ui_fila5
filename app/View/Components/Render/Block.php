@@ -9,30 +9,44 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
+<<<<<<< .merge_file_22kIUc
+use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
+use Modules\Cms\Actions\View\GetCmsViewAction;
+=======
 use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
 use UnexpectedValueException;
 use Webmozart\Assert\Assert;
+>>>>>>> .merge_file_fX5D3u
 
 /**
- * .
+ * Blade component that renders a CMS block.
  */
 class Block extends Component
 {
     public ?string $view = null;
 
     /**
-     * @param  array<string, mixed>  $block
+     * @param array<string, mixed> $block
      */
     public function __construct(
         public array $block,
         public ?Model $model = null,
         public string $tpl = '',
     ) {
+<<<<<<< .merge_file_22kIUc
+        $view = Arr::get($this->block, 'data.view');
+        if (! is_string($view) || ! view()->exists($view)) {
+            $view = 'ui::empty';
+        }
+
+        /** @var view-string $view */
+=======
         $view = Arr::get($this->block, 'data.view', null);
         if ($view === null) {
             $view = 'ui::empty';
         }
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+>>>>>>> .merge_file_fX5D3u
         $this->view = $view;
     }
 
@@ -42,21 +56,35 @@ class Block extends Component
             return view('ui::empty');
         }
 
+<<<<<<< .merge_file_22kIUc
+        $viewPath = $this->view ?? 'ui::empty';
+        if (! view()->exists($viewPath)) {
+            $message = 'view not exists ['.$viewPath.'] ! <pre>'.print_r($this->block, true).'</pre>';
+            $view_params = [
+=======
         $view = $this->view;
         if (! view()->exists(is_string($view) ? $view : ((string) $view))) {
             $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
             $viewParams = [
+>>>>>>> .merge_file_fX5D3u
                 'title' => 'deprecated',
                 'message' => $message,
             ];
 
             return view('ui::alert', $viewParams);
         }
+<<<<<<< .merge_file_22kIUc
+        $view_params = $this->normalizeViewData($this->block['data'] ?? []);
+        $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
+        $view_params = $this->normalizeViewData($view_params);
+        $view = app(GetCmsViewAction::class)->execute($viewPath);
+=======
         $rawData = $this->block['data'] ?? [];
         $viewParams = \is_array($rawData) ? $this->normalizeViewData($rawData) : [];
         $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
         $viewParams = $this->normalizeViewData($viewParams);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+>>>>>>> .merge_file_fX5D3u
 
         /** @var view-string $view */
         return view($view, $viewParams);

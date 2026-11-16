@@ -99,10 +99,11 @@ describe('Component Files Exist', function (): void {
             static fn (string $relativePath): bool => file_exists($themeBasePath.$relativePath),
         ));
 
-        if ($legacyPresent !== []) {
+        if ([] !== $legacyPresent) {
             Assert::markTestSkipped('Legacy root components still present: '.implode(', ', $legacyPresent));
         }
 
+        Assert::assertSame([], $legacyPresent);
     });
 
     test('component files contain proper blade syntax', function (): void {
