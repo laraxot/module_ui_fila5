@@ -113,3 +113,25 @@ In `app/Filament/Widgets/` coesistono `UserCalendarWidget.php` attivo e le varia
 1. Risolvere D1-D5 in [epics/epic-1-design-system-components.md](epics/epic-1-design-system-components.md).
 2. Aggiornare [architecture.md](architecture.md) quando una duplicazione viene sciolta.
 3. Portare ogni decisione chiusa nelle story in `stories/`.
+
+## Opzioni sui finding (2026-11-16)
+
+### Dashboard
+
+- svuotare e lasciare il default Xot
+- portare un solo widget reale (es. conteggio componenti)
+- spostare la demo in `tests/Fixtures`
+
+**Scelta lazy (KISS):** svuotare; i consumatori hanno la loro dashboard.
+
+### Test fantasma
+
+- cancellare
+- creare il modello Asset reale
+
+**Scelta lazy (KISS):** cancellare: nessun consumatore dichiarato dell'Asset.
+
+### Domande aperte
+
+- `Category/Collection/FieldOption` sono usati da altri moduli? (`rg "Modules\\UI\\Models"`)
+- Il pannello `ui::admin` serve ancora o è solo libreria?

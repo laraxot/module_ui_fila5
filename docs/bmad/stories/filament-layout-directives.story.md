@@ -1,40 +1,39 @@
 ---
-title: "Direttive Filament nel layout UI"
+title: "Direttive Filament nel layout UI (PTVX senza Cms)"
 type: story
 status: done
 module: UI
-qmd: "Filament layout @filamentStyles @filamentScripts UI main"
+updated: 2026-11-16
+qmd: "Filament layout @filamentStyles @filamentScripts UI main master notifications no Cms"
+related:
+  - ../../../../../../docs/wiki/memories/filament5-layout-contract-shared-modules.md
+  - ../../../Xot/docs/bmad/stories/module-portfolio-topology-no-cms-in-ptvx.story.md
 ---
 
 # Direttive Filament nel layout UI
 
-## Contesto
+## Religione portfolio
 
-I percorsi indicati `laravel/Modules/Cms/resources/views/components/head.blade.php`
-e `foot.blade.php` non appartengono al checkout corrente: il modulo `Cms` non è
-presente. Il layout esistente per questo ruolo è
-`laravel/Modules/UI/resources/views/components/layouts/main.blade.php`.
+`Cms` **non** sta in `base_ptvx_fila5` e non va introdotto. Il contratto
+Filament 5 si impara dai progetti FO che hanno `Cms` (`head`/`foot`), e si
+applica ai layout **reali** di questo progetto: `UI` e `User`.
 
-## Regola funzionale
+Fonte: [Configuring your layout](https://filamentphp.com/docs/5.x/introduction/installation#configuring-your-layout).
 
-Filament richiede `@filamentStyles` dentro `head` e `@filamentScripts` alla fine
-del `body` nei layout Blade che ospitano componenti Filament/Livewire.
+Obblighi (stessi di `cms::head` / `cms::foot` altrove):
 
-## Implementazione
+1. `@filamentStyles` in `<head>` (prima del CSS Vite del tema/app).
+2. `@livewire('notifications')` a fine body **senza** `@auth`.
+3. `@filamentScripts` a fine `<body>`.
 
-- aggiunto `@filamentStyles` nel `head` del layout UI;
-- aggiunto `@filamentScripts` nel `body` del layout UI;
-- non creati file o moduli Cms inesistenti;
-- non modificati layout che già rispettavano il contratto.
+## Layout owner in PTVX
 
-## Verifica
-
-- fonte ufficiale: <https://filamentphp.com/docs/5.x/introduction/installation#configuring-your-layout>;
-- eseguire PHPStan e rendering del layout in ambiente non produttivo;
-- il gate Pest completo resta dipendente dalla disponibilità del database di test.
+- `Modules/UI/.../layouts/main.blade.php` e `master.blade.php`
+- `Modules/User/.../layouts/main.blade.php`
 
 ## Acceptance criteria
 
-- [x] Il layout reale contiene `@filamentStyles` nel `head`.
-- [x] Il layout reale contiene `@filamentScripts` nel `body`.
-- [x] Nessun file Cms inesistente viene introdotto.
+- [x] Nessun `Modules/Cms` nel checkout PTVX.
+- [x] Layout UI/User: Styles + Scripts + notifications nudo.
+- [x] Pest `FilamentLayoutDirectivesTest` verde (file-read, no DB).
+- [x] Memoria portfolio aggiornata col mapping Cms→UI.

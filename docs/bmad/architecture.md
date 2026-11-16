@@ -173,3 +173,9 @@ Confronto di questa mappa con `laravel/Modules/UI`; il testo sopra non e' stato 
 | Pest "da eseguire in ambiente non produzione" | eseguito con sqlite in memoria: 218 passati, 16 falliti, 1 risky, 109 saltati |
 
 Il frontmatter di questo file ha la chiave `title` ripetuta due volte.
+
+## Confini e autorizzazione verificati (2026-11-16)
+
+- UI è una **libreria**: nessuna Resource, 1 policy astratta (`UiBasePolicy`, solo `before()`), 4 modelli (`Category`, `Collection`, `FieldOption`, `BaseModel`).
+- Dipendenza circolare di fatto: Xot importa da UI (`IDColumn`, `TableLayoutEnum`, `TableLayoutToggleTableAction`, 11 `use`) mentre UI estende le classi base Xot. Il lato corretto è UI → Xot; vedi [Xot audit P1-X1](../../../Xot/docs/bmad/audits/xot-audit.md).
+- Il pannello `ui::admin` ha una dashboard demo (dati finti): finding P1-UI1 in [audit](./audits/ui-audit.md).
