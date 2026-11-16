@@ -280,12 +280,9 @@ return [
         'data_policy' => [
             'label' => 'Data Policy',
         ],
-<<<<<<< .merge_file_bcXA9k
-=======
         'and' => [
             'label' => 'and',
         ],
->>>>>>> .merge_file_BZZAvr
         'cookies_policy' => [
             'label' => 'Cookies Policy',
         ],
