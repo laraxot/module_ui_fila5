@@ -189,7 +189,7 @@ Prima di commit, verifica:
 
 ---
 
-**Progetto**: base_<nome progetto>_fila5_mono
+**Progetto**: base_<nome progetto>_fila5
 **PHPStan**: Level 10
 **Status**: ✅ 0 Errors
 **Ultimo aggiornamento**: [DATE]

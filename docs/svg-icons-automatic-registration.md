@@ -141,11 +141,11 @@ php artisan view:clear
 - [Component Libraries](https://laravel.com/docs/blade#managing-component-libraries)
 
 ### Project Documentation
-- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
-- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+- [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md) - Old (with mistakes)
+- [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md) - Old (with mistakes)
 - [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
-- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
-- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+- [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md) - Old (with mistakes)
+- [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md) - Old (with mistakes)
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 
 ---

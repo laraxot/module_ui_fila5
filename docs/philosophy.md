@@ -1283,7 +1283,7 @@ Core functionality tests pass:
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 - [patterns.md](./patterns.md) — Design patterns and workflows
-- [icon-system.md](./icon-system.md) — Icon system details
+- [icon-system.md](icons/icon-system.md) — Icon system details
 
 ### Best Practices
 

@@ -683,6 +683,6 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 ## Collegamenti Utili
 
 - [Never Use Label Rule](./never-use-label-rule.md)
-- [Components Guide](./components-guide.md)
+- [Components Guide](archive/components-guide.md)
 - [Filament 4 Migration Guide](./filament/filament-4-migration-guide.md)
 - [Architecture Documentation](./architecture.md)

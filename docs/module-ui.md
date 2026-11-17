@@ -8,10 +8,10 @@ tags: [documentation]
 # Modulo UI
 
 ## Informazioni Generali
-- **Nome**: `laraxot/module_ui_fila3`
+- **Nome**: `laraxot/module_ui_fila5`
 - **Descrizione**: Modulo per la gestione dell'interfaccia utente
 - **Namespace**: `Modules\UI`
-- **Repository**: https://github.com/laraxot/module_ui_fila3.git
+- **Repository**: https://github.com/laraxot/module_ui_fila5.git
 
 ## Service Providers
 1. `Modules\UI\Providers\UIServiceProvider`
@@ -119,4 +119,4 @@ composer format        # Formatta il codice
 - File upload
 
 ## Changelog
-Le modifiche vengono tracciate nel repository GitHub. 
+Le modifiche vengono tracciate nel repository GitHub.

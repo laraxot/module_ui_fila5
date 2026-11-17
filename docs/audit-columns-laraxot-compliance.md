@@ -149,4 +149,4 @@ final class MyCustomColumn extends XotBaseColumn
 ## Riferimenti
 
 - [Laraxot Architectural Rules](../../../../.windsurf/rules/laraxot-architectural-rules.md)
-- [IconColumn Fix](../bugfix/iconcolumn-extends-filament-column.md)
+- [IconColumn Fix](bugfix/iconcolumn-extends-filament-column.md)

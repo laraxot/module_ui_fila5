@@ -3,7 +3,7 @@ qmd: "ui bugfix table layout toggle not working md"
 module: UI
 topic: table-layout-toggle
 status: open
-related_issue: provtv/base_ptv_fila5_mono
+related_issue: provtv/base_ptv_fila5
 related_module_repo: laraxot/module_ui_fila5
 ---
 
