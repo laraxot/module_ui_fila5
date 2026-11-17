@@ -4,11 +4,38 @@ type: audit
 status: review
 updated: 2026-11-16
 module: UI
+<<<<<<< .merge_file_QmzJxO
+qmd: "audit BMAD UI source-first qualità"
+=======
 qmd: "audit BMAD UI sintesi finding P0 P1 PHPStan Pest"
+>>>>>>> .merge_file_e8PofM
 ---
 
 # Audit BMAD — UI
 
+<<<<<<< .merge_file_QmzJxO
+SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md)
+
+## Sintesi (2026-11-16)
+
+| Metrica | Valore |
+|---|---:|
+| PHP `app/` | 133 |
+| Test | 87 |
+| Resources | 0 |
+| Actions | 6 |
+| Services | 5 |
+| Policy `return true` | 2 |
+| Marker | 0 |
+
+## Lo scopo in una frase **UI e' il vocabolario visivo condiviso: fa si' che la stessa cosa abbia lo stesso aspetto e lo stesso comportamento in tutti i moduli, senza che nessuno debba
+
+## Gate
+
+- PHPStan modulo / `Modules`: 0 errori (verifica 2026-11-16).
+- Pest: da eseguire in ambiente testing non produttivo.
+- Security/runtime: story figlie su finding P0/P1 dell'audit dettagliato.
+=======
 SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [purpose.md](./purpose.md)
 
 **In una frase:** vocabolario visivo condiviso (componenti, widget, colonne, layout tabella) consumato da tutti i moduli.
@@ -45,3 +72,4 @@ SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [purpose.
 ## Seguito
 
 [epics.md](./epics.md) · [decision-log.md](./decision-log.md) · [story](./stories/module-bmad-audit.story.md) · [ECC](../ecc/ui-ecc-audit.md)
+>>>>>>> .merge_file_e8PofM
