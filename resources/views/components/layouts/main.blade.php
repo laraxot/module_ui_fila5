@@ -27,22 +27,14 @@ declare(strict_types=1);
 
         <style>[x-cloak] { display: none !important; }</style>
 
-<<<<<<< .merge_file_MRdF9D
-        @filamentStyles
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-=======
         {{-- OBBLIGATORIO in <head> --}}
         @filamentStyles
         @vite(['resources/css/app.css'])
->>>>>>> .merge_file_9ZWxds
 
         <title>{{ $title ?? 'Genesis' }}</title>
     </head>
     <body class="min-h-screen antialiased bg-white dark:bg-gradient-to-b dark:from-gray-950 dark:to-gray-900">
         {{ $slot }}
-<<<<<<< .merge_file_MRdF9D
-        @filamentScripts
-=======
 
         {{-- Flash Filament: sempre, mai avvolto in auth --}}
         @livewire('notifications')
@@ -50,7 +42,6 @@ declare(strict_types=1);
         {{-- OBBLIGATORIO a fine <body> --}}
         @filamentScripts
         @vite(['resources/js/app.js'])
->>>>>>> .merge_file_9ZWxds
         @livewire(\Modules\UI\Filament\Widgets\ToastWidget::class)
     </body>
 </html>
