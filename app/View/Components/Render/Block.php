@@ -14,14 +14,14 @@ use UnexpectedValueException;
 use Webmozart\Assert\Assert;
 
 /**
- * .
+ * Blade component that renders a CMS block.
  */
 class Block extends Component
 {
     public ?string $view = null;
 
     /**
-     * @param  array<string, mixed>  $block
+     * @param array<string, mixed> $block
      */
     public function __construct(
         public array $block,
