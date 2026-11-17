@@ -1,4 +1,5 @@
 ---
+qmd: "ui stories person column schema org identity group story md"
 id: story-ui-person-column-schema-org-identity-group
 slug: person-column-schema-org-identity-group
 title: "STORY — PersonColumn: componente riutilizzabile per l'identita' di una persona (schema.org/Person)"

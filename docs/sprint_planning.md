@@ -1,3 +1,10 @@
+---
+title: "UI Module - Sprint Planning"
+qmd: "ui sprint planning md"
+type: note
+tags: [documentation]
+---
+
 # UI Module - Sprint Planning
 
 **Module:** UI  

@@ -1,4 +1,5 @@
 ---
+qmd: "ui carousel slider md"
 title: 'Carousel slider — risorse esterne'
 module: UI
 type: reference

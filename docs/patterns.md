@@ -1,4 +1,5 @@
 ---
+qmd: "ui patterns md"
 title: UI Module — Architettura e Patterns
 module: UI
 type: patterns

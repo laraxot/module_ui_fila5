@@ -1,4 +1,5 @@
 ---
+qmd: "ui flip cards md"
 title: 'Flip cards — risorse esterne'
 module: UI
 type: reference

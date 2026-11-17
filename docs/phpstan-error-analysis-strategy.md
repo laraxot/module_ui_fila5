@@ -1,3 +1,10 @@
+---
+title: "Strategia Correzione Errori PHPStan - RadioBadge.php"
+qmd: "ui phpstan error analysis strategy md"
+type: note
+tags: [documentation]
+---
+
 # Strategia Correzione Errori PHPStan - RadioBadge.php
 
 **File**: `app/Filament/Forms/Components/RadioBadge.php`

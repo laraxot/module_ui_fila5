@@ -1,3 +1,10 @@
+---
+title: "PHPStan Level 10 Compliance Status"
+qmd: "ui phpstan compliance status md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Level 10 Compliance Status
 
 

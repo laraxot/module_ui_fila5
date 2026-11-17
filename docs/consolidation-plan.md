@@ -1,3 +1,10 @@
+---
+title: "Piano Consolidamento Documentazione - Modulo UI"
+qmd: "ui consolidation plan md"
+type: note
+tags: [documentation]
+---
+
 # Piano Consolidamento Documentazione - Modulo UI
 
 ## Obiettivo

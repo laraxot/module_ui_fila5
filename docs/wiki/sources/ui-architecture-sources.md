@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki sources ui architecture sources md"
 title: "UI Architecture Sources"
 module: "UI"
 type: source

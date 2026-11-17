@@ -1,3 +1,10 @@
+---
+title: "Laravel Folio + Volt - Best Practices and Patterns Analysis"
+qmd: "ui folio volt best practices md"
+type: note
+tags: [documentation]
+---
+
 # Laravel Folio + Volt - Best Practices and Patterns Analysis
 
 ## Overview

@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files filament md"
 title: 'Filament — risorse esterne'
 module: UI
 type: reference

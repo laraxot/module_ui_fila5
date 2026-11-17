@@ -1,3 +1,10 @@
+---
+title: "qrcode"
+qmd: "ui root md files qrcode md"
+type: note
+tags: [documentation]
+---
+
 https://github.com/tecnickcom/TCPDF
 
 simplesoftwareio/simple-qrcode  

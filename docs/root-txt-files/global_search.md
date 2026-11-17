@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files global search md"
 title: 'Global search — risorse esterne'
 module: UI
 type: reference

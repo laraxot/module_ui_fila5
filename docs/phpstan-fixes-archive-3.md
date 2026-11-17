@@ -1,3 +1,10 @@
+---
+title: "PHPStan Fixes - Gennaio 2025"
+qmd: "ui phpstan fixes archive 3 md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Fixes - Gennaio 2025
 
 ## Modulo UI - Correzioni Completate

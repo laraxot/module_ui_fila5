@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files blocks md"
 title: 'Blocks — risorse esterne'
 module: UI
 type: reference

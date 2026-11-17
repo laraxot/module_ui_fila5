@@ -1,3 +1,10 @@
+---
+title: "PHPStan Errors Resolution Guide — UI Module"
+qmd: "ui phpstan errors resolution md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Errors Resolution Guide — UI Module
 
 **Date**: 2026-07-08  

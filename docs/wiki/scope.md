@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki scope md"
 title: "UI — Scopo modulo"
 status: active
 ---

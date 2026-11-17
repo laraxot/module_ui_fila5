@@ -1,3 +1,10 @@
+---
+title: "Traduzioni del Modulo UI"
+qmd: "ui translations md"
+type: note
+tags: [documentation]
+---
+
 # Traduzioni del Modulo UI
 
 ## Collegamenti

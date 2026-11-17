@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui test md"
 title: "UI test"
 type: reference
 tags: [ui]

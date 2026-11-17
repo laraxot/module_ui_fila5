@@ -1,4 +1,5 @@
 ---
+qmd: "ui archive prd md"
 title: "Product Requirements Document (PRD) - UI Module"
 module: "UI"
 type: concept

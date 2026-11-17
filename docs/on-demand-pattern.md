@@ -1,4 +1,5 @@
 ---
+qmd: "ui on demand pattern md"
 title: "On-Demand Pattern — Module UI"
 type: documentation
 created: 2026-05-11

@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files widgets md"
 title: 'Widgets — risorse esterne'
 module: UI
 type: reference

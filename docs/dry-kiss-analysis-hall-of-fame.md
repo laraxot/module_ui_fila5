@@ -1,4 +1,5 @@
 ---
+qmd: "ui dry kiss analysis hall of fame md"
 created_at: '2025-10-15'
 ---
 

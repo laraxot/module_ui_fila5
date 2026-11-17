@@ -1,3 +1,10 @@
+---
+title: "PHPStan Fixes - November 2025"
+qmd: "ui phpstan fixes november archive 1 md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Fixes - November 2025
 
 **Data:** 11 Novembre 2025

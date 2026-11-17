@@ -1,3 +1,10 @@
+---
+title: "Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)"
+qmd: "ui charts chartjs datalabels multiple labels complete guide md"
+type: note
+tags: [documentation]
+---
+
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)
 
 **Versione:** 1.0  

@@ -1,4 +1,5 @@
 ---
+qmd: "ui lessons learned reusable filament components pattern md"
 name: reusable-filament-components-pattern
 description: "Un componente Filament riutilizzabile porta con sé la sua logica di styling/comportamento, non va sparpagliata nel Resource che lo usa"
 metadata:

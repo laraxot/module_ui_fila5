@@ -1,4 +1,5 @@
 ---
+qmd: "ui bugfix table layout toggle not working md"
 module: UI
 topic: table-layout-toggle
 status: open

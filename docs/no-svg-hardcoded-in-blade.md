@@ -1,3 +1,10 @@
+---
+title: "Regola: No SVG Hardcoded nelle Blade"
+qmd: "ui no svg hardcoded in blade md"
+type: note
+tags: [documentation]
+---
+
 # Regola: No SVG Hardcoded nelle Blade
 
 ## Scopo

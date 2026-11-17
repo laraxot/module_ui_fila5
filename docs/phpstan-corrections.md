@@ -1,3 +1,10 @@
+---
+title: "PHPStan Corrections - Modulo UI"
+qmd: "ui phpstan corrections md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Corrections - Modulo UI
 
 **Data:** 17 Agosto 2025  

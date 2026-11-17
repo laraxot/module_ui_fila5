@@ -1,3 +1,10 @@
+---
+title: "GroupColumn Fix - Risoluzione Errore \"Column not mounted to table\""
+qmd: "ui group column fix md"
+type: note
+tags: [documentation]
+---
+
 # GroupColumn Fix - Risoluzione Errore "Column not mounted to table"
 
 ## Problema

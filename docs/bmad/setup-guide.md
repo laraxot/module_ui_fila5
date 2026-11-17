@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad setup guide md"
 title: "UI — BMAD Setup Guide"
 
 title: "UI: BMAD Setup Guide"

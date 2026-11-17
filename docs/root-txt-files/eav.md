@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files eav md"
 title: 'Eav — risorse esterne'
 module: UI
 type: reference

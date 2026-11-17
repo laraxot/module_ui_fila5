@@ -1,3 +1,10 @@
+---
+title: "Audit e Correzione Colonne Filament - Modulo UI"
+qmd: "ui audit columns laraxot compliance md"
+type: note
+tags: [documentation]
+---
+
 # Audit e Correzione Colonne Filament - Modulo UI
 
 **Status**: ✅ COMPLETATO

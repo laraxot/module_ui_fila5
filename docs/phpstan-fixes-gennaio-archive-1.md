@@ -1,3 +1,10 @@
+---
+title: "Correzioni PHPStan - Gennaio 2025"
+qmd: "ui phpstan fixes gennaio archive 1 md"
+type: note
+tags: [documentation]
+---
+
 # Correzioni PHPStan - Gennaio 2025
 
 ## Panoramica

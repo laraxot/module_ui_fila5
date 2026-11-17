@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad livewire widget conversion md"
 title: "Conversione Livewire → widget — UI"
 
 title: "Conversione Livewire → widget: UI"

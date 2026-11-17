@@ -1,3 +1,10 @@
+---
+title: "Analisi Errori PHPStan - Modulo UI"
+qmd: "ui phpstan error analysis md"
+type: note
+tags: [documentation]
+---
+
 # Analisi Errori PHPStan - Modulo UI
 
 **Modulo**: UI

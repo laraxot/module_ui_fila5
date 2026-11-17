@@ -1,3 +1,10 @@
+---
+title: "🎨 UI MODULE - ROADMAP 2025"
+qmd: "ui roadmap conflict md"
+type: note
+tags: [documentation]
+---
+
 # 🎨 UI MODULE - ROADMAP 2025
 
 **Modulo**: UI (User Interface Components & Design System)

@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files ratings md"
 title: 'Ratings'
 module: UI
 type: reference

@@ -1,3 +1,10 @@
+---
+title: "Regole Architetturali"
+qmd: "ui archive architecture rules md"
+type: note
+tags: [documentation]
+---
+
 # Regole Architetturali
 
 ## Principi Fondamentali

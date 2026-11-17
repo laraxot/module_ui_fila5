@@ -1,3 +1,10 @@
+---
+title: "UI — cosa migliorerei se questo modulo fosse mio per un mese"
+qmd: "ui roadmap miglioramenti md"
+type: note
+tags: [documentation]
+---
+
 # UI — cosa migliorerei se questo modulo fosse mio per un mese
 
 > I numeri misurati sono in [`docs/cosa-migliorare.md`](cosa-migliorare.md),

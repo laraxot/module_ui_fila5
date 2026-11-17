@@ -1,3 +1,10 @@
+---
+title: "INDEX"
+qmd: "ui archive index md"
+type: note
+tags: [documentation]
+---
+
 
 - [component-registration.md](./architecture/component-registration.md)
 - [filament-pages-structure.md](./architecture/filament-pages-structure.md)

@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui navbar md"
 title: "UI navbar"
 type: reference
 tags: [ui]

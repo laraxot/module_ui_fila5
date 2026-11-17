@@ -1,3 +1,10 @@
+---
+title: "✅ SVG Icons - Automatic Registration"
+qmd: "ui svg icons automatic registration md"
+type: note
+tags: [documentation]
+---
+
 # ✅ SVG Icons - Automatic Registration
 
 **Data**: 2026-03-30  

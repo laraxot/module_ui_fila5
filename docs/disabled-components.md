@@ -1,3 +1,10 @@
+---
+title: "Disabled/Stale Components in UI Module"
+qmd: "ui disabled components md"
+type: note
+tags: [documentation]
+---
+
 # Disabled/Stale Components in UI Module
 
 **Status**: Documentation of unavailable dependencies  

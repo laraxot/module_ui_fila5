@@ -1,3 +1,10 @@
+---
+title: "Script Consolidamento Documentazione UI"
+qmd: "ui consolidation script md"
+type: note
+tags: [documentation]
+---
+
 # Script Consolidamento Documentazione UI
 
 ## File Vuoti da Eliminare

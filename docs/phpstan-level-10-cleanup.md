@@ -1,3 +1,10 @@
+---
+title: "PHPStan Level 10 Cleanup Session - [DATE]"
+qmd: "ui phpstan level 10 cleanup md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Level 10 Cleanup Session - [DATE]
 
 ## Executive Summary

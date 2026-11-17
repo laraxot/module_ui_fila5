@@ -1,3 +1,10 @@
+---
+title: "Design Comuni - Componenti UI per FAQ"
+qmd: "ui design comuni faq components md"
+type: note
+tags: [documentation]
+---
+
 # Design Comuni - Componenti UI per FAQ
 
 ## Panoramica

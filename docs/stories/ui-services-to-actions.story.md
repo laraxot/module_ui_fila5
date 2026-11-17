@@ -1,4 +1,5 @@
 ---
+qmd: "ui stories ui services to actions story md"
 title: Convert app/Services to QueueableAction (no-services-rule)
 slug: ui-services-to-actions
 status: done

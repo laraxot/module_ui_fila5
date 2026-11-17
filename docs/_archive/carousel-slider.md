@@ -1,3 +1,10 @@
+---
+title: "carousel slider"
+qmd: "ui archive carousel slider md"
+type: note
+tags: [documentation]
+---
+
 https://www.embla-carousel.com/examples/predefined/
 
 

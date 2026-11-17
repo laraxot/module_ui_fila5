@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki 00 index md"
 title: "UI — indice della documentazione"
 description: "Documentazione del modulo UI: componenti di interfaccia condivisi."
 module: UI

@@ -1,3 +1,10 @@
+---
+title: "Conflict Resolution — Module UI"
+qmd: "ui conflict resolution md"
+type: note
+tags: [documentation]
+---
+
 # Conflict Resolution — Module UI
 
 ## Summary

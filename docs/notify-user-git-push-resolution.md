@@ -1,4 +1,5 @@
 ---
+qmd: "ui notify user git push resolution md"
 title: "Notify & User Git Push Resolution — 2026-07-28"
 date: 2026-07-28
 created_at: '2026-07-28'

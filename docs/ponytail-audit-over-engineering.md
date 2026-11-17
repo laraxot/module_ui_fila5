@@ -1,3 +1,10 @@
+---
+title: "Ponytail audit — UI (over-engineering)"
+qmd: "ui ponytail audit over engineering md"
+type: note
+tags: [documentation]
+---
+
 # Ponytail audit — UI (over-engineering)
 
 **Ultimo run:** 2026-07-01  

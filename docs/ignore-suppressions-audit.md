@@ -1,4 +1,5 @@
 ---
+qmd: "ui ignore suppressions audit md"
 title: "Audit @phpstan-ignore: 48 soppressioni chiuse cancellando 3 test fantasma"
 type: report
 created_at: '2026-09-01'
