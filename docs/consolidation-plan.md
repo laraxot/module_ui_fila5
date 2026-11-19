@@ -133,7 +133,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 
 ## File con Maiuscole (da Rinominare)
 
-1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
+1. `metodi_duplicati_analisi.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
 
 ## Processo di Consolidamento
 

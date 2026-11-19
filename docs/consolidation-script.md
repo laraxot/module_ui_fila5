@@ -100,14 +100,14 @@ mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev
 ## File con Maiuscole da Rinominare
 
 ```bash
-# Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
+# Verificare se metodi_duplicati_analisi.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
-if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
-    if cmp -s "METODI_DUPLICATI_ANALISI.md" "metodi-duplicati-analisi.md" 2>/dev/null; then
-        rm -f METODI_DUPLICATI_ANALISI.md
+if [ -f "metodi_duplicati_analisi.md" ]; then
+    if cmp -s "metodi_duplicati_analisi.md" "metodi-duplicati-analisi.md" 2>/dev/null; then
+        rm -f metodi_duplicati_analisi.md
     else
         # Se diversi, rinominare quello con maiuscole
-        mv METODI_DUPLICATI_ANALISI.md metodi-duplicati-analisi-uppercase.md
+        mv metodi_duplicati_analisi.md metodi-duplicati-analisi-uppercase.md
     fi
 fi
 ```
