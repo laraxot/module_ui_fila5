@@ -129,7 +129,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 
 1. `dry-kiss-analysis-[DATE].md` → `archive/dry-kiss-analysis.md`
 2. `phpstan-level-10-cleanup-[DATE].md` → `archive/phpstan-level-10-cleanup.md`
-3. `phpstan-fixes-gennaio-2025.md` → Consolidare in `phpstan-compliance.md`
+3. `phpstan-fixes-correzioni-gennaio.md` → Consolidare in `phpstan-compliance.md`
 
 ## File con Maiuscole (da Rinominare)
 

@@ -94,7 +94,7 @@ mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
 
 # Consolidare file PHPStan con date
-# phpstan-fixes-gennaio-2025.md → consolidare in phpstan-compliance.md
+# phpstan-fixes-correzioni-gennaio.md → consolidare in phpstan-compliance.md
 ```
 
 ## File con Maiuscole da Rinominare
