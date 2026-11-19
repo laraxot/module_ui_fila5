@@ -28,7 +28,7 @@ canonico senza data via [docs-clean.md](../../../../bashscripts/docs/prompts/doc
 
 - `audits/2026-11-05-quality-gates.md`
 - `bugfix-*-2025-01-27.md` (+ copie in `archive/`)
-- `phpstan-fixes-january-2025.md` / `phpstan-fixes-correzioni-gennaio.md` / `phpstan-fixes-november-2025.md` (+ varianti)
+- `phpstan-fixes-january.md` / `phpstan-fixes-correzioni-gennaio.md` / `phpstan-fixes-november.md` (+ varianti)
 - `translations-update.md`
 - `wiki/troubleshooting/*-2026-*.md`
 - collisione case: `ARCHITECTURE_2025.md` / `architecture-2025.md` / `architecture_2025.md`

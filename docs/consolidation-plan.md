@@ -78,7 +78,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 - ❌ `phpstan_corrections_summary.md` → Eliminare (duplicato)
 - ❌ `phpstan_radio_badge_fix.md` → Eliminare (duplicato)
 - ✅ `phpstan-compliance.md` → Mantenere (documento principale)
-- ✅ `phpstan-fixes-2025.md` → Mantenere (se contiene info aggiuntive)
+- ✅ `phpstan-fixes-.md` → Mantenere (se contiene info aggiuntive)
 - ✅ `phpstan-corrections-summary.md` → Mantenere
 - ✅ `phpstan-corrections.md` → Mantenere
 - ✅ `phpstan-fixes.md` → Mantenere
