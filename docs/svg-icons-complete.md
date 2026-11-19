@@ -119,7 +119,7 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 - ✅ `SVG_ICONS_BUG_FIX.md` - Bug fix report
 
 ### References
-- [SVG_ICONS_AUTOMATIC_REGISTRATION.md](SVG_ICONS_AUTOMATIC_REGISTRATION.md) - Full guide
+- [SVG_ICONS_AUTOMATIC_REGISTRATION.md](svg_icons_automatic_registration.md) - Full guide
 - [SOCIAL_ICONS_FIX_COMPLETE.md](SOCIAL_ICONS_FIX_COMPLETE.md) - Social icons
 
 ---

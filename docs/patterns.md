@@ -361,6 +361,6 @@ Quando aggiungi feature nuova a UI:
 
 - [INDEX](./index.md) — Documentazione index completo
 
-- [TROUBLESHOOTING](./TROUBLESHOOTING.md) — Errori comuni e soluzioni
+- [TROUBLESHOOTING](troubleshooting.md) — Errori comuni e soluzioni
 - [architecture/component-registration](./architecture/component-registration.md) — Registrazione dettagliata
 - [standards/ui-standards](./standards/ui-standards.md) — UI component standards

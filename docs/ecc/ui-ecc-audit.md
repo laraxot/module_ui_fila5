@@ -37,7 +37,11 @@ fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono sce
 
 | Skill ECC | Stato | Evidenza |
 |---|---|---|
+<<<<<<< HEAD
 | `clean-code` (DRY/KISS, Actions-over-Services) | parziale | `ComponentService` vuoto, `PersonForm` senza consumatori, 3 file `.disabled/.fila3` |
+=======
+| `clean-code` (DRY/KISS, Actions-over-Services) | parziale | `ComponentService` vuoto, `PersonForm` senza consumatori, 3 file `.disabled/.fila5` |
+>>>>>>> laraxot/dev
 | `security-review` (policy, accesso pannello, dati) | aperto | P2-UI4: `UiBasePolicy` senza abilità (nessuna Resource oggi → nessuna esposizione) |
 | `laravel-verification` (route, policy, migration additive) | ok | 3 migration additive (`2026_07_15_*`), nessun `migrate:fresh` |
 | `verification-loop` (PHPStan max + Pest) | PHPStan ok, Pest skip | PHPStan 0 errori; Pest: skip documentato: DB di test `10.100.200.53:3306` irraggiungibile (TCP chiuso) e `Xot/tests/Support/TestDatabaseGuard.php:63` rifiuta DB non `*_test`; i test con DB restano appesi al connect MySQL (timeout 150 s osservato). Nessun test contro il MySQL locale (dati sacri). |

@@ -284,7 +284,7 @@ If you think a rule is wrong:
 ### See Also
 
 - [architecture.md](./architecture.md) — component organization and Filament patterns
-- [testing.md](./testing.md) — component testing strategies
+- [testing.md](../wiki/concepts/testing.md) — component testing strategies
 - `filament-patterns.md` (non ancora scritto) — Filament resource best practices
 - `folio-volt-integration.md` (non ancora scritto) — Folio+Volt workflow
 - `theme-system.md` (non ancora scritto) — multi-tenant theming

@@ -32,7 +32,7 @@ Source-first, 2026-11-16: `find`/`grep` su `app/`, `tests/`, `database/`; lettur
 | Models | 4 + `BaseModel` | `Category`, `Collection`, `FieldOption` (3 migration 2026-07-15) |
 | Policy | 1 | `UiBasePolicy` (astratta, solo `before()`) |
 | Resource Filament | 0 | |
-| Widget | 12 (+3 file `.disabled`, `.disabled2`, `.fila3`) | |
+| Widget | 12 (+3 file `.disabled`, `.disabled2`, `.fila5`) | |
 | Actions | 11 | `Actions/{Block,Datetime,Icon,Panel}` |
 | Services | 5 | `UIService` (wrapper di `AssetAction`), `ThemeService`, `ComponentService` (classe vuota), `Map/NullMapService`, `Map/NullGeocodingService` |
 | Migration | 3 | |
@@ -67,7 +67,7 @@ un modello-sonda). Soluzione DRY/KISS: cancellare i 3 file finché il modello no
   Regola: nessuna label letterale.
 - `Services/ComponentService.php`: classe vuota. `UIService` delega a `AssetAction` (i 3 Service sono
   citati in 6 punti fuori da UI): tenere o inlinare l'Action. `Null*Service`: legittimi (null-object per mappe).
-- `Filament/Widgets/UserCalendarWidget.php.{disabled,disabled2,fila3}`: residui di versioni; cancellare.
+- `Filament/Widgets/UserCalendarWidget.php.{disabled,disabled2,fila5}`: residui di versioni; cancellare.
 - `Models/Policies/UiBasePolicy.php`: `before()` concede a `super-admin` e `ui::admin`, **nessun metodo**
   `viewAny/view/...` e non estende `XotBasePolicy`, quindi senza `DeniesUndeclaredFilamentAbilities`:
   la sua unica sottoclasse è un fixture di test. Oggi nessuna Resource UI → nessuna esposizione, ma

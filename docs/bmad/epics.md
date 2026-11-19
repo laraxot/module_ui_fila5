@@ -35,5 +35,9 @@ lock (`bashscripts/lock/lock.sh`), Pest rosso, PHPStan max, poi `unlock.sh`. Nes
 |---|---|---|
 | `ui-personform-lang-or-delete` | PersonForm tradotto via Lang o eliminato | 0 `->label('testo')` in `app/` |
 | `ui-policy-base-xot` | UiBasePolicy → XotBasePolicy + test `before` | test Pest `ui::admin`/utente estraneo |
+<<<<<<< HEAD
 | `ui-cleanup-stray-files` | Rimuovere `.disabled/.disabled2/.fila3`, `ComponentService` vuoto | file assenti, PHPStan 0 |
+=======
+| `ui-cleanup-stray-files` | Rimuovere `.disabled/.disabled2/.fila5`, `ComponentService` vuoto | file assenti, PHPStan 0 |
+>>>>>>> laraxot/dev
 

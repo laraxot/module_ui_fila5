@@ -65,7 +65,7 @@ qmd search "form" -c ui  # Solo questo modulo
 
 - [Global QMD Config](../qmd.md) (root docs)
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
-- [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
+- [On-Demand Pattern](on-demand-pattern.md)
 - [On-Demand Pattern](./on-demand-pattern.md)
 
 ---
