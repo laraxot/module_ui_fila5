@@ -1,3 +1,10 @@
+---
+title: "UI Module Philosophy"
+qmd: "ui philosophy dev rules md"
+type: note
+tags: [documentation]
+---
+
 # UI Module Philosophy
 
 Reusable components, design system, and patterns for Filament, Folio, and Volt across all 47 modules.

@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui megamenu md"
 title: "UI megamenu"
 type: reference
 tags: [ui]

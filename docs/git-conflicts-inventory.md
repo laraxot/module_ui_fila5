@@ -1,3 +1,10 @@
+---
+title: "Inventario Conflitti Git - UI Module"
+qmd: "ui git conflicts inventory md"
+type: note
+tags: [documentation]
+---
+
 # Inventario Conflitti Git - UI Module
 
 ## File con conflitti di merge non risolti

@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files navbar md"
 title: 'Navbar — risorse esterne'
 module: UI
 type: reference

@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui flip cards md"
 title: "UI flip cards"
 type: reference
 tags: [ui]

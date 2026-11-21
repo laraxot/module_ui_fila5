@@ -1,3 +1,10 @@
+---
+title: "📚 **Indice Documentazione Modulo UI**"
+qmd: "ui 00 index md"
+type: note
+tags: [documentation]
+---
+
 # 📚 **Indice Documentazione Modulo UI**
 
 **Status**: ✅ PHPStan Level 10 Compliant

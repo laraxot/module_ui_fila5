@@ -1,3 +1,10 @@
+---
+title: "Development Workflow Rules - UI Module"
+qmd: "ui development workflow rules md"
+type: note
+tags: [documentation]
+---
+
 # Development Workflow Rules - UI Module
 
 **Date**: [DATE]

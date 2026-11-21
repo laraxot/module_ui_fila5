@@ -1,4 +1,5 @@
 ---
+qmd: "ui investigation ui investigation md"
 type: investigation
 title: "Investigation UI Component System"
 links: {github_issue: #XXX}

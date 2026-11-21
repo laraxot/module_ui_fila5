@@ -1,4 +1,5 @@
 ---
+qmd: "ui custom firm fields md"
 title: 'Custom firm fields — risorse esterne'
 module: UI
 type: reference

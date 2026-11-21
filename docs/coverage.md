@@ -1,3 +1,10 @@
+---
+title: "Code Coverage: UI"
+qmd: "ui coverage md"
+type: note
+tags: [documentation]
+---
+
 # Code Coverage: UI
 
 **Lines Coverage:** N/A (Failed to parse)

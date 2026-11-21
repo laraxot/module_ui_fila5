@@ -1,3 +1,10 @@
+---
+title: "UI Module Test Structure Cleanup"
+qmd: "ui test structure cleanup md"
+type: note
+tags: [documentation]
+---
+
 # UI Module Test Structure Cleanup
 
 ## Problem Identified

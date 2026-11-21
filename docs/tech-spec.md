@@ -1,4 +1,5 @@
 ---
+qmd: "ui tech spec md"
 title: "Technical Specification - UI Module"
 type: technical_spec
 tags: [tech spec, ui]

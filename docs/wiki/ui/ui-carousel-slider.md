@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui carousel slider md"
 title: "UI carousel slider"
 type: reference
 tags: [ui]

@@ -1,3 +1,10 @@
+---
+title: "UI — documentazione"
+qmd: "ui readme md"
+type: note
+tags: [documentation]
+---
+
 # UI — documentazione
 
 Ingresso canonico alla documentazione del modulo UI.

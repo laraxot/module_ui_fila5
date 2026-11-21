@@ -1,4 +1,5 @@
 ---
+qmd: "ui stories docs index audit story md"
 title: Audit indice documentazione modulo UI
 slug: docs-index-audit
 status: done

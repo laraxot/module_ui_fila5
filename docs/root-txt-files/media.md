@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files media md"
 title: 'Media — risorse esterne'
 module: UI
 type: reference

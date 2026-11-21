@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui tailwind themes md"
 title: "UI tailwind themes"
 type: reference
 tags: [ui]

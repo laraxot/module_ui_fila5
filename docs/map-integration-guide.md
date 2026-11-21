@@ -1,3 +1,10 @@
+---
+title: "🗺️ GUIDA INTEGRAZIONE MAPPA INTERATTIVA"
+qmd: "ui map integration guide md"
+type: note
+tags: [documentation]
+---
+
 # 🗺️ GUIDA INTEGRAZIONE MAPPA INTERATTIVA
 
 **Modulo**: UI (User Interface)

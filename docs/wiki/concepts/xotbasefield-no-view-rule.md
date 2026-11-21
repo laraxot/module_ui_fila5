@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki concepts xotbasefield no view rule md"
 name: xotbasefield-no-view-rule
 description: XotBaseField subclasses must not declare a protected $view property; view is computed dynamically.
 type: concept

@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files ci md"
 title: 'Ci'
 module: UI
 type: reference

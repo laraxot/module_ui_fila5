@@ -1,4 +1,5 @@
 ---
+qmd: "ui notify quality gate resolution md"
 title: Notify Module Quality Gate Resolution (2026-07-28)
 author: Session J
 date: 2026-07-28

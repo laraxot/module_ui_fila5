@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui effetcts md"
 title: "UI effetcts"
 type: reference
 tags: [ui]

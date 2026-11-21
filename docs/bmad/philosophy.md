@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad philosophy md"
 title: "UI Module: Philosophy, Purpose, and Design Principles"
 description: "Filosofia, regole e principi di design del modulo UI"
 updated: 2026-09-24

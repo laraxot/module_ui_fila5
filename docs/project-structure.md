@@ -1,4 +1,5 @@
 ---
+qmd: "ui project structure md"
 title: "Project Structure — Module UI"
 type: documentation
 created: 2026-05-11

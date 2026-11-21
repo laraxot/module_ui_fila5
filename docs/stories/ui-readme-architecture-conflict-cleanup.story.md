@@ -1,4 +1,5 @@
 ---
+qmd: "ui stories ui readme architecture conflict cleanup story md"
 title: Risolve conflitti README + consolida docs/architecture case-dupes
 slug: ui-readme-architecture-conflict-cleanup
 status: done-partial

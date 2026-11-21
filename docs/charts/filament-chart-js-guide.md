@@ -1,3 +1,10 @@
+---
+title: "Filament Chart.js Guide"
+qmd: "ui charts filament chart js guide md"
+type: note
+tags: [documentation]
+---
+
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.

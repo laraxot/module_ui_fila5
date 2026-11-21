@@ -1,3 +1,10 @@
+---
+title: "Analisi Metodi Duplicati - Modulo UI"
+qmd: "ui duplicate methods analysis md"
+type: note
+tags: [documentation]
+---
+
 # Analisi Metodi Duplicati - Modulo UI
 
 **Totale Gruppi di Duplicati**:

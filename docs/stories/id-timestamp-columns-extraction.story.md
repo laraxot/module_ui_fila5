@@ -1,4 +1,5 @@
 ---
+qmd: "ui stories id timestamp columns extraction story md"
 title: "UI: SortableIdColumn/TimestampColumn — estratto il trio id/created_at/updated_at ripetuto in 30+ Tables/*.php"
 type: story
 module: UI

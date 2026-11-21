@@ -1,3 +1,10 @@
+---
+title: "UI Module - Product Strategy"
+qmd: "ui product strategy md"
+type: note
+tags: [documentation]
+---
+
 # UI Module - Product Strategy
 
 **Module:** UI  

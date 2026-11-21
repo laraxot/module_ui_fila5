@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files effetcts md"
 title: 'Effetcts — risorse esterne'
 module: UI
 type: reference

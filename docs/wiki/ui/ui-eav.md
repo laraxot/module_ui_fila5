@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui eav md"
 title: "UI eav"
 type: reference
 tags: [ui]

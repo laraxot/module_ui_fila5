@@ -1,3 +1,10 @@
+---
+title: "Analisi Qualità - Modulo UI"
+qmd: "ui quality analysis ui module quality report md"
+type: note
+tags: [documentation]
+---
+
 # Analisi Qualità - Modulo UI
 
 **Data Analisi**: 2025-01-22

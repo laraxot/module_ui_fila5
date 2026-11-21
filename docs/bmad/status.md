@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad status md"
 bmad_status: active
 scope: ui-docs
 updated: 2026-10-06

@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui page builder md"
 title: "UI page builder"
 type: reference
 tags: [ui]

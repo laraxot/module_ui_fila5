@@ -1,3 +1,10 @@
+---
+title: "Bug Fix: AddressField non idratava lo stato + cleanup phpmd"
+qmd: "ui bugfix address field hydration md"
+type: note
+tags: [documentation]
+---
+
 # Bug Fix: AddressField non idratava lo stato + cleanup phpmd
 
 ## Problema

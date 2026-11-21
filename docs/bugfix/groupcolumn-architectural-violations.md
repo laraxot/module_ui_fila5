@@ -1,3 +1,10 @@
+---
+title: "Bugfix: GroupColumn Architectural Violations"
+qmd: "ui bugfix groupcolumn architectural violations md"
+type: note
+tags: [documentation]
+---
+
 # Bugfix: GroupColumn Architectural Violations
 
 **Data Fix**: 11 Novembre 2025

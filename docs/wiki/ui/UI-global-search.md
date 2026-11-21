@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui global search md"
 title: "UI global search"
 type: reference
 tags: [ui]

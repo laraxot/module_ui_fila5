@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui theme md"
 title: "UI theme"
 type: reference
 tags: [ui]

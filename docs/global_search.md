@@ -1,4 +1,5 @@
 ---
+qmd: "ui global search md"
 title: 'Global search — risorse esterne'
 module: UI
 type: reference

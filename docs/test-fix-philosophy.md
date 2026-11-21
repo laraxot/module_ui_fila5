@@ -1,3 +1,10 @@
+---
+title: "Test Fix Philosophy: Fix Tests, Not Production Code"
+qmd: "ui test fix philosophy md"
+type: note
+tags: [documentation]
+---
+
 # Test Fix Philosophy: Fix Tests, Not Production Code
 
 **Date**: [DATE]

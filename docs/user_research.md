@@ -1,3 +1,10 @@
+---
+title: "UI Module - User Research"
+qmd: "ui user research md"
+type: note
+tags: [documentation]
+---
+
 # UI Module - User Research
 
 **Module:** UI  

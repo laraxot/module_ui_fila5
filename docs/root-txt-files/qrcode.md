@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files qrcode md"
 title: 'Qrcode — risorse esterne'
 module: UI
 type: reference

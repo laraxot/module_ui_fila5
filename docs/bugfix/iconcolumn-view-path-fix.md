@@ -1,3 +1,10 @@
+---
+title: "Bugfix: IconColumn View Path Mismatch"
+qmd: "ui bugfix iconcolumn view path fix md"
+type: note
+tags: [documentation]
+---
+
 # Bugfix: IconColumn View Path Mismatch
 
 **Data Fix**: 11 Novembre 2025

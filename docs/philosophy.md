@@ -1,4 +1,5 @@
 ---
+qmd: "ui philosophy md"
 module: UI
 topic: PHILOSOPHY
 canonical: ./PHILOSOPHY.md

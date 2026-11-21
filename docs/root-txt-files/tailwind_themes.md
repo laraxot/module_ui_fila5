@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files tailwind themes md"
 title: 'Tailwind themes — risorse esterne'
 module: UI
 type: reference

@@ -1,4 +1,5 @@
 ---
+qmd: "ui custom theme md"
 title: "Custom theme"
 type: reference
 status: active

@@ -1,4 +1,5 @@
 ---
+qmd: "ui stories ui root md file limit audit story md"
 title: Audit igiene root — limite 6 file .md in Modules/UI
 slug: ui-root-md-file-limit-audit
 status: done
