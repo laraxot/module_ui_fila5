@@ -39,17 +39,28 @@ Per gli altri 25, poiché il contenuto era già duplicato verbatim (o quasi) in 
 | api.md | docs/raw/root-import/api-1.md | docs/raw/root-import/api.md | identico |
 | blocks.md | docs/raw/root-import/blocks-1.md | docs/raw/root-import/blocks.md | identico |
 | carousel-slider.md | docs/raw/root-import/carousel-slider-1.md | docs/raw/root-import/carousel-slider.md | identico |
+<<<<<<< .merge_file_hFZvxQ
 | CHANGELOG.md | docs/raw/root-import/changelog.md | docs/raw/root-import/CHANGELOG.md | identico (+ fuso in CHANGELOG.md, vedi sotto) |
+=======
+| CHANGELOG.md | docs/raw/root-import/changelog-1.md | docs/raw/root-import/CHANGELOG.md | identico (+ fuso in CHANGELOG.md, vedi sotto) |
+>>>>>>> .merge_file_XmFXKl
 | chunk.md | docs/raw/root-import/chunk-1.md | docs/raw/root-import/chunk.md | identico |
 | ci.md | docs/raw/root-import/ci-1.md | docs/raw/root-import/ci.md | identico |
 | custom-firm-fields.md | docs/raw/root-import/custom-firm-fields-1.md | docs/raw/root-import/custom-firm-fields.md | identico |
 | custom-theme.md | docs/raw/root-import/custom-theme-1.md | docs/raw/root-import/custom-theme.md | quasi identico (solo H1+commento ridondanti in root) |
 | eav.md | docs/raw/root-import/eav-1.md | docs/raw/root-import/eav.md | identico |
 | effetcts.md | docs/raw/root-import/effetcts-1.md | docs/raw/root-import/effetcts.md | identico |
+<<<<<<< .merge_file_hFZvxQ
 | filament.md | docs/raw/root-import/filament.md | docs/raw/root-import/filament.md | identico |
 | flip-cards.md | docs/raw/root-import/flip-cards-1.md | docs/raw/root-import/flip-cards.md | identico |
 | global-search.md | docs/raw/root-import/global-search-1.md | docs/raw/root-import/global-search.md | identico |
 | links.md | docs/raw/root-import/links.md | docs/raw/root-import/links.md | identico |
+=======
+| filament.md | docs/raw/root-import/filament-1.md | docs/raw/root-import/filament.md | identico |
+| flip-cards.md | docs/raw/root-import/flip-cards-1.md | docs/raw/root-import/flip-cards.md | identico |
+| global-search.md | docs/raw/root-import/global-search-1.md | docs/raw/root-import/global-search.md | identico |
+| links.md | docs/raw/root-import/links-1.md | docs/raw/root-import/links.md | identico |
+>>>>>>> .merge_file_XmFXKl
 | media.md | docs/raw/root-import/media-1.md | docs/raw/root-import/media.md | identico |
 | megamenu.md | docs/raw/root-import/megamenu-1.md | docs/raw/root-import/megamenu.md | identico |
 | navbar.md | docs/raw/root-import/navbar-1.md | docs/raw/root-import/navbar.md | identico |
@@ -57,14 +68,22 @@ Per gli altri 25, poiché il contenuto era già duplicato verbatim (o quasi) in 
 | qrcode.md | docs/raw/root-import/qrcode-1.md | docs/raw/root-import/qrcode.md | identico |
 | ratings.md | docs/raw/root-import/ratings-1.md | docs/raw/root-import/ratings.md | identico |
 | tailwind-themes.md | docs/raw/root-import/tailwind-themes-1.md | docs/raw/root-import/tailwind-themes.md | identico |
+<<<<<<< .merge_file_hFZvxQ
 | test.md | docs/raw/root-import/test.md | docs/raw/root-import/test.md | identico (entrambi contenuto minimale) |
+=======
+| test.md | docs/raw/root-import/test-1.md | docs/raw/root-import/test.md | identico (entrambi contenuto minimale) |
+>>>>>>> .merge_file_XmFXKl
 | theme.md | docs/raw/root-import/theme-1.md | docs/raw/root-import/theme.md | identico |
 | ubuntu.md | docs/raw/root-import/ubuntu-1.md | docs/raw/root-import/ubuntu.md | identico |
 | widgets.md | docs/raw/root-import/widgets-1.md | docs/raw/root-import/widgets.md | identico |
 
 ## Fusione CHANGELOG.md → CHANGELOG.md
 
+<<<<<<< .merge_file_hFZvxQ
 `CHANGELOG.md` (root, minuscolo) conteneva solo: "Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release." Contenuto non presente in `CHANGELOG.md` (maiuscolo, keeper). Aggiunta come nota citata subito dopo il titolo di `CHANGELOG.md`, poi rimosso `CHANGELOG.md` dalla root (il contenuto originale resta comunque anche in `docs/raw/root-import/changelog.md`).
+=======
+`CHANGELOG.md` (root, minuscolo) conteneva solo: "Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release." Contenuto non presente in `CHANGELOG.md` (maiuscolo, keeper). Aggiunta come nota citata subito dopo il titolo di `CHANGELOG.md`, poi rimosso `CHANGELOG.md` dalla root (il contenuto originale resta comunque anche in `docs/raw/root-import/changelog-1.md`).
+>>>>>>> .merge_file_XmFXKl
 
 ## Verifica finale
 
