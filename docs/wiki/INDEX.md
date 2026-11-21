@@ -9,7 +9,11 @@ qmd: "ui module wiki index filament second brain"
 issues:
 discussions:
 related:
+<<<<<<< .merge_file_IdRHS8
   - "./agents.md"
+=======
+  - "./AGENTS.md"
+>>>>>>> .merge_file_jOdeUl
   - "./bmad-method.md"
   - "./context-compression.md"
   - "./log.md"

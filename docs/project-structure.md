@@ -19,6 +19,7 @@ tags: [structure, architecture, module]
 │   ├── concepts/                 # Topic/theme pages
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
+<<<<<<< .merge_file_fShHpZ
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -39,6 +40,28 @@ tags: [structure, architecture, module]
 ├── architecture.md                # (opzionale) Architettura modulo
 
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+│   │   ├── 00-index.md          # Indice regole
+│   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
+│   │   └── *.md                 # Regole specifiche modulo
+│   ├── skills/                   # Skill progettuali
+│   │   ├── index.md
+│   │   └── *.md
+│   ├── commands/                 # Comandi progettuali
+│   │   ├── index.md
+│   │   └── *.md
+│   ├── memories/                 # Memorie progettuali
+│   │   ├── index.md
+│   │   └── *.md
+│   ├── decisions/                # Architecture decision records
+│   └── troubleshooting/          # Bug fixes, error resolutions
+├── on-demand-pattern.md          # 🌟 QUESTO FILE — Pattern on-demand
+├── qmd-setup.md                  # Configurazione QMD
+├── performance-optimization.md    # Metriche e best practice
+├── architecture.md                # (opzionale) Architettura modulo
+
+├── architecture.md               # (opzionale) Architettura modulo
+>>>>>>> .merge_file_IskuSr
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -50,7 +73,11 @@ tags: [structure, architecture, module]
 | `wiki/log.md` | Storico attività (ingest/query/lint) |
 | `wiki/rules/` | Regole + trigger map locale |
 | `wiki/concepts/` | Concetti specifici del modulo |
+<<<<<<< .merge_file_fShHpZ
 | `ON-DEMAND-PATTERN.md` | **Leggi prima** — pattern da seguire |
+=======
+| `on-demand-pattern.md` | **Leggi prima** — pattern da seguire |
+>>>>>>> .merge_file_IskuSr
 
 ## Convenzioni
 
@@ -110,7 +137,11 @@ graph TD
 mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,troubleshooting}
 
 # 2. Crea INDEX files (già creati)
+<<<<<<< .merge_file_fShHpZ
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+=======
+cp docs/wiki/rules/index.md docs/wiki/rules/
+>>>>>>> .merge_file_IskuSr
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

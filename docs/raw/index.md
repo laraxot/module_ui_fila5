@@ -27,7 +27,11 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 
 ## Schema di riferimento
 
+<<<<<<< .merge_file_qnEiRd
 → `docs/.schema/WIKI_SCHEMA.md` (root progetto)
+=======
+→ `docs/.schema/wiki_schema.md` (root progetto)
+>>>>>>> .merge_file_Oqoodz
 → `docs/project/llm-wiki-module-adoption.md` (guida per moduli/temi)
 
 ---

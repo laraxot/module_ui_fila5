@@ -20,7 +20,11 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
+<<<<<<< .merge_file_xTrFsw
 │   ├── SCHEMA.md          # Questo file
+=======
+│   ├── schema.md          # Questo file
+>>>>>>> .merge_file_FZjygB
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

@@ -21,7 +21,11 @@ docs/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
 │   ├── schema.md          # Questo file
+<<<<<<< .merge_file_GnxmKU
 │   ├── SCHEMA.md          # Questo file
+=======
+│   ├── schema.md          # Questo file
+>>>>>>> .merge_file_rHHfRb
 │   ├── schema.md          # Questo file
 │   ├── schema.md          # Questo file
 │   ├── concepts/          # Pattern, architettura
@@ -41,7 +45,11 @@ docs/
 
 ---
 
+<<<<<<< .merge_file_GnxmKU
 ## Contenuto assorbito da `SCHEMA.md`
+=======
+## Contenuto assorbito da `schema.md`
+>>>>>>> .merge_file_rHHfRb
 
 # Documento unificato
 

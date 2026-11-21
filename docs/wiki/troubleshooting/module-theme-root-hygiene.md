@@ -55,8 +55,13 @@ Sposta:
 
 | Violazione | Azione |
 |------------|--------|
+<<<<<<< .merge_file_s5zqtn
 | `api.md`, `blocks.md`, `QWEN.md` in root | `mv` → `docs/root-md-files/` |
 | `changelog.md` + `CHANGELOG.md` | Tieni `CHANGELOG.md`, sposta duplicato |
+=======
+| `api.md`, `blocks.md`, `qwen.md` in root | `mv` → `docs/root-md-files/` |
+| `CHANGELOG.md` + `CHANGELOG.md` | Tieni `CHANGELOG.md`, sposta duplicato |
+>>>>>>> .merge_file_3mpfuM
 | `README.en.md` / `README.it.md` | Sposta in `docs/root-md-files/`; vetrina = solo `README.md` |
 | Cartella `Config/` con `config/` presente | `rm -rf Config/` |
 | Cartelle maiuscole legacy (es. `Xot/Datas/`) | Archivia in `docs/root-uppercase-folders/` se **non** in PSR-4 `app/` |
