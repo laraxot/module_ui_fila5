@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad readme md"
 title: "UI — BMAD Method Integration"
 description: "BMAD workflow documentation per il modulo UI"
 module: "UI"

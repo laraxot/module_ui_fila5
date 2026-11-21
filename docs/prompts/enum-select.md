@@ -1,4 +1,5 @@
 ---
+qmd: "ui prompts enum select md"
 title: 'Enum select'
 module: UI
 type: reference

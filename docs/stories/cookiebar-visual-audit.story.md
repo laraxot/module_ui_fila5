@@ -1,4 +1,5 @@
 ---
+qmd: "ui stories cookiebar visual audit story md"
 type: ui-audit-story
 title: Cookiebar visual audit and accessibility compliance
 status: todo

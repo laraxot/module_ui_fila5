@@ -1,3 +1,10 @@
+---
+title: "Root file policy"
+qmd: "ui root file policy md"
+type: note
+tags: [documentation]
+---
+
 # Root file policy
 
 Updated: 2026-07-08

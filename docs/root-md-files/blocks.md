@@ -1,3 +1,10 @@
+---
+title: "blocks"
+qmd: "ui root md files blocks md"
+type: note
+tags: [documentation]
+---
+
 https://github.com/whitecube/nova-flexible-content
 
 

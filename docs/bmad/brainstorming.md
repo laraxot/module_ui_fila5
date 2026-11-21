@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad brainstorming md"
 title: "UI — Brainstorming"
 type: note
 tags: [bmad, ui, brainstorming, decisioni]

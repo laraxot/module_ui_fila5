@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui qrcode md"
 title: "UI qrcode"
 type: reference
 tags: [ui]

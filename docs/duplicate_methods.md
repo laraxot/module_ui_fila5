@@ -1,3 +1,10 @@
+---
+title: "Metodi duplicati — UI"
+qmd: "ui duplicate methods md"
+type: note
+tags: [documentation]
+---
+
 # Metodi duplicati — UI
 
 Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambito.

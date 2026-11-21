@@ -1,3 +1,10 @@
+---
+title: "Analisi Qualità Codice - Modulo UI"
+qmd: "ui code quality analysis md"
+type: note
+tags: [documentation]
+---
+
 # Analisi Qualità Codice - Modulo UI
 
 ## Data

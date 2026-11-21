@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files carousel slider md"
 title: 'Carousel slider — risorse esterne'
 module: UI
 type: reference

@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad architecture md"
 title: "UI — Architettura BMAD"
 type: architecture
 scope: UI

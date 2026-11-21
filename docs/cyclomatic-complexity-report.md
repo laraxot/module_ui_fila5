@@ -1,3 +1,10 @@
+---
+title: "Cyclomatic Complexity Report - Module: UI"
+qmd: "ui cyclomatic complexity report md"
+type: note
+tags: [documentation]
+---
+
 # Cyclomatic Complexity Report - Module: UI
 
 **Analyzer:** Super Mucca 🐮

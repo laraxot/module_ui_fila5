@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad stories ensures ui database schema trait unused story md"
 title: "Story — trait.unused EnsuresUiDatabaseSchema (delete)"
 type: story
 module: UI

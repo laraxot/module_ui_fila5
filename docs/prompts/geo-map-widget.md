@@ -1,4 +1,5 @@
 ---
+qmd: "ui prompts geo map widget md"
 title: 'Geo map widget'
 module: UI
 type: reference

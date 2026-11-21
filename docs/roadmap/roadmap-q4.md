@@ -1,3 +1,10 @@
+---
+title: "UI Module Roadmap (2025 Q4)"
+qmd: "ui roadmap roadmap q4 md"
+type: note
+tags: [documentation]
+---
+
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope

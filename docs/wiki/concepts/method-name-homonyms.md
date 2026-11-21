@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki concepts method name homonyms md"
 title: "censimento omonimi metodi — modulo UI"
 type: analysis
 module: UI

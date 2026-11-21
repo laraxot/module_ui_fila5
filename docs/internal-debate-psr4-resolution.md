@@ -1,3 +1,10 @@
+---
+title: "Internal Debate: PSR-4 Autoloading Resolution Strategy"
+qmd: "ui internal debate psr4 resolution md"
+type: note
+tags: [documentation]
+---
+
 # Internal Debate: PSR-4 Autoloading Resolution Strategy
 
 **Date**: [DATE]

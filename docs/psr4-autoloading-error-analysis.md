@@ -1,3 +1,10 @@
+---
+title: "PSR-4 Autoloading Error Analysis and Resolution Plan"
+qmd: "ui psr4 autoloading error analysis md"
+type: note
+tags: [documentation]
+---
+
 # PSR-4 Autoloading Error Analysis and Resolution Plan
 
 **Date**: [DATE]

@@ -1,4 +1,5 @@
 ---
+qmd: "ui bmad quick reference md"
 title: "UI — BMAD Quick Reference"
 
 title: "UI: BMAD Quick Reference"

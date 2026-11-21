@@ -1,3 +1,10 @@
+---
+title: "GroupColumn — rendering delle colonne figlie"
+qmd: "ui groupcolumn child rendering md"
+type: note
+tags: [documentation]
+---
+
 # GroupColumn — rendering delle colonne figlie
 
 ## Sintomo

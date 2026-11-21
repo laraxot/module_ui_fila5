@@ -1,3 +1,10 @@
+---
+title: "Standard UI"
+qmd: "ui standards readme md"
+type: note
+tags: [documentation]
+---
+
 # Standard UI
 
 Questo documento contiene gli standard specifici per il modulo UI.

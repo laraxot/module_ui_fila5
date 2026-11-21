@@ -1,4 +1,5 @@
 ---
+qmd: "ui git multi org sync handoff md"
 title: "Handoff multi-org sync (STORY-003)"
 type: handoff
 tags: [git, multi-org, bmad, story-003]

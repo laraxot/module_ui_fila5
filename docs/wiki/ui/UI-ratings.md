@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui ratings md"
 title: "UI ratings"
 type: reference
 tags: [wiki, ui, link-dump]

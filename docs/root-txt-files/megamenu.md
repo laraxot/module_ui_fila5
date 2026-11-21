@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files megamenu md"
 title: 'Megamenu — risorse esterne'
 module: UI
 type: reference

@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files page builder md"
 title: 'Page builder — risorse esterne'
 module: UI
 type: reference

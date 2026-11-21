@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki ui ui filament md"
 title: "UI filament"
 type: reference
 tags: [ui]

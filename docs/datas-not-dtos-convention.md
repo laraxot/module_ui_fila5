@@ -1,4 +1,5 @@
 ---
+qmd: "ui datas not dtos convention md"
 title: Datas, non DTOs
 type: convention
 tags: [datas, spatie-laravel-data, dto, root-app-cleanup]

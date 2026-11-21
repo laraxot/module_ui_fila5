@@ -1,3 +1,10 @@
+---
+title: "UI — Framework Integration Notes"
+qmd: "ui frameworks md"
+type: note
+tags: [documentation]
+---
+
 # UI — Framework Integration Notes
 
 Integration guidelines for caveman, graphify, bmad-method, headroom, ponytail.

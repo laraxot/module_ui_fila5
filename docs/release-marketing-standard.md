@@ -1,4 +1,5 @@
 ---
+qmd: "ui release marketing standard md"
 title: "Release e README marketing — UI"
 type: reference
 status: approved

@@ -1,3 +1,10 @@
+---
+title: "Analisi Approfondita del Modulo UI"
+qmd: "ui filosofia modulo ui md"
+type: note
+tags: [documentation]
+---
+
 # Analisi Approfondita del Modulo UI
 
 > **Generato**: [DATE]

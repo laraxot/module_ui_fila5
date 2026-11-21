@@ -1,3 +1,10 @@
+---
+title: "Story: PersonColumn — aggregato riutilizzabile anagrafica + contatto"
+qmd: "ui stories person column schema org aggregate story md"
+type: note
+tags: [documentation]
+---
+
 # Story: PersonColumn — aggregato riutilizzabile anagrafica + contatto
 
 ## Contesto (BMAD: dev)

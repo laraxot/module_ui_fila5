@@ -1,4 +1,5 @@
 ---
+qmd: "ui prompts map picker md"
 title: 'Map picker'
 module: UI
 type: reference

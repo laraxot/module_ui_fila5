@@ -1,4 +1,5 @@
 ---
+qmd: "ui stories 18 1 drift sync tier1 story md"
 id: story-181-drift-sync-tier1
 title: Drift Sync Tier 1 — laraxot/dev fetch e merge moduli critica (UI, Job, AI, Geo, Tenant)
 slug: story-181-drift-sync-tier1

@@ -1,3 +1,10 @@
+---
+title: "blocks relocated"
+qmd: "ui root md files blocks relocated md"
+type: note
+tags: [documentation]
+---
+
 https://github.com/whitecube/nova-flexible-content
 
 

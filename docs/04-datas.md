@@ -1,3 +1,10 @@
+---
+title: "Datas in UI Module"
+qmd: "ui 04 datas md"
+type: note
+tags: [documentation]
+---
+
 # Datas in UI Module
 
 All data objects in the UI module use the `Spatie\LaravelData\Data` contract for type safety and serialization.

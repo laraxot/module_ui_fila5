@@ -1,3 +1,10 @@
+---
+title: "Regole di Dipendenza — Modulo UI"
+qmd: "ui dependency rules md"
+type: note
+tags: [documentation]
+---
+
 # Regole di Dipendenza — Modulo UI
 
 > **Creato**: 2026-07-06

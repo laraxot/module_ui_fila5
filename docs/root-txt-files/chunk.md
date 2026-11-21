@@ -1,4 +1,5 @@
 ---
+qmd: "ui root txt files chunk md"
 title: 'Chunk — risorse esterne'
 module: UI
 type: reference

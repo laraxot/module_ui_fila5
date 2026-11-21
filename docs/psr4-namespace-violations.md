@@ -1,3 +1,10 @@
+---
+title: "🚨 PSR-4 Namespace Violations - UI Module"
+qmd: "ui psr4 namespace violations md"
+type: note
+tags: [documentation]
+---
+
 # 🚨 PSR-4 Namespace Violations - UI Module
 
 **Data Scoperta**: Dicembre 15, 2025

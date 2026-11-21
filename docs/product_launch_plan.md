@@ -1,3 +1,10 @@
+---
+title: "UI Module - Product Launch Plan"
+qmd: "ui product launch plan md"
+type: note
+tags: [documentation]
+---
+
 # UI Module - Product Launch Plan
 
 **Module:** UI  

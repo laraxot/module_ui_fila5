@@ -1,3 +1,10 @@
+---
+title: "DRY & KISS Analysis - Modulo UI"
+qmd: "ui dry kiss analysis conflict md"
+type: note
+tags: [documentation]
+---
+
 # DRY & KISS Analysis - Modulo UI
 
 **Data:** 15 Ottobre 2025

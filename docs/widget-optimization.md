@@ -1,3 +1,10 @@
+---
+title: "Ottimizzazioni Widget - Modulo UI"
+qmd: "ui widget optimization md"
+type: note
+tags: [documentation]
+---
+
 # Ottimizzazioni Widget - Modulo UI
 
 ## Panoramica

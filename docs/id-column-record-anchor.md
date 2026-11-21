@@ -1,3 +1,10 @@
+---
+title: "IDColumn: colonna id e ancora della riga"
+qmd: "ui id column record anchor md"
+type: note
+tags: [documentation]
+---
+
 # IDColumn: colonna id e ancora della riga
 
 ## Cosa fa

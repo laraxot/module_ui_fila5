@@ -1,3 +1,10 @@
+---
+title: "UI Module - Quality Report"
+qmd: "ui quality report md"
+type: note
+tags: [documentation]
+---
+
 # UI Module - Quality Report
 
 **Generated**: 2026-06-18  
