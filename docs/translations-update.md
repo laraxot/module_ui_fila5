@@ -3,6 +3,7 @@ title: "Aggiornamento Traduzioni Modulo UI - Gennaio 2026"
 qmd: "ui translations update january 2026 md"
 type: note
 tags: [documentation]
+created: 2026
 ---
 
 # Aggiornamento Traduzioni Modulo UI - Gennaio 2026
