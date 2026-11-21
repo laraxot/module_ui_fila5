@@ -8,10 +8,17 @@ tags: [documentation]
 # Modulo UI
 
 ## Informazioni Generali
+<<<<<<< .merge_file_cXsAsx
 - **Nome**: `laraxot/module_ui_fila3`
 - **Descrizione**: Modulo per la gestione dell'interfaccia utente
 - **Namespace**: `Modules\UI`
 - **Repository**: https://github.com/laraxot/module_ui_fila3.git
+=======
+- **Nome**: `laraxot/module_ui_fila5`
+- **Descrizione**: Modulo per la gestione dell'interfaccia utente
+- **Namespace**: `Modules\UI`
+- **Repository**: https://github.com/laraxot/module_ui_fila5.git
+>>>>>>> .merge_file_wJAMsY
 
 ## Service Providers
 1. `Modules\UI\Providers\UIServiceProvider`
@@ -119,4 +126,8 @@ composer format        # Formatta il codice
 - File upload
 
 ## Changelog
+<<<<<<< .merge_file_cXsAsx
 Le modifiche vengono tracciate nel repository GitHub. 
+=======
+Le modifiche vengono tracciate nel repository GitHub.
+>>>>>>> .merge_file_wJAMsY

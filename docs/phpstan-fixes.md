@@ -1,3 +1,10 @@
+---
+title: "Correzioni e Audit Qualità - Modulo UI (PHPStan Level 10)"
+qmd: "ui phpstan fixes md"
+type: note
+tags: [documentation]
+---
+
 # Correzioni e Audit Qualità - Modulo UI (PHPStan Level 10)
 
 Questo documento traccia l'audit di qualità e le correzioni basate sulla "PHPStan Code Quality Guide - Laraxot".

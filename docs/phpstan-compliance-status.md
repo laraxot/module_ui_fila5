@@ -1,10 +1,18 @@
+---
+title: "PHPStan Level 10 Compliance Status"
+qmd: "ui phpstan compliance status md"
+type: note
+tags: [documentation, phpstan, ui]
+updated: 2026-11-17
+---
+
 # PHPStan Level 10 Compliance Status
 
 
 **Status**: ✅ FULLY COMPLIANT (0 errors)
 
 ## Summary
-The UI module is now fully compliant with PHPStan Level 10 analysis. All static analysis errors have been resolved, ensuring type safety and code quality.
+The UI module is fully compliant with PHPStan Level max. Ultimo round (2026-11-17): 14 errori live `view-string` azzerati; dettaglio in [wiki/troubleshooting/phpstan-fixes.md](wiki/troubleshooting/phpstan-fixes.md).
 
 ## Fixed Issues
 

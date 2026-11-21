@@ -1,3 +1,10 @@
+---
+title: "PHPStan Fixes Summary - UI and Xot Modules"
+qmd: "ui phpstan fixes summary md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Fixes Summary - UI and Xot Modules
 
 ## Overview

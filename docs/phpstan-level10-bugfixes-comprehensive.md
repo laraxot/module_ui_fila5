@@ -1,3 +1,10 @@
+---
+title: "PHPStan Level 10 Comprehensive Bugfixes"
+qmd: "ui phpstan level10 bugfixes comprehensive md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Level 10 Comprehensive Bugfixes
 
 ## Problema Generale

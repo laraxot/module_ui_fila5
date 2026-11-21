@@ -1,3 +1,10 @@
+---
+title: "FullCalendar Component for Filament"
+qmd: "ui components legacy full calendar md"
+type: note
+tags: [documentation]
+---
+
 # FullCalendar Component for Filament
 
 ## Introduction

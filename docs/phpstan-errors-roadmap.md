@@ -1,3 +1,10 @@
+---
+title: "PHPStan Level 10 Errors Roadmap - UI Module"
+qmd: "ui phpstan errors roadmap md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Level 10 Errors Roadmap - UI Module
 
 **Modulo**: UI  

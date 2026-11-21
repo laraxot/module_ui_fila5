@@ -1,4 +1,5 @@
 ---
+qmd: "ui archive root txt files custom theme md"
 title: 'Custom theme'
 module: UI
 type: reference

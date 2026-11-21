@@ -1,3 +1,10 @@
+---
+title: "PHPStan Compliance - UI Module"
+qmd: "ui phpstan compliance md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Compliance - UI Module
 
 ## Status: ✅ FULLY COMPLIANT

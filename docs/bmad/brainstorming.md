@@ -75,7 +75,7 @@ updated: 2026-10-07
 
 ### D6 - Widget congelati
 
-In `app/Filament/Widgets/` coesistono `UserCalendarWidget.php` attivo e le varianti `.disabled`, `.disabled2`, `.fila3`. `TestWidget.php` e `TestChartWidget.php` restano in produzione accanto a `app/Filament/Clusters/Test.php` e `app/Filament/Pages/Dashboard.php`.
+In `app/Filament/Widgets/` coesistono `UserCalendarWidget.php` attivo e le varianti `.disabled`, `.disabled2`, `.fila5`. `TestWidget.php` e `TestChartWidget.php` restano in produzione accanto a `app/Filament/Clusters/Test.php` e `app/Filament/Pages/Dashboard.php`.
 **Domanda**: i file `.disabled` sono backlog o spazzatura? Lo storico della conversione Livewire → Filament è in [livewire-widget-decision-log.md](livewire-widget-decision-log.md).
 
 ## Ipotesi già registrate nel modulo

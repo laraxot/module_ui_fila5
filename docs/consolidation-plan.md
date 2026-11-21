@@ -78,7 +78,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 - ❌ `phpstan_corrections_summary.md` → Eliminare (duplicato)
 - ❌ `phpstan_radio_badge_fix.md` → Eliminare (duplicato)
 - ✅ `phpstan-compliance.md` → Mantenere (documento principale)
-- ✅ `phpstan-fixes-2025.md` → Mantenere (se contiene info aggiuntive)
+- ✅ `phpstan-fixes-.md` → Mantenere (se contiene info aggiuntive)
 - ✅ `phpstan-corrections-summary.md` → Mantenere
 - ✅ `phpstan-corrections.md` → Mantenere
 - ✅ `phpstan-fixes.md` → Mantenere
@@ -129,11 +129,11 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 
 1. `dry-kiss-analysis-[DATE].md` → `archive/dry-kiss-analysis.md`
 2. `phpstan-level-10-cleanup-[DATE].md` → `archive/phpstan-level-10-cleanup.md`
-3. `phpstan-fixes-gennaio-2025.md` → Consolidare in `phpstan-compliance.md`
+3. `phpstan-fixes-correzioni-gennaio.md` → Consolidare in `phpstan-compliance.md`
 
 ## File con Maiuscole (da Rinominare)
 
-1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
+1. `metodi_duplicati_analisi.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
 
 ## Processo di Consolidamento
 

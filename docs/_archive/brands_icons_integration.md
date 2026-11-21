@@ -1,3 +1,10 @@
+---
+title: "🎨 UI Brands Icons - Integration Guide"
+qmd: "ui archive brands icons integration md"
+type: note
+tags: [documentation]
+---
+
 # 🎨 UI Brands Icons - Integration Guide
 
 **Data**: 2026-03-30  

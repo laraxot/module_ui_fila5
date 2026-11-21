@@ -97,7 +97,7 @@ Relazioni autoreferenziate: il modello non dichiara metodi `children`/`parent`; 
 
 ### Widget Filament (`app/Filament/Widgets/`)
 
-`DarkModeSwitcherWidget`, `GroupWidget`, `HeroWidget`, `OverlookWidget`, `RedirectWidget`, `RowWidget`, `StatWithIconWidget`, `StatsOverviewWidget`, `TestChartWidget`, `TestWidget`, `UserCalendarWidget`. Varianti non attive presenti come file disabilitati: `UserCalendarWidget.php.disabled`, `.disabled2`, `.fila3`.
+`DarkModeSwitcherWidget`, `GroupWidget`, `HeroWidget`, `OverlookWidget`, `RedirectWidget`, `RowWidget`, `StatWithIconWidget`, `StatsOverviewWidget`, `TestChartWidget`, `TestWidget`, `UserCalendarWidget`. Varianti non attive presenti come file disabilitati: `UserCalendarWidget.php.disabled`, `.disabled2`, `.fila5`.
 
 ### Azioni di tabella
 

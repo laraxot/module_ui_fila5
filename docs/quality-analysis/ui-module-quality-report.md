@@ -79,7 +79,7 @@ tags: [documentation]
 ## 🔗 Collegamenti
 
 - [PHPStan Compliance](./phpstan-compliance.md)
-- [Optimization Recommendations](./optimization_recommendations.md)
+- [Optimization Recommendations](../archive/optimization_recommendations.md)
 - [Modularity Optimizations](./modularity-optimizations.md)
 - [Xot Quality Analysis](../xot/docs/quality-analysis/current-status.md)
 

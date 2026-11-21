@@ -1,3 +1,10 @@
+---
+title: "PHPStan Level 10 Compliance - UI Module"
+qmd: "ui phpstan level 10 compliance md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Level 10 Compliance - UI Module
 
 **Ultimo aggiornamento**: [DATE]

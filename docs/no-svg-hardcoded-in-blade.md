@@ -164,6 +164,6 @@ Per i pulsanti di login OAuth (Google, Microsoft, GitHub):
 
 ## Documentazione Collegata
 
-- [Icon System](icon-system.md)
+- [Icon System](icons/icon-system.md)
 - [Blade Icons](../Xot/docs/registerbladeicons.md)
 - [Auth Social Login Translations](../User/docs/auth-social-login-translations.md)

@@ -100,5 +100,5 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 ### Caso User 2026-07-23 (unrelated)
 
 `module_user_fila5`: `laraxot` tip `3ea7273a` (`0 0`); `provtv` **merge-base vuoto** → STOP (no merge/force).
-Canon: [../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md](../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md).
+Canon: [../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md](wiki/troubleshooting/git-push-dual-remote-unrelated.md).
 

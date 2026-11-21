@@ -4,7 +4,7 @@ type: ecc-audit
 status: review
 updated: 2026-11-16
 module: UI
-qmd: "ECC audit UI security-review clean-code laravel-verification verification-loop tdd-workflow"
+qmd: "ECC audit UI verification security testing laravel security-review clean-code laravel-verification verification-loop tdd-workflow"
 ---
 
 # ECC audit operativo — UI
@@ -37,7 +37,7 @@ fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono sce
 | Policy | 1 |
 | Resource | 0 |
 | Widget | 12 |
-| Actions | 11 |
+| Actions | 6 in `app/Actions/*.php` (11 file PHP con `Action` nel percorso) |
 | Services | 5 |
 | Migration | 3 |
 | Lang IT | 123 |
@@ -56,6 +56,7 @@ fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono sce
 - baseline o `@phpstan-ignore` senza motivazione; test svuotati per silenziare errori;
 - `migrate:fresh`, `RefreshDatabase`, `--force` su migrate; `laravel/public` al posto di `public_html`;
 - nascondere la navigazione al posto di un controllo di accesso (`canAccess`/policy);
+- docs con date nel nome file;
 - comportamento, schermate o numeri inventati.
 
 ## Riferimenti

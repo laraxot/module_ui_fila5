@@ -2,6 +2,8 @@
 title: "Decision log — UI"
 type: decision-log
 status: review
+bmad_status: active
+scope: ui-docs
 updated: 2026-11-16
 module: UI
 qmd: "decision log ADR UI audit policy confini"

@@ -9,7 +9,7 @@ updated: "2026-07-28"
 related:
   - ./README.md
   - ./PATTERNS.md
-  - ./INDEX.md
+  - ./index.md
 ---
 
 # UI — Troubleshooting Guide
@@ -728,8 +728,8 @@ Se il troubleshooting non risolve:
    ```
 
 5. **Consulta documentation**:
-   - [INDEX](./INDEX.md) — Complete file listing
-   - [PATTERNS](./PATTERNS.md) — Architectural decisions
+   - [INDEX](./index.md) — Complete file listing
+   - [PATTERNS](patterns.md) — Architectural decisions
    - [architecture/component-registration](./architecture/component-registration.md) — Component setup
 
 ---
@@ -737,6 +737,6 @@ Se il troubleshooting non risolve:
 ## 📖 Riferimenti Correlati
 
 - [README](./README.md) — Overview modulo
-- [PATTERNS](./PATTERNS.md) — Decisioni architetturali
-- [INDEX](./INDEX.md) — Indice documentazione completo
+- [PATTERNS](patterns.md) — Decisioni architetturali
+- [INDEX](./index.md) — Indice documentazione completo
 - [standards/ui-standards](./standards/ui-standards.md) — Component standards

@@ -4,14 +4,14 @@ type: audit
 status: review
 updated: 2026-11-16
 module: UI
-qmd: "audit BMAD UI sintesi finding P0 P1 PHPStan Pest"
+qmd: "audit BMAD UI sintesi source-first qualità finding P0 P1 PHPStan Pest"
 ---
 
 # Audit BMAD — UI
 
 SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [purpose.md](./purpose.md)
 
-**In una frase:** vocabolario visivo condiviso (componenti, widget, colonne, layout tabella) consumato da tutti i moduli.
+**In una frase:** UI è il vocabolario visivo condiviso (componenti, widget, colonne, layout tabella): fa sì che la stessa cosa abbia lo stesso aspetto e lo stesso comportamento in tutti i moduli che lo consumano.
 
 ## Inventario misurato (2026-11-16)
 
@@ -20,13 +20,14 @@ SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [purpose.
 | PHP `app/` | 133 |
 | Test PHP | 87 |
 | Models | 4 |
-| Policy | 1 |
+| Policy (`return true`) | 1 (2) |
 | Resource | 0 |
 | Widget | 12 |
-| Actions | 11 |
+| Actions | 6 in `app/Actions/*.php` (11 file PHP con `Action` nel percorso) |
 | Services | 5 |
 | Migration | 3 |
 | Lang IT | 123 |
+| Marker conflitto | 0 |
 | `->label('..')` letterali | 9 |
 | `@phpstan-ignore` | 48 |
 
@@ -40,7 +41,8 @@ SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [purpose.
 ## Gate
 
 - PHPStan `Modules/UI`: **0 errori** (17:07).
-- Pest: skip documentato: DB di test `10.100.200.53:3306` irraggiungibile (TCP chiuso) e `Xot/tests/Support/TestDatabaseGuard.php:63` rifiuta DB non `*_test`; i test con DB restano appesi al connect MySQL (timeout 150 s osservato). Nessun test contro il MySQL locale (dati sacri).
+- Pest: skip documentato: DB di test `10.100.200.53:3306` irraggiungibile (TCP chiuso) e `Xot/tests/Support/TestDatabaseGuard.php:63` rifiuta DB non `*_test`; i test con DB restano appesi al connect MySQL (timeout 150 s osservato). Nessun test contro il MySQL locale (dati sacri). Pest va eseguito in ambiente testing non produttivo.
+- Security/runtime: story figlie sui finding P1 dell'audit dettagliato.
 
 ## Seguito
 

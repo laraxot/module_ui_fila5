@@ -1,3 +1,10 @@
+---
+title: "PHPStan Property Exists Elimination - UI Module"
+qmd: "ui phpstan property exists elimination md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Property Exists Elimination - UI Module
 
 ## Overview
