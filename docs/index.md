@@ -13,8 +13,6 @@ Ingresso del modulo UI. Nomi: kebab-case, **senza date** nel filename
 ([55-md-conventions](../../../../bashscripts/docs/prompts/55-md-conventions.md)).
 `INDEX.md` (maiuscolo) e' stub superseded → questo file.
 
-`index.md` (maiuscolo) e' stub superseded → questo file.
-
 ## Orientamento
 
 - [completion-status.md](./completion-status.md) — cosa manca
@@ -27,10 +25,6 @@ Ingresso del modulo UI. Nomi: kebab-case, **senza date** nel filename
 
 File con date/mesi nel nome ancora presenti (non cancellare; marca `superseded` +
 canonico senza data via [docs-clean.md](../../../../bashscripts/docs/prompts/docs-clean.md)):
-
-- `audits/2026-11-05-quality-gates.md`
-- `bugfix-*-2025-01-27.md` (+ copie in `archive/`)
-- `phpstan-fixes-january-2025.md` / `phpstan-fixes-correzioni-gennaio.md` / `phpstan-fixes-november-2025.md` (+ varianti)
 
 - `audits/quality-gates.md`
 - `bugfix-*-2025-01-27.md` (+ copie in `archive/`)
