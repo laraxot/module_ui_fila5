@@ -45,7 +45,11 @@ badge reali modulo-per-modulo, UI è uno dei moduli dove il lavoro non è
 install` perché mancano `larastan`/`pest`.
 
 ## 3. `docs/` — 416 file, 70 famiglie di doppioni: più contenute delle altre,
+<<<<<<< .merge_file_lLSnyD
+ma con una particolarità: `algolia-docsearch.md` e `algolia-docsearch.md`
+=======
 ma con una particolarità: `algolia-docsearch.md` e `algolia-docsearch-1.md`
+>>>>>>> .merge_file_q7uyl1
 
 Un modulo di componenti UI che documenta Algolia DocSearch (uno strumento di
 ricerca documentale) due volte con nomi quasi identici è un piccolo indizio
