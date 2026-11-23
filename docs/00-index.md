@@ -47,19 +47,9 @@ tags: [documentation]
 - [Master Index Tema](../../Themes/Sixteen/docs/design-comuni/00-index.md) - Index tema Sixteen
 
 ### Link Bidirezionali - Modulo Cms
-<<<<<<< .merge_file_CwPPS0
-<<<<<<< .merge_file_dGCdoX
 - [Cms Design Comuni Index](../Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
-=======
+
 - [Cms Design Comuni Index](../Cms/docs/design_comuni_index.md) - Index completo modulo Cms
->>>>>>> .merge_file_Q66wAC
-=======
-<<<<<<< .merge_file_3J4vsP
-- [Cms Design Comuni Index](../Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
-=======
-- [Cms Design Comuni Index](../Cms/docs/design_comuni_index.md) - Index completo modulo Cms
->>>>>>> .merge_file_51vjJP
->>>>>>> .merge_file_AYRFDT
 - [Cms FAQ](../Cms/docs/design-comuni-faq.md) - Architettura pagina FAQ
 - [Cms Homepage](../Cms/docs/design-comuni-homepage.md) - Analisi homepage
 

@@ -126,11 +126,6 @@ class XotBaseStatsOverview extends Widget
 - Errori JavaScript
 - Tempi di caricamento
 ## Collegamenti tra versioni di README.md
-<<<<<<< .merge_file_wIB6hh
-<<<<<<< .merge_file_JqPtgT
-=======
-<<<<<<< .merge_file_HOeJxi
->>>>>>> .merge_file_y3Z8sw
 * [README.md](bashscripts/docs/readme.md)
 * [README.md](bashscripts/docs/it/readme.md)
 * [README.md](docs/laravel-app/phpstan/readme.md)
@@ -207,7 +202,7 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../cms/docs/components/readme.md)
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
-=======
+
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 * [README.md](docs/laravel-app/phpstan/README.md)
@@ -284,11 +279,6 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../cms/docs/components/README.md)
 * [README.md](../../../../themes/two/docs/README.md)
 * [README.md](../../../../themes/one/docs/README.md)
-<<<<<<< .merge_file_wIB6hh
->>>>>>> .merge_file_4SymM4
-=======
->>>>>>> .merge_file_hWRH5G
->>>>>>> .merge_file_y3Z8sw
 [![Module](https://img.shields.io/badge/Module-Standard UI-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)

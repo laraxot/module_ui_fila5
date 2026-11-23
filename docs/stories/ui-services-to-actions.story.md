@@ -24,11 +24,16 @@ Also present but explicitly out of scope (not `.php`, dead archives from an earl
 
 `app/Providers/UIServiceProvider.php` is **not** in scope: it is a Laravel `Illuminate\Support\ServiceProvider` subclass (framework bootstrap construct registered in `config/config.php`), unrelated to the `app/Services/*Service` business-logic anti-pattern this rule targets.
 
+## Arch debt (#247)
+
+`tests/Arch/debt.php` tiene `'services' => []` con commento #247: ThemeService/ComponentService vuoti, UIService facade di AssetAction, Null*Service duplicati degli adapter — nessuno legato al container. Merge risolto tenendo l'array vuoto (non la lista storica delle classi).
+
 ## Verification
 
 - PHPStan, `clear-result-cache` before each run, `Modules/UI` scope: baseline **0 errors** → final **0 errors** (no regression).
 - PHPMD (`./tools/phpmd.sh Modules/UI text ../docs/phpmd.ruleset.xml`): crashes on the whole module (`No node to visit provided for visitAnonymousClass`), a documented pre-existing tooling limitation, unrelated to this change. Nothing new to lint per-file since this task was a pure deletion.
 - Pest (`./vendor/bin/pest Modules/UI/tests -c Modules/UI/phpunit.xml --no-coverage`): 197 passed, 8 failed, 1 risky, 109 skipped. All 8 failures are pre-existing (`TestCase::expectMethod()` Mockery `CompositeExpectation` mismatch, missing `ui::components.render.blocks.ui::empty` view, an `OpeningHoursColumn` assertion), none reference `UIService` or `AssetAction`.
+- `php -l tests/Arch/debt.php`: OK; zero marker `<<<<<<<` nei PHP UI.
 
 ## Git
 

@@ -47,7 +47,6 @@ flowchart LR
 | Artefatto | Ruolo | Consumer noti |
 |-----------|-------|---------------|
 | `InteractiveMap` (Livewire) | Marker, filtri, export, geocoding | `resources/views/livewire/components/map/interactive-map.blade.php`; integrazione documentata in `docs/map-integration-guide.md` |
-<<<<<<< .merge_file_2cI7bw
 | `MapServiceContract` | Contratto marker/stats/export | **nessuno**: non è legato al container |
 | `GeocodingServiceContract` | Contratto ricerca indirizzi | **nessuno**: non è legato al container |
 | `NullMapServiceAdapter` / `NullGeocodingServiceAdapter` | Implementazioni nulle dei due contratti | **nessuno**: nessun provider le registra |
@@ -72,13 +71,12 @@ descriveva.
 
 Quando il modulo **Geo** sarà installato, il binding da aggiungere (non da
 sostituire: non c'è) va in `UIServiceProvider`, e `InteractiveMap` non si tocca.
-=======
+
 | `MapServiceContract` | Contratto marker/stats/export | Registrato in `UIServiceProvider` → `NullMapService` di default |
 | `GeocodingServiceContract` | Contratto ricerca indirizzi | `NullGeocodingService` di default |
 | `NullMapService` / `NullGeocodingService` | Fallback quando Geo assente | Container Laravel (singleton) |
 
 Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServiceProvider` senza toccare `InteractiveMap`.
->>>>>>> .merge_file_rYDyGY
 
 ## Regola PHPStan
 
