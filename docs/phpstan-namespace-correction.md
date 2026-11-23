@@ -1,13 +1,8 @@
 ---
-title: "phpstan namespace correction"
+title: "Correzione Namespace nel Modulo UI"
+qmd: "ui phpstan namespace correction md"
 type: note
 tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "phpstan namespace correction"
-issues: []
-discussions: []
-status: draft
 ---
 
 # Correzione Namespace nel Modulo UI

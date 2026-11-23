@@ -25,4 +25,8 @@ tags: [documentation]
 ## Collegamenti
 
 - [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
+<<<<<<< .merge_file_MxXSx6
 - [00-INDEX.md](./00-INDEX.md)
+=======
+- [00-index.md](./00-index.md)
+>>>>>>> .merge_file_IGF4BJ

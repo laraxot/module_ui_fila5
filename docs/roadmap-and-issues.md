@@ -281,7 +281,11 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 
 ## 🔗 Collegamenti
 
+<<<<<<< .merge_file_z22PSh
 - [← UI Module README](../readme.md)
+=======
+- [← UI Module README](../README.md)
+>>>>>>> .merge_file_txpXQi
 - [← Components Documentation](./components.md)
 - [← Project Roadmap](../../../docs/project-analysis-and-roadmap.md)
 - [← Root Documentation](../../../docs/index.md)

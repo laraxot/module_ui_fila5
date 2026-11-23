@@ -581,7 +581,11 @@ protected function getOptions(): array
 ### Documentazione Modulo UI
 
 - [Filament Chart.js Guide](./filament-chart-js-guide.md)
+<<<<<<< .merge_file_NKU6ka
 - [UI Components Documentation](../components/readme.md)
+=======
+- [UI Components Documentation](../components/README.md)
+>>>>>>> .merge_file_Sh6PW8
 
 ### Documentazione Generale
 

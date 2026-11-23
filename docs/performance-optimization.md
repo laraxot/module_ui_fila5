@@ -44,7 +44,11 @@ related:
 
 ### 4. Wiki Indici Locali
 
+<<<<<<< .merge_file_olNGEj
 Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
+=======
+Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
+>>>>>>> .merge_file_qVwlQq
 - Ricerca più rapida (scope limitato)
 - Context rilevante per il modulo
 - Non mischia contenuti eterogenei

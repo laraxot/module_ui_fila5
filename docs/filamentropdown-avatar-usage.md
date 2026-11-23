@@ -8,7 +8,11 @@ tags: [documentation]
 # Utilizzo dei Componenti Filament Dropdown e Avatar
 
 ## Collegamenti correlati
+<<<<<<< .merge_file_TybZEe
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
+=======
+- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+>>>>>>> .merge_file_Nsyo4E
 - [Utilizzo Componenti Filament](/laravel/modules/ui/docs/filament_components_usage.md)
 - [Architettura Modulare](/docs/architettura-modulare.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
