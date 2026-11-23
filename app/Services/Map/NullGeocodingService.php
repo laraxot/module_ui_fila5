@@ -4,26 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\UI\Services\Map;
 
-use Modules\UI\Contracts\GeocodingServiceContract;
-
 /**
- * Fallback quando il modulo Geo non è installato.
+ * SUPERSEDED — duplicato di {@see \Modules\UI\Adapters\Map\NullGeocodingServiceAdapter}.
+ *
+ * Zero binding in UIServiceProvider; zero caller. Canonico: Adapters/Map/.
+ * Residuo on-disk (no-delete senza autorizzazione). Vedi debt.php #247.
+ *
+ * @deprecated Use NullGeocodingServiceAdapter instead.
  */
-final class NullGeocodingService implements GeocodingServiceContract
+final class NullGeocodingService
 {
-    /**
-     * @return array<string, mixed>
-     */
-    public function geocodeAddress(string $address): array
-    {
-        throw new \RuntimeException('Geocoding non disponibile: modulo Geo assente.');
-    }
-
-    /**
-     * @return list<array<string, mixed>>
-     */
-    public function getSuggestions(string $query): array
-    {
-        return [];
-    }
 }
