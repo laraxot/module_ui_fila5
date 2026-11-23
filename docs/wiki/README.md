@@ -25,7 +25,11 @@ Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
 - `docs/wiki/log.md` log append-only
 
 QMD: [https://github.com/tobi/qmd](https://github.com/tobi/qmd)
+<<<<<<< .merge_file_t6lxb0
 <<<<<<< .merge_file_c0Sk53
+=======
+<<<<<<< .merge_file_3WT9Xo
+>>>>>>> .merge_file_SEIVSW
 =======
 [![Module](https://img.shields.io/badge/Module-LLM Wiki (module)-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
@@ -59,4 +63,8 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< .merge_file_t6lxb0
 >>>>>>> .merge_file_mFl6xZ
+=======
+>>>>>>> .merge_file_Bciu6n
+>>>>>>> .merge_file_SEIVSW

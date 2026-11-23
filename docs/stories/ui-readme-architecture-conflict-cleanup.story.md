@@ -11,11 +11,19 @@ scope: module:UI
 ## Contesto
 
 Continuazione di un cleanup igiene-root del modulo (max 1 `.code-workspace`, max 5 `.md`
+<<<<<<< .merge_file_Ymyi3O
 <<<<<<< .merge_file_9X1i0S
 in root) che aveva spostato `ARCHITECTURE.md`/`TESTING.md`/`GETTING_STARTED.md`/`PHILOSOPHY.md`
 =======
 in root) che aveva spostato `architecture.md`/`testing.md`/`GETTING_STARTED.md`/`PHILOSOPHY.md`
 >>>>>>> .merge_file_98zuvD
+=======
+<<<<<<< .merge_file_OJUUdX
+in root) che aveva spostato `ARCHITECTURE.md`/`TESTING.md`/`GETTING_STARTED.md`/`PHILOSOPHY.md`
+=======
+in root) che aveva spostato `architecture.md`/`testing.md`/`GETTING_STARTED.md`/`PHILOSOPHY.md`
+>>>>>>> .merge_file_L3Vm0H
+>>>>>>> .merge_file_7Jn4sb
 dalla root a `docs/root-md-files/`, segnalando ma non risolvendo due problemi fuori scope
 in quel momento: marker di conflitto non risolti in `README.md` di root e una famiglia di
 file case/name-duplicati sotto `docs/architecture*`.
@@ -48,20 +56,36 @@ duplicate qui — solo referenziate).
 3. **Case/name-duplicati rimossi** (tutti ridondanti rispetto al punto 2, verificato con
    diff/lettura integrale prima di cancellare, nessuno spostato in `_archive/` perche'
    senza contenuto storico unico):
+<<<<<<< .merge_file_Ymyi3O
 <<<<<<< .merge_file_9X1i0S
    - `docs/ARCHITECTURE.md` (712 righe, 6 marker) — contenuto interamente riassorbito in
 =======
    - `docs/architecture.md` (712 righe, 6 marker) — contenuto interamente riassorbito in
 >>>>>>> .merge_file_98zuvD
+=======
+<<<<<<< .merge_file_OJUUdX
+   - `docs/ARCHITECTURE.md` (712 righe, 6 marker) — contenuto interamente riassorbito in
+=======
+   - `docs/architecture.md` (712 righe, 6 marker) — contenuto interamente riassorbito in
+>>>>>>> .merge_file_L3Vm0H
+>>>>>>> .merge_file_7Jn4sb
      `docs/architecture.md` dopo il fix del punto 2.
    - `docs/architecture-.md` (1308 righe, nome con trattino finale, probabile artefatto)
      — stessa concatenazione ridondante, nessun contenuto unico.
    - `docs/ARCHITECTURE_2025.md` (29 righe) — stub redirect con marker ANCORA irrisolti,
+<<<<<<< .merge_file_Ymyi3O
 <<<<<<< .merge_file_9X1i0S
      verso `Themes/docs/shared-components/ARCHITECTURE.md` (path inesistente).
 =======
      verso `Themes/docs/shared-components/architecture.md` (path inesistente).
 >>>>>>> .merge_file_98zuvD
+=======
+<<<<<<< .merge_file_OJUUdX
+     verso `Themes/docs/shared-components/ARCHITECTURE.md` (path inesistente).
+=======
+     verso `Themes/docs/shared-components/architecture.md` (path inesistente).
+>>>>>>> .merge_file_L3Vm0H
+>>>>>>> .merge_file_7Jn4sb
    - `docs/architecture-2025.md` (7 righe) — stub redirect pulito ma verso lo stesso path
      inesistente; gia' elencato in `docs/.gitignore` come da rimuovere (mai completato).
    - `docs/architecture_2025.md` (11 righe) — due frontmatter concatenati, stesso path
@@ -75,11 +99,19 @@ duplicate qui — solo referenziate).
    `docs/PHILOSOPHY.md` (albero root modulo + sezione "References and Links").
 5. **`docs/architecture-patterns.md`**: 4 marker annidati in una sola sezione
    "Backlinks & References", auto-contenuti e sullo stesso tema (variante
+<<<<<<< .merge_file_Ymyi3O
 <<<<<<< .merge_file_9X1i0S
    `ARCHITECTURE.md`/`architecture.md`/`INDEX.md`/`index.md` ripetuta 8 volte) —
 =======
    `architecture.md`/`architecture.md`/`index.md`/`index.md` ripetuta 8 volte) —
 >>>>>>> .merge_file_98zuvD
+=======
+<<<<<<< .merge_file_OJUUdX
+   `ARCHITECTURE.md`/`architecture.md`/`INDEX.md`/`index.md` ripetuta 8 volte) —
+=======
+   `architecture.md`/`architecture.md`/`index.md`/`index.md` ripetuta 8 volte) —
+>>>>>>> .merge_file_L3Vm0H
+>>>>>>> .merge_file_7Jn4sb
    risolti collassando alla forma canonica minuscola.
 6. **`docs/purpose.md`**: aggiunto link a `./architecture.md` tra i "Collegamenti"
    (mancava un puntatore diretto dal purpose all'architettura tecnica).
@@ -90,7 +122,11 @@ Trovata, durante l'audit, una corruzione molto piu' estesa di quanto stimato dal
 originale (~13 righe attese in README, in realta' 47; "4 file" architecture attesi, in
 realta' 6 + 1 sottocartella legittima). File con marker non risolti **non** toccati
 perche' troppo grandi/estranei al tema architecture o gia' noti come deferred fleet-wide
+<<<<<<< .merge_file_Ymyi3O
 <<<<<<< .merge_file_9X1i0S
+=======
+<<<<<<< .merge_file_OJUUdX
+>>>>>>> .merge_file_7Jn4sb
 (story 5.122): `docs/PROJECT-STRUCTURE.md` (7 conflitti, solo 1 sul tema), `docs/paths-and-assets.md`
 (140 conflitti), `docs/paths_and_assets.md` (64 conflitti), `docs/INDEX.md`, `docs/index.md`,
 `docs/00-INDEX.md`, `docs/README.md` (distinto dal root, 20 conflitti, liste di file
@@ -100,7 +136,11 @@ fantasma tipo `architecture-1.md` mai esistiti), `docs/TESTING.md` (16 righe, da
 (140 conflitti), `docs/paths_and_assets.md` (64 conflitti), `docs/index.md`, `docs/index.md`,
 `docs/00-index.md`, `docs/README.md` (distinto dal root, 20 conflitti, liste di file
 fantasma tipo `architecture-1.md` mai esistiti), `docs/testing.md` (16 righe, da
+<<<<<<< .merge_file_Ymyi3O
 >>>>>>> .merge_file_98zuvD
+=======
+>>>>>>> .merge_file_L3Vm0H
+>>>>>>> .merge_file_7Jn4sb
 verificare), `docs/testing.md` (21 marker, corruzione analoga a README). `docs/redundancy-audit.md`
 ha un conflitto di frontmatter (`related:` con 3 URL issue candidate, nessuna verificabile
 contro i remote reali `laraxot/module_ui_fila5` / `provtv/module_ui_fila5`) lasciato
@@ -128,20 +168,36 @@ Commit: `5b5b8576` (repo `laravel/Modules/UI`, remote `laraxot/module_ui_fila5` 
 
 - Diff/lettura integrale prima di cancellare un "duplicato": ha evitato di perdere le
   righe uniche (la coda di `docs/architecture.md`, la nota di migrazione da
+<<<<<<< .merge_file_Ymyi3O
 <<<<<<< .merge_file_9X1i0S
   `ARCHITECTURE.md`) che un `git rm` cieco avrebbe cancellato.
 =======
   `architecture.md`) che un `git rm` cieco avrebbe cancellato.
 >>>>>>> .merge_file_98zuvD
+=======
+<<<<<<< .merge_file_OJUUdX
+  `ARCHITECTURE.md`) che un `git rm` cieco avrebbe cancellato.
+=======
+  `architecture.md`) che un `git rm` cieco avrebbe cancellato.
+>>>>>>> .merge_file_L3Vm0H
+>>>>>>> .merge_file_7Jn4sb
 - Non fidarsi della stima del task ("~13 righe", "4 file"): verificato con `grep -c` e
   `git ls-files` prima di pianificare, trovata realta' piu' ampia (47 righe, 6 file).
 - Risolvere solo i conflitti auto-contenuti sullo stesso tema (`architecture-patterns.md`);
   saltare i file dove il conflitto sul tema e' mischiato con conflitti estranei
+<<<<<<< .merge_file_Ymyi3O
 <<<<<<< .merge_file_9X1i0S
   (`PROJECT-STRUCTURE.md`) per non introdurre un merge arbitrario su contenuto non
 =======
   (`project-structure.md`) per non introdurre un merge arbitrario su contenuto non
 >>>>>>> .merge_file_98zuvD
+=======
+<<<<<<< .merge_file_OJUUdX
+  (`PROJECT-STRUCTURE.md`) per non introdurre un merge arbitrario su contenuto non
+=======
+  (`project-structure.md`) per non introdurre un merge arbitrario su contenuto non
+>>>>>>> .merge_file_L3Vm0H
+>>>>>>> .merge_file_7Jn4sb
   verificato.
 
 ## Bad practices
@@ -155,11 +211,19 @@ Commit: `5b5b8576` (repo `laravel/Modules/UI`, remote `laraxot/module_ui_fila5` 
 ## False friends
 
 - "4 file architecture case-duplicati" (dato dal task) non significa "solo 4": esistevano
+<<<<<<< .merge_file_Ymyi3O
 <<<<<<< .merge_file_9X1i0S
   anche `docs/ARCHITECTURE.md` e `docs/architecture-.md`, non elencati ma scoperti con
 =======
   anche `docs/architecture.md` e `docs/architecture-.md`, non elencati ma scoperti con
 >>>>>>> .merge_file_98zuvD
+=======
+<<<<<<< .merge_file_OJUUdX
+  anche `docs/ARCHITECTURE.md` e `docs/architecture-.md`, non elencati ma scoperti con
+=======
+  anche `docs/architecture.md` e `docs/architecture-.md`, non elencati ma scoperti con
+>>>>>>> .merge_file_L3Vm0H
+>>>>>>> .merge_file_7Jn4sb
   `git ls-files docs | grep -i architecture`.
 - Un file senza marker `<<<<<<<` non e' automaticamente pulito: `docs/architecture-.md`
   e `docs/architecture_2025.md` erano "risolti" per concatenazione cieca di entrambi i

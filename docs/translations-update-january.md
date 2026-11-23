@@ -149,11 +149,19 @@ Tutte le traduzioni seguono la struttura espansa:
 
 - [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
 - [Translation Standards](../../xot/docs/translation-standards.md)
+<<<<<<< .merge_file_qxy2eb
 <<<<<<< .merge_file_PaNZh6
 - [UI Module Documentation](../readme.md)
 =======
 - [UI Module Documentation](../README.md)
 >>>>>>> .merge_file_jjkbql
+=======
+<<<<<<< .merge_file_BIzV0d
+- [UI Module Documentation](../readme.md)
+=======
+- [UI Module Documentation](../README.md)
+>>>>>>> .merge_file_sFmN9y
+>>>>>>> .merge_file_inG1BH
 
 *Intervento completato il: 2026-01-22*
 *Conforme alle regole DRY + KISS*

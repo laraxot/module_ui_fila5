@@ -19,7 +19,11 @@ tags: [structure, architecture, module]
 │   ├── concepts/                 # Topic/theme pages
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
+<<<<<<< .merge_file_sS4Oyx
 <<<<<<< .merge_file_E8HKxh
+=======
+<<<<<<< .merge_file_fShHpZ
+>>>>>>> .merge_file_4DAZVR
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -61,7 +65,11 @@ tags: [structure, architecture, module]
 ├── architecture.md                # (opzionale) Architettura modulo
 
 ├── architecture.md               # (opzionale) Architettura modulo
+<<<<<<< .merge_file_sS4Oyx
 >>>>>>> .merge_file_evh6oi
+=======
+>>>>>>> .merge_file_IskuSr
+>>>>>>> .merge_file_4DAZVR
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -73,11 +81,19 @@ tags: [structure, architecture, module]
 | `wiki/log.md` | Storico attività (ingest/query/lint) |
 | `wiki/rules/` | Regole + trigger map locale |
 | `wiki/concepts/` | Concetti specifici del modulo |
+<<<<<<< .merge_file_sS4Oyx
 <<<<<<< .merge_file_E8HKxh
 | `ON-DEMAND-PATTERN.md` | **Leggi prima** — pattern da seguire |
 =======
 | `on-demand-pattern.md` | **Leggi prima** — pattern da seguire |
 >>>>>>> .merge_file_evh6oi
+=======
+<<<<<<< .merge_file_fShHpZ
+| `ON-DEMAND-PATTERN.md` | **Leggi prima** — pattern da seguire |
+=======
+| `on-demand-pattern.md` | **Leggi prima** — pattern da seguire |
+>>>>>>> .merge_file_IskuSr
+>>>>>>> .merge_file_4DAZVR
 
 ## Convenzioni
 
@@ -137,11 +153,19 @@ graph TD
 mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,troubleshooting}
 
 # 2. Crea INDEX files (già creati)
+<<<<<<< .merge_file_sS4Oyx
 <<<<<<< .merge_file_E8HKxh
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
 cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> .merge_file_evh6oi
+=======
+<<<<<<< .merge_file_fShHpZ
+cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+=======
+cp docs/wiki/rules/index.md docs/wiki/rules/
+>>>>>>> .merge_file_IskuSr
+>>>>>>> .merge_file_4DAZVR
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

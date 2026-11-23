@@ -403,13 +403,21 @@ composer dump-autoload = Manifestation of Truth
 
 **Documentazione Interna**:
 - [../../../../docs/modules-index.md](../../../../docs/modules-index.md) - Module Index
+<<<<<<< .merge_file_dGnAOw
 <<<<<<< .merge_file_aN1t0T
+=======
+<<<<<<< .merge_file_ydauVv
+>>>>>>> .merge_file_Fy87Ur
 - [../../Xot/docs/README.md](../../xot/docs/readme.md) - XotBase Pattern
 - [./README.md](./readme.md) - UI Module Overview
 =======
 - [../../Xot/docs/README.md](../../Xot/docs/README.md) - XotBase Pattern
 - [./README.md](./README.md) - UI Module Overview
+<<<<<<< .merge_file_dGnAOw
 >>>>>>> .merge_file_tEm2Qk
+=======
+>>>>>>> .merge_file_4Tg3YF
+>>>>>>> .merge_file_Fy87Ur
 
 ---
 

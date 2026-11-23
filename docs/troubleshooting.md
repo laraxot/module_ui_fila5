@@ -9,11 +9,19 @@ updated: "2026-07-28"
 related:
   - ./README.md
   - ./PATTERNS.md
+<<<<<<< .merge_file_2XtPmU
 <<<<<<< .merge_file_Bwbf8r
   - ./INDEX.md
 =======
   - ./index.md
 >>>>>>> .merge_file_tITdtU
+=======
+<<<<<<< .merge_file_toT2MJ
+  - ./INDEX.md
+=======
+  - ./index.md
+>>>>>>> .merge_file_rVY4ox
+>>>>>>> .merge_file_qSAWxW
 ---
 
 # UI — Troubleshooting Guide
@@ -732,11 +740,19 @@ Se il troubleshooting non risolve:
    ```
 
 5. **Consulta documentation**:
+<<<<<<< .merge_file_2XtPmU
 <<<<<<< .merge_file_Bwbf8r
    - [INDEX](./INDEX.md) — Complete file listing
 =======
    - [INDEX](./index.md) — Complete file listing
 >>>>>>> .merge_file_tITdtU
+=======
+<<<<<<< .merge_file_toT2MJ
+   - [INDEX](./INDEX.md) — Complete file listing
+=======
+   - [INDEX](./index.md) — Complete file listing
+>>>>>>> .merge_file_rVY4ox
+>>>>>>> .merge_file_qSAWxW
    - [PATTERNS](patterns.md) — Architectural decisions
    - [architecture/component-registration](./architecture/component-registration.md) — Component setup
 
@@ -746,9 +762,17 @@ Se il troubleshooting non risolve:
 
 - [README](./README.md) — Overview modulo
 - [PATTERNS](patterns.md) — Decisioni architetturali
+<<<<<<< .merge_file_2XtPmU
 <<<<<<< .merge_file_Bwbf8r
 - [INDEX](./INDEX.md) — Indice documentazione completo
 =======
 - [INDEX](./index.md) — Indice documentazione completo
 >>>>>>> .merge_file_tITdtU
+=======
+<<<<<<< .merge_file_toT2MJ
+- [INDEX](./INDEX.md) — Indice documentazione completo
+=======
+- [INDEX](./index.md) — Indice documentazione completo
+>>>>>>> .merge_file_rVY4ox
+>>>>>>> .merge_file_qSAWxW
 - [standards/ui-standards](./standards/ui-standards.md) — Component standards
