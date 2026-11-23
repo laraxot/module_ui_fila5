@@ -12,6 +12,9 @@ tags: [documentation]
 - **Nome**: `laraxot/module_ui_fila3`
 - **Descrizione**: Modulo per la gestione dell'interfaccia utente
 - **Namespace**: `Modules\UI`
+<<<<<<< .merge_file_jXedTG
+- **Repository**: https://github.com/laraxot/module_ui_fila5.git
+=======
 - **Repository**: https://github.com/laraxot/module_ui_fila3.git
 =======
 - **Nome**: `laraxot/module_ui_fila5`
@@ -19,6 +22,7 @@ tags: [documentation]
 - **Namespace**: `Modules\UI`
 - **Repository**: https://github.com/laraxot/module_ui_fila5.git
 >>>>>>> .merge_file_wJAMsY
+>>>>>>> .merge_file_keqY1r
 
 ## Service Providers
 1. `Modules\UI\Providers\UIServiceProvider`
@@ -126,8 +130,12 @@ composer format        # Formatta il codice
 - File upload
 
 ## Changelog
+<<<<<<< .merge_file_jXedTG
+Le modifiche vengono tracciate nel repository GitHub.
+=======
 <<<<<<< .merge_file_cXsAsx
 Le modifiche vengono tracciate nel repository GitHub. 
 =======
 Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> .merge_file_wJAMsY
+>>>>>>> .merge_file_keqY1r

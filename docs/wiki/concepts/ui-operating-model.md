@@ -62,6 +62,19 @@ When a task concerns shared interface behavior:
 
 - [[UI Architecture Sources]]
 - `../../README.md`
+<<<<<<< .merge_file_5ZtTzs
+<<<<<<< .merge_file_u7HcXa
+=======
+<<<<<<< .merge_file_YP2GRQ
+>>>>>>> .merge_file_VUjrtC
+- `../../ARCHITECTURE.md`
+- `../../PRODUCT_STRATEGY.md`
+=======
 - `../../architecture.md`
 - `../../product_strategy.md`
+<<<<<<< .merge_file_5ZtTzs
+>>>>>>> .merge_file_6oro0d
+=======
+>>>>>>> .merge_file_6EINiW
+>>>>>>> .merge_file_VUjrtC
 - `../../architecture/structure.md`

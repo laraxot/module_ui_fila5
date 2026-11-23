@@ -57,10 +57,25 @@ qmd search "<topic>"
 \`\`\`
 ./laravel/Modules/UI/docs/
 └── wiki/                    # Knowledge base locale
+<<<<<<< .merge_file_QQWwHM
+<<<<<<< .merge_file_QWYpqF
+=======
+<<<<<<< .merge_file_GzSfwl
+>>>>>>> .merge_file_QqF2GF
+    ├── rules/INDEX.md      # Indice rules modulo-specifiche
+    ├── skills/INDEX.md     # Indice skills modulo-specifiche
+    ├── commands/INDEX.md   # Indici commands
+    └── memories/INDEX.md   # Indice memories
+=======
     ├── rules/index.md      # Indice rules modulo-specifiche
     ├── skills/index.md     # Indice skills modulo-specifiche
     ├── commands/index.md   # Indici commands
     └── memories/index.md   # Indice memories
+<<<<<<< .merge_file_QQWwHM
+>>>>>>> .merge_file_8htfv7
+=======
+>>>>>>> .merge_file_dvWMF9
+>>>>>>> .merge_file_QqF2GF
 \`\`\`
 
 ## Quick Reference

@@ -15,7 +15,19 @@ High-risk findings:
 - Config files exist in both `Config/` and `config/`, including `config.php`, `laravel-localization.php`, and `laravellocalization.php`.
 - Many UI components are byte-identical with `Modules/User`, including `button`, `modal`, `input`, `checkbox`, `badge`, `link`, `nav-link`, `text-link`, `placeholder`, and marketing/layout components.
 - Block stats are duplicated under both `archived/` and `superseded/`.
+<<<<<<< .merge_file_Wkv7Yi
+<<<<<<< .merge_file_OTd4Ld
+- Docs have case-only duplicates such as `ARCHITECTURE.md` and `architecture.md`, plus duplicate index variants.
+=======
 - Docs have case-only duplicates such as `architecture.md` and `architecture.md`, plus duplicate index variants.
+>>>>>>> .merge_file_CQRDFh
+=======
+<<<<<<< .merge_file_5b98Sf
+- Docs have case-only duplicates such as `ARCHITECTURE.md` and `architecture.md`, plus duplicate index variants.
+=======
+- Docs have case-only duplicates such as `architecture.md` and `architecture.md`, plus duplicate index variants.
+>>>>>>> .merge_file_dJpHq2
+>>>>>>> .merge_file_silTIB
 
 Risk:
 - UI should be the shared owner. Duplicating primitives in User makes fixes diverge.

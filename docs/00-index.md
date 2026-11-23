@@ -16,7 +16,7 @@ tags: [documentation]
 - [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
 
 ## 🎯 **Lettura Essenziale**
-1. [README.md](./README.md) - Design System e overview componenti.
+1. [README.md](./readme.md) - Design System e overview componenti.
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
 3. [philosophy.md](./philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
 
@@ -47,7 +47,19 @@ tags: [documentation]
 - [Master Index Tema](../../Themes/Sixteen/docs/design-comuni/00-index.md) - Index tema Sixteen
 
 ### Link Bidirezionali - Modulo Cms
+<<<<<<< .merge_file_CwPPS0
+<<<<<<< .merge_file_dGCdoX
+- [Cms Design Comuni Index](../Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
+=======
 - [Cms Design Comuni Index](../Cms/docs/design_comuni_index.md) - Index completo modulo Cms
+>>>>>>> .merge_file_Q66wAC
+=======
+<<<<<<< .merge_file_3J4vsP
+- [Cms Design Comuni Index](../Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
+=======
+- [Cms Design Comuni Index](../Cms/docs/design_comuni_index.md) - Index completo modulo Cms
+>>>>>>> .merge_file_51vjJP
+>>>>>>> .merge_file_AYRFDT
 - [Cms FAQ](../Cms/docs/design-comuni-faq.md) - Architettura pagina FAQ
 - [Cms Homepage](../Cms/docs/design-comuni-homepage.md) - Analisi homepage
 
@@ -79,8 +91,35 @@ tags: [documentation]
 - `owenvoke/blade-fontawesome` - Icone FontAwesome
 
 ## 🔗 **Moduli Correlati**
-- [Xot](../../Xot/docs/README.md) - Base framework per i widget.
-- [Cms](../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
+- [Xot](../../xot/docs/readme.md) - Base framework per i widget.
+- [Cms](../../cms/docs/readme.md) - Layout dei contenuti e blocchi.
+
+---
+
+## 🏛️ **Design Comuni Italia - Replication**
+
+### Documentazione FAQ
+- [FAQ Components](./design-comuni-faq-components.md) - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search)
+- [Blocks System](./blocks-system.md) - Sistema blocchi universali
+- [Design System](./design-system.md) - Design tokens e pattern
+
+### Link Bidirezionali
+- **Modulo Cms**: [FAQ Page Architecture](../../Cms/docs/design-comuni-faq.md)
+- **Tema Sixteen**:
+  - [Analisi HTML](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_HTML_ANALYSIS.md)
+  - [Implementazione](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_IMPLEMENTAZIONE.md)
+  - [Analisi Visiva](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_ANALISI_VISIVA.md)
+  - [Report Finale](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_REPORT_FINALE.md)
+  - [Design Comuni Index](../../../Themes/Sixteen/docs/design-comuni/00-index.md)
+- **Scripts**: [Screenshot Script](../../../bashscripts/design-comuni/capture-faq-screenshots.js)
+
+### Stato Implementazione
+| Componente | HTML | CSS | JS | Totale |
+|-----------|------|-----|----|--------|
+| Accordion | ✅ 95% | ✅ 90% | ⏳ 0% | ⏳ 62% |
+| Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
+| Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
+| Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
 
 ---
 

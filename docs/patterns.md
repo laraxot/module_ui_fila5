@@ -8,7 +8,19 @@ tags: [architecture, patterns, decisions, anti-patterns, blade, filament, compon
 updated: "2026-07-28"
 related:
   - ./README.md
+<<<<<<< .merge_file_23Ak8o
+<<<<<<< .merge_file_nxL5hj
+  - ./INDEX.md
+=======
   - ./index.md
+>>>>>>> .merge_file_dvPpQY
+=======
+<<<<<<< .merge_file_gjlCBf
+  - ./INDEX.md
+=======
+  - ./index.md
+>>>>>>> .merge_file_w5O1zC
+>>>>>>> .merge_file_RnPzm0
   - ./TROUBLESHOOTING.md
 ---
 
@@ -357,7 +369,19 @@ Quando aggiungi feature nuova a UI:
 ## 📖 Riferimenti Correlati
 
 - [README](./README.md) — Overview modulo
+<<<<<<< .merge_file_23Ak8o
+<<<<<<< .merge_file_nxL5hj
+- [INDEX](./INDEX.md) — Documentazione index completo
+=======
 - [INDEX](./index.md) — Documentazione index completo
+>>>>>>> .merge_file_dvPpQY
+=======
+<<<<<<< .merge_file_gjlCBf
+- [INDEX](./INDEX.md) — Documentazione index completo
+=======
+- [INDEX](./index.md) — Documentazione index completo
+>>>>>>> .merge_file_w5O1zC
+>>>>>>> .merge_file_RnPzm0
 
 - [INDEX](./index.md) — Documentazione index completo
 
