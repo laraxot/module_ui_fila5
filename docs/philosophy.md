@@ -248,23 +248,13 @@ Modules/UI/
 └── CHANGELOG.md
 ```
 
-<<<<<<< .merge_file_LqxBWb
-<<<<<<< .merge_file_ZFjj3L
-=======
-<<<<<<< .merge_file_mApD4X
->>>>>>> .merge_file_iTRC1y
 (`ARCHITECTURE.md`, `TESTING.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
 
 ├── ARCHITECTURE.md
-=======
+
 (`architecture.md`, `testing.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
 
 ├── architecture.md
-<<<<<<< .merge_file_LqxBWb
->>>>>>> .merge_file_9dxEHK
-=======
->>>>>>> .merge_file_blBeyc
->>>>>>> .merge_file_iTRC1y
 └── CHANGELOG.md
 ```
 
@@ -1291,27 +1281,11 @@ Core functionality tests pass:
 ### Core Documentation
 
 - [README.md](./README.md) — Module overview
-<<<<<<< .merge_file_LqxBWb
-<<<<<<< .merge_file_ZFjj3L
-=======
-<<<<<<< .merge_file_mApD4X
->>>>>>> .merge_file_iTRC1y
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 - [architecture.md](./architecture.md) — System architecture
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
-=======
-- [architecture.md](./architecture.md) — System architecture
-- [architecture.md](./architecture.md) — System architecture
-- [architecture.md](./architecture.md) — System architecture
-- [architecture.md](./architecture.md) — System architecture
-- [architecture.md](./architecture.md) — System architecture
-<<<<<<< .merge_file_LqxBWb
->>>>>>> .merge_file_9dxEHK
-=======
->>>>>>> .merge_file_blBeyc
->>>>>>> .merge_file_iTRC1y
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](icons/icon-system.md) — Icon system details
 
