@@ -5,7 +5,11 @@ type: note
 tags: [documentation]
 ---
 
+<<<<<<< .merge_file_dmIJ81
+# Utilizzo dei Componenti Filament Dropdown e Avatar 
+=======
 # Utilizzo dei Componenti Filament Dropdown e Avatar
+>>>>>>> .merge_file_ycpp3B
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
