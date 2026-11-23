@@ -38,3 +38,10 @@ Also present but explicitly out of scope (not `.php`, dead archives from an earl
 ## Git
 
 `git rm app/Services/UIService.php` in `Modules/UI`'s own repo (remote `laraxot/module_ui_fila5.git`), committed and pushed separately — no other module repos required changes since there were no cross-module call sites.
+
+## Boy scout 2026-11-23 (residuo on-disk)
+
+I cinque `app/Services/**/*.php` sono riapparsi. Stub SUPERSEDED (no-delete):
+`UIService` → AssetAction; `ComponentService`/`ThemeService` vuoti; `Map/Null*` →
+`Adapters/Map/Null*ServiceAdapter`. Zero caller, zero binding. `debt.php` resta
+`services => []` (#247). Aperto: auth per `git rm` dei residui.

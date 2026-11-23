@@ -13,11 +13,9 @@ declare(strict_types=1);
 return [
     // classi in un namespace Services (regola No Services, DCP-270); NoServicesTest le vede come cartelle
     //
-    // Vuota dal 2026-11-20 (base_quaeris_fila5#247). `ThemeService` e
-    // `ComponentService` erano classi **vuote**: docblock e `{}`, zero metodi.
-    // `UIService::asset()` era letteralmente
-    // `return app(AssetAction::class)->execute($asset);`. I due `Map/Null*Service`
-    // erano copie carattere per carattere di `Adapters/Map/Null*ServiceAdapter`, e
-    // nessuno dei quattro e' legato al container: non erano null object attivi.
+    // Vuota dal 2026-11-20 (base_quaeris_fila5#247). Canonici: AssetAction,
+    // Adapters/Map/Null*ServiceAdapter. 2026-11-23: i cinque file sotto
+    // `app/Services/` restano on-disk come stub SUPERSEDED (no-delete senza auth);
+    // zero caller, zero binding in UIServiceProvider. Non rientrano in debito.
     'services' => [],
 ];
