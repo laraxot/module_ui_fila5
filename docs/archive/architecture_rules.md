@@ -209,7 +209,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 - [Documentazione Folio](https://laravel.com/docs/folio)
 - [Documentazione Laravel Localization](https://github.com/mcamara/laravel-localization)
 - [Best Practices UI](./UI_BEST_PRACTICES.md)
-- [Guida Componenti](./COMPONENTS_GUIDE.md)
+- [Guida Componenti](components_guide.md)
 - [Componenti Blade Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 
 ## Gestione delle Rotte
