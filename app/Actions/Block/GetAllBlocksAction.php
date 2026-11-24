@@ -15,6 +15,10 @@ use Webmozart\Assert\Assert;
 
 use function Safe\realpath;
 
+/**
+ * @see docs/contracts/get-all-blocks-action.md
+ * @contract docs/contracts/get-all-blocks-action.md
+ */
 final class GetAllBlocksAction
 {
     use QueueableAction;

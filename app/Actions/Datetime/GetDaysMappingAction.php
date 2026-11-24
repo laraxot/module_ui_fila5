@@ -7,6 +7,10 @@ namespace Modules\UI\Actions\Datetime;
 use Carbon\Carbon;
 use Spatie\QueueableAction\QueueableAction;
 
+/**
+ * @see docs/contracts/get-days-mapping-action.md
+ * @contract docs/contracts/get-days-mapping-action.md
+ */
 final class GetDaysMappingAction
 {
     use QueueableAction;

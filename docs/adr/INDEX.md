@@ -1,18 +1,16 @@
-# UI ADR index
+---
+title: "INDEX ADR — UI"
+type: index
+owner: UI
+updated: 2026-11-24
+qmd: "UI ADR INDEX stato decisioni"
+---
 
-This is the machine-readable inventory of architecture decisions owned by the **UI** module.
+# INDEX ADR — UI
 
-An ADR records a difficult-to-reverse or surprising choice with a real trade-off. It states context, decision drivers, considered options, consequences, and a repeatable confirmation. A new decision supersedes an old one; it does not silently rewrite history.
+| ADR | Stato | Sintesi |
+|---|---|---|
+| [ui-blocks-use-cms-localization](ui-blocks-use-cms-localization.md) | accepted | I blocchi UI sono localizzati dal CMS, con ripiego autonomo |
+| [ui-does-not-authorize-domain-data](ui-does-not-authorize-domain-data.md) | proposed | UI è il layer condiviso e non possiede il dominio Geo |
 
-## Decisions
-
-- [ui-blocks-use-cms-localization](ui-blocks-use-cms-localization.md)
-- [ui-does-not-authorize-domain-data](ui-does-not-authorize-domain-data.md)
-
-## Authoring
-
-<<<<<<< .merge_file_ReBadu
-Policy trasversale obbligatoria: [dati sacri e test isolati](../../Xot/docs/adr/0013-data-sacred-testing.md).
-=======
->>>>>>> .merge_file_dwfLQp
-Use the shared template and rules in [Xot ADR standards](../../Xot/docs/adr/README.md). Do not create an ADR for a local implementation detail or an unverified hypothesis.
+Formato e regole: [README](README.md).

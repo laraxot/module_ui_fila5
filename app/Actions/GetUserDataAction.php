@@ -13,6 +13,10 @@ use Modules\Xot\Contracts\UserContract;
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
 
+/**
+ * @see docs/contracts/get-user-data-action.md
+ * @contract docs/contracts/get-user-data-action.md
+ */
 class GetUserDataAction
 {
     use QueueableAction;
