@@ -26,3 +26,5 @@ tags: [documentation]
 
 - [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
 - [00-INDEX.md](./00-INDEX.md)
+
+- [00-index.md](./00-index.md)

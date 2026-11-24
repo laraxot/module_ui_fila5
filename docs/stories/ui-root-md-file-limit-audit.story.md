@@ -26,6 +26,9 @@ Root keepers (6, invariati salvo CHANGELOG.md):
 - `README.md`
 - `ARCHITECTURE.md`
 - `TESTING.md`
+
+- `architecture.md`
+- `testing.md`
 - `PHILOSOPHY.md`
 - `GETTING_STARTED.md`
 - `CHANGELOG.md`
@@ -39,6 +42,10 @@ Per gli altri 25, poiché il contenuto era già duplicato verbatim (o quasi) in 
 | api.md | docs/raw/root-import/api-1.md | docs/raw/root-import/api.md | identico |
 | blocks.md | docs/raw/root-import/blocks-1.md | docs/raw/root-import/blocks.md | identico |
 | carousel-slider.md | docs/raw/root-import/carousel-slider-1.md | docs/raw/root-import/carousel-slider.md | identico |
+| CHANGELOG.md | docs/raw/root-import/changelog.md | docs/raw/root-import/CHANGELOG.md | identico (+ fuso in CHANGELOG.md, vedi sotto) |
+
+| CHANGELOG.md | docs/raw/root-import/changelog-1.md | docs/raw/root-import/CHANGELOG.md | identico (+ fuso in CHANGELOG.md, vedi sotto) |
+
 | changelog.md | docs/raw/root-import/changelog-1.md | docs/raw/root-import/changelog.md | identico (+ fuso in CHANGELOG.md, vedi sotto) |
 | chunk.md | docs/raw/root-import/chunk-1.md | docs/raw/root-import/chunk.md | identico |
 | ci.md | docs/raw/root-import/ci-1.md | docs/raw/root-import/ci.md | identico |
@@ -46,6 +53,11 @@ Per gli altri 25, poiché il contenuto era già duplicato verbatim (o quasi) in 
 | custom-theme.md | docs/raw/root-import/custom-theme-1.md | docs/raw/root-import/custom-theme.md | quasi identico (solo H1+commento ridondanti in root) |
 | eav.md | docs/raw/root-import/eav-1.md | docs/raw/root-import/eav.md | identico |
 | effetcts.md | docs/raw/root-import/effetcts-1.md | docs/raw/root-import/effetcts.md | identico |
+| filament.md | docs/raw/root-import/filament.md | docs/raw/root-import/filament.md | identico |
+| flip-cards.md | docs/raw/root-import/flip-cards-1.md | docs/raw/root-import/flip-cards.md | identico |
+| global-search.md | docs/raw/root-import/global-search-1.md | docs/raw/root-import/global-search.md | identico |
+| links.md | docs/raw/root-import/links.md | docs/raw/root-import/links.md | identico |
+
 | filament.md | docs/raw/root-import/filament-1.md | docs/raw/root-import/filament.md | identico |
 | flip-cards.md | docs/raw/root-import/flip-cards-1.md | docs/raw/root-import/flip-cards.md | identico |
 | global-search.md | docs/raw/root-import/global-search-1.md | docs/raw/root-import/global-search.md | identico |
@@ -57,6 +69,8 @@ Per gli altri 25, poiché il contenuto era già duplicato verbatim (o quasi) in 
 | qrcode.md | docs/raw/root-import/qrcode-1.md | docs/raw/root-import/qrcode.md | identico |
 | ratings.md | docs/raw/root-import/ratings-1.md | docs/raw/root-import/ratings.md | identico |
 | tailwind-themes.md | docs/raw/root-import/tailwind-themes-1.md | docs/raw/root-import/tailwind-themes.md | identico |
+| test.md | docs/raw/root-import/test.md | docs/raw/root-import/test.md | identico (entrambi contenuto minimale) |
+
 | test.md | docs/raw/root-import/test-1.md | docs/raw/root-import/test.md | identico (entrambi contenuto minimale) |
 | theme.md | docs/raw/root-import/theme-1.md | docs/raw/root-import/theme.md | identico |
 | ubuntu.md | docs/raw/root-import/ubuntu-1.md | docs/raw/root-import/ubuntu.md | identico |
@@ -65,6 +79,11 @@ Per gli altri 25, poiché il contenuto era già duplicato verbatim (o quasi) in 
 ## Fusione changelog.md → CHANGELOG.md
 
 `changelog.md` (root, minuscolo) conteneva solo: "Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release." Contenuto non presente in `CHANGELOG.md` (maiuscolo, keeper). Aggiunta come nota citata subito dopo il titolo di `CHANGELOG.md`, poi rimosso `changelog.md` dalla root (il contenuto originale resta comunque anche in `docs/raw/root-import/changelog-1.md`).
+## Fusione CHANGELOG.md → CHANGELOG.md
+
+`CHANGELOG.md` (root, minuscolo) conteneva solo: "Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release." Contenuto non presente in `CHANGELOG.md` (maiuscolo, keeper). Aggiunta come nota citata subito dopo il titolo di `CHANGELOG.md`, poi rimosso `CHANGELOG.md` dalla root (il contenuto originale resta comunque anche in `docs/raw/root-import/changelog.md`).
+
+`CHANGELOG.md` (root, minuscolo) conteneva solo: "Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release." Contenuto non presente in `CHANGELOG.md` (maiuscolo, keeper). Aggiunta come nota citata subito dopo il titolo di `CHANGELOG.md`, poi rimosso `CHANGELOG.md` dalla root (il contenuto originale resta comunque anche in `docs/raw/root-import/changelog-1.md`).
 
 ## Verifica finale
 
@@ -79,6 +98,10 @@ Root risultante: `ARCHITECTURE.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `PHILO
 
 Trovati due file untracked pre-esistenti (non creati da questo task, timestamp 2026-09-06 12:37, precedenti a questa sessione): `docs/GETTING_STARTED.md` e `docs/TESTING.md`, contenuto identico ai keeper di root. Probabile residuo di un'altra sessione/tool di scaffolding. Non toccati: fuori dallo scope di questo task (igiene della ROOT del modulo, non di `docs/`) e non lockati da nessuno al momento della verifica.
 
+Root risultante: `architecture.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `PHILOSOPHY.md`, `README.md`, `testing.md`.
+
+Trovati due file untracked pre-esistenti (non creati da questo task, timestamp 2026-09-06 12:37, precedenti a questa sessione): `docs/GETTING_STARTED.md` e `docs/testing.md`, contenuto identico ai keeper di root. Probabile residuo di un'altra sessione/tool di scaffolding. Non toccati: fuori dallo scope di questo task (igiene della ROOT del modulo, non di `docs/`) e non lockati da nessuno al momento della verifica.
+
 ## Vincoli rispettati
 
 - `laravel/phpstan.neon` non toccato.
@@ -90,6 +113,8 @@ Trovati due file untracked pre-esistenti (non creati da questo task, timestamp 2
 
 - Prima di spostare un file duplicato, verificare sempre con `diff -q` se una copia identica esiste già altrove nell'albero `docs/` — evita di creare una terza copia in un repo che ha già centinaia di duplicati noti.
 - Escludere sempre `git add -A` quando ci sono file untracked non correlati nella working tree (qui `docs/GETTING_STARTED.md` e `docs/TESTING.md`): usare `git add <path>` esplicito.
+
+- Escludere sempre `git add -A` quando ci sono file untracked non correlati nella working tree (qui `docs/GETTING_STARTED.md` e `docs/testing.md`): usare `git add <path>` esplicito.
 
 ## Bad practices
 

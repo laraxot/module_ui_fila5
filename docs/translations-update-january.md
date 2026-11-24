@@ -151,5 +151,7 @@ Tutte le traduzioni seguono la struttura espansa:
 - [Translation Standards](../../xot/docs/translation-standards.md)
 - [UI Module Documentation](../readme.md)
 
+- [UI Module Documentation](../README.md)
+
 *Intervento completato il: 2026-01-22*
 *Conforme alle regole DRY + KISS*

@@ -73,4 +73,4 @@ InteractiveMap rimosso; vedi `geo-boundary.md` e `geo-dependency-violation-inter
 ### Caso User 2026-07-23 (unrelated)
 
 `merge-base` vuoto vs un org → STOP. User: laraxot `3ea7273a` OK; provtv unrelated.
-[../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md](../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md).
+[../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md](wiki/troubleshooting/git-push-dual-remote-unrelated.md).

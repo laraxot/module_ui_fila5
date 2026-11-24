@@ -99,7 +99,7 @@ solo documentazione) — richiede intervento separato per spostare/rifattorizzar
 
 Le Action di questo modulo restano quelle elencate sopra (icone, datetime, blocchi, user header). Niente Action di geocoding/mappe qui: quelle, se un giorno serviranno, sono `QueueableAction` in `Modules/Geo`.
 
-Canon: [../geo-boundary.md](../geo-boundary.md).
+Canon: [../geo-boundary.md](../../geo-boundary.md).
 
 ## Config path
 

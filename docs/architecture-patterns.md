@@ -439,8 +439,11 @@ IconService
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
 - **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
 - **Index**: [INDEX.md](./INDEX.md)
-- **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
-- **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
+
+- **Architecture Overview**: [architecture.md](./architecture.md)
+- **Index**: [index.md](./index.md)
+- **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](design_comuni_implementation.md)
+- **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md)
 
 ---
 

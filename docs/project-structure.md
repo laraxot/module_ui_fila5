@@ -39,6 +39,27 @@ tags: [structure, architecture, module]
 ├── architecture.md                # (opzionale) Architettura modulo
 
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+
+│   │   ├── 00-index.md          # Indice regole
+│   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
+│   │   └── *.md                 # Regole specifiche modulo
+│   ├── skills/                   # Skill progettuali
+│   │   ├── index.md
+│   │   └── *.md
+│   ├── commands/                 # Comandi progettuali
+│   │   ├── index.md
+│   │   └── *.md
+│   ├── memories/                 # Memorie progettuali
+│   │   ├── index.md
+│   │   └── *.md
+│   ├── decisions/                # Architecture decision records
+│   └── troubleshooting/          # Bug fixes, error resolutions
+├── on-demand-pattern.md          # 🌟 QUESTO FILE — Pattern on-demand
+├── qmd-setup.md                  # Configurazione QMD
+├── performance-optimization.md    # Metriche e best practice
+├── architecture.md                # (opzionale) Architettura modulo
+
+├── architecture.md               # (opzionale) Architettura modulo
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -51,6 +72,8 @@ tags: [structure, architecture, module]
 | `wiki/rules/` | Regole + trigger map locale |
 | `wiki/concepts/` | Concetti specifici del modulo |
 | `ON-DEMAND-PATTERN.md` | **Leggi prima** — pattern da seguire |
+
+| `on-demand-pattern.md` | **Leggi prima** — pattern da seguire |
 
 ## Convenzioni
 
@@ -111,6 +134,8 @@ mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,t
 
 # 2. Crea INDEX files (già creati)
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+
+cp docs/wiki/rules/index.md docs/wiki/rules/
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

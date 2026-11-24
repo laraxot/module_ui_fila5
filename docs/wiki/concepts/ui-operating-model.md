@@ -64,4 +64,7 @@ When a task concerns shared interface behavior:
 - `../../README.md`
 - `../../ARCHITECTURE.md`
 - `../../PRODUCT_STRATEGY.md`
+
+- `../../architecture.md`
+- `../../product_strategy.md`
 - `../../architecture/structure.md`

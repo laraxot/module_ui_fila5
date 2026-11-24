@@ -3,7 +3,7 @@ qmd: "ui stories person column schema org identity group story md"
 id: story-ui-person-column-schema-org-identity-group
 slug: person-column-schema-org-identity-group
 title: "STORY — PersonColumn: componente riutilizzabile per l'identita' di una persona (schema.org/Person)"
-description: "Nuovo GroupColumn per aggregare first_name/last_name/email/mobile_phone/language in una cella, sul modello di AddressColumn; applicato a Quaeris ContactsTable al posto delle colonne first_name/last_name separate."
+description: "Nuovo GroupColumn per aggregare first_name/last_name/email/mobile_phone/language in una cella, sul modello di AddressColumn; applicato a <nome progetto> ContactsTable al posto delle colonne first_name/last_name separate."
 document_type: story
 category: bmad
 scope: module:UI
@@ -14,14 +14,14 @@ ecosystem: Laraxot
 priority: medium
 created_at: '2026-09-10'
 updated_at: '2026-09-10'
-tags: [bmad, story, ui, filament, tables, group-column, schema-org, quaeris]
+tags: [bmad, story, ui, filament, tables, group-column, schema-org, <nome progetto>]
 related:
   - ../../app/Filament/Tables/Columns/PersonColumn.php
   - ../../app/Filament/Tables/Columns/GroupColumn.php
   - ../../app/Filament/Tables/Columns/AddressColumn.php
   - ../form-column-parity.md
-  - ../../../Quaeris/app/Filament/Resources/ContactResource/Tables/ContactsTable.php
-  - ../../../Quaeris/app/Models/Contact.php
+  - ../../../<nome progetto>/app/Filament/Resources/ContactResource/Tables/ContactsTable.php
+  - ../../../<nome progetto>/app/Models/Contact.php
 github:
   repository: https://github.com/laraxot/module_ui_fila5
   issues: https://github.com/laraxot/module_ui_fila5/issues
@@ -32,7 +32,7 @@ github:
 ## Contesto (BMAD — Ricognizione)
 
 Richiesta utente: le colonne `first_name`, `last_name`, `mobile_phone`,
-`email`, `language` su `Quaeris\Contact` sono informazioni imparentate
+`email`, `language` su `<nome progetto>\Contact` sono informazioni imparentate
 (identita' di una persona) e andavano aggregate in un componente
 riutilizzabile in `Modules/UI`, sul modello di
 `Modules/UI/app/Filament/Tables/Columns/AddressColumn.php`, usando
@@ -58,7 +58,7 @@ relazione. `PersonColumn` copia il pattern (`extends GroupColumn`,
 nome reale della colonna, non `"{$name}.{$field}"`.
 
 Campi verificati uno per uno contro
-`Modules\Quaeris\Models\Contact` (docblock `@property` + migration
+`Modules\<nome progetto>\Models\Contact` (docblock `@property` + migration
 `2024_01_01_000002_create_contacts_table.php`): `first_name`, `last_name`,
 `email`, `mobile_phone`, `language` sono tutte colonne reali. Nessun campo
 inventato.
@@ -93,7 +93,7 @@ riscritta da questa sessione.
    di `AddressColumnTest.php`: instanziazione, nome custom, field set di
    default (5 `TextColumn`), naming senza prefisso di relazione,
    `fields()` per restringere l'elenco. 4 test, 10 assertion, verde.
-4. `Modules/Quaeris/app/Filament/Resources/ContactResource/Tables/ContactsTable.php`
+4. `Modules/<nome progetto>/app/Filament/Resources/ContactResource/Tables/ContactsTable.php`
    — colonne separate `'first_name'` e `'last_name'` sostituite da
    `'person' => PersonColumn::make()->fields(['first_name', 'last_name'])`
    (solo nome: email/telefono/lingua **non** duplicati qui perche' le celle
@@ -113,7 +113,7 @@ riscritta da questa sessione.
       Modules/UI/tests/Feature/PersonColumnTest.php --no-coverage` → 4
       passed (10 assertions).
 - [x] AC4 — Verifica live: replay HTTP autenticato su
-      `/quaeris/admin/gaia/survey-pdfs/5/contacts` → 200, nessun errore
+      `/<nome progetto>/admin/gaia/survey-pdfs/5/contacts` → 200, nessun errore
       nuovo in `storage/logs/laravel.log`, ripetuto dopo la convergenza
       con la sessione peer.
 - [x] AC5 — `php -l` verde su tutti i file toccati (`PersonColumn.php`,
@@ -124,7 +124,7 @@ riscritta da questa sessione.
 - `Modules/UI/app/Filament/Tables/Columns/PersonColumn.php` (nuovo)
 - `Modules/UI/app/Filament/Forms/Components/PersonSection.php` (nuovo, da sessione peer)
 - `Modules/UI/tests/Feature/PersonColumnTest.php` (nuovo)
-- `Modules/Quaeris/app/Filament/Resources/ContactResource/Tables/ContactsTable.php`
+- `Modules/<nome progetto>/app/Filament/Resources/ContactResource/Tables/ContactsTable.php`
   (colonna `person` al posto di `first_name`/`last_name` separati)
 
 ## Testing
@@ -133,7 +133,7 @@ riscritta da questa sessione.
 cd laravel
 php -l Modules/UI/app/Filament/Tables/Columns/PersonColumn.php
 php -l Modules/UI/app/Filament/Forms/Components/PersonSection.php
-php -l Modules/Quaeris/app/Filament/Resources/ContactResource/Tables/ContactsTable.php
+php -l Modules/<nome progetto>/app/Filament/Resources/ContactResource/Tables/ContactsTable.php
 ./vendor/bin/pest Modules/UI/tests/Feature/PersonColumnTest.php --no-coverage
 # 4 passed (10 assertions)
 ```
@@ -165,4 +165,4 @@ Claude Sonnet 5
 - `laravel/Modules/UI/app/Filament/Tables/Columns/PersonColumn.php` (nuovo — versione finale da sessione peer, verificata qui)
 - `laravel/Modules/UI/app/Filament/Forms/Components/PersonSection.php` (nuovo, da sessione peer, verificato qui)
 - `laravel/Modules/UI/tests/Feature/PersonColumnTest.php` (nuovo — versione finale da sessione peer, verificata qui)
-- `laravel/Modules/Quaeris/app/Filament/Resources/ContactResource/Tables/ContactsTable.php` (modificato, rifinito da sessione peer)
+- `laravel/Modules/<nome progetto>/app/Filament/Resources/ContactResource/Tables/ContactsTable.php` (modificato, rifinito da sessione peer)

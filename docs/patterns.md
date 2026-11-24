@@ -9,6 +9,8 @@ updated: "2026-07-28"
 related:
   - ./README.md
   - ./INDEX.md
+
+- ./index.md
   - ./TROUBLESHOOTING.md
 ---
 
@@ -361,6 +363,8 @@ Quando aggiungi feature nuova a UI:
 
 - [INDEX](./index.md) — Documentazione index completo
 
-- [TROUBLESHOOTING](./TROUBLESHOOTING.md) — Errori comuni e soluzioni
+- [INDEX](./index.md) — Documentazione index completo
+
+- [TROUBLESHOOTING](troubleshooting.md) — Errori comuni e soluzioni
 - [architecture/component-registration](./architecture/component-registration.md) — Registrazione dettagliata
 - [standards/ui-standards](./standards/ui-standards.md) — UI component standards

@@ -23,11 +23,11 @@ tags: [documentation]
 ## 🏗️ **Core Design System**
 - 🎨 **[Layouts & Themes](./layouts-and-themes.md)** - Gestione dei temi per tenant e dark mode.
 - 📐 **[Architecture Rules](./architecture.md)** - Regole per la creazione di nuovi componenti UI.
-- 🖋️ **[Icon System](./icon-system.md)** - Integrazione di Blade Icons e set personalizzati.
+- 🖋️ **[Icon System](icons/icon-system.md)** - Integrazione di Blade Icons e set personalizzati.
 
 ## 🧱 **Componenti & Widget**
 - 🧩 **[Blade Components](./blade-components.md)** - Libreria di componenti atomici riutilizzabili.
-- ⚡ **[Filament Components](./filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
+- ⚡ **[Filament Components](archive/filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
 - 📍 **[Location Selector](./filament-components-location-studio.md)** - Componente avanzato per la selezione geografica.
 - 🏛️ **[Design Comuni FAQ Components](./design-comuni-faq-components.md)** - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search) ✅ 90%
 
@@ -48,6 +48,8 @@ tags: [documentation]
 
 ### Link Bidirezionali - Modulo Cms
 - [Cms Design Comuni Index](../Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
+
+- [Cms Design Comuni Index](../Cms/docs/design_comuni_index.md) - Index completo modulo Cms
 - [Cms FAQ](../Cms/docs/design-comuni-faq.md) - Architettura pagina FAQ
 - [Cms Homepage](../Cms/docs/design-comuni-homepage.md) - Analisi homepage
 
@@ -64,12 +66,12 @@ tags: [documentation]
 
 ## 🛠️ **Integrazioni Tecniche**
 - 🏗️ **[Tailwind v4 Upgrade](./filament-v4-theme-upgrade.md)** - Guida alla migrazione verso l'ultima versione di Tailwind.
-- 🛣️ **[Folio & Volt Themes](./struttura-themes-folio.md)** - Gestione dei temi nelle pagine Folio.
+- 🛣️ **[Folio & Volt Themes](archive/struttura-themes-folio.md)** - Gestione dei temi nelle pagine Folio.
 - 🧪 **[Table Layout Enum](./table-layout-enum-complete-guide.md)** - Standardizzazione dei layout tabelle.
 
 ## 🧪 **Qualità e Sviluppo**
 - ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
-- 🔬 **[Testing UI](./testing.md)** - Test di regressione visuale e componenti.
+- 🔬 **[Testing UI](wiki/concepts/testing.md)** - Test di regressione visuale e componenti.
 
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
@@ -81,6 +83,33 @@ tags: [documentation]
 ## 🔗 **Moduli Correlati**
 - [Xot](../../xot/docs/readme.md) - Base framework per i widget.
 - [Cms](../../cms/docs/readme.md) - Layout dei contenuti e blocchi.
+
+---
+
+## 🏛️ **Design Comuni Italia - Replication**
+
+### Documentazione FAQ
+- [FAQ Components](./design-comuni-faq-components.md) - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search)
+- [Blocks System](./blocks-system.md) - Sistema blocchi universali
+- [Design System](./design-system.md) - Design tokens e pattern
+
+### Link Bidirezionali
+- **Modulo Cms**: [FAQ Page Architecture](../../Cms/docs/design-comuni-faq.md)
+- **Tema Sixteen**:
+  - [Analisi HTML](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_HTML_ANALYSIS.md)
+  - [Implementazione](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_IMPLEMENTAZIONE.md)
+  - [Analisi Visiva](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_ANALISI_VISIVA.md)
+  - [Report Finale](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_REPORT_FINALE.md)
+  - [Design Comuni Index](../../../Themes/Sixteen/docs/design-comuni/00-index.md)
+- **Scripts**: [Screenshot Script](../../../bashscripts/design-comuni/capture-faq-screenshots.js)
+
+### Stato Implementazione
+| Componente | HTML | CSS | JS | Totale |
+|-----------|------|-----|----|--------|
+| Accordion | ✅ 95% | ✅ 90% | ⏳ 0% | ⏳ 62% |
+| Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
+| Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
+| Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
 
 ---
 

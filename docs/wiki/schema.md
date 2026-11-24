@@ -22,6 +22,8 @@ docs/
 │   ├── log.md             # Registro
 │   ├── schema.md          # Questo file
 │   ├── SCHEMA.md          # Questo file
+
+│   ├── schema.md          # Questo file
 │   ├── schema.md          # Questo file
 │   ├── schema.md          # Questo file
 │   ├── concepts/          # Pattern, architettura
@@ -42,6 +44,8 @@ docs/
 ---
 
 ## Contenuto assorbito da `SCHEMA.md`
+
+## Contenuto assorbito da `schema.md`
 
 # Documento unificato
 

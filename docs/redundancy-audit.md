@@ -17,6 +17,8 @@ High-risk findings:
 - Block stats are duplicated under both `archived/` and `superseded/`.
 - Docs have case-only duplicates such as `ARCHITECTURE.md` and `architecture.md`, plus duplicate index variants.
 
+- Docs have case-only duplicates such as `architecture.md` and `architecture.md`, plus duplicate index variants.
+
 Risk:
 - UI should be the shared owner. Duplicating primitives in User makes fixes diverge.
 - `Config/` vs `config/` is a case-only package portability problem.

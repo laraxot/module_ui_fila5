@@ -37,6 +37,8 @@ Le Rules progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate 
 - Non embeddare Rules nei prompt di avvio
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
 
+- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
+
 ## Aggiungere una Nuova RULES
 
 1. Crea `../rules/<nome>.md` con contenuto completo
