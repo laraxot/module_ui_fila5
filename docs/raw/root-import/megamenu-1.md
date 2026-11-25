@@ -1,26 +1,14 @@
 ---
-title: "Megamenu 1"
-type: note
-qmd: "megamenu 1"
+title: "megamenu-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-megamenu.md"
+type: alias
+updated: 2026-11-25
+qmd: "megamenu-1.md alias superseded consolidate"
 ---
-https://www.tailwindtoolbox.com/components/megamenu
 
+# Alias (superseded)
 
+Canonico: [`../../wiki/ui/ui-megamenu.md`](../../wiki/ui/ui-megamenu.md).
 
-
-https://tw-elements.com/docs/standard/navigation/mega-menu/
-
-
-https://flowbite.com/docs/components/mega-menu/
-
-
-
-https://kopi.dev/tailwind/navbar-responsive-mega-menu-using-tailwind-ui/
-
-
-
-https://medium.com/themesberg-blog/how-to-build-a-mega-menu-with-tailwind-css-and-flowbite-8fd7143daad2
-
-
-
-
+Questo path resta solo per link storici; non aggiungere contenuto qui.

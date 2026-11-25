@@ -1,13 +1,14 @@
 ---
-title: "Api 1"
-type: reference
-qmd: "ui api 1"
-module: UI
+title: "api-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-api.md"
+type: alias
+updated: 2026-11-25
+qmd: "api-1.md alias superseded consolidate"
 ---
--------------------------------------------------------------------------------------------------
-Render HTTP JSON Responses for API-based Projects in Laravel
-https://codebrisk.com/blog/render-http-json-responses-for-api-based-projects-in-laravel
-composer require kennedy-osaze/laravel-api-response
----------------------------------------------------------------------------------------------
 
+# Alias (superseded)
 
+Canonico: [`../../wiki/ui/ui-api.md`](../../wiki/ui/ui-api.md).
+
+Questo path resta solo per link storici; non aggiungere contenuto qui.

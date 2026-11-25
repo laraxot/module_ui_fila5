@@ -1,15 +1,14 @@
 ---
-title: "Carousel Slider 1"
-type: note
-qmd: "carousel slider 1"
+title: "carousel-slider-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-carousel-slider.md"
+type: alias
+updated: 2026-11-25
+qmd: "carousel-slider-1.md alias superseded consolidate"
 ---
-https://www.embla-carousel.com/examples/predefined/
 
+# Alias (superseded)
 
+Canonico: [`../../wiki/ui/ui-carousel-slider.md`](../../wiki/ui/ui-carousel-slider.md).
 
-https://tw-elements.com/docs/standard/components/carousel/
-
-https://keen-slider.io/examples
-
-https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
-
+Questo path resta solo per link storici; non aggiungere contenuto qui.

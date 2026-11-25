@@ -1,35 +1,14 @@
 ---
-title: "Theme 1"
-type: note
-qmd: "theme 1"
+title: "theme-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-theme.md"
+type: alias
+updated: 2026-11-25
+qmd: "theme-1.md alias superseded consolidate"
 ---
-https://dev.to/themesberg/how-to-build-a-blog-template-with-tailwind-css-and-flowbite-5e4n
 
+# Alias (superseded)
 
-https://tailwindcomponents.com/component/social-media-layout
+Canonico: [`../../wiki/ui/ui-theme.md`](../../wiki/ui/ui-theme.md).
 
-https://tailwindcomponents.com/component/tailwind-css-sigup-form
-
-https://tailwindcomponents.com/component/blog-page
-
-https://tailwindcomponents.com/component/blog-homepage
-
-https://tailwindcomponents.com/component/free-tailwind-css-blogs-component
-
-
----- repo
-https://github.com/ixartz/Astro-boilerplate
-https://github.com/abhinavs/cookie
-https://github.com/reeseschultz/11r
-https://github.com/timlrx/tailwind-nextjs-starter-blog
-https://github.com/shenlu89/jekyll-tailwindcss-starter
-
-
---- paid
-https://web3templates.com/templates/stablo-minimal-blog-website-template
-https://uideck.com/templates/clarity-tailwind-blog/
-
-
-
-
-
+Questo path resta solo per link storici; non aggiungere contenuto qui.

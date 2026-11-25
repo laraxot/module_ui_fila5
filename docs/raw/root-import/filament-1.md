@@ -1,18 +1,14 @@
 ---
-title: "Filament 1"
-type: note
-qmd: "filament 1"
+title: "filament-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-filament.md"
+type: alias
+updated: 2026-11-25
+qmd: "filament-1.md alias superseded consolidate"
 ---
-https://github.com/savannabits/filament-signature-pad
 
+# Alias (superseded)
 
-https://github.com/bezhanSalleh/filament-exceptions?tab=readme-ov-file
+Canonico: [`../../wiki/ui/ui-filament.md`](../../wiki/ui/ui-filament.md).
 
-https://github.com/shuvroroy/filament-spatie-laravel-health
-
-
---- Select Tree ---
-https://filamentphp.com/plugins/saade-adjacency-list
-https://filamentphp.com/plugins/codewithdennis-select-tree
-https://github.com/beholdr/filament-trilist
-
+Questo path resta solo per link storici; non aggiungere contenuto qui.

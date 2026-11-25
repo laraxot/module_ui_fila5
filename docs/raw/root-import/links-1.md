@@ -1,11 +1,14 @@
 ---
-title: "Links 1"
-type: reference
-qmd: "ui links 1"
-module: UI
+title: "links-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-links.md"
+type: alias
+updated: 2026-11-25
+qmd: "links-1.md alias superseded consolidate"
 ---
----------------------------------------------------------------------------------------------------
-Laravel URL Redirects with Optional Protected Url Passwords
-https://codebrisk.com/blog/laravel-url-redirects-with-optional-protected-url-passwords
-composer require yorcreative/laravel-urlshortener
----------------------------------------------------------------------------------------------------
+
+# Alias (superseded)
+
+Canonico: [`../../wiki/ui/ui-links.md`](../../wiki/ui/ui-links.md).
+
+Questo path resta solo per link storici; non aggiungere contenuto qui.

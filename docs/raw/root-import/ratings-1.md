@@ -1,12 +1,14 @@
 ---
-title: "Ratings 1"
-type: reference
-qmd: "ui ratings 1"
-module: UI
+title: "ratings-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-ratings.md"
+type: alias
+updated: 2026-11-25
+qmd: "ratings-1.md alias superseded consolidate"
 ---
--------------------------------------------------------------------------------------------------
-Add Ratings and Reviews for Laravel's Eloquent Models
-https://codebrisk.com/blog/add-ratings-and-reviews-for-laravel-s-eloquent-models
-composer require mtvs/laravel-reviews
-https://github.com/mtvs/eloquent-aggregate-rating
--------------------------------------------------------------------------------------------------
+
+# Alias (superseded)
+
+Canonico: [`../../wiki/ui/ui-ratings.md`](../../wiki/ui/ui-ratings.md).
+
+Questo path resta solo per link storici; non aggiungere contenuto qui.

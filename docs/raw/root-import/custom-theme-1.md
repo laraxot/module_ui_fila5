@@ -1,16 +1,14 @@
 ---
-title: "Custom Theme 1"
-type: note
-qmd: "custom theme 1"
+title: "custom-theme-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-custom-theme.md"
+type: alias
+updated: 2026-11-25
+qmd: "custom-theme-1.md alias superseded consolidate"
 ---
-https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
+# Alias (superseded)
 
-php artisan make:filament-theme admin
+Canonico: [`../../wiki/ui/ui-custom-theme.md`](../../wiki/ui/ui-custom-theme.md).
 
-add resources/css/filament/admin/theme.css entry to vite.config.js
-
-in app/Providers/Filament/AdminPanelProvider.php
-->viteTheme('resources/css/filament/admin/theme.css')
-
-
+Questo path resta solo per link storici; non aggiungere contenuto qui.

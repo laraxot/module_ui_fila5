@@ -1,15 +1,14 @@
 ---
-title: "Ci 1"
-type: reference
-qmd: "ui ci 1"
-module: UI
+title: "ci-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-ci.md"
+type: alias
+updated: 2026-11-25
+qmd: "ci-1.md alias superseded consolidate"
 ---
----------------------------------------------------------------------------------------------------
-Automatic Code formatting for Apps with Laravel Code Style
-https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style
-composer require jubeki/laravel-code-style --dev
----------------------------------------------------------------------------------------------------
-Control the Complexity of Php Methods by Checking Arguments
-https://codebrisk.com/blog/control-the-complexity-of-php-methods-by-checking-arguments
-composer require degraciamathieu/php-arguments-detector --dev
-------------------------------------------------------------------------------------------------------
+
+# Alias (superseded)
+
+Canonico: [`../../wiki/ui/ui-ci.md`](../../wiki/ui/ui-ci.md).
+
+Questo path resta solo per link storici; non aggiungere contenuto qui.

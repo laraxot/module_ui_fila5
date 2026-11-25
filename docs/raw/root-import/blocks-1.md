@@ -1,26 +1,14 @@
 ---
-title: "Blocks 1"
-type: note
-qmd: "blocks 1"
+title: "blocks-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-blocks.md"
+type: alias
+updated: 2026-11-25
+qmd: "blocks-1.md alias superseded consolidate"
 ---
-https://github.com/whitecube/nova-flexible-content
 
+# Alias (superseded)
 
-https://filamentphp.com/plugins/statik-flexible-content-blocks
+Canonico: [`../../wiki/ui/ui-blocks.md`](../../wiki/ui/ui-blocks.md).
 
-
-
-https://tailblocks.cc/
-https://tailwindcomponents.com/
-https://flowbite.com/docs/getting-started/introduction/
-https://merakiui.com/
-https://tailwindui.com/
-https://www.tailwindtoolbox.com/
-https://tw-elements.com/docs/standard/navigation/navbar/
-
-
-
-
-https://freefrontend.com/tailwind-navbars/
-
-https://preline.co/docs/mega-menu.html
+Questo path resta solo per link storici; non aggiungere contenuto qui.

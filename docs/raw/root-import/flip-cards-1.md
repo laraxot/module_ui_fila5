@@ -1,19 +1,14 @@
 ---
-title: "Flip Cards 1"
-type: note
-qmd: "flip cards 1"
+title: "flip-cards-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-flip-cards.md"
+type: alias
+updated: 2026-11-25
+qmd: "flip-cards-1.md alias superseded consolidate"
 ---
-https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
+# Alias (superseded)
 
-https://codepen.io/desandro/pen/LmWozd
+Canonico: [`../../wiki/ui/ui-flip-cards.md`](../../wiki/ui/ui-flip-cards.md).
 
-https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
-
-https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6
-
-https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
-
-
-
-https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+Questo path resta solo per link storici; non aggiungere contenuto qui.

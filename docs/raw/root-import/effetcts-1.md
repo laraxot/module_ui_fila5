@@ -1,29 +1,14 @@
 ---
-title: "Effetcts 1"
-type: note
-qmd: "effetcts 1"
+title: "effetcts-1.md (alias)"
+status: superseded
+superseded_by: "../../wiki/ui/ui-effetcts.md"
+type: alias
+updated: 2026-11-25
+qmd: "effetcts-1.md alias superseded consolidate"
 ---
-https://mridul2820.github.io/css-js/
 
-https://github.com/Mridul2820/css-js
+# Alias (superseded)
 
+Canonico: [`../../wiki/ui/ui-effetcts.md`](../../wiki/ui/ui-effetcts.md).
 
-https://www.mridul.tech/projects/3d-responsive-flip-card-effect
-
-
-https://codepen.io/eshnil/pen/NWRwyvb
-
-https://codebase-frontend-library.github.io/codebase-5/docs/7-alpinejs-components/animations/
-
-Aceternity
-https://ui.aceternity.com/components/typewriter-effect
-
-
-Motion
-
-
-
-
-
-
-
+Questo path resta solo per link storici; non aggiungere contenuto qui.
