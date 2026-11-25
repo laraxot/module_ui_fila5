@@ -24,7 +24,7 @@ coverage, git — with a phpstan baseline re-check.
 5 were `MissingImport` (FQCN `throw new \X(...)` / `new \X(...)` instead of a `use`
 statement) — mechanical, zero-behavior-change fixes, applied to:
 
-1. `app/Actions/Block/ResolveLocalizedBlockDataAction.php` — `use UnexpectedValueException;`.
+1. `app/Actions/Block/GetLocalizedBlockDataAction.php` — `use UnexpectedValueException;`.
 2. `app/Actions/Icon/GetAllIconsAction.php` — `use ReflectionClass;`.
 3. `app/Datas/ThemeMetadataData.php` — `use InvalidArgumentException;`.
 4. `app/Filament/Forms/Components/EnumSelect.php` — `use InvalidArgumentException;` (covers

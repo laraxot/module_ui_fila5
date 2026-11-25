@@ -72,8 +72,8 @@ unico entrypoint `execute()`). Azioni presenti, raggruppate per sotto-cartella:
 - `Block/GetAllBlocksAction` — scansiona tutti i moduli (`base_path('Modules')/*/.../Filament/Blocks/*.php`)
   e produce l'elenco dei blocchi Filament disponibili come `DataCollection<ComponentFileData>`.
   Cross-modulo per costruzione (glob su tutti i moduli), non solo su UI.
-- `Block/ResolveLocalizedBlockDataAction` — **delega opzionale al modulo Cms**: se
-  `Modules\Cms\Actions\ResolveLocalizedBlockDataAction` esiste (`class_exists`), la usa per
+- `Block/GetLocalizedBlockDataAction` — **delega opzionale al modulo Cms**: se
+  `Modules\Cms\Actions\GetLocalizedBlockDataAction` esiste (`class_exists`), la usa per
   risolvere dati di blocco localizzati; altrimenti restituisce i `viewParams` invariati. Pattern
   di dipendenza opzionale via reflection/class_exists per evitare un hard dependency da UI verso Cms.
 - `Icon/GetAllIconsAction` — enumera le icone registrate in `BladeUI\Icons\Factory` via reflection

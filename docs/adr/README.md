@@ -16,6 +16,6 @@ Frontmatter (`title`, `type: decision`, `status`, `created`, `updated`, `decisio
 
 ## ADR presenti
 
-Elenco con stato: [index.md](index.md). Nessun ADR nuovo in questa passata: la scelta verificabile nel codice (delega al CMS per i blocchi, `ResolveLocalizedBlockDataAction` con ripiego sui parametri originali) è già in [ui-blocks-use-cms-localization](ui-blocks-use-cms-localization.md); il confine con il dominio in [ui-does-not-authorize-domain-data](ui-does-not-authorize-domain-data.md).
+Elenco con stato: [index.md](index.md). Nessun ADR nuovo in questa passata: la scelta verificabile nel codice (delega al CMS per i blocchi, `GetLocalizedBlockDataAction` con ripiego sui parametri originali) è già in [ui-blocks-use-cms-localization](ui-blocks-use-cms-localization.md); il confine con il dominio in [ui-does-not-authorize-domain-data](ui-does-not-authorize-domain-data.md).
 
 Policy trasversale su dati sacri e test isolati: [0013-dati-sacri-migrazioni-e-test](../../../Xot/docs/adr/0013-dati-sacri-migrazioni-e-test.md).

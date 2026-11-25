@@ -1,18 +1,18 @@
 ---
-title: "ResolveLocalizedBlockDataAction — contratto"
+title: "GetLocalizedBlockDataAction — contratto"
 type: contract
 owner: UI
 status: accepted
 updated: 2026-11-24
-action: "Modules\\UI\\Actions\\Block\\ResolveLocalizedBlockDataAction"
-qmd: "ResolveLocalizedBlockDataAction dati block localizzati delega Cms view params"
+action: "Modules\\UI\\Actions\\Block\\GetLocalizedBlockDataAction"
+qmd: "GetLocalizedBlockDataAction dati block localizzati delega Cms view params"
 tags: [contract, action, blocks, cms, localization]
 created: 2026-11-24
 ---
 
-# ResolveLocalizedBlockDataAction (UI)
+# GetLocalizedBlockDataAction (UI)
 
-Sorgente: `app/Actions/Block/ResolveLocalizedBlockDataAction.php`. Perché è fatta così:
+Sorgente: `app/Actions/Block/GetLocalizedBlockDataAction.php`. Perché è fatta così:
 [ADR delega opzionale a Cms](../adr/optional-cms-delegation-for-block-data.md). Chiamante: `View/Components/Render/Block.php::render()`.
 
 ## Input
@@ -21,7 +21,7 @@ Sorgente: `app/Actions/Block/ResolveLocalizedBlockDataAction.php`. Perché è fa
 
 ## Output
 
-- `array<string, mixed>`: i dati risolti da `Modules\Cms\Actions\ResolveLocalizedBlockDataAction::execute()`, oppure
+- `array<string, mixed>`: i dati risolti da `Modules\Cms\Actions\GetLocalizedBlockDataAction::execute()`, oppure
   `$viewParams` invariato se Cms non c'è, se il resolver non ha `execute()` o se non ritorna un array.
 
 ## Invarianti
@@ -44,7 +44,7 @@ Sorgente: `app/Actions/Block/ResolveLocalizedBlockDataAction.php`. Perché è fa
 
 ## Non fa
 
-- Non localizza nulla da sé: la logica (URL e locale) è in `Modules/Cms/app/Actions/ResolveLocalizedBlockDataAction.php`.
+- Non localizza nulla da sé: la logica (URL e locale) è in `Modules/Cms/app/Actions/GetLocalizedBlockDataAction.php`.
 - Non sceglie la vista né controlla che esista (`Render\Block`).
 - Non mette in cache il risultato.
 - Non va "irrobustita" con `use Modules\Cms\...` o con un `require` di Cms in `module.json`: rompe l'indipendenza di UI.

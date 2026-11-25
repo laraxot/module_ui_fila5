@@ -27,7 +27,7 @@ tags: [documentation]
 
 | Errore | File | Causa | Soluzione |
 |--------|------|-------|-----------|
-| `class.notFound` | Block.php:55 | `Modules\Cms\Actions\ResolveLocalizedBlockDataAction` non esiste (modulo Cms assente) | Creato stub in `phpstan-stubs/CmsActionStubs.php` e caricato in `phpstan-bootstrap.php` |
+| `class.notFound` | Block.php:55 | `Modules\Cms\Actions\GetLocalizedBlockDataAction` non esiste (modulo Cms assente) | Creato stub in `phpstan-stubs/CmsActionStubs.php` e caricato in `phpstan-bootstrap.php` |
 
 ---
 

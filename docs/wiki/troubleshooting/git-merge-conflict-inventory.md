@@ -19,7 +19,7 @@ tags: [documentation]
 - `app/Actions/Datetime/GetDaysMappingAction.php` — docblock `@contract`
 - `app/Actions/Panel/ApplyCalendarToPanelAction.php` — docblock `@contract`
 - `app/Actions/Block/GetAllBlocksAction.php` — docblock `@contract`
-- `app/Actions/Block/ResolveLocalizedBlockDataAction.php` — `@contract` + guard `class_exists` (Cms opzionale)
+- `app/Actions/Block/GetLocalizedBlockDataAction.php` — `@contract` + guard `class_exists` (Cms opzionale)
 - `app/Services/ComponentService.php` — stub SUPERSEDED
 - `app/Services/ThemeService.php` — stub SUPERSEDED
 - `app/Services/UIService.php` — stub SUPERSEDED (AssetAction diretto)
@@ -30,7 +30,7 @@ tags: [documentation]
 ## Notes
 
 - Nessun `require empty.php`. Nessun `@phpstan-ignore` aggiunto.
-- Guard intenzionali in `ResolveLocalizedBlockDataAction` (Cms opzionale) e Null*Adapter.
+- Guard intenzionali in `GetLocalizedBlockDataAction` (Cms opzionale) e Null*Adapter.
 - Blade/tests/docs con marker: fuori da questo sweep app+routes (PHPStan boot).
 
 ## Backlinks

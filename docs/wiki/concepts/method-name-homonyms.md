@@ -68,7 +68,7 @@ Hook Filament/Laravel ripetuti — **non** debito. Elenco omesso.
 
 #### `normalizeViewData` — 2 classi
 
-- `UI` · `ResolveLocalizedBlockDataAction` · `Modules/UI/app/Actions/Block/ResolveLocalizedBlockDataAction.php`
+- `UI` · `GetLocalizedBlockDataAction` · `Modules/UI/app/Actions/Block/GetLocalizedBlockDataAction.php`
 - `UI` · `Block` · `Modules/UI/app/View/Components/Render/Block.php`
 
 #### `stateClass` — 2 classi

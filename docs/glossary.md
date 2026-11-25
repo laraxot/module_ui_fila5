@@ -14,7 +14,7 @@ Se glossario e codice divergono vale il codice. Percorsi relativi a `laravel/Mod
 |---|---|---|
 | Blocco | Componente di contenuto riusabile (hero, heading, immagine, slider, navigazione, ...) scelto nel builder Filament. | `app/Filament/Blocks/` |
 | Elenco blocchi | Scoperta dei blocchi dei moduli: nome snake dalla classe, modulo dal namespace. | `app/Actions/Block/GetAllBlocksAction.php` |
-| Blocco localizzato | Dati del blocco risolti dal CMS se il modulo Cms esiste, altrimenti parametri invariati. | `app/Actions/Block/ResolveLocalizedBlockDataAction.php` |
+| Blocco localizzato | Dati del blocco risolti dal CMS se il modulo Cms esiste, altrimenti parametri invariati. | `app/Actions/Block/GetLocalizedBlockDataAction.php` |
 | Slider | Dati di una slide (miniature desktop e mobile, link, titolo, descrizioni) e relativa collezione. | `app/Datas/SliderData.php`, `app/Datas/SliderDataCollection.php` |
 | Configurazione UI | DTO di configurazione del modulo. | `app/Datas/UIConfigData.php` |
 | Metadati tema | Colori brand, scale di spaziatura e breakpoint compilati da design token. | `app/Datas/ThemeMetadataData.php` |

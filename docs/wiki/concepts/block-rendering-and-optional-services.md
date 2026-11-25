@@ -4,7 +4,7 @@ type: concept
 tags: [ui, blocks, livewire, phpstan, geo, cms]
 created: 2026-06-15
 updated: 2026-06-15
-qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
+qmd: "UI block render InteractiveMap MapServiceContract GetLocalizedBlockDataAction GetAllBlocksAction"
 related:
   - ./phpstan-dynamic-array-normalization.md
   - ../../../../../../bashscripts/ai/wiki/patterns/patterns.md#phpstan-optional-contracts
@@ -28,9 +28,9 @@ flowchart LR
   B --> C[ComponentFileData collection]
   D[x-render.blocks v1/v2] --> E[x-render.block]
   E --> F[Render\Block]
-  F --> G[ResolveLocalizedBlockDataAction]
+  F --> G[GetLocalizedBlockDataAction]
   G --> H{Modulo Cms presente?}
-  H -->|sì| I[Cms ResolveLocalizedBlockDataAction]
+  H -->|sì| I[Cms GetLocalizedBlockDataAction]
   H -->|no| J[pass-through view data]
   F --> K[view Blade del blocco]
 ```
@@ -39,7 +39,7 @@ flowchart LR
 |-----------|-------|---------------|
 | `GetAllBlocksAction` | Scansiona `Modules/*/Filament/Blocks/*.php` e produce catalogo `ComponentFileData` | Inventario componenti (`_components.json`); tooling admin (nessun caller PHP diretto nel mono attuale) |
 | `View\Components\Render\Block` | Risolve view del singolo blocco + dati localizzati | `resources/views/components/render/blocks/v1.blade.php`, `v2.blade.php`; `User/resources/views/filament/pages/home.blade.php` (`<x-render.block>`) |
-| `ResolveLocalizedBlockDataAction` | Bridge verso Cms opzionale | Solo `Render\Block::render()` |
+| `GetLocalizedBlockDataAction` | Bridge verso Cms opzionale | Solo `Render\Block::render()` |
 | `Filament/Blocks/*` | Definizione schema blocchi (Page, Post, Contact, …) | Filament page builder cross-modulo |
 
 ## Catena di utilizzo — Mappa

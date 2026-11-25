@@ -7,7 +7,7 @@ updated: 2026-11-24
 module: UI
 tags: [adr, blocks, cms, dependencies, localization]
 related:
-  - ../contracts/resolve-localized-block-data-action.md
+  - ../contracts/get-localized-block-data-action.md
 qmd: "optional cms delegation for block data"
 ---
 
@@ -17,7 +17,7 @@ qmd: "optional cms delegation for block data"
 
 `app/View/Components/Render/Block.php` (componente Blade `x-ui::render.block`) disegna un blocco di contenuto con
 la vista indicata in `data.view`. Le URL e i testi dei blocchi vanno localizzati, e chi sa farlo è
-`Modules\Cms\Actions\ResolveLocalizedBlockDataAction` (usa `mcamara/laravel-localization`). Ma `module.json` di UI
+`Modules\Cms\Actions\GetLocalizedBlockDataAction` (usa `mcamara/laravel-localization`). Ma `module.json` di UI
 richiede solo `Xot` e `User`: UI è un modulo di base che gira anche dove Cms non c'è, e Cms dipende da UI
 (`Cms/app/Filament/Fields/PageContent.php` usa `GetAllBlocksAction` di UI). Un `use Modules\Cms\...` in UI creerebbe
 una dipendenza circolare e romperebbe le installazioni senza Cms. Come localizza UI i dati dei blocchi senza
@@ -25,8 +25,8 @@ dipendere da Cms?
 
 ## Decisione
 
-- `app/Actions/Block/ResolveLocalizedBlockDataAction.php` nomina il resolver di Cms **come stringa**
-  (`'Modules\Cms\Actions\ResolveLocalizedBlockDataAction'`), controlla `class_exists`, lo risolve dal container e
+- `app/Actions/Block/GetLocalizedBlockDataAction.php` nomina il resolver di Cms **come stringa**
+  (`'Modules\Cms\Actions\GetLocalizedBlockDataAction'`), controlla `class_exists`, lo risolve dal container e
   chiama `execute()` se esiste; altrimenti ritorna i dati invariati.
 - Il risultato di Cms passa per `normalizeViewData()`: le chiavi devono essere stringhe (diventano variabili della vista).
 - Nessun file in `Modules/UI/app` importa (`use`) una classe di `Modules\Cms`.
@@ -50,5 +50,5 @@ dipendere da Cms?
 
 - `cd laravel && vendor/bin/pest Modules/UI/tests --group=UI-BLOCKDATA-INV-4`: fallisce se un file in `UI/app`
   importa una classe `Modules\Cms\`.
-- `cd laravel && vendor/bin/pest Modules/UI/tests/Unit/Actions/Block/ResolveLocalizedBlockDataActionTest.php`:
+- `cd laravel && vendor/bin/pest Modules/UI/tests/Unit/Actions/Block/GetLocalizedBlockDataActionTest.php`:
   delega, ritorno invariato senza resolver valido, rifiuto delle chiavi non stringa.

@@ -57,7 +57,7 @@ chiamanti e con i test, non scelto per posizione nel diff. Esito in una riga per
 | Classe | A cosa serve | Esito |
 |---|---|---|
 | `Actions/Block/GetAllBlocksAction` | elenca i blocchi del page builder in `app/Filament/Blocks` di ogni modulo | docblock con descrizione + `@see` al contratto |
-| `Actions/Block/ResolveLocalizedBlockDataAction` | delega al modulo `Cms` la risoluzione dei dati localizzati di un block, se presente | `@see` al contratto, lato vuoto scartato |
+| `Actions/Block/GetLocalizedBlockDataAction` | delega al modulo `Cms` la risoluzione dei dati localizzati di un block, se presente | `@see` al contratto, lato vuoto scartato |
 | `Actions/GetUserDataAction` | dati dell'utente autenticato (identita', ruolo, permessi, `profile.extra`) come `Datas\UserData` | descrizione + `@see` al contratto |
 | `Services/{ComponentService,ThemeService}` e `Services/Map/Null{Map,Geocoding}Service` | stub `SUPERSEDED`, zero caller, in `tests/Arch/debt.php` (`services`) | forma Pint (`{}`, `use` dell'adapter), `@see` a [ui-services-support-to-actions](./wiki/concepts/ui-services-support-to-actions.md) |
 | `Data/UserData` | **duplicato** di `Datas/UserData`, zero caller | tenuto come `@deprecated`: vedi sotto |

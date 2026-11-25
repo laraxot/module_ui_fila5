@@ -23,7 +23,7 @@ Initial BMAD documentation setup for the UI module.
 
 - Merge markers cleared in `app/` + `routes/` (8 entrypoints) so PHPStan can parse the module.
 - Routes are empty stubs; no `require` of `Modules/Xot/routes/empty.php`.
-- Kept `@contract` docs and Cms `class_exists` guard in `ResolveLocalizedBlockDataAction`.
+- Kept `@contract` docs and Cms `class_exists` guard in `GetLocalizedBlockDataAction`.
 - Inventory: [git-merge-conflict-inventory](../wiki/troubleshooting/git-merge-conflict-inventory.md).
 
 ## Notes

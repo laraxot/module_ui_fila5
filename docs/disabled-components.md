@@ -52,12 +52,12 @@ If `Modules/Geo` is installed:
 
 **Location**: `app/View/Components/Render/Block.php`  
 **Status**: ⚠️ Conditional (tries to load but handles missing module)  
-**Dependency**: `Modules\Cms\Actions\ResolveLocalizedBlockDataAction`
+**Dependency**: `Modules\Cms\Actions\GetLocalizedBlockDataAction`
 
 #### Code
 ```php
-if (class_exists('Modules\\Cms\\Actions\\ResolveLocalizedBlockDataAction')) {
-    $view_params = app('Modules\\Cms\\Actions\\ResolveLocalizedBlockDataAction')->execute($view_params);
+if (class_exists('Modules\\Cms\\Actions\\GetLocalizedBlockDataAction')) {
+    $view_params = app('Modules\\Cms\\Actions\\GetLocalizedBlockDataAction')->execute($view_params);
 }
 ```
 
@@ -66,7 +66,7 @@ if (class_exists('Modules\\Cms\\Actions\\ResolveLocalizedBlockDataAction')) {
 - Falls back to unprocessed view params if module not installed
 
 #### Cms Module Services Required
-- `ResolveLocalizedBlockDataAction::execute()` — Process view parameters for localization
+- `GetLocalizedBlockDataAction::execute()` — Process view parameters for localization
 
 #### Status
 - ✅ Gracefully handles missing module (uses class_exists() check)

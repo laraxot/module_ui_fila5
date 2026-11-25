@@ -80,7 +80,7 @@ In `app/Filament/Widgets/` coesistono `UserCalendarWidget.php` attivo e le varia
 
 ## Ipotesi già registrate nel modulo
 
-- Le Action (`app/Actions/`) sono il punto di orchestrazione: `GetAllBlocksAction`, `ResolveLocalizedBlockDataAction`, `GetAllIconsAction`, `GetDaysMappingAction`, `GetUserDataAction`, `Panel/ApplyCalendarToPanelAction`.
+- Le Action (`app/Actions/`) sono il punto di orchestrazione: `GetAllBlocksAction`, `GetLocalizedBlockDataAction`, `GetAllIconsAction`, `GetDaysMappingAction`, `GetUserDataAction`, `Panel/ApplyCalendarToPanelAction`.
 - Le Resource Filament sono adattatori: il modulo non ha Resource CRUD proprie, solo `app/Filament/Resources/Pages/BaseListRecords.php`.
 - I test esistenti (77 file) sono evidenza parziale: i nomi `UiGapCloser100Test`, `UiRemainingCoverage100Test`, `UiHighestMissCoverageTest` indicano campionamento guidato dal gap, non copertura esaustiva del design system.
 

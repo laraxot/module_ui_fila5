@@ -108,7 +108,7 @@ Relazioni autoreferenziate: il modello non dichiara metodi `children`/`parent`; 
 | File | Responsabilità |
 |------|----------------|
 | `app/Actions/Block/GetAllBlocksAction.php` | elenco dei blocchi disponibili |
-| `app/Actions/Block/ResolveLocalizedBlockDataAction.php` | dati blocco tradotti |
+| `app/Actions/Block/GetLocalizedBlockDataAction.php` | dati blocco tradotti |
 | `app/Actions/Datetime/GetDaysMappingAction.php` | mapping giorni localizzati |
 | `app/Actions/Icon/GetAllIconsAction.php` | catalogo icone |
 | `app/Actions/GetUserDataAction.php` | dati utente per la UI |

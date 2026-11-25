@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
+use Modules\UI\Actions\Block\GetLocalizedBlockDataAction;
 use Modules\UI\Tests\TestCase;
 
 use function Safe\file_get_contents;
@@ -16,7 +16,7 @@ uses(TestCase::class);
  * Il resolver di Cms viene sostituito nel container: il test prova la delega, non la localizzazione di Cms.
  */
 
-const UI_CMS_BLOCK_RESOLVER = 'Modules\Cms\Actions\ResolveLocalizedBlockDataAction';
+const UI_CMS_BLOCK_RESOLVER = 'Modules\Cms\Actions\GetLocalizedBlockDataAction';
 
 afterEach(function (): void {
     app()->forgetInstance(UI_CMS_BLOCK_RESOLVER);
@@ -35,7 +35,7 @@ it('hands the block data to the Cms resolver and returns what it resolves', func
         }
     });
 
-    $resolved = app(ResolveLocalizedBlockDataAction::class)->execute(['title' => 'Ciao', 'url' => '/raw']);
+    $resolved = app(GetLocalizedBlockDataAction::class)->execute(['title' => 'Ciao', 'url' => '/raw']);
 
     expect($resolved)->toBe(['title' => 'Ciao', 'url' => '/it/resolved']);
 })->group('UI-BLOCKDATA-INV-1');
@@ -43,7 +43,7 @@ it('hands the block data to the Cms resolver and returns what it resolves', func
 it('returns the input untouched when the resolver has no execute or returns a non array', function (object $resolver): void {
     app()->instance(UI_CMS_BLOCK_RESOLVER, $resolver);
 
-    expect(app(ResolveLocalizedBlockDataAction::class)->execute(['title' => 'Ciao']))->toBe(['title' => 'Ciao']);
+    expect(app(GetLocalizedBlockDataAction::class)->execute(['title' => 'Ciao']))->toBe(['title' => 'Ciao']);
 })->with([
     'no execute' => fn (): object => new class {},
     'non array result' => fn (): object => new class
@@ -69,7 +69,7 @@ it('refuses resolved data with non string keys', function (): void {
         }
     });
 
-    expect(fn (): array => app(ResolveLocalizedBlockDataAction::class)->execute(['title' => 'Ciao']))
+    expect(fn (): array => app(GetLocalizedBlockDataAction::class)->execute(['title' => 'Ciao']))
         ->toThrow(UnexpectedValueException::class);
 })->group('UI-BLOCKDATA-INV-3');
 

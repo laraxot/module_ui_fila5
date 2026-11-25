@@ -31,7 +31,7 @@ related:
 
 #### `normalizeViewData` — 2 classi · 17 righe · ~17 righe duplicate
 
-- `UI` · `ResolveLocalizedBlockDataAction::normalizeViewData` · `Modules/UI/app/Actions/Block/ResolveLocalizedBlockDataAction.php:42`
+- `UI` · `GetLocalizedBlockDataAction::normalizeViewData` · `Modules/UI/app/Actions/Block/GetLocalizedBlockDataAction.php:42`
 - `UI` · `Block::normalizeViewData` · `Modules/UI/app/View/Components/Render/Block.php:68`
 
 #### `before` — 3 classi · 7 righe · ~14 righe duplicate
