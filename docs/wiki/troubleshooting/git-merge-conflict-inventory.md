@@ -38,3 +38,15 @@ tags: [documentation]
 - [services-to-actions-ui](../../stories/services-to-actions-ui.story.md)
 - [conflict-resolution](../../conflict-resolution.md)
 - [ui-module-bmad-setup](../../stories/ui-module-bmad-setup.story.md)
+
+## Contenuto fuso (origine: git-merge-conflict-inventory-)
+
+- Date: 2026-04-28
+- Owner: Modules/UI
+- Files with conflict markers: 2
+
+- docs/strategy.md
+- docs/studio_card_selector_implementation.md
+
+- Inventory generated from `rg -l "^(<<<<<<<|=======|>>>>>>>)"`.
+- Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.

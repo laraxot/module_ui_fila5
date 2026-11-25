@@ -135,3 +135,32 @@ src="{{ asset('images/logos/Quaeris-logo.svg') }}"
 ## Conclusione
 
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto Quaeris.
+
+## Contenuto fuso (origine: public_resources_management)
+
+```
+/var/www/html/saluteora/
+├── public_html/           # Directory pubblica principale
+│   ├── images/            # Immagini pubbliche
+│   ├── css/               # File CSS
+│   ├── js/                # File JavaScript
+│   ├── fonts/             # Font
+│   └── assets/            # Altre risorse statiche
+└── laravel/               # Applicazione Laravel (NON contiene file pubblici)
+```
+
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+
+Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+
+```blade
+<a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('home')) }}">
+    <img 
+        src="{{ asset('images/logos/saluteora-logo.svg') }}" 
+        alt="SaluteOra" 
+        class="h-8"
+    >
+</a>
+```
+
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.

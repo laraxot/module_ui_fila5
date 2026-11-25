@@ -534,3 +534,71 @@ public function downloadDocument(Media $media): Response
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
+
+## Contenuto fuso (origine: spatie-media-library-migration_1)
+
+```php
+// BaseModel SaluteOra - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
+abstract class BaseModel extends Model implements HasMedia
+{
+    use InteractsWithMedia;
+    // ... User, Patient, Doctor ereditano automaticamente!
+}
+
+```php
+// Modules/SaluteOra/app/Filament/Resources/PatientResource.php - getFormSchema()
+
+// DOPO (SpatieMediaLibraryFileUpload)  
+'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
+    ->label(trans('saluteora::patients.fields.health_card.label'))
+    ->helperText(trans('saluteora::patients.fields.health_card.help')),
+```
+
+```php
+// Modules/SaluteOra/app/Models/User.php - Aggiunta registerMediaCollections
+
+```php
+// Modules/SaluteOra/app/Models/User.php - Accessors di transizione
+
+```blade
+{{-- resources/views/components/patient-documents.blade.php --}}
+<div class="grid grid-cols-2 gap-4">
+    @if($patient->hasMedia('tessere_sanitarie'))
+        <div class="document-preview">
+            <h4>{{ __('saluteora::patients.health_card') }}</h4>
+            <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}" 
+                 alt="Tessera Sanitaria"
+                 class="w-full h-32 object-cover rounded">
+            <a href="{{ $patient->getFirstMediaUrl('tessere_sanitarie') }}" 
+               target="_blank" 
+               class="text-blue-600 text-sm">
+                {{ __('saluteora::common.view_document') }}
+            </a>
+        </div>
+    @endif
+
+@if($patient->hasMedia('certificazioni_isee'))
+        <div class="document-preview">
+            <h4>{{ __('saluteora::patients.isee_certificate') }}</h4>
+            <div class="bg-red-100 h-32 flex items-center justify-center rounded">
+                <i class="fas fa-file-pdf text-red-600 text-3xl"></i>
+            </div>
+            <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}" 
+               target="_blank"
+               class="text-blue-600 text-sm">
+                {{ __('saluteora::common.download_pdf') }}
+            </a>
+        </div>
+    @endif
+</div>
+```
+
+### **Documentazione Correlata**
+- [Spatie Media Library Official Docs](https://spatie.be/docs/laravel-medialibrary)
+- [Filament Plugin Documentation](https://filamentphp.com/plugins/filament-spatie-media-library)
+- [UI Components Docs](./filament-components-rules.md)
+- [SaluteOra Models Architecture](../SaluteOra/docs/models-architecture.md)
+
+*Ultimo aggiornamento: Dicembre 2024*  
+*Versione: 1.0*  
+*Compatibilità: Laraxot SaluteOra, Spatie Media Library 11.x, Filament 3.x*

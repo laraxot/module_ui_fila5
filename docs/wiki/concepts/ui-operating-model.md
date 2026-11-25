@@ -66,5 +66,5 @@ When a task concerns shared interface behavior:
 - `../../PRODUCT_STRATEGY.md`
 
 - `../../architecture.md`
-- `../../product_strategy.md`
+- `../../prd.md`
 - `../../architecture/structure.md`

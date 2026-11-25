@@ -21,7 +21,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 ## File Duplicati da Consolidare
 
 ### 1. Advanced Form Components
-- ❌ `advanced_form_components.md` → Eliminare
+- ❌ `advanced-form-components.md` → Eliminare
 - ✅ `advanced-form-components.md` → Mantenere
 
 ### 2. Blade Components
@@ -31,8 +31,8 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 - ✅ `blade-icons.md` → Mantenere
 
 ### 3. Filament Components
-- ❌ `filament_4x_upgrade.md` → Eliminare
-- ❌ `filament_4x_upgrade_report.md` → Eliminare
+- ❌ `filament-4x-upgrade.md` → Eliminare
+- ❌ `filament-4x-upgrade-report.md` → Eliminare
 - ✅ `filament-4x-upgrade.md` → Mantenere
 - ✅ `filament-4x-upgrade-report.md` → Mantenere
 
@@ -76,11 +76,11 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 - ❌ `phpstan_fixes_2025.md` → Eliminare (duplicato)
 - ❌ `phpstan_fixes_gennaio_2025.md` → Eliminare (duplicato)
 - ❌ `phpstan_corrections_summary.md` → Eliminare (duplicato)
-- ❌ `phpstan_radio_badge_fix.md` → Eliminare (duplicato)
+- ❌ `phpstan-radio-badge-fix.md` → Eliminare (duplicato)
 - ✅ `phpstan-compliance.md` → Mantenere (documento principale)
 - ✅ `phpstan-fixes-2025.md` → Mantenere (se contiene info aggiuntive)
 
-- ✅ `phpstan-fixes-.md` → Mantenere (se contiene info aggiuntive)
+- ✅ `phpstan-fixes.md` → Mantenere (se contiene info aggiuntive)
 - ✅ `phpstan-corrections-summary.md` → Mantenere
 - ✅ `phpstan-corrections.md` → Mantenere
 - ✅ `phpstan-fixes.md` → Mantenere

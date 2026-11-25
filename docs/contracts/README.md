@@ -12,11 +12,11 @@ Un contract descrive una singola operazione che muove denaro, dati personali, pe
 
 ## Stato
 
-**Nessun contract formale in UI.** Motivo: il modulo è il layer di presentazione condiviso e le sue 6 Action (`app/Actions/`) leggono o compongono dati di vista (blocchi, icone, mappatura giorni, dati utente per l'interfaccia, calendario del pannello): nessuna scrive dati, cambia permessi o ha effetti irreversibili. Le decisioni di confine (UI non autorizza dati di dominio, blocchi localizzati dal CMS) stanno negli ADR: [adr/INDEX.md](../adr/INDEX.md).
+**Nessun contract formale in UI.** Motivo: il modulo è il layer di presentazione condiviso e le sue 6 Action (`app/Actions/`) leggono o compongono dati di vista (blocchi, icone, mappatura giorni, dati utente per l'interfaccia, calendario del pannello): nessuna scrive dati, cambia permessi o ha effetti irreversibili. Le decisioni di confine (UI non autorizza dati di dominio, blocchi localizzati dal CMS) stanno negli ADR: [adr/INDEX.md](../adr/index.md).
 
 Se in futuro un'Action UI inizierà a scrivere dati o a decidere accessi, va aggiunto un contract nel formato a sei sezioni (`## Input`, `## Output`, `## Invarianti`, `## Effetti collaterali`, `## Errori`, `## Non fa`) con frontmatter `type: contract` e `action: "Modules\\UI\\Actions\\..."`, e un ID `UI-<AREA>-INV-<N>` per ogni invariante.
 
 ## File presenti
 
-- [INDEX.md](INDEX.md): registro operativo e backlog
-- [_template](_template.md): template
+- [index.md](index.md): registro operativo e backlog
+- [_template](template.md): template

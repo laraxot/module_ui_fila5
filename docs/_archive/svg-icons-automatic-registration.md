@@ -141,3 +141,15 @@ php artisan view:clear
 **Stato**: ✅ **CORRETTO - AUTOMATICO**  
 **Usage**: `<x-svg name="brands.facebook" />`  
 **Config**: ❌ **NON SERVONO CONFIGURAZIONI**
+
+## Contenuto fuso (origine: svg_icons_automatic_registration)
+
+# Test in browser
+# http://fixcity.local/it/tests/homepage
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
+```
+
+### Project Documentation
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+- [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report

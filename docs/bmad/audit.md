@@ -9,7 +9,7 @@ qmd: "audit BMAD UI sintesi source-first qualità finding P0 P1 PHPStan Pest"
 
 # Audit BMAD — UI
 
-SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [purpose.md](./purpose.md)
+SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [../wiki/purpose.md](../wiki/purpose.md)
 
 **In una frase:** UI è il vocabolario visivo condiviso (componenti, widget, colonne, layout tabella): fa sì che la stessa cosa abbia lo stesso aspetto e lo stesso comportamento in tutti i moduli che lo consumano.
 

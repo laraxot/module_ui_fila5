@@ -5,13 +5,14 @@ type: note
 tags: [documentation]
 ---
 
-https://www.embla-carousel.com/examples/predefined/
+# Carousel slider — risorse esterne
 
+> Fonti raccolte durante lo studio dell'argomento. Una fonte vale quando la si
+> collega a un punto del codice: leggila, poi trova dove è già applicata.
 
+## Riferimenti
 
-https://tw-elements.com/docs/standard/components/carousel/
-
-https://keen-slider.io/examples
-
-https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
-
+- <https://www.embla-carousel.com/examples/predefined/>
+- <https://tw-elements.com/docs/standard/components/carousel/>
+- <https://keen-slider.io/examples>
+- <https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library>

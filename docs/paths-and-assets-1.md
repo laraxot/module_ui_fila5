@@ -158,3 +158,67 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili
+
+## Contenuto fuso (origine: paths-and-assets_1)
+
+```
+/var/www/html/saluteora/
+├── laravel/                 # Applicazione Laravel (codice sorgente)
+│   ├── Modules/             # Moduli dell'applicazione
+│   ├── resources/           # Risorse non compilate
+│   └── ...
+└── public_html/             # Directory pubblica (web root)
+    ├── images/              # Immagini pubbliche
+    │   ├── avatars/         # Avatar utenti
+    │   └── ...
+    ├── css/                 # File CSS compilati
+    ├── js/                  # File JavaScript compilati
+    └── ...
+```
+
+| Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
+|---------------|---------------------|-------------------|
+| Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
+| CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
+| JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
+| SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
+
+```
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
+```
+
+```
+/var/www/html/saluteora/public_html/images/
+```
+
+```
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+```
+
+```
+/var/www/html/saluteora/public_html/images/avatars/
+```
+
+```
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+```
+
+> **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
+>
+> `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
+>
+> **MAI** in `resources/views/components/ui/` della root Laravel.
+
+**❌ Errato:**
+```
+/var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
+```
+**✅ Corretto:**
+```
+/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
+```
+
+1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
+2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
+3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
+4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

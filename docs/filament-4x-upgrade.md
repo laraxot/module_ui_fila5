@@ -301,3 +301,12 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 *Ultimo aggiornamento: [DATE]*
 *Modulo UI compatibile con Filament 4.0.20*
+
+## Contenuto fuso (origine: filament_4x_upgrade)
+
+**Data**: 2025-09-30
+**Status**: ✅ COMPLETATO
+**Versione Filament**: 4.0.20
+
+*Ultimo aggiornamento: 2025-09-30*
+*Modulo UI compatibile con Filament 4.0.20*

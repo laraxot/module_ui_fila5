@@ -337,3 +337,10 @@ document.addEventListener('state-transition', function(event) {
 **Last Updated**: June 2025
 **Version**: 2.1
 **Compatibility**: Filament 3.x, Laravel 10.x
+
+## Contenuto fuso (origine: iconstatesplitcolumn-implementation_1)
+
+```php
+use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
+use Modules\SaluteOra\States\Appointment\AppointmentState;
+use Modules\SaluteOra\Models\Appointment;

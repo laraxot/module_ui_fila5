@@ -158,3 +158,49 @@ E include le definizioni SVG direttamente nel componente.
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili
+
+## Contenuto fuso (origine: paths_and_assets)
+
+## Collegamenti correlati
+- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+- [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
+
+```
+/var/www/html/saluteora/
+├── laravel/                 # Applicazione Laravel (codice sorgente)
+│   ├── Modules/             # Moduli dell'applicazione
+│   ├── resources/           # Risorse non compilate
+│   └── ...
+└── public_html/             # Directory pubblica (web root)
+    ├── images/              # Immagini pubbliche
+    │   ├── avatars/         # Avatar utenti
+    │   └── ...
+    ├── css/                 # File CSS compilati
+    ├── js/                  # File JavaScript compilati
+    └── ...
+```
+
+```
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
+```
+
+```
+/var/www/html/saluteora/public_html/images/
+```
+
+```
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+```
+
+```
+/var/www/html/saluteora/public_html/images/avatars/
+```
+
+```
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+```
+
+1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
+2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
+3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
+4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

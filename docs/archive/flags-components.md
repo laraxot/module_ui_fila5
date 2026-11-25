@@ -199,3 +199,22 @@ Per visualizzare correttamente le bandiere, è necessario:
 ## Conclusione
 
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
+
+## Contenuto fuso (origine: flags_components)
+
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+
+I file SVG delle bandiere sono archiviati in:
+```
+[project-root]/laravel/Modules/UI/resources/svg/flags/
+```
+
+```blade
+/>
+```
+
+1. **Qualità Visiva**: Gli SVG sono vettoriali e mantengono la qualità a qualsiasi dimensione
+2. **Personalizzazione**: Facile da personalizzare con classi CSS
+3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
+4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>

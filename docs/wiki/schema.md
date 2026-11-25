@@ -21,7 +21,7 @@ docs/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
 │   ├── schema.md          # Questo file
-│   ├── SCHEMA.md          # Questo file
+│   ├── schema.md          # Questo file
 
 │   ├── schema.md          # Questo file
 │   ├── schema.md          # Questo file
@@ -43,10 +43,19 @@ docs/
 
 ---
 
-## Contenuto assorbito da `SCHEMA.md`
+## Contenuto assorbito da `schema.md`
 
 ## Contenuto assorbito da `schema.md`
 
 # Documento unificato
 
 Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, in violazione della regola no-case-only-variations. Il contenuto canonico si trova in [schema.md](./schema.md).
+
+## Contenuto fuso (origine: SCHEMA)
+
+```
+docs/
+├── wiki/
+│   ├── index.md           # Catalogo
+│   ├── log.md             # Registro
+│   ├── schema.md          # Questo file

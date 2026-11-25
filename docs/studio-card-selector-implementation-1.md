@@ -193,3 +193,16 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 **Last Updated**: January 2025
+
+## Contenuto fuso (origine: studio-card-selector-implementation_1)
+
+return \Modules\SaluteOra\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+        $q->where('postal_code', $cap)
+          ->where('administrative_area_level_3', $province)
+          ->where('administrative_area_level_2', $region);
+    })
+    ->where('active', true)
+    ->with(['address', 'doctors', 'specializations'])
+    ->get();
+}
+```

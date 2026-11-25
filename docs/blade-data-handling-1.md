@@ -142,3 +142,9 @@ Components should never rely on variables that haven't been explicitly defined a
 
 > **Note**: This document is the primary reference for Blade data handling patterns across all modules.
 > All module-specific implementations should link back to this document.
+
+## Contenuto fuso (origine: blade-data-handling_1)
+
+```blade
+<!-- INCORRECT: Hard-coded project references -->
+<div class="title">Welcome to SaluteOra</div>

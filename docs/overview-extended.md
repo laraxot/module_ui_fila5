@@ -237,7 +237,7 @@ php artisan ui:test-components
 ### 🏗️ **Architettura**
 - [Components Guide](components.md) - Guida completa componenti
 - [Design System](design-system.md) - Sistema design modulare
-- [Architecture Rules](archive/architecture_rules.md) - Regole architetturali
+- [Architecture Rules](archive/architecture-rules.md) - Regole architetturali
 - [Best Practices](best-practices.md) - Linee guida sviluppo
 
 ### 🔗 **Collegamenti Moduli**

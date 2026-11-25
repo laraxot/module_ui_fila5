@@ -228,3 +228,14 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 ## Conclusione
 
 Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggiore coerenza visiva, una migliore manutenibilità del codice e un'esperienza utente più fluida . Inoltre, possiamo beneficiare degli aggiornamenti e dei miglioramenti futuri di Filament senza dover modificare i nostri componenti personalizzati.
+
+## Contenuto fuso (origine: filament_blade_components_usage)
+
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+- ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
+- ❌ `<x-filament::layouts.base>` - Non esiste
+
+2. **Per le pagine frontend**:
+   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+   - Utilizzare Folio per il routing automatico
+   - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`

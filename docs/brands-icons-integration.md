@@ -297,3 +297,11 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 **Stato**: ✅ **ICONE REGISTRATE E PRONTE ALL'USO**  
 **Usage**: `<x-filament::icon icon="ui-brands.facebook" />`  
 **Filament Way**: ✅ **Implemented**
+
+## Contenuto fuso (origine: brands_icons_integration)
+
+# Test in browser
+# http://fixcity.local/it/tests/homepage
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
+```

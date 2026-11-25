@@ -209,7 +209,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 - [Documentazione Folio](https://laravel.com/docs/folio)
 - [Documentazione Laravel Localization](https://github.com/mcamara/laravel-localization)
 - [Best Practices UI](./UI_BEST_PRACTICES.md)
-- [Guida Componenti](components_guide.md)
+- [Guida Componenti](../_archive/components-guide.md)
 - [Componenti Blade Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 
 ## Gestione delle Rotte
@@ -461,3 +461,8 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
    - Gestire correttamente il logout con CSRF
+
+## Contenuto fuso (origine: architecture_rules)
+
+// Non hardcodare percorsi delle risorse
+<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">

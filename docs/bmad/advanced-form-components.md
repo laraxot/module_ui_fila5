@@ -328,3 +328,111 @@ updated: 2026-10-06
 - [Accessibilità](./standards/accessibility.md)
 
 ```
+
+## Contenuto fuso (origine: advanced_form_components)
+
+### Input con Validazione
+```html
+<div class="form-group">
+  <label for="email">Email</label>
+  <input 
+    type="email" 
+    id="email" 
+    class="form-control is-invalid"
+    aria-describedby="email-error"
+  >
+  <div id="email-error" class="invalid-feedback">
+    Inserisci un indirizzo email valido
+  </div>
+</div>
+```
+
+### Input con Autocompletamento
+```html
+<div class="form-group">
+  <label for="search">Cerca</label>
+  <input 
+    type="text" 
+    id="search" 
+    class="form-control"
+    list="suggestions"
+    autocomplete="off"
+  >
+  <datalist id="suggestions">
+    <option value="Suggerimento 1">
+    <option value="Suggerimento 2">
+  </datalist>
+</div>
+```
+
+### DatePicker
+```html
+<div class="form-group">
+  <label for="date">Data</label>
+  <div class="input-group datepicker">
+    <input 
+      type="text" 
+      id="date" 
+      class="form-control"
+      data-date-format="dd/mm/yyyy"
+    >
+    <span class="input-group-text">
+      <i class="fas fa-calendar"></i>
+    </span>
+  </div>
+</div>
+```
+
+### TimePicker
+```html
+<div class="form-group">
+  <label for="time">Ora</label>
+  <div class="input-group timepicker">
+    <input 
+      type="text" 
+      id="time" 
+      class="form-control"
+      data-time-format="HH:mm"
+    >
+    <span class="input-group-text">
+      <i class="fas fa-clock"></i>
+    </span>
+  </div>
+</div>
+```
+
+### Range Slider
+```html
+<div class="form-group">
+  <label for="range">Range</label>
+  <input 
+    type="range" 
+    id="range" 
+    class="form-range"
+    min="0"
+    max="100"
+    step="1"
+  >
+  <div class="range-value">50</div>
+</div>
+```
+
+### Input con Step
+```html
+<div class="form-group">
+  <label for="quantity">Quantità</label>
+  <div class="input-group">
+    <button class="btn btn-outline-secondary" type="button">-</button>
+    <input 
+      type="number" 
+      id="quantity" 
+      class="form-control text-center"
+      min="0"
+      max="100"
+      step="1"
+      value="1"
+    >
+    <button class="btn btn-outline-secondary" type="button">+</button>
+  </div>
+</div>
+```

@@ -237,3 +237,15 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Sistema di autenticazione e autorizzazione
 
 *Ultimo aggiornamento: [DATE]*
+
+## Contenuto fuso (origine: filament_4x_upgrade_report)
+
+**Data**: 2025-01-27  
+**Status**: ✅ COMPLETATO  
+**Versione Filament**: 4.0.17
+
+- [Guida Ufficiale Filament 4.x](https://filamentphp.com/docs/4.x/upgrade-guide)
+- [Pacchetto FullCalendar](https://github.com/saade/filament-fullcalendar)
+- [Documentazione Modulo UI](../README.md)
+
+*Ultimo aggiornamento: 2025-01-27*

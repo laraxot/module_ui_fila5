@@ -68,3 +68,11 @@ Le cartelle di import grezzo (`raw/`, `root-*-files/`), immagini e log sono escl
 | [`tasks/`](tasks/) | 9 |
 | [`themes/`](themes/) | 2 |
 | [`wiki/`](wiki/index.md) | 119 |
+
+## Contenuto fuso (origine: INDEX)
+
+- [Purpose](./purpose.md)
+- [BMAD](./bmad/00-index.md)
+- [ECC](./ecc/00-index.md)
+- [Audit](./bmad/audit.md)
+- [Piano di miglioramento](./bmad/piano-miglioramento.md)

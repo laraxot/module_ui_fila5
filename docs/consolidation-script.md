@@ -15,7 +15,7 @@ Questi file sono vuoti (0 bytes) e possono essere eliminati:
 cd laravel/Modules/UI/docs
 
 # File vuoti con underscore
-rm -f advanced_form_components.md
+rm -f advanced-form-components.md
 rm -f blade_data_handling.md
 rm -f naming_conventions.md
 rm -f phpstan_fixes_2025.md
@@ -27,14 +27,14 @@ Questi file hanno versioni con trattini che devono essere mantenute:
 
 ```bash
 # Advanced Form Components
-rm -f advanced_form_components.md
+rm -f advanced-form-components.md
 
 # Blade Components
 rm -f blade_data_handling.md
 
 # Filament Components
-rm -f filament_4x_upgrade.md
-rm -f filament_4x_upgrade_report.md
+rm -f filament-4x-upgrade.md
+rm -f filament-4x-upgrade-report.md
 rm -f filament_blade_components_usage.md
 rm -f filament_components.md
 rm -f filament_components_errors.md
@@ -65,7 +65,7 @@ rm -f naming_rules.md
 # PHPStan
 rm -f phpstan_fixes_2025.md
 rm -f phpstan_corrections_summary.md
-rm -f phpstan_radio_badge_fix.md
+rm -f phpstan-radio-badge-fix.md
 
 # VSCode
 rm -f vscode_filament_extension.md

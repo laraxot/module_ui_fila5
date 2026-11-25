@@ -23,13 +23,13 @@ tags: [structure, architecture, module]
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
 │   ├── skills/                   # Skill progettuali
-│   │   ├── INDEX.md
+│   │   ├── index.md
 │   │   └── *.md
 │   ├── commands/                 # Comandi progettuali
-│   │   ├── INDEX.md
+│   │   ├── index.md
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
-│   │   ├── INDEX.md
+│   │   ├── index.md
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions

@@ -5,5 +5,11 @@ type: note
 tags: [documentation]
 ---
 
-https://github.com/spatie/laravel-searchable
+# Global search — risorse esterne
 
+> Fonti raccolte durante lo studio dell'argomento. Una fonte vale quando la si
+> collega a un punto del codice: leggila, poi trova dove è già applicata.
+
+## Riferimenti
+
+- <https://github.com/spatie/laravel-searchable>
