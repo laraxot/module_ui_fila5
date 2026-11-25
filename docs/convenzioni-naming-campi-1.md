@@ -8,11 +8,7 @@ tags: [documentation]
 # Convenzioni di Naming dei Campi
 
 ## Collegamenti Bidirezionali
-<<<<<<< HEAD
 - [Best Practices UI](../best-practices.md)
-=======
-- [Best Practices UI](../../Activity/docs/best-practices-3.md)
->>>>>>> laraxot/dev
 - [Errori Comuni UI](../filament-components-errors.md)
 - [Implementazione Corretta](../examples/correct-implementation.md)
 
@@ -112,11 +108,7 @@ TextInput::make('full_name')
 ## Collegamenti Correlati
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
-<<<<<<< HEAD
 - [Best Practices Database](../../../docs/database/best-practices.md)
-=======
-- [Best Practices Database](../../Activity/docs/best-practices-3.md)
->>>>>>> laraxot/dev
 - [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)

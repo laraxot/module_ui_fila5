@@ -13,14 +13,10 @@ tags: [documentation]
 ## 🪮 Ponytail audit
 
 - [ponytail-audit-over-engineering.md](./ponytail-audit-over-engineering.md)
-- [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
+- [wiki/concepts/quality-testing-verification.md#ponytail-audit](./wiki/concepts/ponytail-audit.md)
 
 ## 🎯 **Lettura Essenziale**
-<<<<<<< HEAD
 1. [README.md](./readme.md) - Design System e overview componenti.
-=======
-1. [README.md](./README.md) - Design System e overview componenti.
->>>>>>> laraxot/dev
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
 3. [philosophy.md](./philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
 
@@ -51,11 +47,8 @@ tags: [documentation]
 - [Master Index Tema](../../Themes/Sixteen/docs/design-comuni/00-index.md) - Index tema Sixteen
 
 ### Link Bidirezionali - Modulo Cms
-<<<<<<< HEAD
 - [Cms Design Comuni Index](../Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
 
-=======
->>>>>>> laraxot/dev
 - [Cms Design Comuni Index](../Cms/docs/design_comuni_index.md) - Index completo modulo Cms
 - [Cms FAQ](../Cms/docs/design-comuni-faq.md) - Architettura pagina FAQ
 - [Cms Homepage](../Cms/docs/design-comuni-homepage.md) - Analisi homepage
@@ -78,17 +71,16 @@ tags: [documentation]
 
 ## 🧪 **Qualità e Sviluppo**
 - ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
-- 🔬 **[Testing UI](wiki/concepts/testing.md)** - Test di regressione visuale e componenti.
+- 🔬 **[Testing UI](wiki/concepts/quality-testing-verification.md#testing)** - Test di regressione visuale e componenti.
 
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
 
 ## 📦 **Pacchetti Composer**
-- [Riferimento completo](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md)
+- [Riferimento completo](../../../../bashscripts/ai/wiki/memories/migrations-composer-modules.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md)
 - `owenvoke/blade-fontawesome` - Icone FontAwesome
 
 ## 🔗 **Moduli Correlati**
-<<<<<<< HEAD
 - [Xot](../../xot/docs/readme.md) - Base framework per i widget.
 - [Cms](../../cms/docs/readme.md) - Layout dei contenuti e blocchi.
 
@@ -118,10 +110,6 @@ tags: [documentation]
 | Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
 | Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
 | Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
-=======
-- [Xot](../../Xot/docs/README.md) - Base framework per i widget.
-- [Cms](../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
->>>>>>> laraxot/dev
 
 ---
 

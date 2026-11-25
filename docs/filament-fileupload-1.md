@@ -98,11 +98,7 @@ return [
 ## Collegamenti
 - [Translation System](../../Lang/docs/translation-system.md)
 - [Form Components](../../Patient/docs/filament-form-components.md)
-<<<<<<< HEAD
 - [Best Practices](../../Xot/docs/filament-best-practices.md)
-=======
-- [Best Practices](../../Xot/docs/consolidated/filament-best-practices-2.md)
->>>>>>> laraxot/dev
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)

@@ -28,7 +28,7 @@ zero utilizzatori) è stato convertito e spostato in
 ## Perché
 
 - **Logica**: nwidart isola il dominio per modulo; root `app/` deve restare
-  bootstrap/skeleton (vedi `bashscripts/ai/.agents/rules/root-scripts.md` e
+  bootstrap/skeleton (vedi `bashscripts/ai/.agents/rules/architecture.md` e
   `docs/chat/multiagent-gate-2026-07-14.md`).
 - **Filosofia**: un solo pattern per "oggetto dati immutabile" nel repo
   (`spatie/laravel-data`) invece di DTO custom reinventati per ogni feature —

@@ -23,7 +23,7 @@ related:
 
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
-- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../../bashscripts/ai/wiki/concepts/agents-harness-tooling.md#hackernoon-ai-coding-tips-fixcity-map)
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
 - [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
@@ -34,7 +34,7 @@ related:
 
 ## Karpathy LLM Wiki Standard
 
-- [forbidden-folders-rule](../../../../docs/wiki/concepts/forbidden-folders.md): Strict structural constraints.
+- [forbidden-folders-rule](../../../../../bashscripts/ai/wiki/concepts/modules-structure-rules.md#forbidden-folders): Strict structural constraints.
 - [llm-wiki-standard](../../../../docs/project/karpathy-llm-wiki-adoption.md): Repository mapping and knowledge lifecycle.
 
 ## Sacred Hierarchy

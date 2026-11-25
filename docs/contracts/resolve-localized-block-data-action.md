@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "ResolveLocalizedBlockDataAction — contratto"
 type: contract
 owner: UI
@@ -9,14 +8,6 @@ action: "Modules\\UI\\Actions\\Block\\ResolveLocalizedBlockDataAction"
 qmd: "ResolveLocalizedBlockDataAction dati block localizzati delega Cms view params"
 tags: [contract, action, blocks, cms, localization]
 created: 2026-11-24
-=======
-title: "Contratto — ResolveLocalizedBlockDataAction (UI)"
-type: contract
-action: "Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction"
-tags: [contract, action, blocks, cms, localization]
-created: 2026-11-24
-updated: 2026-11-24
->>>>>>> laraxot/dev
 ---
 
 # ResolveLocalizedBlockDataAction (UI)

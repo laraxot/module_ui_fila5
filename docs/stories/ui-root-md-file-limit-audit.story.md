@@ -29,11 +29,7 @@ Root keepers (6, invariati salvo CHANGELOG.md):
 
 - `architecture.md`
 - `testing.md`
-<<<<<<< HEAD
 - `PHILOSOPHY.md`
-=======
-- `philosophy-3.md`
->>>>>>> laraxot/dev
 - `GETTING_STARTED.md`
 - `CHANGELOG.md`
 
@@ -57,20 +53,12 @@ Per gli altri 25, poiché il contenuto era già duplicato verbatim (o quasi) in 
 | custom-theme.md | docs/raw/root-import/custom-theme-1.md | docs/raw/root-import/custom-theme.md | quasi identico (solo H1+commento ridondanti in root) |
 | eav.md | docs/raw/root-import/eav-1.md | docs/raw/root-import/eav.md | identico |
 | effetcts.md | docs/raw/root-import/effetcts-1.md | docs/raw/root-import/effetcts.md | identico |
-<<<<<<< HEAD
 | filament.md | docs/raw/root-import/filament.md | docs/raw/root-import/filament.md | identico |
-=======
-| filament-3.md | docs/raw/root-import/filament.md | docs/raw/root-import/filament.md | identico |
->>>>>>> laraxot/dev
 | flip-cards.md | docs/raw/root-import/flip-cards-1.md | docs/raw/root-import/flip-cards.md | identico |
 | global-search.md | docs/raw/root-import/global-search-1.md | docs/raw/root-import/global-search.md | identico |
 | links.md | docs/raw/root-import/links.md | docs/raw/root-import/links.md | identico |
 
-<<<<<<< HEAD
 | filament.md | docs/raw/root-import/filament-1.md | docs/raw/root-import/filament.md | identico |
-=======
-| filament-3.md | docs/raw/root-import/filament-1.md | docs/raw/root-import/filament.md | identico |
->>>>>>> laraxot/dev
 | flip-cards.md | docs/raw/root-import/flip-cards-1.md | docs/raw/root-import/flip-cards.md | identico |
 | global-search.md | docs/raw/root-import/global-search-1.md | docs/raw/root-import/global-search.md | identico |
 | links.md | docs/raw/root-import/links-1.md | docs/raw/root-import/links.md | identico |
@@ -104,29 +92,17 @@ find laravel/Modules/UI -maxdepth 1 -iname '*.md' | wc -l
 # 6
 ```
 
-<<<<<<< HEAD
 Root risultante: `architecture.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `PHILOSOPHY.md`, `README.md`, `testing.md`.
 
 ## Nota fuori scope
 
 Root risultante: `ARCHITECTURE.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `PHILOSOPHY.md`, `README.md`, `TESTING.md`.
-=======
-Root risultante: `architecture.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `philosophy-3.md`, `README.md`, `testing.md`.
-
-## Nota fuori scope
-
-Root risultante: `ARCHITECTURE.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `philosophy-3.md`, `README.md`, `TESTING.md`.
->>>>>>> laraxot/dev
 
 ## Nota fuori scope
 
 Trovati due file untracked pre-esistenti (non creati da questo task, timestamp 2026-09-06 12:37, precedenti a questa sessione): `docs/GETTING_STARTED.md` e `docs/TESTING.md`, contenuto identico ai keeper di root. Probabile residuo di un'altra sessione/tool di scaffolding. Non toccati: fuori dallo scope di questo task (igiene della ROOT del modulo, non di `docs/`) e non lockati da nessuno al momento della verifica.
 
-<<<<<<< HEAD
 Root risultante: `architecture.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `PHILOSOPHY.md`, `README.md`, `testing.md`.
-=======
-Root risultante: `architecture.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `philosophy-3.md`, `README.md`, `testing.md`.
->>>>>>> laraxot/dev
 
 Trovati due file untracked pre-esistenti (non creati da questo task, timestamp 2026-09-06 12:37, precedenti a questa sessione): `docs/GETTING_STARTED.md` e `docs/testing.md`, contenuto identico ai keeper di root. Probabile residuo di un'altra sessione/tool di scaffolding. Non toccati: fuori dallo scope di questo task (igiene della ROOT del modulo, non di `docs/`) e non lockati da nessuno al momento della verifica.
 

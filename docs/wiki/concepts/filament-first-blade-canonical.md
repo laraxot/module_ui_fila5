@@ -7,11 +7,7 @@ created: 2026-05-28
 tags: [filament, ui, blade]
 related:
   - ../../../../../../docs/wiki/rules/filament-first-rule.md
-<<<<<<< HEAD
   - ../../blade/filament-components.md
-=======
-  - ../../../../Cms/docs/filament-components-2.md
->>>>>>> laraxot/dev
 ---
 
 # UI — Filament Blade canonical
@@ -20,11 +16,7 @@ Il modulo **UI** documenta l’uso dei componenti Blade Filament condivisi tra t
 
 ## Regola
 
-<<<<<<< HEAD
 Leggere prima [filament-first-rule.md](../../../../../../docs/wiki/rules/filament-first-rule.md) (Rule 019). Il file [filament-components.md](../../blade/filament-components.md) elenca mapping tag → anti-pattern.
-=======
-Leggere prima [filament-first-rule.md](../../../../../../docs/wiki/rules/filament-first-rule.md) (Rule 019). Il file [filament-components-2.md](../../../../Cms/docs/filament-components-2.md) elenca mapping tag → anti-pattern.
->>>>>>> laraxot/dev
 
 ## Filament 5
 

@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Ci 1"
 type: reference
 qmd: "ui ci 1"
 module: UI
 ---
->>>>>>> laraxot/dev
 ---------------------------------------------------------------------------------------------------
 Automatic Code formatting for Apps with Laravel Code Style
 https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style

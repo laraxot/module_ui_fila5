@@ -67,11 +67,7 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 
 # Genera sommario
-<<<<<<< HEAD
 qmd multi-get $(qmd search "$1" -c main_docs | head -10) | awk '/^# / {print; getline; print; print ""}' > summary.md
-=======
-qmd multi-get $(qmd search "$1" -c main_docs | head -10) | awk '/^# / {print; getline; print; print ""}' > summary-2.md
->>>>>>> laraxot/dev
 ```
 
 ### script/compress-prompt.py
@@ -179,4 +175,4 @@ Verificare:
 ## Riferimenti
 
 - `../../../../../docs/ai/claude/context-compression-mcp.md`
-- `../../../../../docs/wiki/sources/context-compression-mcp-setup.md`
+- `../../../../../bashscripts/ai/wiki/sources/sources.md#context-compression-mcp-setup`

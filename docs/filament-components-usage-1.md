@@ -10,11 +10,7 @@ tags: [documentation]
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Architettura Modulare](/docs/architettura-modulare.md)
-<<<<<<< HEAD
 - [Percorsi e Asset](/laravel/Modules/UI/docs/PATHS_AND_ASSETS.md)
-=======
-- [Percorsi e Asset](/laravel/Modules/UI/docs/archive/paths-and-assets-2.md)
->>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Panoramica

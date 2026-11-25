@@ -77,11 +77,7 @@ Blade::anonymousComponentPath(...)
 - ✅ `resources/svg/brands/rss.svg`
 
 ### Documentation
-<<<<<<< HEAD
 - ✅ `docs/SVG_ICONS_AUTOMATIC_REGISTRATION.md` (this file)
-=======
-- ✅ `svg-icons-automatic-registration-2.md` (this file)
->>>>>>> laraxot/dev
 
 ## 🔧 How It Works
 
@@ -145,19 +141,11 @@ php artisan view:clear
 - [Component Libraries](https://laravel.com/docs/blade#managing-component-libraries)
 
 ### Project Documentation
-<<<<<<< HEAD
 - [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md) - Old (with mistakes)
 - [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md) - Old (with mistakes)
 - [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
 - [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md) - Old (with mistakes)
 - [BRANDS_ICONS_INTEGRATION.md](brands_icons_integration.md) - Old (with mistakes)
-=======
-- [brands-icons-integration-2.md](brands-icons-integration-2.md) - Old (with mistakes)
-- [brands-icons-integration-2.md](brands-icons-integration-2.md) - Old (with mistakes)
-- [brands-icons-integration-2.md](brands-icons-integration.md) - Old (with mistakes)
-- [brands-icons-integration-2.md](brands-icons-integration-2.md) - Old (with mistakes)
-- [brands-icons-integration-2.md](brands-icons-integration-2.md) - Old (with mistakes)
->>>>>>> laraxot/dev
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 
 ---

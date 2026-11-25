@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Flip Cards 1"
 type: note
 qmd: "flip cards 1"
 ---
->>>>>>> laraxot/dev
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 

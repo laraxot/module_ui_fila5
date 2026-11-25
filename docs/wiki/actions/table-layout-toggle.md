@@ -137,6 +137,6 @@ class MyListRecords extends ListRecords
 Vedi [bugfix](../../bugfix-table-layout-toggle-not-working.md): bastano `resetTable()` + `$wire.$refresh()` dopo `setTableLayout()`.
 ## Collegamenti
 - [Bugfix doppio click](../../bugfix-table-layout-toggle-not-working.md)
-- [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
+- [Disciplina agente](../../../../../../bashscripts/ai/wiki/memories/filament-tables-forms-xotbase.md#agent-table-layout-toggle-discipline)
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)

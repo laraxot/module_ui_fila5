@@ -1,20 +1,14 @@
 ---
-<<<<<<< HEAD
 title: "Story — bonifica marker merge residui modulo UI"
 
-=======
->>>>>>> laraxot/dev
 title: "Story: bonifica marker merge residui modulo UI"
 type: story
 module: UI
 epic: quality
 status: done
 related:
-<<<<<<< HEAD
   - ../../../Xot/docs/bmad/stories/merge-marker-fleet-residue.story.md
 
-=======
->>>>>>> laraxot/dev
   - ../../../../Xot/docs/bmad/stories/merge-marker-fleet-residue.story.md
 updated: 2026-10-23
 tags: [docs, ui, bmad]
@@ -145,11 +139,7 @@ concatenate o interleaved** (2-9 copie dello stesso doc): in quei casi tenuta un
 | docs/philosophy.md | 3 | union | variante "Predictable" (coerente col doc, forma maggioritaria) |
 | docs/project-structure.md | 1 | ours | lowercase `architecture.md` |
 | docs/root-md-files/changelog.md | 3 | ours | file non presente in worktree (contenuto in `raw/root-import/changelog.md`) |
-<<<<<<< HEAD
 | docs/root-md-files/philosophy.md | 1 | ours | file non presente in worktree |
-=======
-| ../../../../Lang/docs/philosophy-3.md | 1 | ours | file non presente in worktree |
->>>>>>> laraxot/dev
 | docs/spatie-media-library-migration-1.md | 4 | file eliminato | variante stale `saluteora`+Filament 3.x di spatie-media-library-migration.md |
 | docs/spatie-media-library-migration-1.md | 7 | file eliminato | idem |
 | docs/spatie-media-library-migration.md | 2 | ours | theirs vuoto |
@@ -177,15 +167,9 @@ concatenate o interleaved** (2-9 copie dello stesso doc): in quei casi tenuta un
 | docs/blade-data-handling-1.md | risolto in place | blocco blank-vs-whitespace |
 | docs/file-naming-rules.md | risolto (ours) | `CHANGELOG.md` coerente con la regola del doc stesso |
 | docs/filosofia-modulo-ui.md | risolto (ours ×2) | `modulo operativo` generico vs `TechPlanner` stale |
-<<<<<<< HEAD
 | docs/testing.md | risolto (union) | `<nome progetto>_data_test`: entrambi i lati stale (`<nome progetto>`/`modulo questionari` rotto) |
 | docs/wiki/context-compression.md | risolto (union) | `<nome progetto>-docs` + `project-docs`; droppato `fixcity` |
 | docs/wiki/schema.md | risolto | solo `schema.md` nel tree (il doc stesso dichiara SCHEMA.md duplicato) |
-=======
-| docs/testing.md | risolto (union) | `<nome progetto>_data_test`: entrambi i lati stale (`quaeris`/`modulo questionari` rotto) |
-| docs/wiki/context-compression.md | risolto (union) | `<nome progetto>-docs` + `project-docs`; droppato `fixcity` |
-| docs/wiki/schema.md | risolto | solo `schema-3.md` nel tree (il doc stesso dichiara schema-3.md duplicato) |
->>>>>>> laraxot/dev
 | docs/SVG_ICONS_AUTOMATIC_REGISTRATION.md | eliminato | dup UPPERCASE del file kebab (contenuto identico) |
 | docs/BRANDS_ICONS_INTEGRATION.md | eliminato | dup UPPERCASE di brands-icons-integration.md |
 | docs/architecture_rules.md | eliminato | sottoinsieme snake di architecture-rules.md (0 righe uniche) |
@@ -196,11 +180,8 @@ concatenate o interleaved** (2-9 copie dello stesso doc): in quei casi tenuta un
 
 ### Altri duplicati stale eliminati (convenzione kebab, canonico presente)
 
-<<<<<<< HEAD
 `blade-data-handling_1.md`, `_integration/{carousel_slider,custom_firm_fields,custom_theme,
 
-=======
->>>>>>> laraxot/dev
 `blade-data-handling.md`, `_integration/{carousel_slider,custom_firm_fields,custom_theme,
 flip_cards,page_builder,tailwind_themes}.md`, `standards/{form_standards,auth_form_standards}.md`,
 `svg_icons_automatic_registration.md`, `DESIGN_COMUNI_IMPLEMENTATION.md`,
@@ -216,18 +197,14 @@ righe stale `saluteora`/`fixcity`/`project_docs`). Refs rotte verso i file elimi
 in `architecture-patterns.md`, `svg-icons-automatic-registration.md`,
 `_archive/svg-icons-automatic-registration.md`, `filament-components-usage.md`,
 `legacy/filament-components-usage.md`, `roadmap/roadmap.md`, `conflitti_merge_risolti.md`,
-<<<<<<< HEAD
 
 `legacy/filament-components-usage.md`, `roadmap/roadmap.md`, `conflitti_merge_risolti.md`,
-=======
->>>>>>> laraxot/dev
 `_archive/conflitti_merge_risolti.md`, `_archive/filament_components_usage.md`.
 
 ### Esito verifica
 
 - `grep -rn '^<<<<<<<\|^=======$\|^>>>>>>>\|^|||||||'` su `laravel/Modules/UI` → **0 hit**.
 - File con menzioni `<<<<<<<` in prosa/backtick (story/doc sui marker): lasciati intatti.
-<<<<<<< HEAD
 - `PHILOSOPHY.md` (1311 righe, doc diverso e più ricco di `philosophy.md`) **mantenuto**:
   contenuto distinto, non un duplicato — solo naming non conforme (segnalato).
 - Debris `ours+theirs` residui (righe duplicate consecutive) restano in ~35 file NON nel pack
@@ -243,12 +220,3 @@ in `architecture-patterns.md`, `svg-icons-automatic-registration.md`,
 - `docs/raw/root-import/` contiene varianti `-1` dei doc importati (es. `changelog-1.md`):
   non toccate, area `raw/` dichiarata immutable dal wiki schema.
   `overview-extended.md`): non toccati, fuori scope del pack: da instradare a batch dedicato.
-=======
-- `philosophy-3.md` (1311 righe, doc diverso e più ricco di `philosophy-3.md`) **mantenuto**:
-  contenuto distinto, non un duplicato: solo naming non conforme (segnalato).
-- Debris `ours+theirs` residui (righe duplicate consecutive) restano in ~35 file NON nel pack
-  (es. `readme.md`, `frontend.md`, `studio-card-selector-implementation.md`,
-  `overview-extended.md`): non toccati, fuori scope del pack: da instradare a batch dedicato.
-- `docs/raw/root-import/` contiene varianti `-1` dei doc importati (es. `changelog-1.md`):
-  non toccate, area `raw/` dichiarata immutable dal wiki schema.
->>>>>>> laraxot/dev

@@ -24,7 +24,7 @@ tags: [documentation]
 
 ## Collegamenti
 
-- [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
+- [wiki/concepts/quality-testing-verification.md#ponytail-audit](./wiki/concepts/ponytail-audit.md)
 - [00-INDEX.md](./00-INDEX.md)
 
 - [00-index.md](./00-index.md)

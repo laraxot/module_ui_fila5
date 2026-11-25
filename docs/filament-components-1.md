@@ -11,11 +11,7 @@ tags: [documentation]
 
 ### Errori Comuni
 - [Errori nei Componenti Filament](./filament-components-errors.md)
-<<<<<<< HEAD
 - [Best Practices UI](../../best-practices.md)
-=======
-- [Best Practices UI](../../Activity/docs/best-practices-3.md)
->>>>>>> laraxot/dev
 - [Implementazione Corretta](../../examples/correct-implementation.md)
 
 ### Componenti Specifici
@@ -67,16 +63,8 @@ tags: [documentation]
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
-<<<<<<< HEAD
 ## Collegamenti tra versioni di filament-components.md
 * [filament-components.md](../../User/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/filament-components.md)
 * [filament-components.md](../../../docs/rules/filament-components.md)
-=======
-## Collegamenti tra versioni di filament-components-2.md
-* [filament-components-2.md](../../User/docs/best-practices/filament-components.md)
-* [filament-components-2.md](../../Cms/docs/best-practices/filament-components.md)
-* [filament-components-2.md](../../Cms/docs/filament-components.md)
-* [filament-components-2.md](../../Cms/docs/filament-components-2.md)
->>>>>>> laraxot/dev

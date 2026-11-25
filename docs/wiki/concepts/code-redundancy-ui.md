@@ -9,11 +9,7 @@ updated: "2026-05-26"
 related:
   - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
   - ../../../redundancy-audit.md
-<<<<<<< HEAD
   - ../../../redundancy-report.md
-=======
-  - ../../../../Geo/docs/redundancy-report-2.md
->>>>>>> laraxot/dev
 ---
 
 # Ridondanza — UI

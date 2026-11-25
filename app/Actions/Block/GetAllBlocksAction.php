@@ -16,13 +16,9 @@ use Webmozart\Assert\Assert;
 use function Safe\realpath;
 
 /**
-<<<<<<< HEAD
- * @see docs/contracts/get-all-blocks-action.md
-=======
  * Blocchi del page builder trovati in app/Filament/Blocks di ogni modulo.
  *
- * @see Modules/UI/docs/contracts/get-all-blocks-action.md
->>>>>>> laraxot/dev
+ * @see docs/contracts/get-all-blocks-action.md
  *
  * @contract docs/contracts/get-all-blocks-action.md
  */

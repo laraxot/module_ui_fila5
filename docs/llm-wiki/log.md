@@ -15,11 +15,7 @@ tags: [documentation]
 
 ## [2026-04-15] maintenance | Initial wiki setup
 - Created: llm-wiki/ directory structure
-<<<<<<< HEAD
 - Created: AGENTS.md (agent instructions)
-=======
-- Created: agents-2.md (agent instructions)
->>>>>>> laraxot/dev
 - Created: index.md (content catalog)
 - Created: log.md (this file)
 - Directories initialized:

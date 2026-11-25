@@ -8,7 +8,7 @@ status: done
 related:
   - ../../../../Xot/docs/stories/17.1.phpstan-modules-202-errors-fix.story.md
   - ../../wiki/concepts/testing.md
-  - ../../../../../docs/wiki/memories/ensures-ui-database-schema-trait-deleted.md
+  - ../../../../../../bashscripts/ai/wiki/memories/testing-pest-database.md#ensures-ui-database-schema-trait-deleted
 ---
 
 # ensures-ui-database-schema-trait-unused

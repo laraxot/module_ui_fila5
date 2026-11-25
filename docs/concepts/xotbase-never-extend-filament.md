@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 title: "UI — mai Filament\\*, sempre XotBase*"
-=======
-title: "UI — mai Filament\*, sempre XotBase*"
->>>>>>> laraxot/dev
 type: concept
 module: UI
 tags: [ui, filament, xotbase, architecture]

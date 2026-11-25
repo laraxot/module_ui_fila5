@@ -87,7 +87,7 @@ Nel progetto, il plugin `chartjs-plugin-datalabels` è **già registrato nel mod
 - **KISS**: Configurazione semplice e centralizzata
 - **Coerenza**: Tutti i moduli ereditano automaticamente gli asset chart
 
-Per dettagli completi, vedere [chart-assets-centralization-rule.md](../../chart/docs/chart-assets-centralization-rule.md).
+Per dettagli completi, vedere [charts-custom-question.md#chart-assets-centralization-rule](../../../../../bashscripts/ai/wiki/memories/charts-custom-question.md#chart-assets-centralization-rule).
 
 ### Se Usi un Panel Separato per UI
 

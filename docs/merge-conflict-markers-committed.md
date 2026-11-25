@@ -46,11 +46,6 @@ git diff --name-only | while read f; do case "$f" in *.php) php -l "$f";; esac; 
 php -d memory_limit=-1 ./vendor/bin/phpstan analyse Modules
 ```
 
-<<<<<<< HEAD
-## Riferimenti
-
-- [Story 5.8 — pulizia marker di merge](./stories/5.8.merge-conflict-markers-cleanup.story.md)
-=======
 ## Rientro del sync di `laraxot/dev` (novembre): nove file PHP
 
 `bashscripts/git/subtrees/merge_remote_repo_2.sh` unisce `laraxot/dev` in ogni modulo e chiude con `commit -am .`:
@@ -77,4 +72,3 @@ rientrati dal merge. `Xot/tests/Unit/Architecture/DatasFolderConventionTest` vie
 
 - [Story 5.8 — pulizia marker di merge](./stories/5.8.merge-conflict-markers-cleanup.story.md)
 - [Story 20 — rientro del sync nei nove file di `app/`](./stories/20.ui-sync-marker-repair.story.md)
->>>>>>> laraxot/dev

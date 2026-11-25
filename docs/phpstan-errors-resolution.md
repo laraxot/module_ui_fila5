@@ -33,7 +33,7 @@ Trait Modules\UI\Filament\Traits\HasTableLayoutPage is used zero times and is no
 - This is a PHPStan analysis limitation, not a code issue
 - Trait serves its intended purpose (page layout configuration)
 
-**Related**: See [PHPStan Bootstrap Learnings](../../docs/wiki/phpstan/bootstrap-learnings.md) for trait analysis limitations.
+**Related**: See [PHPStan Bootstrap Learnings](../../../../bashscripts/ai/wiki/phpstan/phpstan.md#bootstrap-learnings) for trait analysis limitations.
 
 ---
 
@@ -110,6 +110,6 @@ UI module has minimal direct PHPStan violations:
 ---
 
 **See Also**:
-- `/docs/wiki/phpstan/bootstrap-learnings.md` — general PHPStan patterns
+- `bashscripts/ai/wiki/phpstan/phpstan.md#bootstrap-learnings` — general PHPStan patterns
 - `/Modules/UI/docs/geo-boundary.md` — geographic service integration
 - Root `.gitignore` — build artifacts and cache files

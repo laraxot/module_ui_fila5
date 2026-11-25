@@ -5,10 +5,6 @@
 # - docs/wiki/rules/root-cleanup-policy.md
 # - docs/wiki/rules/module-theme-root-cleanup.md
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # -----------------------------------------------------------------------------
 # Forbidden root directories / AI tooling
 /bashscripts/
@@ -30,10 +26,6 @@
 tests/.claude-audit/
 tests/AuditCoverage/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Documentation cleanup
 docs/archive/
 docs/archived/
@@ -58,10 +50,6 @@ docs/**/*-[0-9][0-9].md
 docs/**/*_[0-9].md
 docs/**/*_[0-9][0-9].md
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Dependencies
 /vendor/
 /node_modules/
@@ -71,20 +59,12 @@ composer.lock
 package-lock.json
 yarn.lock
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Python / virtual environments
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Build / compiled artifacts
 /build/
 /dist/
@@ -95,10 +75,6 @@ public/css/compiled/
 public/js/compiled/
 public/mix-manifest.json
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Laravel runtime
 /storage/*.key
 /public/storage
@@ -106,10 +82,6 @@ public/mix-manifest.json
 /public_html/storage
 /public_html/hot
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Environment / local configuration
 .env
 .env.*
@@ -121,10 +93,6 @@ config/development.php
 Homestead.yaml
 Homestead.json
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # IDE / editor
 /.idea/
 /.vscode/
@@ -135,10 +103,6 @@ Homestead.json
 .phpintel
 .phpstorm.meta.php
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Cache / temporary files
 .php-cs-fixer.cache
 .phpunit.result.cache
@@ -154,10 +118,6 @@ Homestead.json
 
 v8-compile-cache-*
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Logs
 *.log
 error_log
@@ -166,10 +126,6 @@ npm-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Git / merge / rebase leftovers
 .git-rewrite/
 .git-blame-ignore-revs
@@ -185,10 +141,6 @@ lerna-debug.log*
 *~REMOTE
 *~head
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Backup / old files
 *.old
 *.old1
@@ -202,10 +154,6 @@ lerna-debug.log*
 *.bak
 *.new
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Legacy directories
 resources/views/Components_old/
 resources/lang/
@@ -216,10 +164,6 @@ database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # UI module specific
 *.fila2
 
@@ -232,10 +176,6 @@ design_notes.txt
 /laravel/
 /public_html/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # System files
 .DS_Store
 .DS_Store?
@@ -250,10 +190,6 @@ ehthumbs.db
 
 agentdb.rvf
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Root quality tools
 phpstan*
 phpmd*
@@ -305,18 +241,7 @@ app/Application
 audit-coverage/
 
 # Regole portate dal remoto laraxot/dev (sync del 24/11), unite alla base senza perdere nulla
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Tooling locale e config agenti (module-theme-root-hygiene)
-=======
-<<<<<<< .merge_file_RZEmXF
-# Tooling locale e config agenti (module-theme-root-hygiene)
-=======
->>>>>>> .merge_file_TQ7gx4
->>>>>>> laraxot/dev
-=======
-# Tooling locale e config agenti (module-theme-root-hygiene)
->>>>>>> laraxot/dev
 .agents/
 .codex/
 .cursor/
@@ -325,19 +250,10 @@ audit-coverage/
 .php-cs-fixer.php
 .php-cs-fixer.dist.php
 tests/coverage-*.*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 
 # screenshot di comparazione visiva (artefatti locali)
 docs/project/visual-comparison/
 docs/visual-comparison/
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 # fila5-guard: mai nel repo di un modulo/tema
 /tests/coverage/

@@ -303,11 +303,7 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 
 ## 🔗 Collegamenti
 
-<<<<<<< HEAD
 - [Filosofia UI](./philosophy.md)
-=======
-- [Filosofia UI](../philosophy-2.md)
->>>>>>> laraxot/dev
 - [Components Guide](./components.md)
 - [Architecture Guide](./architecture.md)
 

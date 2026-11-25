@@ -25,6 +25,6 @@ title: EnumSelect Best Practices
 - Assuming `BackedEnum` implements `HasLabel`/`HasIcon`; always check with `instanceof`.
 
 ## References
-- `docs/wiki/concepts/filament5-section-namespace.md`
+- `bashscripts/ai/wiki/concepts/filament-widgets.md#filament5-section-namespace`
 - `docs/wiki/concepts/filament5-infolist-wizard-summary.md`
 - `memory/feedback_filament5_section_namespace.md`

@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Graphify Knowledge Graph"
 type: note
 qmd: "graphify knowledge graph"
 ---
->>>>>>> laraxot/dev
 # Graphify Knowledge Graph
 
 ## Overview

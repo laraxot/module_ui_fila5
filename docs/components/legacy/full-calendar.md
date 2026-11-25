@@ -260,11 +260,7 @@ To use the widget in a Blade view:
 
 ## Backlinks and References
 
-<<<<<<< HEAD
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
-=======
-- [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-2.md)
->>>>>>> laraxot/dev
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 

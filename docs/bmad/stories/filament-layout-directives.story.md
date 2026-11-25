@@ -6,7 +6,7 @@ module: UI
 updated: 2026-11-16
 qmd: "Filament layout @filamentStyles @filamentScripts UI main master notifications no Cms"
 related:
-  - ../../../../../../docs/wiki/memories/filament5-layout-contract-shared-modules.md
+  - ../../../../../../bashscripts/ai/wiki/memories/filament-tables-forms-xotbase.md#filament5-layout-contract-shared-modules
   - ../../../Xot/docs/bmad/stories/module-portfolio-topology-no-cms-in-ptvx.story.md
 ---
 

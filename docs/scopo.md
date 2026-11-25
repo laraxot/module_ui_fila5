@@ -178,7 +178,7 @@ ls -d Modules/UI/app/Data Modules/UI/app/Datas 2>/dev/null | wc -l       # obiet
 
 15 righe, un solo metodo (`public static function asset()`), **zero consumatori** in
 tutto il monorepo. Viola la policy no-services
-(`bashscripts/ai/wiki/rules/no-services-rule.md`) e non c'è nulla da convertire in
+(`bashscripts/ai/wiki/rules/actions-business-logic.md`) e non c'è nulla da convertire in
 Action: non lo chiama nessuno. Si cancella.
 
 ```bash

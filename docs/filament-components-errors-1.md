@@ -145,20 +145,12 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 ## Collegamenti Bidirezionali
 
 - [Documentazione Componenti Filament](../../../docs/filament/components.md)
-<<<<<<< HEAD
 - [Best Practices UI](../../best-practices.md)
-=======
-- [Best Practices UI](../../Activity/docs/best-practices-3.md)
->>>>>>> laraxot/dev
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
 - [Convenzioni di Naming dei Campi](./convenzioni-naming-campi.md)
 - [Gestione degli Step nei Wizard](./clean-code/wizard-steps.md)
-<<<<<<< HEAD
 - [Gestione delle Traduzioni](./translations/lang-service-provider.md)
-=======
-- [Gestione delle Traduzioni](../../Lang/docs/lang-service-provider-2.md)
->>>>>>> laraxot/dev
 - [Componente FileUpload](./filament-components/file-upload.md)
 
 ## Processo di Documentazione

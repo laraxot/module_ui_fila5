@@ -38,10 +38,6 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 
 ## Collegamento Bidirezionale
 
-<<<<<<< HEAD
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cms/docs/themes-ui-link.md) nel modulo Cms.
-=======
-Questo documento è collegato bidirezionalmente con [themes-ui-link-2.md](../../Cms/docs/themes-ui-link.md) nel modulo Cms.
->>>>>>> laraxot/dev
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.

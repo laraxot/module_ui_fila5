@@ -7,7 +7,7 @@ updated: 2026-06-15
 qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
 related:
   - ./phpstan-dynamic-array-normalization.md
-  - ../../../../../docs/wiki/patterns/phpstan-optional-contracts.md
+  - ../../../../../../bashscripts/ai/wiki/patterns/patterns.md#phpstan-optional-contracts
   - ../log.md
 ---
 

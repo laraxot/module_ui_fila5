@@ -1,41 +1,14 @@
 ---
-<<<<<<< HEAD
 qmd: "ui multi org sync laraxot provtv"
-=======
-qmd: "ui multi org sync laraxot provtv md"
->>>>>>> laraxot/dev
 title: "Sincronizzazione multi-organizzazione (laraxot + provtv)"
 type: concept
 tags: [git, sync, multi-org, laraxot, provtv, quality-gates]
 created: "2026-07-21"
 updated: "2026-07-29"
-<<<<<<< HEAD
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
   - "./git-multi-org-sync-handoff.md"
   - "./wiki/troubleshooting/git-push-lfs-missing-objects.md"
-=======
-updated: "2026-07-29"
-updated: "2026-07-29"
-related:
-  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
-updated: "2026-07-29"
-related:
-  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
-updated: "2026-07-23"
-related:
-  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
-updated: "2026-07-23"
-  - "./wiki/troubleshooting/git-push-lfs-missing-objects.md"
-related:
-  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
-related:
-  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
-updated: "2026-07-29"
-related:
-  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
-  - "./git-multi-org-sync-handoff.md"
->>>>>>> laraxot/dev
 ---
 
 # Sincronizzazione multi-organizzazione (laraxot + provtv)

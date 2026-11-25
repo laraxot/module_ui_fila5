@@ -6,8 +6,6 @@ namespace Modules\UI\Data;
 
 use Spatie\LaravelData\Data;
 
-<<<<<<< HEAD
-=======
 /**
  * SUPERSEDED — duplicato di {@see \Modules\UI\Datas\UserData}: zero caller, e `GetUserDataAction` restituisce
  * la versione in `Datas/`. La cartella `app/Data` e' vietata da `DatasFolderConventionTest` (i data object vivono
@@ -17,7 +15,6 @@ use Spatie\LaravelData\Data;
  * @deprecated Use Modules\UI\Datas\UserData instead.
  * @see Modules/UI/docs/merge-conflict-markers-committed.md
  */
->>>>>>> laraxot/dev
 final class UserData extends Data
 {
     /**

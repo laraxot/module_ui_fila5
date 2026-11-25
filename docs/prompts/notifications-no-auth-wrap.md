@@ -5,7 +5,7 @@ module: UI
 qmd: "anti-pattern livewire notifications auth wrap filament layout"
 related:
   - ../bmad/stories/filament-layout-directives.story.md
-  - ../../../../../../docs/wiki/memories/filament5-layout-contract-shared-modules.md
+  - ../../../../../bashscripts/ai/wiki/memories/filament-tables-forms-xotbase.md#filament5-layout-contract-shared-modules
 ---
 
 # Anti-pattern: `@auth` + notifications

@@ -5,10 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Illuminate\Support\Collection;
-<<<<<<< HEAD
 use Modules\User\Models\Permission;
-=======
->>>>>>> laraxot/dev
 use Modules\User\Models\User;
 
 /**
@@ -42,7 +39,6 @@ final class UiCoverageAuthUser extends User
         return collect(['admin']);
     }
 
-<<<<<<< HEAD
     /**
      * Permessi in memoria vuoti: stub coverage senza DB.
      *
@@ -51,10 +47,5 @@ final class UiCoverageAuthUser extends User
     public function getAllPermissions(): Collection
     {
         return new Collection;
-=======
-    public function getAllPermissions(): Collection
-    {
-        return collect();
->>>>>>> laraxot/dev
     }
 }

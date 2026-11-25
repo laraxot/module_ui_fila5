@@ -8,7 +8,7 @@ scope: module:UI
 
 # Convert app/Services to QueueableAction (no-services-rule)
 
-Enforce the repo-wide "no `app/Services/*Service` classes" rule (`bashscripts/ai/wiki/rules/no-services-rule.md`, status RELIGION) inside `Modules/UI`.
+Enforce the repo-wide "no `app/Services/*Service` classes" rule (`bashscripts/ai/wiki/rules/actions-business-logic.md`, status RELIGION) inside `Modules/UI`.
 
 ## Census
 
