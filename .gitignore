@@ -338,3 +338,8 @@ docs/visual-comparison/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+
+# fila5-guard: mai nel repo di un modulo/tema
+/tests/coverage/
+/tests/coverage.xml/
+/tests/*coverage*.xml
