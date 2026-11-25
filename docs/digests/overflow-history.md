@@ -7,7 +7,11 @@ qmd: "digest ceiling 100 overflow-history"
 
 # Overflow history (ceiling 100)
 
+<<<<<<< .merge_file_TQChq5
 Overflow force-cap: 388 file oltre target 100.
+=======
+Overflow force-cap: 372 file oltre target 100.
+>>>>>>> .merge_file_Vu35gO
 
 ### `actions/generic-ui-building-blocks.md` — Generic UI Building Blocks: Category, Collection, FieldOption
 
@@ -28,6 +32,32 @@ contesto — annotato nei PHPDoc dei tre modelli).
 - Nessuna risorsa Filament esiste ancora per questi modelli (`app/Filament/Resources/` è vuota,
   solo `.gitkeep`). Sono solo modelli + migrazioni, pronti per essere esposti in
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `advanced-form-components.md` — Componenti Form Avanzati
+
+
+# Componenti Form Avanzati
+
+## 📝 Input Avanzati
+
+### Input con Icona
+```html
+<div class="input-group">
+  <span class="input-group-text">
+    <i class="fas fa-user"></i>
+  </span>
+  <input type="text" class="form-control" placeholder="Username">
+</div>
+```
+
+### Input con Validazione
+```html
+<div class="form-group">
+  <label for="email">Email</label>
+  <input
+
+>>>>>>> .merge_file_Vu35gO
 ### `algolia-docsearch-1.md` — Algolia DocSearch {#algolia-docsearch}
 
 
@@ -49,6 +79,7 @@ Once the `docsearchApiKey` and `docsearchIndexName` values are set in `config.ph
 
 <img class="block m-auto" src="/assets/img/doc
 
+<<<<<<< .merge_file_TQChq5
 ### `architecture-2.md` — $MOD Architecture
 
 
@@ -95,6 +126,8 @@ tags: [documentation]
 
 ### Primary Purpose
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `architecture-archive-1.md` — UI Module - Architecture Guide (2025)
 
 
@@ -231,6 +264,7 @@ Regole:
 - se un asset manca, recuperare il binario originale e committarlo direttamente;
 - prima del push verificare che immagini, font, archivi e PDF siano contenuti reali.
 
+<<<<<<< .merge_file_TQChq5
 ### `blade-data-handling-1-2.md` — Data Handling in Blade Components
 
 
@@ -254,6 +288,8 @@ All Blade components should explicitly define their expected properties using th
 ])
 ```
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `blade-data-handling-1.md` — Data Handling in Blade Components
 
 
@@ -300,6 +336,32 @@ laravel/Modules/Cms/
 └── docs/
     └── blocks/              # Documentazione dei blocchi
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `bmad/advanced-form-components.md` — Componenti Form Avanzati
+
+
+# Componenti Form Avanzati
+
+## 📝 Input Avanzati
+
+### Input con Icona
+```html
+<div class="input-group">
+  <span class="input-group-text">
+    <i class="fas fa-user"></i>
+  </span>
+  <input type="text" class="form-control" placeholder="Username">
+</div>
+```
+
+### Input con Validazione
+```html
+<div class="form-group">
+  <label for="email">Email</label>
+  <input
+
+>>>>>>> .merge_file_Vu35gO
 ### `bmad/architecture/module-boundary.md` — UI — architettura
 
 # UI — architettura
@@ -347,7 +409,11 @@ Componenti UI / Tema.
 
 # Audit BMAD — UI
 
+<<<<<<< .merge_file_TQChq5
 SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [purpose.md](./purpose.md)
+=======
+SSoT dettagliata: [audits/ui-audit.md](./audits/ui-audit.md) · scopo: [../wiki/purpose.md](../wiki/purpose.md)
+>>>>>>> .merge_file_Vu35gO
 
 **In una frase:** UI è il vocabolario visivo condiviso (componenti, widget, colonne, layout tabella): fa sì che la stessa cosa abbia lo stesso aspetto e lo stesso comportamento in tutti i moduli che lo consumano.
 
@@ -435,7 +501,11 @@ related:
   - ./architecture.md
   - ./architecture/module-boundary.md
   - ./epics/epic-1-design-system-components.md
+<<<<<<< .merge_file_TQChq5
   - ./stories/STORY-UI-TABLE-LAYOUT-ENUM-TRANSLATIONS.md
+=======
+  - ./stories/story-ui-table-layout-enum-translations.md
+>>>>>>> .merge_file_Vu35gO
 ---
 
 # UI — Brainstorming
@@ -514,7 +584,11 @@ Collegare ogni decisione a story BMAD, mantenere il second brain e chiudere i du
 
 # Epic e story — UI
 
+<<<<<<< .merge_file_TQChq5
 Scopo del modulo: vocabolario visivo condiviso (componenti, widget, colonne, layout tabella) consumato da tutti i moduli ([purpose.md](./purpose.md)).
+=======
+Scopo del modulo: vocabolario visivo condiviso (componenti, widget, colonne, layout tabella) consumato da tutti i moduli ([../wiki/purpose.md](../wiki/purpose.md)).
+>>>>>>> .merge_file_Vu35gO
 
 ## Epic da audit 2026-11-16
 
@@ -526,7 +600,11 @@ lock (`bashscripts/lock/lock.sh`), Pest rosso, PHPStan max, poi `unlock.sh`. Nes
 | Story (da creare) | Cosa | Criterio di accettazione |
 |---|---|---|
 | `ui-dashboard-real-widgets` | Dashboard con soli widget reali o vuota | nessun valore letterale in `Dashboard.php`; `TestWidget` solo in tests |
+<<<<<<< .merge_file_TQChq5
 | `ui-remove-phantom-model-tests` | Eliminare Asset/Component/ThemeModelTest | 0 `@phpstan-ignore` in `tests/Uni
+=======
+| `ui-remove-phantom-model-tests` | Eliminare Asset/Component/ThemeModelTest | 0 `@phpstan-ignore`
+>>>>>>> .merge_file_Vu35gO
 
 ### `bmad/livewire-inventory.md` — Inventario UI: Livewire HTTP → Filament widget
 
@@ -642,6 +720,7 @@ BMAD STATUS — UI
 - PHPStan: 0 errori (OK)
 - Wiki aggiornata: docs/wiki/scope.md (scopo: componenti visivi riusabili, contratti blocchi/temi)
 
+<<<<<<< .merge_file_TQChq5
 ### `bmad/stories/1.4-phpstan-ui-fixes.story.md` — Story: Fix PHPStan Level 10 Errors in UI Module
 
 
@@ -886,6 +965,375 @@ offrire CTA chiare per Login e Register.
 - `GET /it`: HTTP 200 senza `Attempt to read property`.
 - Regola second brain applicata: layout guest per pagine pubbliche, app per
   pagine autenticate.
+=======
+### `bmad/stories/0001-phpstan-ui-fixes.story.md` — Story: Fix PHPStan Level 10 Errors in UI Module
+
+# Story: Fix PHPStan Level 10 Errors in UI Module
+
+## Context and Problem Statement
+
+UI module has test file errors referencing non-existent Ptv module.
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0002-adr-numbered-madr-template.story.md` — UI ADR — prefisso NNNN + template MADR harness
+
+
+# UI ADR — prefisso NNNN + template MADR harness
+
+## Context and Problem Statement
+
+Regola utente: ogni `docs/adr` segue il template harness e il basename
+`NNNN-slug.md` (eccezioni: README, INDEX/index, 0000-template). Il contenuto
+canonico IDColumn viveva in `id-column-mandatory-on-tables.md` senza prefisso.
+Come allineare gli ADR UI a `NNNN-slug.md` + sezioni MADR inglesi senza
+toccare PHP?
+
+## Decision Drivers
+
+- Basename obbligatorio `NNNN-` (nessun ADR kebab-only non numerato, salvo stub
+  superseded / eccezioni naming).
+- SSoT content: contenuto canonico IDColumn → `0002-idcolumn-mandatory-on-tables.md`.
+- No PHP: solo docs ADR + story + sprint-status.
+- Template harness + sezioni MADR inglesi in README / `0000-template.md`.
+
+## Considered Options
+
+### `bmad/stories/0005-cluster3-phpstan-swarm-2.story.md` — UI — swarm cluster3 PHPStan 2026-10-06
+
+# UI — swarm cluster3 PHPStan 2026-10-06
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0006-cluster3-phpstan-swarm-3.story.md` — UI — swarm cluster3 PHPStan 2026-10-06
+
+# UI — swarm cluster3 PHPStan 2026-10-06
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0007-continuazione-domani.story.md` — Continuazione domani
+
+# Continuazione domani
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0008-docs-zen-conventions.story.md` — UI — bonifica docs `.md`
+
+# UI — bonifica docs `.md`
+
+## Context and Problem Statement
+
+Lane C dello swarm `laravel/Modules/Xot/docs/bmad/stories/docs-zen-conventions-swarm.story.md`: copie esatte
+(`wiki/ui/UI-*.md` vs `ui-*.md`, `_archive/` vs `archive/`), nomi `_1`/underscore/UPPERCASE, template generici.
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+### `bmad/stories/0009-ensures-ui-database-schema-trait-unused.story.md` — ensures-ui-database-schema-trait-unused
+
+# ensures-ui-database-schema-trait-unused
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0010-filament-layout-directives.story.md` — Direttive Filament nel layout UI
+
+# Direttive Filament nel layout UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0011-git-status-fleet-merge-markers-ui.story.md` — git-status-fleet-merge-markers-ui
+
+# git-status-fleet-merge-markers-ui
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0013-module-bmad-audit.story.md` — Story — UI: baseline BMAD
+
+# Story — UI: baseline BMAD
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0017-phpstan-modules-zero.story.md` — Story: PHPStan Modules/UI → 0
+
+# Story: PHPStan Modules/UI → 0
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/0023-ui-guest-header-ux-3.story.md` — Story
+
+# Story
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/continuazione-domani.md` — UI — Continuazione Domani
+
+# UI — Continuazione Domani
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `bmad/stories/story-ui-table-layout-enum-translations.md` — Problema
+
+# Problema
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `brands-icons-integration.md` — 🎨 UI Brands Icons - Integration Guide
+
+
+# 🎨 UI Brands Icons - Integration Guide
+
+**Data**: 2026-03-30  
+**Stato**: ✅ **INTEGRATO**
+
+## 📦 Icons Created
+
+### Social Media Brands (6)
+
+1. ✅ **facebook.svg** - Facebook brand icon
+2. ✅ **twitter.svg** - Twitter/X brand icon
+3. ✅ **youtube.svg** - YouTube brand icon
+4. ✅ **telegram.svg** - Telegram brand icon
+5. ✅ **whatsapp.svg** - WhatsApp brand icon
+6. ✅ **rss.svg** - RSS feed brand icon
+
+**Path**: `laravel/Modules/UI/resources/svg/brands/`
+
+## 🔧 Integration
+
+### `brands-icons.md` — UI Brands Icons - Documentazione
+
+
+# UI Brands Icons - Documentazione
+
+## Panoramica
+
+Il modulo UI fornisce un set di icone SVG per i brand social media, registrate automaticamente con il prefisso `ui-brands`.
+
+## Icone Disponibili
+
+Le icone sono posizionate in `Modules/UI/resources/svg/brands/`:
+
+- `facebook.svg` → `<x-icon name="ui-brands.facebook" />`
+- `twitter.svg` → `<x-icon name="ui-brands.twitter" />`
+- `instagram.svg` → `<x-icon name="ui-brands.instagram" />`
+- `linkedin.svg` → `<x-icon name="ui-brands.linkedin" />`
+- `youtube.svg` → `<x-icon name="ui-brands.youtube" />`
+- `telegram.svg` → `<x-icon name="ui-brands.telegram" />`
+- `whatsapp.svg` → `<x-icon name="ui-brands.whatsapp" />`
+- `rss.svg` → `<x-icon name="ui-brands.rss" />`
+
+>>>>>>> .merge_file_Vu35gO
 
 ### `bugfix/groupcolumn-architectural-violations.md` — Bugfix: GroupColumn Architectural Violations
 
@@ -1059,7 +1507,11 @@ Il bottone **Cambia layout** (`TableLayoutToggleTableAction`) è un controllo **
 File duplicati rilevati nel modulo `UI`:
 
 - `Modules/UI/.github`: `CONTRIBUTING.md`, `contributing.md`
+<<<<<<< .merge_file_TQChq5
 - `Modules/UI/.github`: `SECURITY.md`, `security-2.md`
+=======
+- `Modules/UI/.github`: `SECURITY.md`, `security.md`
+>>>>>>> .merge_file_Vu35gO
 - `Modules/UI/docs`: `README.md`, `readme.md`
 - `Modules/UI/docs/filament`: `ListRecords.md`, `listrecords.md`
 
@@ -1367,6 +1819,7 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 4. Correzione dei type hints per le proprietà
 5. Implementazione delle interfacce corrette
 
+<<<<<<< .merge_file_TQChq5
 ### `components/filament.md` — Filament Components
 
 
@@ -1412,6 +1865,53 @@ composer require saade/filament-fullcalendar:^3.0
 
 In the UI module service provider (`Modules/UI/Providers/UIServiceProvider.php`), register the FullCalendar plugin:
 
+=======
+### `components/archive/full-calendar.md` — FullCalendar Component for Filament
+
+
+# FullCalendar Component for Filament
+
+## Introduction
+This document describes the implementation and usage of Saade's FullCalendar component for Filament within the UI modules of Laraxot PTVX. This component offers complete integration of the popular FullCalendar JavaScript plugin with Filament, allowing users to view and manage events in an intuitive calendar interface.
+
+## Installation
+
+To install the component:
+
+```bash
+composer require saade/filament-fullcalendar:^3.0
+```
+
+## Configuration in UI Module
+
+### 1. Plugin Registration
+
+In the UI module service provider (`Modules/UI/Providers/UIServiceProvider.php`), register the FullCalendar plugin:
+
+
+### `components/filament.md` — Filament Components
+
+
+# Filament Components
+
+## Resources
+
+### Signature Pad
+
+- [filament-signature-pad](https://github.com/savannabits/filament-signature-pad)
+
+### Exception Handling
+
+- [filament-exceptions](https://github.com/bezhanSalleh/filament-exceptions)
+
+### Health Check
+
+- [filament-spatie-laravel-health](https://github.com/shuvroroy/filament-spatie-laravel-health)
+
+### Select Tree Components
+
+- [filament-adjacency-list](https://filamentphp.com/plugins/saade-adjacency-list)
+>>>>>>> .merge_file_Vu35gO
 
 ### `components/legacy/full-calendar.md` — FullCalendar Component for Filament
 
@@ -1476,6 +1976,7 @@ mirror, va creato in Xot prima di usarlo qui, mai come scorciatoia nel modulo.
 
 Non pre-caricare questo file: leggi la fonte canonica solo quando il task lo richiede.
 
+<<<<<<< .merge_file_TQChq5
 ### `confidence-guidelines.md` — Massimizzare il livello di confidenza
 
 
@@ -1489,6 +1990,8 @@ Non pre-caricare questo file: leggi la fonte canonica solo quando il task lo ric
 6. **Documentazione**: mantieni aggiornati doc e changelog.
 7. **Rollback rapido**: feature flags e versioni per tornare indietro.
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `conflict-resolution.md` — Conflict Resolution — Module UI
 
 
@@ -1503,9 +2006,15 @@ Non pre-caricare questo file: leggi la fonte canonica solo quando il task lo ric
 - app/View/Components/Render/Block.php
 
 ## Documentation Files
+<<<<<<< .merge_file_TQChq5
 - docs/algolia-docsearch-2.md
 - docs/architecture.md
 - ../../Activity/docs/best-practices-3.md
+=======
+- docs/algolia_docsearch.md
+- docs/architecture.md
+- docs/best_practices.md
+>>>>>>> .merge_file_Vu35gO
 - docs/blade_data_handling.md
 - docs/blocks_system.md
 - docs/bugfix-table-layout-action.md
@@ -1548,7 +2057,11 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 ## File Duplicati da Consolidare
 
 ### 1. Advanced Form Components
+<<<<<<< .merge_file_TQChq5
 - ❌ `advanced_form_components.md` → Eliminare
+=======
+- ❌ `advanced-form-components.md` → Eliminare
+>>>>>>> .merge_file_Vu35gO
 - ✅ `advanced-form-components.md` → Mantenere
 
 
@@ -1565,7 +2078,11 @@ Questi file sono vuoti (0 bytes) e possono essere eliminati:
 cd laravel/Modules/UI/docs
 
 # File vuoti con underscore
+<<<<<<< .merge_file_TQChq5
 rm -f advanced_form_components.md
+=======
+rm -f advanced-form-components.md
+>>>>>>> .merge_file_Vu35gO
 rm -f blade_data_handling.md
 rm -f naming_conventions.md
 rm -f phpstan_fixes_2025.md
@@ -1604,7 +2121,11 @@ Dovrebbe applicare un calendario al panel Filament; oggi è uno stub che restitu
 # GetAllBlocksAction
 
 Sorgente: `app/Actions/Block/GetAllBlocksAction.php`. Perché è fatta così:
+<<<<<<< .merge_file_TQChq5
 [ADR scoperta dei blocchi per cartella](../adr/block-discovery-by-filament-blocks-folder.md).
+=======
+[ADR scoperta dei blocchi per cartella](../adr/0001-block-discovery-by-filament-blocks-folder.md).
+>>>>>>> .merge_file_Vu35gO
 Chiamanti: `Modules/Cms/app/Filament/Fields/PageContent.php`, `PageContentBuilder.php`.
 
 ## Input
@@ -1666,6 +2187,32 @@ Mappa i giorni feriali-lavorativi (lunedì–sabato) da chiave inglese a etichet
 | `UI-DAYS-INV-1` | Il risultato ha sei chiavi, da lunedì a sabato; la domenica è assente. | righe 41-52, 25-31 | `tests/Unit/OpeningHoursRuleTest.php:47` (solo "non vuoto") |
 | `UI-DAYS-INV-2` | La chiave è il nome inglese minuscolo del giorno (`format('l')`). | riga 63 | Test: nessuno 
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `contracts/get-localized-block-data-action.md` — GetLocalizedBlockDataAction (UI)
+
+
+# GetLocalizedBlockDataAction (UI)
+
+Sorgente: `app/Actions/Block/GetLocalizedBlockDataAction.php`. Perché è fatta così:
+[ADR delega opzionale a Cms](../adr/0004-optional-cms-delegation-for-block-data.md). Chiamante: `View/Components/Render/Block.php::render()`.
+
+## Input
+
+- `array<string, mixed> $viewParams`: il `data` del blocco, già con chiavi stringa.
+
+## Output
+
+- `array<string, mixed>`: i dati risolti da `Modules\Cms\Actions\GetLocalizedBlockDataAction::execute()`, oppure
+  `$viewParams` invariato se Cms non c'è, se il resolver non ha `execute()` o se non ritorna un array.
+
+## Invarianti
+
+| ID | Regola | Group Pest |
+|---|---|---|
+| UI-BLOCKDATA-INV-1 | Con il resolver di Cms disponibile, l'output è il suo risultato (UI non aggiunge né toglie chiavi). | `UI-BLOCKDATA-INV-1` |
+
+>>>>>>> .merge_file_Vu35gO
 ### `contracts/get-user-data-action.md` — GetUserDataAction
 
 
@@ -1682,6 +2229,7 @@ produzione, solo test: chi lo collega a una vista o a un'API legge prima «Non f
 ## Output
 
 - `UserData|null`: `null` se nessuno è autenticato o se l'autenticato non implementa `Modules\Xot\Contracts\UserContract`.
+<<<<<<< .merge_file_TQChq5
 - Altrimenti `id`, `name`, `email` (`getAttribute`, `''` se non stringa), `avatar` (URL del profilo caricato, poi
   `profile_photo_path`, poi `null`), `role` (il **primo** nome di ruolo), `permissions` (nomi di tutti i permessi,
   anche via ruolo), `settings` (`pr
@@ -1716,6 +2264,21 @@ Sorgente: `app/Actions/Block/ResolveLocalizedBlockDataAction.php`. Perché è fa
 
 Classe o superficie: `<FQCN>`  
 Riferimento nel codice: `@contract docs/contracts/<file>.md`
+=======
+- Altrimenti `id`, `name`, `email` (`getAttribute`, `''` se non stringa), `avatar`, `role` (il **primo** nome di
+  ruolo, `null` se non ne ha), `permissions` (nomi di tutti i permessi, anche via ruolo), `settings` (`profile.extra`
+  se array, altrimenti `[]`).
+
+##
+
+### `contracts/template.md` — <operazione> — contratto comportamentale
+
+
+# <operazione> — contratto comportamentale
+
+Classe o superficie: `<FQCN>`  
+Riferimento nel codice: `@contract docs/contracts/<file>.md`
+>>>>>>> .merge_file_Vu35gO
 
 ## Input
 
@@ -1761,7 +2324,11 @@ Riferimento nel codice: `@contract docs/contracts/<file>.md`
 # Convenzioni di Naming dei Campi
 
 ## Collegamenti Bidirezionali
+<<<<<<< .merge_file_TQChq5
 - [Best Practices UI](../../Activity/docs/best-practices-3.md)
+=======
+- [Best Practices UI](../best-practices.md)
+>>>>>>> .merge_file_Vu35gO
 - [Errori Comuni UI](../filament-components-errors.md)
 - [Implementazione Corretta](../examples/correct-implementation.md)
 
@@ -2010,6 +2577,55 @@ Xot ← UI ← (tutti gli altri moduli: Geo, User, Tenant, Activity, ecc.)
 ---
 
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `design-comuni-faq-components.md` — Design Comuni - Componenti UI per FAQ
+
+
+# Design Comuni - Componenti UI per FAQ
+
+## Panoramica
+
+Componenti UI del modulo UI utilizzati per implementare la pagina FAQ del progetto Design Comuni Italia.
+
+- **Modulo**: UI
+- **Tema**: Sixteen
+- **Pagina**: `/it/tests/domande-frequenti`
+- **Stato**: ✅ 90% Completato
+
+## Componenti Blade Implementati
+
+### 1. Accordion Component
+
+**File**: `Themes/Sixteen/resources/views/components/blocks/accordion/default.blade.php`
+
+**Responsabilità**: Visualizzare lista FAQ espandibili
+
+
+### `design-comuni-implementation.md` — 🎨 Design Comuni Implementation Guide
+
+
+# 🎨 Design Comuni Implementation Guide
+
+**Module**: UI (User Interface)  
+**Date**: 2026-03-30  
+**Status**: ✅ Components Ready
+
+---
+
+## 📋 Overview
+
+This module implements Design Comuni (Italian Municipalities Design System) components using Tailwind CSS with @apply directive.
+
+**Reference**: https://italia.github.io/design-comuni-pagine-statiche/
+
+---
+
+## 🧩 Components Created (12)
+
+### Layout Components
+
+>>>>>>> .merge_file_Vu35gO
 ### `design-system-1.md` — Design System
 
 
@@ -2148,6 +2764,55 @@ abstract class BaseModel extends XotBaseModel
 **Righe:** 4 (solo dichiarazione classe)  
 **DRY Level:** 🥇 **99% - IL MIGLIORE!**  
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `duplicate-methods-analysis.md` — Analisi Metodi Duplicati - Modulo UI
+
+
+# Analisi Metodi Duplicati - Modulo UI
+
+**Totale Gruppi di Duplicati**:
+
+## Sommario Esecutivo
+
+Questo documento identifica i metodi duplicati nel modulo **UI** che potrebbero beneficiare di refactoring.
+
+### Statistiche
+
+| Tipo Refactoring | Conteggio |
+|------------------|----------:|
+| **Trait** | 0 |
+| **Base Class** | 0 |
+| **Interface** | 2 |
+| **Altro** | 0 |
+
+## Dettaglio Metodi Duplicati
+
+
+### `duplicate-methods.md` — Metodi duplicati — UI
+
+
+# Metodi duplicati — UI
+
+Analisi sintetica dei metodi PHP con lo stesso nome all’interno di questo ambito.
+
+- File PHP analizzati: **412**
+- Metodi duplicati trovati: **34**
+
+## Metodi duplicati
+
+| Metodo | Occorrenze | Note |
+|--------|----------|------|
+| `__construct` | 15 | candidato a trait/helper |
+| `getFormSchema` | 15 | candidato a trait/helper |
+| `render` | 15 | candidato a trait/helper |
+| `setUp` | 15 | candidato a trait/helper |
+| `make` | 13 | candidato a trait/helper |
+| `execute` | 6 | candidato a trait/helper |
+| `definition` | 4 | candidato a trait/helper |
+| `getColor` | 4 | candidato a trait/helper |
+
+>>>>>>> .merge_file_Vu35gO
 ### `eav.md` — eav
 
 
@@ -2246,6 +2911,55 @@ class ListMyRecords extends XotBaseListRecords
 {
     protected static string $resource = MyResource::class;
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `filament-4x-upgrade-report.md` — Rapporto Aggiornamento Filament 4.x - Modulo UI
+
+
+# Rapporto Aggiornamento Filament 4.x - Modulo UI
+
+**Status**: ✅ COMPLETATO
+**Versione Filament**: 4.0.17
+
+## 🔧 Correzioni Implementate
+
+### 1. Widget FullCalendar Disabilitato
+**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
+**Soluzione**: Disabilitazione temporanea del widget
+
+**File disabilitato**:
+- `UserCalendarWidget.php` - esteso `FullCalendarWidget` da `saade/filament-fullcalendar`
+
+**Modifiche applicate**:
+```php
+// PRIMA (errore)
+use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
+class UserCalendarWidget extends FullCalendarWidget
+
+### `filament-4x-upgrade.md` — Filament 4.x Upgrade - Modulo UI
+
+
+# Filament 4.x Upgrade - Modulo UI
+
+**Status**: ✅ COMPLETATO
+**Versione Filament**: 4.0.20
+
+## 🎯 Panoramica
+
+Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche principali riguardano il `UserCalendarWidget`.
+
+## 🔧 Modifiche Applicate
+
+### UserCalendarWidget
+
+**File**: `Modules/UI/app/Filament/Widgets/UserCalendarWidget.php`
+
+**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
+
+**Soluzione**: Disabilitazione temporanea del widget calendario
+
+
+>>>>>>> .merge_file_Vu35gO
 ### `filament-5x-compatibility.md` — Filament 5.x compatibility - modulo UI
 
 
@@ -2269,6 +2983,7 @@ Tutte le classi Filament **devono** estendere le classi `XotBase*` (vedi [regole
 
 ## Inclusione nei Blade View
 
+<<<<<<< .merge_file_TQChq5
 ### `filament-blade-components-usage-1-2.md` — Utilizzo dei Componenti Blade di Filament
 
 
@@ -2292,6 +3007,8 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 ### Componenti UI Principali
 
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `filament-blade-components-usage-1.md` — Utilizzo dei Componenti Blade di Filament
 
 
@@ -2338,6 +3055,7 @@ When you use `TextColumn::make('valutatore.nome_diri')` in a standard Filament t
 
 ```php
 
+<<<<<<< .merge_file_TQChq5
 ### `filament-dropdown-avatar-usage-1-2.md` — Utilizzo dei Componenti Filament Dropdown e Avatar
 
 
@@ -2359,6 +3077,8 @@ Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del
 
 ### Esempio di Utilizzo d
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `filament-dropdown-avatar-usage-1.md` — Utilizzo dei Componenti Filament Dropdown e Avatar
 
 
@@ -2366,7 +3086,11 @@ Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
+<<<<<<< .merge_file_TQChq5
 - [Utilizzo Componenti Filament](/laravel/Modules/UI/docs/archive/filament-components-usage-2.md)
+=======
+- [Utilizzo Componenti Filament](/laravel/Modules/UI/docs/FILAMENT_COMPONENTS_USAGE.md)
+>>>>>>> .merge_file_Vu35gO
 - [Architettura Modulare](/docs/architettura-modulare.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
@@ -2378,7 +3102,12 @@ Questo documento descrive l'implementazione e l'utilizzo dei componenti dropdown
 
 Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del profilo dell'utente. Questo componente accetta diverse proprietà per personalizzare l'aspetto dell'avatar.
 
+<<<<<<< .merge_file_TQChq5
 ### Esempio di Utilizzo de
+=======
+### Esempio di Utilizzo dell'Avatar
+
+>>>>>>> .merge_file_Vu35gO
 
 ### `filament-fileupload-1.md` — FileUpload Component in Filament
 
@@ -2571,7 +3300,11 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
 
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
+<<<<<<< .merge_file_TQChq5
 - [Utilizzo Componenti Filament](/laravel/modules/ui/docs/filament-components-usage-2.md)
+=======
+- [Utilizzo Componenti Filament](/laravel/modules/ui/docs/filament_components_usage.md)
+>>>>>>> .merge_file_Vu35gO
 - [Architettura Modulare](/docs/architettura-modulare.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
@@ -2581,7 +3314,11 @@ Questo documento descrive l'implementazione e l'utilizzo dei componenti dropdown
 
 ## Componente Avatar
 
+<<<<<<< .merge_file_TQChq5
 Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del profilo dell'utente. Questo componente accetta diverse proprietà per personalizzare 
+=======
+Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del profilo dell'utente. Questo componente accetta diverse proprietà per personalizzare l'
+>>>>>>> .merge_file_Vu35gO
 
 ### `filosofia-modulo-ui.md` — Analisi Approfondita del Modulo UI
 
@@ -2606,6 +3343,7 @@ app/Filament/
 ├── Forms/Components/      # 15 form fields custom (InlineDatePicker, RadioBadge, LocationSelector)
 ├── Widgets/              # 11 widgets (StatsOverviewWidget, UserCalendarWidget, DarkModeSwitcherWidget)
 
+<<<<<<< .merge_file_TQChq5
 ### `flags-components-1-2.md` — Componenti SVG Bandiere nel Modulo UI
 
 
@@ -2625,6 +3363,8 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 
 ## Stru
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `flags-components-1.md` — Componenti SVG Bandiere nel Modulo UI
 
 
@@ -2635,14 +3375,23 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 - [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
 - [Documentazione UI](/laravel/Modules/UI/docs/README.md)
 - [Documentazione sezioni](/docs/sections.md)
+<<<<<<< .merge_file_TQChq5
 - [Header: Lingua e Utente](/laravel/Modules/Cms/docs/sections/header-language-user-dropdown-3.md)
 - [Implementazione CMS](/laravel/Modules/Cms/docs/sections/header-language-user-dropdown-3.md)
+=======
+- [Header: Lingua e Utente](/laravel/Themes/One/docs/sections/HEADER_LANGUAGE_USER_DROPDOWN.md)
+- [Implementazione CMS](/laravel/Modules/Cms/docs/sections/HEADER_LANGUAGE_USER_DROPDOWN.md)
+>>>>>>> .merge_file_Vu35gO
 
 ## Panoramica
 
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 
+<<<<<<< .merge_file_TQChq5
 #
+=======
+## Str
+>>>>>>> .merge_file_Vu35gO
 
 ### `folio-volt-best-practices.md` — Laravel Folio + Volt - Best Practices and Patterns Analysis
 
@@ -2788,7 +3537,11 @@ Il modulo `UI` non deve dipendere dal modulo `Geo`.
 - Nessun file nel monorepo referenzia `InteractiveMap` (né tag Livewire, né route/page, né altro componente): `grep -rln "InteractiveMap" Modules` non trova nulla fuori dal componente stesso.
 - Le 5 Action Geo richieste (`GetMapMarkersAction`, `GetMapStatsAction`, `ExportMapDataAction`, `GeocodeAddressAction`, `GetGeocodingSuggestionsAction`) non esistono in `Modu
 
+<<<<<<< .merge_file_TQChq5
 ### `getting-started-1.md` — Getting Started {#getting-started}
+=======
+### `getting-started.md` — Getting Started {#getting-started}
+>>>>>>> .merge_file_Vu35gO
 
 
 # Getting Started {#getting-started}
@@ -2807,6 +3560,7 @@ return [
     'siteName' => 'My Site',
     'siteDescription' => 'Give your 
 
+<<<<<<< .merge_file_TQChq5
 ### `getting-started.md` — Getting Started with $MOD
 
 # Getting Started with $MOD
@@ -2830,6 +3584,8 @@ See README.md for features and examples.
 
 ## Troubleshooting
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `git-conflicts-inventory.md` — Inventario Conflitti Git - UI Module
 
 
@@ -2876,7 +3632,11 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 | Hub base discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
 | Discussion | https://github.com/provtv/<nome repository>/discussions/204 |
 
+<<<<<<< .merge_file_TQChq5
 ### `global-search-2.md` — Global search — risorse esterne
+=======
+### `global-search.md` — Global search — risorse esterne
+>>>>>>> .merge_file_Vu35gO
 
 
 # Global search — risorse esterne
@@ -2888,12 +3648,15 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 
 - <https://github.com/spatie/laravel-searchable>
 
+<<<<<<< .merge_file_TQChq5
 ### `global-search.md` — global-search
 
 
 https://github.com/spatie/laravel-searchable
 
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `glossary.md` — Glossario di dominio UI
 
 
@@ -2905,8 +3668,13 @@ Se glossario e codice divergono vale il codice. Percorsi relativi a `laravel/Mod
 |---|---|---|
 | Blocco | Componente di contenuto riusabile (hero, heading, immagine, slider, navigazione, ...) scelto nel builder Filament. | `app/Filament/Blocks/` |
 | Elenco blocchi | Scoperta dei blocchi dei moduli: nome snake dalla classe, modulo dal namespace. | `app/Actions/Block/GetAllBlocksAction.php` |
+<<<<<<< .merge_file_TQChq5
 | Blocco localizzato | Dati del blocco risolti dal CMS se il modulo Cms esiste, altrimenti parametri invariati. | `app/Actions/Block/ResolveLocalizedBlockDataAction.php` |
 | Slider | Dati di una slide (miniature desktop e mobile, link, titolo, descrizioni) e relativa collezione. | `app/Datas/SliderData.php`, `app/Datas/SliderD
+=======
+| Blocco localizzato | Dati del blocco risolti dal CMS se il modulo Cms esiste, altrimenti parametri invariati. | `app/Actions/Block/GetLocalizedBlockDataAction.php` |
+| Slider | Dati di una slide (miniature desktop e mobile, link, titolo, descrizioni) e relativa collezione. | `app/Datas/SliderData.php`, `app/Datas/SliderDataC
+>>>>>>> .merge_file_Vu35gO
 
 ### `group-column-fix.md` — GroupColumn Fix - Risoluzione Errore "Column not mounted to table"
 
@@ -3023,6 +3791,7 @@ public function registerBladeIcons(): void
 }
 ```
 
+<<<<<<< .merge_file_TQChq5
 ### `iconstatesplitcolumn-implementation-1-2.md` — IconStateSplitColumn Implementation
 
 
@@ -3045,6 +3814,8 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 - **Medium screens**: 4 columns for optimal balance
 - **Large sc
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `iconstatesplitcolumn-implementation-1.md` — IconStateSplitColumn Implementation
 
 
@@ -3072,23 +3843,41 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 
 # IDColumn: colonna id e ancora della riga
 
+<<<<<<< .merge_file_TQChq5
 ## Cosa fa
 
 `Modules\UI\Filament\Tables\Columns\IDColumn` e' una `TextColumn` preconfigurata per la
 chiave primaria: label `ID`, ordinabile, ricercabile, e cella che emette l'ancora della
 riga.
+=======
+> Fact-gate: aggiorna stesso file; link da ADR [0002-idcolumn-mandatory-on-tables](adr/0002-idcolumn-mandatory-on-tables.md).
+> User: «colonna id di tipo IDColumn … migliorare con anchor link … docs/adr».
+
+## Cosa fa
+
+`Modules\UI\Filament\Tables\Columns\IDColumn` e' la colonna **obbligatoria** per la
+chiave primaria: ordinabile, `copyable()` sullo stato grezzo, cella = self-link
+ancora della riga. ADR: [0002-idcolumn-mandatory-on-tables](adr/0002-idcolumn-mandatory-on-tables.md).
+>>>>>>> .merge_file_Vu35gO
 
 ```php
 use Modules\UI\Filament\Tables\Columns\IDColumn;
 
+<<<<<<< .merge_file_TQChq5
 'id' => IDColumn::make('id'),
+=======
+'id' => IDColumn::make(),
+>>>>>>> .merge_file_Vu35gO
 ```
 
 Rende:
 
+<<<<<<< .merge_file_TQChq5
 ```html
 <span id="record-1875" class="scroll-mt-24">1875</span>
 ```
+=======
+>>>>>>> .merge_file_Vu35gO
 
 ### `ignore-suppressions-audit.md` — Audit `@phpstan-ignore` su Modules/UI
 
@@ -3260,10 +4049,17 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 
 > Aggiorna entrambi i riferimenti se aggiungi nuove chiavi di traduzione o modifichi la struttura.
 
+<<<<<<< .merge_file_TQChq5
 ## Collegamenti tra versioni di lang-link-2.md
 * [lang-link-2.md](../../Lang/docs/lang-link-2.md)
 * [lang-link-2.md](../../Lang/docs/lang-link-2.md)
 * 
+=======
+## Collegamenti tra versioni di lang-link.md
+* [lang-link.md](../../../Chart/docs/lang-link.md)
+* [lang-link.md](../../../Reporting/docs/lang-link.md)
+
+>>>>>>> .merge_file_Vu35gO
 
 ### `laravel-13-upgrade.md` — Upgrade Laravel 13 - UI 🐄✨
 
@@ -3282,6 +4078,7 @@ L'upgrade a Laravel 13 per il modulo **UI** non è un mero aggiornamento tecnico
 - [x] **PHP ^8.4**: Allineamento ai requisiti di Laravel 13.
 - [x] **composer.json**: Aggiornato con `laravel/framework: ^13.0` e `nwidart/
 
+<<<<<<< .merge_file_TQChq5
 ### `launch-plan.md` — Product Launch Plan: UI Module v1.0
 
 
@@ -3302,6 +4099,8 @@ L'upgrade a Laravel 13 per il modulo **UI** non è un mero aggiornamento tecnico
 ## 📈 Post-Launch Tracking
 Monitor user satisfaction scores and frontend bundle performance.
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `layouts-and-themes-1.md` — Versione HEAD
 
 
@@ -3659,6 +4458,7 @@ Il design system di il progetto definisce...
 ```
 
 
+<<<<<<< .merge_file_TQChq5
 ### `navigation-components-1-2.md` — Componenti di Navigazione
 
 
@@ -3682,6 +4482,8 @@ Questo documento descrive l'utilizzo corretto dei componenti di navigazione , co
 - `<x-blocks.navigation.user-dropdown>` - Dropdown utente (visualizzato solo per utenti autenticati)
 - `<x-blocks.navigation.login-buttons>` - Pulsanti di login/registrazione (visualizzati solo per utenti non autenticati)
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `navigation-components-1.md` — Componenti di Navigazione
 
 
@@ -3858,6 +4660,7 @@ Questo module segue il **pattern on-demand** per rules, skills, commands e memor
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](htt
 
+<<<<<<< .merge_file_TQChq5
 ### `paths-and-assets-1-2.md` — AVVISO IMPORTANTE (2025-05-13)
 
 
@@ -3871,6 +4674,8 @@ Questo module segue il **pattern on-demand** per rules, skills, commands e memor
 >
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `paths-and-assets-1.md` — AVVISO IMPORTANTE (2025-05-13)
 
 
@@ -3930,7 +4735,11 @@ Questo module segue il **pattern on-demand** per rules, skills, commands e memor
 - .cache/ (8KB nel repo)
 + ~/.cache/qmd-cache/ (fuori da git)
 
+<<<<<<< .merge_file_TQChq5
 ### `philosophy-2.md` — UI Module Philosophy
+=======
+### `philosophy-dev-rules.md` — UI Module Philosophy
+>>>>>>> .merge_file_Vu35gO
 
 
 # UI Module Philosophy
@@ -3953,11 +4762,16 @@ All UI components extend Xot base classes:
 class MyResource extends XotBaseResource { }
 
 
+<<<<<<< .merge_file_TQChq5
 ### `philosophy-dev-rules.md` — UI Module Philosophy
+=======
+### `philosophy.md` — UI Module Philosophy
+>>>>>>> .merge_file_Vu35gO
 
 
 # UI Module Philosophy
 
+<<<<<<< .merge_file_TQChq5
 Reusable components, design system, and patterns for Filament, Folio, and Volt across all 47 modules.
 
 ## First Principle
@@ -3992,6 +4806,19 @@ This document captures the philosophical and technical foundations of the UI mod
 ### 1. UI is Vocabulary, Not Clothing
 
 The UI module defines **what exists** in the interface. The theme defines **how it appears**.
+=======
+A design system is not a collection of components. It is a covenant about how an interface thinks.
+
+This document captures the philosophical and technical foundations of the UI module. It is not a tutorial; it is the reasoning behind the constraints.
+
+---
+
+## Religione: The Non-Negotiable Dogmas
+
+### 1. UI is Vocabulary, Not Clothing
+
+The UI module defines **what exists** in the interface. The theme defines **how it appears**.
+>>>>>>> .merge_file_Vu35gO
 
 **The distinction is not academic.**
 
@@ -4131,6 +4958,7 @@ Errori PHPStan Level 9+ rilevati durante la scansione multi-modulo: Media, <nome
 
 ### 🟢 **Media Module** - S3 Actions
 
+<<<<<<< .merge_file_TQChq5
 ### `phpstan-namespace-correction-2.md` — Correzione Namespace nel Modulo UI
 
 
@@ -4154,6 +4982,8 @@ In un'applicazione Laravel modulare, la struttura dei namespace dovrebbe seguire
 ```
 Modules\{NomeModulo}\{TipoComponente}
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `phpstan-namespace-correction.md` — Correzione Namespace nel Modulo UI
 
 
@@ -4223,6 +5053,55 @@ if (property_exists($model, 'attribute')) {
 // CORRETTO - Rispetta __isset() magic method
 if (isset($model->attribute)) {
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `phpstan-radio-badge-fix-1.md` — Correzione Errori PHPStan - RadioBadge.php
+
+
+# Correzione Errori PHPStan - RadioBadge.php
+
+## Data Aggiornamento
+2025-01-27
+
+## File Modificato
+`Modules/UI/app/Filament/Forms/Components/RadioBadge.php`
+
+## Errori PHPStan Risolti
+
+### 1. **PHPDoc tag @return con sintassi non valida**
+- **Errore**: `PHPDoc tag @return has invalid value (null|BackedEnum&HasColor): Unexpected token "&"`
+- **Causa**: Sintassi non corretta per l'intersezione di tipi in PHPDoc
+- **Soluzione**: Corretta la sintassi PHPDoc per includere entrambe le interfacce
+
+### 2. **Metodo senza tipo di ritorno**
+- **Errore**: `Method getEnumValue() has no return type specified`
+- **Causa**: Metodo `getEnumValue()` mancava del tipo di ritorno
+- **Soluzione**: Aggiunto tipo di ritorno `?BackedEnum`
+
+### `phpstan-radio-badge-fix.md` — Correzione Errori PHPStan - RadioBadge.php
+
+
+# Correzione Errori PHPStan - RadioBadge.php
+
+## Data Aggiornamento
+[DATE]
+
+## File Modificato
+`Modules/UI/app/Filament/Forms/Components/RadioBadge.php`
+
+## Errori PHPStan Risolti
+
+### 1. **PHPDoc tag @return con sintassi non valida**
+- **Errore**: `PHPDoc tag @return has invalid value (null|BackedEnum&HasColor): Unexpected token "&"`
+- **Causa**: Sintassi non corretta per l'intersezione di tipi in PHPDoc
+- **Soluzione**: Corretta la sintassi PHPDoc per includere entrambe le interfacce
+
+### 2. **Metodo senza tipo di ritorno**
+- **Errore**: `Method getEnumValue() has no return type specified`
+- **Causa**: Metodo `getEnumValue()` mancava del tipo di ritorno
+- **Soluzione**: Aggiunto tipo di ritorno `?BackedEnum`
+
+>>>>>>> .merge_file_Vu35gO
 ### `phpstan-roadmap.md` — PHPStan Roadmap - UI Module
 
 
@@ -4254,7 +5133,11 @@ The **UI** module is fully compliant with PHPStan Level 10. No errors were repor
 - **Level**: max (root `laravel/phpstan.neon`)
 - **Errors**: **0**
 - **Last Checked**: 2026-11-16
+<<<<<<< .merge_file_TQChq5
 - **Story**: [bmad/stories/phpstan-modules-zero.story.md](bmad/stories/phpstan-modules-zero.story.md)
+=======
+- **Story**: [bmad/stories/phpstan-modules-zero.story.md](bmad/stories/0017-phpstan-modules-zero.story.md)
+>>>>>>> .merge_file_Vu35gO
 
 ## Measure
 
@@ -4307,6 +5190,7 @@ Inconsistent UI across 30+ modules leads to poor user experience, high maintenan
 - As a **Developer**, I want a library of pre-built Blade components so I can build pages faster.
 
 
+<<<<<<< .merge_file_TQChq5
 ### `product-launch-plan-2.md` — UI Module - Product Launch Plan
 
 
@@ -4353,6 +5237,8 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 - PRD e roadmap aggiornati
 - test critici verdi
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `product-requirements.md` — Product Requirements Document (PRD)
 
 
@@ -4376,6 +5262,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 ### Descrizione Breve
 Il modulo UI fornisce **componenti UI condivisi e layout** per l'ecosistema Laraxot. Include componenti Blade riutilizzabili, layout comuni e integrazione Filament.
 
+<<<<<<< .merge_file_TQChq5
 ### `product-roadmap-2.md` — UI Module - Product Roadmap
 
 
@@ -4468,6 +5355,8 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 - DRY: riuso prima di duplicare
 - KISS: superfici semplici e veritiere
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `project-structure.md` — Project Structure — Module **UI**
 
 
@@ -4487,7 +5376,11 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
 │   ├── skills/                   # Skill progettuali
+<<<<<<< .merge_file_TQChq5
 │   │   ├── index-2.md
+=======
+│   │   ├── index.md
+>>>>>>> .merge_file_Vu35gO
 │   │   └── *.md
 │   ├── commands/                 # Comandi progettuali
 
@@ -4617,10 +5510,17 @@ Class Modules\Notify\Filament\Forms\Components\ParentSelect
   (rule: Modules\UI\ => ./Modules/UI/app). Skipping.
 ```
 
+<<<<<<< .merge_file_TQChq5
 ### `public-resources-management-1-2.md` — Gestione delle Risorse Pubbliche
 
 
 # Gestione delle Risorse Pubbliche 
+=======
+### `public-resources-management-1.md` — Gestione delle Risorse Pubbliche
+
+
+# Gestione delle Risorse Pubbliche
+>>>>>>> .merge_file_Vu35gO
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -4638,6 +5538,7 @@ Questo documento descrive la corretta gestione delle risorse pubbliche (immagini
 La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
+<<<<<<< .merge_file_TQChq5
 /var/www/html/saluteora/
 
 ### `public-resources-management-1.md` — Gestione delle Risorse Pubbliche
@@ -4662,6 +5563,27 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
 
+=======
+
+
+### `purpose.md` — UI: scopo del modulo
+
+
+# UI: scopo del modulo
+
+## Lo scopo in una frase **UI e' il vocabolario visivo condiviso: fa si' che la stessa cosa abbia lo stesso aspetto e lo stesso comportamento in tutti i moduli, senza che nessuno debba
+
+## Confini
+
+Verificare sul codice: dipendenze verso Xot/User/Ptv/Sigma secondo la regola
+«i verticali dipendono da base e framework, la base non dipende dai verticali».
+
+## Riferimenti
+
+- [Audit BMAD](./bmad/audit.md)
+- [Piano di miglioramento](./bmad/piano-miglioramento.md)
+- [ECC](./ecc/ui-ecc-audit.md)
+>>>>>>> .merge_file_Vu35gO
 
 ### `qmd-setup.md` — QMD Setup per Module **UI**
 
@@ -4709,6 +5631,7 @@ rifare e contestare.
 | PHPInsights — Code | 92.9 % |
 | PHPInsights — Complexity | 100.0 % |
 
+<<<<<<< .merge_file_TQChq5
 ### `quality-report-2.md` — Quality Report — UI
 
 
@@ -4732,6 +5655,8 @@ cd laravel
 XDEBUG_MODE=coverage php -d memory_limit=2G ./vendor/bin/pest Modules/UI/tests \
   --coverage-text --colors=never
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `quality-report.md` — UI Module - Quality Report
 
 
@@ -4779,13 +5704,21 @@ High-risk findings:
 - Config files exist in both `Config/` and `config/`, including `config.php`, `laravel-localization.php`, and `laravellocalization.php`.
 - Many UI components are byte-identical with `Modules/User`, including `button`, `modal`, `input`, `checkbox`, `badge`, `link`, `nav-link`, `text-link`, `placeholder`, and marketing/layout components.
 - Block stats are duplicated under both `archived/` and `superseded/`.
+<<<<<<< .merge_file_TQChq5
 - Docs have case-only duplicates such as `architecture-2.md` and `architecture.md`, plus duplicate index variants.
+=======
+- Docs have case-only duplicates such as `ARCHITECTURE.md` and `architecture.md`, plus duplicate index variants.
+>>>>>>> .merge_file_Vu35gO
 
 - Docs have case-only duplicates such as `architecture.md` and `architecture.md`, plus duplicate index variants.
 
 Risk:
 - UI should be the shared owner. Duplicating primitives in User makes fixes diverge.
+<<<<<<< .merge_file_TQChq5
 - `Config/` vs 
+=======
+- `Config/` vs `c
+>>>>>>> .merge_file_Vu35gO
 
 ### `redundancy-report.md` — Redundancy Report — Modulo UI
 
@@ -4910,6 +5843,78 @@ Il secondo era la versione legacy per i componenti Livewire (aveva anche `refres
 2. Usare checklist pre-merge e post-fix.
 3. Mantenere un set di file canonici per diagnosi rapida.
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `roadmap/archive/component-system.md` — Sistema Componenti UI
+
+
+# Sistema Componenti UI
+
+## 📊 Stato Implementazione
+Completamento: 35%
+
+## 🎯 Obiettivi
+1. Creare un sistema di componenti tipizzato e riutilizzabile
+2. Garantire consistenza visiva e comportamentale
+3. Migliorare la developer experience
+4. Ottimizzare le performance di rendering
+
+## 🤔 Sfide di Design
+
+### 1. Tipizzazione Componenti
+- Necessità di mantenere type safety tra props e rendering
+- Gestione stati complessi nei componenti dinamici
+- Validazione props a runtime
+
+### 2. Theming System
+
+### `roadmap/archive/form-component.md` — Form Component
+
+
+# Form Component
+
+## 📊 Stato Implementazione
+Completamento: 45%
+
+## 🎯 Obiettivi
+1. Creare un form builder tipizzato e flessibile
+2. Integrare validazione lato client e server
+3. Supportare form dinamici e nested
+4. Ottimizzare la UX con feedback immediato
+
+## 🤔 Sfide di Design
+
+### 1. Type Safety
+- Validazione input tipizzata
+- Gestione form nidificati
+- Type inference per campi dinamici
+
+### 2. Validazione
+
+### `roadmap/archive/theme-system.md` — Sistema di Theming
+
+
+# Sistema di Theming
+
+## 📊 Stato Implementazione
+Completamento: 40%
+
+## 🎯 Obiettivi
+1. Sistema di theming flessibile e tipizzato
+2. Supporto per temi multi-tenant
+3. Dark/Light mode automatico
+4. Customizzazione component-level
+
+## 🤔 Sfide di Design
+
+### 1. Theme Configuration
+- Gestione gerarchica dei temi
+- Override per tenant specifici
+- Tipizzazione configurazioni
+
+### 2. Runtime Theming
+
+>>>>>>> .merge_file_Vu35gO
 ### `roadmap/current-state.md` — Current State - UI
 
 
@@ -5046,7 +6051,11 @@ Il secondo era la versione legacy per i componenti Livewire (aveva anche `refres
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< .merge_file_TQChq5
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> .merge_file_Vu35gO
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria
@@ -5087,7 +6096,11 @@ Il secondo era la versione legacy per i componenti Livewire (aveva anche `refres
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< .merge_file_TQChq5
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> .merge_file_Vu35gO
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria
@@ -5329,7 +6342,11 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 3. L'utente può inserire un messaggio opzionale
 4. Alla conferma, viene eseguita la transizione con il mes
 
+<<<<<<< .merge_file_TQChq5
 ### `spatie-media-library-migration-1-2.md` — Migrazione da FileUpload a Spatie Media Library
+=======
+### `spatie-media-library-migration-1.md` — Migrazione da FileUpload a Spatie Media Library
+>>>>>>> .merge_file_Vu35gO
 
 
 # Migrazione da FileUpload a Spatie Media Library
@@ -5349,6 +6366,7 @@ Questo documento descrive l'implementazione di una modale di conferma con textar
 
 ### **Biologia & Chimica del C
 
+<<<<<<< .merge_file_TQChq5
 ### `spatie-media-library-migration-1.md` — Migrazione da FileUpload a Spatie Media Library
 
 
@@ -5814,11 +6832,594 @@ BMAD phases covered by this story: **Build** (5 mechanical phpmd fixes) + **Meas
 (quality-gate closure) for `Modules/UI`, run 2026-09-04.
 
 ## Context
+=======
+### `standards/auth-form-standards.md` — Standard Form di Autenticazione
+
+
+# Standard Form di Autenticazione
+
+## Principi di Design
+
+### Layout
+- I form di autenticazione devono essere centrati sia orizzontalmente che verticalmente
+- Utilizzare una larghezza massima appropriata per garantire leggibilità
+- Mantenere una gerarchia visiva chiara con spaziatura consistente
+
+### Container
+```html
+<div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+  <div class="sm:mx-auto sm:w-full sm:max-w-md">
+    <!-- Logo o intestazione -->
+  </div>
+
+  <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+    <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+      <!-- Form -->
+
+### `standards/form-standards.md` — Standard Form nei Temi
+
+
+# Standard Form nei Temi
+
+## Principi Generali
+
+### Layout e Allineamento
+- I form devono essere centrati nella pagina con margini appropriati
+- Utilizzare una larghezza massima per garantire leggibilità
+- Mantenere una spaziatura consistente tra gli elementi
+
+```html
+<div class="container mx-auto max-w-4xl px-4 py-8">
+  <form class="w-full space-y-6">
+    <!-- Contenuto del form -->
+  </form>
+</div>
+```
+
+### Grid System
+- Utilizzare il grid system di Tailwind per layout responsivi
+
+### `stories/0002-ui-phpstan-fix-2.story.md` — Story: UI PHPStan fix
+
+# Story: UI PHPStan fix
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0003-retire-ui-http-livewire.story.md` — 12.1 Ritiro HTTP UI
+
+# 12.1 Ritiro HTTP UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0004-1-drift-sync-tier1.story.md` — Drift Sync Tier 1 — laraxot/dev fetch e merge moduli critica
+
+# Drift Sync Tier 1 — laraxot/dev fetch e merge moduli critica
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0005-ui-merge-conflict-resolution.story.md` — 19.UI: risoluzione dei marker del merge HEAD vs laraxot/dev
+
+# 19.UI: risoluzione dei marker del merge HEAD vs laraxot/dev
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0006-ui-merge-conflict-resolution-2.story.md` — 19.UI: risoluzione dei marker del merge HEAD vs laraxot/dev
+
+# 19.UI: risoluzione dei marker del merge HEAD vs laraxot/dev
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0007-ui-sync-marker-repair.story.md` — 20.UI: marker del sync `laraxot/dev` nei nove file PHP di `app/`
+
+# 20.UI: marker del sync `laraxot/dev` nei nove file PHP di `app/`
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0008-merge-markers-regressione-c89696dc.story.md` — 5.12: Regressione dei marker di conflitto nel modulo UI
+
+# 5.12: Regressione dei marker di conflitto nel modulo UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0009-merge-conflict-markers-cleanup.story.md` — 5.8: Rimuovere i marker di conflitto git committati nel modulo UI
+
+# 5.8: Rimuovere i marker di conflitto git committati nel modulo UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0013-phpstan-concurrent-tail-contracts.story.md` — Story UI-7.12: contratti tail dopo remediation concorrente
+
+# Story UI-7.12: contratti tail dopo remediation concorrente
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0014-mixed-type-reduction.story.md` — Story UI-7.13: riduzione uso di mixed dove il tipo e' noto
+
+# Story UI-7.13: riduzione uso di mixed dove il tipo e' noto
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0015-phpstan-locationselector-geo-boundary-cleanup.story.md` — Story UI-7.14: fix phpstan report (40 errori, 3 file)
+
+# Story UI-7.14: fix phpstan report (40 errori, 3 file)
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0016-interactivemap-geo-boundary-violation.story.md` — 7.15 — `InteractiveMap.php`: stessa violazione di confine di `LocationSelector.php`
+
+# 7.15 — `InteractiveMap.php`: stessa violazione di confine di `LocationSelector.php`
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0018-phpstan-shared-fixture-contracts.story.md` — Story UI-7.3: contratti fixture condivise coverage
+
+# Story UI-7.3: contratti fixture condivise coverage
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0025-audit-qualita.story.md` — Audit qualita' — modulo UI
+
+# Audit qualita' — modulo UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0028-continuation-3.story.md` — UI Module — Continuation Task
+
+# UI Module — Continuation Task
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0029-cookiebar-visual-audit.story.md` — Cookiebar Visual Audit
+
+# Cookiebar Visual Audit
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0030-docs-index-audit.story.md` — Audit indice documentazione modulo UI
+
+# Audit indice documentazione modulo UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0031-id-timestamp-columns-extraction.story.md` — Story: SortableIdColumn / TimestampColumn
+
+# Story: SortableIdColumn / TimestampColumn
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0032-person-column-schema-org-aggregate.story.md` — Story: PersonColumn — aggregato riutilizzabile anagrafica + contatto
+
+# Story: PersonColumn — aggregato riutilizzabile anagrafica + contatto
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0033-person-column-schema-org-identity-group.story.md` — STORY — PersonColumn
+
+# STORY — PersonColumn
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0034-phpstan-cleanup-ui.story.md` — [STORY] PHPStan cleanup — UI
+
+# [STORY] PHPStan cleanup — UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0035-phpstan-ui-setlocale-duplicate-guard.story.md` — PHPStan UI: guardia duplicata in SetLocale
+
+# PHPStan UI: guardia duplicata in SetLocale
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0036-placeholder-translations-cleanup.story.md` — Via le traduzioni segnaposto dai file di lingua
+
+# Via le traduzioni segnaposto dai file di lingua
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0037-quality-gate-ui.story.md` — Quality gate closure — Modules/UI
+
+# Quality gate closure — Modules/UI
+
+## Context and Problem Statement
+>>>>>>> .merge_file_Vu35gO
 
 PHPStan on `Modules/UI` was already verified at 0 errors earlier the same day (documented
 in `docs/coverage.md`'s "Mixed type reduction" entry). Scope for this pass: phpmd, pest,
 coverage, git — with a phpstan baseline re-check.
 
+<<<<<<< .merge_file_TQChq5
 ## Build — what was fixed
 
 `./tools/phpmd.sh Modules/UI/app text ../docs/phpmd.ruleset.xml` reported 64 findings.
@@ -5960,6 +7561,158 @@ namespace Modules\UI\Forms\Components;
 use Filament\Forms\Components\Field;
 use Illuminate\Database\Eloquent\Collection;
 use Closure;
+=======
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+
+### `stories/0038-services-to-actions-ui.story.md` — Services -> Actions nel modulo UI
+
+# Services -> Actions nel modulo UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0039-ui-module-bmad-setup.story.md` — UI Module BMAD Setup
+
+# UI Module BMAD Setup
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0040-ui-readme-architecture-conflict-cleanup.story.md` — Risolve conflitti README + consolida docs/architecture case-dupes
+
+# Risolve conflitti README + consolida docs/architecture case-dupes
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0041-ui-root-md-file-limit-audit.story.md` — Audit igiene root — limite 6 file .md in Modules/UI
+
+# Audit igiene root — limite 6 file .md in Modules/UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/0042-ui-services-to-actions.story.md` — Convert app/Services to QueueableAction (no-services-rule)
+
+# Convert app/Services to QueueableAction (no-services-rule)
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+
+### `stories/phpstan-cleanup-ui.dev.md` — [DEV] PHPStan cleanup — UI
+
+# [DEV] PHPStan cleanup — UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
+
+>>>>>>> .merge_file_Vu35gO
 
 ### `studio-card-selector-implementation-1.md` — StudioCardSelector Component - Modulo UI
 
@@ -5984,6 +7737,55 @@ use Filament\Forms\Components\Field;
 use Illuminate\Database\Eloquent\Collection;
 use Closure;
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `svg-icons-automatic-registration.md` — ✅ SVG Icons - Automatic Registration
+
+
+# ✅ SVG Icons - Automatic Registration
+
+**Data**: 2026-03-30  
+**Stato**: ✅ **CORRETTO**
+
+## 🎯 Concetto Chiave
+
+**Gli SVG vengono registrati AUTOMATICAMENTE da Laravel!**
+
+Non serve:
+- ❌ Service Provider personalizzati
+- ❌ Registrazione manuale con FilamentAsset
+- ❌ Blade::anonymousComponentPath()
+
+Basta:
+- ✅ Mettere i file SVG in `resources/svg/`
+- ✅ Usare `<x-svg name="folder.icon-name" />`
+
+## 📁 Directory Structure
+
+### `svg-icons-complete.md` — ✅ SVG Icons - Automatic Registration COMPLETE
+
+
+# ✅ SVG Icons - Automatic Registration COMPLETE
+
+**Data**: 2026-03-30  
+**Stato**: ✅ **COMPLETATO**
+
+## 🎯 Concetto Chiave
+
+**Gli SVG vengono registrati AUTOMATICAMENTE da Filament!**
+
+## 📁 SVG Files Created (6)
+
+**Path**: `laravel/Modules/UI/resources/svg/brands/`
+
+| File | Icon Name | Usage |
+|------|-----------|-------|
+| `facebook.svg` | `ui-brands.facebook` | `<x-filament::icon icon="ui-brands.facebook" />` |
+| `twitter.svg` | `ui-brands.twitter` | `<x-filament::icon icon="ui-brands.twitter" />` |
+| `youtube.svg` | `ui-brands.youtube` | `<x-filament::icon icon="ui-brands.youtube" />` |
+| `telegram.svg` | `ui-brands.telegram` | `<x-filament::icon icon="ui-brands.telegram" />` |
+
+>>>>>>> .merge_file_Vu35gO
 ### `table-components-1.md` — Componenti Table
 
 
@@ -6267,6 +8069,7 @@ Aggiornare il pacchetto UI per sfruttare appieno le potenzialità di Filament v5
 ## 🔗 Riferimenti
 - [Roadmap UI](../roadmap.md)
 
+<<<<<<< .merge_file_TQChq5
 ### `tech-spec-2.md` — Technical Specification - UI Module
 
 # Technical Specification - UI Module
@@ -6313,6 +8116,8 @@ Technical implementation details for the UI module.
 - Laravel 13.x
 - Filament 5.x
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `test-conflicts-resolution.md` — Test di Risoluzione Conflitti nel Modulo UI
 
 
@@ -6453,7 +8258,11 @@ bashscripts/
 1. **Standardizzare** l'uso di schemaless attributes nei temi UI
 2. *
 
+<<<<<<< .merge_file_TQChq5
 ### `translations-update-january.md` — Aggiornamento Traduzioni Modulo UI - Gennaio 2026
+=======
+### `translations-update-snapshot-historical.md` — Aggiornamento Traduzioni Modulo UI - Gennaio 2026
+>>>>>>> .merge_file_Vu35gO
 
 
 # Aggiornamento Traduzioni Modulo UI - Gennaio 2026
@@ -6545,6 +8354,7 @@ Modules/UI/
 ### Errore: "View [x-ui::ui.component-name] not found"
 
 
+<<<<<<< .merge_file_TQChq5
 ### `user-research-2.md` — UI Module - User Research
 
 
@@ -6584,6 +8394,8 @@ Identify usability issues in complex Filament forms and tables.
 - Enforce the use of `Tabs` and `Sections` in all `XotBaseResource` forms.
 - Optimize table columns for narrow viewports using `WorkerColumn` patterns.
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `vscode-filament-plugin-1.md` — Plugin VSCode per Filament
 
 
@@ -6630,6 +8442,32 @@ use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 class StatsOverviewWidget extends BaseWidget
 {
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `wiki/_integration/custom-theme.md` — custom_theme
+
+
+# custom_theme
+
+<!-- Contenuto migrato da _docs/custom_theme.txt -->
+
+https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
+
+php artisan make:filament-theme admin
+
+add resources/css/filament/admin/theme.css entry to vite.config.js
+
+in app/Providers/Filament/AdminPanelProvider.php
+->viteTheme('resources/css/filament/admin/theme.css')
+# custom_theme
+
+<!-- Contenuto migrato da _docs/custom_theme.txt -->
+
+https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
+
+php artisan make:filament-theme admin
+
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/_integration/effetcts.md` — effetcts
 
 
@@ -6701,6 +8539,7 @@ composer require mtvs/laravel-reviews
 https://github.com/mtvs/eloquent-aggregate-rating
 -------------------------------------------------------------------------------------------------
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/_integration/ubuntu.md` — ubuntu
 
 
@@ -6716,6 +8555,8 @@ sudo apt-get install gifsicle
 sudo apt-get install webp
 sudo apt-get install libavif-bin # minimum 0.9.3
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/_integration/widgets.md` — widgets
 
 
@@ -6805,7 +8646,11 @@ flowchart LR
   B --> C[ComponentFileData collection]
   D[x-render.blocks v1/v2] --> E[x-render.block]
   E --> F[Render\Block]
+<<<<<<< .merge_file_TQChq5
   F --> G[ResolveLocalizedBlockDataAction]
+=======
+  F --> G[GetLocalizedBlockDataAction]
+>>>>>>> .merge_file_Vu35gO
   G --> H{Modulo Cms presente?}
 
 ### `wiki/concepts/claude-audit-static.md` — claude-audit static (UI)
@@ -6904,7 +8749,11 @@ Il modulo **UI** documenta l’uso dei componenti Blade Filament condivisi tra t
 
 ## Regola
 
+<<<<<<< .merge_file_TQChq5
 Leggere prima [filament-first-rule.md](../../../../../../docs/wiki/rules/filament-first-rule.md) (Rule 019). Il file [filament-components-2.md](../../../../Cms/docs/filament-components-2.md) elenca mapping tag → anti-pattern.
+=======
+Leggere prima [filament-first-rule.md](../../../../../../docs/wiki/rules/filament-first-rule.md) (Rule 019). Il file [filament-components.md](../../blade/filament-components.md) elenca mapping tag → anti-pattern.
+>>>>>>> .merge_file_Vu35gO
 
 ## Filament 5
 
@@ -7095,7 +8944,11 @@ Documento canonico: [ponytail-audit-over-engineering.md](../../ponytail-audit-ov
 |---------|------|
 | **Canon** | [Xot second-brain-local-discipline.md](../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md) |
 | **Harness moduli** | [ai-harness-module-discipline.md](../../../../docs/wiki/concepts/ai-harness-module-discipline.md) |
+<<<<<<< .merge_file_TQChq5
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+=======
+| **Tips 001–022** | [hackernoon map](../../../../../../bashscripts/ai/wiki/concepts/agents-harness-tooling.md#hackernoon-ai-coding-tips-fixcity-map) |
+>>>>>>> .merge_file_Vu35gO
 | **Prompt router** | [llm-wiki.txt](../../../../../../bashscripts/tools/prompts/llm-wiki.txt) |
 
 Solo decisioni specifiche di **UI** in `docs/wiki/`; contratto generico in Xot.
@@ -7199,6 +9052,7 @@ Classes extending `Modules\Xot\Filament\Forms\Components\XotBaseField` **must no
 ## Affected Files (current violations)
 - `laravel/Modules/UI/app/Filament/Forms/Components/AddressField.php` – line 24 declares `$view = 'filament-schemas::compo
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/context-compression.md` — Context Compression Setup
 
 
@@ -7222,6 +9076,8 @@ Questo sostituisce la precedente nota speculativa con una configurazione effetti
 - installazione package: `bashscripts/mcp/package.json`
 
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/how-to/gitmodules-sync-session.md` — Gitmodules sync session
 
 
@@ -7238,9 +9094,14 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 ## Canon
 
 - Story: [../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md](../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md)
+<<<<<<< .merge_file_TQChq5
 - Report: [../../../../../../docs/chat/gitmodules-sync.md](../../../../../../docs/chat/gitmodules-sync.md)
 - Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
 - Issue base: http
+=======
+- Report: [../../../../../../bashscripts/ai/wiki/memories/git-sync-fleet-remotes.md#gitmodules-sync](../../../../../../bashscripts/ai/wiki/memories/git-sync-fleet-remotes.md#gitmodules-sync)
+
+>>>>>>> .merge_file_Vu35gO
 
 ### `wiki/integrazioni-valutate.md` — Integrazioni valutate per il modulo UI
 
@@ -7295,6 +9156,55 @@ Script: `bashscripts/tools/split-module-lang-monolith-for-audit.php UI it <fileB
 ## Main Risks
 
 
+<<<<<<< .merge_file_TQChq5
+=======
+### `wiki/standards/auth-form-standards.md` — Standard Form di Autenticazione
+
+# Standard Form di Autenticazione
+
+## Principi di Design
+
+### Layout
+- I form di autenticazione devono essere centrati sia orizzontalmente che verticalmente
+- Utilizzare una larghezza massima appropriata per garantire leggibilità
+- Mantenere una gerarchia visiva chiara con spaziatura consistente
+
+### Container
+```html
+<div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+  <div class="sm:mx-auto sm:w-full sm:max-w-md">
+    <!-- Logo o intestazione -->
+  </div>
+
+  <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+    <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+      <!-- Form -->
+    </div>
+
+### `wiki/standards/form-standards.md` — Standard Form nei Temi
+
+# Standard Form nei Temi
+
+## Principi Generali
+
+### Layout e Allineamento
+- I form devono essere centrati nella pagina con margini appropriati
+- Utilizzare una larghezza massima per garantire leggibilità
+- Mantenere una spaziatura consistente tra gli elementi
+
+```html
+<div class="container mx-auto max-w-4xl px-4 py-8">
+  <form class="w-full space-y-6">
+    <!-- Contenuto del form -->
+  </form>
+</div>
+```
+
+### Grid System
+- Utilizzare il grid system di Tailwind per layout responsivi
+- Su mobile: colonna singola
+
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/standards/ui-standards.md` — Standard UI
 
 
@@ -7318,6 +9228,7 @@ $gradient-success: linear-gradient(135deg, $success, darken($success, 10%));
 ```
 
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/topics/advanced-form.md` — Topic advanced-form
 
 
@@ -7364,6 +9275,8 @@ _Fonte: `brands-icons-integration-2.md`_
 1. ✅ **facebook.svg** - Facebook brand icon
 2. ✅ **twitter.svg** - Twitter/X brand icon
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/topics/carousel-slider.md` — Topic carousel-slider
 
 
@@ -7387,6 +9300,7 @@ https://keen-slider.io/examples
 
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/topics/custom-theme.md` — Topic custom-theme
 
 
@@ -7456,12 +9370,18 @@ Questo documento identifica i metodi duplicati nel modulo **UI** che potrebbero 
 
 | Tipo Refactoring | Conteggio |
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/topics/filament-components.md` — Topic filament-components
 
 
 # Topic filament-components
 
+<<<<<<< .merge_file_TQChq5
 Sintesi automatica di 6 documenti (chiave `filament-components`).
+=======
+Sintesi automatica di 4 documenti (chiave `filament-components`).
+>>>>>>> .merge_file_Vu35gO
 
 ## Componenti Filament UI
 
@@ -7473,7 +9393,11 @@ _Fonte: `filament-components-1.md`_
 
 ### Errori Comuni
 - [Errori nei Componenti Filament](./filament-components-errors.md)
+<<<<<<< .merge_file_TQChq5
 - [Best Practices UI](../../Activity/docs/best-practices-3.md)
+=======
+- [Best Practices UI](../../best-practices.md)
+>>>>>>> .merge_file_Vu35gO
 - [Implementazione Corretta](../../examples/correct-implementation.md)
 
 ### Componenti Specifici
@@ -7502,6 +9426,7 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 ## Soluzione
 - **Non usare mai** `->buttonLabel()` su FileUpload.
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/topics/form-standards.md` — Topic form-standards
 
 
@@ -7525,6 +9450,8 @@ _Fonte: `standards/form-standards.md`_
 ```html
 <div class="container mx-auto max-w-4xl px-4 py-8">
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/topics/legacy-roadmap.md` — Topic legacy-roadmap
 
 
@@ -7571,6 +9498,7 @@ filament/widgets/group|row → già FQCN
 
 ADR: gemello esistente batte classe nuova (stesso di User SocialLogin).
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/topics/page-builder.md` — Topic page-builder
 
 
@@ -7594,6 +9522,8 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/topics/phpstan-compliance.md` — Topic phpstan-compliance
 
 
@@ -7622,6 +9552,7 @@ The UI module is fully compliant with PHPStan Level max. Ultimo round (2026-11-1
 
 # Topic phpstan-corrections
 
+<<<<<<< .merge_file_TQChq5
 Sintesi automatica di 7 documenti (chiave `phpstan-corrections`).
 
 ## PHPStan Corrections - Gennaio 2025
@@ -7639,6 +9570,25 @@ Correzioni sistematiche degli errori PHPStan livello 10 per migliorare la qualit
 ### 1. Componenti View - Proprietà Mancanti
 
 #### Problema
+=======
+Sintesi automatica di 6 documenti (chiave `phpstan-corrections`).
+
+## Correzioni PHPStan Completate - Gennaio 2025
+
+_Fonte: `phpstan-corrections-final.md`_
+
+# Correzioni PHPStan Completate - Gennaio 2025
+
+## Riepilogo Finale
+
+✅ **Tutti gli errori PHPStan corretti** - 0 errori in tutti i moduli
+
+## Correzioni Applicate
+
+### 1. GetAllIconsAction.php
+
+**Problemi risolti**:
+>>>>>>> .merge_file_Vu35gO
 
 ### `wiki/topics/phpstan-errors.md` — Topic phpstan-errors
 
@@ -7668,7 +9618,11 @@ Il componente `LocationSelector` presenta errori PHPStan livello 10:
 
 # Topic phpstan-fixes
 
+<<<<<<< .merge_file_TQChq5
 Sintesi automatica di 8 documenti (chiave `phpstan-fixes`).
+=======
+Sintesi automatica di 7 documenti (chiave `phpstan-fixes`).
+>>>>>>> .merge_file_Vu35gO
 
 ## Correzioni PHPStan Livello 7 - Modulo UI
 
@@ -7686,6 +9640,7 @@ Questo documento traccia gli errori PHPStan di livello 7 identificati nel modulo
 Metodo toggleLayout() ha il parametro $livewire senza type hint specificato.
 Cannot call method dispatch() on class-string|object.
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/topics/phpstan-radio.md` — Topic phpstan-radio
 
 
@@ -7732,16 +9687,26 @@ _Fonte: `sprint-planning-2.md`_
 
 Implement core design system with essential UI components.
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/topics/table-layout.md` — Topic table-layout
 
 
 # Topic table-layout
 
+<<<<<<< .merge_file_TQChq5
 Sintesi automatica di 4 documenti (chiave `table-layout`).
 
 ## TableLayoutToggleTableAction
 
 _Fonte: `actions/table-layout-toggle-2.md`_
+=======
+Sintesi automatica di 3 documenti (chiave `table-layout`).
+
+## TableLayoutToggleTableAction
+
+_Fonte: `actions/table-layout-toggle.md`_
+>>>>>>> .merge_file_Vu35gO
 
 # TableLayoutToggleTableAction
 
@@ -7760,7 +9725,11 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 
 # Topic tailwind-themes
 
+<<<<<<< .merge_file_TQChq5
 Sintesi automatica di 4 documenti (chiave `tailwind-themes`).
+=======
+Sintesi automatica di 3 documenti (chiave `tailwind-themes`).
+>>>>>>> .merge_file_Vu35gO
 
 ## tailwind_themes
 
@@ -7778,6 +9747,7 @@ https://merakiui.com/
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
 
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/troubleshooting/git-merge-conflict-inventory-2.md` — Git Conflict Inventory
 
 
@@ -7797,6 +9767,8 @@ https://merakiui.com/
 - Inventory generated from `rg -l "^(<<<<<<<|=======|>>>>>>>)"`.
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/troubleshooting/git-merge-conflict-inventory.md` — Git Conflict Inventory
 
 
@@ -7814,8 +9786,13 @@ https://merakiui.com/
 - `app/Actions/Datetime/GetDaysMappingAction.php` — docblock `@contract`
 - `app/Actions/Panel/ApplyCalendarToPanelAction.php` — docblock `@contract`
 - `app/Actions/Block/GetAllBlocksAction.php` — docblock `@contract`
+<<<<<<< .merge_file_TQChq5
 - `app/Actions/Block/ResolveLocalizedBlockDataAction.php` — `@contract` + guard `class_exists` (Cms opzionale)
 - `app
+=======
+- `app/Actions/Block/GetLocalizedBlockDataAction.php` — `@contract` + guard `class_exists` (Cms opzionale)
+- `app/Ser
+>>>>>>> .merge_file_Vu35gO
 
 ### `wiki/troubleshooting/module-theme-root-hygiene.md` — Root modulo/tema — igiene
 
@@ -7867,12 +9844,15 @@ https://github.com/saade/filament-extra
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 
 
+<<<<<<< .merge_file_TQChq5
 ### `wiki/ui/ui-global-search-2.md` — ui-global-search-2
 
 
 https://github.com/spatie/laravel-searchable
 
 
+=======
+>>>>>>> .merge_file_Vu35gO
 ### `wiki/ui/ui-global-search.md` — ui-global-search
 
 
