@@ -2,8 +2,8 @@
 title: "ADR — UI"
 type: index
 owner: UI
-updated: 2026-11-24
-qmd: "UI ADR architecture decision record MADR formato blocchi layer condiviso"
+updated: 2026-11-25
+qmd: "UI ADR architecture decision record MADR formato blocchi IDColumn mandatory"
 ---
 
 # ADR — UI
@@ -16,6 +16,6 @@ Frontmatter (`title`, `type: decision`, `status`, `created`, `updated`, `decisio
 
 ## ADR presenti
 
-Elenco con stato: [index.md](index.md). Nessun ADR nuovo in questa passata: la scelta verificabile nel codice (delega al CMS per i blocchi, `GetLocalizedBlockDataAction` con ripiego sui parametri originali) è già in [ui-blocks-use-cms-localization](ui-blocks-use-cms-localization.md); il confine con il dominio in [ui-does-not-authorize-domain-data](ui-does-not-authorize-domain-data.md).
+Elenco con stato: [index.md](index.md). Ultima decisione: [idcolumn-mandatory-on-tables](idcolumn-mandatory-on-tables.md) (`IDColumn` prima colonna di ogni tabella Filament). Altre: [ui-blocks-use-cms-localization](ui-blocks-use-cms-localization.md); confine dominio in [ui-does-not-authorize-domain-data](ui-does-not-authorize-domain-data.md).
 
 Policy trasversale su dati sacri e test isolati: [0013-dati-sacri-migrazioni-e-test](../../../Xot/docs/adr/0013-dati-sacri-migrazioni-e-test.md).
