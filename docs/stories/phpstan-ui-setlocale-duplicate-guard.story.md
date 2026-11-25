@@ -9,8 +9,25 @@ updated: 2026-10-08
 module: UI
 tags: [phpstan, ui, middleware, locale, swarm]
 ---
-
 # PHPStan UI: guardia duplicata in SetLocale
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 Fase BMAD: Dev + Docs.
 
@@ -37,3 +54,15 @@ Azzerare gli errori PHPStan guardando lo scopo. Perimetro: `function.alreadyNarr
 ## Aperto
 
 - Un locale di sessione diverso da `it`/`en` (es. `fr`) passa senza controllo contro `app.supported_locales`; fuori perimetro.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+- `php -l`: nessun errore.
+- `phpstan analyse` sul file (con gli altri 6 dello swarm `small-modules`): `[OK] No errors`.
+- Pest: non eseguito (MySQL di test irraggiungibile, rc=124). `UiGapCloser100Test` (ramo sessione non stringa, che resta) e `UiHighestMissCoverageTest` coprono `SetLocale`.

@@ -24,8 +24,25 @@ related:
   - ../../tests/Unit/Enums/TableLayoutEnumTest.php
 qmd: "story ui table layout enum translations"
 ---
-
 # Problema
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 `EnumTrait::getIcon()` e `getLabel()` leggono `values.{case}.{property}`. Il catalogo
 italiano aveva invece `list` e `grid` al livello radice. La traduzione restituiva la
@@ -52,3 +69,13 @@ mirata conferma il rendering delle pagine Filament dopo la correzione.
 Resta necessario ripetere la suite completa e distinguere i fallimenti non correlati
 all'enum. Le chiavi inglesi sono già annidate sotto `values`; la regressione era nel
 catalogo italiano.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

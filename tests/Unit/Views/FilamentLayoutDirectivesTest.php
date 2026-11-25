@@ -11,7 +11,7 @@ use function Safe\preg_replace;
  * Existing UI tests: this file. UI layouts must not reference Cms (checked on the code, not on the folder,
  * so it holds in projects that do ship Modules/Cms).
  *
- * @see Modules/UI/docs/adr/optional-cms-delegation-for-block-data.md
+ * @see Modules/UI/docs/adr/0004-optional-cms-delegation-for-block-data.md
  * User: «@auth @livewire(notifications) @endauth e' sbagliato — solo @livewire(notifications)».
  * Docs: https://filamentphp.com/docs/5.x/introduction/installation#configuring-your-layout
  */

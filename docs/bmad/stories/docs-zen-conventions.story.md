@@ -9,8 +9,26 @@ updated: 2026-11-25
 parent: ../../../../Xot/docs/bmad/stories/docs-zen-conventions-swarm.story.md
 qmd: "ui docs bonifica kebab-case duplicati md5 underscore suffisso _1 template fabbricati getting-started placeholder frontmatter qmd fusione"
 ---
-
 # UI — bonifica docs `.md`
+
+## Context and Problem Statement
+
+Lane C dello swarm `laravel/Modules/Xot/docs/bmad/stories/docs-zen-conventions-swarm.story.md`: copie esatte
+(`wiki/ui/UI-*.md` vs `ui-*.md`, `_archive/` vs `archive/`), nomi `_1`/underscore/UPPERCASE, template generici.
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Perche'
 
@@ -57,3 +75,13 @@ Lane C dello swarm `laravel/Modules/Xot/docs/bmad/stories/docs-zen-conventions-s
 
 Solo `.md`: PHPStan/Pint/Pest non applicabili (skip documentato; PHPStan gia' 0). Verifica: misura ripetuta,
 YAML frontmatter parse 0 errori, 0 riferimenti a path rimossi/rinominati in tutti i docs del repo.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

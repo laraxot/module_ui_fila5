@@ -8,8 +8,25 @@ scope: module:UI
 epic: 18
 epic_title: Sincronizzazione Drift + Dedup Docs
 ---
-
 # Drift Sync Tier 1 — laraxot/dev fetch e merge moduli critica
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 **Epic:** 18 - Sincronizzazione Drift + Dedup Docs  
 **Story:** 18-1  
@@ -146,3 +163,13 @@ git log --oneline -1  # confirm pushed
 - **Git:** `fetch laraxot dev + merge --allow-unrelated-histories + push -u` per ogni modulo — operazioni isolate, non submodule
 - **Mai:** `--force`, `checkout --`, `revert` — git solo in avanti
 - **Ogni modulo** ha `.git` indipendente: scope atomico per AC-3 verification
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

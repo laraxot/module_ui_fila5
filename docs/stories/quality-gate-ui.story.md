@@ -5,8 +5,27 @@ slug: quality-gate-2026-09-04-ui
 status: done
 scope: module:UI
 ---
-
 # Quality gate closure — Modules/UI
+
+## Context and Problem Statement
+
+PHPStan on `Modules/UI` was already verified at 0 errors earlier the same day (documented
+in `docs/coverage.md`'s "Mixed type reduction" entry). Scope for this pass: phpmd, pest,
+coverage, git — with a phpstan baseline re-check.
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 BMAD phases covered by this story: **Build** (5 mechanical phpmd fixes) + **Measure**
 (phpstan/phpmd/pest verification, coverage doc, git sync). Standing order pillar 5
@@ -73,3 +92,13 @@ plus this story and `docs/coverage.md` were added and committed by this session.
   `SelectState::setUp()`, `InlineDatePicker::generateCalendarData()` — needs a dedicated
   extract-method refactor story with characterization tests written first (4 of these 8
   classes currently have no test file at all).
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

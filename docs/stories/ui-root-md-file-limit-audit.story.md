@@ -5,8 +5,25 @@ slug: ui-root-md-file-limit-audit
 status: done
 scope: module:UI
 ---
-
 # Audit igiene root — limite 6 file .md in Modules/UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Contesto
 
@@ -128,3 +145,18 @@ Trovati due file untracked pre-esistenti (non creati da questo task, timestamp 2
 ## False friends
 
 - "File in root da 31 a spostare" non significa "31 spostamenti fisici": la maggior parte del lavoro era già stato fatto da un ciclo precedente (`docs/raw/root-import/`), il vero task era la rimozione dei residui duplicati, non una migrazione da zero.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+```
+find laravel/Modules/UI -maxdepth 1 -iname '*.md' | wc -l
+# 6
+```
+
+Root risultante: `architecture.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `PHILOSOPHY.md`, `README.md`, `testing.md`.

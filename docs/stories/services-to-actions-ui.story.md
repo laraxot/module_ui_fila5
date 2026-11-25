@@ -13,8 +13,25 @@ related:
   - ../../../../bmad-output/epic-code-standards-services-mixed-const.md
   - ../../../../bashscripts/ai/wiki/rules/actions-business-logic.md
 ---
-
 # Services -> Actions nel modulo UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Richiesta
 
@@ -78,3 +95,17 @@ invariati (`AssetAction`, `Adapters/Map/Null*`). Nessun caller da migrare.
 - Auth per cancellare i residui `app/Services/` (+ eventuali `.bak`).
 - I due Contract `UI\Contracts\*ServiceContract` e le implementazioni null non hanno consumatori (Geo ha i propri
   `Geo\Contracts\GeocodingServiceContract`). Valutare se eliminarli insieme (cluster Geo, onda 4).
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+- `rg -e 'UI\\Services' -e UIService -e ComponentService -e NullMapService -e NullGeocodingService` su
+  `laravel/Modules`, `Themes`, `app`, `config`, `routes`, `resources`, `tests` (esclusi docs/vendor): zero risultati
+  oltre ai `UIServiceProvider` (provider Laravel, non pattern Service) e ai `Null*ServiceAdapter`.
+- Nessun test del modulo referenziava le classi eliminate.
+- PHPStan (`phpstan.neon`, da `laravel/`) su `Modules/UI/app/Adapters`: `[OK] No errors` (esecuzione unica per i cinque moduli, dettaglio nella story Media).

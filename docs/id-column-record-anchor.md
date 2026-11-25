@@ -1,56 +1,57 @@
 ---
 title: "IDColumn: colonna id e ancora della riga"
-qmd: "ui id column record anchor md IDColumn mandatory ADR"
+qmd: "ui id column record anchor self-link copyable mandatory"
 type: note
 tags: [documentation]
-updated: 2026-11-25
 ---
 
 # IDColumn: colonna id e ancora della riga
 
-**Policy:** ogni `getTableColumns()` Filament inizia con `IDColumn` — decisione
-canonica [idcolumn-mandatory-on-tables](adr/idcolumn-mandatory-on-tables.md).
+> Fact-gate: aggiorna stesso file; link da ADR [0002-idcolumn-mandatory-on-tables](adr/0002-idcolumn-mandatory-on-tables.md).
+> User: «colonna id di tipo IDColumn … migliorare con anchor link … docs/adr».
 
 ## Cosa fa
 
-`Modules\UI\Filament\Tables\Columns\IDColumn` e' una `TextColumn` preconfigurata per la
-chiave primaria: ordinabile, cella HTML con ancora di riga, `copyableState` che
-espone solo il valore id (non lo `<span>`).
+`Modules\UI\Filament\Tables\Columns\IDColumn` e' la colonna **obbligatoria** per la
+chiave primaria: ordinabile, `copyable()` sullo stato grezzo, cella = self-link
+ancora della riga. ADR: [0002-idcolumn-mandatory-on-tables](adr/0002-idcolumn-mandatory-on-tables.md).
 
 ```php
 use Modules\UI\Filament\Tables\Columns\IDColumn;
 
-'id' => IDColumn::make('id'),
+'id' => IDColumn::make(),
 ```
 
 Rende:
 
 ```html
-<span id="record-1875" class="scroll-mt-24">1875</span>
+<a id="record-1875" href="#record-1875" class="scroll-mt-24 hover:underline" title="#record-1875">1875</a>
 ```
 
-Da qui l'URL della lista con frammento `#record-1875` porta il browser sulla riga.
-La classe `scroll-mt-24` evita che la riga finisca sotto l'header sticky.
+Da qui:
 
-## Perche' l'ancora sta nella cella
+- URL lista + `#record-1875` → scroll sulla riga;
+- «Copia indirizzo link» condivide il deep-link;
+- copyable Filament copia l'id grezzo.
 
-Filament 5 non emette `id` o `data-*` per riga: sul `<tr>` c'e' solo `wire:key`, la cui
-prima parte e' l'id Livewire, rigenerato a ogni caricamento. Non e' un bersaglio stabile
-per un frammento, quindi l'ancora la mette la colonna.
+## Sigma history (Ptv)
 
-Il formato dell'id sta in `Modules\Xot\Filament\Links\RecordAnchor`: la colonna lo
-legge, i link di ritorno dall'edit lo appendono. Non duplicare la stringa `record-` altrove.
+<<<<<<< .merge_file_U82FAD
+`BaseSigmaHistoryScheda::getTableColumns()` e' `final` e usa `withIdColumn()`;
+le foglie espongono `getSigmaTableColumns()`. Assenze usa `IDColumn::make('id')`.
+=======
+`BaseSigmaHistoryScheda::getTableColumns()` e' **`final`** e prepende sempre
+`IDColumn`. Le foglie (Servizi, Qualifiche, Storico, IntegParams) espongono solo
+`getSigmaTableColumns()` (colonne di dominio, senza `id`). Assenze (fuori dalla
+gerarchia) usa `IDColumn::make('id')` esplicitamente.
 
 ## Uso dentro GroupColumn
 
-Funziona anche come figlia di `GroupColumn`: la view del gruppo rispetta `isHtml()` della
-colonna figlia, quindi l'ancora non viene escapata. Esempio reale:
-`Modules\Ptv\Filament\Tables\Columns\HaDirittoColumn`.
+Funziona come figlia di `GroupColumn`: la view rispetta `isHtml()`.
+>>>>>>> .merge_file_KA7afu
 
 ## Riferimenti
 
-- ADR (obbligo su tutte le tabelle): [idcolumn-mandatory-on-tables](adr/idcolumn-mandatory-on-tables.md)
 - `Modules/UI/app/Filament/Tables/Columns/IDColumn.php`
-- Xot return/anchor: [record-anchor-return-to](../../Xot/docs/filament/record-anchor-return-to.md)
-- Reclamo Sigma tabs: [sigma-tabs-idcolumn](../../Progressioni/docs/bmad/stories/sigma-tabs-idcolumn.story.md)
-
+- `Modules/Xot/docs/filament/record-anchor-return-to.md`
+- Story: [idcolumn-mandatory-filament-tables](bmad/stories/idcolumn-mandatory-filament-tables.story.md)

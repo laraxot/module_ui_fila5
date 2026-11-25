@@ -12,7 +12,7 @@ uses(TestCase::class);
 
 /*
  * Contratto: docs/contracts/resolve-localized-block-data-action.md
- * ADR: docs/adr/optional-cms-delegation-for-block-data.md
+ * ADR: docs/adr/0004-optional-cms-delegation-for-block-data.md
  * Il resolver di Cms viene sostituito nel container: il test prova la delega, non la localizzazione di Cms.
  */
 

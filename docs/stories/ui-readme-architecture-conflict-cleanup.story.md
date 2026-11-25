@@ -5,8 +5,25 @@ slug: ui-readme-architecture-conflict-cleanup
 status: done-partial
 scope: module:UI
 ---
-
 # Risolve conflitti README + consolida docs/architecture case-dupes
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Contesto
 
@@ -147,3 +164,22 @@ Commit: `5b5b8576` (repo `laravel/Modules/UI`, remote `laraxot/module_ui_fila5` 
 - Un file senza marker `<<<<<<<` non e' automaticamente pulito: `docs/architecture-.md`
   e `docs/architecture_2025.md` erano "risolti" per concatenazione cieca di entrambi i
   lati, non per scelta — stesso difetto del merge originale, solo senza i marker visibili.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+```bash
+cd laravel/Modules/UI
+grep -c '^<<<<<<< \|^=======$\|^>>>>>>> ' README.md docs/architecture.md \
+  docs/philosophy-dev-rules.md docs/root-md-files/philosophy.md \
+  docs/project-structure.md docs/PHILOSOPHY.md docs/architecture-patterns.md
+# tutti 0
+```
+
+Commit: `5b5b8576` (repo `laravel/Modules/UI`, remote `laraxot/module_ui_fila5` +
+`provtv/module_ui_fila5`).

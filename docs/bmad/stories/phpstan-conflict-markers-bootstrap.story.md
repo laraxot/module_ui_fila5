@@ -11,8 +11,25 @@ related:
   - ./git-status-fleet-merge-markers-ui.story.md
   - ../../../../Media/docs/bmad/stories/phpstan-conflict-markers-bootstrap.story.md
 ---
-
 # phpstan-conflict-markers-bootstrap (UI)
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Scopo
 
@@ -41,3 +58,13 @@ Pulire marker di merge in config/docs UI e verificare sintassi PHP + misura PHPS
 |---|---|---|---|
 | 2026-11-16 | fila5-lane-A | UI markers + phpstan | lock `ui-conflict` |
 ---
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

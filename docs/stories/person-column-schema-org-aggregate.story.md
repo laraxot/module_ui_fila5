@@ -4,8 +4,25 @@ qmd: "ui stories person column schema org aggregate story md"
 type: note
 tags: [documentation]
 ---
-
 # Story: PersonColumn — aggregato riutilizzabile anagrafica + contatto
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Contesto (BMAD: dev)
 
@@ -70,3 +87,15 @@ sullo stesso repo sullo stesso task (bonifica `getTableColumns()` su tutte le cl
 `ContactsTable.php` prima che questa storia fosse chiusa, inizialmente con tutti e 5
 i campi (email/telefono/lingua duplicati rispetto alle celle ricche) — corretto qui
 a `['first_name', 'last_name']`.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+- PHPStan livello 10, repo-wide: 0 errori.
+- `vendor/bin/pest Modules/UI/tests/Feature/PersonColumnTest.php --no-coverage`: 4/4 verdi.
+- `php -l` su tutti i file toccati: nessun errore di sintassi.

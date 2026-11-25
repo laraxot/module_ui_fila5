@@ -18,8 +18,25 @@ related:
   - ../../stories/7.4.phpstan-business-deep-coverage-contracts.story.md
 qmd: "continuazione domani bmad regressione marker docsarchitecturemd"
 ---
-
 # UI — Continuazione Domani
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Stato verificato ora (sessione 2026-09-22, post cleanup marker root)
 
@@ -65,3 +82,13 @@ qmd: "ui   continuazione domani ui"
 4. Segnali minori in `app/` (pochi, citati per intero, non un dump): 2 `TODO` reali (`app/Filament/Widgets/UserCalendarWidget.php:89`, `app/Actions/Panel/ApplyCalendarToPanelAction.php:22` — entrambi rimandano a un pacchetto FullCalendar/Filament v4 non ancora disponibile, non azionabili subito) e 2 file con `dddx(...)` commentato (debug residuo in `app/Filament/Widgets/OverlookWidget.php:51`, `app/Filament/Blocks/Slider.php:20,23` — rimozione a costo zero quando si tocca quel file).
 
 
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

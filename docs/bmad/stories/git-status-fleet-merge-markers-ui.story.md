@@ -14,8 +14,25 @@ updated: 2026-10-23
 tags: [docs, ui, bmad]
 qmd: "git-status-fleet-merge-markers-ui ui"
 ---
-
 # git-status-fleet-merge-markers-ui
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 Bonifica dei marker di merge conflict committati da "laraxot" nel modulo `laravel/Modules/UI`
 (`<<<<<<<`, `=======`, `>>>>>>>`, varianti diff3 `||||||||`), secondo la strategia canonica
@@ -220,3 +237,19 @@ in `architecture-patterns.md`, `svg-icons-automatic-registration.md`,
 - `docs/raw/root-import/` contiene varianti `-1` dei doc importati (es. `changelog-1.md`):
   non toccate, area `raw/` dichiarata immutable dal wiki schema.
   `overview-extended.md`): non toccati, fuori scope del pack: da instradare a batch dedicato.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Max `commits_reverted` = 5 (`docs/architecture-patterns.md`); nessun file >5.
+
+- `docs/architecture-patterns.md` (5): unica perdita = 19 righe di link duplicati
+  `- **Architecture Overview**` / `- **Index**` (spazzatura di merge). OK.
+- `docs/README.md` (4): persa solo riga footer duplicata "Documento generato…". OK.
+- `docs/filament/file-upload-component.md` (4): perse righe frontmatter duplicate con
+  placeholder `<nome repository>` (lato scartato). OK.

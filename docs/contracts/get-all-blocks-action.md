@@ -13,7 +13,7 @@ created: 2026-11-24
 # GetAllBlocksAction
 
 Sorgente: `app/Actions/Block/GetAllBlocksAction.php`. Perché è fatta così:
-[ADR scoperta dei blocchi per cartella](../adr/block-discovery-by-filament-blocks-folder.md).
+[ADR scoperta dei blocchi per cartella](../adr/0001-block-discovery-by-filament-blocks-folder.md).
 Chiamanti: `Modules/Cms/app/Filament/Fields/PageContent.php`, `PageContentBuilder.php`.
 
 ## Input

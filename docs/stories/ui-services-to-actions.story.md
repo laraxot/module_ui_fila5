@@ -5,8 +5,25 @@ slug: ui-services-to-actions
 status: done
 scope: module:UI
 ---
-
 # Convert app/Services to QueueableAction (no-services-rule)
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 Enforce the repo-wide "no `app/Services/*Service` classes" rule (`bashscripts/ai/wiki/rules/actions-business-logic.md`, status RELIGION) inside `Modules/UI`.
 
@@ -45,3 +62,16 @@ I cinque `app/Services/**/*.php` sono riapparsi. Stub SUPERSEDED (no-delete):
 `UIService` → AssetAction; `ComponentService`/`ThemeService` vuoti; `Map/Null*` →
 `Adapters/Map/Null*ServiceAdapter`. Zero caller, zero binding. `debt.php` resta
 `services => []` (#247). Aperto: auth per `git rm` dei residui.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+- PHPStan, `clear-result-cache` before each run, `Modules/UI` scope: baseline **0 errors** → final **0 errors** (no regression).
+- PHPMD (`./tools/phpmd.sh Modules/UI text ../docs/phpmd.ruleset.xml`): crashes on the whole module (`No node to visit provided for visitAnonymousClass`), a documented pre-existing tooling limitation, unrelated to this change. Nothing new to lint per-file since this task was a pure deletion.
+- Pest (`./vendor/bin/pest Modules/UI/tests -c Modules/UI/phpunit.xml --no-coverage`): 197 passed, 8 failed, 1 risky, 109 skipped. All 8 failures are pre-existing (`TestCase::expectMethod()` Mockery `CompositeExpectation` mismatch, missing `ui::components.render.blocks.ui::empty` view, an `OpeningHoursColumn` assertion), none reference `UIService` or `AssetAction`.
+- `php -l tests/Arch/debt.php`: OK; zero marker `<<<<<<<` nei PHP UI.

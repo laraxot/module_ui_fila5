@@ -26,8 +26,25 @@ github:
   repository: https://github.com/laraxot/module_ui_fila5
   issues: https://github.com/laraxot/module_ui_fila5/issues
 ---
-
 # STORY — PersonColumn
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Contesto (BMAD — Ricognizione)
 
@@ -166,3 +183,13 @@ Claude Sonnet 5
 - `laravel/Modules/UI/app/Filament/Forms/Components/PersonSection.php` (nuovo, da sessione peer, verificato qui)
 - `laravel/Modules/UI/tests/Feature/PersonColumnTest.php` (nuovo — versione finale da sessione peer, verificata qui)
 - `laravel/Modules/<nome progetto>/app/Filament/Resources/ContactResource/Tables/ContactsTable.php` (modificato, rifinito da sessione peer)
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).

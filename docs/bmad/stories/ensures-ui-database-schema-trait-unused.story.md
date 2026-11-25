@@ -10,8 +10,25 @@ related:
   - ../../wiki/concepts/testing.md
   - ../../../../../../bashscripts/ai/wiki/memories/testing-pest-database.md#ensures-ui-database-schema-trait-deleted
 ---
-
 # ensures-ui-database-schema-trait-unused
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Obiettivo
 
@@ -54,3 +71,20 @@ PHPUnit/Pest non applicabile a file già assente.
 ## Status
 
 **done** — 2026-09-24, agent `cursor-swarm-ui`.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+```bash
+rg EnsuresUiDatabaseSchema Modules/UI   # vuoto
+cd laravel && php -d memory_limit=2G ./vendor/bin/phpstan analyse Modules/UI --no-progress
+# [OK] No errors
+```
+
+Nessun edit codice (dead code già cancellato). Nessun `@phpstan-ignore`,
+nessun edit `phpstan.neon`, nessun PhpstanProbe.

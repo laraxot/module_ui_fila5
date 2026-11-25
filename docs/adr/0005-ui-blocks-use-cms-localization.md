@@ -41,5 +41,5 @@ Verificare Action di risoluzione, fallback e test dei blocchi.
   altrimenti restituisce i dati invariati (fallback autonomo).
 - `Modules/UI/tests/Unit/Actions/Block/GetLocalizedBlockDataActionTest.php`: delega, ritorno invariato senza resolver
   valido, rifiuto delle chiavi non stringa.
-- Meccanismo e dipendenze: [delega opzionale a Cms per i dati dei blocchi](optional-cms-delegation-for-block-data.md).
+- Meccanismo e dipendenze: [delega opzionale a Cms per i dati dei blocchi](0004-optional-cms-delegation-for-block-data.md).
 - Non esiste un test che provi che i testi dei componenti non siano scritti nel codice: resta revisione del codice.

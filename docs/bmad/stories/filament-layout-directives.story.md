@@ -9,8 +9,25 @@ related:
   - ../../../../../../bashscripts/ai/wiki/memories/filament-tables-forms-xotbase.md#filament5-layout-contract-shared-modules
   - ../../../Xot/docs/bmad/stories/module-portfolio-topology-no-cms-in-ptvx.story.md
 ---
-
 # Direttive Filament nel layout UI
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Contesto
 
@@ -55,3 +72,15 @@ Nei layout Blade che ospitano componenti Filament/Livewire (stessi obblighi di
 - [x] Layout UI/User: `@filamentStyles` nel `head`, `@filamentScripts` e notifications nudo nel `body`.
 - [x] Pest `FilamentLayoutDirectivesTest` verde (file-read, no DB).
 - [x] Memoria portfolio aggiornata col mapping Cms→UI.
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+- Pest `FilamentLayoutDirectivesTest` (lettura file, senza DB);
+- PHPStan e rendering del layout in ambiente non produttivo;
+- il gate Pest completo resta dipendente dalla disponibilità del database di test.

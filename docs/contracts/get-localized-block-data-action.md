@@ -13,7 +13,7 @@ created: 2026-11-24
 # GetLocalizedBlockDataAction (UI)
 
 Sorgente: `app/Actions/Block/GetLocalizedBlockDataAction.php`. Perché è fatta così:
-[ADR delega opzionale a Cms](../adr/optional-cms-delegation-for-block-data.md). Chiamante: `View/Components/Render/Block.php::render()`.
+[ADR delega opzionale a Cms](../adr/0004-optional-cms-delegation-for-block-data.md). Chiamante: `View/Components/Render/Block.php::render()`.
 
 ## Input
 

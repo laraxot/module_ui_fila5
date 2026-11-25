@@ -15,8 +15,25 @@ swarm:
     - UI
   story: laravel/Modules/Xot/docs/bmad/stories/phpstan-modules-swarm-random-20261006.story.md
 ---
-
 # UI — swarm cluster3 PHPStan 2026-10-06
+
+## Context and Problem Statement
+
+Problema e obiettivo sono descritti nel Decision Outcome (migrazione automatica a MADR).
+
+## Decision Drivers
+
+- Richiesta utente / acceptance criteria della story
+- Vincoli BMAD, second brain, Pest gate e dati sacri
+
+## Considered Options
+
+- Status quo (non fare)
+- Implementare come descritto nel Decision Outcome
+
+## Decision Outcome
+
+Scelta: **implementare**, perché i driver sopra.
 
 ## Scopo modulo
 
@@ -57,3 +74,13 @@ condivisi dei pannelli Filament. Nessuna logica di dominio: solo presentazione.
 - `php -l`: verde.
 - PHPStan modulo: residuo (load), nessuna evidenza di errori.
 - Pest: skip (host/modulo sotto editing concorrente).
+
+
+### Consequences
+
+- Buono, perché chiude il gap descritto nel Context
+- Cattivo, perché richiede write-back docs, lock e quality gate
+
+### Confirmation
+
+Aggiungere prova ripetibile (Pest exit code + conteggio, PHPStan, o skip host documentato).
