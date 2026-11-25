@@ -2,9 +2,9 @@
 title: "Indice BMAD — UI"
 type: index
 status: active
-updated: 2026-11-16
+updated: 2026-11-24
 module: UI
-qmd: "indice BMAD UI audit purpose piano stories"
+qmd: "indice BMAD UI audit purpose piano stories phpstan canoni"
 ---
 
 # Indice BMAD — UI
@@ -19,3 +19,4 @@ qmd: "indice BMAD UI audit purpose piano stories"
 - [Story audit modulo](./stories/module-bmad-audit.story.md)
 - [ECC](../ecc/00-index.md)
 - [Purpose root](../purpose.md)
+- Qualità PHPStan (SSoT root docs): [phpstan-corrections.md](../phpstan-corrections.md), [phpstan-fixes.md](../phpstan-fixes.md) — snapshot month = stub/`*-historical`

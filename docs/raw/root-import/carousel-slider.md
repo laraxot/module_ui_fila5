@@ -1,3 +1,8 @@
+---
+title: "Carousel Slider"
+type: note
+qmd: "carousel slider"
+---
 https://www.embla-carousel.com/examples/predefined/
 
 

@@ -92,6 +92,10 @@ find laravel/Modules/UI -maxdepth 1 -iname '*.md' | wc -l
 # 6
 ```
 
+Root risultante: `architecture.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `PHILOSOPHY.md`, `README.md`, `testing.md`.
+
+## Nota fuori scope
+
 Root risultante: `ARCHITECTURE.md`, `CHANGELOG.md`, `GETTING_STARTED.md`, `PHILOSOPHY.md`, `README.md`, `TESTING.md`.
 
 ## Nota fuori scope

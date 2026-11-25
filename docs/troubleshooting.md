@@ -10,8 +10,7 @@ related:
   - ./README.md
   - ./PATTERNS.md
   - ./INDEX.md
-
-- ./index.md
+  - ./index.md
 ---
 
 # UI — Troubleshooting Guide
@@ -731,8 +730,7 @@ Se il troubleshooting non risolve:
 
 5. **Consulta documentation**:
    - [INDEX](./INDEX.md) — Complete file listing
-
-- [INDEX](./index.md) — Complete file listing
+   - [index](./index.md) — Complete file listing
    - [PATTERNS](patterns.md) — Architectural decisions
    - [architecture/component-registration](./architecture/component-registration.md) — Component setup
 

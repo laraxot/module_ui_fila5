@@ -8,6 +8,7 @@ tags: [migrato-da-txt, ui]
 converted_from: custom-firm-fields.txt
 created: 2026-08-24
 updated: 2026-08-24
+qmd: "custom firm fields risorse esterne"
 ---
 
 # Custom firm fields — risorse esterne

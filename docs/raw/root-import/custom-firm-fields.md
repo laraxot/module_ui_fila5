@@ -1,3 +1,8 @@
+---
+title: "Custom Firm Fields"
+type: note
+qmd: "custom firm fields"
+---
 https://github.com/tanthammar/filament-extras
 
 

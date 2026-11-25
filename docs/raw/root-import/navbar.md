@@ -1,3 +1,8 @@
+---
+title: "Navbar"
+type: note
+qmd: "navbar"
+---
 https://tw-elements.com/docs/standard/navigation/navbar/
 
 https://flowbite.com/docs/components/navbar/

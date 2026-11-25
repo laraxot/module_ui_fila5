@@ -8,6 +8,7 @@ tags: [migrato-da-txt, ui]
 converted_from: qrcode.txt
 created: 2026-08-24
 updated: 2026-08-24
+qmd: "qrcode risorse esterne"
 ---
 
 # Qrcode — risorse esterne

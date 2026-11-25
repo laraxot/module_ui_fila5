@@ -1,3 +1,8 @@
+---
+title: "Flip Cards"
+type: note
+qmd: "flip cards"
+---
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 

@@ -46,17 +46,24 @@ duplicate qui — solo referenziate).
 3. **Case/name-duplicati rimossi** (tutti ridondanti rispetto al punto 2, verificato con
    diff/lettura integrale prima di cancellare, nessuno spostato in `_archive/` perche'
    senza contenuto storico unico):
-   - `docs/ARCHITECTURE.md` (712 righe, 6 marker) — contenuto interamente riassorbito in
-
-- `docs/architecture.md` (712 righe, 6 marker) — contenuto interamente riassorbito in
+   - `docs/architecture.md` (712 righe, 6 marker) — contenuto interamente riassorbito in
      `docs/architecture.md` dopo il fix del punto 2.
    - `docs/architecture-.md` (1308 righe, nome con trattino finale, probabile artefatto)
      — stessa concatenazione ridondante, nessun contenuto unico.
    - `docs/ARCHITECTURE_2025.md` (29 righe) — stub redirect con marker ANCORA irrisolti,
+     verso `Themes/docs/shared-components/architecture.md` (path inesistente).
+   - `docs/architecture-2025.md` (7 righe) — stub redirect pulito ma verso lo stesso path
      verso `Themes/docs/shared-components/ARCHITECTURE.md` (path inesistente).
 
 verso `Themes/docs/shared-components/architecture.md` (path inesistente).
    - `docs/architecture-2025.md` (7 righe) — stub redirect pulito ma verso lo stesso path
+   - `docs/architecture.md` (712 righe, 6 marker) — contenuto interamente riassorbito in
+     `docs/architecture.md` dopo il fix del punto 2.
+   - `docs/architecture.md` (1308 righe, nome con trattino finale, probabile artefatto)
+     — stessa concatenazione ridondante, nessun contenuto unico.
+   - `docs/ARCHITECTURE_2025.md` (29 righe) — stub redirect con marker ANCORA irrisolti,
+     verso `Themes/docs/shared-components/ARCHITECTURE.md` (path inesistente).
+   - `docs/architecture.md` (7 righe) — stub redirect pulito ma verso lo stesso path
      inesistente; gia' elencato in `docs/.gitignore` come da rimuovere (mai completato).
    - `docs/architecture_2025.md` (11 righe) — due frontmatter concatenati, stesso path
      inesistente.
@@ -69,9 +76,7 @@ verso `Themes/docs/shared-components/architecture.md` (path inesistente).
    `docs/PHILOSOPHY.md` (albero root modulo + sezione "References and Links").
 5. **`docs/architecture-patterns.md`**: 4 marker annidati in una sola sezione
    "Backlinks & References", auto-contenuti e sullo stesso tema (variante
-   `ARCHITECTURE.md`/`architecture.md`/`INDEX.md`/`index.md` ripetuta 8 volte) —
-
-`architecture.md`/`architecture.md`/`index.md`/`index.md` ripetuta 8 volte) —
+   `architecture.md`/`architecture.md`/`index.md`/`index.md` ripetuta 8 volte) —
    risolti collassando alla forma canonica minuscola.
 6. **`docs/purpose.md`**: aggiunto link a `./architecture.md` tra i "Collegamenti"
    (mancava un puntatore diretto dal purpose all'architettura tecnica).
@@ -118,16 +123,12 @@ Commit: `5b5b8576` (repo `laravel/Modules/UI`, remote `laraxot/module_ui_fila5` 
 
 - Diff/lettura integrale prima di cancellare un "duplicato": ha evitato di perdere le
   righe uniche (la coda di `docs/architecture.md`, la nota di migrazione da
-  `ARCHITECTURE.md`) che un `git rm` cieco avrebbe cancellato.
-
-`architecture.md`) che un `git rm` cieco avrebbe cancellato.
+  `architecture.md`) che un `git rm` cieco avrebbe cancellato.
 - Non fidarsi della stima del task ("~13 righe", "4 file"): verificato con `grep -c` e
   `git ls-files` prima di pianificare, trovata realta' piu' ampia (47 righe, 6 file).
 - Risolvere solo i conflitti auto-contenuti sullo stesso tema (`architecture-patterns.md`);
   saltare i file dove il conflitto sul tema e' mischiato con conflitti estranei
-  (`PROJECT-STRUCTURE.md`) per non introdurre un merge arbitrario su contenuto non
-
-(`project-structure.md`) per non introdurre un merge arbitrario su contenuto non
+  (`project-structure.md`) per non introdurre un merge arbitrario su contenuto non
   verificato.
 
 ## Bad practices
@@ -141,9 +142,7 @@ Commit: `5b5b8576` (repo `laravel/Modules/UI`, remote `laraxot/module_ui_fila5` 
 ## False friends
 
 - "4 file architecture case-duplicati" (dato dal task) non significa "solo 4": esistevano
-  anche `docs/ARCHITECTURE.md` e `docs/architecture-.md`, non elencati ma scoperti con
-
-anche `docs/architecture.md` e `docs/architecture-.md`, non elencati ma scoperti con
+  anche `docs/architecture.md` e `docs/architecture-.md`, non elencati ma scoperti con
   `git ls-files docs | grep -i architecture`.
 - Un file senza marker `<<<<<<<` non e' automaticamente pulito: `docs/architecture-.md`
   e `docs/architecture_2025.md` erano "risolti" per concatenazione cieca di entrambi i

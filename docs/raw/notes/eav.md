@@ -8,6 +8,7 @@ tags: [migrato-da-txt, ui]
 converted_from: eav.txt
 created: 2026-08-24
 updated: 2026-08-24
+qmd: "eav risorse esterne"
 ---
 
 # Eav — risorse esterne

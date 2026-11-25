@@ -8,6 +8,7 @@ tags: [migrato-da-txt, ui]
 converted_from: widgets.txt
 created: 2026-08-24
 updated: 2026-08-24
+qmd: "widgets risorse esterne"
 ---
 
 # Widgets — risorse esterne

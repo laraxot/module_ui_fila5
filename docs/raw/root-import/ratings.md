@@ -1,3 +1,9 @@
+---
+title: "Ratings"
+type: reference
+qmd: "ui ratings"
+module: UI
+---
 -------------------------------------------------------------------------------------------------
 Add Ratings and Reviews for Laravel's Eloquent Models
 https://codebrisk.com/blog/add-ratings-and-reviews-for-laravel-s-eloquent-models

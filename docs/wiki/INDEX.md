@@ -10,8 +10,7 @@ issues:
 discussions:
 related:
   - "./agents.md"
-
-- "./AGENTS.md"
+  - "./AGENTS.md"
   - "./bmad-method.md"
   - "./context-compression.md"
   - "./log.md"

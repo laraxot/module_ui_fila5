@@ -8,6 +8,7 @@ tags: [migrato-da-txt, ui]
 converted_from: blocks.txt
 created: 2026-08-24
 updated: 2026-08-24
+qmd: "blocks risorse esterne"
 ---
 
 # Blocks — risorse esterne

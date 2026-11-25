@@ -1,3 +1,9 @@
+---
+title: "Api"
+type: reference
+qmd: "ui api"
+module: UI
+---
 -------------------------------------------------------------------------------------------------
 Render HTTP JSON Responses for API-based Projects in Laravel
 https://codebrisk.com/blog/render-http-json-responses-for-api-based-projects-in-laravel

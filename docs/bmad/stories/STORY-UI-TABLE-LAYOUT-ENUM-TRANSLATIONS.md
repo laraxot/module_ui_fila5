@@ -22,6 +22,7 @@ related:
   - ../../../../Xot/app/Traits/EnumTrait.php
   - ../../lang/it/table_layout_enum.php
   - ../../tests/Unit/Enums/TableLayoutEnumTest.php
+qmd: "story ui table layout enum translations"
 ---
 
 # Problema

@@ -256,7 +256,15 @@ app/Application
 # Artefatti audit vietati (rule: tests-auditcoverage-forbidden)
 audit-coverage/
 
+# Regole portate dal remoto laraxot/dev (sync del 24/11), unite alla base senza perdere nulla
+<<<<<<< HEAD
 # Tooling locale e config agenti (module-theme-root-hygiene)
+=======
+<<<<<<< .merge_file_RZEmXF
+# Tooling locale e config agenti (module-theme-root-hygiene)
+=======
+>>>>>>> .merge_file_TQ7gx4
+>>>>>>> laraxot/dev
 .agents/
 .codex/
 .cursor/
@@ -264,3 +272,11 @@ audit-coverage/
 .qwen/
 .php-cs-fixer.php
 .php-cs-fixer.dist.php
+tests/coverage-*.*
+<<<<<<< HEAD
+
+# screenshot di comparazione visiva (artefatti locali)
+docs/project/visual-comparison/
+docs/visual-comparison/
+=======
+>>>>>>> laraxot/dev

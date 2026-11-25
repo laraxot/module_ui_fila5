@@ -9,8 +9,7 @@ updated: "2026-07-28"
 related:
   - ./README.md
   - ./INDEX.md
-
-- ./index.md
+  - ./index.md
   - ./TROUBLESHOOTING.md
 ---
 

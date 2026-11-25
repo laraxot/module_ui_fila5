@@ -6,6 +6,7 @@ created: 2026-11-23
 updated: 2026-11-23
 issues: []
 module: UI
+qmd: "ui blocks use cms localization blocchi"
 ---
 
 # ADR — Blocchi UI localizzati dal CMS
@@ -33,3 +34,12 @@ I blocchi restano data-driven e riusabili; il CMS non diventa una dipendenza imp
 ## Conferma
 
 Verificare Action di risoluzione, fallback e test dei blocchi.
+
+## Verifica
+
+- `Modules/UI/app/Actions/Block/ResolveLocalizedBlockDataAction.php`: delega al resolver di Cms solo se la classe esiste,
+  altrimenti restituisce i dati invariati (fallback autonomo).
+- `Modules/UI/tests/Unit/Actions/Block/ResolveLocalizedBlockDataActionTest.php`: delega, ritorno invariato senza resolver
+  valido, rifiuto delle chiavi non stringa.
+- Meccanismo e dipendenze: [delega opzionale a Cms per i dati dei blocchi](optional-cms-delegation-for-block-data.md).
+- Non esiste un test che provi che i testi dei componenti non siano scritti nel codice: resta revisione del codice.

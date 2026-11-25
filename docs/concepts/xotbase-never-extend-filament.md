@@ -1,5 +1,5 @@
 ---
-title: "UI — mai Filament\*, sempre XotBase*"
+title: "UI — mai Filament\\*, sempre XotBase*"
 type: concept
 module: UI
 tags: [ui, filament, xotbase, architecture]

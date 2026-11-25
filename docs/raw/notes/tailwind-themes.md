@@ -8,6 +8,7 @@ tags: [migrato-da-txt, ui]
 converted_from: tailwind-themes.txt
 created: 2026-08-24
 updated: 2026-08-24
+qmd: "tailwind themes risorse esterne"
 ---
 
 # Tailwind themes — risorse esterne

@@ -1,3 +1,8 @@
+---
+title: "Qrcode"
+type: note
+qmd: "qrcode"
+---
 https://github.com/tecnickcom/TCPDF
 
 simplesoftwareio/simple-qrcode  

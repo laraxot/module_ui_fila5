@@ -8,6 +8,7 @@ tags: [migrato-da-txt, ui]
 converted_from: navbar.txt
 created: 2026-08-24
 updated: 2026-08-24
+qmd: "navbar risorse esterne"
 ---
 
 # Navbar — risorse esterne

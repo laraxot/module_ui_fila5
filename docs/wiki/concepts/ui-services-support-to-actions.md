@@ -17,6 +17,9 @@ related:
 
 # UI Services/Support → Actions/Adapters mapping
 
+## Riepilogo conversione
+
+Tutti i file in `app/Services/` e `app/Support/` del modulo UI sono stati convertiti o rimossi.
 ## Boy scout 2026-11-23
 
 I cinque `app/Services/*.php` sono riapparsi da merge: ridotti a stub `@deprecated`

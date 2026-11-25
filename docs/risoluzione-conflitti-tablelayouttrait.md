@@ -7,6 +7,23 @@ tags: [documentation]
 
 # Risoluzione Conflitti in TableLayoutTrait
 
+## Stato attuale
+
+Nel modulo ci sono **due** trait con lo stesso nome corto:
+
+| Trait | Sessione | Default | Chi lo usa |
+|---|---|---|---|
+| `Modules\UI\Filament\Actions\Table\TableLayoutTrait` | `table_layout_{id}` | LIST | `HasTableLayoutPage` (e quindi `HasXotTable`), `TableLayoutToggleTableAction`, e i test `UiGapCloser100Test` / `UiHighestMissCoverageTest` |
+| `Modules\UI\Traits\TableLayoutTrait` (ritirato) | `table_layout` | GRID | nessuno: parcheggiato in `docs/parcheggio/app/Traits/TableLayoutTrait.php.zero_used` |
+
+Il secondo era la versione legacy per i componenti Livewire (aveva anche `refreshTable()` e `resetTable()`) ed e' stato ritirato il 2026-11-24. PHPStan lo segnalava `trait.unused` e aveva ragione: non era un falso positivo.
+
+Prova: una ricerca per **nome completo** (`grep -F` e `rg -F` su `Modules\UI\Traits\TableLayoutTrait`, anche nella forma `use Modules\UI\Traits\{...}`) non trova nessun riferimento in PHP, Blade o test di questo progetto; i due test del modulo importano il trait vivo. Una ricerca per **nome corto** li mostrerebbe invece come consumatori: e' la trappola dei falsi positivi descritta in `Xot/docs/bmad/stories/phpstan-modules-zero-swarm-standing.story.md`. Non e' fuso con quello vivo perche' cambierebbero chiave di sessione e default, cioe' la preferenza gia' salvata dagli utenti.
+
+Nei 12 progetti fratelli le copie piu' vecchie di quei due test (21/11) importano ancora il trait legacy: finche' non si allineano a questo modulo vanno corrette allo stesso modo (`use Modules\UI\Filament\Actions\Table\TableLayoutTrait;`), altrimenti falliscono con `Trait not found`. Nessun `@phpstan-ignore`: l'errore era vero e si e' chiuso togliendo il codice morto, non nascondendolo. Per riprenderlo: [parcheggio/README.md](parcheggio/README.md).
+
+Le sezioni che seguono sono la storia della risoluzione dei conflitti: il namespace era allora `Modules\UI\app\Traits` e `BaseListRecords` vi faceva riferimento, oggi non piu' (namespace `Modules\UI\Traits`, nessun consumatore in `app/`).
+
 ## Panoramica
 
 Questo documento descrive la risoluzione dei conflitti nel file `TableLayoutTrait.php` all'interno del modulo UI. Il trait fornisce funzionalità per la gestione del layout delle tabelle nelle interfacce utente, consentendo di passare tra visualizzazione a griglia e a lista.

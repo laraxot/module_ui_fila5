@@ -8,6 +8,7 @@ tags: [migrato-da-txt, ui]
 converted_from: effetcts.txt
 created: 2026-08-24
 updated: 2026-08-24
+qmd: "effetcts risorse esterne"
 ---
 
 # Effetcts — risorse esterne

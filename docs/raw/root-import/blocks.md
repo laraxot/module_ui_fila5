@@ -1,3 +1,8 @@
+---
+title: "Blocks"
+type: note
+qmd: "blocks"
+---
 https://github.com/whitecube/nova-flexible-content
 
 
