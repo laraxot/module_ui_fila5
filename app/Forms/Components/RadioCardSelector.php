@@ -11,6 +11,16 @@ use Modules\Xot\Filament\Forms\Components\XotBaseField;
  *
  * Componente riutilizzabile per selezione tramite card radio.
  * Popola automaticamente un TextInput con il nome dell'elemento selezionato.
+<<<<<<< HEAD
+=======
+ *
+ * SUPERSEDED — duplicato di {@see \Modules\UI\Filament\Forms\Components\RadioCardSelector}, l'unico usato dai
+ * test e dai form: la cartella `app/Forms` non ha altro motivo di esistere. Rientrato dal merge di `laraxot/dev`
+ * dopo la rimozione fatta da una story di audit; resta on-disk finche' non si autorizza la cancellazione.
+ *
+ * @deprecated Use Modules\UI\Filament\Forms\Components\RadioCardSelector instead.
+ * @see Modules/UI/docs/merge-conflict-markers-committed.md
+>>>>>>> laraxot/dev
  */
 class RadioCardSelector extends XotBaseField
 {

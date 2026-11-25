@@ -107,7 +107,11 @@ When UI module needs features from optional modules:
 
 ## Related Documentation
 
+<<<<<<< HEAD
 - [Modular Architecture Patterns](../../docs/laraxot/filament-integration.md)
+=======
+- [Modular Architecture Patterns](../../Lang/docs/filament-integration-3.md)
+>>>>>>> laraxot/dev
 - [Optional Module Pattern](../../docs/wiki/rules/optional-modules.md) (if exists)
 - [PHPStan Configuration](../../laravel/phpstan.neon)
 

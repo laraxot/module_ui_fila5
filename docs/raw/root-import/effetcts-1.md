@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+---
+title: "Effetcts 1"
+type: note
+qmd: "effetcts 1"
+---
+>>>>>>> laraxot/dev
 https://mridul2820.github.io/css-js/
 
 https://github.com/Mridul2820/css-js

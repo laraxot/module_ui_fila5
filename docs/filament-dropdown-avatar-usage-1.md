@@ -9,7 +9,11 @@ tags: [documentation]
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
+<<<<<<< HEAD
 - [Utilizzo Componenti Filament](/laravel/Modules/UI/docs/FILAMENT_COMPONENTS_USAGE.md)
+=======
+- [Utilizzo Componenti Filament](/laravel/Modules/UI/docs/archive/filament-components-usage-2.md)
+>>>>>>> laraxot/dev
 - [Architettura Modulare](/docs/architettura-modulare.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 

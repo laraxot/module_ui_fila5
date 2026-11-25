@@ -76,7 +76,11 @@ rm -f algolia_docsearch.md
 rm -f architecture_rules.md
 rm -f auth_pages.md
 rm -f base_components.md
+<<<<<<< HEAD
 rm -f best_practices.md
+=======
+rm -f best-practices-3.md
+>>>>>>> laraxot/dev
 rm -f blocks_system.md
 rm -f chart_components.md
 rm -f components_guide.md

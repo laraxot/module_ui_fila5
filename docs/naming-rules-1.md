@@ -50,4 +50,8 @@ I nomi specifici dell'applicazione devono apparire solo:
 ## Vedi Anche
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
+<<<<<<< HEAD
 - [Best Practices](../../../docs/standards/best-practices.md)
+=======
+- [Best Practices](../../Activity/docs/best-practices-3.md)
+>>>>>>> laraxot/dev

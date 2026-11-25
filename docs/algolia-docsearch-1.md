@@ -75,9 +75,15 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ## Collegamenti tra versioni di algolia-docsearch.md
 * [algolia-docsearch.md](../../../Chart/docs/algolia-docsearch.md)
 * [algolia-docsearch.md](../../../Gdpr/docs/algolia-docsearch.md)
+<<<<<<< HEAD
 * [algolia-docsearch.md](../../../Xot/docs/algolia-docsearch.md)
 * [algolia-docsearch.md](../../../UI/docs/algolia-docsearch.md)
 * [algolia-docsearch.md](../../../Cms/docs/algolia-docsearch.md)
+=======
+* [algolia-docsearch-2.md](../../Gdpr/docs/algolia-docsearch-2.md)
+* [algolia-docsearch-2.md](../../Gdpr/docs/algolia-docsearch-2.md)
+* [algolia-docsearch-2.md](../../Gdpr/docs/algolia-docsearch-2.md)
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 

@@ -12,8 +12,13 @@ tags: [documentation]
 - [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
 - [Documentazione UI](/laravel/Modules/UI/docs/README.md)
 - [Documentazione sezioni](/docs/sections.md)
+<<<<<<< HEAD
 - [Header: Lingua e Utente](/laravel/Themes/One/docs/sections/HEADER_LANGUAGE_USER_DROPDOWN.md)
 - [Implementazione CMS](/laravel/Modules/Cms/docs/sections/HEADER_LANGUAGE_USER_DROPDOWN.md)
+=======
+- [Header: Lingua e Utente](/laravel/Modules/Cms/docs/sections/header-language-user-dropdown-3.md)
+- [Implementazione CMS](/laravel/Modules/Cms/docs/sections/header-language-user-dropdown-3.md)
+>>>>>>> laraxot/dev
 
 ## Panoramica
 

@@ -63,9 +63,17 @@ Forms\Components\FileUpload::make('certifications')
 
 ## Collegamenti
 - [README](../../Patient/docs/README.md)
+<<<<<<< HEAD
 - [Filament Resources](../../Patient/docs/filament-resources.md)
+=======
+- [Filament Resources](../../Activity/docs/filament-resources-3.md)
+>>>>>>> laraxot/dev
 - [Form Components](../../Patient/docs/filament-form-components.md)
 
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields#file-upload)
+<<<<<<< HEAD
 - [Best Practices](../../Xot/docs/filament-best-practices.md)
+=======
+- [Best Practices](../../Xot/docs/consolidated/filament-best-practices-2.md)
+>>>>>>> laraxot/dev

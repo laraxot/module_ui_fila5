@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+---
+title: "Custom Firm Fields 1"
+type: note
+qmd: "custom firm fields 1"
+---
+>>>>>>> laraxot/dev
 https://github.com/tanthammar/filament-extras
 
 

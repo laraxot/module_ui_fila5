@@ -44,7 +44,11 @@ related:
 
 ### 4. Wiki Indici Locali
 
+<<<<<<< HEAD
 Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
+=======
+Ogni modulo ha i propri `rules/skills/commands/memories/index-2.md`:
+>>>>>>> laraxot/dev
 
 Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
 - Ricerca più rapida (scope limitato)

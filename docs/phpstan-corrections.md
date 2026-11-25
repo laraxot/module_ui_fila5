@@ -129,4 +129,8 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
 
+<<<<<<< HEAD
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
+=======
+Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
+>>>>>>> laraxot/dev

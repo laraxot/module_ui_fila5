@@ -19,7 +19,11 @@ created: 2025
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+>>>>>>> laraxot/dev
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria
@@ -39,7 +43,11 @@ created: 2025
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+>>>>>>> laraxot/dev
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

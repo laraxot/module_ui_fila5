@@ -662,7 +662,11 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 
 ---
 
+<<<<<<< HEAD
 <!-- Merged from ARCHITECTURE.md, which collided with this file on case-insensitive filesystems. -->
+=======
+<!-- Merged from ../architecture-2.md, which collided with this file on case-insensitive filesystems. -->
+>>>>>>> laraxot/dev
 
 ---
 title: "UI Module Architecture"
@@ -686,7 +690,11 @@ UI module for Laraxot platform.
 
 ---
 
+<<<<<<< HEAD
 ## Sintesi dei sottosistemi (migrata da `ARCHITECTURE.md` in root)
+=======
+## Sintesi dei sottosistemi (migrata da `../architecture-2.md` in root)
+>>>>>>> laraxot/dev
 
 > Questo blocco stava nella root del modulo, dove sono ammessi solo README,
 > CHANGELOG, LICENSE, AGENTS e CLAUDE. Il contenuto non era duplicato qui

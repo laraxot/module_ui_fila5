@@ -23,7 +23,11 @@ qmd: "continuazione domani bmad regressione marker docsarchitecturemd"
 
 ## Stato verificato ora (sessione 2026-09-22, post cleanup marker root)
 
+<<<<<<< HEAD
 - Commit recenti reali: `fdda5618` (rimossi `ARCHITECTURE.md`/`PHILOSOPHY.md`/`TESTING.md` root con marker irrisolti) e `e6bb00a1` (risolti marker in `.github/contributing.md` e `README.md` root, corretto `.gitignore` graphify-out) — verificato: `README.md` root ora **0 marker**.
+=======
+- Commit recenti reali: `fdda5618` (rimossi `ARCHITECTURE.md`/`philosophy-3.md`/`TESTING.md` root con marker irrisolti) e `e6bb00a1` (risolti marker in `.github/contributing.md` e `README.md` root, corretto `.gitignore` graphify-out) — verificato: `README.md` root ora **0 marker**.
+>>>>>>> laraxot/dev
 - Story `docs/bmad/stories/root-hygiene-conflict-markers.story.md` (status `review`) copre esattamente questi due commit — lavoro fatto, manca solo il flip a `done`.
 - **Il modulo e' scritto in questo momento da un daemon auto-commit concorrente** (commit `.`, autore `marco76tv`/`Marco Xot`): durante *questa stessa sessione* e' arrivato un nuovo commit `c6a14359` (`.`) che ha committato i due file BMAD boilerplate (`docs/bmad/architecture.md` e questo file, prima untracked) — stessa firma nota nel second brain per il "daemon auto-commit locale sui moduli". `dev` risulta comunque allineato a `laraxot/dev` (0 ahead/behind) al momento della verifica.
 
@@ -50,7 +54,11 @@ qmd: "ui   continuazione domani ui"
 # UI — Continuazione Domani
 
 
+<<<<<<< HEAD
 - Commit recenti reali: `fdda5618` (rimossi `ARCHITECTURE.md`/`PHILOSOPHY.md`/`TESTING.md` root con marker irrisolti) e `e6bb00a1` (risolti marker in `.github/contributing.md` e `README.md` root, corretto `.gitignore` graphify-out) — verificato: `README.md` root ora **0 marker**.
+=======
+- Commit recenti reali: `fdda5618` (rimossi `ARCHITECTURE.md`/`philosophy-3.md`/`TESTING.md` root con marker irrisolti) e `e6bb00a1` (risolti marker in `.github/contributing.md` e `README.md` root, corretto `.gitignore` graphify-out) — verificato: `README.md` root ora **0 marker**.
+>>>>>>> laraxot/dev
 - Story `docs/bmad/stories/root-hygiene-conflict-markers.story.md` (status `review`) copre esattamente questi due commit — lavoro fatto, manca solo il flip a `done`.
 - **Il modulo e' scritto in questo momento da un daemon auto-commit concorrente** (commit `.`, autore `marco76tv`/`Marco Xot`): durante *questa stessa sessione* e' arrivato un nuovo commit `c6a14359` (`.`) che ha committato i due file BMAD boilerplate (`docs/bmad/architecture.md` e questo file, prima untracked) — stessa firma nota nel second brain per il "daemon auto-commit locale sui moduli". `dev` risulta comunque allineato a `laraxot/dev` (0 ahead/behind) al momento della verifica.
 

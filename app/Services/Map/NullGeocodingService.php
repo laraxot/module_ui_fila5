@@ -13,5 +13,9 @@ use Modules\UI\Adapters\Map\NullGeocodingServiceAdapter;
  * Residuo on-disk (no-delete senza autorizzazione). Vedi debt.php #247.
  *
  * @deprecated Use NullGeocodingServiceAdapter instead.
+<<<<<<< HEAD
+=======
+ * @see Modules/UI/docs/wiki/concepts/ui-services-support-to-actions.md
+>>>>>>> laraxot/dev
  */
 final class NullGeocodingService {}

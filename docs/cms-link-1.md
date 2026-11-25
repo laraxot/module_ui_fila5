@@ -32,12 +32,21 @@ I componenti UI definiti in questo modulo vengono utilizzati nel frontend attrav
 
 ## Collegamento Bidirezionale
 
+<<<<<<< HEAD
 Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/ui-link.md) nel modulo Cms.
+=======
+Questo documento è collegato bidirezionalmente con [ui-link-2.md](../../Cms/docs/ui-link.md) nel modulo Cms.
+>>>>>>> laraxot/dev
 
 > Aggiorna entrambi i riferimenti se modifichi la struttura dei componenti UI o aggiungi nuovi componenti utilizzati nel frontend.
 
 ## Collegamenti tra versioni di cms-link.md
 * [cms-link.md](../../../Xot/docs/cms-link.md)
 * [cms-link.md](../../../User/docs/cms-link.md)
+<<<<<<< HEAD
 * [cms-link.md](../../../UI/docs/cms-link.md)
 * [cms-link.md](../../../Lang/docs/cms-link.md)
+=======
+* [cms-link-3.md](../../User/docs/cms-link-3.md)
+* [cms-link-3.md](../../User/docs/cms-link-3.md)
+>>>>>>> laraxot/dev

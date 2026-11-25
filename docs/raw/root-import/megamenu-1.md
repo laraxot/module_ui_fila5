@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+---
+title: "Megamenu 1"
+type: note
+qmd: "megamenu 1"
+---
+>>>>>>> laraxot/dev
 https://www.tailwindtoolbox.com/components/megamenu
 
 

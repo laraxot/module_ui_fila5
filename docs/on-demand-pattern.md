@@ -57,12 +57,16 @@ qmd search "<topic>"
 \`\`\`
 ./laravel/Modules/UI/docs/
 └── wiki/                    # Knowledge base locale
+<<<<<<< HEAD
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
     ├── commands/INDEX.md   # Indici commands
     └── memories/INDEX.md   # Indice memories
 
 ├── rules/index.md      # Indice rules modulo-specifiche
+=======
+    ├── rules/index.md      # Indice rules modulo-specifiche
+>>>>>>> laraxot/dev
     ├── skills/index.md     # Indice skills modulo-specifiche
     ├── commands/index.md   # Indici commands
     └── memories/index.md   # Indice memories

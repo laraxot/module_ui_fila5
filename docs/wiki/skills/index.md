@@ -35,7 +35,11 @@ Le Skills progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate
 
 - La sorgente di verita' per le Skills e' sempre il wiki locale
 - Non embeddare Skills nei prompt di avvio
+<<<<<<< HEAD
 - Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/INDEX.md)
+=======
+- Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/index-2.md)
+>>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova SKILLS
 

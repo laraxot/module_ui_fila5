@@ -10,7 +10,11 @@ use UnexpectedValueException;
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.
  *
+<<<<<<< HEAD
  * @see docs/contracts/resolve-localized-block-data-action.md
+=======
+ * @see Modules/UI/docs/contracts/resolve-localized-block-data-action.md
+>>>>>>> laraxot/dev
  *
  * @contract docs/contracts/resolve-localized-block-data-action.md
  */

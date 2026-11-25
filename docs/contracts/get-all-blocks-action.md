@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "GetAllBlocksAction — contratto"
 type: contract
 owner: UI
@@ -8,6 +9,14 @@ action: "Modules\\UI\\Actions\\Block\\GetAllBlocksAction"
 qmd: "GetAllBlocksAction elenco blocchi Filament Blocks moduli ComponentFileData glob"
 tags: [contract, action, blocks, filament, filesystem]
 created: 2026-11-24
+=======
+title: "Contratto — GetAllBlocksAction"
+type: contract
+action: "Modules\UI\Actions\Block\GetAllBlocksAction"
+tags: [contract, action, blocks, filament, filesystem]
+created: 2026-11-24
+updated: 2026-11-24
+>>>>>>> laraxot/dev
 ---
 
 # GetAllBlocksAction

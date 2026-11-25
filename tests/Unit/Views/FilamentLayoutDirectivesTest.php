@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 use function Safe\file_get_contents;
 use function Safe\glob;
+<<<<<<< HEAD
 use function Safe\preg_replace;
+=======
+>>>>>>> laraxot/dev
 
 /**
  * Behaviour: layout owner is UI (not Cms). Filament Styles/Scripts + bare notifications.
@@ -40,6 +43,7 @@ test('ui layouts do not depend on the cms module', function (): void {
     expect($layouts)->not->toBeEmpty();
 
     foreach ($layouts as $layout) {
+<<<<<<< HEAD
         expect($layout)->toBeString();
         if (! is_string($layout)) {
             continue;
@@ -47,6 +51,10 @@ test('ui layouts do not depend on the cms module', function (): void {
 
         // I commenti Blade possono nominare cms::* per spiegare perche' non lo usano: contano solo i riferimenti reali.
         $code = preg_replace('/\{\{--.*?--\}\}/s', '', file_get_contents($layout));
+=======
+        // I commenti Blade possono nominare cms::* per spiegare perche' non lo usano: contano solo i riferimenti reali.
+        $code = (string) preg_replace('/\{\{--.*?--\}\}/s', '', (string) file_get_contents($layout));
+>>>>>>> laraxot/dev
 
         expect($code)->not->toContain('cms::', 'Modules\Cms');
     }

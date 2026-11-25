@@ -2,7 +2,11 @@
 qmd: "ui philosophy md"
 module: UI
 topic: PHILOSOPHY
+<<<<<<< HEAD
 canonical: ./PHILOSOPHY.md
+=======
+canonical: ../../Lang/docs/philosophy-3.md
+>>>>>>> laraxot/dev
 status: living-document
 updated: "2026-09-06"
 maintenance: Marco Sottana
@@ -248,11 +252,15 @@ Modules/UI/
 └── CHANGELOG.md
 ```
 
+<<<<<<< HEAD
 (`ARCHITECTURE.md`, `TESTING.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
 
 ├── ARCHITECTURE.md
 
 (`architecture.md`, `testing.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
+=======
+(`architecture.md`, `testing.md`, `GETTING_STARTED.md` and `philosophy-3.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
+>>>>>>> laraxot/dev
 
 ├── architecture.md
 └── CHANGELOG.md
@@ -1281,12 +1289,15 @@ Core functionality tests pass:
 ### Core Documentation
 
 - [README.md](./README.md) — Module overview
+<<<<<<< HEAD
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 - [architecture.md](./architecture.md) — System architecture
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 =======
+=======
+>>>>>>> laraxot/dev
 - [architecture.md](./architecture.md) — System architecture
 - [architecture.md](./architecture.md) — System architecture
 - [architecture.md](./architecture.md) — System architecture

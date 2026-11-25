@@ -19,7 +19,11 @@ tags: [docs, ui, bmad]
 
 # UI: marker nidificati in README + igiene root
 
+<<<<<<< HEAD
 **Perché.** `git status` pulito, HEAD con 20 hunk `<<<<<<<` in `README.md` (anche nidificati: theirs iniziava con `<<<<<<< HEAD`) e contributing duplicato. Root teneva `ARCHITECTURE.md`/`TESTING.md`/`PHILOSOPHY.md` (SSoT è `docs/architecture.md`, kebab).
+=======
+**Perché.** `git status` pulito, HEAD con 20 hunk `<<<<<<<` in `README.md` (anche nidificati: theirs iniziava con `<<<<<<< HEAD`) e contributing duplicato. Root teneva `ARCHITECTURE.md`/`TESTING.md`/`philosophy-3.md` (SSoT è `docs/architecture.md`, kebab).
+>>>>>>> laraxot/dev
 
 ## Scelta
 
@@ -28,6 +32,7 @@ Innermost-first strip; tenere frontmatter HEAD; footer project-agnostic (niente 
 ## Gate
 
 PHPStan `Modules/UI`: 0. Commit deferred.
+<<<<<<< HEAD
 
 ## Wave docs 2026-11-23
 
@@ -35,3 +40,6 @@ Risolti marker annidati in `Modules/UI/docs` (47 file, strategia innermost-first
 HEAD preferito, lato non vuoto, unione paragrafi unici). Verifica:
 `/bin/grep -rIln '^<<<<<<< \|^>>>>>>> \|^=\{7\}$' laravel/Modules/UI/docs` → vuoto.
 Status: done (docs).
+=======
+PHPStan `Modules/UI`: 0. Commit deferred.
+>>>>>>> laraxot/dev

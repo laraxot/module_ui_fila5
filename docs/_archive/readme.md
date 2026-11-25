@@ -238,7 +238,11 @@ php artisan ui:test-components
 - [Components Guide](components.md) - Guida completa componenti
 - [Design System](design-system.md) - Sistema design modulare
 - [Architecture Rules](architecture_rules.md) - Regole architetturali
+<<<<<<< HEAD
 - [Best Practices](best-practices.md) - Linee guida sviluppo
+=======
+- [Best Practices](best-practices-3.md) - Linee guida sviluppo
+>>>>>>> laraxot/dev
 
 ### 🔗 **Collegamenti Moduli**
 - **[Xot Module](../Xot/docs/README.md)** - Framework core e convenzioni
@@ -251,10 +255,17 @@ php artisan ui:test-components
 - [Blade Components](blade-components.md) - Componenti Blade riutilizzabili
 - [Form Components](form-components.md) - Componenti form avanzati
 - [Table Components](table-components.md) - Componenti tabella
+<<<<<<< HEAD
 - [Navigation Components](navigation-components.md) - Componenti navigazione
 
 ### 🎨 **Filament Integration**
 - [Filament Components](filament-components.md) - Componenti Filament
+=======
+- [Navigation Components](navigation-components-2.md) - Componenti navigazione
+
+### 🎨 **Filament Integration**
+- [Filament Components](filament-components-2.md) - Componenti Filament
+>>>>>>> laraxot/dev
 - [Widget System](widgets.md) - Sistema widget personalizzati
 - [TableLayoutEnum](table-layout-enum-complete-guide.md) - Guida completa enum layout
 - [File Upload Components](filament-fileupload.md) - Componenti upload file
@@ -558,9 +569,15 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 **🚀 Performance**: 97/100 score 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione Root](../../../docs/translation_standards_links.md)
 - [Regole Traduzioni](translation_rules.md)
 - [Best Practices Filament](filament_best_practices.md)
+=======
+- [Documentazione Root](../../../docs/translation-standards-links-2.md)
+- [Regole Traduzioni](translation_rules.md)
+- [Best Practices Filament](filament-best-practices-2.md)
+>>>>>>> laraxot/dev
 - [Componenti UI](components.md)
 - [TableLayoutEnum Analysis](table_layout_enum_analysis.md)
 - [TableLayoutEnum Usage](table-layout-enum-usage.md)

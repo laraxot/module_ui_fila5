@@ -104,7 +104,11 @@ public function render()
 
 ## Links
 - [Documentazione Blocchi](../laravel/Modules/Cms/docs/blocks/)
+<<<<<<< HEAD
 - [Gestione Contenuti](content-management.md)
+=======
+- [Gestione Contenuti](content-management-2.md)
+>>>>>>> laraxot/dev
 - [Best Practices UI](ui-best-practices.md)
 
 ## Note

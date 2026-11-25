@@ -73,7 +73,11 @@ public function action(): void
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 - [Filament Tables](https://filamentphp.com/docs/4.x/tables)
 - [State Pattern](state-pattern.md)
+<<<<<<< HEAD
 - [Filament Components](filament-components.md)
+=======
+- [Filament Components](filament-components-2.md)
+>>>>>>> laraxot/dev
 
 ## 🔄 Manutenzione Continua
 

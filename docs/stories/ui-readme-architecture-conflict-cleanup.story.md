@@ -11,9 +11,13 @@ scope: module:UI
 ## Contesto
 
 Continuazione di un cleanup igiene-root del modulo (max 1 `.code-workspace`, max 5 `.md`
+<<<<<<< HEAD
 in root) che aveva spostato `ARCHITECTURE.md`/`TESTING.md`/`GETTING_STARTED.md`/`PHILOSOPHY.md`
 
 in root) che aveva spostato `architecture.md`/`testing.md`/`GETTING_STARTED.md`/`PHILOSOPHY.md`
+=======
+in root) che aveva spostato `architecture.md`/`testing.md`/`GETTING_STARTED.md`/`philosophy-3.md`
+>>>>>>> laraxot/dev
 dalla root a `docs/root-md-files/`, segnalando ma non risolvendo due problemi fuori scope
 in quel momento: marker di conflitto non risolti in `README.md` di root e una famiglia di
 file case/name-duplicati sotto `docs/architecture*`.
@@ -53,6 +57,7 @@ duplicate qui — solo referenziate).
    - `docs/ARCHITECTURE_2025.md` (29 righe) — stub redirect con marker ANCORA irrisolti,
      verso `Themes/docs/shared-components/architecture.md` (path inesistente).
    - `docs/architecture-2025.md` (7 righe) — stub redirect pulito ma verso lo stesso path
+<<<<<<< HEAD
      verso `Themes/docs/shared-components/ARCHITECTURE.md` (path inesistente).
 
 verso `Themes/docs/shared-components/architecture.md` (path inesistente).
@@ -64,6 +69,8 @@ verso `Themes/docs/shared-components/architecture.md` (path inesistente).
    - `docs/ARCHITECTURE_2025.md` (29 righe) — stub redirect con marker ANCORA irrisolti,
      verso `Themes/docs/shared-components/ARCHITECTURE.md` (path inesistente).
    - `docs/architecture.md` (7 righe) — stub redirect pulito ma verso lo stesso path
+=======
+>>>>>>> laraxot/dev
      inesistente; gia' elencato in `docs/.gitignore` come da rimuovere (mai completato).
    - `docs/architecture_2025.md` (11 righe) — due frontmatter concatenati, stesso path
      inesistente.
@@ -71,12 +78,21 @@ verso `Themes/docs/shared-components/architecture.md` (path inesistente).
    `component-registration.md`, `filament-pages-structure.md`,
    `filament-resources-structure.md`, `structure.md` — argomento diverso).
 4. **Riferimenti aggiornati** (solo nei file senza altri conflitti estranei, verificato
+<<<<<<< HEAD
    riga per riga): `docs/philosophy-dev-rules.md`, `docs/root-md-files/philosophy.md`
    (sezione "See Also"), `docs/project-structure.md` (albero directory),
    `docs/PHILOSOPHY.md` (albero root modulo + sezione "References and Links").
 5. **`docs/architecture-patterns.md`**: 4 marker annidati in una sola sezione
    "Backlinks & References", auto-contenuti e sullo stesso tema (variante
    `architecture.md`/`architecture.md`/`index.md`/`index.md` ripetuta 8 volte) —
+=======
+   riga per riga): `docs/philosophy-dev-rules.md`, `../../../Lang/docs/philosophy-3.md`
+   (sezione "See Also"), `docs/project-structure.md` (albero directory),
+   `../../../Lang/docs/philosophy-3.md` (albero root modulo + sezione "References and Links").
+5. **`docs/architecture-patterns.md`**: 4 marker annidati in una sola sezione
+   "Backlinks & References", auto-contenuti e sullo stesso tema (variante
+   `architecture-3.md`/`architecture-3.md`/`index-3.md`/`index-3.md` ripetuta 8 volte) —
+>>>>>>> laraxot/dev
    risolti collassando alla forma canonica minuscola.
 6. **`docs/purpose.md`**: aggiunto link a `./architecture.md` tra i "Collegamenti"
    (mancava un puntatore diretto dal purpose all'architettura tecnica).
@@ -87,11 +103,14 @@ Trovata, durante l'audit, una corruzione molto piu' estesa di quanto stimato dal
 originale (~13 righe attese in README, in realta' 47; "4 file" architecture attesi, in
 realta' 6 + 1 sottocartella legittima). File con marker non risolti **non** toccati
 perche' troppo grandi/estranei al tema architecture o gia' noti come deferred fleet-wide
+<<<<<<< HEAD
 (story 5.122): `docs/PROJECT-STRUCTURE.md` (7 conflitti, solo 1 sul tema), `docs/paths-and-assets.md`
 (140 conflitti), `docs/paths_and_assets.md` (64 conflitti), `docs/INDEX.md`, `docs/index.md`,
 `docs/00-INDEX.md`, `docs/README.md` (distinto dal root, 20 conflitti, liste di file
 fantasma tipo `architecture-1.md` mai esistiti), `docs/TESTING.md` (16 righe, da
 
+=======
+>>>>>>> laraxot/dev
 (story 5.122): `docs/project-structure.md` (7 conflitti, solo 1 sul tema), `docs/paths-and-assets.md`
 (140 conflitti), `docs/paths_and_assets.md` (64 conflitti), `docs/index.md`, `docs/index.md`,
 `docs/00-index.md`, `docs/README.md` (distinto dal root, 20 conflitti, liste di file
@@ -111,8 +130,13 @@ modulo opportunistico; riferimento: `docs/sprint-status.yaml` story `5.122-gitmo
 ```bash
 cd laravel/Modules/UI
 grep -c '^<<<<<<< \|^=======$\|^>>>>>>> ' README.md docs/architecture.md \
+<<<<<<< HEAD
   docs/philosophy-dev-rules.md docs/root-md-files/philosophy.md \
   docs/project-structure.md docs/PHILOSOPHY.md docs/architecture-patterns.md
+=======
+  docs/philosophy-dev-rules.md ../../../Lang/docs/philosophy-3.md \
+  docs/project-structure.md ../../../Lang/docs/philosophy-3.md docs/architecture-patterns.md
+>>>>>>> laraxot/dev
 # tutti 0
 ```
 
@@ -123,7 +147,11 @@ Commit: `5b5b8576` (repo `laravel/Modules/UI`, remote `laraxot/module_ui_fila5` 
 
 - Diff/lettura integrale prima di cancellare un "duplicato": ha evitato di perdere le
   righe uniche (la coda di `docs/architecture.md`, la nota di migrazione da
+<<<<<<< HEAD
   `architecture.md`) che un `git rm` cieco avrebbe cancellato.
+=======
+  `architecture-3.md`) che un `git rm` cieco avrebbe cancellato.
+>>>>>>> laraxot/dev
 - Non fidarsi della stima del task ("~13 righe", "4 file"): verificato con `grep -c` e
   `git ls-files` prima di pianificare, trovata realta' piu' ampia (47 righe, 6 file).
 - Risolvere solo i conflitti auto-contenuti sullo stesso tema (`architecture-patterns.md`);

@@ -217,7 +217,11 @@ tags: [documentation]
    - Sanitizzazione input
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Form Standards](./form_standards.md)
+=======
+- [Form Standards](./form-standards-2.md)
+>>>>>>> laraxot/dev
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 # Standard Form di Autenticazione
@@ -432,6 +436,10 @@ tags: [documentation]
    - Sanitizzazione input
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Form Standards](./form_standards.md)
+=======
+- [Form Standards](./form-standards-2.md)
+>>>>>>> laraxot/dev
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
