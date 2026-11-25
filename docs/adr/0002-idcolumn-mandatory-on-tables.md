@@ -1,21 +1,27 @@
 ---
+title: "ADR — IDColumn obbligatoria su ogni tabella Filament"
+type: decision
 status: accepted
-date: 2026-11-25
+created: 2026-11-25
+updated: 2026-11-25
+module: UI
 decision-makers:
   - product
   - architecture
-qmd: "ADR UI 0002 IDColumn mandatory Filament tables RecordAnchor"
+qmd: "ADR UI 0002 IDColumn mandatory tables RecordAnchor self-link copyable"
 ---
 
-# IDColumn mandatory on every Filament table
+# ADR — IDColumn obbligatoria su ogni tabella Filament
 
-## Context and Problem Statement
+## Contesto
 
-Every Filament list row has a primary key. Without a typed `id` column the operator cannot cite the row (support, debug, deep-link). Pages that override `getTableColumns()` tend to omit `id` (e.g. Servizi tab on scheda 11254). Filament does not emit a stable `id` on the `<tr>`: the cell itself must carry an HTML target ([id-column-record-anchor](../id-column-record-anchor.md), [RecordAnchor](../../../Xot/docs/filament/record-anchor-return-to.md)).
+Senza colonna `id` tipizzata l'operatore non puo' citare la riga. Override di
+`getTableColumns()` dimenticano spesso `id` (tab Servizi scheda 11254).
+Filament non emette `id` stabile sul `<tr>`: serve target HTML nella cella.
 
-How do we guarantee every Filament table exposes a shareable, typed id column with a row anchor?
+## Decisione
 
-**Related**: story [idcolumn-mandatory-filament-tables](../bmad/stories/idcolumn-mandatory-filament-tables.story.md). Promotes the rule already described in `id-column-record-anchor.md`. Former unnumbered kebab-only path removed; canonico = questo file `0002-…`.
+**Related**: story [idcolumn-mandatory-filament-tables](../bmad/stories/0012-idcolumn-mandatory-filament-tables.story.md). Promotes the rule already described in `id-column-record-anchor.md`. Former unnumbered kebab-only path removed; canonico = questo file `0002-…`.
 
 ## Decision Drivers
 
@@ -29,19 +35,19 @@ How do we guarantee every Filament table exposes a shareable, typed id column wi
 - Only `TextColumn::make('id')` — no anchor, no coherent copyable behaviour.
 - Inject `id` only in Progressioni leaf pages — repeats the gap on every new tab.
 - Put the anchor on the `<tr>` via JS — fragile against Livewire `wire:key`.
-- Mandatory `IDColumn` as first column, with Sigma history base prepend — chosen.
+- Mandatory `IDColumn` as first column; Sigma leaves call `withIdColumn()` inside `getTableColumns()` — chosen.
 
 ## Decision Outcome
 
-Scelta: **mandatory `IDColumn` as first column on every Filament table**, perché operability + DRY + RecordAnchor alignment, with a single owner in UI and a final prepend on Sigma history bases.
+Scelta: **mandatory `IDColumn` as first column on every Filament table**, perché operability + DRY + RecordAnchor alignment, with a single owner in UI; Sigma leaves prepend via `withIdColumn()` inside `getTableColumns()`.
 
 1. **Mandate**: every `getTableColumns()` / Table class exposes `'id' => IDColumn::make()` (or `IDColumn::make('id')`) as the first column.
 2. **Owner**: module **UI** owns `IDColumn`; **Xot** owns `RecordAnchor`.
 3. **Rendering**: the cell is a self-link
    `<a id="record-{id}" href="#record-{id}" class="scroll-mt-24">…</a>`
    (browser copy-link, row bookmark) plus `copyable()` on the raw id state.
-4. **Sigma history (Ptv)**: `BaseSigmaHistoryScheda::getTableColumns()` is `final` and prepends `IDColumn` if missing; leaves implement `getSigmaTableColumns()`.
-5. **Forbidden**: hardcoded `->label('ID')` (LangServiceProvider / `Column::configureUsing`).
+4. **Sigma history (Ptv)**: leaves override **`getTableColumns()`** (never `getSigmaTableColumns` / `get{Domain}TableColumns`) and call `withIdColumn([...])` from `BaseSigmaHistoryScheda` (ADR Ptv [0005](../../../Ptv/docs/adr/0005-gettablecolumns-not-domain-prefix.md)).
+5. **Forbidden**: hardcoded `->label('ID')` (LangServiceProvider / `Column::configureUsing`); domain-prefixed column hooks (`getSigmaTableColumns`, `getListTableColumns`, …). Fleet guard: Pest `NoDomainPrefixedTableColumnsTest` + rule `.cursor/rules/gettablecolumns-no-domain-prefix.mdc`.
 
 ### Consequences
 
@@ -51,7 +57,7 @@ Scelta: **mandatory `IDColumn` as first column on every Filament table**, perch�
 
 ### Confirmation
 
-- Story: [idcolumn-mandatory-filament-tables](../bmad/stories/idcolumn-mandatory-filament-tables.story.md)
+- Story: [idcolumn-mandatory-filament-tables](../bmad/stories/0012-idcolumn-mandatory-filament-tables.story.md)
 - Pest: `Modules/UI/tests/Feature/IDColumnTest.php` (self-link + escape)
 - Source guard: Sigma history tabs include key `id` typed as `IDColumn`
 - PHPStan on `IDColumn` + `Base*Scheda`

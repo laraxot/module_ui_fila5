@@ -9,7 +9,7 @@ use Modules\Xot\Filament\Links\RecordAnchor;
 use Modules\Xot\Filament\Tables\Columns\XotBaseTextColumn;
 
 /**
- * Colonna id obbligatoria: chiave primaria + ancora stabile della riga.
+ * Colonna id obbligatoria: PK + ancora #record-{id} (self-link) + copyable.
  *
  * Callers: ogni getTableColumns() / Table Filament; Sigma history via
  * BaseSigmaHistoryScheda::withIdColumn(). Non usare TextColumn::make('id').
@@ -27,8 +27,8 @@ class IDColumn extends XotBaseTextColumn
         // searchable() opt-in del chiamante.
         return parent::make($name ?? 'id')
             ->sortable()
-            ->copyable()
             ->html()
+            ->copyable()
             ->formatStateUsing(static fn (mixed $state): HtmlString => static::renderAnchor($state))
             ->copyableState(static fn (mixed $state): string => is_scalar($state) ? (string) $state : '');
     }
@@ -49,9 +49,7 @@ class IDColumn extends XotBaseTextColumn
         $fragment = e(RecordAnchor::fragment($value));
 
         return new HtmlString(
-            '<a id="'.$anchor.'" href="'.$fragment.'" class="scroll-mt-24 fi-link text-primary-600 hover:underline" title="'.$fragment.'">'
-            .$escaped
-            .'</a>'
+            '<a id="'.$anchor.'" href="'.$fragment.'" class="scroll-mt-24 fi-link text-primary-600 hover:underline" title="'.$fragment.'">'.$escaped.'</a>'
         );
     }
 }
