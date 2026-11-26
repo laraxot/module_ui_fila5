@@ -3,9 +3,9 @@ title: "ADR — UI è il layer condiviso e non possiede né autorizza il dominio
 type: decision
 status: proposed
 created: 2026-11-23
-updated: 2026-11-24
+updated: 2026-11-26
+module: UI
 decision-makers: UI module owner
-date: 2026-11-23
 qmd: "ui does not authorize domain data"
 ---
 
@@ -39,8 +39,8 @@ responsabilità deve avere UI quando un componente visuale usa dati di dominio?
 
 UI è **il layer condiviso di presentazione e contratti**, non il proprietario dei
 dati di dominio. I consumer forniscono query, policy e implementazioni concrete;
-UI consuma i contratti mappa/geocoding e usa `NullMapService` o
-`NullGeocodingService` quando Geo non è disponibile. Le azioni sensibili restano
+UI consuma i contratti mappa/geocoding e usa `NullMapServiceAdapter` o
+`NullGeocodingServiceAdapter` quando Geo non è disponibile. Le azioni sensibili restano
 soggette alle policy del modulo owner.
 
 ## Conseguenze
@@ -54,20 +54,17 @@ soggette alle policy del modulo owner.
 
 ## Conferma
 
-- Mappe: [`MapServiceContract`](../../app/Contracts/MapServiceContract.php).
-- Geocoding: [`GeocodingServiceContract`](../../app/Contracts/GeocodingServiceContract.php).
-- Fallback: [`NullMapService`](../../app/Services/Map/NullMapService.php) e
-  [`NullGeocodingService`](../../app/Services/Map/NullGeocodingService.php).
-- Riferimento: [`docs/architecture.md`](../architecture.md).
+- Contratti presenti: [`MapServiceContract`](../../app/Contracts/MapServiceContract.php) e [`GeocodingServiceContract`](../../app/Contracts/GeocodingServiceContract.php).
+- Fallback Null canonici: [`NullMapServiceAdapter`](../../app/Adapters/Map/NullMapServiceAdapter.php) e [`NullGeocodingServiceAdapter`](../../app/Adapters/Map/NullGeocodingServiceAdapter.php).
+- Estensioni `XotBase`: `cd laravel && rg -l 'extends \\?Filament' Modules/UI/app` non deve trovare nulla (nessun risultato il 2026-11-26).
+- Riferimento: [`docs/scope-and-boundaries.md`](../scope-and-boundaries.md).
+- Nessun test sui fallback Null né sull'uso dei contratti: nessuna conferma automatica; proposta: un test che risolva i due contratti dal container e verifichi che senza Geo rispondano i Null.
 
-## Verifica
+## Stato attuale
 
-- Contratti presenti: `Modules/UI/app/Contracts/MapServiceContract.php` e
-  `Modules/UI/app/Contracts/GeocodingServiceContract.php`.
-- Fallback Null canonici: `Modules/UI/app/Adapters/Map/NullMapServiceAdapter.php` e
-  `Modules/UI/app/Adapters/Map/NullGeocodingServiceAdapter.php`. Le classi `NullMapService` e `NullGeocodingService`
-  citate in Conferma esistono ancora in `Modules/UI/app/Services/Map/` ma sono `@deprecated`, vuote e senza binding.
-- Al 2026-11-24 nessun service provider lega i contratti e nessun consumer li usa fuori da UI: per questo lo status
-  resta `proposed`. Non ci sono test sui fallback Null.
-- Estensioni `XotBase` per i componenti Filament: `rg -l 'extends Filament' laravel/Modules/UI/app` non deve trovare
-  classi che estendono direttamente Filament.
+Il codice non fa quello che la Decisione descrive, per questo lo stato resta `proposed`:
+
+- `app/Providers/UIServiceProvider.php:15-17` dichiara «Nessun binding Geo/Map/Location» e rinvia a `docs/geo-boundary.md`, che **non esiste** in `docs/` (controllato il 2026-11-26). Nessun service provider lega `MapServiceContract` o `GeocodingServiceContract`.
+- I due contratti di UI non hanno consumer fuori da UI (`rg` sui nomi in `Modules/`): Geo ha il proprio `GeocodingServiceContract` in `Modules/Geo/app/Contracts/`, separato.
+- `app/Services/Map/NullMapService.php` e `NullGeocodingService.php` esistono ancora ma sono `@deprecated`, senza binding né chiamanti, e stanno in `tests/Arch/debt.php:22-23` finché non vengono cancellati.
+- Sul confine «UI non autorizza»: `GetUserDataAction` (UI) legge e restituisce email, ruolo e permessi dell'utente autenticato senza decidere nulla; il contratto [get-user-data-action](../contracts/get-user-data-action.md) dice cosa non fa. Non ha chiamanti in produzione.

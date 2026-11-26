@@ -16,8 +16,7 @@ componenti Blade/Livewire, icone SVG, layout. Non conosce il dominio applicativo
 namespace `Modules\UI\` -> `app/`, provider `UIServiceProvider` (minimo, solo `getComponentViewPath()`) e
 `Filament\AdminPanelProvider`. `module.json` richiede `Xot` e `User`.
 
-Filosofia e regole di sviluppo: [philosophy.md](philosophy.md). Architettura e convenzioni:
-[architecture.md](architecture.md), [conventions.md](conventions.md).
+Filosofia e regole di sviluppo: [philosophy.md](philosophy.md). Architettura e convenzioni: le decisioni sono in [docs/adr/](adr/) e le regole di sviluppo in [philosophy.md](philosophy.md).
 
 ## Direzione delle dipendenze
 

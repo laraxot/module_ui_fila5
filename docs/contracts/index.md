@@ -1,25 +1,23 @@
 ---
 title: "INDEX contratti — UI"
 type: index
+module: UI
 owner: UI
-updated: 2026-11-24
-qmd: "UI contract INDEX backlog Action presentazione"
+updated: 2026-11-26
+qmd: "UI contract INDEX invarianti copertura pest group UI-BLOCKS UI-BLOCKDATA UI-USERDATA UI-ICONS UI-DAYS UI-CALENDAR"
 ---
 
 # INDEX contratti — UI
 
-| Operazione | Contract | Classe | Invarianti | Copertura | Comando |
-|---|---|---|---|---|---|
-| — | Nessun contract formale (vedi [README](README.md)) | — | — | — | — |
+Registro dei contratti: per ciascuno quante invarianti ci sono e quali hanno un test con `->group('<ID>')`. I comandi si eseguono da `laravel/`. Elenco completo, scopo e backlog: [README](README.md).
 
-Verifica: `rg -n "group\('UI-" laravel/Modules/UI/tests` (2026-11-24): nessun risultato, coerente con l'assenza di contract.
+| Classe | Contratto | Invarianti | Con group (`INV-n`) | Comando di esempio |
+|---|---|---|---|---|
+| GetAllBlocksAction | [get-all-blocks-action](get-all-blocks-action.md) | 2 | 1, 2 | `vendor/bin/pest --group=UI-BLOCKS-INV-1` |
+| GetLocalizedBlockDataAction | [resolve-localized-block-data-action](resolve-localized-block-data-action.md) | 4 | 1, 2, 3, 4 | `vendor/bin/pest --group=UI-BLOCKDATA-INV-1` |
+| GetUserDataAction | [get-user-data-action](get-user-data-action.md) | 5 | 1, 2, 3, 4, 5 | `vendor/bin/pest --group=UI-USERDATA-INV-1` |
+| GetAllIconsAction | [get-all-icons-action](get-all-icons-action.md) | 6 | 1, 2, 3, 4, 5 | `vendor/bin/pest --group=UI-ICONS-INV-1` |
+| GetDaysMappingAction | [get-days-mapping-action](get-days-mapping-action.md) | 4 | nessuno | — |
+| ApplyCalendarToPanelAction | [apply-calendar-to-panel-action](apply-calendar-to-panel-action.md) | 3 | nessuno | — |
 
-## Backlog contract
-
-Action da rivalutare per prime se cambiano comportamento (nessuna oggi è ad alto rischio in scrittura; `laravel/Modules/UI/app/Actions/`):
-
-- `GetUserDataAction.php`: espone ruolo e permessi dell'utente corrente (dati personali) all'interfaccia; contract `presentation` o `Action` se la superficie cresce.
-- `Block/GetLocalizedBlockDataAction.php`: delega a `Modules\Cms\Actions\ResolveLocalizedBlockDataAction` se esiste (confine tra moduli).
-- `Panel/ApplyCalendarToPanelAction.php`: docblock "temporaneamente disabilitato" per la migrazione Filament; da non documentare finché il comportamento non è stabile.
-
-Totale Action in `app/Actions`: 6 file `.php` (`Block/GetAllBlocksAction`, `Block/GetLocalizedBlockDataAction`, `Datetime/GetDaysMappingAction`, `GetUserDataAction`, `Icon/GetAllIconsAction`, `Panel/ApplyCalendarToPanelAction`). Contract formali: 0.
+Un'invariante è dimostrata solo se esiste un test con `->group('<ID>')` (`rg -n "group\('UI-" Modules/UI/tests`); un test che prova il comportamento senza il group conta come non dimostrato.

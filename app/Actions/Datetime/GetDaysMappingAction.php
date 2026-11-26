@@ -8,6 +8,8 @@ use Carbon\Carbon;
 use Spatie\QueueableAction\QueueableAction;
 
 /**
+ * Giorni (lunedi-sabato) del campo orari di apertura: chiave inglese minuscola, etichetta nella locale corrente.
+ *
  * @see docs/contracts/get-days-mapping-action.md
  *
  * @contract docs/contracts/get-days-mapping-action.md
