@@ -9,19 +9,7 @@ updated: "2026-07-28"
 related:
   - ./README.md
   - ./PATTERNS.md
-<<<<<<< .merge_file_2XtPmU
-<<<<<<< .merge_file_Bwbf8r
   - ./INDEX.md
-=======
-  - ./index.md
->>>>>>> .merge_file_tITdtU
-=======
-<<<<<<< .merge_file_toT2MJ
-  - ./INDEX.md
-=======
-  - ./index.md
->>>>>>> .merge_file_rVY4ox
->>>>>>> .merge_file_qSAWxW
 ---
 
 # UI — Troubleshooting Guide
@@ -103,8 +91,6 @@ Template usa slot che non è definito nel componente.
 2. Typo nel nome slot
 3. Versione Blade incompatibile
 
-**Soluzione**:
-
 ```blade
 <!-- ✅ CORRETTO: Dichiara slot -->
 <!-- resources/views/components/card.blade.php -->
@@ -158,8 +144,6 @@ Template usa slot che non è definito nel componente.
 2. Typo nel nome property
 3. Type casting non matching
 
-**Soluzione**:
-
 ```blade
 <!-- ✅ CORRETTO: Dichiara @props -->
 <!-- resources/views/components/button.blade.php -->
@@ -202,8 +186,6 @@ Template usa slot che non è definito nel componente.
 1. Widget non registrato nel admin panel config
 2. `getDefaultName()` ritorna null
 3. Cache stale
-
-**Soluzione**:
 
 ```php
 // 1. Verifica registrazione nel panel
@@ -256,8 +238,6 @@ dd(\$widgets);
 1. Custom field manca implementazione validation
 2. Field type non matching database
 3. Authorization policy blocking update
-
-**Soluzione**:
 
 ```php
 // ✅ CORRETTO: Completo validation
@@ -323,8 +303,6 @@ TypeError: Call to undefined method TableLayoutEnum::fromString()
 2. Enum non è di tipo BackedEnum
 3. Versione PHP < 8.1
 
-**Soluzione**:
-
 ```php
 // ✅ CORRETTO: BackedEnum for value handling
 namespace Modules\UI\Enums;
@@ -374,8 +352,6 @@ Exception: Cannot serialize TableLayoutEnum
 2. Storing enum directly in session
 3. Cache key inconsistency
 
-**Soluzione**:
-
 ```php
 // ✅ CORRETTO: Store enum value, not instance
 class ToggleTableLayoutAction extends Action {
@@ -414,8 +390,6 @@ $request->session()->put('table_layout', TableLayoutEnum::LIST); // Serializatio
 1. Plugin datalabels non installato
 2. Plugin option configuration sbagliato
 3. Chart data format incompatibile
-
-**Soluzione**:
 
 ```bash
 # 1. Installa plugin
@@ -489,8 +463,6 @@ class RevenueChartWidget extends ChartWidget {
 2. Unnecessary animation
 3. Memory pressure
 
-**Soluzione**:
-
 ```php
 // ✅ CORRETTO: Optimized for shared hosting
 protected function getData(): array {
@@ -547,8 +519,6 @@ protected function getOptions(): array {
 2. Tailwind config not scanning UI module paths
 3. CSS import not in main stylesheet
 
-**Soluzione**:
-
 ```bash
 # 1. Esegui Tailwind build
 npm run build
@@ -593,8 +563,6 @@ npm run build
 1. Inline style has higher specificity than Tailwind
 2. `!important` used incorrectly
 
-**Soluzione**:
-
 ```blade
 <!-- ❌ SBAGLIATO: Inline style wins -->
 <div class="text-gray-600" style="color: red;">
@@ -632,8 +600,6 @@ AssertionError: Component x-ui::ui.button did not render
 1. Component view not registered in test environment
 2. Factory or seeder incomplete
 3. Test service provider config missing
-
-**Soluzione**:
 
 ```php
 // ✅ CORRETTO: Feature test with component
@@ -678,8 +644,6 @@ AssertionError: Validation passed but should fail
 1. Validation rules not defined in test context
 2. Request factory incomplete
 3. Authorization bypass
-
-**Soluzione**:
 
 ```php
 // ✅ CORRETTO: Complete form validation test
@@ -740,19 +704,8 @@ Se il troubleshooting non risolve:
    ```
 
 5. **Consulta documentation**:
-<<<<<<< .merge_file_2XtPmU
-<<<<<<< .merge_file_Bwbf8r
    - [INDEX](./INDEX.md) — Complete file listing
-=======
    - [INDEX](./index.md) — Complete file listing
->>>>>>> .merge_file_tITdtU
-=======
-<<<<<<< .merge_file_toT2MJ
-   - [INDEX](./INDEX.md) — Complete file listing
-=======
-   - [INDEX](./index.md) — Complete file listing
->>>>>>> .merge_file_rVY4ox
->>>>>>> .merge_file_qSAWxW
    - [PATTERNS](patterns.md) — Architectural decisions
    - [architecture/component-registration](./architecture/component-registration.md) — Component setup
 
@@ -762,17 +715,6 @@ Se il troubleshooting non risolve:
 
 - [README](./README.md) — Overview modulo
 - [PATTERNS](patterns.md) — Decisioni architetturali
-<<<<<<< .merge_file_2XtPmU
-<<<<<<< .merge_file_Bwbf8r
 - [INDEX](./INDEX.md) — Indice documentazione completo
-=======
 - [INDEX](./index.md) — Indice documentazione completo
->>>>>>> .merge_file_tITdtU
-=======
-<<<<<<< .merge_file_toT2MJ
-- [INDEX](./INDEX.md) — Indice documentazione completo
-=======
-- [INDEX](./index.md) — Indice documentazione completo
->>>>>>> .merge_file_rVY4ox
->>>>>>> .merge_file_qSAWxW
 - [standards/ui-standards](./standards/ui-standards.md) — Component standards

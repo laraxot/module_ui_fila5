@@ -37,14 +37,10 @@ use Modules\UI\Filament\Actions\Table\TableLayoutTrait;
 
 ### 2. Correzione Classe Base
 
-**Prima**:
-
 ```php
 use Filament\Actions\Action;
 class TableLayoutToggleTableAction extends Action implements HasTableLayout
 ```
-
-**Dopo**:
 
 ```php
 use Filament\Tables\Actions\Action;
@@ -147,34 +143,21 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
-<<<<<<< .merge_file_80MjoA
 curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
-=======
-<<<<<<< .merge_file_lEpK9R
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
-=======
 curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
->>>>>>> .merge_file_jDoiyt
->>>>>>> .merge_file_ufTyPM
 ```
 
 ### Risultati Test
 
-<<<<<<< .merge_file_80MjoA
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
-=======
-<<<<<<< .merge_file_lEpK9R
 ✅ **Sintassi PHP**: Nessun errore di sintassi  
 ✅ **Istanziazione**: Classe istanziabile correttamente  
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
-=======
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
->>>>>>> .merge_file_jDoiyt
->>>>>>> .merge_file_ufTyPM
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
 ## Impatto
@@ -200,21 +183,12 @@ curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
 
 ---
 
-<<<<<<< .merge_file_80MjoA
-=======
-<<<<<<< .merge_file_lEpK9R
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
-=======
->>>>>>> .merge_file_ufTyPM
 **Data**: 27 Gennaio 2025
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
-<<<<<<< .merge_file_80MjoA
-=======
->>>>>>> .merge_file_jDoiyt
->>>>>>> .merge_file_ufTyPM
 **Stato**: ✅ Risolto

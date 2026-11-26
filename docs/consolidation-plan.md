@@ -78,11 +78,8 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 - ❌ `phpstan_corrections_summary.md` → Eliminare (duplicato)
 - ❌ `phpstan_radio_badge_fix.md` → Eliminare (duplicato)
 - ✅ `phpstan-compliance.md` → Mantenere (documento principale)
-<<<<<<< .merge_file_vD0DA1
 - ✅ `phpstan-fixes-2025.md` → Mantenere (se contiene info aggiuntive)
-=======
 - ✅ `phpstan-fixes-.md` → Mantenere (se contiene info aggiuntive)
->>>>>>> .merge_file_4YKMjt
 - ✅ `phpstan-corrections-summary.md` → Mantenere
 - ✅ `phpstan-corrections.md` → Mantenere
 - ✅ `phpstan-fixes.md` → Mantenere
@@ -137,19 +134,8 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 
 ## File con Maiuscole (da Rinominare)
 
-<<<<<<< .merge_file_rseASw
-<<<<<<< .merge_file_mq2DjM
 1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
-=======
 1. `metodi_duplicati_analisi.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
->>>>>>> .merge_file_fOvGQw
-=======
-<<<<<<< .merge_file_vD0DA1
-1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
-=======
-1. `metodi_duplicati_analisi.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
->>>>>>> .merge_file_4YKMjt
->>>>>>> .merge_file_y8eQ9T
 
 ## Processo di Consolidamento
 

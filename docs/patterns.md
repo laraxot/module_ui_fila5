@@ -8,19 +8,7 @@ tags: [architecture, patterns, decisions, anti-patterns, blade, filament, compon
 updated: "2026-07-28"
 related:
   - ./README.md
-<<<<<<< .merge_file_23Ak8o
-<<<<<<< .merge_file_nxL5hj
   - ./INDEX.md
-=======
-  - ./index.md
->>>>>>> .merge_file_dvPpQY
-=======
-<<<<<<< .merge_file_gjlCBf
-  - ./INDEX.md
-=======
-  - ./index.md
->>>>>>> .merge_file_w5O1zC
->>>>>>> .merge_file_RnPzm0
   - ./TROUBLESHOOTING.md
 ---
 
@@ -67,8 +55,6 @@ related:
 - Centralizza labels (single source of truth)
 - Facilita refactoring globale
 
-**Implementazione**:
-
 ```php
 // ✅ CORRETTO: Labels da translation
 namespace Modules\UI\Filament\Widgets;
@@ -98,8 +84,6 @@ class StatsOverviewWidget extends Widget {
 - Type safety a compile-time
 - Autocomplete IDE
 - Evita typo-related bugs
-
-**Implementazione**:
 
 ```php
 // ✅ CORRETTO: Enum type-safe
@@ -135,8 +119,6 @@ public function execute(string $layout): void {
 - Consistency across UI
 - Separazione concerns (style vs markup)
 
-**Implementazione**:
-
 ```blade
 <!-- ✅ CORRETTO: Tailwind utilities -->
 <div class="bg-blue-600 p-4 rounded-lg shadow-md text-white">
@@ -162,8 +144,6 @@ public function execute(string $layout): void {
 - Reusability across Filament resources
 - Coesistenza con native Filament fields
 - Lazy loading via module service provider
-
-**Implementazione**:
 
 ```php
 // ✅ CORRETTO: Estensione Filament field
@@ -369,19 +349,8 @@ Quando aggiungi feature nuova a UI:
 ## 📖 Riferimenti Correlati
 
 - [README](./README.md) — Overview modulo
-<<<<<<< .merge_file_23Ak8o
-<<<<<<< .merge_file_nxL5hj
 - [INDEX](./INDEX.md) — Documentazione index completo
-=======
 - [INDEX](./index.md) — Documentazione index completo
->>>>>>> .merge_file_dvPpQY
-=======
-<<<<<<< .merge_file_gjlCBf
-- [INDEX](./INDEX.md) — Documentazione index completo
-=======
-- [INDEX](./index.md) — Documentazione index completo
->>>>>>> .merge_file_w5O1zC
->>>>>>> .merge_file_RnPzm0
 
 - [INDEX](./index.md) — Documentazione index completo
 

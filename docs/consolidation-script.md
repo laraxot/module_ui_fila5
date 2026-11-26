@@ -100,11 +100,6 @@ mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev
 ## File con Maiuscole da Rinominare
 
 ```bash
-<<<<<<< .merge_file_94RnfB
-<<<<<<< .merge_file_pEuLUi
-=======
-<<<<<<< .merge_file_wuY46J
->>>>>>> .merge_file_3HxggV
 # Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
 if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
@@ -113,7 +108,6 @@ if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
     else
         # Se diversi, rinominare quello con maiuscole
         mv METODI_DUPLICATI_ANALISI.md metodi-duplicati-analisi-uppercase.md
-=======
 # Verificare se metodi_duplicati_analisi.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
 if [ -f "metodi_duplicati_analisi.md" ]; then
@@ -122,11 +116,6 @@ if [ -f "metodi_duplicati_analisi.md" ]; then
     else
         # Se diversi, rinominare quello con maiuscole
         mv metodi_duplicati_analisi.md metodi-duplicati-analisi-uppercase.md
-<<<<<<< .merge_file_94RnfB
->>>>>>> .merge_file_OekIFQ
-=======
->>>>>>> .merge_file_nThP0q
->>>>>>> .merge_file_3HxggV
     fi
 fi
 ```

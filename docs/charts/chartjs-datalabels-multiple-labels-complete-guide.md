@@ -556,8 +556,6 @@ protected function getOptions(): array
 
 **Sintomi:** Labels hanno colori che non si integrano con il tema UI.
 
-**Soluzioni:**
-
 1. **Usa colori del design system:**
    ```php
    // ✅ CORRETTO: Colori UI standard
@@ -581,19 +579,8 @@ protected function getOptions(): array
 ### Documentazione Modulo UI
 
 - [Filament Chart.js Guide](./filament-chart-js-guide.md)
-<<<<<<< .merge_file_ZyUsQY
-<<<<<<< .merge_file_NKU6ka
 - [UI Components Documentation](../components/readme.md)
-=======
 - [UI Components Documentation](../components/README.md)
->>>>>>> .merge_file_Sh6PW8
-=======
-<<<<<<< .merge_file_cZcfoZ
-- [UI Components Documentation](../components/readme.md)
-=======
-- [UI Components Documentation](../components/README.md)
->>>>>>> .merge_file_oHQb8J
->>>>>>> .merge_file_6fiYpv
 
 ### Documentazione Generale
 

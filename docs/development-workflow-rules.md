@@ -155,21 +155,10 @@ tags: [documentation]
 
 - [Xot Philosophy](../xot/docs/philosophy-complete.md)
 - [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
-<<<<<<< .merge_file_TnR4Ky
-<<<<<<< .merge_file_5lcYDl
-=======
-<<<<<<< .merge_file_EGCCnQ
->>>>>>> .merge_file_cqL12U
 - [Development Guidelines](../../../../docs/development/readme.md)
 - [Git Workflow](../../../../docs/git-conflict-resolution/readme.md)
-=======
 - [Development Guidelines](../../../../docs/development/README.md)
 - [Git Workflow](../../../../docs/git-conflict-resolution/README.md)
-<<<<<<< .merge_file_TnR4Ky
->>>>>>> .merge_file_Vi0jLU
-=======
->>>>>>> .merge_file_ZdzW0Q
->>>>>>> .merge_file_cqL12U
 
 ## ⚠️ Consequences of Skipping Steps
 

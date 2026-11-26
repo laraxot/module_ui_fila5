@@ -9,19 +9,7 @@ qmd: "ui module wiki index filament second brain"
 issues:
 discussions:
 related:
-<<<<<<< .merge_file_nTEZ9N
-<<<<<<< .merge_file_ruEbpd
   - "./agents.md"
-=======
-  - "./AGENTS.md"
->>>>>>> .merge_file_WIA5OP
-=======
-<<<<<<< .merge_file_IdRHS8
-  - "./agents.md"
-=======
-  - "./AGENTS.md"
->>>>>>> .merge_file_jOdeUl
->>>>>>> .merge_file_K0Z9EY
   - "./bmad-method.md"
   - "./context-compression.md"
   - "./log.md"
@@ -33,15 +21,12 @@ related:
 ## AI / second brain
 
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
-- [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
-- [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
 - [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
-
 
 ## Karpathy LLM Wiki Standard
 
