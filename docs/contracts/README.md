@@ -19,4 +19,4 @@ Se in futuro un'Action UI inizierà a scrivere dati o a decidere accessi, va agg
 ## File presenti
 
 - [index.md](index.md): registro operativo e backlog
-- [_template](template.md): template
+- [Template](../../../Xot/docs/contracts/behavioral-contract-template.md): template condiviso
