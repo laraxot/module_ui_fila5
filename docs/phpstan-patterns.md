@@ -1,3 +1,10 @@
+---
+title: "PHPStan Level 10 - Pattern Riutilizzabili"
+qmd: "ui phpstan patterns md"
+type: note
+tags: [documentation]
+---
+
 # PHPStan Level 10 - Pattern Riutilizzabili
 
 > **Modulo**: UI

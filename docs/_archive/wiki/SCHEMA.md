@@ -1,4 +1,5 @@
 ---
+qmd: "ui archive wiki schema md"
 title: "Rimando a schema.md"
 description: "Documento unificato: il contenuto canonico vive in schema.md."
 status: merged

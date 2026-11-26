@@ -1,4 +1,5 @@
 ---
+qmd: "ui archive qmd setup md"
 title: "QMD Setup — Module UI"
 type: documentation
 created: 2026-05-11

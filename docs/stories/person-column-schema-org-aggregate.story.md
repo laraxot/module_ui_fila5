@@ -9,7 +9,7 @@ tags: [documentation]
 
 ## Contesto (BMAD: dev)
 
-Durante il fix di `Modules/Quaeris/app/Filament/Resources/ContactResource/Tables/ContactsTable.php`
+Durante il fix di `Modules/<nome progetto>/app/Filament/Resources/ContactResource/Tables/ContactsTable.php`
 (colonne del model `Contact` recuperate via git archaeology dal commit `ee9731ee1`,
 vedi [[xotbaseresourcetable-orphaned-columns-git-archaeology]]), l'utente ha chiesto
 di non limitarsi a elencare `first_name`, `last_name`, `mobile_phone`, `email`,

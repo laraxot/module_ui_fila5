@@ -1,4 +1,5 @@
 ---
+qmd: "ui wiki concepts phpstan compliance md"
 title: "UI Module - PHPStan Type Compliance"
 type: concept
 tags: [ui, phpstan, types, compliance, quality, static-analysis]

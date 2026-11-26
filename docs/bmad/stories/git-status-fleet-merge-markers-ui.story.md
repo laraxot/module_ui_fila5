@@ -169,7 +169,7 @@ concatenate o interleaved** (2-9 copie dello stesso doc): in quei casi tenuta un
 | docs/blade-data-handling-1.md | risolto in place | blocco blank-vs-whitespace |
 | docs/file-naming-rules.md | risolto (ours) | `CHANGELOG.md` coerente con la regola del doc stesso |
 | docs/filosofia-modulo-ui.md | risolto (ours ×2) | `modulo operativo` generico vs `TechPlanner` stale |
-| docs/testing.md | risolto (union) | `<nome progetto>_data_test`: entrambi i lati stale (`quaeris`/`modulo questionari` rotto) |
+| docs/testing.md | risolto (union) | `<nome progetto>_data_test`: entrambi i lati stale (`<nome progetto>`/`modulo questionari` rotto) |
 | docs/wiki/context-compression.md | risolto (union) | `<nome progetto>-docs` + `project-docs`; droppato `fixcity` |
 | docs/wiki/schema.md | risolto | solo `schema.md` nel tree (il doc stesso dichiara SCHEMA.md duplicato) |
 | docs/SVG_ICONS_AUTOMATIC_REGISTRATION.md | eliminato | dup UPPERCASE del file kebab (contenuto identico) |
@@ -199,7 +199,7 @@ Tutti verificati come sottoinsiemi/duplicati del canonico kebab (0 righe uniche 
 righe stale `saluteora`/`fixcity`/`project_docs`). Refs rotte verso i file eliminati corrette
 in `architecture-patterns.md`, `svg-icons-automatic-registration.md`,
 `_archive/svg-icons-automatic-registration.md`, `filament-components-usage.md`,
-`legacy/filament-components-usage.md`, `roadmap/2025-q4-roadmap.md`, `conflitti_merge_risolti.md`,
+`legacy/filament-components-usage.md`, `roadmap/roadmap.md`, `conflitti_merge_risolti.md`,
 
 `legacy/filament-components-usage.md`, `roadmap/roadmap.md`, `conflitti_merge_risolti.md`,
 =======

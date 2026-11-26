@@ -1,3 +1,10 @@
+---
+title: "Correzioni PHPStan Completate - Gennaio 2025"
+qmd: "ui phpstan corrections final md"
+type: note
+tags: [documentation]
+---
+
 # Correzioni PHPStan Completate - Gennaio 2025
 
 ## Riepilogo Finale

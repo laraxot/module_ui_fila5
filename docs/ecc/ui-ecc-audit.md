@@ -4,23 +4,34 @@ type: ecc-audit
 status: review
 updated: 2026-11-16
 module: UI
+<<<<<<< .merge_file_egFVdT
 <<<<<<< .merge_file_iH4SFO
 qmd: "ECC audit UI verification security testing laravel"
 =======
 qmd: "ECC audit UI security-review clean-code laravel-verification verification-loop tdd-workflow"
 >>>>>>> .merge_file_RZq0PR
+=======
+qmd: "ECC audit UI verification security testing laravel security-review clean-code laravel-verification verification-loop tdd-workflow"
+>>>>>>> .merge_file_wQMJYa
 ---
 
 # ECC audit operativo — UI
 
 ## Contratto PTVX
 
+<<<<<<< .merge_file_egFVdT
 <<<<<<< .merge_file_iH4SFO
 ECC non sostituisce AGENTS.md/BMAD. Ogni finding: story BMAD, lock, fix causa,
 PHPStan + Pest, aggiornamento docs/QMD.
+=======
+ECC non sostituisce `AGENTS.md`/BMAD: ogni finding diventa story in [epics.md](../bmad/epics.md), con lock,
+fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono scelte on-demand
+(`ecc-ptvx-workflow`); qui è registrato **l'esito**, non la checklist vuota.
+>>>>>>> .merge_file_wQMJYa
 
-## Checklist
+## Esito per skill (2026-11-16)
 
+<<<<<<< .merge_file_egFVdT
 - [ ] `clean-code`: DRY/KISS, Actions su Services, niente wrapper inutili
 - [ ] `security-review`: policy, mass assignment, export, log, privacy, tenant
 - [ ] `laravel-verification`: route, config, migration additive, container
@@ -35,6 +46,8 @@ fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono sce
 
 ## Esito per skill (2026-11-16)
 
+=======
+>>>>>>> .merge_file_wQMJYa
 | Skill ECC | Stato | Evidenza |
 |---|---|---|
 | `clean-code` (DRY/KISS, Actions-over-Services) | parziale | `ComponentService` vuoto, `PersonForm` senza consumatori, 3 file `.disabled/.fila3` |
@@ -44,12 +57,16 @@ fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono sce
 | `tdd-workflow` (regressione sui P0) | aperto | regressione da scrivere su `UiBasePolicy::before` (utente estraneo → null) |
 | `documentation-sync` | fatto | pack aggiornato: [audit](../bmad/audits/ui-audit.md), [epics](../bmad/epics.md), [decision-log](../bmad/decision-log.md) |
 | `context-engineering` | fatto | source-first; il perché in [purpose](../bmad/purpose.md) |
+<<<<<<< .merge_file_egFVdT
 >>>>>>> .merge_file_RZq0PR
+=======
+>>>>>>> .merge_file_wQMJYa
 
 ## Input misurato (2026-11-16)
 
 | Voce | N |
 |---|---:|
+<<<<<<< .merge_file_egFVdT
 <<<<<<< .merge_file_iH4SFO
 | app PHP | 133 |
 | test | 87 |
@@ -57,22 +74,39 @@ fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono sce
 | actions | 6 |
 | services | 5 |
 | policies (files approx) | 2 |
+=======
+| PHP `app/` | 133 |
+| Test PHP | 87 |
+| Models | 4 |
+| Policy | 1 |
+| Resource | 0 |
+| Widget | 12 |
+| Actions | 6 in `app/Actions/*.php` (11 file PHP con `Action` nel percorso) |
+| Services | 5 |
+| Migration | 3 |
+| Lang IT | 123 |
+| `->label('..')` letterali | 9 |
+| `@phpstan-ignore` | 48 |
+>>>>>>> .merge_file_wQMJYa
 
-## Gate osservati
+## Finding da trasformare in story
 
-- PHPStan `Modules` (2026-11-16): 0 errori
-- Pest: pending (ambiente testing)
+- **P1-UI1** Dashboard `ui::admin` con dati inventati ("Unique views 192.1k", `TestWidget` ×4, `qid` 5/7/9) — `app/Filament/Pages/Dashboard.php:28-45`
+- **P1-UI2** 3 test su modelli assenti (Asset/Component/Theme) con 48 `@phpstan-ignore`: copertura fantasma — `tests/Unit/Models/AssetModelTest.php:6-30`
+- **P2-UI3** `PersonForm` con label inglesi letterali e nessun consumatore — `app/Filament/Components/Schema/PersonForm.php:36-76`
+- **P2-UI4** `UiBasePolicy` non estende `XotBasePolicy` e non dichiara abilità: prima Resource = aperta — `app/Models/Policies/UiBasePolicy.php`
 
 ## Anti-pattern vietati
 
-- baseline/`@phpstan-ignore` senza motivazione
-- test svuotati per silenziare errori
-- migrate:fresh / RefreshDatabase / --force
-- docs con date nel nome file
-- comportamento o screenshot inventati
+- baseline o `@phpstan-ignore` senza motivazione; test svuotati per silenziare errori;
+- `migrate:fresh`, `RefreshDatabase`, `--force` su migrate; `laravel/public` al posto di `public_html`;
+- nascondere la navigazione al posto di un controllo di accesso (`canAccess`/policy);
+- docs con date nel nome file;
+- comportamento, schermate o numeri inventati.
 
 ## Riferimenti
 
+<<<<<<< .merge_file_egFVdT
 - [00-index](./00-index.md)
 - [BMAD audit](../bmad/audit.md)
 =======
@@ -105,6 +139,8 @@ fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono sce
 
 ## Riferimenti
 
+=======
+>>>>>>> .merge_file_wQMJYa
 - [00-index](./00-index.md) · [BMAD audit](../bmad/audit.md) · [audit dettagliato](../bmad/audits/ui-audit.md)
 
 ## Layout Filament 5 (ECC)
@@ -112,4 +148,7 @@ fix alla causa, PHPStan + Pest, aggiornamento docs/QMD. Le abilità ECC sono sce
 Contratto document-shell: `@filamentStyles` + `@filamentScripts` + notifications
 nudi nei layout UI (SSoT PTVX). Cms head/foot non applicabile qui.
 Vedi [filament-layout-directives.story.md](../bmad/stories/filament-layout-directives.story.md).
+<<<<<<< .merge_file_egFVdT
 >>>>>>> .merge_file_RZq0PR
+=======
+>>>>>>> .merge_file_wQMJYa

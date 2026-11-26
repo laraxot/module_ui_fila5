@@ -1,3 +1,10 @@
+---
+title: "🎨 Design Comuni Implementation Guide"
+qmd: "ui archive design comuni implementation md"
+type: note
+tags: [documentation]
+---
+
 # 🎨 Design Comuni Implementation Guide
 
 **Module**: UI (User Interface)  

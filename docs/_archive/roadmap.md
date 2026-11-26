@@ -1,3 +1,10 @@
+---
+title: "UI Module Roadmap"
+qmd: "ui archive roadmap md"
+type: note
+tags: [documentation]
+---
+
 # UI Module Roadmap
 
 "L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."

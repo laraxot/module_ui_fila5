@@ -60,7 +60,7 @@ Test: `tests/Feature/AddressColumnTest.php`, `tests/Feature/OpeningHoursColumnTe
   (`sortable()->copyable()->toggleable(...)` per `id`;
   `dateTime()->sortable()->placeholder('—')` per `created_at`/`updated_at`)
   in 30+ classi `Tables/*.php` (soprattutto `Modules/User`), durante il
-  lavoro su `Modules/Quaeris/ContactResource/Tables/ContactsTable.php`.
+  lavoro su `Modules/<nome progetto>/ContactResource/Tables/ContactsTable.php`.
   `toggleable()` resta componibile dal chiamante (non fissato dentro
   `TimestampColumn`: `created_at`/`updated_at` differiscono su questo punto
   nel codice esistente). Migrazione dei 30+ consumer non ancora fatta, solo

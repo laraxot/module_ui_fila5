@@ -1,4 +1,5 @@
 ---
+qmd: "ui archive performance optimization md"
 title: "Performance Optimization — Module UI"
 type: documentation
 created: 2026-05-11

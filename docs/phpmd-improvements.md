@@ -1,3 +1,10 @@
+---
+title: "Miglioramenti PHPMD e PHP Insights - Modulo UI - Aggiornamento Finale"
+qmd: "ui phpmd improvements md"
+type: note
+tags: [documentation]
+---
+
 # Miglioramenti PHPMD e PHP Insights - Modulo UI - Aggiornamento Finale
 
 ## Riepilogo Correzioni Completate
