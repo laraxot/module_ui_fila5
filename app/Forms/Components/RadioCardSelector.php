@@ -11,6 +11,13 @@ use Modules\Xot\Filament\Forms\Components\XotBaseField;
  *
  * Componente riutilizzabile per selezione tramite card radio.
  * Popola automaticamente un TextInput con il nome dell'elemento selezionato.
+ *
+ * SUPERSEDED — duplicato di {@see \Modules\UI\Filament\Forms\Components\RadioCardSelector}, l'unico usato dai
+ * test e dai form: la cartella `app/Forms` non ha altro motivo di esistere. Rientrato dal merge di `laraxot/dev`
+ * dopo la rimozione fatta da una story di audit; resta on-disk finche' non si autorizza la cancellazione.
+ *
+ * @deprecated Use Modules\UI\Filament\Forms\Components\RadioCardSelector instead.
+ * @see Modules/UI/docs/merge-conflict-markers-committed.md
  */
 class RadioCardSelector extends XotBaseField
 {
@@ -34,7 +41,7 @@ class RadioCardSelector extends XotBaseField
     /**
      * Imposta le card disponibili per la selezione.
      *
-     * @param array<int, array<string, mixed>>|\Closure $cards
+     * @param  array<int, array<string, mixed>>|\Closure  $cards
      */
     public function cards(array|\Closure $cards): static
     {
@@ -118,8 +125,7 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
-     * @param array<mixed, mixed> $item
-     *
+     * @param  array<mixed, mixed>  $item
      * @return array<string, mixed>
      */
     private static function normalizeCardRow(array $item): array
