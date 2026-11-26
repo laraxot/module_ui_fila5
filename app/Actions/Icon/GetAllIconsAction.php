@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\File;
 use ReflectionClass;
 use Spatie\QueueableAction\QueueableAction;
 
+/**
+ * @see docs/contracts/get-all-icons-action.md
+ *
+ * @contract docs/contracts/get-all-icons-action.md
+ */
 class GetAllIconsAction
 {
     use QueueableAction;

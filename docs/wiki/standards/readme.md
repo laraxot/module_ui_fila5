@@ -175,6 +175,7 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../dental/docs/readme.md)
 * [README.md](../../../user/docs/phpstan/readme.md)
 * [README.md](../../../user/docs/readme.md)
+* [README.md](../../../user/docs/readme.md)
 * [README.md](../../../ui/docs/phpstan/readme.md)
 * [README.md](../../../ui/docs/readme.md)
 * [README.md](../../../ui/docs/standards/readme.md)
@@ -201,6 +202,7 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../cms/docs/components/readme.md)
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
+
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 * [README.md](docs/laravel-app/phpstan/README.md)
@@ -249,6 +251,7 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../xot/docs/development/README.md)
 * [README.md](../../../dental/docs/README.md)
 * [README.md](../../../user/docs/phpstan/README.md)
+* [README.md](../../../user/docs/README.md)
 * [README.md](../../../user/docs/README.md)
 * [README.md](../../../ui/docs/phpstan/README.md)
 * [README.md](../../../ui/docs/README.md)
