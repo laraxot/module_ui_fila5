@@ -9,7 +9,11 @@ use Modules\UI\View\Components\Render\Block;
 uses(TestCase::class);
 
 /*
+<<<<<<< .merge_file_xGNsCD
  * ADR docs/adr/missing-block-view-shows-type-not-content.md: un blocco con vista mancante mostra un avviso con
+=======
+ * ADR docs/adr/0003-missing-block-view-shows-type-not-content.md: un blocco con vista mancante mostra un avviso con
+>>>>>>> .merge_file_DMnyAL
  * vista e tipo, mai i dati del blocco (possono essere bozze o dati personali).
  */
 it('renders the alert with view and type only when the block view does not exist', function (): void {

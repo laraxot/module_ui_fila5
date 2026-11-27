@@ -16,6 +16,11 @@ use Spatie\QueueableAction\QueueableAction;
 /**
  * Dati dell'utente autenticato (identità, ruolo, permessi, impostazioni del profilo).
  *
+<<<<<<< .merge_file_wwfOwO
+=======
+ * @see docs/contracts/get-user-data-action.md
+ *
+>>>>>>> .merge_file_3wYFHP
  * @contract docs/contracts/get-user-data-action.md
  */
 class GetUserDataAction
