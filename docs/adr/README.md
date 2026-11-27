@@ -1,29 +1,6 @@
 ---
 title: "ADR — UI"
 type: index
-<<<<<<< .merge_file_aCRe61
-tags: [adr, decisioni, ui]
-created: 2026-11-18
-updated: 2026-11-24
----
-
-# ADR — UI
-
-UI è un modulo di base usato da Cms, dai temi e dai pannelli: le sue decisioni riguardano soprattutto **i confini**
-(cosa UI può sapere degli altri moduli) e **i blocchi di contenuto** (come si trovano, come si disegnano quando sono rotti).
-
-**Quando leggerli**: prima di importare una classe di un altro modulo in UI, di aggiungere o rinominare un blocco
-del page builder, o di cambiare cosa mostra `x-ui::render.block`.
-
-Formato e regole: [action-behavioral-contract](../../../Xot/docs/rules/action-behavioral-contract.md) (5 sezioni,
-`## Verifica` obbligatoria, nome = argomento senza date).
-
-## Decisioni
-
-- [Delega opzionale a Cms per i dati dei blocchi](optional-cms-delegation-for-block-data.md) — UI chiama il resolver di Cms per nome stringa, mai con `use`, e funziona senza Cms.
-- [Scoperta dei blocchi per cartella](block-discovery-by-filament-blocks-folder.md) — i blocchi sono le classi in `app/Filament/Blocks` di ogni modulo; il nome deriva dalla classe.
-- [Vista mancante: tipo sì, contenuto no](missing-block-view-shows-type-not-content.md) — un blocco rotto mostra un avviso con vista e tipo, mai i suoi dati.
-=======
 module: UI
 tags: [adr, decisioni, ui, blocchi, filament]
 created: 2026-11-23
@@ -90,4 +67,19 @@ Puntatori (`superseded`, senza numero): [id-column-mandatory-on-tables](id-colum
 
 - Policy trasversale su dati sacri e test isolati: [0013-dati-sacri-migrazioni-e-test](../../../Xot/docs/adr/0013-dati-sacri-migrazioni-e-test.md).
 - Stato di ciascun ADR: [index.md](index.md).
->>>>>>> .merge_file_5SAb0b
+
+## Harness minimo: ownership, evidenza e recupero (2026-11-27)
+
+Questo indice appartiene a **module_ui_fila5**: ogni decisione su codice, dominio o tema va nell'ADR del package owner; il root registra soltanto i vincoli di composizione. Un ADR richiede una scelta reale con alternative e conseguenze, più una **Conferma** ripetibile (oppure la dichiarazione esplicita che manca). Non creare ADR fittizi per riempire un indice.
+
+- [Confine LaravelDay/harness Xot](https://github.com/laraxot/module_xot_fila5/blob/dev/docs/adr/0042-laravel-day-harness-adoption-boundary.md); [ownership root](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/adr/0001-harness-minimo-e-ownership.md).
+- **BMAD**: la story owner-local conserva `scope`, `must_not_change`, `evidence`, `approval_required` nei cambi rischiosi.
+- **ECC**: nessun marker di merge; distinguere la prova eseguita dal semplice riferimento a un test; se la conferma non è disponibile segnare `non eseguita`.
+- **Second Brain**: QMD/Graphify e `.harness/memory/{facts,lessons}.md` sono puntatori a evidenza datata, non copie degli ADR. [Runbook](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/harness/README.md) · [Rollout #15](https://github.com/laraxot/base_ptvx_fila5/issues/15).
+
+## Documenti del package da riconciliare nell'indice
+
+I seguenti file **esistono nel repository su `dev`** e non erano tutti collegati nel ramo d'indice più recente. Sono preservati come puntatori documentali; il loro stato di approvazione, la copertura e l'eventuale sostituzione con ADR numerati devono essere verificati nell'owner. Nessuna prova di esecuzione è implicita.
+
+- [Scoperta dei blocchi per cartella](./block-discovery-by-filament-blocks-folder.md)
+- [Vista mancante: tipo sì, contenuto no](./missing-block-view-shows-type-not-content.md)
