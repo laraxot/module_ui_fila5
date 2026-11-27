@@ -40,11 +40,6 @@ test('ui layouts do not depend on the cms module', function (): void {
     expect($layouts)->not->toBeEmpty();
 
     foreach ($layouts as $layout) {
-        expect($layout)->toBeString();
-        if (! is_string($layout)) {
-            continue;
-        }
-
         // I commenti Blade possono nominare cms::* per spiegare perche' non lo usano: contano solo i riferimenti reali.
         $code = (string) preg_replace('/\{\{--.*?--\}\}/s', '', (string) file_get_contents($layout));
 
