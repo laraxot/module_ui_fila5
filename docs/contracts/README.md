@@ -1,30 +1,6 @@
 ---
 title: "Contratti — UI"
 type: index
-<<<<<<< .merge_file_VqGwKa
-tags: [contracts, actions, ui]
-created: 2026-11-18
-updated: 2026-11-24
----
-
-# Contratti — UI
-
-Cosa promettono le Action di UI che altri moduli usano o che toccano dati personali: scoperta dei blocchi (usata da
-Cms), localizzazione dei dati dei blocchi (delegata a Cms se presente), dati dell'utente autenticato. Le altre Action
-di UI sono pure (icone, giorni della settimana) o disattivate (`ApplyCalendarToPanelAction`, no-op con log).
-
-**Quando leggerli**: prima di chiamare, modificare o imitare una di queste Action.
-
-Formato (6 sezioni, tabella invarianti con ID e group Pest, `@contract` nel docblock):
-[action-behavioral-contract](../../../Xot/docs/rules/action-behavioral-contract.md). Un'invariante con group si
-verifica con `vendor/bin/pest Modules/UI/tests --group=<ID>`; `—` è debito dichiarato.
-
-## Contratti
-
-- [ResolveLocalizedBlockDataAction](resolve-localized-block-data-action.md) — passa i dati del blocco al resolver di Cms se esiste, altrimenti li ritorna invariati.
-- [GetAllBlocksAction](get-all-blocks-action.md) — elenca i blocchi del page builder di tutti i moduli installati.
-- [GetUserDataAction](get-user-data-action.md) — identità, ruolo, permessi e impostazioni dell'utente autenticato (dati personali).
-=======
 module: UI
 tags: [contracts, actions, ui, blocchi, icone]
 created: 2026-11-24
@@ -105,4 +81,11 @@ Casi particolari tra le invarianti con group:
 
 - [INDEX](INDEX.md): elenco dei file di contratto. [index](index.md): registro con i comandi per i group.
 - [_template](_template.md): scheletro di un nuovo contratto.
->>>>>>> .merge_file_EsrlVx
+
+## Harness minimo: ownership, evidenza e recupero (2026-11-27)
+
+I contratti di **module_ui_fila5** restano accanto alle Action, interfacce o superfici di questo package; root e Xot definiscono lo standard, non copiano le promesse. Un contratto comportamentale esplicita **Input, Output, Invarianti, Effetti collaterali, Errori, Non fa**; ogni ID di invariante punta a un group Pest effettivo oppure segnala `non dimostrata`. Se esiste la classe, il docblock deve rimandare al file con `@contract` e `@see`; per temi senza classi PHP non inventare Action/contratti.
+
+- [Standard Xot](https://github.com/laraxot/module_xot_fila5/blob/dev/docs/contracts/contract-authoring-standard.md) · [ownership root](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/adr/0001-harness-minimo-e-ownership.md) · [runbook ECC/Second Brain](https://github.com/laraxot/base_ptvx_fila5/blob/dev/docs/harness/README.md).
+- **BMAD**: prima di cambiare una promessa, fissa nella story owner scope, esclusioni, evidenza e approvazioni richieste.
+- **ECC**: i marker di merge rendono invalido l'indice; citare una suite non significa averla eseguita. Distingui `pass`, `fail`, `non eseguito` e registra il debito in [rollout #15](https://github.com/laraxot/base_ptvx_fila5/issues/15).
