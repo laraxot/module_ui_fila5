@@ -1,12 +1,6 @@
 ---
 title: "Contratto — GetUserDataAction"
 type: contract
-<<<<<<< .merge_file_NfMv6U
-action: "Modules\UI\Actions\GetUserDataAction"
-tags: [contract, action, user, personal-data]
-created: 2026-11-24
-updated: 2026-11-24
-=======
 action: "Modules\\UI\\Actions\\GetUserDataAction"
 module: UI
 status: accepted
@@ -14,20 +8,13 @@ tags: [contract, action, user, personal-data]
 created: 2026-11-24
 updated: 2026-11-26
 qmd: "GetUserDataAction dati utente autenticato nome email avatar ruolo permessi profile extra UserData"
->>>>>>> .merge_file_bapGGy
 ---
 
 # GetUserDataAction
 
-<<<<<<< .merge_file_NfMv6U
-Sorgente: `app/Actions/GetUserDataAction.php`. Espone dati personali dell'utente autenticato (nome, email, avatar,
-ruolo, permessi, `profile.extra`) come `Modules\UI\Datas\UserData`. Nel checkout attuale non ha chiamanti in
-produzione, solo test: chi lo collega a una vista o a un'API legge prima «Non fa».
-=======
 Regola: `Modules/Xot/docs/rules/action-behavioral-contract.md`. Sorgente: `app/Actions/GetUserDataAction.php`. Espone dati personali dell'utente autenticato (nome, email, avatar,
 ruolo, permessi, `profile.extra`) come `Modules\UI\Datas\UserData`. Nel checkout attuale non ha chiamanti in
 produzione, solo test (`rg GetUserDataAction Modules --glob '*.php'` fuori da `UI/tests` trova solo un commento in `app/Data/UserData.php`): chi la collega a una vista o a un'API legge prima «Non fa».
->>>>>>> .merge_file_bapGGy
 
 ## Input
 
@@ -44,12 +31,6 @@ produzione, solo test (`rg GetUserDataAction Modules --glob '*.php'` fuori da `U
 
 | ID | Regola | Group Pest |
 |---|---|---|
-<<<<<<< .merge_file_NfMv6U
-| UI-USERDATA-INV-1 | Senza utente autenticato del dominio (`UserContract`) ritorna `null`, mai dati parziali. | `UI-USERDATA-INV-1` |
-| UI-USERDATA-INV-2 | Descrive solo l'utente autenticato: id, nome ed email sono i suoi attributi, non di altri. | `UI-USERDATA-INV-2` |
-| UI-USERDATA-INV-3 | Non carica relazioni: il profilo si usa solo se già caricato (`relationLoaded('profile')`), altrimenti `settings = []`. | `UI-USERDATA-INV-3` |
-| UI-USERDATA-INV-4 | `role` è il primo ruolo, `permissions` sono nomi (stringhe). | — |
-=======
 | UI-USERDATA-INV-1 | Senza utente autenticato del dominio (`UserContract`) ritorna `null`, mai dati parziali (righe 29-33). | `UI-USERDATA-INV-1` |
 | UI-USERDATA-INV-2 | Descrive solo l'utente autenticato: id, nome ed email sono i suoi attributi, non di altri (righe 72-78). | `UI-USERDATA-INV-2` |
 | UI-USERDATA-INV-3 | Non carica relazioni: il profilo si usa solo se già caricato (`relationLoaded('profile')`), altrimenti `settings = []` (righe 36, 56-63). | `UI-USERDATA-INV-3` |
@@ -59,7 +40,6 @@ produzione, solo test (`rg GetUserDataAction Modules --glob '*.php'` fuori da `U
 Test: `tests/Unit/GetUserDataActionTest.php`. L'utente è in memoria, con le relazioni `roles` e `permissions` impostate via `setRelation()`: si prova la logica dell'Action, non il database.
 Il contratto del 2026-11-24 dava rossi `prende il primo ruolo, non tutti` ed `elenca i permessi per nome` (ruolo `null`, permessi vuoti). Da allora il helper `uiAuthUser()` sovrascrive `relationLoaded()` proprio per quel caso
 (commento nel file); in questo passaggio i test non sono stati rieseguiti (Pest scrive sul database di sviluppo): `cd laravel && vendor/bin/pest Modules/UI/tests/Unit/GetUserDataActionTest.php --group=UI-USERDATA-INV-4` dice se il debito è chiuso.
->>>>>>> .merge_file_bapGGy
 
 ## Effetti collaterali
 
@@ -75,12 +55,6 @@ Il contratto del 2026-11-24 dava rossi `prende il primo ruolo, non tutti` ed `el
 - Non accetta un utente come parametro: non usarla per descrivere un utente diverso da quello autenticato.
 - Non filtra i dati per destinatario: il risultato contiene email, permessi e `profile.extra`; non va serializzato
   verso il browser o un'API pubblica senza scegliere i campi.
-<<<<<<< .merge_file_NfMv6U
-- Non mette in cache.
-- Debito: i test `prende il primo ruolo, non tutti` e `elenca i permessi per nome` di `tests/Unit/GetUserDataActionTest.php`
-  falliscono nel checkout attuale (ruolo `null`, permessi vuoti con relazioni impostate via `setRelation`): per questo
-  UI-USERDATA-INV-4 non ha group.
-=======
 - Non decide cosa l'utente può fare: elenca i permessi, l'autorizzazione resta delle policy del modulo owner (ADR [0006](../adr/0006-ui-does-not-authorize-domain-data.md)).
 - Non mette in cache.
 
@@ -88,4 +62,7 @@ Il contratto del 2026-11-24 dava rossi `prende il primo ruolo, non tutti` ed `el
 
 - Limite noto: nessun chiamante in produzione; se verrà collegata a un'API o a una vista condivisa, il contratto va rivisto sul punto «Non filtra i dati per destinatario».
 - `avatar` può essere un percorso relativo (`profile_photo_path`) e non un URL: dipende da come lo riempie il modello.
->>>>>>> .merge_file_bapGGy
+
+## Riconciliazione documentale (2026-11-27)
+
+Questo file aveva un conflitto Git irrisolto. La base è la variante più recente del contratto, con il riferimento a `app/Actions/GetUserDataAction.php` **esistente su `dev`**; la sua semantica, i group Pest citati e gli eventuali effetti non sono stati rieseguiti in questa sessione. Il confronto con il codice e i test resta il gate ECC della story owner. [Tracciamento root #15](https://github.com/laraxot/base_ptvx_fila5/issues/15).
