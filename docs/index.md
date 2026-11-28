@@ -29,15 +29,7 @@ canonico senza data via [docs-clean.md](../../../../bashscripts/docs/prompts/doc
 
 - `audits/quality-gates.md`
 - `bugfix-*-2025-01-27.md` (+ copie in `archive/`)
-<<<<<<< .merge_file_afsuzJ
-<<<<<<< .merge_file_Zt0T0k
-- `phpstan-fixes.md` / `phpstan-fixes.md` / `phpstan-fixes.md` (+ varianti)
-=======
-- `phpstan-fixes-january.md` / `phpstan-fixes-correzioni-gennaio.md` / `phpstan-fixes-november.md` (+ varianti)
->>>>>>> .merge_file_5sUf68
-=======
 - `phpstan-fixes.md` (canon; snapshot month → `*-historical.md` + stub)
->>>>>>> .merge_file_vyyoxs
 - `translations-update.md`
 - `wiki/troubleshooting/*-2026-*.md`
 - collisione case: `ARCHITECTURE_2025.md` / `architecture.md` / `architecture_2025.md`
@@ -77,8 +69,6 @@ Le cartelle di import grezzo (`raw/`, `root-*-files/`), immagini e log sono escl
 | [`tasks/`](tasks/) | 9 |
 | [`themes/`](themes/) | 2 |
 | [`wiki/`](wiki/index.md) | 119 |
-<<<<<<< .merge_file_afsuzJ
-=======
 
 ## Contenuto fuso (origine: INDEX)
 
@@ -87,4 +77,3 @@ Le cartelle di import grezzo (`raw/`, `root-*-files/`), immagini e log sono escl
 - [ECC](./ecc/00-index.md)
 - [Audit](./bmad/audit.md)
 - [Piano di miglioramento](./bmad/piano-miglioramento.md)
->>>>>>> .merge_file_vyyoxs

@@ -28,11 +28,7 @@ uses(TestCase::class);
  */
 $componentModel = /** @return class-string<BaseModel> */ static function (string $class = 'Modules\UI\Models\Component'): string {
     if (! is_a($class, BaseModel::class, true)) {
-<<<<<<< .merge_file_fvS7g7
-        Assert::fail('Component model must extend ' . BaseModel::class . '.');
-=======
         Assert::fail('Component model must extend '.BaseModel::class.'.');
->>>>>>> .merge_file_MAM3PU
     }
 
     return $class;
@@ -100,11 +96,7 @@ describe('Component Model', function () use ($componentModel): void {
     test('uses strict types', function () use ($componentModel): void {
         $reflection = new \ReflectionClass($componentModel());
         $fileName = $reflection->getFileName();
-<<<<<<< .merge_file_fvS7g7
-        if (false === $fileName) {
-=======
         if ($fileName === false) {
->>>>>>> .merge_file_MAM3PU
             Assert::fail('Component model has no source file.');
         }
         $content = file_get_contents($fileName);

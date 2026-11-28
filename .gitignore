@@ -203,17 +203,12 @@ audit-coverage/
 .qwen/
 .php-cs-fixer.php
 .php-cs-fixer.dist.php
-<<<<<<< .merge_file_2YCZUn
-<<<<<<< .merge_file_1e46eB
 
 # screenshot di comparazione visiva (artefatti locali)
 docs/project/visual-comparison/
 docs/visual-comparison/
-=======
 tests/coverage-*.*
 docs/screenshots/
->>>>>>> .merge_file_h3DCp2
-=======
 tests/coverage-*.*
 # screenshot di comparazione visiva (artefatti locali)
 docs/project/visual-comparison/
@@ -239,4 +234,3 @@ docs/**/backups/
 .docs-archive/
 # Indice vettoriale locale (non versionare)
 ruvector.db
->>>>>>> .merge_file_GH3e1g

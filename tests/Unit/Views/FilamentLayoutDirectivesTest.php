@@ -40,6 +40,10 @@ test('ui layouts do not depend on the cms module', function (): void {
     expect($layouts)->not->toBeEmpty();
 
     foreach ($layouts as $layout) {
+        if (! is_string($layout)) {
+            throw new \UnexpectedValueException('Layout glob returned a non-string path.');
+        }
+
         // I commenti Blade possono nominare cms::* per spiegare perche' non lo usano: contano solo i riferimenti reali.
         $code = (string) preg_replace('/\{\{--.*?--\}\}/s', '', (string) file_get_contents($layout));
 

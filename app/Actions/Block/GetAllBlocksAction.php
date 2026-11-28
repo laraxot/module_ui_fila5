@@ -18,11 +18,8 @@ use function Safe\realpath;
 /**
  * Blocchi del page builder trovati in app/Filament/Blocks di ogni modulo.
  *
-<<<<<<< .merge_file_76xWF8
-=======
  * @see docs/contracts/get-all-blocks-action.md
  *
->>>>>>> .merge_file_uiYUqX
  * @contract docs/contracts/get-all-blocks-action.md
  */
 final class GetAllBlocksAction

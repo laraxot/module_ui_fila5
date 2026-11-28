@@ -28,11 +28,7 @@ uses(TestCase::class);
  */
 $themeModel = /** @return class-string<BaseModel> */ static function (string $class = 'Modules\UI\Models\Theme'): string {
     if (! is_a($class, BaseModel::class, true)) {
-<<<<<<< .merge_file_51k8nf
-        Assert::fail('Theme model must extend ' . BaseModel::class . '.');
-=======
         Assert::fail('Theme model must extend '.BaseModel::class.'.');
->>>>>>> .merge_file_QTI0gv
     }
 
     return $class;
